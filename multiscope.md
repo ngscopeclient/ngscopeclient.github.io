@@ -1,6 +1,12 @@
+---
+layout: default
+---
+
 # Multi-scope support
 
 Ngscopeclient allows a single session to connect to arbitrarily many oscilloscopes simultaneously. These instruments can be fully independent of each other (triggering with no relationship to the others) or grouped into "trigger groups", via a cross-trigger sync cable, allowing several instruments to trigger in lock-step.
+
+![Example](images/multiscope1.png)
 
 Any number of oscilloscopes, of any supported make or model, may be combined in the same trigger group. Sample rates need not be the same, and the horizontal positions of each instrument within a group may be adjusted independently. This allows complex analytical setups for study of behavior across varying time scales:
 
