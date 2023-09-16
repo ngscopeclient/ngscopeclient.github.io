@@ -2,6 +2,7 @@
 layout: page
 title: Supported Hardware
 description: hardware here
+permalink: /hardware
 ---
 
 # Supported Hardware
