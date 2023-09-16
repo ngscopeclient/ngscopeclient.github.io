@@ -1,3 +1,9 @@
+---
+layout: page
+title: Supported Hardware
+description: hardware here
+---
+
 # Supported Hardware
 
 This is a brief list of hardware known to work with by libscopehal and ngscopeclient, sorted by manufacturer. Similar models may work as well although correct functionality is not guaranteed. We'd love to hear results (successful or otherwise) of testing with instruments not listed here.

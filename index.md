@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ngscopeclient
-description: Advanced T&M remote control and analysis suite
+description: index page
 ---
 
 # Welcome
