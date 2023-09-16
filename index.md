@@ -8,6 +8,7 @@ layout: default
 * [Open source](https://www.github.com/glscopeclient/scopehal-apps) toolchain supporting Windows, Linux, and MacOS
 * Easily extensible to support any T&M instrument with a SCPI interface or native API
 * Combine multiple instruments into a unified test platform
+* Automate production test with the C++ API
 
 ![Example](images/ngscopeclient-intro.png)
 

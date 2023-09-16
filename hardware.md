@@ -91,3 +91,8 @@ All MAUI based oscilloscopes share a common command set and should work for data
 * WaveRunner 8000
 * WaveRunner 9000
 * WaveSurfer 3000
+
+# Tektronix
+
+* MSO5
+* MSO6
