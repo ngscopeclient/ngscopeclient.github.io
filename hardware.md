@@ -1,6 +1,6 @@
-# Overview
+# Supported Hardware
 
-This is a brief list of hardware known to work with by libscopehal, sorted by manufacturer. Similar models may work as well although correct functionality is not guaranteed. We'd love to hear results (successful or otherwise) of testing with instruments not listed here.
+This is a brief list of hardware known to work with by libscopehal and ngscopeclient, sorted by manufacturer. Similar models may work as well although correct functionality is not guaranteed. We'd love to hear results (successful or otherwise) of testing with instruments not listed here.
 
 For full details on which features are or are not supported by particular drivers, known issues, etc. please see the appropriate section of the manual.
 
