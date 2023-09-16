@@ -10,7 +10,10 @@ layout: default
 * Combine multiple instruments into a unified test platform
 * Automate production test with the C++ API
 
-![Example](images/ngscopeclient-intro.png)
+<figure>
+![Filter graph example screenshot](images/ngscopeclient-intro.png)
+<figcaption>Using ngscopeclient to do protocol decoding and signal integrity analysis of a 5 Gbps QSGMII link</figcaption>
+</figure>
 
 # Learn more
 

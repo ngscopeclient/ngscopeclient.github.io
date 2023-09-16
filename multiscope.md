@@ -16,6 +16,6 @@ Any number of oscilloscopes, of any supported make or model, may be combined in 
 
 ![Example](images/trigger-groups.png)
 
-An automated deskew wizard allows the cross-trigger path delay within a trigger group to be measured and calibrated out, so that waveforms from all oscilloscopes in the group will line up correctly on the timeline.
+An automated deskew wizard allows the cross-trigger path delay within a trigger group to be measured and calibrated out, so that waveforms from all oscilloscopes in the group will line up correctly on the timeline. Simply connect a PRBS to one channel of each instrument and click the "deskew" button.
 
 Protocol decodes, math functions, and filter blocks can work across inputs from multiple instruments. Most math functions require their inputs to be sampled at the same rate, so you may need to use a resampling block if the instruments are not configured identically. Most protocol decode blocks can work with inputs of different sample rates without issue as long as the deskew calibration has been performed.
