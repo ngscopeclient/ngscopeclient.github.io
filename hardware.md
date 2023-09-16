@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Supported Hardware
 description: hardware here
 permalink: /hardware
 ---
