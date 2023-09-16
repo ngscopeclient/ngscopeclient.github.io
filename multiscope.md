@@ -6,7 +6,10 @@ layout: default
 
 Ngscopeclient allows a single session to connect to arbitrarily many oscilloscopes simultaneously. These instruments can be fully independent of each other (triggering with no relationship to the others) or grouped into "trigger groups", via a cross-trigger sync cable, allowing several instruments to trigger in lock-step.
 
-![Example](images/multiscope1.png)
+<figure>
+<img src="images/multiscope1.png" alt="Multi-scope example screenshot"/>
+<figcaption style='font-style:italic'>A multi-scope setup containing one trigger group with two instruments</figcaption>
+</figure>
 
 Any number of oscilloscopes, of any supported make or model, may be combined in the same trigger group. Sample rates need not be the same, and the horizontal positions of each instrument within a group may be adjusted independently. This allows complex analytical setups for study of behavior across varying time scales:
 
@@ -14,7 +17,10 @@ Any number of oscilloscopes, of any supported make or model, may be combined in 
 * Combine multiple instruments to capture data on more channels than a single instrument can support
 * Use two or more instruments to capture cause-and-effect pairs on different channels separated by arbitrarily long time periods, while displaying on a single timeline
 
-![Example](images/trigger-groups.png)
+<figure>
+<img src="images/trigger-groups.png" alt="Trigger group screenshot"/>
+<figcaption style='font-style:italic'>A more complex setup with one dual-instrument trigger group and two single-instrument groups</figcaption>
+</figure>)
 
 An automated deskew wizard allows the cross-trigger path delay within a trigger group to be measured and calibrated out, so that waveforms from all oscilloscopes in the group will line up correctly on the timeline. Simply connect a PRBS to one channel of each instrument and click the "deskew" button.
 
