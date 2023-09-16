@@ -1,14 +1,12 @@
 ---
 layout: default
-description: hardware here
-permalink: /hardware
 ---
 
 # Supported Hardware
 
 This is a brief list of hardware known to work with by libscopehal and ngscopeclient, sorted by manufacturer. Similar models may work as well although correct functionality is not guaranteed. We'd love to hear results (successful or otherwise) of testing with instruments not listed here.
 
-For full details on which features are or are not supported by particular drivers, known issues, etc. please see the appropriate section of the manual.
+For full details on which features are or are not supported by particular drivers, known issues, etc. please see the appropriate section of the user manual.
 
 # Agilent
 
@@ -24,14 +22,14 @@ For full details on which features are or are not supported by particular driver
 
 # Digilent
 
-* Analog Discovery (via https://github.com/glscopeclient/scopehal-waveforms-bridge)
-* Analog Discovery 2 (via https://github.com/glscopeclient/scopehal-waveforms-bridge)
-* Analog Discovery Pro (via https://github.com/glscopeclient/scopehal-waveforms-bridge)
+* Analog Discovery via [external bridge](https://github.com/glscopeclient/scopehal-waveforms-bridge)
+* Analog Discovery 2 via [external bridge](https://github.com/glscopeclient/scopehal-waveforms-bridge)
+* Analog Discovery Pro via [external bridge](https://github.com/glscopeclient/scopehal-waveforms-bridge)
 
 # DreamSource Lab
 
-* DScope U3P100 (via https://github.com/glscopeclient/scopehal-sigrok-bridge)
-* DSLogic U3P16 (via https://github.com/glscopeclient/scopehal-sigrok-bridge)
+* DScope U3P100 via [external bridge](https://github.com/glscopeclient/scopehal-sigrok-bridge)
+* DSLogic U3P16 via [external bridge](https://github.com/glscopeclient/scopehal-sigrok-bridge)
 
 # EEVengers
 
@@ -50,13 +48,13 @@ For full details on which features are or are not supported by particular driver
 
 # MultiLane
 
-* ML4039 BERT (via https://github.com/glscopeclient/scopehal-mlbert-bridge)
+* ML4039 BERT via [external bridge](https://github.com/glscopeclient/scopehal-mlbert-bridge)
 
 # Pico
 
 * All VNAs supported by PicoVNA 5 software (PicoVNA 106, 108)
-* 3000D series (via https://github.com/glscopeclient/scopehal-pico-bridge)
-* 6000E series (via https://github.com/glscopeclient/scopehal-pico-bridge)
+* 3000D series via [external bridge](https://github.com/glscopeclient/scopehal-pico-bridge)
+* 6000E series via [external bridge](https://github.com/glscopeclient/scopehal-pico-bridge)
 
 # Rigol
 
@@ -84,7 +82,7 @@ For full details on which features are or are not supported by particular driver
 
 # Teledyne LeCroy
 
-All MAUI based oscilloscopes share a common command set and should work for data capture and remote contrl without any additional driver development, but the dropdown lists for supported sample rates and memory depths have to be added to the driver for each model. The models below have been recently tested, others can be easily added if required.
+All MAUI based oscilloscopes share a common command set and should work for data capture and remote control without any additional driver development, but the dropdown lists for supported sample rates and memory depths have to be added to the driver for each model. The models below have been recently tested, others can be easily added if required.
 
 * DDA5000A
 * HDO9000
