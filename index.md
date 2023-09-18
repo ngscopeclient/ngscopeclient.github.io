@@ -17,7 +17,9 @@ layout: default
 
 # Features
 
+* [Filter graph editor](/grapheditor)
 * [Multi-scope support](/multiscope)
+* [Protocol analysis](/protocol-analysis)
 
 # Learn more
 
