@@ -20,7 +20,7 @@ Any number of oscilloscopes, of any supported make or model, may be combined in 
 <figure>
 <img src="images/trigger-groups.png" alt="Trigger group screenshot"/>
 <figcaption style='font-style:italic'>A more complex setup with one dual-instrument trigger group and two single-instrument groups</figcaption>
-</figure>)
+</figure>
 
 An automated deskew wizard allows the cross-trigger path delay within a trigger group to be measured and calibrated out, so that waveforms from all oscilloscopes in the group will line up correctly on the timeline. Simply connect a PRBS to one channel of each instrument and click the "deskew" button.
 
