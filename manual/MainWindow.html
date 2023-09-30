@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html xml:lang='en-US' lang='en-US'> 
+<head><title>4 Main Window</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='ngscopeclient-manual.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='ngscopeclient-manual.tex' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+ <script async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript' id='MathJax-script'></script>  
+</head><body>
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WaveformGroups.html'>next</a>] [<a href='GettingStarted.html'>prev</a>] [<a href='GettingStarted.html#tailGettingStarted.html'>prev-tail</a>] [<a href='#tailMainWindow.html'>tail</a>] [<a href='ngscopeclient-manual.html#MainWindow.html'>up</a>] </p></div>
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 4</span><br /><a id='x6-270004'></a>Main Window</h2>
+<!-- l. 3 --><p class='noindent'>The only fixed UI elements in ngscopeclient are the main menu and toolbar at the top of the window. All
+remaining space may be filled with waveform plots, properties dialogs, protocol analyzers, and other
+dockable windows as required for a given experimental setup. This flexibility allows almost the entire
+screen to be dedicated to waveform views, or more space allocated to controls and protocol
+decodes.
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>4.1   </span> <a id='x6-280004.1'></a>Menu</h3>
+<!-- l. 11 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>4.1.1   </span> <a id='x6-290004.1.1'></a>File</h4>
+<!-- l. 13 --><p class='noindent'>This menu contains commands for saving and loading session files.
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Open Online...</span><br class='newline' />Loads a session file and reconnects to the instrument(s) to continue existing work. Settings
+     from  the  saved  session  will  be  applied  and  overwrite  the  current  channel  and  timebase
+     configuration of the instrument, if different.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Open Offline...</span><br class='newline' />Loads a session file in offline mode, allowing you to work with saved waveform data without
+     connecting to the instrument(s) the data was captured from.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Recent Files</span><br class='newline' />Displays a list of recently accessed session files and allows them to be opened online or offline.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Save</span><br class='newline' />Saves UI configuration and waveform data (including history) to a session file for future use.
+     <!-- l. 31 --><p class='noindent'>A session consists of a YAML file called <span class='ecti-1095'>filename</span>.scopesession containing instrument and UI
+     configuration, as well as a directory called <span class='ecti-1095'>filename</span>_data which contains waveform metadata
+     and sample values for all enabled instrument channels, including history.
+     </p><!-- l. 35 --><p class='noindent'>Note that both the .scopesession and the _data directory must be copied if moving the session
+     to a new location in order to preserve waveform data. If you only wish to restore the filter
+     graph and UI configuration without waveform content, the _data directory is not required.
+     </p></li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Save As...</span><br class='newline' />Saves the session to a new file, rather than the current one.
+                                                                                         
+                                                                                         
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Close</span><br class='newline' />Close the current session without exiting ngscopeclient.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Quit</span><br class='newline' />Exits the application
+     </li></ul>
+<!-- l. 51 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>4.1.2   </span> <a id='x6-300004.1.2'></a>View</h4>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Fullscreen</span><br class='newline' />Toggles full-screen mode
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Persistence Setup</span><br class='newline' />Opens the Persistence Setup dialog, allowing you to control the decay coefficient for persistence
+     maps.
+     </li></ul>
+<!-- l. 64 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>4.1.3   </span> <a id='x6-310004.1.3'></a>Add</h4>
+<!-- l. 66 --><p class='noindent'>This menu allows new waveforms views or instrument connections to be created.
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Load</span><br class='newline' />Connect to a new, or recently used, electronic load
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Generator</span><br class='newline' />Connect to a new, or recently used, function generator
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Multimeter</span><br class='newline' />Connect to a new, or recently used, multimeter
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Oscilloscope</span><br class='newline' />Connect to a new, or recently used, oscilloscope
+                                                                                         
+                                                                                         
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Power Supply</span><br class='newline' />Connect to a new, or recently used, power supply
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>RF Generator</span><br class='newline' />Connect to a new, or recently used, RF signal generator
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Channels</span><br class='newline' />Displays a list of filters and instrument channels which can be opened in a new waveform view
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Generate</span><br class='newline' />Allows  synthetic  waveforms  to  be  generated  for  testing,  simulation,  and  channel  design
+     applications
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Import</span><br class='newline' />Allows waveforms to be loaded from external data files in various interchange formats
+     </li></ul>
+<!-- l. 100 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>4.1.4   </span> <a id='x6-320004.1.4'></a>Setup</h4>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Timebase...</span><br class='newline' />Opens  the  Timebase  Properties  dialog,  allowing  sample  rate  and  memory  depth  of  each
+     connected oscilloscope to be adjusted
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Trigger...</span><br class='newline' />Configures trigger settings
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Preferences...</span><br class='newline' />Opens the preferences dialog
+     </li></ul>
+<!-- l. 141 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>4.1.5   </span> <a id='x6-330004.1.5'></a>Window</h4>
+<!-- l. 143 --><p class='noindent'>This menu provides access to various utility windows.
+</p>
+                                                                                         
+                                                                                         
+     <ul class='itemize1'>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Analyzer</span><br class='newline' />Opens protocol analyzer dialogs for active protocol decodes
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Generator</span><br class='newline' />Opens the properties dialog for a currently connected function generator
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Multimeter</span><br class='newline' />Opens the properties dialog for a currently connected multimeter
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>SCPI Console</span><br class='newline' />Opens a console window allowing you to send raw SCPI commands to a currently connected
+     instrument.
+     <!-- l. 159 --><p class='noindent'>This is a low level debug tool primarily intended for use by driver developers. The console
+     is interlocked with background threads polling the instrument, so that replies to commands
+     typed in the console will not be mixed with replies which the instrument driver is expecting
+     to its own commands. However, commands sent in the console will bypass any caching in the
+     driver and can easily lead to the driver and instrument firmware states becoming mutually
+     inconsistent.
+     </p></li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Log Viewer</span><br class='newline' />Opens a console window allowing you to see debug log messages generated by the application.
+     This is the same log stream which is normally written to stdout, but this dialog allows it to
+     be accessed even when the application is not launched from a shell session.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Measurements</span><br class='newline' />Opens  the  Measurements  window,  displaying  scalar-valued  measurements  coming  from
+     instrument channels or filter blocks.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Performance Metrics</span><br class='newline' />
+     <!-- l. 175 --><p class='noindent'>Opens the Performance Metrics window, which provides access to debug information which
+     can  be  helpful  when  debugging  slow  application  performance,  optimizing  the  code,  or
+     benchmarking instruments.
+     </p><!-- l. 178 --><p class='noindent'>Three categories of information are displayed:
+</p>
+          <ul class='itemize2'>
+          <li class='itemize'>Rendering: render loop framerate, monitor refresh rate, total time spent last frame in the
+          rasterization and tone mapping shaders, and the number of vertices and indices drawn
+          as Vulkan geometry. Note that waveforms are drawn by a compute shader and do not
+          contribute towads the vertex/index totals, other than a single textured rectangle used
+          for displaying the shader output.
+          </li>
+          <li class='itemize'>Filter graph: number of filter blocks in the current graph, and run time for the most
+          recent evaluation of the filter graph.
+                                                                                         
+                                                                                         
+          </li>
+          <li class='itemize'>Acquisition: streaming data rate, in waveforms per second.</li></ul>
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>History</span><br class='newline' />
+     <!-- l. 192 --><p class='noindent'>Opens the History dialog, which allows access to a rolling buffer of recently acquired
+     waveforms.
+     </p></li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Filter Graph</span><br class='newline' />Opens the filter graph editor (see Chapter <a href='FilterGraphEditor.html#x10-490008'>8<!-- tex4ht:ref: grapheditor  --></a>)
+     </li></ul>
+<!-- l. 201 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>4.1.6   </span> <a id='x6-340004.1.6'></a>Debug</h4>
+<!-- l. 203 --><p class='noindent'>Provides access to GUI toolkit test dialogs and other features intended only for developers.
+</p><!-- l. 207 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>4.1.7   </span> <a id='x6-350004.1.7'></a>Help</h4>
+<!-- l. 209 --><p class='noindent'>Nothing here yet, we should add at least an About dialog at some point...
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+</p>
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WaveformGroups.html'>next</a>] [<a href='GettingStarted.html'>prev</a>] [<a href='GettingStarted.html#tailGettingStarted.html'>prev-tail</a>] [<a href='MainWindow.html'>front</a>] [<a href='ngscopeclient-manual.html#MainWindow.html'>up</a>] </p></div>
+<!-- l. 1 --><p class='indent'>   <a id='tailMainWindow.html'></a>   </p> 
+</body> 
+</html>

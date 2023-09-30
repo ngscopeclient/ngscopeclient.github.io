@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html xml:lang='en-US' lang='en-US'> 
+<head><title>5 Waveform Groups</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='ngscopeclient-manual.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='ngscopeclient-manual.tex' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+ <script async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript' id='MathJax-script'></script>  
+</head><body>
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WaveformViews.html'>next</a>] [<a href='MainWindow.html'>prev</a>] [<a href='MainWindow.html#tailMainWindow.html'>prev-tail</a>] [<a href='#tailWaveformGroups.html'>tail</a>] [<a href='ngscopeclient-manual.html#WaveformGroups.html'>up</a>] </p></div>
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 5</span><br /><a id='x7-360005'></a>Waveform Groups</h2>
+<!-- l. 3 --><p class='noindent'>A waveform group is a collection of one or more waveform views stacked vertically under a common
+timeline. All waveform views within a group share the same timeline and vertical cursor(s), but may have
+independent vertical range and offset settings.
+</p><!-- l. 7 --><p class='indent'>   When a new oscilloscope is added to an empty ngscopeclient session, all enabled channels on the
+attached instrument(s) are displayed in a single waveform group (Figure <a href='#x7-36001r1'>5.1<!-- tex4ht:ref: single-group  --></a>). If no channels are enabled at
+connection time, the first channel will be enabled and displayed.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-36001r1'></a>
+                                                                                         
+                                                                                         
+<!-- l. 13 --><p class='noindent'><img alt='PIC' src='ng-images/overview.png' width='369' height='216' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.1:</span><span class='content'>Top level ngscopeclient window with a single waveform group</span></figcaption><!-- tex4ht:label?: x7-36001r1  -->
+                                                                                         
+                                                                                         
+   </figure>
+<!-- l. 18 --><p class='indent'>   As you add protocol decodes or look at different parts of a waveform, it may be helpful to create
+additional waveform groups. Typical reasons for creating additional groups include:
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>Zooming into one set of signals to see detail on short time scales while maintaining a high
+     level overview of others
+     </li>
+     <li class='itemize'>Viewing signals with incompatible horizontal units. For example, a FFT has horizontal units
+     of frequency while an analog waveform has horizontal units of time. Eye patterns also have
+     horizontal units of time, but are always displayed as two UIs wide and cannot be zoomed.</li></ul>
+   <h3 class='sectionHead'><span class='titlemark'>5.1   </span> <a id='x7-370005.1'></a>Managing Groups</h3>
+<!-- l. 31 --><p class='noindent'>New waveform groups are automatically created when adding a channel which is not compatible with
+any existing group. For example, if your session has a single group containing time-domain
+waveforms, adding a FFT filter block will result in a new waveform group being created to
+contain the FFT. Additional frequency-domain waveforms will then be added to this group by
+default.
+</p><!-- l. 36 --><p class='indent'>   A new group may also be created at any time by clicking on a channel name and dragging it to the top,
+bottom, left, or right edge of an existing group. An overlay (Fig. <a href='#x7-37001r2'>5.2<!-- tex4ht:ref: split-overlays  --></a>) will be displayed showing the
+resulting split. For example, dropping the channel on the right side of the window produces the layout
+shown in Fig. <a href='#x7-37002r3'>5.3<!-- tex4ht:ref: split-right  --></a>.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-37001r2'></a>
+                                                                                         
+                                                                                         
+<!-- l. 42 --><p class='noindent'><img alt='PIC' src='ng-images/split-overlays.png' width='369' height='216' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.2:</span><span class='content'>Overlays showing drag-and-drop locations for splitting waveform groups</span></figcaption><!-- tex4ht:label?: x7-37001r2  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-37002r3'></a>
+                                                                                         
+                                                                                         
+<!-- l. 49 --><p class='noindent'><img alt='PIC' src='ng-images/split-right.png' width='369' height='216' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.3:</span><span class='content'>Result of dropping a waveform to the right side split area</span></figcaption><!-- tex4ht:label?: x7-37002r3  -->
+                                                                                         
+                                                                                         
+   </figure>
+<!-- l. 54 --><p class='indent'>   Waveform groups may be resized arbitrarily by dragging the separator between them. The title bar of a
+group may also be dragged, allowing the entire group to be undocked as a floating window. Floating
+windows can be re-docked by dragging the title bar back into the main ngscopeclient window
+(or another floating window), creating new tabs or splitting existing groups as desired (Fig.
+<a href='#x7-37003r4'>5.4<!-- tex4ht:ref: complex-ui  --></a>).
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-37003r4'></a>
+                                                                                         
+                                                                                         
+<!-- l. 61 --><p class='noindent'><img alt='PIC' src='ng-images/complex-ui.png' width='369' height='216' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.4:</span><span class='content'>Example  of  complex  window  layout  with  multiple  tabs,  splitters  between  docked
+waveform groups, and a group in a floating window</span></figcaption><!-- tex4ht:label?: x7-37003r4  -->
+                                                                                         
+                                                                                         
+   </figure>
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WaveformViews.html'>next</a>] [<a href='MainWindow.html'>prev</a>] [<a href='MainWindow.html#tailMainWindow.html'>prev-tail</a>] [<a href='WaveformGroups.html'>front</a>] [<a href='ngscopeclient-manual.html#WaveformGroups.html'>up</a>] </p></div>
+<!-- l. 1 --><p class='indent'>   <a id='tailWaveformGroups.html'></a>  </p> 
+</body> 
+</html>

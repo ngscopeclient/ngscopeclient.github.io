@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<html xml:lang='en-US' lang='en-US'> 
+<head><title>1 Introduction</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='ngscopeclient-manual.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='ngscopeclient-manual.tex' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+ <script async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript' id='MathJax-script'></script>  
+</head><body>
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='LegalNotices.html'>next</a>] [<a href='contentsname.html'>prev</a>] [<a href='contentsname.html#tailcontentsname.html'>prev-tail</a>] [<a href='#tailIntroduction.html'>tail</a>] [<a href='ngscopeclient-manual.html#Introduction.html'>up</a>] </p></div>
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 1</span><br /><a id='x3-20001'></a>Introduction</h2>
+   <h3 class='sectionHead'><span class='titlemark'>1.1   </span> <a id='x3-30001.1'></a>Introduction</h3>
+<!-- l. 5 --><p class='noindent'>ngscopeclient is a high performance, GPU accelerated remote user interface, signal processing, protocol
+analysis, and automation tool for test and measurement equipment. It runs on all major operating systems
+and can interoperate with a broad and continuously growing range of T&amp;M products from many
+vendors.
+</p><!-- l. 9 --><p class='indent'>   As of this writing, ngscopeclient is under active development but has not had a formal v0.1 release and
+should be considered alpha quality.
+</p><!-- l. 12 --><p class='indent'>   This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the
+extent permitted by law.
+</p><!-- l. 15 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>1.2   </span> <a id='x3-40001.2'></a>Key Concepts</h3>
+<!-- l. 17 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>1.2.1   </span> <a id='x3-50001.2.1'></a>User Interface</h4>
+<!-- l. 19 --><p class='noindent'>Most UI elements can be interacted with by left clicking (select), left dragging (move), using the scroll
+wheel (zoom), double clicking (open properties dialog), or right clicking (context menu). Hovering the
+mouse over a main window UI element, or a (?) help marker in a dialog box, displays a tooltip explaining
+the purpose of the element
+</p><!-- l. 26 --><p class='indent'>   Most text fields allow SI prefixes for scaling values (mV, \(\mu s\), GHz, etc). Lowercase ‘u’ is interpreted as
+“micro", equivalent to the Greek letter \(\mu \). The unit is automatically added if not specified, for example
+typing “2.4G" in a frequency input field will be interpreted as meaning 2.4 GHz.
+</p><!-- l. 30 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>1.2.2   </span> <a id='x3-60001.2.2'></a>Design Philosophy</h4>
+<!-- l. 32 --><p class='noindent'>Users familiar with conventional benchtop oscilloscopes will notice some important distinctions between
+ngscopeclient and classical DSO user interfaces. While there is an initial learning curve getting used to the
+different ways of doing things, these changes allow for greater productivity and more complex
+analysis.
+</p><!-- l. 36 --><p class='indent'>   Legacy DSO user interfaces largely still imitate the front panel controls of analog CRT
+instruments dating back to the mid 1940s. A single view of each waveform shows the entire
+acquisition on a grid with a fixed number of divisions (emulating an etched graticule on a CRT)
+                                                                                         
+                                                                                         
+and both time and voltage scales are defined in terms of these divisions. While more recent
+DSOs do allow math functions, protocol decodes, zooms, and so on, this archaic concept has
+remained.
+</p><!-- l. 41 --><p class='indent'>   In ngscopeclient, the acquisition record length is completely decoupled from the X axis scale of the
+viewport, and there is no concept of a “zoom" waveform or measuring time in “divisions". Arbitrarily
+many views of a channel may be created, and each may be scaled and zoomed independently.
+Acquisition record length and duration are controlled separately, from the timebase properties
+dialog.
+</p><!-- l. 46 --><p class='indent'>   Similarly, vertical scale for waveforms is defined in terms of full-scale range, a far more intuitive and
+useful metric than arbitrary “divisions". While horizontal grid lines are still displayed in waveform views
+for convenience, their number, spacing, and locations may change. Tall plots will have more scale divisions
+than short ones, and the divisions are always located at round numbers even if this requires the grid to not
+be centered in the plot (Fig. <a href='#x3-6001r1'>1.1<!-- tex4ht:ref: y-divs  --></a>)
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x3-6001r1'></a>
+                                                                                         
+                                                                                         
+<!-- l. 53 --><p class='noindent'><img alt='PIC' src='ng-images/y-divs.png' width='369' height='195' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 1.1:</span><span class='content'>Example waveform showing off-center grid and round-numbered grid lines</span></figcaption><!-- tex4ht:label?: x3-6001r1  -->
+                                                                                         
+                                                                                         
+   </figure>
+<!-- l. 58 --><p class='indent'>   Rather than optimizing for a touch screen (as is common for benchtop oscilloscopes), ngscopeclient’s UI
+is heavily mouse driven and context based. Space used by always-visible buttons, sliders, etc is kept to a
+minimum in order to keep as much screen real estate as possible usable for waveform display. Additional
+controls are displayed in menus or pop-up dialogs which can be closed, moved out of view, or docked as
+needed.
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>1.2.3   </span> <a id='x3-70001.2.3'></a>Terminology</h4>
+<!-- l. 65 --><p class='noindent'>The overall software package consists of <span class='ecti-1095'>ngscopeclient </span>(graphical user interface frontend), <span class='ecti-1095'>libscopehal </span>(C++
+library for core APIs and instrument drivers), and <span class='ecti-1095'>libscopeprotocols </span>(filter graph blocks). End users will
+normally use ngscopeclient, however it is possible to interface with libscopehal and libscopeprotocols
+directly from C++ code for writing low level test automation tools or even a fully custom
+application-specific user interface.
+</p><!-- l. 70 --><p class='indent'>   Data consists of two fundamental types: <span class='ecti-1095'>scalars </span>and <span class='ecti-1095'>waveforms</span>. A scalar is a single numeric value with
+an associated unit, for example “500 mV". A waveform is a sequence of <span class='ecti-1095'>samples </span>plotted against another
+quantity, for example voltage versus time for an oscilloscope waveform or amplitude versus frequency for a
+spectrum analyzer waveform.
+</p><!-- l. 75 --><p class='indent'>   Samples may be of arbitrary type (analog value, digital bit, SPI bus event, etc.), but all samples in a
+single waveform must be of the same data type. Waveforms may be either <span class='ecti-1095'>uniform </span>(sampled at constant
+rate with no gaps between samples) or <span class='ecti-1095'>sparse </span>(sampled at arbitrary intervals, possibly with gaps between
+samples).
+</p><!-- l. 79 --><p class='indent'>   An <span class='ecti-1095'>instrument  </span>is a physical piece of hardware
+<span class='footnote-mark'><a href='#fn1x2' id='fn1x2-bk'><sup class='textsuperscript'>1</sup></a></span><a id='x3-7001f1'></a> which
+can be remote controlled and interacted with. The connection between ngscopeclient and an instrument is
+provided by a <span class='ecti-1095'>transport</span>, such as a USBTMC interface, a GPIB data stream, or a TCP socket. A <span class='ecti-1095'>driver </span>is a
+software component, either supplied as part of the libscopehal core or a third party plugin, which controls
+an instrument.
+</p><!-- l. 85 --><p class='indent'>   Each instrument has one or more<span class='footnote-mark'><a href='#fn2x2' id='fn2x2-bk'><sup class='textsuperscript'>2</sup></a></span><a id='x3-7002f2'></a>
+<span class='ecti-1095'>channels</span>. A channel corresponds to a single logical “piece" of an instrument and may consist of one or
+more physical connectors: a typical oscilloscope channel has a single BNC input while a typical power
+supply output has two banana jacks.
+</p><!-- l. 90 --><p class='indent'>   Each channel may provide features associated with one or more instrument <span class='ecti-1095'>types</span>, and not all channels
+on an instrument are guaranteed to be the same type(s). For example, an oscilloscope may consist of
+several channels providing both waveform acquisition (oscilloscope) and scalar acquisition (multimeter)
+capabilities, one channel providing only trigger input capability, and one channel providing function
+generator output capability.
+</p><!-- l. 95 --><p class='indent'>   All channels, triggers, and math / protocol decode blocks are considered <span class='ecti-1095'>nodes </span>within the <span class='ecti-1095'>filter graph</span>.
+The filter graph is a directed acyclic graph (a set of nodes and connections between them, with no loops
+permitted) connecting all of the various data inputs and outputs of the experimental setup
+together.
+</p><!-- l. 99 --><p class='indent'>   Each node may have zero or more <span class='ecti-1095'>inputs</span>, of either scalar or waveform type, and zero or more output
+<span class='ecti-1095'>streams</span>. A stream is a data source which may or may not have an associated scalar or waveform value; for
+example a math block with missing inputs or an instrument which has not yet triggered do not have a
+meaningful value. A typical oscilloscope channel might have one waveform output stream, while a typical
+power supply channel might have two scalar output streams for measured current and voltage. A sink
+                                                                                         
+                                                                                         
+block for writing a waveform to a CSV file would have one input for each column in the generated
+file.
+</p><!-- l. 106 --><p class='indent'>   Instrument hardware limitations or the particular math/decode block’s design will impose various
+restrictions on legal connections in the filter graph. For example, a trigger can normally only accept signals
+from hardware input channels on the same instrument. An FFT filter can only accept uniformly
+sampled analog waveforms. A UART protocol decode can only accept digital waveforms, so
+analog waveforms must be converted to digital by a thresholding filter before they can be
+decoded.
+</p><!-- l. 112 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>1.3   </span> <a id='x3-80001.3'></a>Revision History</h3>
+     <ul class='itemize1'>
+     <li class='itemize'>September 29, 2023: [in progress] Initial draft</li></ul>
+                                                                                         
+                                                                                         
+<div class='footnotes'><!-- l. 80 --><p class='indent'>   <span class='footnote-mark'><a href='#fn1x2-bk' id='fn1x2'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-0900'>Or a simulated mock-up of one, such as the “demo" oscilloscope driver used for testing</span></p>
+<!-- l. 86 --><p class='indent'>   <span class='footnote-mark'><a href='#fn2x2-bk' id='fn2x2'><sup class='textsuperscript'>2</sup></a></span><span class='ecrm-0900'>Zero channels is legal in the API, however such an instrument would be of little practical use!</span></p>           </div> <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='LegalNotices.html'>next</a>]
+[<a href='contentsname.html'>prev</a>] [<a href='contentsname.html#tailcontentsname.html'>prev-tail</a>] [<a href='Introduction.html'>front</a>] [<a href='ngscopeclient-manual.html#Introduction.html'>up</a>] </p></div>
+<!-- l. 1 --><p class='indent'>   <a id='tailIntroduction.html'></a>  </p> 
+</body> 
+</html>

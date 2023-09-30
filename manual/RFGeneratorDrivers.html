@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html xml:lang='en-US' lang='en-US'> 
+<head><title>16 RF Generator Drivers</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link href='ngscopeclient-manual.css' type='text/css' rel='stylesheet' /> 
+<meta name='src' content='ngscopeclient-manual.tex' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+ <script async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript' id='MathJax-script'></script>  
+</head><body>
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='VNADrivers.html'>next</a>] [<a href='PowerSupplyDrivers.html'>prev</a>] [<a href='PowerSupplyDrivers.html#tailPowerSupplyDrivers.html'>prev-tail</a>] [<a href='#tailRFGeneratorDrivers.html'>tail</a>] [<a href='ngscopeclient-manual.html#RFGeneratorDrivers.html'>up</a>] </p></div>
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 16</span><br /><a id='x18-12100016'></a>RF Generator Drivers</h2>
+<!-- l. 4 --><p class='noindent'>This chapter describes all of the available drivers for RF synthesizers, vector signal generators, and similar
+devices.
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>16.1   </span> <a id='x18-12200016.1'></a>Siglent</h3>
+    <table class='tabular' id='TBL-107'><colgroup id='TBL-107-1g'><col id='TBL-107-1' /><col id='TBL-107-2' /><col id='TBL-107-3' /><col id='TBL-107-4' /></colgroup><tr id='TBL-107-1-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-1-1'> <span class='ecbx-1095'>Device Family </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-1-2'> <span class='ecbx-1095'>Driver      </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-1-3'> <span class='ecbx-1095'>Transport </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-107-1-4'> <!-- l. 16 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                                    </p></td>
+   </tr><tr id='TBL-107-2-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-2-1'> SSG3000X          </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-2-2'> Unknown    </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-2-3'> Unknown    </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-107-2-4'> <!-- l. 16 --><p class='noindent'>May    be    compatible    with    the
+  siglent_ssg driver, but not tested      </p></td>
+   </tr><tr id='TBL-107-3-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-3-1'> SSG5000A          </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-3-2'> Unknown    </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-3-3'> Unknown    </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-107-3-4'> <!-- l. 16 --><p class='noindent'>May    be    compatible    with    the
+  siglent_ssg driver, but not tested      </p></td>
+   </tr><tr id='TBL-107-4-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-4-1'> SSG5000X          </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-4-2'> siglent_ssg  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-107-4-3'> lan             </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-107-4-4'> <!-- l. 16 --><p class='noindent'>Only  tested  via  lan  transport,  but
+  USBTMC and serial are available too  </p></td>
+   </tr></table>
+<!-- l. 18 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>16.1.1   </span> <a id='x18-12300016.1.1'></a>siglent_ssg</h4>
+<!-- l. 20 --><p class='noindent'>This driver was developed on a SSG5060X-V and should support the other models in the SSG5000X family
+(SSG5040X, SSG5060X, and SSG5040X-V). It is unknown whether it will function at all with the
+SSG3000X or 5000A families in its current state; additional development will likely be needed for full
+support.
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+</p>
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='VNADrivers.html'>next</a>] [<a href='PowerSupplyDrivers.html'>prev</a>] [<a href='PowerSupplyDrivers.html#tailPowerSupplyDrivers.html'>prev-tail</a>] [<a href='RFGeneratorDrivers.html'>front</a>] [<a href='ngscopeclient-manual.html#RFGeneratorDrivers.html'>up</a>] </p></div>
+<!-- l. 1 --><p class='indent'>   <a id='tailRFGeneratorDrivers.html'></a>   </p> 
+</body> 
+</html>
