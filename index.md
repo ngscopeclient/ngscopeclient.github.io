@@ -20,6 +20,7 @@ layout: default
 * [Filter graph editor](/grapheditor)
 * [Multi-scope support](/multiscope)
 * [Protocol analysis](/protocol-analysis)
+* [User manual](/manual/ngscopeclient-manual.html)
 
 # Learn more
 
