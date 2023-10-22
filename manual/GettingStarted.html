@@ -4,10 +4,10 @@
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='ngscopeclient-manual.css' type='text/css' rel='stylesheet' /> 
+<link type='text/css' href='ngscopeclient-manual.css' rel='stylesheet' /> 
 <meta name='src' content='ngscopeclient-manual.tex' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript' id='MathJax-script'></script>  
+ <script type='text/javascript' async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' id='MathJax-script'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='MainWindow.html'>next</a>] [<a href='LegalNotices.html'>prev</a>] [<a href='LegalNotices.html#tailLegalNotices.html'>prev-tail</a>] [<a href='#tailGettingStarted.html'>tail</a>] [<a href='ngscopeclient-manual.html#GettingStarted.html'>up</a>] </p></div>
    <h2 class='chapterHead'><span class='titlemark'>Chapter 3</span><br /><a id='x5-150003'></a>Getting Started</h2>
@@ -21,7 +21,7 @@ means to select either <span class='t1-zi4r-0-x-x-109'>Waveform Group 1 </span>o
 menu.
 </p><!-- l. 15 --><p class='indent'>   This project is under active development and is not anywhere near feature complete! As a result, this
 document is likely to refer to active bug or feature request tickets on the GitHub issue trackers. Issues are
-referenced as repository:ticket, for example <a href='https://github.com/glscopeclient/scopehal-apps/issues/3'>scopehal-apps:3</a>.
+referenced as repository:ticket, for example <a href='https://github.com/ngscopeclient/scopehal-apps/issues/3'>scopehal-apps:3</a>.
 </p><!-- l. 19 --><p class='noindent'>
 </p>
    <h3 class='sectionHead'><span class='titlemark'>3.2   </span> <a id='x5-170003.2'></a>Host System Requirements</h3>
@@ -78,116 +78,116 @@ hardware is supported and how to configure specific drivers.
    <h3 class='sectionHead'><span class='titlemark'>3.4   </span> <a id='x5-190003.4'></a>Compilation</h3>
 <!-- l. 66 --><p class='noindent'>ngscopeclient can be compiled on Linux, macOS, and Windows, but the specific steps that have to be
 taken differ quite a lot between these the three.
-</p><!-- l. 69 --><p class='indent'>   TODO: rewrite and simplify this section once glscopeclient is deprecated and we’ve removed all
-remaining vestiges of GTK dependencies
-</p><!-- l. 72 --><p class='indent'>   TODO: update URLs for most recent tested Vulkan SDK revision
-</p><!-- l. 74 --><p class='noindent'>
+</p><!-- l. 69 --><p class='indent'>   TODO: rewrite and simplify this section once we’ve removed all remaining vestiges of GTK
+dependencies
+</p><!-- l. 71 --><p class='indent'>   TODO: update URLs for most recent tested Vulkan SDK revision
+</p><!-- l. 73 --><p class='noindent'>
 </p>
                                                                                          
                                                                                          
    <h4 class='subsectionHead'><span class='titlemark'>3.4.1   </span> <a id='x5-200003.4.1'></a>Linux</h4>
-<!-- l. 76 --><p class='noindent'>
+<!-- l. 75 --><p class='noindent'>
      </p><dl class='enumerate'><dt class='enumerate'>
    1. </dt><dd class='enumerate'>Install dependencies.
-     <!-- l. 79 --><p class='noindent'>On Debian/Ubuntu:
+     <!-- l. 78 --><p class='noindent'>On Debian/Ubuntu:
 </p>
-     <!-- l. 81 -->
-         <div class='lstlisting' id='listing-1'><span class='label'><a id='x5-20002r1'></a></span><span class='t1-zi4r-0-'>sudo apt install build-essential cmake pkg-config libglm-dev \ </span><br /><span class='label'><a id='x5-20003r2'></a></span><span class='t1-zi4r-0-'>   libgtkmm-3.0-dev libsigc++-2.0-dev libyaml-cpp-dev \ </span><br /><span class='label'><a id='x5-20004r3'></a></span><span class='t1-zi4r-0-'>   liblxi-dev texlive texlive-fonts-extra libglew-dev \ </span><br /><span class='label'><a id='x5-20005r4'></a></span><span class='t1-zi4r-0-'>   catch2 libvulkan-dev glslang-dev libglfw3-dev</span>
+     <!-- l. 80 -->
+         <div class='lstlisting' id='listing-1'><span class='label'><a id='x5-20002r1'></a></span><span class='t1-zi4r-0-'>sudo apt install build-essential cmake pkg-config libglm-dev \ </span><br /><span class='label'><a id='x5-20003r2'></a></span><span class='t1-zi4r-0-'>   libgtkmm-3.0-dev libsigc++-2.0-dev libyaml-cpp-dev \ </span><br /><span class='label'><a id='x5-20004r3'></a></span><span class='t1-zi4r-0-'>   liblxi-dev texlive texlive-fonts-extra texlive-extra-utils \ </span><br /><span class='label'><a id='x5-20005r4'></a></span><span class='t1-zi4r-0-'>   libglew-dev catch2 libvulkan-dev glslang-dev libglfw3-dev</span>
          
      </div>
-     <!-- l. 88 --><p class='noindent'>On Fedora:
+     <!-- l. 87 --><p class='noindent'>On Fedora:
 </p>
-     <!-- l. 90 -->
+     <!-- l. 89 -->
          <div class='lstlisting' id='listing-2'><span class='label'><a id='x5-20006r1'></a></span><span class='t1-zi4r-0-'>sudo dnf install gcc-g++ ccache make cmake pkg-config glm-devel \ </span><br /><span class='label'><a id='x5-20007r2'></a></span><span class='t1-zi4r-0-'>   gtkmm3.0-devel libsigc++30-devel libyaml-devel yaml-cpp-devel \ </span><br /><span class='label'><a id='x5-20008r3'></a></span><span class='t1-zi4r-0-'>   liblxi-devel libtirpc-devel texlive glew-devel \ </span><br /><span class='label'><a id='x5-20009r4'></a></span><span class='t1-zi4r-0-'>   catch2-devel vulkan-loader-devel glslang-devel glfw-devel \ </span><br /><span class='label'><a id='x5-20010r5'></a></span><span class='t1-zi4r-0-'>   glslc libshaderc-devel libshaderc-static \ </span><br /><span class='label'><a id='x5-20011r6'></a></span><span class='t1-zi4r-0-'>   spirv-tools-devel</span>
          
      </div>
-     <!-- l. 99 --><p class='noindent'>If you are using an older stable release (such as Debian Buster), you may need to install
+     <!-- l. 98 --><p class='noindent'>If you are using an older stable release (such as Debian Buster), you may need to install
      catch2 from source (https://github.com/catchorg/Catch2). Alternatively, you may pass
      -DBUILD_TESTING=OFF to CMake to disable unit testing.
      </p></dd><dt class='enumerate'>
    2. </dt><dd class='enumerate'>Install FFTS library:
-     <!-- l. 104 -->
+     <!-- l. 103 -->
          <div class='lstlisting' id='listing-3'><span class='label'><a id='x5-20013r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-20014r2'></a></span><span class='t1-zi4r-0-'>git clone https://github.com/anthonix/ffts.git </span><br /><span class='label'><a id='x5-20015r3'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ffts </span><br /><span class='label'><a id='x5-20016r4'></a></span><span class='t1-zi4r-0-'>mkdir build </span><br /><span class='label'><a id='x5-20017r5'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> build </span><br /><span class='label'><a id='x5-20018r6'></a></span><span class='t1-zi4r-0-'>cmake .. -DENABLE_SHARED=ON -DCMAKE_INSTALL_PREFIX=/usr </span><br /><span class='label'><a id='x5-20019r7'></a></span><span class='t1-zi4r-0-'>make -j4 </span><br /><span class='label'><a id='x5-20020r8'></a></span><span class='t1-zi4r-0-'>sudo make install</span>
          
      </div>
      </dd><dt class='enumerate'>
    3. </dt><dd class='enumerate'>Install Vulkan SDK:
-     <!-- l. 117 --><p class='noindent'>If you are using Debian or Ubuntu, you may also install the <a href='https://vulkan.lunarg.com/doc/sdk/1.3.261.1/linux/getting_started_ubuntu.html'>.deb packaged SDK release</a> instead of
+     <!-- l. 116 --><p class='noindent'>If you are using Debian or Ubuntu, you may also install the <a href='https://vulkan.lunarg.com/doc/sdk/1.3.261.1/linux/getting_started_ubuntu.html'>.deb packaged SDK release</a> instead of
      following the instructions below.
-     </p><!-- l. 121 --><p class='noindent'>On Fedora, the SDK is already installed above, and the following section should be skipped.
+     </p><!-- l. 120 --><p class='noindent'>On Fedora, the SDK is already installed above, and the following section should be skipped.
 </p>
-     <!-- l. 123 -->
+     <!-- l. 122 -->
          <div class='lstlisting' id='listing-4'><span class='label'><a id='x5-20022r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-20023r2'></a></span><span class='t1-zi4r-0-'>mkdir vulkan </span><br /><span class='label'><a id='x5-20024r3'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> vulkan </span><br /><span class='label'><a id='x5-20025r4'></a></span><span class='t1-zi4r-0-'>wget https://sdk.lunarg.com/sdk/download/1.3.250.1/linux/vulkansdk-linux-x86_64-1.3.250.1.tar.gz </span><br /><span class='label'><a id='x5-20026r5'></a></span><span class='t1-zi4r-0-'>tar xf vulkansdk-linux-x86_64-1.3.250.1.tar.gz </span><br /><span class='label'><a id='x5-20027r6'></a></span><span class='t1-zi4r-0-'>rm -f vulkansdk-linux-x86_64-1.3.250.1.tar.gz </span><br /><span class='label'><a id='x5-20028r7'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VULKAN_SDK=~/vulkan/1.3.250.1/x86_64 </span><br /><span class='label'><a id='x5-20029r8'></a></span><span class='t1-zi4r-0-'>sudo cp -r $VULKAN_SDK/include/vulkan/ /usr/local/include/ </span><br /><span class='label'><a id='x5-20030r9'></a></span><span class='t1-zi4r-0-'>sudo cp -P $VULKAN_SDK/lib/libvulkan.so* /usr/local/lib/ </span><br /><span class='label'><a id='x5-20031r10'></a></span><span class='t1-zi4r-0-'>sudo cp $VULKAN_SDK/lib/libVkLayer_*.so /usr/local/lib/ </span><br /><span class='label'><a id='x5-20032r11'></a></span><span class='t1-zi4r-0-'>sudo mkdir -p /usr/local/share/vulkan/explicit_layer.d </span><br /><span class='label'><a id='x5-20033r12'></a></span><span class='t1-zi4r-0-'>sudo cp $VULKAN_SDK/etc/vulkan/explicit_layer.d/VkLayer_*.json \ </span><br /><span class='label'><a id='x5-20034r13'></a></span><span class='t1-zi4r-0-'>   /usr/local/share/vulkan/explicit_layer.d </span><br /><span class='label'><a id='x5-20035r14'></a></span><span class='t1-zi4r-0-'>sudo ldconfig</span>
          
      </div>
      </dd><dt class='enumerate'>
    4. </dt><dd class='enumerate'>Build scopehal and scopehal-apps:
-     <!-- l. 142 -->
-         <div class='lstlisting' id='listing-5'><span class='label'><a id='x5-20037r1'></a></span><span class='t1-zi4r-0-'># On Fedora, skip the following exports: </span><br /><span class='label'><a id='x5-20038r2'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VULKAN_SDK=~/vulkan/1.3.250.1/x86_64 </span><br /><span class='label'><a id='x5-20039r3'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> PATH=$VULKAN_SDK/bin:$PATH </span><br /><span class='label'><a id='x5-20040r4'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> LD_LIBRARY_PATH=$VULKAN_SDK/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH} </span><br /><span class='label'><a id='x5-20041r5'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VK_LAYER_PATH=$VULKAN_SDK/etc/vulkan/explicit_layer.d </span><br /><span class='label'><a id='x5-20042r6'></a></span><span class='t1-zi4r-0-'> </span><br /><span class='label'><a id='x5-20043r7'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-20044r8'></a></span><span class='t1-zi4r-0-'>git clone --recursive https://github.com/glscopeclient/scopehal-apps.git </span><br /><span class='label'><a id='x5-20045r9'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> scopehal-apps </span><br /><span class='label'><a id='x5-20046r10'></a></span><span class='t1-zi4r-0-'>mkdir build </span><br /><span class='label'><a id='x5-20047r11'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> build </span><br /><span class='label'><a id='x5-20048r12'></a></span><span class='t1-zi4r-0-'>cmake ../ -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr </span><br /><span class='label'><a id='x5-20049r13'></a></span><span class='t1-zi4r-0-'>make -j4</span>
+     <!-- l. 141 -->
+         <div class='lstlisting' id='listing-5'><span class='label'><a id='x5-20037r1'></a></span><span class='t1-zi4r-0-'># On Fedora, skip the following exports: </span><br /><span class='label'><a id='x5-20038r2'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VULKAN_SDK=~/vulkan/1.3.250.1/x86_64 </span><br /><span class='label'><a id='x5-20039r3'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> PATH=$VULKAN_SDK/bin:$PATH </span><br /><span class='label'><a id='x5-20040r4'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> LD_LIBRARY_PATH=$VULKAN_SDK/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH} </span><br /><span class='label'><a id='x5-20041r5'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VK_LAYER_PATH=$VULKAN_SDK/etc/vulkan/explicit_layer.d </span><br /><span class='label'><a id='x5-20042r6'></a></span><span class='t1-zi4r-0-'> </span><br /><span class='label'><a id='x5-20043r7'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-20044r8'></a></span><span class='t1-zi4r-0-'>git clone --recursive https://github.com/ngscopeclient/scopehal-apps.git </span><br /><span class='label'><a id='x5-20045r9'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> scopehal-apps </span><br /><span class='label'><a id='x5-20046r10'></a></span><span class='t1-zi4r-0-'>mkdir build </span><br /><span class='label'><a id='x5-20047r11'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> build </span><br /><span class='label'><a id='x5-20048r12'></a></span><span class='t1-zi4r-0-'>cmake ../ -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr </span><br /><span class='label'><a id='x5-20049r13'></a></span><span class='t1-zi4r-0-'>make -j4</span>
          
      </div>
                                                                                          
                                                                                          
      </dd><dt class='enumerate'>
    5. </dt><dd class='enumerate'>Install scopehal and scopehal-apps:
-     <!-- l. 160 -->
+     <!-- l. 159 -->
          <div class='lstlisting' id='listing-6'><span class='label'><a id='x5-20051r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~/scopehal-apps/build </span><br /><span class='label'><a id='x5-20052r2'></a></span><span class='t1-zi4r-0-'>sudo make install</span>
          
      </div>
      </dd></dl>
-<!-- l. 167 --><p class='noindent'>
+<!-- l. 166 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead'><span class='titlemark'>3.4.2   </span> <a id='x5-210003.4.2'></a>macOS</h4>
-<!-- l. 169 --><p class='noindent'>
+<!-- l. 168 --><p class='noindent'>
      </p><dl class='enumerate'><dt class='enumerate'>
    1. </dt><dd class='enumerate'>Install dependencies.
-     <!-- l. 172 --><p class='noindent'>With Homebrew (<a href='https://brew.sh'>brew.sh</a>):
+     <!-- l. 171 --><p class='noindent'>With Homebrew (<a href='https://brew.sh'>brew.sh</a>):
 </p>
-     <!-- l. 174 -->
+     <!-- l. 173 -->
          <div class='lstlisting' id='listing-7'><span class='label'><a id='x5-21002r1'></a></span><span class='t1-zi4r-0-'>brew install pkg-config gtk+3 gtkmm3 glfw cmake yaml-cpp glew catch2 libomp</span>
          
      </div>
      </dd><dt class='enumerate'>
    2. </dt><dd class='enumerate'>Install Vulkan SDK:
-     <!-- l. 180 --><p class='noindent'>Download and install the Vulkan SDK from <a href='https://sdk.lunarg.com/sdk/download/1.3.231.1/mac/vulkansdk-macos-1.3.231.1.dmg'>sdk.lunarg.com/sdk/download/1.3.231.1/mac/vulkansdk-macos-1.3.231.1.dmg</a>.
+     <!-- l. 179 --><p class='noindent'>Download and install the Vulkan SDK from <a href='https://sdk.lunarg.com/sdk/download/1.3.231.1/mac/vulkansdk-macos-1.3.231.1.dmg'>sdk.lunarg.com/sdk/download/1.3.231.1/mac/vulkansdk-macos-1.3.231.1.dmg</a>.
      </p></dd><dt class='enumerate'>
    3. </dt><dd class='enumerate'>Build scopehal and scopehal-apps:
-     <!-- l. 184 -->
-         <div class='lstlisting' id='listing-8'><span class='label'><a id='x5-21005r1'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VULKAN_SDK=~/VulkanSDK/1.3.231.1/macOS </span><br /><span class='label'><a id='x5-21006r2'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> PATH=${PATH}:${VULKAN_SDK}/bin:/opt/homebrew/bin </span><br /><span class='label'><a id='x5-21007r3'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-21008r4'></a></span><span class='t1-zi4r-0-'>git clone --recursive https://github.com/glscopeclient/scopehal-apps.git </span><br /><span class='label'><a id='x5-21009r5'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> scopehal-apps </span><br /><span class='label'><a id='x5-21010r6'></a></span><span class='t1-zi4r-0-'>mkdir build </span><br /><span class='label'><a id='x5-21011r7'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> build </span><br /><span class='label'><a id='x5-21012r8'></a></span><span class='t1-zi4r-0-'>cmake ../ -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr \ </span><br /><span class='label'><a id='x5-21013r9'></a></span><span class='t1-zi4r-0-'>   -DCMAKE_PREFIX_PATH="/opt/homebrew;/opt/homebrew/opt/libomp" </span><br /><span class='label'><a id='x5-21014r10'></a></span><span class='t1-zi4r-0-'>make -j4</span>
+     <!-- l. 183 -->
+         <div class='lstlisting' id='listing-8'><span class='label'><a id='x5-21005r1'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VULKAN_SDK=~/VulkanSDK/1.3.231.1/macOS </span><br /><span class='label'><a id='x5-21006r2'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> PATH=${PATH}:${VULKAN_SDK}/bin:/opt/homebrew/bin </span><br /><span class='label'><a id='x5-21007r3'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-21008r4'></a></span><span class='t1-zi4r-0-'>git clone --recursive https://github.com/ngscopeclient/scopehal-apps.git </span><br /><span class='label'><a id='x5-21009r5'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> scopehal-apps </span><br /><span class='label'><a id='x5-21010r6'></a></span><span class='t1-zi4r-0-'>mkdir build </span><br /><span class='label'><a id='x5-21011r7'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> build </span><br /><span class='label'><a id='x5-21012r8'></a></span><span class='t1-zi4r-0-'>cmake ../ -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr \ </span><br /><span class='label'><a id='x5-21013r9'></a></span><span class='t1-zi4r-0-'>   -DCMAKE_PREFIX_PATH="/opt/homebrew;/opt/homebrew/opt/libomp" </span><br /><span class='label'><a id='x5-21014r10'></a></span><span class='t1-zi4r-0-'>make -j4</span>
          
      </div>
      </dd><dt class='enumerate'>
    4. </dt><dd class='enumerate'>Install scopehal and scopehal-apps:
-     <!-- l. 199 --><p class='noindent'>Installation on macOS is not yet complete. The binaries can be found in the build directory, such as
+     <!-- l. 198 --><p class='noindent'>Installation on macOS is not yet complete. The binaries can be found in the build directory, such as
      ngscopeclient in $HOME/scopehal-apps/build/src/ngscopeclient.
 </p>
      </dd></dl>
                                                                                          
                                                                                          
-<!-- l. 204 --><p class='noindent'>
+<!-- l. 203 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead'><span class='titlemark'>3.4.3   </span> <a id='x5-220003.4.3'></a>Windows</h4>
-<!-- l. 206 --><p class='noindent'>On Windows, we make use of the MSYS2 development environment, which gives us access to the
+<!-- l. 205 --><p class='noindent'>On Windows, we make use of the MSYS2 development environment, which gives us access to the
 MingGW-w64 toolchain. Since this toolchain allows ngscopeclient to be compiled as a native Windows
 application, the project might be run outside of MSYS2.
-</p><!-- l. 210 --><p class='noindent'>
+</p><!-- l. 209 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead'><a id='x5-230003.4.3'></a>Installing from the package manager</h5>
-   <!-- l. 212 -->
+   <!-- l. 211 -->
     <div class='lstlisting' id='listing-9'><span class='label'><a id='x5-23001r1'></a></span><span class='t1-zi4r-0-'>pacman -Sy </span><br /><span class='label'><a id='x5-23002r2'></a></span><span class='t1-zi4r-0-'>pacman -S mingw-w64-x86_64-scopehal-apps</span>
     
    </div>
-<!-- l. 217 --><p class='indent'>   See also <a href='https://packages.msys2.org/group/mingw-w64-x86_64-eda'><span class='lstinline'></span><span class='t1-zi4r-0-'>mingw-w64-x86_64-eda</span></a>.
-</p><!-- l. 219 --><p class='noindent'>
+<!-- l. 216 --><p class='indent'>   See also <a href='https://packages.msys2.org/group/mingw-w64-x86_64-eda'><span class='lstinline'></span><span class='t1-zi4r-0-'>mingw-w64-x86_64-eda</span></a>.
+</p><!-- l. 218 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead'><a id='x5-240003.4.3'></a>Building from source</h5>
-<!-- l. 222 --><p class='noindent'>
+<!-- l. 221 --><p class='noindent'>
      </p><dl class='enumerate'><dt class='enumerate'>
    1. </dt><dd class='enumerate'>Download    and    install    MSYS2.    You    can    download    it    from    <a href='https://www.msys2.org/'>msys2.org</a>    or
      <a href='https://github.com/msys2/msys2-installer/releases'>github.com/msys2/msys2-installer/releases</a><br class='newline' />It is of utmost importance that <span class='ecbx-1095'>all </span>steps outlined on the website are followed precisely, even
      if they might seem unnecessary. This will avoid lots of hard to diagnose problems later on in
      the build.<br class='newline' />
-     <!-- l. 228 --><p class='noindent'>All following steps are to be done in a MinGW64 shell (<span class='ecbx-1095'>not </span>in a MSYS, MINGW32, CLANG64,
+     <!-- l. 227 --><p class='noindent'>All following steps are to be done in a MinGW64 shell (<span class='ecbx-1095'>not </span>in a MSYS, MINGW32, CLANG64,
      CLANG32 or UCRT64 shell, which also get installed by the MSYS2 installer).
      </p></dd><dt class='enumerate'>
    2. </dt><dd class='enumerate'>Install WiX Toolset v3.11 (required to build the Windows x64 MSI) You shall download and install
@@ -197,67 +197,67 @@ application, the project might be run outside of MSYS2.
      <pre class='verbatim' id='verbatim-1'>
      C:\Program Files (x86)\WiX Toolset v3.11
 </pre>
-     <!-- l. 232 --><p class='nopar'>https://wixtoolset.org/docs/wix3/
+     <!-- l. 231 --><p class='nopar'>https://wixtoolset.org/docs/wix3/
      </p></dd><dt class='enumerate'>
    3. </dt><dd class='enumerate'>Install git and the toolchain:
-     <!-- l. 237 -->
+     <!-- l. 236 -->
          <div class='lstlisting' id='listing-10'><span class='label'><a id='x5-24004r1'></a></span><span class='t1-zi4r-0-'>pacman -S git wget mingw-w64-x86_64-cmake mingw-w64-x86_64-toolchain</span>
          
      </div>
      </dd><dt class='enumerate'>
    4. </dt><dd class='enumerate'>Build glslang tags/sdk-1.3.224.1:
-     <!-- l. 243 --><p class='noindent'>Launch MSYS2 or MINGW64 as Administrator only for this step (it is mandatory to do the install
-     in default path C:<br class='newline' />VulkanSDK ...) </p><!-- l. 244 -->
+     <!-- l. 242 --><p class='noindent'>Launch MSYS2 or MINGW64 as Administrator only for this step (it is mandatory to do the install
+     in default path C:<br class='newline' />VulkanSDK ...) </p><!-- l. 243 -->
          <div class='lstlisting' id='listing-11'><span class='label'><a id='x5-24006r1'></a></span><span class='t1-zi4r-0-'># Windows mingw64 glslang build (as it is not fully integrated in </span><br /><span class='label'><a id='x5-24007r2'></a></span><span class='t1-zi4r-0-'># VulkanSDK-1.3.224.1 for Windows and built with Visual Studio 2017) </span><br /><span class='label'><a id='x5-24008r3'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-24009r4'></a></span><span class='t1-zi4r-0-'>git clone https://github.com/KhronosGroup/glslang.git </span><br /><span class='label'><a id='x5-24010r5'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> glslang </span><br /><span class='label'><a id='x5-24011r6'></a></span><span class='t1-zi4r-0-'>git checkout tags/sdk-1.3.224.1 </span><br /><span class='label'><a id='x5-24012r7'></a></span><span class='t1-zi4r-0-'>git clone https://github.com/google/googletest.git External/googletest </span><br /><span class='label'><a id='x5-24013r8'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> External/googletest </span><br /><span class='label'><a id='x5-24014r9'></a></span><span class='t1-zi4r-0-'>git checkout 0c400f67fcf305869c5fb113dd296eca266c9725 </span><br /><span class='label'><a id='x5-24015r10'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ../.. </span><br /><span class='label'><a id='x5-24016r11'></a></span><span class='t1-zi4r-0-'>./update_glslang_sources.py </span><br /><span class='label'><a id='x5-24017r12'></a></span><span class='t1-zi4r-0-'> </span><br /><span class='label'><a id='x5-24018r13'></a></span><span class='t1-zi4r-0-'>SOURCE_DIR=~/glslang </span><br /><span class='label'><a id='x5-24019r14'></a></span><span class='t1-zi4r-0-'>BUILD_DIR=$SOURCE_DIR/build </span><br /><span class='label'><a id='x5-24020r15'></a></span><span class='t1-zi4r-0-'>mkdir -p $BUILD_DIR </span><br /><span class='label'><a id='x5-24021r16'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> $BUILD_DIR </span><br /><span class='label'><a id='x5-24022r17'></a></span><span class='t1-zi4r-0-'>cmake -DCMAKE_BUILD_TYPE=Release -G"MinGW Makefiles" $SOURCE_DIR \ </span><br /><span class='label'><a id='x5-24023r18'></a></span><span class='t1-zi4r-0-'>   -DCMAKE_INSTALL_PREFIX="$(pwd)/install" </span><br /><span class='label'><a id='x5-24024r19'></a></span><span class='t1-zi4r-0-'>cmake --build . --config Release --target install</span>
          
      </div>
      </dd><dt class='enumerate'>
    5. </dt><dd class='enumerate'>Install Vulkan SDK:
-     <!-- l. 268 --><p class='noindent'>Launch MSYS2 or MINGW64 as Administrator only for this step (it is mandatory to do the install
-     in default path C:<br class='newline' />VulkanSDK ...) </p><!-- l. 269 -->
+     <!-- l. 267 --><p class='noindent'>Launch MSYS2 or MINGW64 as Administrator only for this step (it is mandatory to do the install
+     in default path C:<br class='newline' />VulkanSDK ...) </p><!-- l. 268 -->
          <div class='lstlisting' id='listing-12'><span class='label'><a id='x5-24026r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-24027r2'></a></span><span class='t1-zi4r-0-'>wget https://sdk.lunarg.com/sdk/download/1.3.224.1/windows/VulkanSDK-1.3.224.1-Installer.exe </span><br /><span class='label'><a id='x5-24028r3'></a></span><span class='t1-zi4r-0-'>./VulkanSDK-1.3.224.1-Installer.exe --accept-licenses --default-answer \ </span><br /><span class='label'><a id='x5-24029r4'></a></span><span class='t1-zi4r-0-'>   --confirm-command install </span><br /><span class='label'><a id='x5-24030r5'></a></span><span class='t1-zi4r-0-'>rm -f VulkanSDK-1.3.224.1-Installer.exe</span>
          
      </div>
      </dd><dt class='enumerate'>
    6. </dt><dd class='enumerate'>Check out the code
-     <!-- l. 279 -->
-         <div class='lstlisting' id='listing-13'><span class='label'><a id='x5-24032r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-24033r2'></a></span><span class='t1-zi4r-0-'>git clone --recursive https://github.com/glscopeclient/scopehal-apps</span>
+     <!-- l. 278 -->
+         <div class='lstlisting' id='listing-13'><span class='label'><a id='x5-24032r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-24033r2'></a></span><span class='t1-zi4r-0-'>git clone --recursive https://github.com/ngscopeclient/scopehal-apps</span>
          
      </div>
      </dd><dt class='enumerate'>
    7. </dt><dd class='enumerate'>Execute makepkg-mingw in subdir MSYS2:
-     <!-- l. 286 -->
+     <!-- l. 285 -->
          <div class='lstlisting' id='listing-14'><span class='label'><a id='x5-24035r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~/scopehal-apps/msys2 </span><br /><span class='label'><a id='x5-24036r2'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VK_SDK_PATH=/c/VulkanSDK/1.3.224.1 </span><br /><span class='label'><a id='x5-24037r3'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> PATH=$VK_SDK_PATH/Bin:$PATH </span><br /><span class='label'><a id='x5-24038r4'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> VULKAN_SDK=$VK_SDK_PATH </span><br /><span class='label'><a id='x5-24039r5'></a></span><span class='t1-zi4b-0-'>export</span><span class='t1-zi4r-0-'> GLSLANG_BUILD_PATH=~/glslang/build/install </span><br /><span class='label'><a id='x5-24040r6'></a></span><span class='t1-zi4r-0-'> </span><br /><span class='label'><a id='x5-24041r7'></a></span><span class='t1-zi4r-0-'>MINGW_ARCH=mingw64 makepkg-mingw --noconfirm --noprogressbar -sCLf</span>
          
      </div>
-     <!-- l. 296 --><p class='noindent'>The unit tests will not be run as part of this build - if you would like to run them, you will need to
+     <!-- l. 295 --><p class='noindent'>The unit tests will not be run as part of this build - if you would like to run them, you will need to
      provide catch2 (https://github.com/catchorg/Catch2), and remove the -DBUILD_TESTING=OFF
      flag from the PKGBUILD recipe in subdir msys2.
                                                                                          
                                                                                          
      </p></dd><dt class='enumerate'>
    8. </dt><dd class='enumerate'>Installing, copying binaries and running ngscopeclient.
-     <!-- l. 302 --><p class='noindent'>Since ngscopeclient is built using the MinGW toolchain, it depends on a rather large number of
+     <!-- l. 301 --><p class='noindent'>Since ngscopeclient is built using the MinGW toolchain, it depends on a rather large number of
      dynamic libraries. The recommended procedure is to install the package generated by
      makepkg-mingw on a MinGW64 shell:
 </p>
-     <!-- l. 305 -->
+     <!-- l. 304 -->
          <div class='lstlisting' id='listing-15'><span class='label'><a id='x5-24043r1'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> ~ </span><br /><span class='label'><a id='x5-24044r2'></a></span><span class='t1-zi4b-0-'>cd</span><span class='t1-zi4r-0-'> msys2 </span><br /><span class='label'><a id='x5-24045r3'></a></span><span class='t1-zi4r-0-'>pacman -U *.zst</span>
          
      </div>
-     <!-- l. 311 --><p class='noindent'>This is equivalent to the package installed through <span class='lstinline'></span><span class='t1-zi4r-0-'>pacman -S</span>, but it’s built from the checked out
+     <!-- l. 310 --><p class='noindent'>This is equivalent to the package installed through <span class='lstinline'></span><span class='t1-zi4r-0-'>pacman -S</span>, but it’s built from the checked out
      commit, instead of the pinned version available from MSYS2 repositories.
-     </p><!-- l. 314 --><p class='noindent'>The <span class='lstinline'></span><span class='t1-zi4r-0-'>*.zst</span> package includes metadata about the dependencies. Therefore, when installed through
+     </p><!-- l. 313 --><p class='noindent'>The <span class='lstinline'></span><span class='t1-zi4r-0-'>*.zst</span> package includes metadata about the dependencies. Therefore, when installed through
      <span class='lstinline'></span><span class='t1-zi4r-0-'>pacman</span>, those will be installed automatically. However, some users might want to use ngscopeclient
      outside of MSYS2. In those cases, it needs to be installed first, and then a tarball/zipfile can be
      created by collecting all the dependencies. This last approach is not officially supported
      yet.
 </p>
      </dd></dl>
-<!-- l. 322 --><p class='noindent'>
+<!-- l. 321 --><p class='noindent'>
 </p>
    <h3 class='sectionHead'><span class='titlemark'>3.5   </span> <a id='x5-250003.5'></a>Running ngscopeclient</h3>
-<!-- l. 324 --><p class='noindent'>When running ngscopeclient with no arguments, an empty session (Fig. <a href='#x5-25001r1'>3.1<!-- tex4ht:ref: empty-window  --></a>) is created. To perform useful
+<!-- l. 323 --><p class='noindent'>When running ngscopeclient with no arguments, an empty session (Fig. <a href='#x5-25001r1'>3.1<!-- tex4ht:ref: empty-window  --></a>) is created. To perform useful
 work, you can: </p>
      <ul class='itemize1'>
      <li class='itemize'>Open a saved session and reconnect to the instruments (<span class='t1-zi4r-0-x-x-109'>File | Open Online</span>)
@@ -278,15 +278,15 @@ work, you can: </p>
 <a id='x5-25001r1'></a>
                                                                                          
                                                                                          
-<!-- l. 337 --><p class='noindent'><img alt='PIC' src='ng-images/empty-window.png' width='341' height='199' />
+<!-- l. 336 --><p class='noindent'><img src='ng-images/empty-window.png' width='341' height='199' alt='PIC' />
 </p>
 <figcaption class='caption'><span class='id'>Figure 3.1:</span><span class='content'>Empty ngscopeclient session</span></figcaption><!-- tex4ht:label?: x5-25001r1  -->
                                                                                          
                                                                                          
    </figure>
    <h4 class='subsectionHead'><span class='titlemark'>3.5.1   </span> <a id='x5-260003.5.1'></a>Console verbosity arguments</h4>
-<!-- l. 369 --><p class='noindent'>ngscopeclient takes standard liblogtools arguments for controlling console debug verbosity.
-</p><!-- l. 371 --><p class='indent'>   If no verbosity level is specified, the default is “notice" (3). (We suggest using <span class='t1-zi4r-0-x-x-109'> debug </span>for routine use
+<!-- l. 368 --><p class='noindent'>ngscopeclient takes standard liblogtools arguments for controlling console debug verbosity.
+</p><!-- l. 370 --><p class='indent'>   If no verbosity level is specified, the default is “notice" (3). (We suggest using <span class='t1-zi4r-0-x-x-109'> debug </span>for routine use
 until the v1.0 release to aid in troubleshooting.)
 </p>
      <ul class='itemize1'>

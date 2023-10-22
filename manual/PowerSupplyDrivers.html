@@ -4,21 +4,23 @@
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='ngscopeclient-manual.css' type='text/css' rel='stylesheet' /> 
+<link type='text/css' href='ngscopeclient-manual.css' rel='stylesheet' /> 
 <meta name='src' content='ngscopeclient-manual.tex' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript' id='MathJax-script'></script>  
+ <script type='text/javascript' async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' id='MathJax-script'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='RFGeneratorDrivers.html'>next</a>] [<a href='OscilloscopeDrivers.html'>prev</a>] [<a href='OscilloscopeDrivers.html#tailOscilloscopeDrivers.html'>prev-tail</a>] [<a href='#tailPowerSupplyDrivers.html'>tail</a>] [<a href='ngscopeclient-manual.html#PowerSupplyDrivers.html'>up</a>] </p></div>
    <h2 class='chapterHead'><span class='titlemark'>Chapter 15</span><br /><a id='x17-11400015'></a>Power Supply Drivers</h2>
 <!-- l. 4 --><p class='noindent'>This chapter describes all of the available drivers for power supplies.
 </p>
    <h3 class='sectionHead'><span class='titlemark'>15.1   </span> <a id='x17-11500015.1'></a>GW Instek</h3>
-    <table class='tabular' id='TBL-95'><colgroup id='TBL-95-1g'><col id='TBL-95-1' /><col id='TBL-95-2' /><col id='TBL-95-3' /><col id='TBL-95-4' /></colgroup><tr id='TBL-95-1-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-95-1-1'> <span class='ecbx-1095'>Device Family   </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-95-1-2'> <span class='ecbx-1095'>Driver                </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-95-1-3'> <span class='ecbx-1095'>Transport </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-95-1-4'> <!-- l. 14 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                        </p></td>
-   </tr><tr id='TBL-95-2-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-95-2-1'> GPD-X303S series  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-95-2-2'> gwinstek_gpdx303s  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-95-2-3'> uart           </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-95-2-4'> <!-- l. 14 --><p class='noindent'>9600 Baud default. Tested
+   
+    <table class='tabular' id='TBL-113'><colgroup id='TBL-113-1g'><col id='TBL-113-1' /><col id='TBL-113-2' /><col id='TBL-113-3' /><col id='TBL-113-4' /></colgroup><tr style='vertical-align:baseline;' id='TBL-113-1-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-113-1-1'> <span class='ecbx-1095'>Device Family   </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-113-1-2'> <span class='ecbx-1095'>Driver                </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-113-1-3'> <span class='ecbx-1095'>Transport </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-113-1-4'> <!-- l. 14 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                        </p></td>
+   </tr><tr style='vertical-align:baseline;' id='TBL-113-2-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-113-2-1'> GPD-X303S series  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-113-2-2'> gwinstek_gpdx303s  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-113-2-3'> uart           </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-113-2-4'> <!-- l. 14 --><p class='noindent'>9600 Baud default. Tested
   with     GPD-3303S.     No
   support for tracking modes
   yet.                                </p></td>
+   
    </tr></table>
 <!-- l. 16 --><p class='noindent'>
 </p>
@@ -26,33 +28,49 @@
 <!-- l. 18 --><p class='noindent'>Supported models should include GPD-2303S, GPD-3303S, GPD-4303S, and GPD-3303D.
 </p><!-- l. 20 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>15.2   </span> <a id='x17-11700015.2'></a>Rohde &amp; Schwarz</h3>
-    <table class='tabular' id='TBL-99'><colgroup id='TBL-99-1g'><col id='TBL-99-1' /><col id='TBL-99-2' /><col id='TBL-99-3' /><col id='TBL-99-4' /></colgroup><tr id='TBL-99-1-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-99-1-1'> <span class='ecbx-1095'>Device Family </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-99-1-2'> <span class='ecbx-1095'>Driver       </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-99-1-3'> <span class='ecbx-1095'>Transport        </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-99-1-4'> <!-- l. 28 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                            </p></td>
-   </tr><tr id='TBL-99-2-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-99-2-1'> HMC804x series   </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-99-2-2'> rs_hmc804x  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-99-2-3'> uart, usbtmc, lan  </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-99-2-4'> <!-- l. 28 --><p class='noindent'>No    support    for    tracking
+   <h3 class='sectionHead'><span class='titlemark'>15.2   </span> <a id='x17-11700015.2'></a>Rigol</h3>
+   
+    <table class='tabular' id='TBL-117'><colgroup id='TBL-117-1g'><col id='TBL-117-1' /><col id='TBL-117-2' /><col id='TBL-117-3' /><col id='TBL-117-4' /></colgroup><tr style='vertical-align:baseline;' id='TBL-117-1-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-117-1-1'> <span class='ecbx-1095'>Device Family </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-117-1-2'> <span class='ecbx-1095'>Driver       </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-117-1-3'> <span class='ecbx-1095'>Transport        </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-117-1-4'> <!-- l. 28 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                            </p></td>
+   </tr><tr style='vertical-align:baseline;' id='TBL-117-2-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-117-2-1'> DP832, DP832A  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-117-2-2'> rigol_dp8xx  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-117-2-3'> uart, usbtmc, lan  </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-117-2-4'> <!-- l. 28 --><p class='noindent'>No    support    for    tracking
   modes yet.                          </p></td>
+   
    </tr></table>
 <!-- l. 30 --><p class='noindent'>
 </p>
-   <h4 class='subsectionHead'><span class='titlemark'>15.2.1   </span> <a id='x17-11800015.2.1'></a>rs_hmc804x</h4>
-<!-- l. 32 --><p class='noindent'>This driver should support the HMC8041, HMC8042, and HMC8043 but has only been tested on the
-HMC8042.
+   <h4 class='subsectionHead'><span class='titlemark'>15.2.1   </span> <a id='x17-11800015.2.1'></a>rigol_dp8xx</h4>
+<!-- l. 32 --><p class='noindent'>This driver supports the DP832 and DP832A.
 </p><!-- l. 34 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>15.3   </span> <a id='x17-11900015.3'></a>Siglent</h3>
+   <h3 class='sectionHead'><span class='titlemark'>15.3   </span> <a id='x17-11900015.3'></a>Rohde &amp; Schwarz</h3>
                                                                                          
                                                                                          
-    <table class='tabular' id='TBL-103'><colgroup id='TBL-103-1g'><col id='TBL-103-1' /><col id='TBL-103-2' /><col id='TBL-103-3' /><col id='TBL-103-4' /></colgroup><tr id='TBL-103-1-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-103-1-1'> <span class='ecbx-1095'>Device Family </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-103-1-2'> <span class='ecbx-1095'>Driver      </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-103-1-3'> <span class='ecbx-1095'>Transport </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-103-1-4'> <!-- l. 42 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                                   </p></td>
-   </tr><tr id='TBL-103-2-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-103-2-1'> SPD3303X series  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-103-2-2'> siglent_spd  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-103-2-3'> lan             </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-103-2-4'> <!-- l. 42 --><p class='noindent'>Tested with SPD3303X-E               </p></td>
+   
+    <table class='tabular' id='TBL-121'><colgroup id='TBL-121-1g'><col id='TBL-121-1' /><col id='TBL-121-2' /><col id='TBL-121-3' /><col id='TBL-121-4' /></colgroup><tr style='vertical-align:baseline;' id='TBL-121-1-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-121-1-1'> <span class='ecbx-1095'>Device Family </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-121-1-2'> <span class='ecbx-1095'>Driver       </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-121-1-3'> <span class='ecbx-1095'>Transport        </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-121-1-4'> <!-- l. 42 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                            </p></td>
+   </tr><tr style='vertical-align:baseline;' id='TBL-121-2-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-121-2-1'> HMC804x series   </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-121-2-2'> rs_hmc804x  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-121-2-3'> uart, usbtmc, lan  </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-121-2-4'> <!-- l. 42 --><p class='noindent'>No    support    for    tracking
+  modes yet.                          </p></td>
+   
    </tr></table>
 <!-- l. 44 --><p class='noindent'>
 </p>
-   <h4 class='subsectionHead'><span class='titlemark'>15.3.1   </span> <a id='x17-12000015.3.1'></a>siglent_spd</h4>
-<!-- l. 46 --><p class='noindent'>Supported models should include SPD3303X, SPD3303X-E.
-</p><!-- l. 48 --><p class='indent'>   NOTE: Channel 3 of the SPD3303x series does not support software voltage/current adjustment. It has
+   <h4 class='subsectionHead'><span class='titlemark'>15.3.1   </span> <a id='x17-12000015.3.1'></a>rs_hmc804x</h4>
+<!-- l. 46 --><p class='noindent'>This driver should support the HMC8041, HMC8042, and HMC8043 but has only been tested on the
+HMC8042.
+</p><!-- l. 48 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>15.4   </span> <a id='x17-12100015.4'></a>Siglent</h3>
+   
+    <table class='tabular' id='TBL-125'><colgroup id='TBL-125-1g'><col id='TBL-125-1' /><col id='TBL-125-2' /><col id='TBL-125-3' /><col id='TBL-125-4' /></colgroup><tr style='vertical-align:baseline;' id='TBL-125-1-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-125-1-1'> <span class='ecbx-1095'>Device Family </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-125-1-2'> <span class='ecbx-1095'>Driver      </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-125-1-3'> <span class='ecbx-1095'>Transport </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-125-1-4'> <!-- l. 56 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                                   </p></td>
+   </tr><tr style='vertical-align:baseline;' id='TBL-125-2-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-125-2-1'> SPD3303X series  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-125-2-2'> siglent_spd  </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-125-2-3'> lan             </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-125-2-4'> <!-- l. 56 --><p class='noindent'>Tested with SPD3303X-E               </p></td>
+   </tr></table>
+<!-- l. 58 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>15.4.1   </span> <a id='x17-12200015.4.1'></a>siglent_spd</h4>
+<!-- l. 60 --><p class='noindent'>Supported models should include SPD3303X, SPD3303X-E.
+</p><!-- l. 62 --><p class='indent'>   NOTE: Channel 3 of the SPD3303x series does not support software voltage/current adjustment. It has
 a fixed current limit of 3.2A, and output voltage selectable to 2.5, 3.3, or 5V via a mechanical switch.
 While channel 3 can be turned on and off under software control, there is no readback capability
 whatsoever for channel 3 in the SCPI API.
-</p><!-- l. 52 --><p class='indent'>   As a result - regardless of actual hardware state - the driver will report channel 3 as being in constant
+</p><!-- l. 66 --><p class='indent'>   As a result - regardless of actual hardware state - the driver will report channel 3 as being in constant
 voltage mode. Additionally, the driver will report channel 3 as being off until it is turned on by software.
 Once the output has been turned on, the driver will track the state and report a correct on/off state as
 long as no front panel control buttons are touched.

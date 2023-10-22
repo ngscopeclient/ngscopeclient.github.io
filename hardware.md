@@ -22,14 +22,14 @@ For full details on which features are or are not supported by particular driver
 
 # Digilent
 
-* Analog Discovery via [bridge server](https://github.com/glscopeclient/scopehal-waveforms-bridge)
-* Analog Discovery 2 via [bridge server](https://github.com/glscopeclient/scopehal-waveforms-bridge)
-* Analog Discovery Pro via [bridge server](https://github.com/glscopeclient/scopehal-waveforms-bridge)
+* Analog Discovery via [bridge server](https://github.com/ngscopeclient/scopehal-waveforms-bridge)
+* Analog Discovery 2 via [bridge server](https://github.com/ngscopeclient/scopehal-waveforms-bridge)
+* Analog Discovery Pro via [bridge server](https://github.com/ngscopeclient/scopehal-waveforms-bridge)
 
 # DreamSource Lab
 
-* DScope U3P100 via [bridge server](https://github.com/glscopeclient/scopehal-sigrok-bridge)
-* DSLogic U3P16 via [bridge server](https://github.com/glscopeclient/scopehal-sigrok-bridge)
+* DScope U3P100 via [bridge server](https://github.com/ngscopeclient/scopehal-sigrok-bridge)
+* DSLogic U3P16 via [bridge server](https://github.com/ngscopeclient/scopehal-sigrok-bridge)
 
 # EEVengers
 
@@ -48,13 +48,13 @@ For full details on which features are or are not supported by particular driver
 
 # MultiLane
 
-* ML4039 BERT via [bridge server](https://github.com/glscopeclient/scopehal-mlbert-bridge)
+* ML4039 BERT via [bridge server](https://github.com/ngscopeclient/scopehal-mlbert-bridge)
 
 # Pico
 
 * All VNAs supported by PicoVNA 5 software (PicoVNA 106, 108)
-* 3000D series via [bridge server](https://github.com/glscopeclient/scopehal-pico-bridge)
-* 6000E series via [bridge server](https://github.com/glscopeclient/scopehal-pico-bridge)
+* 3000D series via [bridge server](https://github.com/ngscopeclient/scopehal-pico-bridge)
+* 6000E series via [bridge server](https://github.com/ngscopeclient/scopehal-pico-bridge)
 
 # Rigol
 

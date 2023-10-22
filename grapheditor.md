@@ -26,7 +26,7 @@ A new filter block is a single C++ class which can chain before and after existi
 
 Filter blocks can be loaded from binary plugins, allowing easy distribution of filters without needing to build a custom version of libscopehal from source every time you install a new decode.
 
-The QSGMII protocol decode shown here took less than a day of engineering time to develop due to this ability to leverage existing decodes, and the [source code](https://github.com/glscopeclient/scopehal/blob/master/scopeprotocols/QSGMIIDecoder.cpp) was under 175 lines including comments. It accepts a single 5 Gbps 8B/10B stream and outputs four demuxed 1.25 Gbps 8B/10B streams which can be used as input to the existing SGMII decode.
+The QSGMII protocol decode shown here took less than a day of engineering time to develop due to this ability to leverage existing decodes, and the [source code](https://github.com/ngscopeclient/scopehal/blob/master/scopeprotocols/QSGMIIDecoder.cpp) was under 175 lines including comments. It accepts a single 5 Gbps 8B/10B stream and outputs four demuxed 1.25 Gbps 8B/10B streams which can be used as input to the existing SGMII decode.
 
 <img src="images/filtergraph1.png" alt="Filter graph example screenshot"/>
 

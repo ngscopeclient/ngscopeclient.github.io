@@ -4,26 +4,24 @@
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='ngscopeclient-manual.css' type='text/css' rel='stylesheet' /> 
+<link type='text/css' href='ngscopeclient-manual.css' rel='stylesheet' /> 
 <meta name='src' content='ngscopeclient-manual.tex' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript' id='MathJax-script'></script>  
+ <script type='text/javascript' async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' id='MathJax-script'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='FunctionGeneratorDrivers.html'>next</a>] [<a href='Transports.html'>prev</a>] [<a href='Transports.html#tailTransports.html'>prev-tail</a>] [<a href='#tailBERTDrivers.html'>tail</a>] [<a href='ngscopeclient-manual.html#BERTDrivers.html'>up</a>] </p></div>
    <h2 class='chapterHead'><span class='titlemark'>Chapter 10</span><br /><a id='x12-5900010'></a>BERT Drivers</h2>
 <!-- l. 4 --><p class='noindent'>This chapter describes all of the available drivers for bit error rate testers (BERTs)
 </p>
    <h3 class='sectionHead'><span class='titlemark'>10.1   </span> <a id='x12-6000010.1'></a>MultiLANE</h3>
-    <table class='tabular' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /><col id='TBL-3-3' /><col id='TBL-3-4' /></colgroup><tr id='TBL-3-1-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-3-1-1'>
-    <span class='ecbx-1095'>Device Family</span>                                                                                           </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-3-1-2'> <span class='ecbx-1095'>Driver </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-3-1-3'> <span class='ecbx-1095'>Transport </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-3-1-4'> <!-- l. 14 --><p class='noindent'><span class='ecbx-1095'>Notes</span> </p> </td>
-   </tr><tr id='TBL-3-2-' style='vertical-align:baseline;'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-3-2-1'>
-    ML4039                                                                                                                     </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-3-2-2'> mlbert   </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-3-2-3'> lan             </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-3-2-4'> <!-- l. 14 --><p class='noindent'>Use
-  <a href='https://github.com/glscopeclient/scopehal-mlbert-bridge'>scopehal-mlbert-bridge</a> </p> </td>
+   
+    <table class='tabular' id='TBL-5'><colgroup id='TBL-5-1g'><col id='TBL-5-1' /><col id='TBL-5-2' /><col id='TBL-5-3' /><col id='TBL-5-4' /></colgroup><tr style='vertical-align:baseline;' id='TBL-5-1-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-5-1-1'> <span class='ecbx-1095'>Device Family </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-5-1-2'> <span class='ecbx-1095'>Driver </span></td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-5-1-3'> <span class='ecbx-1095'>Transport </span></td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-5-1-4'> <!-- l. 14 --><p class='noindent'><span class='ecbx-1095'>Notes</span>                                        </p></td>
+   </tr><tr style='vertical-align:baseline;' id='TBL-5-2-'><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-5-2-1'> ML4039             </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-5-2-2'> mlbert   </td><td style='white-space:nowrap; text-align:left;' class='td11' id='TBL-5-2-3'> lan             </td><td style='white-space:normal; text-align:left;' class='td11' id='TBL-5-2-4'> <!-- l. 14 --><p class='noindent'>Use <a href='https://github.com/ngscopeclient/scopehal-mlbert-bridge'>scopehal-mlbert-bridge</a>                   </p></td>
    </tr></table>
 <!-- l. 16 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead'><span class='titlemark'>10.1.1   </span> <a id='x12-6100010.1.1'></a>mlbert</h4>
-<!-- l. 18 --><p class='noindent'>This driver is intended to connect via the <a href='https://github.com/glscopeclient/scopehal-mlbert-bridge'>scopehal-mlbert-bridge</a> server for network transparency and does
+<!-- l. 18 --><p class='noindent'>This driver is intended to connect via the <a href='https://github.com/ngscopeclient/scopehal-mlbert-bridge'>scopehal-mlbert-bridge</a> server for network transparency and does
 not directly link to the MultiLANE SDK or talk directly to the instrument. The bridge requires a
 Windows PC since MultiLANE’s SDK is Windows only, however the libscopehal clientside driver can run
 on any supported OS.
