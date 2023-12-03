@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <html lang="en-US" xml:lang="en-US" > 
-<head><title>14 Oscilloscope Drivers</title> 
+<head><title>15 Oscilloscope Drivers</title> 
 <meta  charset="utf-8" /> 
 <meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
 <meta name="viewport" content="width=device-width,initial-scale=1" /> 
@@ -12,204 +12,87 @@
 >
    <!--l. 1--><div class="crosslinks"><p class="noindent">[<a 
 href="PowerSupplyDrivers.html" >next</a>] [<a 
-href="MultimeterDrivers.html" >prev</a>] [<a 
-href="MultimeterDrivers.html#tailMultimeterDrivers.html" >prev-tail</a>] [<a 
+href="MiscellaneousDrivers.html" >prev</a>] [<a 
+href="MiscellaneousDrivers.html#tailMiscellaneousDrivers.html" >prev-tail</a>] [<a 
 href="#tailOscilloscopeDrivers.html">tail</a>] [<a 
 href="ngscopeclient-manual.html#OscilloscopeDrivers.html" >up</a>] </p></div>
-   <h2 class="chapterHead"><span class="titlemark">Chapter 14</span><br /><a 
- id="x16-7100014"></a>Oscilloscope Drivers</h2>
+   <h2 class="chapterHead"><span class="titlemark">Chapter 15</span><br /><a 
+ id="x17-7400015"></a>Oscilloscope Drivers</h2>
 <!--l. 4--><p class="noindent" >This chapter describes all of the available drivers for oscilloscopes and logic analyzers.
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.1   </span> <a 
- id="x16-7200014.1"></a>Agilent</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.1   </span> <a 
+ id="x17-7500015.1"></a>Agilent</h3>
 <!--l. 8--><p class="noindent" >Agilent devices support a similar similar SCPI command set across most device families.
 </p><!--l. 10--><p class="indent" >   Please see the table below for details of current hardware support:
-   
-    <table id="TBL-21" class="tabular" 
- 
-><colgroup id="TBL-21-1g"><col 
-id="TBL-21-1" /><col 
-id="TBL-21-2" /><col 
-id="TBL-21-3" /><col 
-id="TBL-21-4" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-21-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-21-1-1"  
-class="td11"> <span 
-class="ecbx-1095">Device Family              </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-1-2"  
-class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-1-3"  
-class="td11"> <span 
-class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-21-1-4"  
-class="td11"> <!--l. 26--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                           </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-21-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-21-2-1"  
-class="td11"> DSO5000 series                   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-2-2"  
-class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-2-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-21-2-4"  
-class="td11"> <!--l. 26--><p class="noindent" >Not   recently   tested,   but
-  should work.                       </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-21-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-21-3-1"  
-class="td11"> DSO6000 &#x0026; MSO6000 series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-3-2"  
-class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-3-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-21-3-4"  
-class="td11"> <!--l. 26--><p class="noindent" >Working.   No   support   for
-  digital channels yet.             </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-21-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-21-4-1"  
-class="td11"> DSO7000 &#x0026; MSO7000 series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-4-2"  
-class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-4-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-21-4-4"  
-class="td11"> <!--l. 26--><p class="noindent" >Untested,
-  but should work. No support
-  for digital channels yet.         </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-21-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-21-5-1"  
-class="td11"> MSOX-2000 series               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-5-2"  
-class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-5-3"  
-class="td11"> lan             </td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-21-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-21-6-1"  
-class="td11"> MSOX-3000 series               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-6-2"  
-class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-21-6-3"  
-class="td11"> lan             </td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-21-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-21-7-1"  
-class="td11">                           </td>
-      </tr></table>
-<!--l. 28--><p class="noindent" >
-</p>
-   <h4 class="subsectionHead"><span class="titlemark">14.1.1   </span> <a 
- id="x16-7300014.1.1"></a>agilent</h4>
-<!--l. 30--><p class="noindent" >
-</p>
-   <h5 class="subsubsectionHead"><a 
- id="x16-7400014.1.1"></a>Typical Performance (MSO6034A, LAN)</h5>
-<!--l. 32--><p class="noindent" >Interestingly, performance sometimes gets better with more channels or deeper memory. Not sure
-why.
-                                                                                         
-                                                                                         
    
     <table id="TBL-25" class="tabular" 
  
 ><colgroup id="TBL-25-1g"><col 
 id="TBL-25-1" /><col 
 id="TBL-25-2" /><col 
-id="TBL-25-3" /></colgroup><tr  
+id="TBL-25-3" /><col 
+id="TBL-25-4" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-25-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-1-2"  
+class="ecbx-1095">Device Family              </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-25-1-3"  
-class="td11"> <!--l. 76--><p class="noindent" ><span 
-class="ecbx-1095">WFM/s</span>                                                   </p></td>
+class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-1-3"  
+class="td11"> <span 
+class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-25-1-4"  
+class="td11"> <!--l. 26--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                           </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-25-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-2-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-2-2"  
-class="td11"> 1K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-2-3"  
-class="td11"> <!--l. 76--><p class="noindent" >66                                                                    </p></td>
+class="td11"> DSO5000 series                   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-2-2"  
+class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-2-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-25-2-4"  
+class="td11"> <!--l. 26--><p class="noindent" >Not   recently   tested,   but
+  should work.                       </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-25-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-3-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-3-2"  
-class="td11"> 1K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-3-3"  
-class="td11"> <!--l. 76--><p class="noindent" >33                                                                    </p></td>
+class="td11"> DSO6000 &#x0026; MSO6000 series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-3-2"  
+class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-3-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-25-3-4"  
+class="td11"> <!--l. 26--><p class="noindent" >Working.   No   support   for
+  digital channels yet.             </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-25-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-4-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-4-2"  
-class="td11"> 4K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-4-3"  
-class="td11"> <!--l. 76--><p class="noindent" >33                                                                    </p></td>
+class="td11"> DSO7000 &#x0026; MSO7000 series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-4-2"  
+class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-4-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-25-4-4"  
+class="td11"> <!--l. 26--><p class="noindent" >Untested,
+  but should work. No support
+  for digital channels yet.         </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-25-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-5-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-5-2"  
-class="td11"> 40K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-25-5-3"  
-class="td11"> <!--l. 76--><p class="noindent" >33                                                                    </p></td>
+class="td11"> MSOX-2000 series               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-5-2"  
+class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-5-3"  
+class="td11"> lan             </td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-25-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-6-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-6-2"  
-class="td11"> 4K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-6-3"  
-class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
+class="td11"> MSOX-3000 series               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-6-2"  
+class="td11"> agilent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-6-3"  
+class="td11"> lan             </td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-25-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-7-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-7-2"  
-class="td11"> 20K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-25-7-3"  
-class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-8-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-8-2"  
-class="td11"> 20K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-25-8-3"  
-class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-9-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-9-2"  
-class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-25-9-3"  
-class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-10-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-10-2"  
-class="td11"> 10K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-25-10-3"  
-class="td11"> <!--l. 76--><p class="noindent" >17                                                                    </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-11-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-11-2"  
-class="td11"> 40K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-25-11-3"  
-class="td11"> <!--l. 76--><p class="noindent" >12                                                                    </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-12-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-12-2"  
-class="td11"> 200K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-25-12-3"  
-class="td11"> <!--l. 76--><p class="noindent" >11                                                                    </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-13-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-13-2"  
-class="td11"> 400K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-25-13-3"  
-class="td11"> <!--l. 76--><p class="noindent" >8                                                                     </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-14-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-14-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-14-2"  
-class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-25-14-3"  
-class="td11"> <!--l. 76--><p class="noindent" >6.5                                                                   </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-15-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-15-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-15-2"  
-class="td11"> 200K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-25-15-3"  
-class="td11"> <!--l. 76--><p class="noindent" >4                                                                     </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-16-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-16-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-16-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-16-3"  
-class="td11"> <!--l. 76--><p class="noindent" >3.7                                                                   </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-17-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-17-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-17-2"  
-class="td11"> 400K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-25-17-3"  
-class="td11"> <!--l. 76--><p class="noindent" >2.3                                                                   </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-18-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-18-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-18-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-18-3"  
-class="td11"> <!--l. 76--><p class="noindent" >1                                                                     </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-19-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-19-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-19-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-19-3"  
-class="td11"> <!--l. 76--><p class="noindent" >1                                                                     </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-20-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-20-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-25-20-2"  
-class="td11"> 4M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-25-20-3"  
-class="td11"> <!--l. 76--><p class="noindent" >0.2                                                                   </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-25-21-"><td  style="white-space:nowrap; text-align:left;" id="TBL-25-21-1"  
-class="td11">            </td>
+class="td11">                           </td>
       </tr></table>
-<!--l. 78--><p class="noindent" >
+<!--l. 28--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">15.1.1   </span> <a 
+ id="x17-7600015.1.1"></a>agilent</h4>
+<!--l. 30--><p class="noindent" >
 </p>
    <h5 class="subsubsectionHead"><a 
- id="x16-7500014.1.1"></a>Typical Performance (MSOX3104T, LAN)</h5>
+ id="x17-7700015.1.1"></a>Typical Performance (MSO6034A, LAN)</h5>
+<!--l. 32--><p class="noindent" >Interestingly, performance sometimes gets better with more channels or deeper memory. Not sure
+why.
+                                                                                         
+                                                                                         
    
     <table id="TBL-29" class="tabular" 
  
@@ -222,36 +105,111 @@ class="td11"> <span
 class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-1-2"  
 class="td11"> <span 
 class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-29-1-3"  
-class="td11"> <!--l. 92--><p class="noindent" ><span 
+class="td11"> <!--l. 76--><p class="noindent" ><span 
 class="ecbx-1095">WFM/s</span>                                                   </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-29-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-2-1"  
 class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-2-2"  
-class="td11"> 2.5K                  </td><td  style="white-space:normal; text-align:left;" id="TBL-29-2-3"  
-class="td11"> <!--l. 92--><p class="noindent" >3.3                                                                   </p></td>
+class="td11"> 1K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-2-3"  
+class="td11"> <!--l. 76--><p class="noindent" >66                                                                    </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-29-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-3-1"  
 class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-3-2"  
-class="td11"> 2.5K                  </td><td  style="white-space:normal; text-align:left;" id="TBL-29-3-3"  
-class="td11"> <!--l. 92--><p class="noindent" >2.5                                                                   </p></td>
+class="td11"> 1K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-3-3"  
+class="td11"> <!--l. 76--><p class="noindent" >33                                                                    </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-29-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-4-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-4-2"  
-class="td11"> 2.5M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-29-4-3"  
-class="td11"> <!--l. 92--><p class="noindent" >1.0                                                                   </p></td>
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-4-2"  
+class="td11"> 4K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-4-3"  
+class="td11"> <!--l. 76--><p class="noindent" >33                                                                    </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-29-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-5-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-5-2"  
-class="td11"> 2.0M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-29-5-3"  
-class="td11"> <!--l. 92--><p class="noindent" >0.5                                                                   </p></td>
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-5-2"  
+class="td11"> 40K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-29-5-3"  
+class="td11"> <!--l. 76--><p class="noindent" >33                                                                    </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-29-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-6-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-6-2"  
+class="td11"> 4K                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-6-3"  
+class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-7-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-7-2"  
+class="td11"> 20K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-29-7-3"  
+class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-8-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-8-2"  
+class="td11"> 20K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-29-8-3"  
+class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-9-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-9-2"  
+class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-29-9-3"  
+class="td11"> <!--l. 76--><p class="noindent" >22                                                                    </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-10-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-10-2"  
+class="td11"> 10K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-29-10-3"  
+class="td11"> <!--l. 76--><p class="noindent" >17                                                                    </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-11-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-11-2"  
+class="td11"> 40K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-29-11-3"  
+class="td11"> <!--l. 76--><p class="noindent" >12                                                                    </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-12-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-12-2"  
+class="td11"> 200K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-29-12-3"  
+class="td11"> <!--l. 76--><p class="noindent" >11                                                                    </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-13-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-13-2"  
+class="td11"> 400K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-29-13-3"  
+class="td11"> <!--l. 76--><p class="noindent" >8                                                                     </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-14-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-14-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-14-2"  
+class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-29-14-3"  
+class="td11"> <!--l. 76--><p class="noindent" >6.5                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-15-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-15-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-15-2"  
+class="td11"> 200K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-29-15-3"  
+class="td11"> <!--l. 76--><p class="noindent" >4                                                                     </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-16-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-16-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-16-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-16-3"  
+class="td11"> <!--l. 76--><p class="noindent" >3.7                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-17-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-17-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-17-2"  
+class="td11"> 400K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-29-17-3"  
+class="td11"> <!--l. 76--><p class="noindent" >2.3                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-18-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-18-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-18-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-18-3"  
+class="td11"> <!--l. 76--><p class="noindent" >1                                                                     </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-19-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-19-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-19-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-19-3"  
+class="td11"> <!--l. 76--><p class="noindent" >1                                                                     </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-20-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-20-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-29-20-2"  
+class="td11"> 4M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-29-20-3"  
+class="td11"> <!--l. 76--><p class="noindent" >0.2                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-29-21-"><td  style="white-space:nowrap; text-align:left;" id="TBL-29-21-1"  
 class="td11">            </td>
       </tr></table>
-<!--l. 94--><p class="noindent" >
+<!--l. 78--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.2   </span> <a 
- id="x16-7600014.2"></a>Antikernel Labs</h3>
+   <h5 class="subsubsectionHead"><a 
+ id="x17-7800015.1.1"></a>Typical Performance (MSOX3104T, LAN)</h5>
    
     <table id="TBL-33" class="tabular" 
  
@@ -261,45 +219,87 @@ id="TBL-33-2" /><col
 id="TBL-33-3" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-33-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Device Family                      </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-1-2"  
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-33-1-3"  
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-33-1-3"  
+class="td11"> <!--l. 92--><p class="noindent" ><span 
+class="ecbx-1095">WFM/s</span>                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-33-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-2-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-2-2"  
+class="td11"> 2.5K                  </td><td  style="white-space:normal; text-align:left;" id="TBL-33-2-3"  
+class="td11"> <!--l. 92--><p class="noindent" >3.3                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-33-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-3-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-3-2"  
+class="td11"> 2.5K                  </td><td  style="white-space:normal; text-align:left;" id="TBL-33-3-3"  
+class="td11"> <!--l. 92--><p class="noindent" >2.5                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-33-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-4-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-4-2"  
+class="td11"> 2.5M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-33-4-3"  
+class="td11"> <!--l. 92--><p class="noindent" >1.0                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-33-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-5-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-5-2"  
+class="td11"> 2.0M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-33-5-3"  
+class="td11"> <!--l. 92--><p class="noindent" >0.5                                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-33-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-6-1"  
+class="td11">            </td>
+      </tr></table>
+<!--l. 94--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">15.2   </span> <a 
+ id="x17-7900015.2"></a>Antikernel Labs</h3>
+   
+    <table id="TBL-37" class="tabular" 
+ 
+><colgroup id="TBL-37-1g"><col 
+id="TBL-37-1" /><col 
+id="TBL-37-2" /><col 
+id="TBL-37-3" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-37-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-37-1-1"  
+class="td11"> <span 
+class="ecbx-1095">Device Family                      </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-37-1-2"  
+class="td11"> <span 
+class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-37-1-3"  
 class="td11"> <!--l. 104--><p class="noindent" ><span 
 class="ecbx-1095">Notes</span>                                      </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-33-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-2-1"  
-class="td11"> Internal Logic Analyzer IP            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-2-2"  
-class="td11"> akila     </td><td  style="white-space:normal; text-align:left;" id="TBL-33-2-3"  
+ style="vertical-align:baseline;" id="TBL-37-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-37-2-1"  
+class="td11"> Internal Logic Analyzer IP            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-37-2-2"  
+class="td11"> akila     </td><td  style="white-space:normal; text-align:left;" id="TBL-37-2-3"  
 class="td11"> <!--l. 104--><p class="noindent" >                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-33-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-3-1"  
-class="td11"> BLONDEL Oscilloscope Prototype  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-33-3-2"  
-class="td11"> aklabs   </td><td  style="white-space:normal; text-align:left;" id="TBL-33-3-3"  
+ style="vertical-align:baseline;" id="TBL-37-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-37-3-1"  
+class="td11"> BLONDEL Oscilloscope Prototype  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-37-3-2"  
+class="td11"> aklabs   </td><td  style="white-space:normal; text-align:left;" id="TBL-37-3-3"  
 class="td11"> <!--l. 104--><p class="noindent" >                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-33-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-33-4-1"  
+ style="vertical-align:baseline;" id="TBL-37-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-37-4-1"  
 class="td11">                                 </td>
       </tr></table>
 <!--l. 106--><p class="noindent" >
 </p>
                                                                                          
                                                                                          
-   <h4 class="subsectionHead"><span class="titlemark">14.2.1   </span> <a 
- id="x16-7700014.2.1"></a>akila</h4>
+   <h4 class="subsectionHead"><span class="titlemark">15.2.1   </span> <a 
+ id="x17-8000015.2.1"></a>akila</h4>
 <!--l. 108--><p class="noindent" >This driver uses a raw binary protocol, not SCPI.
 </p><!--l. 110--><p class="indent" >   Under-development internal logic analyzer analyzer core for FPGA design debug. The ILA uses a
 UART interface to a host system. Since there’s no UART support in scopehal yet, socat must be used to
 bridge the UART to a TCP socket using the “lan&#x0022; transport.
 </p><!--l. 114--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.2.2   </span> <a 
- id="x16-7800014.2.2"></a>aklabs</h4>
+   <h4 class="subsectionHead"><span class="titlemark">15.2.2   </span> <a 
+ id="x17-8100015.2.2"></a>aklabs</h4>
 <!--l. 116--><p class="noindent" >This driver uses two TCP sockets. Port 5025 is used for SCPI control plane traffic, and port 50101 is used
 for waveform data using a raw binary protocol.
 </p><!--l. 119--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.3   </span> <a 
- id="x16-7900014.3"></a>Demo</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.3   </span> <a 
+ id="x17-8200015.3"></a>Demo</h3>
 <!--l. 121--><p class="noindent" >The “demo&#x0022; driver is a simulation-only driver for development and training purposes, and does not connect
 to real hardware.
 </p><!--l. 124--><p class="indent" >   It ignores any transport provided, and is normally used with the “null&#x0022; transport.
@@ -321,38 +321,38 @@ properties)
      </li>
      <li class="itemize">1.25 Gbps repeating two 8B/10B symbols (K28.5 D16.2)</li></ul>
    
-    <table id="TBL-37" class="tabular" 
+    <table id="TBL-41" class="tabular" 
  
-><colgroup id="TBL-37-1g"><col 
-id="TBL-37-1" /><col 
-id="TBL-37-2" /><col 
-id="TBL-37-3" /><col 
-id="TBL-37-4" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-37-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-37-1-1"  
+><colgroup id="TBL-41-1g"><col 
+id="TBL-41-1" /><col 
+id="TBL-41-2" /><col 
+id="TBL-41-3" /><col 
+id="TBL-41-4" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-41-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-37-1-2"  
+class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-37-1-3"  
+class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-1-3"  
 class="td11"> <span 
-class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-37-1-4"  
+class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-41-1-4"  
 class="td11"> <!--l. 148--><p class="noindent" ><span 
 class="ecbx-1095">Notes</span>                                        </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-37-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-37-2-1"  
-class="td11"> Simulator           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-37-2-2"  
-class="td11"> demo    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-37-2-3"  
-class="td11"> null            </td><td  style="white-space:normal; text-align:left;" id="TBL-37-2-4"  
+ style="vertical-align:baseline;" id="TBL-41-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-2-1"  
+class="td11"> Simulator           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-2-2"  
+class="td11"> demo    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-2-3"  
+class="td11"> null            </td><td  style="white-space:normal; text-align:left;" id="TBL-41-2-4"  
 class="td11"> <!--l. 148--><p class="noindent" >                                    </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-37-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-37-3-1"  
+ style="vertical-align:baseline;" id="TBL-41-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-3-1"  
 class="td11">                 </td>
       </tr></table>
                                                                                          
                                                                                          
 <!--l. 150--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.4   </span> <a 
- id="x16-8000014.4"></a>Digilent</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.4   </span> <a 
+ id="x17-8300015.4"></a>Digilent</h3>
 <!--l. 152--><p class="noindent" >Digilent oscilloscopes using the WaveForms SDK are all supported using the “digilent&#x0022; driver in
 libscopehal. This driver connects using the “twinlan&#x0022; transport to a <a 
 href="https://github.com/ngscopeclient/scopehal-waveforms-bridge" >socket server</a> which links against
@@ -367,110 +367,110 @@ date.
 added in the future.
 </p><!--l. 164--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.4.1   </span> <a 
- id="x16-8100014.4.1"></a>digilent</h4>
-   
-    <table id="TBL-41" class="tabular" 
- 
-><colgroup id="TBL-41-1g"><col 
-id="TBL-41-1" /><col 
-id="TBL-41-2" /><col 
-id="TBL-41-3" /><col 
-id="TBL-41-4" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-41-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-1-1"  
-class="td11"> <span 
-class="ecbx-1095">Device Family       </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-1-2"  
-class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-1-3"  
-class="td11"> <span 
-class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-41-1-4"  
-class="td11"> <!--l. 180--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                                   </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-41-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-2-1"  
-class="td11"> Electronics Explorer    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-2-2"  
-class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-2-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-41-2-4"  
-class="td11"> <!--l. 180--><p class="noindent" >Not tested, but probably works       </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-41-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-3-1"  
-class="td11"> Analog Discovery       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-3-2"  
-class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-3-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-41-3-4"  
-class="td11"> <!--l. 180--><p class="noindent" >Not tested, but probably works       </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-41-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-4-1"  
-class="td11"> Analog Discovery 2     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-4-2"  
-class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-4-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-41-4-4"  
-class="td11"> <!--l. 180--><p class="noindent" >No digital channel support <br 
-class="newline" />No analog output support              </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-41-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-5-1"  
-class="td11"> Analog Discovery Pro  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-5-2"  
-class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-5-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-41-5-4"  
-class="td11"> <!--l. 180--><p class="noindent" >No digital channel support <br 
-class="newline" />No analog output support              </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-41-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-6-1"  
-class="td11"> Digital Discovery        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-6-2"  
-class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-41-6-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-41-6-4"  
-class="td11"> <!--l. 180--><p class="noindent" >No digital channel support,<br 
-class="newline" />so pretty useless for now                </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-41-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-41-7-1"  
-class="td11">                     </td>
-      </tr></table>
-<!--l. 182--><p class="noindent" >
-</p>
-   <h5 class="subsubsectionHead"><a 
- id="x16-8200014.4.1"></a>Typical Performance (ADP3450, USB -&#x003E; LAN)</h5>
+   <h4 class="subsectionHead"><span class="titlemark">15.4.1   </span> <a 
+ id="x17-8400015.4.1"></a>digilent</h4>
    
     <table id="TBL-45" class="tabular" 
  
 ><colgroup id="TBL-45-1g"><col 
 id="TBL-45-1" /><col 
 id="TBL-45-2" /><col 
-id="TBL-45-3" /></colgroup><tr  
+id="TBL-45-3" /><col 
+id="TBL-45-4" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-45-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-1-2"  
+class="ecbx-1095">Device Family       </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-45-1-3"  
+class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-1-3"  
+class="td11"> <span 
+class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-45-1-4"  
+class="td11"> <!--l. 180--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-45-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-2-1"  
+class="td11"> Electronics Explorer    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-2-2"  
+class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-2-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-45-2-4"  
+class="td11"> <!--l. 180--><p class="noindent" >Not tested, but probably works       </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-45-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-3-1"  
+class="td11"> Analog Discovery       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-3-2"  
+class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-3-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-45-3-4"  
+class="td11"> <!--l. 180--><p class="noindent" >Not tested, but probably works       </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-45-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-4-1"  
+class="td11"> Analog Discovery 2     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-4-2"  
+class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-4-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-45-4-4"  
+class="td11"> <!--l. 180--><p class="noindent" >No digital channel support <br 
+class="newline" />No analog output support              </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-45-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-5-1"  
+class="td11"> Analog Discovery Pro  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-5-2"  
+class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-5-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-45-5-4"  
+class="td11"> <!--l. 180--><p class="noindent" >No digital channel support <br 
+class="newline" />No analog output support              </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-45-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-6-1"  
+class="td11"> Digital Discovery        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-6-2"  
+class="td11"> digilent  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-6-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-45-6-4"  
+class="td11"> <!--l. 180--><p class="noindent" >No digital channel support,<br 
+class="newline" />so pretty useless for now                </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-45-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-7-1"  
+class="td11">                     </td>
+      </tr></table>
+<!--l. 182--><p class="noindent" >
+</p>
+   <h5 class="subsubsectionHead"><a 
+ id="x17-8500015.4.1"></a>Typical Performance (ADP3450, USB -&#x003E; LAN)</h5>
+   
+    <table id="TBL-49" class="tabular" 
+ 
+><colgroup id="TBL-49-1g"><col 
+id="TBL-49-1" /><col 
+id="TBL-49-2" /><col 
+id="TBL-49-3" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-49-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-1-1"  
+class="td11"> <span 
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-1-2"  
+class="td11"> <span 
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-49-1-3"  
 class="td11"> <!--l. 194--><p class="noindent" ><span 
 class="ecbx-1095">WFM/s</span>                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-45-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-2-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-2-2"  
-class="td11"> 64K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-45-2-3"  
+ style="vertical-align:baseline;" id="TBL-49-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-2-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-2-2"  
+class="td11"> 64K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-49-2-3"  
 class="td11"> <!--l. 194--><p class="noindent" >25.8                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-45-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-3-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-3-2"  
-class="td11"> 64K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-45-3-3"  
+ style="vertical-align:baseline;" id="TBL-49-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-3-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-3-2"  
+class="td11"> 64K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-49-3-3"  
 class="td11"> <!--l. 194--><p class="noindent" >32.3                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-45-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-4-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-45-4-2"  
-class="td11"> 64K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-45-4-3"  
+ style="vertical-align:baseline;" id="TBL-49-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-4-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-4-2"  
+class="td11"> 64K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-49-4-3"  
 class="td11"> <!--l. 194--><p class="noindent" >33.0                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-45-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-45-5-1"  
+ style="vertical-align:baseline;" id="TBL-49-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-5-1"  
 class="td11">            </td>
       </tr></table>
 <!--l. 196--><p class="noindent" >
                                                                                          
                                                                                          
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.5   </span> <a 
- id="x16-8300014.5"></a>DreamSource Lab</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.5   </span> <a 
+ id="x17-8600015.5"></a>DreamSource Lab</h3>
 <!--l. 198--><p class="noindent" >DreamSourceLabs oscilloscopes and logic analyzers supported in their fork of sigrok (“libsigrok4DSL”
 distributed as part of their “DSView” software package) are supported through the “dslabs”
 driver in libscopehal. This driver connects using the “twinlan” transport to a <a 
@@ -502,62 +502,8 @@ supported.
      pre-trigger waveform in some cases</li></ul>
 <!--l. 222--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.5.1   </span> <a 
- id="x16-8400014.5.1"></a>dslabs</h4>
-   
-    <table id="TBL-49" class="tabular" 
- 
-><colgroup id="TBL-49-1g"><col 
-id="TBL-49-1" /><col 
-id="TBL-49-2" /><col 
-id="TBL-49-3" /><col 
-id="TBL-49-4" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-49-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-1-1"  
-class="td11"> <span 
-class="ecbx-1095">Family / Device </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-1-2"  
-class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-1-3"  
-class="td11"> <span 
-class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-49-1-4"  
-class="td11"> <!--l. 236--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                                      </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-49-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-2-1"  
-class="td11"> DScope U3P100      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-2-2"  
-class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-2-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-49-2-4"  
-class="td11"> <!--l. 236--><p class="noindent" >Tested, works                                  </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-49-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-3-1"  
-class="td11"> DSLogic U3P16      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-3-2"  
-class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-3-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-49-3-4"  
-class="td11"> <!--l. 236--><p class="noindent" >Tested, works                                  </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-49-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-4-1"  
-class="td11"> DSCope (others)     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-4-2"  
-class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-4-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-49-4-4"  
-class="td11"> <!--l. 236--><p class="noindent" >Not tested, but probably works           </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-49-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-5-1"  
-class="td11"> DSLogic (others)     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-5-2"  
-class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-49-5-3"  
-class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-49-5-4"  
-class="td11"> <!--l. 236--><p class="noindent" >Not tested, but probably works           </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-49-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-49-6-1"  
-class="td11">                   </td>
-      </tr></table>
-                                                                                         
-                                                                                         
-<!--l. 238--><p class="noindent" >
-</p>
-   <h5 class="subsubsectionHead"><a 
- id="x16-8500014.5.1"></a>Typical DSCope Performance (DSCope U3P100, USB3, localhost)</h5>
+   <h4 class="subsectionHead"><span class="titlemark">15.5.1   </span> <a 
+ id="x17-8700015.5.1"></a>dslabs</h4>
    
     <table id="TBL-53" class="tabular" 
  
@@ -565,53 +511,53 @@ class="td11">                   </td>
 id="TBL-53-1" /><col 
 id="TBL-53-2" /><col 
 id="TBL-53-3" /><col 
-id="TBL-53-4" /><col 
-id="TBL-53-5" /></colgroup><tr  
+id="TBL-53-4" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-53-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-53-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-1-2"  
+class="ecbx-1095">Family / Device </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-1-3"  
+class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-1-3"  
 class="td11"> <span 
-class="ecbx-1095">Sample Rate </span></td><td  style="white-space:normal; text-align:left;" id="TBL-53-1-4"  
-class="td11"> <!--l. 250--><p class="noindent" ><span 
-class="ecbx-1095">WFM/s</span>       </p></td><td  style="white-space:normal; text-align:left;" id="TBL-53-1-5"  
-class="td11"> <!--l. 250--><p class="noindent" ><span 
-class="ecbx-1095">UI-unconstrained</span>
- <span 
-class="ecbx-1095">WFM/s</span>       </p></td>
-   
+class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-53-1-4"  
+class="td11"> <!--l. 236--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                                      </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-53-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-53-2-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-2-2"  
-class="td11"> 1M                    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-2-3"  
-class="td11"> 100MS/s         </td><td  style="white-space:normal; text-align:left;" id="TBL-53-2-4"  
-class="td11"> <!--l. 250--><p class="noindent" >14                 </p></td><td  style="white-space:normal; text-align:left;" id="TBL-53-2-5"  
-class="td11"> <!--l. 250--><p class="noindent" >50                 </p></td>
+class="td11"> DScope U3P100      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-2-2"  
+class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-2-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-53-2-4"  
+class="td11"> <!--l. 236--><p class="noindent" >Tested, works                                  </p></td>
    
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-53-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-53-3-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-3-2"  
-class="td11"> 5M                    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-3-3"  
-class="td11"> 500MS/s         </td><td  style="white-space:normal; text-align:left;" id="TBL-53-3-4"  
-class="td11"> <!--l. 250--><p class="noindent" >4.5                </p></td><td  style="white-space:normal; text-align:left;" id="TBL-53-3-5"  
-class="td11"> <!--l. 250--><p class="noindent" >14                 </p></td>
+class="td11"> DSLogic U3P16      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-3-2"  
+class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-3-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-53-3-4"  
+class="td11"> <!--l. 236--><p class="noindent" >Tested, works                                  </p></td>
    
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-53-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-53-4-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-4-2"  
-class="td11"> 5M                    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-4-3"  
-class="td11"> 1GS/s             </td><td  style="white-space:normal; text-align:left;" id="TBL-53-4-4"  
-class="td11"> <!--l. 250--><p class="noindent" >8.3                </p></td><td  style="white-space:normal; text-align:left;" id="TBL-53-4-5"  
-class="td11"> <!--l. 250--><p class="noindent" >32                 </p></td>
+class="td11"> DSCope (others)     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-4-2"  
+class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-4-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-53-4-4"  
+class="td11"> <!--l. 236--><p class="noindent" >Not tested, but probably works           </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-53-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-53-5-1"  
-class="td11">            </td>
+class="td11"> DSLogic (others)     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-5-2"  
+class="td11"> dslabs   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-53-5-3"  
+class="td11"> twinlan       </td><td  style="white-space:normal; text-align:left;" id="TBL-53-5-4"  
+class="td11"> <!--l. 236--><p class="noindent" >Not tested, but probably works           </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-53-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-53-6-1"  
+class="td11">                   </td>
       </tr></table>
-<!--l. 252--><p class="noindent" >
+                                                                                         
+                                                                                         
+<!--l. 238--><p class="noindent" >
 </p>
    <h5 class="subsubsectionHead"><a 
- id="x16-8600014.5.1"></a>Typical DSLogic Performance (DSLogic U3Pro16, USB3, localhost)</h5>
+ id="x17-8800015.5.1"></a>Typical DSCope Performance (DSCope U3P100, USB3, localhost)</h5>
    
     <table id="TBL-57" class="tabular" 
  
@@ -628,103 +574,117 @@ class="td11"> <span
 class="ecbx-1095">Memory depth </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-1-3"  
 class="td11"> <span 
 class="ecbx-1095">Sample Rate </span></td><td  style="white-space:normal; text-align:left;" id="TBL-57-1-4"  
-class="td11"> <!--l. 262--><p class="noindent" ><span 
+class="td11"> <!--l. 250--><p class="noindent" ><span 
 class="ecbx-1095">WFM/s</span>       </p></td><td  style="white-space:normal; text-align:left;" id="TBL-57-1-5"  
-class="td11"> <!--l. 262--><p class="noindent" ><span 
+class="td11"> <!--l. 250--><p class="noindent" ><span 
 class="ecbx-1095">UI-unconstrained</span>
  <span 
 class="ecbx-1095">WFM/s</span>       </p></td>
    
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-57-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-57-2-1"  
-class="td11"> 16             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-2-2"  
-class="td11"> 500k                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-2-3"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-2-2"  
+class="td11"> 1M                    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-2-3"  
 class="td11"> 100MS/s         </td><td  style="white-space:normal; text-align:left;" id="TBL-57-2-4"  
-class="td11"> <!--l. 262--><p class="noindent" >16                 </p></td><td  style="white-space:normal; text-align:left;" id="TBL-57-2-5"  
-class="td11"> <!--l. 262--><p class="noindent" >44                 </p></td>
+class="td11"> <!--l. 250--><p class="noindent" >14                 </p></td><td  style="white-space:normal; text-align:left;" id="TBL-57-2-5"  
+class="td11"> <!--l. 250--><p class="noindent" >50                 </p></td>
    
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-57-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-57-3-1"  
-class="td11"> 16             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-3-2"  
-class="td11"> 500k                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-3-3"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-3-2"  
+class="td11"> 5M                    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-3-3"  
 class="td11"> 500MS/s         </td><td  style="white-space:normal; text-align:left;" id="TBL-57-3-4"  
-class="td11"> <!--l. 262--><p class="noindent" >16                 </p></td><td  style="white-space:normal; text-align:left;" id="TBL-57-3-5"  
-class="td11"> <!--l. 262--><p class="noindent" >55                 </p></td>
+class="td11"> <!--l. 250--><p class="noindent" >4.5                </p></td><td  style="white-space:normal; text-align:left;" id="TBL-57-3-5"  
+class="td11"> <!--l. 250--><p class="noindent" >14                 </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-57-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-57-4-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-4-2"  
+class="td11"> 5M                    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-57-4-3"  
+class="td11"> 1GS/s             </td><td  style="white-space:normal; text-align:left;" id="TBL-57-4-4"  
+class="td11"> <!--l. 250--><p class="noindent" >8.3                </p></td><td  style="white-space:normal; text-align:left;" id="TBL-57-4-5"  
+class="td11"> <!--l. 250--><p class="noindent" >32                 </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-57-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-57-5-1"  
 class="td11">            </td>
       </tr></table>
-<!--l. 264--><p class="noindent" >
+<!--l. 252--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.6   </span> <a 
- id="x16-8700014.6"></a>EEVengers</h3>
-<!--l. 266--><p class="noindent" >TODO: document WIP ThunderScope driver
-</p><!--l. 268--><p class="noindent" >
-</p>
-   <h3 class="sectionHead"><span class="titlemark">14.7   </span> <a 
- id="x16-8800014.7"></a>Enjoy Digital</h3>
-<!--l. 269--><p class="noindent" >TODO (<a 
-href="https://github.com/ngscopeclient/scopehal/issues/79" >scopehal:79</a>)
-</p><!--l. 271--><p class="noindent" >
-</p>
-   <h3 class="sectionHead"><span class="titlemark">14.8   </span> <a 
- id="x16-8900014.8"></a>Hantek</h3>
-<!--l. 272--><p class="noindent" >TODO (<a 
-href="https://github.com/ngscopeclient/scopehal/issues/26" >scopehal:26</a>)
-                                                                                         
-                                                                                         
-</p><!--l. 274--><p class="noindent" >
-</p>
-   <h3 class="sectionHead"><span class="titlemark">14.9   </span> <a 
- id="x16-9000014.9"></a>Keysight</h3>
-<!--l. 276--><p class="noindent" >Keysight devices support a similar similar SCPI command set across most device families. Many Keysight
-devices were previously sold under the Agilent brand and use the same SCPI command set, so they are
-supported by the “agilent&#x0022; driver.
-</p><!--l. 280--><p class="indent" >   Please see the table below for details of current hardware support:
-</p><!--l. 282--><p class="noindent" >
-</p>
-   <h4 class="subsectionHead"><span class="titlemark">14.9.1   </span> <a 
- id="x16-9100014.9.1"></a>agilent</h4>
+   <h5 class="subsubsectionHead"><a 
+ id="x17-8900015.5.1"></a>Typical DSLogic Performance (DSLogic U3Pro16, USB3, localhost)</h5>
    
     <table id="TBL-61" class="tabular" 
  
 ><colgroup id="TBL-61-1g"><col 
 id="TBL-61-1" /><col 
 id="TBL-61-2" /><col 
-id="TBL-61-3" /></colgroup><tr  
+id="TBL-61-3" /><col 
+id="TBL-61-4" /><col 
+id="TBL-61-5" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-61-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-61-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Device Family     </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-1-2"  
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-61-1-3"  
-class="td11"> <!--l. 294--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                                                       </p></td>
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-1-3"  
+class="td11"> <span 
+class="ecbx-1095">Sample Rate </span></td><td  style="white-space:normal; text-align:left;" id="TBL-61-1-4"  
+class="td11"> <!--l. 262--><p class="noindent" ><span 
+class="ecbx-1095">WFM/s</span>       </p></td><td  style="white-space:normal; text-align:left;" id="TBL-61-1-5"  
+class="td11"> <!--l. 262--><p class="noindent" ><span 
+class="ecbx-1095">UI-unconstrained</span>
+ <span 
+class="ecbx-1095">WFM/s</span>       </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-61-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-61-2-1"  
-class="td11"> MSOX-2000 series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-2-2"  
-class="td11"> agilent   </td><td  style="white-space:normal; text-align:left;" id="TBL-61-2-3"  
-class="td11"> <!--l. 294--><p class="noindent" >                                                </p></td>
+class="td11"> 16             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-2-2"  
+class="td11"> 500k                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-2-3"  
+class="td11"> 100MS/s         </td><td  style="white-space:normal; text-align:left;" id="TBL-61-2-4"  
+class="td11"> <!--l. 262--><p class="noindent" >16                 </p></td><td  style="white-space:normal; text-align:left;" id="TBL-61-2-5"  
+class="td11"> <!--l. 262--><p class="noindent" >44                 </p></td>
    
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-61-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-61-3-1"  
-class="td11"> MSOX-3000 series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-3-2"  
-class="td11"> agilent   </td><td  style="white-space:normal; text-align:left;" id="TBL-61-3-3"  
-class="td11"> <!--l. 294--><p class="noindent" >                                                </p></td>
-   
+class="td11"> 16             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-3-2"  
+class="td11"> 500k                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-3-3"  
+class="td11"> 500MS/s         </td><td  style="white-space:normal; text-align:left;" id="TBL-61-3-4"  
+class="td11"> <!--l. 262--><p class="noindent" >16                 </p></td><td  style="white-space:normal; text-align:left;" id="TBL-61-3-5"  
+class="td11"> <!--l. 262--><p class="noindent" >55                 </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-61-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-61-4-1"  
-class="td11"> MSOX-3000T series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-61-4-2"  
-class="td11"> agilent   </td><td  style="white-space:normal; text-align:left;" id="TBL-61-4-3"  
-class="td11"> <!--l. 294--><p class="noindent" >                                                </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-61-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-61-5-1"  
-class="td11">                    </td>
+class="td11">            </td>
       </tr></table>
-<!--l. 296--><p class="noindent" >
+<!--l. 264--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.9.2   </span> <a 
- id="x16-9200014.9.2"></a>keysightdca</h4>
-<!--l. 298--><p class="noindent" >A driver for the Keysight/Agilent/HP DCA series of equivalent-time sampling oscilloscopes.
+   <h3 class="sectionHead"><span class="titlemark">15.6   </span> <a 
+ id="x17-9000015.6"></a>EEVengers</h3>
+<!--l. 266--><p class="noindent" >TODO: document WIP ThunderScope driver
+</p><!--l. 268--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">15.7   </span> <a 
+ id="x17-9100015.7"></a>Enjoy Digital</h3>
+<!--l. 269--><p class="noindent" >TODO (<a 
+href="https://github.com/ngscopeclient/scopehal/issues/79" >scopehal:79</a>)
+</p><!--l. 271--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">15.8   </span> <a 
+ id="x17-9200015.8"></a>Hantek</h3>
+<!--l. 272--><p class="noindent" >TODO (<a 
+href="https://github.com/ngscopeclient/scopehal/issues/26" >scopehal:26</a>)
+                                                                                         
+                                                                                         
+</p><!--l. 274--><p class="noindent" >
+</p>
+   <h3 class="sectionHead"><span class="titlemark">15.9   </span> <a 
+ id="x17-9300015.9"></a>Keysight</h3>
+<!--l. 276--><p class="noindent" >Keysight devices support a similar similar SCPI command set across most device families. Many Keysight
+devices were previously sold under the Agilent brand and use the same SCPI command set, so they are
+supported by the “agilent&#x0022; driver.
+</p><!--l. 280--><p class="indent" >   Please see the table below for details of current hardware support:
+</p><!--l. 282--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">15.9.1   </span> <a 
+ id="x17-9400015.9.1"></a>agilent</h4>
    
     <table id="TBL-65" class="tabular" 
  
@@ -734,28 +694,37 @@ id="TBL-65-2" /><col
 id="TBL-65-3" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-65-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-65-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-65-1-2"  
+class="ecbx-1095">Device Family     </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-65-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver      </span></td><td  style="white-space:normal; text-align:left;" id="TBL-65-1-3"  
-class="td11"> <!--l. 306--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                                                      </p></td>
+class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-65-1-3"  
+class="td11"> <!--l. 294--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                                                       </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-65-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-65-2-1"  
-class="td11"> 86100A              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-65-2-2"  
-class="td11"> keysightdca  </td><td  style="white-space:normal; text-align:left;" id="TBL-65-2-3"  
-class="td11"> <!--l. 306--><p class="noindent" >                                               </p></td>
+class="td11"> MSOX-2000 series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-65-2-2"  
+class="td11"> agilent   </td><td  style="white-space:normal; text-align:left;" id="TBL-65-2-3"  
+class="td11"> <!--l. 294--><p class="noindent" >                                                </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-65-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-65-3-1"  
-class="td11">                 </td>
+class="td11"> MSOX-3000 series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-65-3-2"  
+class="td11"> agilent   </td><td  style="white-space:normal; text-align:left;" id="TBL-65-3-3"  
+class="td11"> <!--l. 294--><p class="noindent" >                                                </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-65-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-65-4-1"  
+class="td11"> MSOX-3000T series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-65-4-2"  
+class="td11"> agilent   </td><td  style="white-space:normal; text-align:left;" id="TBL-65-4-3"  
+class="td11"> <!--l. 294--><p class="noindent" >                                                </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-65-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-65-5-1"  
+class="td11">                    </td>
       </tr></table>
-<!--l. 308--><p class="noindent" >
+<!--l. 296--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.10   </span> <a 
- id="x16-9300014.10"></a>Pico Technologies</h3>
-<!--l. 310--><p class="noindent" >Pico oscilloscopes all have slightly different command sets, but are supported using the “pico&#x0022; driver in
-libscopehal. This driver connects via a TCP socket to a socket server <a 
-href="https://github.com/ngscopeclient/scopehal-pico-bridge" >scopehal-pico-bridge</a> which connects
-to the appropriate instrument using Pico’s binary SDK.
+   <h4 class="subsectionHead"><span class="titlemark">15.9.2   </span> <a 
+ id="x17-9500015.9.2"></a>keysightdca</h4>
+<!--l. 298--><p class="noindent" >A driver for the Keysight/Agilent/HP DCA series of equivalent-time sampling oscilloscopes.
    
     <table id="TBL-69" class="tabular" 
  
@@ -767,34 +736,26 @@ id="TBL-69-3" /></colgroup><tr
 class="td11"> <span 
 class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-69-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-69-1-3"  
-class="td11"> <!--l. 323--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                                                           </p></td>
+class="ecbx-1095">Driver      </span></td><td  style="white-space:normal; text-align:left;" id="TBL-69-1-3"  
+class="td11"> <!--l. 306--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                                                      </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-69-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-69-2-1"  
-class="td11"> 3000D series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-69-2-2"  
-class="td11"> pico      </td><td  style="white-space:normal; text-align:left;" id="TBL-69-2-3"  
-class="td11"> <!--l. 323--><p class="noindent" >Early development, incomplete                                   </p></td>
-   
+class="td11"> 86100A              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-69-2-2"  
+class="td11"> keysightdca  </td><td  style="white-space:normal; text-align:left;" id="TBL-69-2-3"  
+class="td11"> <!--l. 306--><p class="noindent" >                                               </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-69-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-69-3-1"  
-class="td11"> 6000E series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-69-3-2"  
-class="td11"> pico      </td><td  style="white-space:normal; text-align:left;" id="TBL-69-3-3"  
-class="td11"> <!--l. 323--><p class="noindent" >                                                  </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-69-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-69-4-1"  
 class="td11">                 </td>
       </tr></table>
-                                                                                         
-                                                                                         
-<!--l. 325--><p class="noindent" >
+<!--l. 308--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.10.1   </span> <a 
- id="x16-9400014.10.1"></a>pico</h4>
-<!--l. 327--><p class="noindent" >
-</p>
-   <h5 class="subsubsectionHead"><a 
- id="x16-9500014.10.1"></a>Typical Performance (6824E, LAN)</h5>
+   <h3 class="sectionHead"><span class="titlemark">15.10   </span> <a 
+ id="x17-9600015.10"></a>Pico Technologies</h3>
+<!--l. 310--><p class="noindent" >Pico oscilloscopes all have slightly different command sets, but are supported using the “pico&#x0022; driver in
+libscopehal. This driver connects via a TCP socket to a socket server <a 
+href="https://github.com/ngscopeclient/scopehal-pico-bridge" >scopehal-pico-bridge</a> which connects
+to the appropriate instrument using Pico’s binary SDK.
    
     <table id="TBL-73" class="tabular" 
  
@@ -804,46 +765,36 @@ id="TBL-73-2" /><col
 id="TBL-73-3" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-73-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-73-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-1-2"  
+class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-73-1-3"  
-class="td11"> <!--l. 343--><p class="noindent" ><span 
-class="ecbx-1095">WFM/s</span>                                                   </p></td>
+class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-73-1-3"  
+class="td11"> <!--l. 323--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                                                           </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-73-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-73-2-1"  
-class="td11"> 8               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-2-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-73-2-3"  
-class="td11"> <!--l. 343--><p class="noindent" >15.2                                                                 </p></td>
+class="td11"> 3000D series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-2-2"  
+class="td11"> pico      </td><td  style="white-space:normal; text-align:left;" id="TBL-73-2-3"  
+class="td11"> <!--l. 323--><p class="noindent" >Early development, incomplete                                   </p></td>
+   
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-73-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-73-3-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-3-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-73-3-3"  
-class="td11"> <!--l. 343--><p class="noindent" >30.5                                                                 </p></td>
+class="td11"> 6000E series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-3-2"  
+class="td11"> pico      </td><td  style="white-space:normal; text-align:left;" id="TBL-73-3-3"  
+class="td11"> <!--l. 323--><p class="noindent" >                                                  </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-73-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-73-4-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-4-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-73-4-3"  
-class="td11"> <!--l. 343--><p class="noindent" >64.4                                                                 </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-73-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-73-5-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-5-2"  
-class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-73-5-3"  
-class="td11"> <!--l. 343--><p class="noindent" >12.2                                                                 </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-73-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-73-6-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-73-6-2"  
-class="td11"> 50M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-73-6-3"  
-class="td11"> <!--l. 343--><p class="noindent" >3.03                                                                 </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-73-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-73-7-1"  
-class="td11">            </td>
+class="td11">                 </td>
       </tr></table>
-<!--l. 345--><p class="noindent" >
+                                                                                         
+                                                                                         
+<!--l. 325--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.11   </span> <a 
- id="x16-9600014.11"></a>Rigol</h3>
-<!--l. 347--><p class="noindent" >Rigol oscilloscopes have subtle differences in SCPI command set, but this is implemented with quirks
-handling in the driver rather than needing different drivers for each scope family.
+   <h4 class="subsectionHead"><span class="titlemark">15.10.1   </span> <a 
+ id="x17-9700015.10.1"></a>pico</h4>
+<!--l. 327--><p class="noindent" >
+</p>
+   <h5 class="subsubsectionHead"><a 
+ id="x17-9800015.10.1"></a>Typical Performance (6824E, LAN)</h5>
    
     <table id="TBL-77" class="tabular" 
  
@@ -853,42 +804,46 @@ id="TBL-77-2" /><col
 id="TBL-77-3" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-77-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-77-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-1-2"  
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-77-1-3"  
-class="td11"> <!--l. 360--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                                                           </p></td>
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-77-1-3"  
+class="td11"> <!--l. 343--><p class="noindent" ><span 
+class="ecbx-1095">WFM/s</span>                                                   </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-77-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-77-2-1"  
-class="td11"> DS1100D/E        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-2-2"  
-class="td11"> rigol      </td><td  style="white-space:normal; text-align:left;" id="TBL-77-2-3"  
-class="td11"> <!--l. 360--><p class="noindent" >                                                  </p></td>
-   
+class="td11"> 8               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-2-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-77-2-3"  
+class="td11"> <!--l. 343--><p class="noindent" >15.2                                                                 </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-77-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-77-3-1"  
-class="td11"> DS1000Z            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-3-2"  
-class="td11"> rigol      </td><td  style="white-space:normal; text-align:left;" id="TBL-77-3-3"  
-class="td11"> <!--l. 360--><p class="noindent" >                                                  </p></td>
-   
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-3-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-77-3-3"  
+class="td11"> <!--l. 343--><p class="noindent" >30.5                                                                 </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-77-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-77-4-1"  
-class="td11"> MSO5000           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-4-2"  
-class="td11"> rigol      </td><td  style="white-space:normal; text-align:left;" id="TBL-77-4-3"  
-class="td11"> <!--l. 360--><p class="noindent" >                                                  </p></td>
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-4-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-77-4-3"  
+class="td11"> <!--l. 343--><p class="noindent" >64.4                                                                 </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-77-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-77-5-1"  
-class="td11">                 </td>
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-5-2"  
+class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-77-5-3"  
+class="td11"> <!--l. 343--><p class="noindent" >12.2                                                                 </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-77-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-77-6-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-77-6-2"  
+class="td11"> 50M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-77-6-3"  
+class="td11"> <!--l. 343--><p class="noindent" >3.03                                                                 </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-77-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-77-7-1"  
+class="td11">            </td>
       </tr></table>
-<!--l. 362--><p class="noindent" >
+<!--l. 345--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.11.1   </span> <a 
- id="x16-9700014.11.1"></a>rigol</h4>
-<!--l. 364--><p class="noindent" >
-</p>
-   <h5 class="subsubsectionHead"><a 
- id="x16-9800014.11.1"></a>Typical Performance (MSO5000 series, LAN)</h5>
-                                                                                         
-                                                                                         
+   <h3 class="sectionHead"><span class="titlemark">15.11   </span> <a 
+ id="x17-9900015.11"></a>Rigol</h3>
+<!--l. 347--><p class="noindent" >Rigol oscilloscopes have subtle differences in SCPI command set, but this is implemented with quirks
+handling in the driver rather than needing different drivers for each scope family.
    
     <table id="TBL-81" class="tabular" 
  
@@ -898,77 +853,122 @@ id="TBL-81-2" /><col
 id="TBL-81-3" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-81-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-1-2"  
+class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-81-1-3"  
+class="ecbx-1095">Driver </span></td><td  style="white-space:normal; text-align:left;" id="TBL-81-1-3"  
+class="td11"> <!--l. 360--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                                                           </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-81-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-2-1"  
+class="td11"> DS1100D/E        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-2-2"  
+class="td11"> rigol      </td><td  style="white-space:normal; text-align:left;" id="TBL-81-2-3"  
+class="td11"> <!--l. 360--><p class="noindent" >                                                  </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-81-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-3-1"  
+class="td11"> DS1000Z            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-3-2"  
+class="td11"> rigol      </td><td  style="white-space:normal; text-align:left;" id="TBL-81-3-3"  
+class="td11"> <!--l. 360--><p class="noindent" >                                                  </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-81-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-4-1"  
+class="td11"> MSO5000           </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-4-2"  
+class="td11"> rigol      </td><td  style="white-space:normal; text-align:left;" id="TBL-81-4-3"  
+class="td11"> <!--l. 360--><p class="noindent" >                                                  </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-81-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-5-1"  
+class="td11">                 </td>
+      </tr></table>
+<!--l. 362--><p class="noindent" >
+</p>
+   <h4 class="subsectionHead"><span class="titlemark">15.11.1   </span> <a 
+ id="x17-10000015.11.1"></a>rigol</h4>
+<!--l. 364--><p class="noindent" >
+</p>
+   <h5 class="subsubsectionHead"><a 
+ id="x17-10100015.11.1"></a>Typical Performance (MSO5000 series, LAN)</h5>
+                                                                                         
+                                                                                         
+   
+    <table id="TBL-85" class="tabular" 
+ 
+><colgroup id="TBL-85-1g"><col 
+id="TBL-85-1" /><col 
+id="TBL-85-2" /><col 
+id="TBL-85-3" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-85-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-1-1"  
+class="td11"> <span 
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-1-2"  
+class="td11"> <span 
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-85-1-3"  
 class="td11"> <!--l. 384--><p class="noindent" ><span 
 class="ecbx-1095">WFM/s</span>                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-2-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-2-2"  
-class="td11"> 10K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-81-2-3"  
+ style="vertical-align:baseline;" id="TBL-85-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-2-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-2-2"  
+class="td11"> 10K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-85-2-3"  
 class="td11"> <!--l. 384--><p class="noindent" >0.96                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-3-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-3-2"  
-class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-81-3-3"  
+ style="vertical-align:baseline;" id="TBL-85-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-3-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-3-2"  
+class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-85-3-3"  
 class="td11"> <!--l. 384--><p class="noindent" >0.91                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-4-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-4-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-81-4-3"  
+ style="vertical-align:baseline;" id="TBL-85-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-4-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-4-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-85-4-3"  
 class="td11"> <!--l. 384--><p class="noindent" >0.59                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-5-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-5-2"  
-class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-81-5-3"  
+ style="vertical-align:baseline;" id="TBL-85-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-5-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-5-2"  
+class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-85-5-3"  
 class="td11"> <!--l. 384--><p class="noindent" >0.13                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-6-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-6-2"  
-class="td11"> 100M                 </td><td  style="white-space:normal; text-align:left;" id="TBL-81-6-3"  
+ style="vertical-align:baseline;" id="TBL-85-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-6-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-6-2"  
+class="td11"> 100M                 </td><td  style="white-space:normal; text-align:left;" id="TBL-85-6-3"  
 class="td11"> <!--l. 384--><p class="noindent" >0.0601                                                              </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-7-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-7-2"  
-class="td11"> 25M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-81-7-3"  
+ style="vertical-align:baseline;" id="TBL-85-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-7-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-7-2"  
+class="td11"> 25M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-85-7-3"  
 class="td11"> <!--l. 384--><p class="noindent" >0.0568                                                              </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-8-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-81-8-2"  
-class="td11"> 50M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-81-8-3"  
+ style="vertical-align:baseline;" id="TBL-85-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-8-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-8-2"  
+class="td11"> 50M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-85-8-3"  
 class="td11"> <!--l. 384--><p class="noindent" >0.0568                                                              </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-81-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-81-9-1"  
+ style="vertical-align:baseline;" id="TBL-85-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-9-1"  
 class="td11">            </td>
       </tr></table>
 <!--l. 386--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.12   </span> <a 
- id="x16-9900014.12"></a>Rohde &#x0026; Schwarz</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.12   </span> <a 
+ id="x17-10200015.12"></a>Rohde &#x0026; Schwarz</h3>
 <!--l. 388--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.12.1   </span> <a 
- id="x16-10000014.12.1"></a>rs</h4>
+   <h4 class="subsectionHead"><span class="titlemark">15.12.1   </span> <a 
+ id="x17-10300015.12.1"></a>rs</h4>
 <!--l. 390--><p class="noindent" >There is partial support for RTM3000 (and possibly others, untested) however it appears to have
 bitrotted.
 </p><!--l. 392--><p class="indent" >   TODO (<a 
 href="https://github.com/ngscopeclient/scopehal/issues/59" >scopehal:59</a>)
 </p><!--l. 394--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.12.2   </span> <a 
- id="x16-10100014.12.2"></a>rs_rto6</h4>
+   <h4 class="subsectionHead"><span class="titlemark">15.12.2   </span> <a 
+ id="x17-10400015.12.2"></a>rs_rto6</h4>
 <!--l. 396--><p class="noindent" >This driver supports the newer RTO6 family scopes (and possibly others, untested).
 </p><!--l. 398--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.13   </span> <a 
- id="x16-10200014.13"></a>Saleae</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.13   </span> <a 
+ id="x17-10500015.13"></a>Saleae</h3>
 <!--l. 399--><p class="noindent" >TODO (<a 
 href="https://github.com/ngscopeclient/scopehal/issues/16" >scopehal:16</a>)
 </p><!--l. 401--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.14   </span> <a 
- id="x16-10300014.14"></a>Siglent</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.14   </span> <a 
+ id="x17-10600015.14"></a>Siglent</h3>
 <!--l. 403--><p class="noindent" >A driver for SDS2000X+ is available in the codebase which has been developed according
 to Siglent offical documentation (Programming Guide PG01-E11A). This driver should be
                                                                                          
@@ -979,141 +979,141 @@ well.
 </p><!--l. 407--><p class="indent" >   Digital channels are not supported on any scope yet, due to lack of an MSO probe to test with. Many
 trigger types are not yet supported.
    
-    <table id="TBL-85" class="tabular" 
+    <table id="TBL-89" class="tabular" 
  
-><colgroup id="TBL-85-1g"><col 
-id="TBL-85-1" /><col 
-id="TBL-85-2" /><col 
-id="TBL-85-3" /><col 
-id="TBL-85-4" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-85-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-1-1"  
+><colgroup id="TBL-89-1g"><col 
+id="TBL-89-1" /><col 
+id="TBL-89-2" /><col 
+id="TBL-89-3" /><col 
+id="TBL-89-4" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-89-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Device Family      </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-1-2"  
+class="ecbx-1095">Device Family      </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-1-3"  
+class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-1-3"  
 class="td11"> <span 
-class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-85-1-4"  
+class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-89-1-4"  
 class="td11"> <!--l. 426--><p class="noindent" ><span 
 class="ecbx-1095">Notes</span>                                    </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-85-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-2-1"  
-class="td11"> SDS1000X-E series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-2-2"  
-class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-2-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-85-2-4"  
+ style="vertical-align:baseline;" id="TBL-89-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-2-1"  
+class="td11"> SDS1000X-E series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-2-2"  
+class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-2-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-89-2-4"  
 class="td11"> <!--l. 426--><p class="noindent" >Initialises,  triggers  and  downloads
   waveforms. More testing needed        </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-85-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-3-1"  
-class="td11"> SDS2000X-E series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-3-2"  
-class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-3-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-85-3-4"  
+ style="vertical-align:baseline;" id="TBL-89-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-3-1"  
+class="td11"> SDS2000X-E series    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-3-2"  
+class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-3-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-89-3-4"  
 class="td11"> <!--l. 426--><p class="noindent" >Initialises,  triggers  and  downloads
   waveforms. More testing needed        </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-85-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-4-1"  
-class="td11"> SDS2000X+ series     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-4-2"  
-class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-4-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-85-4-4"  
+ style="vertical-align:baseline;" id="TBL-89-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-4-1"  
+class="td11"> SDS2000X+ series     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-4-2"  
+class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-4-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-89-4-4"  
 class="td11"> <!--l. 426--><p class="noindent" >Basic functionality complete.            </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-85-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-5-1"  
-class="td11"> SDS2000X HD series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-5-2"  
-class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-5-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-85-5-4"  
+ style="vertical-align:baseline;" id="TBL-89-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-5-1"  
+class="td11"> SDS2000X HD series  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-5-2"  
+class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-5-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-89-5-4"  
 class="td11"> <!--l. 426--><p class="noindent" >Tested and works well on SDS2354x
   HD.                                            </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-85-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-6-1"  
-class="td11"> SDS5000X series       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-6-2"  
-class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-6-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-85-6-4"  
+ style="vertical-align:baseline;" id="TBL-89-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-6-1"  
+class="td11"> SDS5000X series       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-6-2"  
+class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-6-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-89-6-4"  
 class="td11"> <!--l. 426--><p class="noindent" >Initialises,  triggers  and  downloads
   waveforms. More testing needed        </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-85-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-7-1"  
-class="td11"> SDS6000A series       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-7-2"  
-class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-85-7-3"  
-class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-85-7-4"  
+ style="vertical-align:baseline;" id="TBL-89-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-7-1"  
+class="td11"> SDS6000A series       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-7-2"  
+class="td11"> siglent   </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-7-3"  
+class="td11"> lan             </td><td  style="white-space:normal; text-align:left;" id="TBL-89-7-4"  
 class="td11"> <!--l. 426--><p class="noindent" >Tested and works well on SDS6204A.
   10/12  bit  models  NOT  supported,
   but unavailable for dev (not sold in
   western markets).                          </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-85-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-85-8-1"  
+ style="vertical-align:baseline;" id="TBL-89-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-8-1"  
 class="td11">                    </td>
       </tr></table>
 <!--l. 428--><p class="noindent" >
 </p>
    <h5 class="subsubsectionHead"><a 
- id="x16-10400014.14"></a>Typical Performance (SDS2104X+, LAN)</h5>
+ id="x17-10700015.14"></a>Typical Performance (SDS2104X+, LAN)</h5>
    <figure class="figure"> 
 
                                                                                          
                                                                                          
 <a 
- id="x16-104001r1"></a>
+ id="x17-107001r1"></a>
                                                                                          
                                                                                          
 <!--l. 432--><p class="noindent" ><img 
 src="images/siglent-samples.png" alt="PIC"  
 width="455" height="262"  />
 </p>
-<figcaption class="caption" ><span class="id">Figure 14.1:</span><span  
-class="content">Siglent sample speed for various combinations of depth and channels</span></figcaption><!--tex4ht:label?: x16-104001r1 -->
+<figcaption class="caption" ><span class="id">Figure 15.1:</span><span  
+class="content">Siglent sample speed for various combinations of depth and channels</span></figcaption><!--tex4ht:label?: x17-107001r1 -->
                                                                                          
                                                                                          
    </figure>
-    <table id="TBL-89" class="tabular" 
+    <table id="TBL-93" class="tabular" 
  
-><colgroup id="TBL-89-1g"><col 
-id="TBL-89-1" /><col 
-id="TBL-89-2" /><col 
-id="TBL-89-3" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-89-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-1-1"  
+><colgroup id="TBL-93-1g"><col 
+id="TBL-93-1" /><col 
+id="TBL-93-2" /><col 
+id="TBL-93-3" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-93-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-1-2"  
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-89-1-3"  
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-93-1-3"  
 class="td11"> <!--l. 454--><p class="noindent" ><span 
 class="ecbx-1095">WFM/s</span>                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-89-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-2-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-2-2"  
-class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-89-2-3"  
+ style="vertical-align:baseline;" id="TBL-93-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-2-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-2-2"  
+class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-93-2-3"  
 class="td11"> <!--l. 454--><p class="noindent" >2.3                                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-89-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-3-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-3-2"  
-class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-89-3-3"  
+ style="vertical-align:baseline;" id="TBL-93-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-3-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-3-2"  
+class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-93-3-3"  
 class="td11"> <!--l. 454--><p class="noindent" >1.6                                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-89-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-4-1"  
-class="td11"> 3               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-4-2"  
-class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-89-4-3"  
+ style="vertical-align:baseline;" id="TBL-93-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-4-1"  
+class="td11"> 3               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-4-2"  
+class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-93-4-3"  
 class="td11"> <!--l. 454--><p class="noindent" >1.2                                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-89-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-5-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-5-2"  
-class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-89-5-3"  
+ style="vertical-align:baseline;" id="TBL-93-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-5-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-5-2"  
+class="td11"> 5-100K               </td><td  style="white-space:normal; text-align:left;" id="TBL-93-5-3"  
 class="td11"> <!--l. 454--><p class="noindent" >1                                                                     </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-89-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-6-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-6-2"  
-class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-89-6-3"  
+ style="vertical-align:baseline;" id="TBL-93-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-6-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-6-2"  
+class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-93-6-3"  
 class="td11"> <!--l. 454--><p class="noindent" >0.5                                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-89-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-7-1"  
-class="td11"> 2-4            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-89-7-2"  
-class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-89-7-3"  
+ style="vertical-align:baseline;" id="TBL-93-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-7-1"  
+class="td11"> 2-4            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-7-2"  
+class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-93-7-3"  
 class="td11"> <!--l. 454--><p class="noindent" >0.15                                                                 </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-89-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-89-8-1"  
+ style="vertical-align:baseline;" id="TBL-93-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-8-1"  
 class="td11">            </td>
       </tr></table>
 <!--l. 456--><p class="indent" >   These figures were obtained from a SDS2104X+ running firmware version 1.3.7R5. Different scopes and
@@ -1121,8 +1121,8 @@ software revisions may vary. This series of scopes support sample depths up to 1
 beyond 10MPoints require a different software interface and are likely to be extremely slow, so have not yet
 been implemented.
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.15   </span> <a 
- id="x16-10500014.15"></a>Teledyne LeCroy / LeCroy</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.15   </span> <a 
+ id="x17-10800015.15"></a>Teledyne LeCroy / LeCroy</h3>
 <!--l. 462--><p class="noindent" >Teledyne LeCroy (and older LeCroy) devices use the same driver, but two different transports for LAN
 connections.
 </p><!--l. 464--><p class="indent" >   While all Teledyne LeCroy / LeCroy devices use almost identical SCPI command sets, Windows based
@@ -1130,105 +1130,105 @@ devices running XStream or MAUI use a custom framing protocol (“vicp&#x0022;) 
 lower end RTOS based devices use raw SCPI over TCP (“lan&#x0022;).
 </p><!--l. 468--><p class="indent" >   Please see the table below for details on which configuration to use with your hardware.
    
-    <table id="TBL-93" class="tabular" 
+    <table id="TBL-97" class="tabular" 
  
-><colgroup id="TBL-93-1g"><col 
-id="TBL-93-1" /><col 
-id="TBL-93-2" /><col 
-id="TBL-93-3" /><col 
-id="TBL-93-4" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-93-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-1-1"  
+><colgroup id="TBL-97-1g"><col 
+id="TBL-97-1" /><col 
+id="TBL-97-2" /><col 
+id="TBL-97-3" /><col 
+id="TBL-97-4" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-97-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-1-2"  
+class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-1-3"  
+class="ecbx-1095">Driver </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-1-3"  
 class="td11"> <span 
-class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-93-1-4"  
+class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-97-1-4"  
 class="td11"> <!--l. 496--><p class="noindent" ><span 
 class="ecbx-1095">Notes</span>                                        </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-2-1"  
-class="td11"> DDA                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-2-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-2-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-2-4"  
+ style="vertical-align:baseline;" id="TBL-97-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-2-1"  
+class="td11"> DDA                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-2-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-2-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-2-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Tested on DDA5000A series                  </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-3-1"  
-class="td11"> HDO                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-3-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-3-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-3-4"  
+ style="vertical-align:baseline;" id="TBL-97-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-3-1"  
+class="td11"> HDO                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-3-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-3-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-3-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Tested on HDO9000 series                    </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-4-1"  
-class="td11"> LabMaster          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-4-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-4-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-4-4"  
+ style="vertical-align:baseline;" id="TBL-97-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-4-1"  
+class="td11"> LabMaster          </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-4-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-4-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-4-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Untested, but should work for 4-channel
   setups                                              </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-5-1"  
-class="td11"> MDA                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-5-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-5-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-5-4"  
+ style="vertical-align:baseline;" id="TBL-97-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-5-1"  
+class="td11"> MDA                 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-5-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-5-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-5-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Untested, but should work                    </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-6-1"  
-class="td11"> SDA                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-6-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-6-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-6-4"  
+ style="vertical-align:baseline;" id="TBL-97-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-6-1"  
+class="td11"> SDA                  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-6-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-6-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-6-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Tested on SDA 8Zi and 8Zi-A series       </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-7-1"  
-class="td11"> T3DSO              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-7-2"  
-class="td11"> ???       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-7-3"  
-class="td11"> ???            </td><td  style="white-space:normal; text-align:left;" id="TBL-93-7-4"  
+ style="vertical-align:baseline;" id="TBL-97-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-7-1"  
+class="td11"> T3DSO              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-7-2"  
+class="td11"> ???       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-7-3"  
+class="td11"> ???            </td><td  style="white-space:normal; text-align:left;" id="TBL-97-7-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Untested                                           </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-8-1"  
-class="td11"> WaveAce            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-8-2"  
-class="td11"> ???       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-8-3"  
-class="td11"> ???            </td><td  style="white-space:normal; text-align:left;" id="TBL-93-8-4"  
+ style="vertical-align:baseline;" id="TBL-97-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-8-1"  
+class="td11"> WaveAce            </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-8-2"  
+class="td11"> ???       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-8-3"  
+class="td11"> ???            </td><td  style="white-space:normal; text-align:left;" id="TBL-97-8-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Untested                                           </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-9-1"  
-class="td11"> WaveJet             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-9-2"  
-class="td11"> ???       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-9-3"  
-class="td11"> ???            </td><td  style="white-space:normal; text-align:left;" id="TBL-93-9-4"  
+ style="vertical-align:baseline;" id="TBL-97-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-9-1"  
+class="td11"> WaveJet             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-9-2"  
+class="td11"> ???       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-9-3"  
+class="td11"> ???            </td><td  style="white-space:normal; text-align:left;" id="TBL-97-9-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Untested                                           </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-10-1"  
-class="td11"> WaveMaster        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-10-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-10-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-10-4"  
+ style="vertical-align:baseline;" id="TBL-97-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-10-1"  
+class="td11"> WaveMaster        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-10-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-10-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-10-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Same hardware as SDA/DDA                </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-11-1"  
-class="td11"> WaveRunner       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-11-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-11-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-11-4"  
+ style="vertical-align:baseline;" id="TBL-97-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-11-1"  
+class="td11"> WaveRunner       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-11-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-11-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-11-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Tested  on  WaveRunner  Xi,  8000,  and
   9000 series                                         </p></td>
    
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-12-1"  
-class="td11"> WaveSurfer         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-12-2"  
-class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-93-12-3"  
-class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-93-12-4"  
+ style="vertical-align:baseline;" id="TBL-97-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-12-1"  
+class="td11"> WaveSurfer         </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-12-2"  
+class="td11"> lecroy    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-12-3"  
+class="td11"> vicp           </td><td  style="white-space:normal; text-align:left;" id="TBL-97-12-4"  
 class="td11"> <!--l. 496--><p class="noindent" >Tested on WaveSurfer 3000 series           </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-93-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-93-13-1"  
+ style="vertical-align:baseline;" id="TBL-97-13-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-13-1"  
 class="td11">                 </td>
       </tr></table>
 <!--l. 498--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.15.1   </span> <a 
- id="x16-10600014.15.1"></a>lecroy</h4>
+   <h4 class="subsectionHead"><span class="titlemark">15.15.1   </span> <a 
+ id="x17-10900015.15.1"></a>lecroy</h4>
 <!--l. 500--><p class="noindent" >This is the primary driver for MAUI based Teledyne LeCroy / LeCroy devices.
                                                                                          
                                                                                          
@@ -1238,79 +1238,7 @@ MAUI or XStream software.
 </p><!--l. 505--><p class="noindent" >
 </p>
    <h5 class="subsubsectionHead"><a 
- id="x16-10700014.15.1"></a>Typical Performance (HDO9204, VICP)</h5>
-   
-    <table id="TBL-97" class="tabular" 
- 
-><colgroup id="TBL-97-1g"><col 
-id="TBL-97-1" /><col 
-id="TBL-97-2" /><col 
-id="TBL-97-3" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-97-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-1-1"  
-class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-1-2"  
-class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-97-1-3"  
-class="td11"> <!--l. 531--><p class="noindent" ><span 
-class="ecbx-1095">WFM/s</span>                                                   </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-2-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-2-2"  
-class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-97-2-3"  
-class="td11"> <!--l. 531--><p class="noindent" >&#x003E;50                                                                 </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-3-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-3-2"  
-class="td11"> 400K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-97-3-3"  
-class="td11"> <!--l. 531--><p class="noindent" >29 - 35                                                              </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-4-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-4-2"  
-class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-97-4-3"  
-class="td11"> <!--l. 531--><p class="noindent" >30 - 40                                                              </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-5-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-5-2"  
-class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-97-5-3"  
-class="td11"> <!--l. 531--><p class="noindent" >17 - 21                                                              </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-6-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-6-2"  
-class="td11"> 2M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-97-6-3"  
-class="td11"> <!--l. 531--><p class="noindent" >9 - 11                                                               </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-7-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-7-2"  
-class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-97-7-3"  
-class="td11"> <!--l. 531--><p class="noindent" >2.2 - 2.6                                                            </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-8-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-8-2"  
-class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-97-8-3"  
-class="td11"> <!--l. 531--><p class="noindent" >5.2 - 6.5                                                            </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-9-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-9-2"  
-class="td11"> 64M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-97-9-3"  
-class="td11"> <!--l. 531--><p class="noindent" >0.41 - 0.42                                                         </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-10-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-10-2"  
-class="td11"> 64M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-97-10-3"  
-class="td11"> <!--l. 531--><p class="noindent" >0.21 - 0.23                                                         </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-11-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-97-11-2"  
-class="td11"> 64M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-97-11-3"  
-class="td11"> <!--l. 531--><p class="noindent" >0.12 - 0.13                                                         </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-97-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-97-12-1"  
-class="td11">            </td>
-      </tr></table>
-<!--l. 533--><p class="noindent" >
-</p>
-   <h5 class="subsubsectionHead"><a 
- id="x16-10800014.15.1"></a>Typical Performance (WaveRunner 8404M-MS, VICP)</h5>
+ id="x17-11000015.15.1"></a>Typical Performance (HDO9204, VICP)</h5>
    
     <table id="TBL-101" class="tabular" 
  
@@ -1323,36 +1251,108 @@ class="td11"> <span
 class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-1-2"  
 class="td11"> <span 
 class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-101-1-3"  
-class="td11"> <!--l. 547--><p class="noindent" ><span 
+class="td11"> <!--l. 531--><p class="noindent" ><span 
 class="ecbx-1095">WFM/s</span>                                                   </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-101-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-2-1"  
 class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-2-2"  
-class="td11"> 80K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-101-2-3"  
-class="td11"> <!--l. 547--><p class="noindent" >35 - 45                                                              </p></td>
+class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-101-2-3"  
+class="td11"> <!--l. 531--><p class="noindent" >&#x003E;50                                                                 </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-101-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-3-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-3-2"  
-class="td11"> 80K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-101-3-3"  
-class="td11"> <!--l. 547--><p class="noindent" >35 - 45                                                              </p></td>
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-3-2"  
+class="td11"> 400K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-101-3-3"  
+class="td11"> <!--l. 531--><p class="noindent" >29 - 35                                                              </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-101-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-4-1"  
 class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-4-2"  
-class="td11"> 800K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-101-4-3"  
-class="td11"> <!--l. 547--><p class="noindent" >16 - 17                                                              </p></td>
+class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-101-4-3"  
+class="td11"> <!--l. 531--><p class="noindent" >30 - 40                                                              </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-101-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-5-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-5-2"  
-class="td11"> 8M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-101-5-3"  
-class="td11"> <!--l. 547--><p class="noindent" >3.1 - 3.2                                                            </p></td>
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-5-2"  
+class="td11"> 100K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-101-5-3"  
+class="td11"> <!--l. 531--><p class="noindent" >17 - 21                                                              </p></td>
    </tr><tr  
  style="vertical-align:baseline;" id="TBL-101-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-6-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-6-2"  
+class="td11"> 2M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-101-6-3"  
+class="td11"> <!--l. 531--><p class="noindent" >9 - 11                                                               </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-101-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-7-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-7-2"  
+class="td11"> 10M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-101-7-3"  
+class="td11"> <!--l. 531--><p class="noindent" >2.2 - 2.6                                                            </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-101-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-8-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-8-2"  
+class="td11"> 1M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-101-8-3"  
+class="td11"> <!--l. 531--><p class="noindent" >5.2 - 6.5                                                            </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-101-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-9-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-9-2"  
+class="td11"> 64M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-101-9-3"  
+class="td11"> <!--l. 531--><p class="noindent" >0.41 - 0.42                                                         </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-101-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-10-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-10-2"  
+class="td11"> 64M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-101-10-3"  
+class="td11"> <!--l. 531--><p class="noindent" >0.21 - 0.23                                                         </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-101-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-11-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-101-11-2"  
+class="td11"> 64M                  </td><td  style="white-space:normal; text-align:left;" id="TBL-101-11-3"  
+class="td11"> <!--l. 531--><p class="noindent" >0.12 - 0.13                                                         </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-101-12-"><td  style="white-space:nowrap; text-align:left;" id="TBL-101-12-1"  
+class="td11">            </td>
+      </tr></table>
+<!--l. 533--><p class="noindent" >
+</p>
+   <h5 class="subsubsectionHead"><a 
+ id="x17-11100015.15.1"></a>Typical Performance (WaveRunner 8404M-MS, VICP)</h5>
+   
+    <table id="TBL-105" class="tabular" 
+ 
+><colgroup id="TBL-105-1g"><col 
+id="TBL-105-1" /><col 
+id="TBL-105-2" /><col 
+id="TBL-105-3" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-105-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-1-1"  
+class="td11"> <span 
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-1-2"  
+class="td11"> <span 
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-105-1-3"  
+class="td11"> <!--l. 547--><p class="noindent" ><span 
+class="ecbx-1095">WFM/s</span>                                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-105-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-2-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-2-2"  
+class="td11"> 80K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-105-2-3"  
+class="td11"> <!--l. 547--><p class="noindent" >35 - 45                                                              </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-105-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-3-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-3-2"  
+class="td11"> 80K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-105-3-3"  
+class="td11"> <!--l. 547--><p class="noindent" >35 - 45                                                              </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-105-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-4-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-4-2"  
+class="td11"> 800K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-105-4-3"  
+class="td11"> <!--l. 547--><p class="noindent" >16 - 17                                                              </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-105-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-5-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-5-2"  
+class="td11"> 8M                    </td><td  style="white-space:normal; text-align:left;" id="TBL-105-5-3"  
+class="td11"> <!--l. 547--><p class="noindent" >3.1 - 3.2                                                            </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-105-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-6-1"  
 class="td11">            </td>
       </tr></table>
 <!--l. 549--><p class="noindent" >
 </p>
-   <h4 class="subsectionHead"><span class="titlemark">14.15.2   </span> <a 
- id="x16-10900014.15.2"></a>lecroy_fwp</h4>
+   <h4 class="subsectionHead"><span class="titlemark">15.15.2   </span> <a 
+ id="x17-11200015.15.2"></a>lecroy_fwp</h4>
 <!--l. 551--><p class="noindent" >This is a special performance-enhanced extension of the base “lecroy&#x0022; driver which takes advantage of the
 FastWavePort feature of the instrument to gain high speed access to waveform data via shared memory.
 Waveforms are pulled from shared memory when a synchronization event fires, then pushed to the client
@@ -1391,106 +1391,106 @@ driver.
      </li></ul>
 <!--l. 584--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.16   </span> <a 
- id="x16-11000014.16"></a>Tektronix</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.16   </span> <a 
+ id="x17-11300015.16"></a>Tektronix</h3>
 <!--l. 586--><p class="noindent" >This driver is being primarily developed on a MSO64. It supports SCPI over LXI VXI-11 or TCP
 sockets.
 </p><!--l. 588--><p class="indent" >   The hardware supports USBTMC, however waveform download via USBTMC does not work with
 libscopehal for unknown reasons.
-   
-    <table id="TBL-105" class="tabular" 
- 
-><colgroup id="TBL-105-1g"><col 
-id="TBL-105-1" /><col 
-id="TBL-105-2" /><col 
-id="TBL-105-3" /><col 
-id="TBL-105-4" /></colgroup><tr  
- style="vertical-align:baseline;" id="TBL-105-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-1-1"  
-class="td11"> <span 
-class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-1-2"  
-class="td11"> <span 
-class="ecbx-1095">Driver   </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-1-3"  
-class="td11"> <span 
-class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-105-1-4"  
-class="td11"> <!--l. 598--><p class="noindent" ><span 
-class="ecbx-1095">Notes</span>                                      </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-105-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-2-1"  
-class="td11"> MSO5 series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-2-2"  
-class="td11"> tektronix  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-2-3"  
-class="td11"> lan, lxi        </td><td  style="white-space:normal; text-align:left;" id="TBL-105-2-4"  
-class="td11"> <!--l. 598--><p class="noindent" >                                   </p></td>
-   
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-105-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-3-1"  
-class="td11"> MSO6 series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-3-2"  
-class="td11"> tektronix  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-105-3-3"  
-class="td11"> lan, lxi        </td><td  style="white-space:normal; text-align:left;" id="TBL-105-3-4"  
-class="td11"> <!--l. 598--><p class="noindent" >                                   </p></td>
-   </tr><tr  
- style="vertical-align:baseline;" id="TBL-105-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-105-4-1"  
-class="td11">                 </td>
-      </tr></table>
-<!--l. 600--><p class="noindent" >
-</p>
-                                                                                         
-                                                                                         
-   <h4 class="subsectionHead"><span class="titlemark">14.16.1   </span> <a 
- id="x16-11100014.16.1"></a>Note regarding “lan&#x0022; transport on MSO5/6</h4>
-<!--l. 602--><p class="noindent" >The default settings for raw SCPI access on the MSO6 series use a full terminal emulator rather than raw
-SCPI commands. To remove the prompts and help text, go to Utility | I/O, then under the Socket Server
-panel select protocol “None&#x0022; rather than the default of “Terminal&#x0022;.
-</p><!--l. 606--><p class="noindent" >
-</p>
-   <h5 class="subsubsectionHead"><a 
- id="x16-11200014.16.1"></a>Typical Performance (MSO64, LXI, embedded OS)</h5>
    
     <table id="TBL-109" class="tabular" 
  
 ><colgroup id="TBL-109-1g"><col 
 id="TBL-109-1" /><col 
 id="TBL-109-2" /><col 
-id="TBL-109-3" /></colgroup><tr  
+id="TBL-109-3" /><col 
+id="TBL-109-4" /></colgroup><tr  
  style="vertical-align:baseline;" id="TBL-109-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-1-1"  
 class="td11"> <span 
-class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-1-2"  
+class="ecbx-1095">Device Family </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-1-2"  
 class="td11"> <span 
-class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-109-1-3"  
+class="ecbx-1095">Driver   </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-1-3"  
+class="td11"> <span 
+class="ecbx-1095">Transport </span></td><td  style="white-space:normal; text-align:left;" id="TBL-109-1-4"  
+class="td11"> <!--l. 598--><p class="noindent" ><span 
+class="ecbx-1095">Notes</span>                                      </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-109-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-2-1"  
+class="td11"> MSO5 series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-2-2"  
+class="td11"> tektronix  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-2-3"  
+class="td11"> lan, lxi        </td><td  style="white-space:normal; text-align:left;" id="TBL-109-2-4"  
+class="td11"> <!--l. 598--><p class="noindent" >                                   </p></td>
+   
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-109-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-3-1"  
+class="td11"> MSO6 series        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-3-2"  
+class="td11"> tektronix  </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-3-3"  
+class="td11"> lan, lxi        </td><td  style="white-space:normal; text-align:left;" id="TBL-109-3-4"  
+class="td11"> <!--l. 598--><p class="noindent" >                                   </p></td>
+   </tr><tr  
+ style="vertical-align:baseline;" id="TBL-109-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-4-1"  
+class="td11">                 </td>
+      </tr></table>
+<!--l. 600--><p class="noindent" >
+</p>
+                                                                                         
+                                                                                         
+   <h4 class="subsectionHead"><span class="titlemark">15.16.1   </span> <a 
+ id="x17-11400015.16.1"></a>Note regarding “lan&#x0022; transport on MSO5/6</h4>
+<!--l. 602--><p class="noindent" >The default settings for raw SCPI access on the MSO6 series use a full terminal emulator rather than raw
+SCPI commands. To remove the prompts and help text, go to Utility | I/O, then under the Socket Server
+panel select protocol “None&#x0022; rather than the default of “Terminal&#x0022;.
+</p><!--l. 606--><p class="noindent" >
+</p>
+   <h5 class="subsubsectionHead"><a 
+ id="x17-11500015.16.1"></a>Typical Performance (MSO64, LXI, embedded OS)</h5>
+   
+    <table id="TBL-113" class="tabular" 
+ 
+><colgroup id="TBL-113-1g"><col 
+id="TBL-113-1" /><col 
+id="TBL-113-2" /><col 
+id="TBL-113-3" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-113-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-113-1-1"  
+class="td11"> <span 
+class="ecbx-1095">Channels </span></td><td  style="white-space:nowrap; text-align:left;" id="TBL-113-1-2"  
+class="td11"> <span 
+class="ecbx-1095">Memory depth </span></td><td  style="white-space:normal; text-align:left;" id="TBL-113-1-3"  
 class="td11"> <!--l. 622--><p class="noindent" ><span 
 class="ecbx-1095">WFM/s</span>                                                   </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-109-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-2-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-2-2"  
-class="td11"> 50K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-109-2-3"  
+ style="vertical-align:baseline;" id="TBL-113-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-113-2-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-113-2-2"  
+class="td11"> 50K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-113-2-3"  
 class="td11"> <!--l. 622--><p class="noindent" >10.3 - 11.4                                                         </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-109-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-3-1"  
-class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-3-2"  
-class="td11"> 50K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-109-3-3"  
+ style="vertical-align:baseline;" id="TBL-113-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-113-3-1"  
+class="td11"> 2               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-113-3-2"  
+class="td11"> 50K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-113-3-3"  
 class="td11"> <!--l. 622--><p class="noindent" >6.7 - 7.2                                                            </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-109-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-4-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-4-2"  
-class="td11"> 50K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-109-4-3"  
+ style="vertical-align:baseline;" id="TBL-113-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-113-4-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-113-4-2"  
+class="td11"> 50K                   </td><td  style="white-space:normal; text-align:left;" id="TBL-113-4-3"  
 class="td11"> <!--l. 622--><p class="noindent" >5.1 - 5.3                                                            </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-109-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-5-1"  
-class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-5-2"  
-class="td11"> 500K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-109-5-3"  
+ style="vertical-align:baseline;" id="TBL-113-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-113-5-1"  
+class="td11"> 1               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-113-5-2"  
+class="td11"> 500K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-113-5-3"  
 class="td11"> <!--l. 622--><p class="noindent" >8.7 - 9.5                                                            </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-109-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-6-1"  
-class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-109-6-2"  
-class="td11"> 500K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-109-6-3"  
+ style="vertical-align:baseline;" id="TBL-113-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-113-6-1"  
+class="td11"> 4               </td><td  style="white-space:nowrap; text-align:left;" id="TBL-113-6-2"  
+class="td11"> 500K                 </td><td  style="white-space:normal; text-align:left;" id="TBL-113-6-3"  
 class="td11"> <!--l. 622--><p class="noindent" >3.8 - 3.9                                                            </p></td>
    </tr><tr  
- style="vertical-align:baseline;" id="TBL-109-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-109-7-1"  
+ style="vertical-align:baseline;" id="TBL-113-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-113-7-1"  
 class="td11">            </td>
       </tr></table>
 <!--l. 624--><p class="noindent" >
 </p>
-   <h3 class="sectionHead"><span class="titlemark">14.17   </span> <a 
- id="x16-11300014.17"></a>Xilinx</h3>
+   <h3 class="sectionHead"><span class="titlemark">15.17   </span> <a 
+ id="x17-11600015.17"></a>Xilinx</h3>
 <!--l. 625--><p class="noindent" >TODO (<a 
 href="https://github.com/ngscopeclient/scopehal/issues/40" >scopehal:40</a>)
                                                                                          
@@ -1504,8 +1504,8 @@ href="https://github.com/ngscopeclient/scopehal/issues/40" >scopehal:40</a>)
 </p>
    <!--l. 1--><div class="crosslinks"><p class="noindent">[<a 
 href="PowerSupplyDrivers.html" >next</a>] [<a 
-href="MultimeterDrivers.html" >prev</a>] [<a 
-href="MultimeterDrivers.html#tailMultimeterDrivers.html" >prev-tail</a>] [<a 
+href="MiscellaneousDrivers.html" >prev</a>] [<a 
+href="MiscellaneousDrivers.html#tailMiscellaneousDrivers.html" >prev-tail</a>] [<a 
 href="OscilloscopeDrivers.html" >front</a>] [<a 
 href="ngscopeclient-manual.html#OscilloscopeDrivers.html" >up</a>] </p></div>
 <!--l. 1--><p class="indent" >   <a 

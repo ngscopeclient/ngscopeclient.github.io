@@ -4,10 +4,10 @@
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link type='text/css' href='ngscopeclient-manual.css' rel='stylesheet' /> 
+<link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
 <meta name='src' content='ngscopeclient-manual.tex' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script type='text/javascript' async='async' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' id='MathJax-script'></script>  
+ <script src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' async='async' type='text/javascript' id='MathJax-script'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='BERTDrivers.html'>next</a>] [<a href='FilterGraphEditor.html'>prev</a>] [<a href='FilterGraphEditor.html#tailFilterGraphEditor.html'>prev-tail</a>] [<a href='#tailTransports.html'>tail</a>] [<a href='ngscopeclient-manual.html#Transports.html'>up</a>] </p></div>
    <h2 class='chapterHead'><span class='titlemark'>Chapter 9</span><br /><a id='x11-500009'></a>Transports</h2>
@@ -25,7 +25,7 @@ and timeout value. Only board index and primary address are required.
 </p><!-- l. 19 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux, using the linux-gpib
 library.
 </p><!-- l. 21 --><p class='indent'>   Example: </p><!-- l. 22 -->
-    <div class='lstlisting' id='listing-16'><span class='label'><a id='x11-51001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:keysightdca:gpib:0:7</span>
+    <div id='listing-16' class='lstlisting'><span class='label'><a id='x11-51001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:keysightdca:gpib:0:7</span>
     
    </div>
 <!-- l. 26 --><p class='noindent'>
@@ -37,7 +37,7 @@ library.
 oscilloscopes use the non-standard port 5555, not 5025, so the port number must always be specified when
 using a Rigol instrument.
 </p><!-- l. 35 --><p class='indent'>   Example: </p><!-- l. 36 -->
-    <div class='lstlisting' id='listing-17'><span class='label'><a id='x11-52001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:lan:192.0.2.9:5555</span>
+    <div id='listing-17' class='lstlisting'><span class='label'><a id='x11-52001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:lan:192.0.2.9:5555</span>
     
    </div>
 <!-- l. 40 --><p class='noindent'>
@@ -52,7 +52,7 @@ experience reduced performance when using LXI as the transport. Drivers which re
 batching may not be able to use LXI VXI-11 as the transport even if the instrument supports
 it.
 </p><!-- l. 49 --><p class='indent'>   Example: </p><!-- l. 50 -->
-    <div class='lstlisting' id='listing-18'><span class='label'><a id='x11-53001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:tektronix:lxi:192.0.2.9</span>
+    <div id='listing-18' class='lstlisting'><span class='label'><a id='x11-53001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:tektronix:lxi:192.0.2.9</span>
     
    </div>
 <!-- l. 54 --><p class='noindent'>
@@ -64,7 +64,7 @@ instruments.
 provided to all transports, including this one, when connecting via the command line. Since the argument
 is ignored, any non-empty string may be used.
 </p><!-- l. 62 --><p class='indent'>   Example: </p><!-- l. 63 -->
-    <div class='lstlisting' id='listing-19'><span class='label'><a id='x11-54001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient sim:demo:null:blah</span>
+    <div id='listing-19' class='lstlisting'><span class='label'><a id='x11-54001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient sim:demo:null:blah</span>
     
    </div>
 <!-- l. 67 --><p class='noindent'>
@@ -87,7 +87,7 @@ SCPI port plus one.
 </p><!-- l. 82 --><p class='indent'>   This transport takes two arguments: device path (required) and baud rate (optional). If baud rate is
 not specified, it defaults to 115200.
 </p><!-- l. 85 --><p class='indent'>   Example: </p><!-- l. 86 -->
-    <div class='lstlisting' id='listing-20'><span class='label'><a id='x11-56001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:uart:/dev/ttyUSB0:115200</span>
+    <div id='listing-20' class='lstlisting'><span class='label'><a id='x11-56001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:uart:/dev/ttyUSB0:115200</span>
     
    </div>
 <!-- l. 90 --><p class='noindent'>
@@ -98,7 +98,7 @@ not specified, it defaults to 115200.
 </p><!-- l. 96 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux. There is currently no support
 for USBTMC on Windows (see scopehal:301)
 </p><!-- l. 99 --><p class='indent'>   Example: </p><!-- l. 100 -->
-    <div class='lstlisting' id='listing-21'><span class='label'><a id='x11-57001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:siglent:usbtmc:/dev/usbtmc0</span>
+    <div id='listing-21' class='lstlisting'><span class='label'><a id='x11-57001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:siglent:usbtmc:/dev/usbtmc0</span>
     
    </div>
 <!-- l. 104 --><p class='noindent'>
@@ -108,7 +108,7 @@ for USBTMC on Windows (see scopehal:301)
 </p><!-- l. 108 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
 </p><!-- l. 110 --><p class='indent'>   If port number is not specified, uses TCP port 1861 (IANA assigned) by default.
 </p><!-- l. 112 --><p class='indent'>   Example: </p><!-- l. 113 -->
-    <div class='lstlisting' id='listing-22'><span class='label'><a id='x11-58001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:lecroy:vicp:192.0.2.9</span>
+    <div id='listing-22' class='lstlisting'><span class='label'><a id='x11-58001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:lecroy:vicp:192.0.2.9</span>
     
    </div>
                                                                                          
