@@ -16,6 +16,10 @@ For full details on which features are or are not supported by particular driver
 * MSOX-2000
 * MSOX-3000
 
+# ASEQ Instruments
+
+* LR1 UV-VIS-NIR spectrometer via [bridge server](https://github.com/ngscopeclient/scopehal-aseq-bridge)
+
 # Copper Mountain
 
 * All instruments using S2VNA/S4VNA software (including S5180B)
