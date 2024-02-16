@@ -1,18 +1,18 @@
 <!DOCTYPE html> 
-<html xml:lang='en-US' lang='en-US'> 
-<head><title>7 History</title> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>8 History</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='ngscopeclient-manual.css' /> 
 <meta name='src' content='ngscopeclient-manual.tex' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' async='async' type='text/javascript' id='MathJax-script'></script>  
+ <script id='MathJax-script' async='async' type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='FilterGraphEditor.html'>next</a>] [<a href='WaveformViews.html'>prev</a>] [<a href='WaveformViews.html#tailWaveformViews.html'>prev-tail</a>] [<a href='#tailHistory.html'>tail</a>] [<a href='ngscopeclient-manual.html#History.html'>up</a>] </p></div>
-   <h2 class='chapterHead'><span class='titlemark'>Chapter 7</span><br /><a id='x9-460007'></a>History</h2>
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 8</span><br /><a id='x10-680008'></a>History</h2>
 <!-- l. 4 --><p class='noindent'>ngscopeclient saves a rolling buffer of previous waveforms in memory, allowing you to go back in time and
-see previous state of the system being debugged. Clicking on a timestamp in the history view (Fig. <a href='#x9-46001r1'>7.1<!-- tex4ht:ref: historyview  --></a>)
+see previous state of the system being debugged. Clicking on a timestamp in the history view (Fig. <a href='#x10-68001r1'>8.1<!-- tex4ht:ref: historyview  --></a>)
 pauses acquisition and loads the historical waveform data for analysis. History is captured regardless of
 whether the window is visible or not.
 </p>
@@ -20,12 +20,12 @@ whether the window is visible or not.
 
                                                                                          
                                                                                          
-<a id='x9-46001r1'></a>
+<a id='x10-68001r1'></a>
                                                                                          
                                                                                          
-<!-- l. 11 --><p class='noindent'><img width='199' height='188' alt='PIC' src='ng-images/history.png' />
+<!-- l. 11 --><p class='noindent'><img height='188' alt='PIC' src='ng-images/history.png' width='199' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 7.1:</span><span class='content'>Waveform history view</span></figcaption><!-- tex4ht:label?: x9-46001r1  -->
+<figcaption class='caption'><span class='id'>Figure 8.1:</span><span class='content'>Waveform history view</span></figcaption><!-- tex4ht:label?: x10-68001r1  -->
                                                                                          
                                                                                          
    </figure>
@@ -34,18 +34,18 @@ RAM. Older waveforms beyond the history limit are deleted as new waveforms are a
 waveform in history may also be deleted by right clicking on the line and selecting “delete" from the
 menu.
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>7.1   </span> <a id='x9-470007.1'></a>Pinning</h3>
+   <h3 class='sectionHead'><span class='titlemark'>8.1   </span> <a id='x10-690008.1'></a>Pinning</h3>
 <!-- l. 25 --><p class='noindent'>Interesting waveforms may be “pinned" in the history by checking the box in the “pin" column of the
 history view. Pinned waveforms are guaranteed to remain in the history buffer even when new waveforms
 arrive; only unpinned waveforms are eligible for automatic deletion to make space for incoming
 data.
-</p><!-- l. 29 --><p class='indent'>   If a waveform contains markers (<a href='WaveformViews.html#x8-450006.5.2'>6.5.2<!-- tex4ht:ref: sec:markers  --></a>), it is automatically pinned and cannot be unpinned
+</p><!-- l. 29 --><p class='indent'>   If a waveform contains markers (<a href='WaveformViews.html#x9-670007.5.2'>7.5.2<!-- tex4ht:ref: sec:markers  --></a>), it is automatically pinned and cannot be unpinned
 unless the marker (or entire waveform) is deleted. This prevents accidental loss of an important
 waveform: if the event was important enough to mark and name, it is probably worth keeping
 around.
 </p><!-- l. 33 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>7.2   </span> <a id='x9-480007.2'></a>Labeling</h3>
+   <h3 class='sectionHead'><span class='titlemark'>8.2   </span> <a id='x10-700008.2'></a>Labeling</h3>
 <!-- l. 35 --><p class='noindent'>Arbitrary text names may be assigned to a waveform by clicking the corresponding cell in the “label"
 column. Waveforms with a label are automatically pinned, since assigning a label implies the waveform is
 important.

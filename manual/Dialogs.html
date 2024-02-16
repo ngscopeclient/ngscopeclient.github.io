@@ -1,0 +1,252 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>5 Dialogs</title> 
+<meta charset='utf-8' /> 
+<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
+<meta name='viewport' content='width=device-width,initial-scale=1' /> 
+<link rel='stylesheet' type='text/css' href='ngscopeclient-manual.css' /> 
+<meta name='src' content='ngscopeclient-manual.tex' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+ <script id='MathJax-script' async='async' type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js'></script>  
+</head><body>
+   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WaveformGroups.html'>next</a>] [<a href='MainWindow.html'>prev</a>] [<a href='MainWindow.html#tailMainWindow.html'>prev-tail</a>] [<a href='#tailDialogs.html'>tail</a>] [<a href='ngscopeclient-manual.html#Dialogs.html'>up</a>] </p></div>
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 5</span><br /><a id='x7-390005'></a>Dialogs</h2>
+   <h3 class='sectionHead'><span class='titlemark'>5.1   </span> <a id='x7-400005.1'></a>Lab Notes</h3>
+<!-- l. 9 --><p class='noindent'>The Lab Notes dialog allows you to take notes on your experimental setup. It contains two tabs: “setup
+notes" and "general notes".
+</p><!-- l. 12 --><p class='indent'>   The contents of the Setup Notes tab are displayed on the <a href='#x7-560005.5'>Speed Bump</a> dialog when loading a session
+file. The General Notes are only displayed within the Lab Notes dialog and are intended purely as a place
+for recording interesting observations made during the experiment.
+</p><!-- l. 16 --><p class='indent'>   Minimal Markdown syntax (headings and bullets) is currently
+supported.<span class='footnote-mark'><a id='fn1x6-bk' href='#fn1x6'><sup class='textsuperscript'>1</sup></a></span><a id='x7-40001f1'></a>
+</p><!-- l. 20 --><p class='indent'>   Lab notes are saved as Markdown files in the data directory for the session and can be opened in any
+text editor or Markdown viewer. Note that they are overwritten each time the session is saved, so you
+should not modify them using an external tool while the session is open in ngscopeclient or your changes
+may be lost.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-40002r1'></a>
+                                                                                         
+                                                                                         
+<!-- l. 26 --><p class='noindent'><img height='621' alt='PIC' src='ng-images/dialog-labnotes.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.1:</span><span class='content'>Lab notes dialog</span></figcaption><!-- tex4ht:label?: x7-40002r1  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <h3 class='sectionHead'><span class='titlemark'>5.2   </span> <a id='x7-410005.2'></a>Log Viewer</h3>
+<!-- l. 36 --><p class='noindent'>The Log Viewer dialog provides an alternate way to view log messages sent to stdout / stderr, which may
+be useful for debugging if the application was launched from a desktop icon or similar and there is no
+access to the console.
+</p><!-- l. 39 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Window | Log Viewer </span>menu.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-41001r2'></a>
+                                                                                         
+                                                                                         
+<!-- l. 43 --><p class='noindent'><img height='490' alt='PIC' src='ng-images/dialog-logviewer.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.2:</span><span class='content'>Log Viewer dialog</span></figcaption><!-- tex4ht:label?: x7-41001r2  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <h3 class='sectionHead'><span class='titlemark'>5.3   </span> <a id='x7-420005.3'></a>Performance Metrics</h3>
+<!-- l. 53 --><p class='noindent'>The Performance Metrics dialog displays statistics on performance of rendering, waveform acquisition, and
+signal processing. This data is primarily intended for developers comparing before/after performance of
+optimizations and code changes.
+</p><!-- l. 57 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Window | Performance Metrics </span>menu.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-42001r3'></a>
+                                                                                         
+                                                                                         
+<!-- l. 61 --><p class='noindent'><img height='292' alt='PIC' src='ng-images/dialog-perfmetrics.png' width='199' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.3:</span><span class='content'>Performance Metrics dialog</span></figcaption><!-- tex4ht:label?: x7-42001r3  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <h4 class='subsectionHead'><span class='titlemark'>5.3.1   </span> <a id='x7-430005.3.1'></a>Rendering</h4>
+<!-- l. 68 --><p class='noindent'>Displays render loop framerate, monitor refresh rate, total time spent last frame in the rasterization and
+tone mapping shaders, and the number of vertices and indices drawn as Vulkan geometry. Note that
+waveforms are drawn by a compute shader and do not contribute towads the vertex/index totals, other
+than a single textured rectangle used for displaying the shader output.
+</p><!-- l. 73 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>5.3.2   </span> <a id='x7-440005.3.2'></a>Filter graph</h4>
+<!-- l. 74 --><p class='noindent'>Number of filter blocks in the current graph, and run time for the most recent evaluation of the filter
+graph.
+</p><!-- l. 77 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>5.3.3   </span> <a id='x7-450005.3.3'></a>Acquisition</h4>
+<!-- l. 79 --><p class='noindent'>Displays the acquisition rate, in waveforms per second. This data is collected using a rather simple
+mechanism and may not be usefully accurate if multiple trigger groups are in use.
+</p><!-- l. 82 --><p class='indent'>   Additionally, this section displays the number of pending waveforms for each instrument
+(waveforms which have been acquired but not yet passed to the filter graph). This number should
+normally be flickering between zero and one if acquisition is active and zero otherwise; larger
+values indicate that the instrument is supplying data faster than ngscopeclient can process
+it.
+</p><!-- l. 87 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>5.3.4   </span> <a id='x7-460005.3.4'></a>Memory</h4>
+<!-- l. 89 --><p class='noindent'>Displays the total amount of available pinned memory (CPU-side memory eligible to be shared with the
+GPU) and local memory (memory attached to the GPU), as well as the amount of each currently in
+use.
+</p><!-- l. 94 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>5.4   </span> <a id='x7-470005.4'></a>Preferences</h3>
+<!-- l. 97 --><p class='noindent'>The Preferences dialog allows you to configure various application settings which are not specific to a
+particular experimental setup. It can be found under the <span class='t1-zi4r-0-x-x-109'>Setup | Preferences </span>menu.
+                                                                                         
+                                                                                         
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-47001r4'></a>
+                                                                                         
+                                                                                         
+<!-- l. 102 --><p class='noindent'><img height='177' alt='PIC' src='ng-images/dialog-preferences.png' width='199' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.4:</span><span class='content'>Preferences dialog</span></figcaption><!-- tex4ht:label?: x7-47001r4  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <h4 class='subsectionHead'><span class='titlemark'>5.4.1   </span> <a id='x7-480005.4.1'></a>Appearance</h4>
+<!-- l. 109 --><p class='noindent'>This section allows you to configure fonts, colors, and other display settings for the application.
+</p><!-- l. 113 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>5.4.2   </span> <a id='x7-490005.4.2'></a>Drivers</h4>
+<!-- l. 115 --><p class='noindent'>This section allows you to configure default configurations for various instrument drivers.
+</p><!-- l. 117 --><p class='noindent'>
+</p>
+   <h5 class='subsubsectionHead'><a id='x7-500005.4.2'></a>Teledyne LeCroy</h5>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='ecti-1095'>Force  16  bit  mode  </span>(default  on):  Always  use  16-bit  format  for  downloading  data  from
+     the  instrument,  even  if  it  only  has  an  8-bit  ADC.  This  doubles  the  amount  of  network
+     bandwidth  required  and  may  reduce  waveforms-per-second  performance,  but  provides
+     smoother waveforms since the instrument performs DSP flatness correction leading to &gt;256
+     possible output values in a given waveform.</li></ul>
+<!-- l. 126 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>5.4.3   </span> <a id='x7-510005.4.3'></a>Files</h4>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='ecti-1095'>Max recent files</span>: Specify the number of files to display under the <span class='t1-zi4r-0-x-x-109'>File | Recent Files </span>menu.</li></ul>
+<!-- l. 132 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>5.4.4   </span> <a id='x7-520005.4.4'></a>Miscellaneous</h4>
+                                                                                         
+                                                                                         
+<!-- l. 134 --><p class='noindent'>
+</p>
+   <h5 class='subsubsectionHead'><a id='x7-530005.4.4'></a>Menus</h5>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='ecti-1095'>Recent instrument count</span>: Specify the number of recently used instruments to remember</li></ul>
+<!-- l. 140 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>5.4.5   </span> <a id='x7-540005.4.5'></a>Power</h4>
+<!-- l. 142 --><p class='noindent'>
+</p>
+   <h5 class='subsubsectionHead'><a id='x7-550005.4.5'></a>Events</h5>
+<!-- l. 144 --><p class='noindent'>This section provides settings allowing power vs performance tradeoffs. The default settings are
+appropriate for a desktop or laptop running on AC power; if running on a laptop with battery power you
+may wish to tune these to extend battery lifespan.
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='ecti-1095'>Event loop mode</span>: Controls the operating mode for the main application event loop.
+          <ul class='itemize2'>
+          <li class='itemize'>In Performance mode, run at the screen refresh rate. This allows for the highest possible
+          waveform processing rate and the smoothest interactivity, but may waste energy if you
+          are spending a lot of time looking at the screen without actively acquiring or processing
+          waveforms.
+          </li>
+          <li class='itemize'>In Power mode, run at a greatly reduced frequency (default 4 Hz but configurable by the
+          Polling Timeout setting) unless a redraw is triggered by mouse movement or keyboard
+          input. This will limit the rate of waveform acquisition and lead to a slightly jerkier user
+          interface, but saves power.</li></ul>
+     </li>
+     <li class='itemize'><span class='ecti-1095'>Polling timeout</span>: If the event loop is in Power mode, specifies the timeout before the event loop will
+     run if there is no user input.</li></ul>
+<!-- l. 164 --><p class='noindent'>
+</p>
+                                                                                         
+                                                                                         
+   <h3 class='sectionHead'><span class='titlemark'>5.5   </span> <a id='x7-560005.5'></a>Speed Bump</h3>
+<!-- l. 167 --><p class='noindent'>The Speed Bump dialog is displayed when loading a session file, prior to committing changes to the
+instrument, if:
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>The session file contains any user-created notes on the lab setup
+     </li>
+     <li class='itemize'>Any of the instrument settings in the session file do not match the current configuration of
+     the corresponding instrument, and the direction of the change has potential to cause damage
+     to the instrument or DUT (increasing output voltage, removing input attenuation, etc).</li></ul>
+<!-- l. 176 --><p class='indent'>   This is intended as a safeguard to prevent damaging hardware by accidentally loading the wrong
+session file. It also provides an opportunity to confirm that you have re-created the original experimental
+setup exactly if you are switching a lab bench between multiple projects and using saved sessions to restore
+instrument state.
+</p><!-- l. 180 --><p class='indent'>   Pressing the Abort button cancels loading of the session without applying any of the potentially
+dangerous changes. The instruments may be partially reconfigured in this state, as some changes (such as
+sample rate or memory depth configuration) are always safe to make and thus may execute prior to the
+warning being displayed.
+</p><!-- l. 184 --><p class='indent'>   Pressing the Proceed button allows ngscopeclient to proceed with loading the session and reconfiguring
+hardware. You must check the “I have reviewed the instrument configuration" box in order to enable the
+Proceed button.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-56001r5'></a>
+                                                                                         
+                                                                                         
+<!-- l. 189 --><p class='noindent'><img height='673' alt='PIC' src='ng-images/dialog-speedbump.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.5:</span><span class='content'>Speed Bump dialog</span></figcaption><!-- tex4ht:label?: x7-56001r5  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <h3 class='sectionHead'><span class='titlemark'>5.6   </span> <a id='x7-570005.6'></a>Timebase</h3>
+<!-- l. 199 --><p class='noindent'>The Timebase dialog allows you to configure sample rate and record length for oscilloscopes. It also
+provides control over functionally similar “what to look at" settings for other instruments, such as center
+frequency and span for spectrum analyzers or sweep range and point count for vector network
+analyzers.
+</p><!-- l. 203 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Setup | Timebase </span>menu.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x7-57001r6'></a>
+                                                                                         
+                                                                                         
+<!-- l. 207 --><p class='noindent'><img height='80' alt='PIC' src='ng-images/dialog-timebase.png' width='199' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.6:</span><span class='content'>Timebase dialog</span></figcaption><!-- tex4ht:label?: x7-57001r6  -->
+                                                                                         
+                                                                                         
+   </figure>
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+   <div class='footnotes'><!-- l. 18 --><p class='indent'>     <span class='footnote-mark'><a id='fn1x6' href='#fn1x6-bk'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-0900'>Images and links are supported by the Markdown renderer library but the integration to properly use them is not yet
+</span><span class='ecrm-0900'>finished; tables are not supported but this will likely be added in the future.</span></p>                                                    </div>
+<!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WaveformGroups.html'>next</a>] [<a href='MainWindow.html'>prev</a>] [<a href='MainWindow.html#tailMainWindow.html'>prev-tail</a>] [<a href='Dialogs.html'>front</a>] [<a href='ngscopeclient-manual.html#Dialogs.html'>up</a>] </p></div>
+<!-- l. 1 --><p class='indent'>   <a id='tailDialogs.html'></a>  </p> 
+</body> 
+</html>

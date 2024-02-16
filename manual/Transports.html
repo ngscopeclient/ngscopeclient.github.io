@@ -1,114 +1,127 @@
 <!DOCTYPE html> 
-<html xml:lang='en-US' lang='en-US'> 
-<head><title>9 Transports</title> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>10 Transports</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='ngscopeclient-manual.css' /> 
 <meta name='src' content='ngscopeclient-manual.tex' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' async='async' type='text/javascript' id='MathJax-script'></script>  
+ <script id='MathJax-script' async='async' type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='BERTDrivers.html'>next</a>] [<a href='FilterGraphEditor.html'>prev</a>] [<a href='FilterGraphEditor.html#tailFilterGraphEditor.html'>prev-tail</a>] [<a href='#tailTransports.html'>tail</a>] [<a href='ngscopeclient-manual.html#Transports.html'>up</a>] </p></div>
-   <h2 class='chapterHead'><span class='titlemark'>Chapter 9</span><br /><a id='x11-500009'></a>Transports</h2>
-<!-- l. 4 --><p class='noindent'>Libscopehal uses a “transport" driver in order to pass commands and data to instruments, in order to
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 10</span><br /><a id='x12-7500010'></a>Transports</h2>
+<!-- l. 4 --><p class='noindent'>Libscopehal uses a “transport" object in order to pass commands and data to instruments, in order to
 decouple the specifics of LXI, USBTMC, etc. from individual instrument drivers. This section describes the
 supported transports and their usage and limitations.
 </p><!-- l. 8 --><p class='indent'>   Not all transports are possible to use with any given driver due to hardware limitations or
 software/firmware quirks. For details on which transport(s) are usable with a particular instrument,
 consult the documentation for that device’s driver.
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.1   </span> <a id='x11-510009.1'></a>gpib</h3>
+   <h3 class='sectionHead'><span class='titlemark'>10.1   </span> <a id='x12-7600010.1'></a>gpib</h3>
 <!-- l. 14 --><p class='noindent'>SCPI over GPIB.
 </p><!-- l. 16 --><p class='indent'>   This transport takes up to four arguments: GPIB board index, primary address, secondary address,
-and timeout value. Only board index and primary address are required.
-</p><!-- l. 19 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux, using the linux-gpib
+and timeout value. Only board index and primary address are required. We currently support using a
+single GPIB device per GPIB board (interface) in a ngscopeclient session. You cannot currently access
+multiple devices in the same or across instances. Better support for multiple instrument on a single board
+is planned.
+</p><!-- l. 21 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux, using the linux-gpib
 library.
-</p><!-- l. 21 --><p class='indent'>   Example: </p><!-- l. 22 -->
-    <div id='listing-16' class='lstlisting'><span class='label'><a id='x11-51001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:keysightdca:gpib:0:7</span>
+</p><!-- l. 23 --><p class='indent'>   Example: </p><!-- l. 24 -->
+    <div id='listing-31' class='lstlisting'><span class='label'><a id='x12-76001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:keysightdca:gpib:0:7</span>
     
    </div>
-<!-- l. 26 --><p class='noindent'>
+<!-- l. 28 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.2   </span> <a id='x11-520009.2'></a>lan</h3>
-<!-- l. 28 --><p class='noindent'>SCPI over TCP with no further encapsulation.
-</p><!-- l. 30 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
-</p><!-- l. 32 --><p class='indent'>   If port number is not specified, uses TCP port 5025 (IANA assigned) by default. Note that Rigol
+   <h3 class='sectionHead'><span class='titlemark'>10.2   </span> <a id='x12-7700010.2'></a>lan</h3>
+<!-- l. 30 --><p class='noindent'>SCPI over TCP with no further encapsulation.
+</p><!-- l. 32 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
+</p><!-- l. 34 --><p class='indent'>   If port number is not specified, uses TCP port 5025 (IANA assigned) by default. Note that Rigol
 oscilloscopes use the non-standard port 5555, not 5025, so the port number must always be specified when
 using a Rigol instrument.
-</p><!-- l. 35 --><p class='indent'>   Example: </p><!-- l. 36 -->
-    <div id='listing-17' class='lstlisting'><span class='label'><a id='x11-52001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:lan:192.0.2.9:5555</span>
+</p><!-- l. 37 --><p class='indent'>   Example: </p><!-- l. 38 -->
+    <div id='listing-32' class='lstlisting'><span class='label'><a id='x12-77001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:lan:192.0.2.9:5555</span>
     
    </div>
-<!-- l. 40 --><p class='noindent'>
+<!-- l. 42 --><p class='noindent'>
+                                                                                         
+                                                                                         
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.3   </span> <a id='x11-530009.3'></a>lxi</h3>
-<!-- l. 42 --><p class='noindent'>SCPI over LXI VXI-11.
-                                                                                         
-                                                                                         
-</p><!-- l. 44 --><p class='indent'>   Note that due to the remote procedure call paradigm used by LXI, it is not possible to batch
+   <h3 class='sectionHead'><span class='titlemark'>10.3   </span> <a id='x12-7800010.3'></a>lxi</h3>
+<!-- l. 44 --><p class='noindent'>SCPI over LXI VXI-11.
+</p><!-- l. 46 --><p class='indent'>   Note that due to the remote procedure call paradigm used by LXI, it is not possible to batch
 multiple outstanding requests to an instrument when using this transport. Some instruments may
 experience reduced performance when using LXI as the transport. Drivers which require command
 batching may not be able to use LXI VXI-11 as the transport even if the instrument supports
 it.
-</p><!-- l. 49 --><p class='indent'>   Example: </p><!-- l. 50 -->
-    <div id='listing-18' class='lstlisting'><span class='label'><a id='x11-53001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:tektronix:lxi:192.0.2.9</span>
+</p><!-- l. 51 --><p class='indent'>   Example: </p><!-- l. 52 -->
+    <div id='listing-33' class='lstlisting'><span class='label'><a id='x12-78001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:tektronix:lxi:192.0.2.9</span>
     
    </div>
-<!-- l. 54 --><p class='noindent'>
+<!-- l. 56 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.4   </span> <a id='x11-540009.4'></a>null</h3>
-<!-- l. 56 --><p class='noindent'>This transport does nothing, and is used as a placeholder for development simulations or non-SCPI
+   <h3 class='sectionHead'><span class='titlemark'>10.4   </span> <a id='x12-7900010.4'></a>null</h3>
+<!-- l. 58 --><p class='noindent'>This transport does nothing, and is used as a placeholder for development simulations or non-SCPI
 instruments.
-</p><!-- l. 58 --><p class='indent'>   NOTE: Due to limitations of the current command line argument parsing code, an argument must be
+</p><!-- l. 60 --><p class='indent'>   NOTE: Due to limitations of the current command line argument parsing code, an argument must be
 provided to all transports, including this one, when connecting via the command line. Since the argument
 is ignored, any non-empty string may be used.
-</p><!-- l. 62 --><p class='indent'>   Example: </p><!-- l. 63 -->
-    <div id='listing-19' class='lstlisting'><span class='label'><a id='x11-54001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient sim:demo:null:blah</span>
+</p><!-- l. 64 --><p class='indent'>   Example: </p><!-- l. 65 -->
+    <div id='listing-34' class='lstlisting'><span class='label'><a id='x12-79001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient sim:demo:null:blah</span>
     
    </div>
-<!-- l. 67 --><p class='noindent'>
+<!-- l. 69 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.5   </span> <a id='x11-550009.5'></a>twinlan</h3>
-<!-- l. 69 --><p class='noindent'>This transport is used by some Antikernel Labs oscilloscopes, as well as most of the bridge servers used for
+   <h3 class='sectionHead'><span class='titlemark'>10.5   </span> <a id='x12-8000010.5'></a>socketcan</h3>
+<!-- l. 71 --><p class='noindent'>This transport provides a bridge for accessing the native Linux SocketCAN API from the scopehal driver
+layer. When paired with the “socketcan" oscilloscope driver and a suitable CAN peripheral, it allows
+ngscopeclient to be used as a CAN bus protocol analyzer. Since SocketCAN is a Linux-only API, this
+transport is not available on other platforms.
+</p><!-- l. 75 --><p class='indent'>   This transport takes one argument: the device name (e.g. “can0")
+</p><!-- l. 77 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>10.6   </span> <a id='x12-8100010.6'></a>twinlan</h3>
+                                                                                         
+                                                                                         
+<!-- l. 79 --><p class='noindent'>This transport is used by some Antikernel Labs oscilloscopes, as well as most of the bridge servers used for
 interfacing libscopehal with USB oscilloscopes’ SDKs. It takes three arguments: hostname/IP and two port
 numbers.
-</p><!-- l. 72 --><p class='indent'>   It uses two TCP sockets on different ports. The first carries SCPI text (as in the “lan" transport), and
+</p><!-- l. 82 --><p class='indent'>   It uses two TCP sockets on different ports. The first carries SCPI text (as in the “lan" transport), and
 the second is for binary waveform data.
-</p><!-- l. 75 --><p class='indent'>   If port numbers are not specified, the SCPI port defaults to the IANA standard of 5025, and the data
+</p><!-- l. 85 --><p class='indent'>   If port numbers are not specified, the SCPI port defaults to the IANA standard of 5025, and the data
 port defaults to 5026. If the SCPI port but not the data port is specified, the data port defaults to the
 SCPI port plus one.
-</p><!-- l. 78 --><p class='noindent'>
+</p><!-- l. 88 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.6   </span> <a id='x11-560009.6'></a>uart</h3>
-<!-- l. 80 --><p class='noindent'>SCPI over RS-232 or USB-UART.
-                                                                                         
-                                                                                         
-</p><!-- l. 82 --><p class='indent'>   This transport takes two arguments: device path (required) and baud rate (optional). If baud rate is
+   <h3 class='sectionHead'><span class='titlemark'>10.7   </span> <a id='x12-8200010.7'></a>uart</h3>
+<!-- l. 90 --><p class='noindent'>SCPI over RS-232 or USB-UART.
+</p><!-- l. 92 --><p class='indent'>   This transport takes two arguments: device path (required) and baud rate (optional). If baud rate is
 not specified, it defaults to 115200.
-</p><!-- l. 85 --><p class='indent'>   Example: </p><!-- l. 86 -->
-    <div id='listing-20' class='lstlisting'><span class='label'><a id='x11-56001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:uart:/dev/ttyUSB0:115200</span>
+</p><!-- l. 95 --><p class='indent'>   Example: </p><!-- l. 96 -->
+    <div id='listing-35' class='lstlisting'><span class='label'><a id='x12-82001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:rigol:uart:/dev/ttyUSB0:115200</span>
     
    </div>
-<!-- l. 90 --><p class='noindent'>
+<!-- l. 100 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.7   </span> <a id='x11-570009.7'></a>usbtmc</h3>
-<!-- l. 92 --><p class='noindent'>SCPI over USB Test &amp; Measurement Class protocol.
-</p><!-- l. 94 --><p class='indent'>   This transport takes one argument: the path to the usbtmc kernel device object.
-</p><!-- l. 96 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux. There is currently no support
-for USBTMC on Windows (see scopehal:301)
-</p><!-- l. 99 --><p class='indent'>   Example: </p><!-- l. 100 -->
-    <div id='listing-21' class='lstlisting'><span class='label'><a id='x11-57001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:siglent:usbtmc:/dev/usbtmc0</span>
+   <h3 class='sectionHead'><span class='titlemark'>10.8   </span> <a id='x12-8300010.8'></a>usbtmc</h3>
+<!-- l. 102 --><p class='noindent'>SCPI over USB Test &amp; Measurement Class protocol.
+</p><!-- l. 104 --><p class='indent'>   This transport takes one argument: the path to the usbtmc kernel device object.
+</p><!-- l. 106 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux. There is currently no support
+for USBTMC on Windows (<a href='https://github.com/ngscopeclient/scopehal/issues/301'>scopehal:301</a>)
+</p><!-- l. 109 --><p class='indent'>   Example: </p><!-- l. 110 -->
+    <div id='listing-36' class='lstlisting'><span class='label'><a id='x12-83001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:siglent:usbtmc:/dev/usbtmc0</span>
     
    </div>
-<!-- l. 104 --><p class='noindent'>
+<!-- l. 114 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>9.8   </span> <a id='x11-580009.8'></a>vicp</h3>
-<!-- l. 106 --><p class='noindent'>SCPI over Teledyne LeCroy Virtual Instrument Control Protocol.
-</p><!-- l. 108 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
-</p><!-- l. 110 --><p class='indent'>   If port number is not specified, uses TCP port 1861 (IANA assigned) by default.
-</p><!-- l. 112 --><p class='indent'>   Example: </p><!-- l. 113 -->
-    <div id='listing-22' class='lstlisting'><span class='label'><a id='x11-58001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:lecroy:vicp:192.0.2.9</span>
+   <h3 class='sectionHead'><span class='titlemark'>10.9   </span> <a id='x12-8400010.9'></a>vicp</h3>
+<!-- l. 116 --><p class='noindent'>SCPI over Teledyne LeCroy Virtual Instrument Control Protocol.
+</p><!-- l. 118 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
+</p><!-- l. 120 --><p class='indent'>   If port number is not specified, uses TCP port 1861 (IANA assigned) by default.
+                                                                                         
+                                                                                         
+</p><!-- l. 122 --><p class='indent'>   Example: </p><!-- l. 123 -->
+    <div id='listing-37' class='lstlisting'><span class='label'><a id='x12-84001r1'></a></span><span class='t1-zi4r-0-'>ngscopeclient myscope:lecroy:vicp:192.0.2.9</span>
     
    </div>
                                                                                          

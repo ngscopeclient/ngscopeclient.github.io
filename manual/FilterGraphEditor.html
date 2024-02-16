@@ -1,23 +1,20 @@
 <!DOCTYPE html> 
-<html xml:lang='en-US' lang='en-US'> 
-<head><title>8 Filter Graph Editor</title> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>9 Filter Graph Editor</title> 
 <meta charset='utf-8' /> 
 <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
 <meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
+<link rel='stylesheet' type='text/css' href='ngscopeclient-manual.css' /> 
 <meta name='src' content='ngscopeclient-manual.tex' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' async='async' type='text/javascript' id='MathJax-script'></script>  
+ <script id='MathJax-script' async='async' type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='Transports.html'>next</a>] [<a href='History.html'>prev</a>] [<a href='History.html#tailHistory.html'>prev-tail</a>] [<a href='#tailFilterGraphEditor.html'>tail</a>] [<a href='ngscopeclient-manual.html#FilterGraphEditor.html'>up</a>] </p></div>
-   <h2 class='chapterHead'><span class='titlemark'>Chapter 8</span><br /><a id='x10-490008'></a>Filter Graph Editor</h2>
-<!-- l. 4 --><p class='noindent'>The filter graph editor allows complex signal processing pipelines to be developed in a graphical fashion. It
-may be accessed from the <span class='t1-zi4r-0-x-x-109'>Window / Filter Graph </span>menu item.
-</p><!-- l. 7 --><p class='indent'>   NOTE: While the graph editor can be floated or docked just like any other window in ngscopeclient,
-there is a clipping bug (<a href='https://github.com/ngscopeclient/scopehal-app/issues/572'>scopehal-app:572</a>) causing the graph view to be drawn incorrectly or not at all
-when not docked. The workaround is to only interact with the filter graph when it is in a docked
-state.
-</p><!-- l. 11 --><p class='indent'>   The graph editor view (Fig. <a href='#x10-49001r1'>8.1<!-- tex4ht:ref: graph-editor  --></a>) shows nodes for every instrument channel, trigger, and filter block in
+   <h2 class='chapterHead'><span class='titlemark'>Chapter 9</span><br /><a id='x11-710009'></a>Filter Graph Editor</h2>
+   <h3 class='sectionHead'><span class='titlemark'>9.1   </span> <a id='x11-720009.1'></a>Introduction</h3>
+<!-- l. 6 --><p class='noindent'>The filter graph editor allows complex signal processing pipelines to be developed in a graphical fashion. It
+may be accessed from the <span class='t1-zi4r-0-x-x-109'>Window | Filter Graph </span>menu item.
+</p><!-- l. 9 --><p class='indent'>   The graph editor view (Fig. <a href='#x11-72001r1'>9.1<!-- tex4ht:ref: graph-editor  --></a>) shows nodes for every instrument channel, trigger, and filter block in
 the current session. As new instruments, channels, and filter blocks are added to the session, new nodes
 will automatically appear in the graph editor view. Nodes cannot overlap and will automatically move out
 of the way if another node is dragged on top of them.
@@ -26,29 +23,30 @@ of the way if another node is dragged on top of them.
 
                                                                                          
                                                                                          
-<a id='x10-49001r1'></a>
+<a id='x11-72001r1'></a>
                                                                                          
                                                                                          
-<!-- l. 18 --><p class='noindent'><img width='284' height='169' alt='PIC' src='ng-images/graph-editor.png' />
+<!-- l. 16 --><p class='noindent'><img height='705' alt='PIC' src='ng-images/graph-editor.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 8.1:</span><span class='content'>Filter graph editor showing two sinewave sources</span></figcaption><!-- tex4ht:label?: x10-49001r1  -->
+<figcaption class='caption'><span class='id'>Figure 9.1:</span><span class='content'>Filter graph editor showing instrument channels and several processing blocks</span></figcaption><!-- tex4ht:label?: x11-72001r1  -->
                                                                                          
                                                                                          
    </figure>
-<!-- l. 23 --><p class='indent'>   The view may be zoomed with the mouse wheel, or panned by dragging with the right mouse button,
-to navigate large filter graphs which do not fit on a single screen. Right clicking on a node opens a pop-up
-properties view (Fig. <a href='#x10-49002r2'>8.2<!-- tex4ht:ref: graph-editor-properties  --></a>).
+   <h3 class='sectionHead'><span class='titlemark'>9.2   </span> <a id='x11-730009.2'></a>Interaction</h3>
+<!-- l. 23 --><p class='noindent'>The view may be zoomed with the mouse wheel, or panned by dragging with the right mouse button, to
+navigate large filter graphs which do not fit on a single screen at a reasonable zoom level. Right clicking on
+a node opens a pop-up properties view (Fig. <a href='#x11-73001r2'>9.2<!-- tex4ht:ref: graph-editor-properties  --></a>).
 </p>
    <figure class='figure'> 
 
                                                                                          
                                                                                          
-<a id='x10-49002r2'></a>
+<a id='x11-73001r2'></a>
                                                                                          
                                                                                          
-<!-- l. 29 --><p class='noindent'><img width='284' height='169' alt='PIC' src='ng-images/graph-editor-properties.png' />
+<!-- l. 29 --><p class='noindent'><img height='134' alt='PIC' src='ng-images/graph-editor-properties.png' width='227' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 8.2:</span><span class='content'>Filter graph editor showing properties popup</span></figcaption><!-- tex4ht:label?: x10-49002r2  -->
+<figcaption class='caption'><span class='id'>Figure 9.2:</span><span class='content'>Filter graph editor showing properties popup</span></figcaption><!-- tex4ht:label?: x11-73001r2  -->
                                                                                          
                                                                                          
    </figure>
@@ -60,40 +58,103 @@ and replaced with the new one.
 tooltip displays a red X instead, the connection is invalid (connecting two inputs, two outputs, or an input
 and output of incompatible data types).
 </p><!-- l. 42 --><p class='indent'>   To create a new node, click on an input or output port and drag to an empty area of the canvas (Fig.
-<a href='#x10-49003r3'>8.3<!-- tex4ht:ref: graph-editor-create  --></a>). A context menu will appear, presenting a list of filters which can accept (if dragging from an output)
-or produce (if dragging from an input) the desired data type.
-</p><!-- l. 46 --><p class='indent'>   When a new block is added to the filter graph, each output channel will be automatically added to an
-existing waveform view if a compatible one is present. If no compatible view is available, a new view
-and/or group will be created.
+<a href='#x11-73002r3'>9.3<!-- tex4ht:ref: graph-editor-create  --></a>, Fig. <a href='#x11-73003r4'>9.4<!-- tex4ht:ref: graph-editor-addinput  --></a>). A context menu will appear, presenting a list of filters which can accept (if
+dragging from an output) or produce (if dragging from an input) the desired data type. If
+dragging from an input, the context menu will also include any currently unused instrument
+channels.
 </p>
    <figure class='figure'> 
 
                                                                                          
                                                                                          
-<a id='x10-49003r3'></a>
+<a id='x11-73002r3'></a>
                                                                                          
                                                                                          
-<!-- l. 51 --><p class='noindent'><img width='284' height='169' alt='PIC' src='ng-images/graph-editor-create.png' />
+<!-- l. 49 --><p class='noindent'><img height='431' alt='PIC' src='ng-images/graph-editor-create.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 8.3:</span><span class='content'>Filter graph editor dragging to an empty area of the canvas</span></figcaption><!-- tex4ht:label?: x10-49003r3  -->
+<figcaption class='caption'><span class='id'>Figure 9.3:</span><span class='content'>Filter graph editor dragging from an output to an empty area of the canvas</span></figcaption><!-- tex4ht:label?: x11-73002r3  -->
                                                                                          
                                                                                          
    </figure>
-<!-- l. 56 --><p class='indent'>   Node title bars are color-coded to match the display color of the waveform trace, allowing easy
-navigation between waveform views and the graph editor.
-</p><!-- l. 59 --><p class='indent'>   Basic math blocks show icons in the graph editor view, allowing easier understanding of complex signal
-processing pipelines. Icons are gradually being added to more protocol decodes and filters to improve
-legibility.
+   <figure class='figure'> 
+
                                                                                          
                                                                                          
+<a id='x11-73003r4'></a>
                                                                                          
                                                                                          
-                                                                                         
-                                                                                         
-                                                                                         
-                                                                                         
+<!-- l. 56 --><p class='noindent'><img height='130' alt='PIC' src='ng-images/graph-editor-addinput.png' width='284' />
 </p>
-   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='Transports.html'>next</a>] [<a href='History.html'>prev</a>] [<a href='History.html#tailHistory.html'>prev-tail</a>] [<a href='FilterGraphEditor.html'>front</a>] [<a href='ngscopeclient-manual.html#FilterGraphEditor.html'>up</a>] </p></div>
-<!-- l. 1 --><p class='indent'>   <a id='tailFilterGraphEditor.html'></a> </p> 
+<figcaption class='caption'><span class='id'>Figure 9.4:</span><span class='content'>Filter graph editor dragging from an input to an empty area of the canvas</span></figcaption><!-- tex4ht:label?: x11-73003r4  -->
+                                                                                         
+                                                                                         
+   </figure>
+<!-- l. 61 --><p class='indent'>   When a new node is added to the filter graph, each output channel will be automatically added to an
+existing waveform view if a compatible one is present. If no compatible view is available, a new view
+and/or group will be created.
+</p><!-- l. 64 --><p class='indent'>   Node title bars are color-coded to match the display color of the waveform trace, allowing easy
+navigation between waveform views and the graph editor.
+</p><!-- l. 67 --><p class='indent'>   Each node also includes a caption stating the type of node (“hardware input", “hardware output", or
+the name of the filter block) and, in most cases, an icon depicting the functionality of the
+block.<span class='footnote-mark'><a id='fn1x10-bk' href='#fn1x10'><sup class='textsuperscript'>1</sup></a></span><a id='x11-73004f1'></a>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>9.3   </span> <a id='x11-740009.3'></a>Grouping</h3>
+<!-- l. 73 --><p class='noindent'>In order to better organize complex experimental setups, nodes may be organized in groups. Groups
+cannot be nested.
+</p><!-- l. 75 --><p class='indent'>   To create a group, right click an unused area of the graph editor canvas and select “New
+Group" from the context menu. This will spawn a new, empty group near the mouse cursor
+position.
+</p><!-- l. 78 --><p class='indent'>   The group will have an automatically generated name (Fig. <a href='#x11-74001r5'>9.5<!-- tex4ht:ref: graph-editor-group1  --></a>) by default. This name may be changed
+by right clicking on the group’s title bar and typing a new name in the pop-up.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x11-74001r5'></a>
+                                                                                         
+                                                                                         
+<!-- l. 83 --><p class='noindent'><img height='565' alt='PIC' src='ng-images/graph-editor-group1.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 9.5:</span><span class='content'>Newly created node group</span></figcaption><!-- tex4ht:label?: x11-74001r5  -->
+                                                                                         
+                                                                                         
+   </figure>
+<!-- l. 88 --><p class='indent'>   To add a node to a group, simply drag the node by its title bar and move it into the group (Fig. <a href='#x11-74002r6'>9.6<!-- tex4ht:ref: graph-editor-group2  --></a>).
+All paths from the node to the remainder of the filter graph will be routed through “hierarchical ports" at
+the left and right edges of the group, reducing clutter. Nodes may be freely moved around
+within the group to organize them, or dragged out of the group to remove them from the
+group.
+</p><!-- l. 93 --><p class='indent'>   A group (together with its contents) may be moved by dragging the group’s title bar with the left
+mouse button, or resized by dragging any of its corners. When a group is moved, it will push other nodes
+or groups out of the way to prevent overlapping.
+</p><!-- l. 97 --><p class='indent'>   If not needed, a group can be deleted by selecting it with the left mouse button and pressing the
+“delete" key. Deleting a group does not remove any nodes contained within it.
+</p>
+   <figure class='figure'> 
+
+                                                                                         
+                                                                                         
+<a id='x11-74002r6'></a>
+                                                                                         
+                                                                                         
+<!-- l. 102 --><p class='noindent'><img height='612' alt='PIC' src='ng-images/graph-editor-group2.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 9.6:</span><span class='content'>Groups containing several nodes with hierarchical ports</span></figcaption><!-- tex4ht:label?: x11-74002r6  -->
+                                                                                         
+                                                                                         
+   </figure>
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+   <div class='footnotes'><!-- l. 69 --><p class='indent'>     <span class='footnote-mark'><a id='fn1x10' href='#fn1x10-bk'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-0900'>Not all filters currently have icons. We are working with multiple artists to create more filter icons and welcome
+</span><span class='ecrm-0900'>additional contributions.</span></p>                                                                                                                        </div>
+<!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='Transports.html'>next</a>] [<a href='History.html'>prev</a>] [<a href='History.html#tailHistory.html'>prev-tail</a>] [<a href='FilterGraphEditor.html'>front</a>] [<a href='ngscopeclient-manual.html#FilterGraphEditor.html'>up</a>] </p></div>
+<!-- l. 1 --><p class='indent'>   <a id='tailFilterGraphEditor.html'></a>  </p> 
 </body> 
 </html>
