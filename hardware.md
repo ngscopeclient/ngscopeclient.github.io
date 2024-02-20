@@ -50,6 +50,10 @@ For full details on which features are or are not supported by particular driver
 
 * GPD-X303S power supply
 
+# HP
+
+* 662xA power supply
+
 # MultiLane
 
 * ML4039 BERT via [bridge server](https://github.com/ngscopeclient/scopehal-mlbert-bridge)
