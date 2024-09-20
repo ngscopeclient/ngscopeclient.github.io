@@ -1,33 +1,33 @@
 <!DOCTYPE html> 
 <html lang='en-US' xml:lang='en-US'> 
-<head><title>6 Waveform Groups</title> 
+<head><title>7 Waveform Groups</title> 
 <meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link type='text/css' href='ngscopeclient-manual.css' rel='stylesheet' /> 
-<meta name='src' content='ngscopeclient-manual.tex' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
+<meta content='ngscopeclient-manual.tex' name='src' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' async='async' id='MathJax-script'></script>  
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WaveformViews.html'>next</a>] [<a href='Dialogs.html'>prev</a>] [<a href='Dialogs.html#tailDialogs.html'>prev-tail</a>] [<a href='#tailWaveformGroups.html'>tail</a>] [<a href='ngscopeclient-manual.html#WaveformGroups.html'>up</a>] </p></div>
-   <h2 class='chapterHead'><span class='titlemark'>Chapter 6</span><br /><a id='x8-580006'></a>Waveform Groups</h2>
+   <h2 class='chapterHead' id='waveform-groups'><span class='titlemark'>Chapter 7</span><br /><a id='x9-640007'></a>Waveform Groups</h2>
 <!-- l. 3 --><p class='noindent'>A waveform group is a collection of one or more waveform views stacked vertically under a common
 timeline. All waveform views within a group are equally sized and share the same timeline and vertical
 cursor(s), but may have independent vertical range and offset settings.
 </p><!-- l. 7 --><p class='indent'>   When a new oscilloscope is added to an empty ngscopeclient session, all enabled channels on the
-attached instrument(s) are displayed in a single waveform group (Figure <a href='#x8-58001r1'>6.1<!-- tex4ht:ref: single-group  --></a>). If no channels are enabled at
+attached instrument(s) are displayed in a single waveform group (Figure 7.1). If no channels are enabled at
 connection time, the first channel will be enabled and displayed.
 </p>
-   <figure class='figure'> 
+   <figure class='figure' id='-top-level-ngscopeclient-window-with-a-single-waveform-group'> 
 
                                                                                          
                                                                                          
-<a id='x8-58001r1'></a>
+<a id='x9-64001r1'></a>
                                                                                          
                                                                                          
-<!-- l. 13 --><p class='noindent'><img height='216' src='ng-images/overview.png' alt='PIC' width='369' />
+<!-- l. 13 --><p class='noindent'><img alt='PIC' height='216' src='ng-images/overview.png' width='369' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.1:</span><span class='content'>Top level ngscopeclient window with a single waveform group</span></figcaption><!-- tex4ht:label?: x8-58001r1  -->
+<figcaption class='caption'><span class='id'>Figure 7.1: </span><span class='content'>Top level ngscopeclient window with a single waveform group</span></figcaption><!-- tex4ht:label?: x9-64001r1  -->
                                                                                          
                                                                                          
    </figure>
@@ -41,40 +41,40 @@ additional waveform groups. Typical reasons for creating additional groups inclu
      <li class='itemize'>Viewing signals with incompatible horizontal units. For example, a FFT has horizontal units
      of frequency while an analog waveform has horizontal units of time. Eye patterns also have
      horizontal units of time, but are always displayed as two UIs wide and cannot be zoomed.</li></ul>
-   <h3 class='sectionHead'><span class='titlemark'>6.1   </span> <a id='x8-590006.1'></a>Managing Groups</h3>
+   <h3 class='sectionHead' id='managing-groups'><span class='titlemark'>7.1   </span> <a id='x9-650007.1'></a>Managing Groups</h3>
 <!-- l. 31 --><p class='noindent'>New waveform groups are automatically created when adding a channel which is not compatible with
 any existing group. For example, if your session has a single group containing time-domain
 waveforms, adding a FFT filter block will result in a new waveform group being created to
 contain the FFT. Additional frequency-domain waveforms will then be added to this group by
 default.
 </p><!-- l. 36 --><p class='indent'>   A new group may also be created at any time by clicking on a channel name and dragging it to the top,
-bottom, left, or right edge of an existing group. An overlay (Fig. <a href='#x8-59001r2'>6.2<!-- tex4ht:ref: split-overlays  --></a>) will be displayed showing the
+bottom, left, or right edge of an existing group. An overlay (Fig. 7.2) will be displayed showing the
 resulting split. For example, dropping the channel on the right side of the window produces the layout
-shown in Fig. <a href='#x8-59002r3'>6.3<!-- tex4ht:ref: split-right  --></a>.
+shown in Fig. 7.3.
 </p>
-   <figure class='figure'> 
+   <figure class='figure' id='-overlays-showing-draganddrop-locations-for-splitting-waveform-groups'> 
 
                                                                                          
                                                                                          
-<a id='x8-59001r2'></a>
+<a id='x9-65001r2'></a>
                                                                                          
                                                                                          
-<!-- l. 42 --><p class='noindent'><img height='216' src='ng-images/split-overlays.png' alt='PIC' width='369' />
+<!-- l. 42 --><p class='noindent'><img alt='PIC' height='216' src='ng-images/split-overlays.png' width='369' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.2:</span><span class='content'>Overlays showing drag-and-drop locations for splitting waveform groups</span></figcaption><!-- tex4ht:label?: x8-59001r2  -->
+<figcaption class='caption'><span class='id'>Figure 7.2: </span><span class='content'>Overlays showing drag-and-drop locations for splitting waveform groups</span></figcaption><!-- tex4ht:label?: x9-65001r2  -->
                                                                                          
                                                                                          
    </figure>
-   <figure class='figure'> 
+   <figure class='figure' id='-result-of-dropping-a-waveform-to-the-right-side-split-area'> 
 
                                                                                          
                                                                                          
-<a id='x8-59002r3'></a>
+<a id='x9-65002r3'></a>
                                                                                          
                                                                                          
-<!-- l. 49 --><p class='noindent'><img height='216' src='ng-images/split-right.png' alt='PIC' width='369' />
+<!-- l. 49 --><p class='noindent'><img alt='PIC' height='216' src='ng-images/split-right.png' width='369' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.3:</span><span class='content'>Result of dropping a waveform to the right side split area</span></figcaption><!-- tex4ht:label?: x8-59002r3  -->
+<figcaption class='caption'><span class='id'>Figure 7.3: </span><span class='content'>Result of dropping a waveform to the right side split area</span></figcaption><!-- tex4ht:label?: x9-65002r3  -->
                                                                                          
                                                                                          
    </figure>
@@ -82,19 +82,19 @@ shown in Fig. <a href='#x8-59002r3'>6.3<!-- tex4ht:ref: split-right  --></a>.
 group may also be dragged, allowing the entire group to be undocked as a floating window. Floating
 windows can be re-docked by dragging the title bar back into the main ngscopeclient window
 (or another floating window), creating new tabs or splitting existing groups as desired (Fig.
-<a href='#x8-59003r4'>6.4<!-- tex4ht:ref: complex-ui  --></a>).
+7.4).
 </p>
-   <figure class='figure'> 
+   <figure class='figure' id='-example-of-complex-window-layout-with-multiple-tabs-splitters-between-docked-waveform-groups-and-a-group-in-a-floating-window'> 
 
                                                                                          
                                                                                          
-<a id='x8-59003r4'></a>
+<a id='x9-65003r4'></a>
                                                                                          
                                                                                          
-<!-- l. 61 --><p class='noindent'><img height='216' src='ng-images/complex-ui.png' alt='PIC' width='369' />
+<!-- l. 61 --><p class='noindent'><img alt='PIC' height='216' src='ng-images/complex-ui.png' width='369' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.4:</span><span class='content'>Example  of  complex  window  layout  with  multiple  tabs,  splitters  between  docked
-waveform groups, and a group in a floating window</span></figcaption><!-- tex4ht:label?: x8-59003r4  -->
+<figcaption class='caption'><span class='id'>Figure 7.4:  </span><span class='content'>Example  of  complex  window  layout  with  multiple  tabs,  splitters  between  docked
+waveform groups, and a group in a floating window</span></figcaption><!-- tex4ht:label?: x9-65003r4  -->
                                                                                          
                                                                                          
    </figure>

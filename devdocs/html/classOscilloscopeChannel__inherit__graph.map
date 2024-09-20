@@ -1,0 +1,51 @@
+<map id="OscilloscopeChannel" name="OscilloscopeChannel">
+<area shape="rect" id="node1" title="A single channel on an oscilloscope." alt="" coords="375,933,532,959"/>
+<area shape="rect" id="node4" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="580,781,775,807"/>
+<area shape="rect" id="node5" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="606,831,749,858"/>
+<area shape="rect" id="node7" href="$classCANChannel.html" title="A single channel of a CAN bus interface." alt="" coords="626,882,729,909"/>
+<area shape="rect" id="node8" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="611,933,744,959"/>
+<area shape="rect" id="node9" href="$classFilter.html" title="Abstract base class for all filters and protocol decoders." alt="" coords="650,983,705,1010"/>
+<area shape="rect" id="node48" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data." alt="" coords="602,1034,753,1061"/>
+<area shape="rect" id="node49" href="$classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="609,1085,746,1111"/>
+<area shape="rect" id="node2" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="180,933,327,959"/>
+<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,933,132,959"/>
+<area shape="rect" id="node6" href="$classBERTInputChannelWithDataCapture.html" title="Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode." alt="" coords="860,5,1063,47"/>
+<area shape="rect" id="node10" href="$classACCoupleFilter.html" title=" " alt="" coords="903,71,1020,98"/>
+<area shape="rect" id="node11" href="$classACRMSMeasurement.html" title=" " alt="" coords="882,122,1041,149"/>
+<area shape="rect" id="node12" href="$classADL5205Decoder.html" title=" " alt="" coords="894,173,1029,199"/>
+<area shape="rect" id="node13" href="$classAddFilter.html" title=" " alt="" coords="922,223,1001,250"/>
+<area shape="rect" id="node14" href="$classAreaMeasurement.html" title=" " alt="" coords="890,274,1033,301"/>
+<area shape="rect" id="node15" href="$classAutocorrelationFilter.html" title=" " alt="" coords="884,325,1039,351"/>
+<area shape="rect" id="node16" href="$classAverageFilter.html" title=" " alt="" coords="907,375,1015,402"/>
+<area shape="rect" id="node17" href="$classBandwidthMeasurement.html" title=" " alt="" coords="871,426,1052,453"/>
+<area shape="rect" id="node18" href="$classBaseMeasurement.html" title=" " alt="" coords="889,477,1033,503"/>
+<area shape="rect" id="node19" href="$classBurstWidthMeasurement.html" title=" " alt="" coords="869,527,1053,554"/>
+<area shape="rect" id="node20" href="$classBusHeatmapFilter.html" title=" " alt="" coords="892,578,1031,605"/>
+<area shape="rect" id="node21" href="$classCANBitmaskFilter.html" title=" " alt="" coords="893,629,1029,655"/>
+<area shape="rect" id="node22" href="$classClipFilter.html" title=" " alt="" coords="922,679,1001,706"/>
+<area shape="rect" id="node23" href="$classClockRecoveryFilter.html" title=" " alt="" coords="886,730,1037,757"/>
+<area shape="rect" id="node24" href="$classConstantFilter.html" title=" " alt="" coords="905,781,1017,807"/>
+<area shape="rect" id="node25" href="$classConstellationFilter.html" title=" " alt="" coords="891,831,1031,858"/>
+<area shape="rect" id="node26" href="$classCouplerDeEmbedFilter.html" title=" " alt="" coords="878,882,1045,909"/>
+<area shape="rect" id="node27" href="$classCurrentShuntFilter.html" title=" " alt="" coords="892,933,1031,959"/>
+<area shape="rect" id="node28" href="$classDCDMeasurement.html" title=" " alt="" coords="891,983,1032,1010"/>
+<area shape="rect" id="node29" href="$classDDJMeasurement.html" title=" " alt="" coords="893,1034,1029,1061"/>
+<area shape="rect" id="node30" href="$classDPhyDataDecoder.html" title=" " alt="" coords="891,1085,1032,1111"/>
+<area shape="rect" id="node31" href="$classDPhyHSClockRecoveryFilter.html" title="Extracts a clock from a MIPI D&#45;PHY clock+data stream which is gated to only show HS mode data." alt="" coords="860,1135,1063,1162"/>
+<area shape="rect" id="node32" href="$classDPhySymbolDecoder.html" title="Decoder for MIPI D&#45;PHY symbols." alt="" coords="882,1186,1041,1213"/>
+<area shape="rect" id="node33" href="$classDeEmbedFilter.html" title=" " alt="" coords="903,1237,1020,1263"/>
+<area shape="rect" id="node34" href="$classDeskewFilter.html" title=" " alt="" coords="909,1287,1014,1314"/>
+<area shape="rect" id="node35" href="$classDivideFilter.html" title=" " alt="" coords="913,1338,1009,1365"/>
+<area shape="rect" id="node36" href="$classDownconvertFilter.html" title="Downconvert &#45; generates a local oscillator in two phases and mixes it with a signal." alt="" coords="891,1389,1031,1415"/>
+<area shape="rect" id="node37" href="$classDownsampleFilter.html" title="Downsample &#45; low&#45;pass filter and decimate a signal." alt="" coords="892,1439,1031,1466"/>
+<area shape="rect" id="node38" href="$classDramClockFilter.html" title=" " alt="" coords="898,1490,1025,1517"/>
+<area shape="rect" id="node39" href="$classDramRefreshActivateMeasurement.html" title=" " alt="" coords="835,1541,1087,1567"/>
+<area shape="rect" id="node40" href="$classDramRowColumnLatencyMeasurement.html" title=" " alt="" coords="823,1591,1100,1618"/>
+<area shape="rect" id="node41" href="$classDutyCycleMeasurement.html" title=" " alt="" coords="872,1642,1051,1669"/>
+<area shape="rect" id="node42" href="$classEmphasisFilter.html" title=" " alt="" coords="903,1693,1020,1719"/>
+<area shape="rect" id="node43" href="$classEmphasisRemovalFilter.html" title=" " alt="" coords="874,1743,1049,1770"/>
+<area shape="rect" id="node44" href="$classEnvelopeFilter.html" title=" " alt="" coords="904,1794,1019,1821"/>
+<area shape="rect" id="node45" href="$classEthernet100BaseT1LinkTrainingDecoder.html" title=" " alt="" coords="847,1845,1075,1887"/>
+<area shape="rect" id="node46" href="$classEthernet64b66bDecoder.html" title=" " alt="" coords="872,1911,1051,1938"/>
+<area shape="rect" id="node47" href="$classEthernetAutonegotiationDecoder.html" title=" " alt="" coords="844,1962,1079,1989"/>
+</map>

@@ -2,16 +2,16 @@
 <html lang='en-US' xml:lang='en-US'> 
 <head><title>1 Introduction</title> 
 <meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link type='text/css' href='ngscopeclient-manual.css' rel='stylesheet' /> 
-<meta name='src' content='ngscopeclient-manual.tex' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
+<meta content='ngscopeclient-manual.tex' name='src' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' async='async' id='MathJax-script'></script>  
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='LegalNotices.html'>next</a>] [<a href='contentsname.html'>prev</a>] [<a href='contentsname.html#tailcontentsname.html'>prev-tail</a>] [<a href='#tailIntroduction.html'>tail</a>] [<a href='ngscopeclient-manual.html#Introduction.html'>up</a>] </p></div>
-   <h2 class='chapterHead'><span class='titlemark'>Chapter 1</span><br /><a id='x3-20001'></a>Introduction</h2>
-   <h3 class='sectionHead'><span class='titlemark'>1.1   </span> <a id='x3-30001.1'></a>Introduction</h3>
+   <h2 class='chapterHead' id='introduction'><span class='titlemark'>Chapter 1</span><br /><a id='x3-20001'></a>Introduction</h2>
+   <h3 class='sectionHead' id='introduction1'><span class='titlemark'>1.1   </span> <a id='x3-30001.1'></a>Introduction</h3>
 <!-- l. 5 --><p class='noindent'>ngscopeclient is a high performance, GPU accelerated remote user interface, signal processing, protocol
 analysis, and automation tool for test and measurement equipment. It runs on all major operating systems
 and can interoperate with a broad and continuously growing range of T&amp;M products from many
@@ -22,7 +22,7 @@ should be considered alpha quality.
 extent permitted by law.
 </p><!-- l. 15 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>1.2   </span> <a id='x3-40001.2'></a>Documentation Conventions</h3>
+   <h3 class='sectionHead' id='documentation-conventions'><span class='titlemark'>1.2   </span> <a id='x3-40001.2'></a>Documentation Conventions</h3>
 <!-- l. 17 --><p class='noindent'>Numbers are decimal unless explicitly specified otherwise. Binary or hexadecimal values use SystemVerilog
 notation, for example ’b10 means the binary value 10 (2) with no length specified, and 8’h41 means the
 8-bit hexadecimal value 41 (decimal 65)
@@ -43,12 +43,12 @@ document is likely to refer to active bug or feature request tickets on the GitH
 referenced as repository:ticket, for example <a href='https://github.com/ngscopeclient/scopehal-apps/issues/3'>scopehal-apps:3</a>.
 </p><!-- l. 41 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>1.3   </span> <a id='x3-50001.3'></a>Key Concepts</h3>
+   <h3 class='sectionHead' id='key-concepts'><span class='titlemark'>1.3   </span> <a id='x3-50001.3'></a>Key Concepts</h3>
                                                                                          
                                                                                          
 <!-- l. 43 --><p class='noindent'>
 </p>
-   <h4 class='subsectionHead'><span class='titlemark'>1.3.1   </span> <a id='x3-60001.3.1'></a>User Interface</h4>
+   <h4 class='subsectionHead' id='user-interface'><span class='titlemark'>1.3.1   </span> <a id='x3-60001.3.1'></a>User Interface</h4>
 <!-- l. 45 --><p class='noindent'>Most UI elements can be interacted with by left clicking (select), left dragging (move), using the scroll
 wheel (zoom), double clicking (open properties dialog), or right clicking (context menu). Hovering the
 mouse over a main window UI element, or a (?) help marker in a dialog box, displays a tooltip explaining
@@ -58,7 +58,7 @@ the purpose of the element
 typing “2.4G" in a frequency input field will be interpreted as meaning 2.4 GHz.
 </p><!-- l. 56 --><p class='noindent'>
 </p>
-   <h4 class='subsectionHead'><span class='titlemark'>1.3.2   </span> <a id='x3-70001.3.2'></a>Design Philosophy</h4>
+   <h4 class='subsectionHead' id='design-philosophy'><span class='titlemark'>1.3.2   </span> <a id='x3-70001.3.2'></a>Design Philosophy</h4>
 <!-- l. 58 --><p class='noindent'>Users familiar with conventional benchtop oscilloscopes will notice some important distinctions between
 ngscopeclient and classical DSO user interfaces. While there is an initial learning curve getting used to the
 different ways of doing things, these changes allow for greater productivity and more complex
@@ -78,18 +78,18 @@ dialog.
 useful metric than arbitrary “divisions". While horizontal grid lines are still displayed in waveform views
 for convenience, their number, spacing, and locations may change. Tall plots will have more scale divisions
 than short ones, and the divisions are always located at round numbers even if this requires the grid to not
-be centered in the plot (Fig. <a href='#x3-7001r1'>1.1<!-- tex4ht:ref: y-divs  --></a>)
+be centered in the plot (Fig. <a href='#-example-waveform-showing-offcenter-grid-and-roundnumbered-grid-lines'>1.1<!-- tex4ht:ref: y-divs  --></a>)
 </p>
-   <figure class='figure'> 
+   <figure class='figure' id='-example-waveform-showing-offcenter-grid-and-roundnumbered-grid-lines'> 
 
                                                                                          
                                                                                          
 <a id='x3-7001r1'></a>
                                                                                          
                                                                                          
-<!-- l. 79 --><p class='noindent'><img height='195' src='ng-images/y-divs.png' alt='PIC' width='369' />
+<!-- l. 79 --><p class='noindent'><img alt='PIC' height='195' src='ng-images/y-divs.png' width='369' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 1.1:</span><span class='content'>Example waveform showing off-center grid and round-numbered grid lines</span></figcaption><!-- tex4ht:label?: x3-7001r1  -->
+<figcaption class='caption'><span class='id'>Figure 1.1: </span><span class='content'>Example waveform showing off-center grid and round-numbered grid lines</span></figcaption><!-- tex4ht:label?: x3-7001r1  -->
                                                                                          
                                                                                          
    </figure>
@@ -99,7 +99,7 @@ minimum in order to keep as much screen real estate as possible usable for wavef
 controls are displayed in menus or pop-up dialogs which can be closed, moved out of view, or docked as
 needed.
 </p>
-   <h4 class='subsectionHead'><span class='titlemark'>1.3.3   </span> <a id='x3-80001.3.3'></a>Terminology</h4>
+   <h4 class='subsectionHead' id='terminology'><span class='titlemark'>1.3.3   </span> <a id='x3-80001.3.3'></a>Terminology</h4>
 <!-- l. 91 --><p class='noindent'>The overall software package consists of <span class='ecti-1095'>ngscopeclient </span>(graphical user interface frontend), <span class='ecti-1095'>libscopehal </span>(C++
 library for core APIs and instrument drivers), and <span class='ecti-1095'>libscopeprotocols </span>(filter graph blocks). End users will
 normally use ngscopeclient, however it is possible to interface with libscopehal and libscopeprotocols
@@ -114,12 +114,12 @@ single waveform must be of the same data type. Waveforms may be either <span cla
 rate with no gaps between samples) or <span class='ecti-1095'>sparse </span>(sampled at arbitrary intervals, possibly with gaps between
 samples).
 </p><!-- l. 105 --><p class='indent'>   An <span class='ecti-1095'>instrument  </span>is a physical piece of hardware
-<span class='footnote-mark'><a id='fn1x2-bk' href='#fn1x2'><sup class='textsuperscript'>1</sup></a></span><a id='x3-8001f1'></a> which
+<span class='footnote-mark'><a href='#fn1x2' id='fn1x2-bk'><sup class='textsuperscript'>1</sup></a></span><a id='x3-8001f1'></a> which
 can be remote controlled and interacted with. The connection between ngscopeclient and an instrument is
 provided by a <span class='ecti-1095'>transport</span>, such as a USBTMC interface, a GPIB data stream, or a TCP socket. A <span class='ecti-1095'>driver </span>is a
 software component, either supplied as part of the libscopehal core or a third party plugin, which controls
 an instrument.
-</p><!-- l. 111 --><p class='indent'>   Each instrument has one or more<span class='footnote-mark'><a id='fn2x2-bk' href='#fn2x2'><sup class='textsuperscript'>2</sup></a></span><a id='x3-8002f2'></a>
+</p><!-- l. 111 --><p class='indent'>   Each instrument has one or more<span class='footnote-mark'><a href='#fn2x2' id='fn2x2-bk'><sup class='textsuperscript'>2</sup></a></span><a id='x3-8003f2'></a>
 <span class='ecti-1095'>channels</span>. A channel corresponds to a single logical “piece" of an instrument and may consist of one or
 more physical connectors: a typical oscilloscope channel has a single BNC input while a typical power
 supply output has two banana jacks.
@@ -149,13 +149,14 @@ analog waveforms must be converted to digital by a thresholding filter before th
 decoded.
 </p><!-- l. 138 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead'><span class='titlemark'>1.4   </span> <a id='x3-90001.4'></a>Revision History</h3>
+   <h3 class='sectionHead' id='revision-history'><span class='titlemark'>1.4   </span> <a id='x3-90001.4'></a>Revision History</h3>
      <ul class='itemize1'>
-     <li class='itemize'>February 19, 2024: [in progress] Initial draft</li></ul>
+     <li class='itemize'>September 20, 2024: [in progress] Initial draft</li></ul>
                                                                                          
                                                                                          
-<div class='footnotes'><!-- l. 106 --><p class='indent'>   <span class='footnote-mark'><a id='fn1x2' href='#fn1x2-bk'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-0900'>Or a simulated mock-up of one, such as the “demo" oscilloscope driver used for testing</span></p>
-<!-- l. 112 --><p class='indent'>   <span class='footnote-mark'><a id='fn2x2' href='#fn2x2-bk'><sup class='textsuperscript'>2</sup></a></span><span class='ecrm-0900'>Zero channels is legal in the API, however such an instrument would be of little practical use!</span></p>           </div> <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='LegalNotices.html'>next</a>]
+<div class='footnotes'><a id='x3-8002x1.3.3'></a>
+<!-- l. 106 --><p class='indent'>   <span class='footnote-mark'><a href='#fn1x2-bk' id='fn1x2'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-0900'>Or a simulated mock-up of one, such as the “demo" oscilloscope driver used for testing</span></p><a id='x3-8004x1.3.3'></a>
+<!-- l. 112 --><p class='indent'>   <span class='footnote-mark'><a href='#fn2x2-bk' id='fn2x2'><sup class='textsuperscript'>2</sup></a></span><span class='ecrm-0900'>Zero channels is legal in the API, however such an instrument would be of little practical use!</span></p>           </div> <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='LegalNotices.html'>next</a>]
 [<a href='contentsname.html'>prev</a>] [<a href='contentsname.html#tailcontentsname.html'>prev-tail</a>] [<a href='Introduction.html'>front</a>] [<a href='ngscopeclient-manual.html#Introduction.html'>up</a>] </p></div>
 <!-- l. 1 --><p class='indent'>   <a id='tailIntroduction.html'></a>  </p> 
 </body> 

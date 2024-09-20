@@ -8,7 +8,7 @@ layout: default
 * [Open source](https://www.github.com/ngscopeclient/scopehal-apps) toolchain supporting Windows, Linux, and MacOS
 * Easily extensible to support any T&M instrument with a SCPI interface or native API
 * Combine multiple instruments into a unified test platform
-* Automate production test with the C++ API
+* Automate production test with the [C++ API](/devdocs)
 
 <figure>
 <img src="images/ngscopeclient-intro.png" alt="Filter graph example screenshot"/>
@@ -27,3 +27,4 @@ layout: default
 * [Supported hardware](/hardware)
 * [User manual (HTML)](/manual/ngscopeclient-manual.html)
 * [User manual (PDF)](/downloads/ngscopeclient-manual.pdf)
+* [Developer API documentation](/devdocs)

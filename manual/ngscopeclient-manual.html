@@ -2,12 +2,12 @@
 <html lang='en-US' xml:lang='en-US'> 
 <head><title>ngscopeclient Operator Manual</title> 
 <meta charset='utf-8' /> 
-<meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' /> 
-<meta name='viewport' content='width=device-width,initial-scale=1' /> 
-<link type='text/css' href='ngscopeclient-manual.css' rel='stylesheet' /> 
-<meta name='src' content='ngscopeclient-manual.tex' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
+<meta content='ngscopeclient-manual.tex' name='src' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' async='async' id='MathJax-script'></script>  
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
 </head><body>
    <div class='maketitle'>
                                                                                          
@@ -20,7 +20,7 @@
 <h2 class='titleHead'>ngscopeclient Operator Manual</h2>
  <div class='author'><span class='ecrm-1200'>Andrew D. Zonenberg</span></div>
 <br />
-<div class='date'><span class='ecrm-1200'>February 19, 2024</span></div>
+<div class='date'><span class='ecrm-1200'>September 20, 2024</span></div>
                                                                                          
                                                                                          
    </div>
@@ -49,326 +49,6 @@ Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0).
                                                                                          
                                                                                          
 </p>
-   <div class='tableofcontents'>
-   <span class='likechapterToc'><a id='QQ2-2-1' href='contentsname.html#x2-1000'>Contents</a></span>
-<br />   <span class='chapterToc'>1 <a id='QQ2-3-2' href='Introduction.html#x3-20001'>Introduction</a></span>
-<br />    <span class='sectionToc'>1.1 <a id='QQ2-3-3' href='Introduction.html#x3-30001.1'>Introduction</a></span>
-<br />    <span class='sectionToc'>1.2 <a id='QQ2-3-4' href='Introduction.html#x3-40001.2'>Documentation Conventions</a></span>
-<br />    <span class='sectionToc'>1.3 <a id='QQ2-3-5' href='Introduction.html#x3-50001.3'>Key Concepts</a></span>
-<br />    <span class='sectionToc'>1.4 <a id='QQ2-3-10' href='Introduction.html#x3-90001.4'>Revision History</a></span>
-<br />   <span class='chapterToc'>2 <a id='QQ2-4-11' href='LegalNotices.html#x4-100002'>Legal Notices</a></span>
-<br />    <span class='sectionToc'>2.1 <a id='QQ2-4-12' href='LegalNotices.html#x4-110002.1'>Introduction</a></span>
-<br />    <span class='sectionToc'>2.2 <a id='QQ2-4-13' href='LegalNotices.html#x4-120002.2'>License Agreement</a></span>
-<br />    <span class='sectionToc'>2.3 <a id='QQ2-4-14' href='LegalNotices.html#x4-130002.3'>Trademarks</a></span>
-<br />    <span class='sectionToc'>2.4 <a id='QQ2-4-15' href='LegalNotices.html#x4-140002.4'>Third Party Licenses</a></span>
-<br />   <span class='chapterToc'>3 <a id='QQ2-5-17' href='GettingStarted.html#x5-160003'>Getting Started</a></span>
-<br />    <span class='sectionToc'>3.1 <a id='QQ2-5-18' href='GettingStarted.html#x5-170003.1'>Host System Requirements</a></span>
-<br />    <span class='sectionToc'>3.2 <a id='QQ2-5-19' href='GettingStarted.html#x5-180003.2'>Instrument Support</a></span>
-<br />    <span class='sectionToc'>3.3 <a id='QQ2-5-20' href='GettingStarted.html#x5-190003.3'>Compilation</a></span>
-<br />    <span class='sectionToc'>3.4 <a id='QQ2-5-29' href='GettingStarted.html#x5-280003.4'>Running ngscopeclient</a></span>
-<br />   <span class='chapterToc'>4 <a id='QQ2-6-32' href='MainWindow.html#x6-300004'>Main Window</a></span>
-<br />    <span class='sectionToc'>4.1 <a id='QQ2-6-33' href='MainWindow.html#x6-310004.1'>Menu</a></span>
-<br />   <span class='chapterToc'>5 <a id='QQ2-7-41' href='Dialogs.html#x7-390005'>Dialogs</a></span>
-<br />    <span class='sectionToc'>5.1 <a id='QQ2-7-42' href='Dialogs.html#x7-400005.1'>Lab Notes</a></span>
-<br />    <span class='sectionToc'>5.2 <a id='QQ2-7-44' href='Dialogs.html#x7-410005.2'>Log Viewer</a></span>
-<br />    <span class='sectionToc'>5.3 <a id='QQ2-7-46' href='Dialogs.html#x7-420005.3'>Performance Metrics</a></span>
-<br />    <span class='sectionToc'>5.4 <a id='QQ2-7-52' href='Dialogs.html#x7-470005.4'>Preferences</a></span>
-<br />    <span class='sectionToc'>5.5 <a id='QQ2-7-62' href='Dialogs.html#x7-560005.5'>Speed Bump</a></span>
-<br />    <span class='sectionToc'>5.6 <a id='QQ2-7-64' href='Dialogs.html#x7-570005.6'>Timebase</a></span>
-<br />   <span class='chapterToc'>6 <a id='QQ2-8-66' href='WaveformGroups.html#x8-580006'>Waveform Groups</a></span>
-<br />    <span class='sectionToc'>6.1 <a id='QQ2-8-68' href='WaveformGroups.html#x8-590006.1'>Managing Groups</a></span>
-<br />   <span class='chapterToc'>7 <a id='QQ2-9-72' href='WaveformViews.html#x9-600007'>Waveform Views</a></span>
-<br />    <span class='sectionToc'>7.1 <a id='QQ2-9-73' href='WaveformViews.html#x9-610007.1'>Navigation</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>7.2 <a id='QQ2-9-74' href='WaveformViews.html#x9-620007.2'>Plot Area</a></span>
-<br />    <span class='sectionToc'>7.3 <a id='QQ2-9-76' href='WaveformViews.html#x9-630007.3'>Y Axis Scale</a></span>
-<br />    <span class='sectionToc'>7.4 <a id='QQ2-9-78' href='WaveformViews.html#x9-640007.4'>Channel Label</a></span>
-<br />    <span class='sectionToc'>7.5 <a id='QQ2-9-81' href='WaveformViews.html#x9-650007.5'>Cursors and Markers</a></span>
-<br />   <span class='chapterToc'>8 <a id='QQ2-10-88' href='History.html#x10-680008'>History</a></span>
-<br />    <span class='sectionToc'>8.1 <a id='QQ2-10-90' href='History.html#x10-690008.1'>Pinning</a></span>
-<br />    <span class='sectionToc'>8.2 <a id='QQ2-10-91' href='History.html#x10-700008.2'>Labeling</a></span>
-<br />   <span class='chapterToc'>9 <a id='QQ2-11-92' href='FilterGraphEditor.html#x11-710009'>Filter Graph Editor</a></span>
-<br />    <span class='sectionToc'>9.1 <a id='QQ2-11-93' href='FilterGraphEditor.html#x11-720009.1'>Introduction</a></span>
-<br />    <span class='sectionToc'>9.2 <a id='QQ2-11-95' href='FilterGraphEditor.html#x11-730009.2'>Interaction</a></span>
-<br />    <span class='sectionToc'>9.3 <a id='QQ2-11-99' href='FilterGraphEditor.html#x11-740009.3'>Grouping</a></span>
-<br />   <span class='chapterToc'>10 <a id='QQ2-12-102' href='Transports.html#x12-7500010'>Transports</a></span>
-<br />    <span class='sectionToc'>10.1 <a id='QQ2-12-103' href='Transports.html#x12-7600010.1'>gpib</a></span>
-<br />    <span class='sectionToc'>10.2 <a id='QQ2-12-104' href='Transports.html#x12-7700010.2'>lan</a></span>
-<br />    <span class='sectionToc'>10.3 <a id='QQ2-12-105' href='Transports.html#x12-7800010.3'>lxi</a></span>
-<br />    <span class='sectionToc'>10.4 <a id='QQ2-12-106' href='Transports.html#x12-7900010.4'>null</a></span>
-<br />    <span class='sectionToc'>10.5 <a id='QQ2-12-107' href='Transports.html#x12-8000010.5'>socketcan</a></span>
-<br />    <span class='sectionToc'>10.6 <a id='QQ2-12-108' href='Transports.html#x12-8100010.6'>twinlan</a></span>
-<br />    <span class='sectionToc'>10.7 <a id='QQ2-12-109' href='Transports.html#x12-8200010.7'>uart</a></span>
-<br />    <span class='sectionToc'>10.8 <a id='QQ2-12-110' href='Transports.html#x12-8300010.8'>usbtmc</a></span>
-<br />    <span class='sectionToc'>10.9 <a id='QQ2-12-111' href='Transports.html#x12-8400010.9'>vicp</a></span>
-<br />   <span class='chapterToc'>11 <a id='QQ2-13-112' href='BERTDrivers.html#x13-8500011'>BERT Drivers</a></span>
-<br />    <span class='sectionToc'>11.1 <a id='QQ2-13-113' href='BERTDrivers.html#x13-8600011.1'>MultiLANE</a></span>
-<br />   <span class='chapterToc'>12 <a id='QQ2-14-115' href='FunctionGeneratorDrivers.html#x14-8800012'>Function Generator Drivers</a></span>
-<br />    <span class='sectionToc'>12.1 <a id='QQ2-14-116' href='FunctionGeneratorDrivers.html#x14-8900012.1'>Rigol</a></span>
-<br />   <span class='chapterToc'>13 <a id='QQ2-15-118' href='ElectronicLoadDrivers.html#x15-9100013'>Electronic Load Drivers</a></span>
-<br />    <span class='sectionToc'>13.1 <a id='QQ2-15-119' href='ElectronicLoadDrivers.html#x15-9200013.1'>Siglent</a></span>
-<br />   <span class='chapterToc'>14 <a id='QQ2-16-121' href='MultimeterDrivers.html#x16-9400014'>Multimeter Drivers</a></span>
-<br />    <span class='sectionToc'>14.1 <a id='QQ2-16-122' href='MultimeterDrivers.html#x16-9500014.1'>Rohde &amp; Schwarz</a></span>
-<br />   <span class='chapterToc'>15 <a id='QQ2-17-124' href='MiscellaneousDrivers.html#x17-9700015'>Miscellaneous Drivers</a></span>
-<br />    <span class='sectionToc'>15.1 <a id='QQ2-17-125' href='MiscellaneousDrivers.html#x17-9800015.1'>Generic</a></span>
-<br />   <span class='chapterToc'>16 <a id='QQ2-18-127' href='OscilloscopeDrivers.html#x18-10000016'>Oscilloscope Drivers</a></span>
-<br />    <span class='sectionToc'>16.1 <a id='QQ2-18-128' href='OscilloscopeDrivers.html#x18-10100016.1'>Agilent</a></span>
-<br />    <span class='sectionToc'>16.2 <a id='QQ2-18-132' href='OscilloscopeDrivers.html#x18-10500016.2'>Antikernel Labs</a></span>
-<br />    <span class='sectionToc'>16.3 <a id='QQ2-18-135' href='OscilloscopeDrivers.html#x18-10800016.3'>Demo</a></span>
-<br />    <span class='sectionToc'>16.4 <a id='QQ2-18-136' href='OscilloscopeDrivers.html#x18-10900016.4'>Digilent</a></span>
-<br />    <span class='sectionToc'>16.5 <a id='QQ2-18-139' href='OscilloscopeDrivers.html#x18-11200016.5'>DreamSource Lab</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>16.6 <a id='QQ2-18-143' href='OscilloscopeDrivers.html#x18-11600016.6'>EEVengers</a></span>
-<br />    <span class='sectionToc'>16.7 <a id='QQ2-18-144' href='OscilloscopeDrivers.html#x18-11700016.7'>Enjoy Digital</a></span>
-<br />    <span class='sectionToc'>16.8 <a id='QQ2-18-145' href='OscilloscopeDrivers.html#x18-11800016.8'>Generic</a></span>
-<br />    <span class='sectionToc'>16.9 <a id='QQ2-18-147' href='OscilloscopeDrivers.html#x18-12000016.9'>Hantek</a></span>
-<br />    <span class='sectionToc'>16.10 <a id='QQ2-18-148' href='OscilloscopeDrivers.html#x18-12100016.10'>Keysight</a></span>
-<br />    <span class='sectionToc'>16.11 <a id='QQ2-18-151' href='OscilloscopeDrivers.html#x18-12400016.11'>Pico Technologies</a></span>
-<br />    <span class='sectionToc'>16.12 <a id='QQ2-18-154' href='OscilloscopeDrivers.html#x18-12700016.12'>Rigol</a></span>
-<br />    <span class='sectionToc'>16.13 <a id='QQ2-18-157' href='OscilloscopeDrivers.html#x18-13000016.13'>Rohde &amp; Schwarz</a></span>
-<br />    <span class='sectionToc'>16.14 <a id='QQ2-18-160' href='OscilloscopeDrivers.html#x18-13300016.14'>Saleae</a></span>
-<br />    <span class='sectionToc'>16.15 <a id='QQ2-18-161' href='OscilloscopeDrivers.html#x18-13400016.15'>Siglent</a></span>
-<br />    <span class='sectionToc'>16.16 <a id='QQ2-18-164' href='OscilloscopeDrivers.html#x18-13600016.16'>Teledyne LeCroy / LeCroy</a></span>
-<br />    <span class='sectionToc'>16.17 <a id='QQ2-18-169' href='OscilloscopeDrivers.html#x18-14100016.17'>Tektronix</a></span>
-<br />    <span class='sectionToc'>16.18 <a id='QQ2-18-172' href='OscilloscopeDrivers.html#x18-14400016.18'>Xilinx</a></span>
-<br />   <span class='chapterToc'>17 <a id='QQ2-19-173' href='SDRDrivers.html#x19-14500017'>SDR Drivers</a></span>
-<br />    <span class='sectionToc'>17.1 <a id='QQ2-19-174' href='SDRDrivers.html#x19-14600017.1'>Ettus Research</a></span>
-<br />    <span class='sectionToc'>17.2 <a id='QQ2-19-176' href='SDRDrivers.html#x19-14800017.2'>Microphase</a></span>
-<br />   <span class='chapterToc'>18 <a id='QQ2-20-177' href='SpectrometerDrivers.html#x20-14900018'>Spectrometer Drivers</a></span>
-<br />    <span class='sectionToc'>18.1 <a id='QQ2-20-178' href='SpectrometerDrivers.html#x20-15000018.1'>ASEQ Instruments</a></span>
-<br />   <span class='chapterToc'>19 <a id='QQ2-21-180' href='PowerSupplyDrivers.html#x21-15200019'>Power Supply Drivers</a></span>
-<br />    <span class='sectionToc'>19.1 <a id='QQ2-21-181' href='PowerSupplyDrivers.html#x21-15300019.1'>GW Instek</a></span>
-<br />    <span class='sectionToc'>19.2 <a id='QQ2-21-183' href='PowerSupplyDrivers.html#x21-15500019.2'>Rigol</a></span>
-<br />    <span class='sectionToc'>19.3 <a id='QQ2-21-185' href='PowerSupplyDrivers.html#x21-15700019.3'>Rohde &amp; Schwarz</a></span>
-<br />    <span class='sectionToc'>19.4 <a id='QQ2-21-187' href='PowerSupplyDrivers.html#x21-15900019.4'>Siglent</a></span>
-<br />   <span class='chapterToc'>20 <a id='QQ2-22-189' href='RFGeneratorDrivers.html#x22-16100020'>RF Generator Drivers</a></span>
-<br />    <span class='sectionToc'>20.1 <a id='QQ2-22-190' href='RFGeneratorDrivers.html#x22-16200020.1'>Siglent</a></span>
-<br />   <span class='chapterToc'>21 <a id='QQ2-23-192' href='VNADrivers.html#x23-16400021'>VNA Drivers</a></span>
-<br />    <span class='sectionToc'>21.1 <a id='QQ2-23-193' href='VNADrivers.html#x23-16500021.1'>Copper Mountain</a></span>
-<br />    <span class='sectionToc'>21.2 <a id='QQ2-23-195' href='VNADrivers.html#x23-16700021.2'>Pico Technology</a></span>
-<br />   <span class='chapterToc'>22 <a id='QQ2-24-197' href='Triggers.html#x24-16900022'>Triggers</a></span>
-<br />    <span class='sectionToc'>22.1 <a id='QQ2-24-198' href='Triggers.html#x24-17000022.1'>Trigger Properties</a></span>
-<br />    <span class='sectionToc'>22.2 <a id='QQ2-24-200' href='Triggers.html#x24-17100022.2'>Serial Pattern Triggers</a></span>
-<br />    <span class='sectionToc'>22.3 <a id='QQ2-24-201' href='Triggers.html#x24-17200022.3'>Dropout</a></span>
-<br />    <span class='sectionToc'>22.4 <a id='QQ2-24-204' href='Triggers.html#x24-17500022.4'>Edge</a></span>
-<br />    <span class='sectionToc'>22.5 <a id='QQ2-24-207' href='Triggers.html#x24-17800022.5'>Glitch</a></span>
-<br />    <span class='sectionToc'>22.6 <a id='QQ2-24-208' href='Triggers.html#x24-17900022.6'>Pulse Width</a></span>
-<br />    <span class='sectionToc'>22.7 <a id='QQ2-24-210' href='Triggers.html#x24-18100022.7'>Runt</a></span>
-<br />    <span class='sectionToc'>22.8 <a id='QQ2-24-212' href='Triggers.html#x24-18300022.8'>Slew Rate</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>22.9 <a id='QQ2-24-214' href='Triggers.html#x24-18500022.9'>UART</a></span>
-<br />    <span class='sectionToc'>22.10 <a id='QQ2-24-217' href='Triggers.html#x24-18800022.10'>Window</a></span>
-<br />   <span class='chapterToc'>23 <a id='QQ2-25-219' href='Filters.html#x25-19000023'>Filters</a></span>
-<br />    <span class='sectionToc'>23.1 <a id='QQ2-25-220' href='Filters.html#x25-19100023.1'>Introduction</a></span>
-<br />    <span class='sectionToc'>23.2 <a id='QQ2-25-223' href='Filters.html#x25-19400023.2'>128b/130b</a></span>
-<br />    <span class='sectionToc'>23.3 <a id='QQ2-25-229' href='Filters.html#x25-19800023.3'>64b/66b</a></span>
-<br />    <span class='sectionToc'>23.4 <a id='QQ2-25-235' href='Filters.html#x25-20200023.4'>8B/10B (IBM)</a></span>
-<br />    <span class='sectionToc'>23.5 <a id='QQ2-25-241' href='Filters.html#x25-20600023.5'>8B/10B (TMDS)</a></span>
-<br />    <span class='sectionToc'>23.6 <a id='QQ2-25-247' href='Filters.html#x25-21000023.6'>AC Couple</a></span>
-<br />    <span class='sectionToc'>23.7 <a id='QQ2-25-253' href='Filters.html#x25-21400023.7'>AC RMS</a></span>
-<br />    <span class='sectionToc'>23.8 <a id='QQ2-25-259' href='Filters.html#x25-21800023.8'>Add</a></span>
-<br />    <span class='sectionToc'>23.9 <a id='QQ2-25-265' href='Filters.html#x25-22200023.9'>Area Under Curve</a></span>
-<br />    <span class='sectionToc'>23.10 <a id='QQ2-25-272' href='Filters.html#x25-22600023.10'>ADL5205</a></span>
-<br />    <span class='sectionToc'>23.11 <a id='QQ2-25-276' href='Filters.html#x25-23000023.11'>Autocorrelation</a></span>
-<br />    <span class='sectionToc'>23.12 <a id='QQ2-25-282' href='Filters.html#x25-23400023.12'>Average</a></span>
-<br />    <span class='sectionToc'>23.13 <a id='QQ2-25-288' href='Filters.html#x25-23800023.13'>Bandwidth</a></span>
-<br />    <span class='sectionToc'>23.14 <a id='QQ2-25-294' href='Filters.html#x25-24200023.14'>Base</a></span>
-<br />    <span class='sectionToc'>23.15 <a id='QQ2-25-299' href='Filters.html#x25-24600023.15'>BIN Import</a></span>
-<br />    <span class='sectionToc'>23.16 <a id='QQ2-25-303' href='Filters.html#x25-25000023.16'>Burst Width</a></span>
-<br />    <span class='sectionToc'>23.17 <a id='QQ2-25-308' href='Filters.html#x25-25400023.17'>Bus Heatmap</a></span>
-<br />    <span class='sectionToc'>23.18 <a id='QQ2-25-313' href='Filters.html#x25-25700023.18'>CAN</a></span>
-<br />    <span class='sectionToc'>23.19 <a id='QQ2-25-321' href='Filters.html#x25-26200023.19'>CAN Analyzer</a></span>
-<br />    <span class='sectionToc'>23.20 <a id='QQ2-25-322' href='Filters.html#x25-26300023.20'>CAN Bitmask</a></span>
-<br />    <span class='sectionToc'>23.21 <a id='QQ2-25-323' href='Filters.html#x25-26400023.21'>Can-Utils Import</a></span>
-<br />    <span class='sectionToc'>23.22 <a id='QQ2-25-324' href='Filters.html#x25-26500023.22'>Channel Emulation</a></span>
-<br />    <span class='sectionToc'>23.23 <a id='QQ2-25-329' href='Filters.html#x25-26900023.23'>Clip</a></span>
-<br />    <span class='sectionToc'>23.24 <a id='QQ2-25-333' href='Filters.html#x25-27300023.24'>Clock Recovery (D-PHY HS Mode)</a></span>
-<br />    <span class='sectionToc'>23.25 <a id='QQ2-25-334' href='Filters.html#x25-27400023.25'>Clock Recovery (PLL)</a></span>
-<br />    <span class='sectionToc'>23.26 <a id='QQ2-25-339' href='Filters.html#x25-27800023.26'>Clock Recovery (UART)</a></span>
-<br />    <span class='sectionToc'>23.27 <a id='QQ2-25-344' href='Filters.html#x25-28200023.27'>Complex Import</a></span>
-<br />    <span class='sectionToc'>23.28 <a id='QQ2-25-348' href='Filters.html#x25-28600023.28'>Complex Spectrogram</a></span>
-<br />    <span class='sectionToc'>23.29 <a id='QQ2-25-349' href='Filters.html#x25-28700023.29'>Constant</a></span>
-<br />    <span class='sectionToc'>23.30 <a id='QQ2-25-353' href='Filters.html#x25-29100023.30'>Constellation</a></span>
-<br />    <span class='sectionToc'>23.31 <a id='QQ2-25-354' href='Filters.html#x25-29200023.31'>Coupler De-Embed</a></span>
-<br />    <span class='sectionToc'>23.32 <a id='QQ2-25-356' href='Filters.html#x25-29400023.32'>CSV Export</a></span>
-<br />    <span class='sectionToc'>23.33 <a id='QQ2-25-360' href='Filters.html#x25-29800023.33'>CSV Import</a></span>
-<br />    <span class='sectionToc'>23.34 <a id='QQ2-25-361' href='Filters.html#x25-29900023.34'>Current Shunt</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>23.35 <a id='QQ2-25-362' href='Filters.html#x25-30000023.35'>DDJ</a></span>
-<br />    <span class='sectionToc'>23.36 <a id='QQ2-25-366' href='Filters.html#x25-30400023.36'>DDR1 Command Bus</a></span>
-<br />    <span class='sectionToc'>23.37 <a id='QQ2-25-367' href='Filters.html#x25-30500023.37'>DDR3 Command Bus</a></span>
-<br />    <span class='sectionToc'>23.38 <a id='QQ2-25-368' href='Filters.html#x25-30600023.38'>De-Embed</a></span>
-<br />    <span class='sectionToc'>23.39 <a id='QQ2-25-372' href='Filters.html#x25-31000023.39'>Deskew</a></span>
-<br />    <span class='sectionToc'>23.40 <a id='QQ2-25-376' href='Filters.html#x25-31400023.40'>Digital to NRZ</a></span>
-<br />    <span class='sectionToc'>23.41 <a id='QQ2-25-380' href='Filters.html#x25-31800023.41'>Digital to PAM4</a></span>
-<br />    <span class='sectionToc'>23.42 <a id='QQ2-25-384' href='Filters.html#x25-32200023.42'>DisplayPort - Aux Channel</a></span>
-<br />    <span class='sectionToc'>23.43 <a id='QQ2-25-385' href='Filters.html#x25-32300023.43'>Divide</a></span>
-<br />    <span class='sectionToc'>23.44 <a id='QQ2-25-386' href='Filters.html#x25-32400023.44'>Downconvert</a></span>
-<br />    <span class='sectionToc'>23.45 <a id='QQ2-25-387' href='Filters.html#x25-32500023.45'>Downsample</a></span>
-<br />    <span class='sectionToc'>23.46 <a id='QQ2-25-388' href='Filters.html#x25-32600023.46'>DRAM Clocks</a></span>
-<br />    <span class='sectionToc'>23.47 <a id='QQ2-25-389' href='Filters.html#x25-32700023.47'>DRAM Trcd</a></span>
-<br />    <span class='sectionToc'>23.48 <a id='QQ2-25-390' href='Filters.html#x25-32800023.48'>DRAM Trfc</a></span>
-<br />    <span class='sectionToc'>23.49 <a id='QQ2-25-391' href='Filters.html#x25-32900023.49'>Duty Cycle</a></span>
-<br />    <span class='sectionToc'>23.50 <a id='QQ2-25-392' href='Filters.html#x25-33000023.50'>DVI</a></span>
-<br />    <span class='sectionToc'>23.51 <a id='QQ2-25-393' href='Filters.html#x25-33100023.51'>Emphasis</a></span>
-<br />    <span class='sectionToc'>23.52 <a id='QQ2-25-394' href='Filters.html#x25-33200023.52'>Emphasis Removal</a></span>
-<br />    <span class='sectionToc'>23.53 <a id='QQ2-25-395' href='Filters.html#x25-33300023.53'>Enhanced Resolution</a></span>
-<br />    <span class='sectionToc'>23.54 <a id='QQ2-25-398' href='Filters.html#x25-33600023.54'>Envelope</a></span>
-<br />    <span class='sectionToc'>23.55 <a id='QQ2-25-399' href='Filters.html#x25-33700023.55'>Ethernet - 10baseT</a></span>
-<br />    <span class='sectionToc'>23.56 <a id='QQ2-25-400' href='Filters.html#x25-33800023.56'>Ethernet - 100baseT1</a></span>
-<br />    <span class='sectionToc'>23.57 <a id='QQ2-25-401' href='Filters.html#x25-33900023.57'>Ethernet - 100baseT1 Link Training</a></span>
-<br />    <span class='sectionToc'>23.58 <a id='QQ2-25-402' href='Filters.html#x25-34000023.58'>Ethernet - 100baseTX</a></span>
-<br />    <span class='sectionToc'>23.59 <a id='QQ2-25-403' href='Filters.html#x25-34100023.59'>Ethernet - 1000baseX</a></span>
-<br />    <span class='sectionToc'>23.60 <a id='QQ2-25-406' href='Filters.html#x25-34400023.60'>Ethernet - 10Gbase-R</a></span>
-<br />    <span class='sectionToc'>23.61 <a id='QQ2-25-407' href='Filters.html#x25-34500023.61'>Ethernet - GMII</a></span>
-<br />    <span class='sectionToc'>23.62 <a id='QQ2-25-408' href='Filters.html#x25-34600023.62'>Ethernet - QSGMII</a></span>
-<br />    <span class='sectionToc'>23.63 <a id='QQ2-25-409' href='Filters.html#x25-34700023.63'>Ethernet - RGMII</a></span>
-<br />    <span class='sectionToc'>23.64 <a id='QQ2-25-410' href='Filters.html#x25-34800023.64'>Ethernet - RMII</a></span>
-<br />    <span class='sectionToc'>23.65 <a id='QQ2-25-411' href='Filters.html#x25-34900023.65'>Ethernet - SGMII</a></span>
-<br />    <span class='sectionToc'>23.66 <a id='QQ2-25-412' href='Filters.html#x25-35000023.66'>Ethernet Autonegotiation</a></span>
-<br />    <span class='sectionToc'>23.67 <a id='QQ2-25-413' href='Filters.html#x25-35100023.67'>Ethernet Autonegotiation Page</a></span>
-<br />    <span class='sectionToc'>23.68 <a id='QQ2-25-414' href='Filters.html#x25-35200023.68'>Ethernet Base-X Autonegotiation</a></span>
-<br />    <span class='sectionToc'>23.69 <a id='QQ2-25-415' href='Filters.html#x25-35300023.69'>Exponential Moving Average</a></span>
-<br />    <span class='sectionToc'>23.70 <a id='QQ2-25-418' href='Filters.html#x25-35600023.70'>Eye Bit Rate</a></span>
-<br />    <span class='sectionToc'>23.71 <a id='QQ2-25-419' href='Filters.html#x25-35700023.71'>Eye Height</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>23.72 <a id='QQ2-25-420' href='Filters.html#x25-35800023.72'>Eye P-P Jitter</a></span>
-<br />    <span class='sectionToc'>23.73 <a id='QQ2-25-421' href='Filters.html#x25-35900023.73'>Eye Pattern</a></span>
-<br />    <span class='sectionToc'>23.74 <a id='QQ2-25-422' href='Filters.html#x25-36000023.74'>Eye Period</a></span>
-<br />    <span class='sectionToc'>23.75 <a id='QQ2-25-423' href='Filters.html#x25-36100023.75'>Eye Width</a></span>
-<br />    <span class='sectionToc'>23.76 <a id='QQ2-25-424' href='Filters.html#x25-36200023.76'>Fall</a></span>
-<br />    <span class='sectionToc'>23.77 <a id='QQ2-25-425' href='Filters.html#x25-36300023.77'>FFT</a></span>
-<br />    <span class='sectionToc'>23.78 <a id='QQ2-25-426' href='Filters.html#x25-36400023.78'>FIR</a></span>
-<br />    <span class='sectionToc'>23.79 <a id='QQ2-25-427' href='Filters.html#x25-36500023.79'>Frequency</a></span>
-<br />    <span class='sectionToc'>23.80 <a id='QQ2-25-428' href='Filters.html#x25-36600023.80'>FSK</a></span>
-<br />    <span class='sectionToc'>23.81 <a id='QQ2-25-429' href='Filters.html#x25-36700023.81'>Full Width at Half Maximum</a></span>
-<br />    <span class='sectionToc'>23.82 <a id='QQ2-25-434' href='Filters.html#x25-37100023.82'>Gate</a></span>
-<br />    <span class='sectionToc'>23.83 <a id='QQ2-25-435' href='Filters.html#x25-37200023.83'>Glitch Removal</a></span>
-<br />    <span class='sectionToc'>23.84 <a id='QQ2-25-439' href='Filters.html#x25-37600023.84'>Group Delay</a></span>
-<br />    <span class='sectionToc'>23.85 <a id='QQ2-25-443' href='Filters.html#x25-38000023.85'>Histogram</a></span>
-<br />    <span class='sectionToc'>23.86 <a id='QQ2-25-447' href='Filters.html#x25-38400023.86'>Horizontal Bathtub</a></span>
-<br />    <span class='sectionToc'>23.87 <a id='QQ2-25-448' href='Filters.html#x25-38500023.87'>HDMI</a></span>
-<br />    <span class='sectionToc'>23.88 <a id='QQ2-25-449' href='Filters.html#x25-38600023.88'>\(I^2C\)</a></span>
-<br />    <span class='sectionToc'>23.89 <a id='QQ2-25-450' href='Filters.html#x25-38700023.89'>\(I^2C\) EEPROM</a></span>
-<br />    <span class='sectionToc'>23.90 <a id='QQ2-25-451' href='Filters.html#x25-38800023.90'>\(I^2C\) Register</a></span>
-<br />    <span class='sectionToc'>23.91 <a id='QQ2-25-452' href='Filters.html#x25-38900023.91'>IBIS Driver</a></span>
-<br />    <span class='sectionToc'>23.92 <a id='QQ2-25-456' href='Filters.html#x25-39300023.92'>Invert</a></span>
-<br />    <span class='sectionToc'>23.93 <a id='QQ2-25-457' href='Filters.html#x25-39400023.93'>Intel eSPI</a></span>
-<br />    <span class='sectionToc'>23.94 <a id='QQ2-25-458' href='Filters.html#x25-39500023.94'>IPv4</a></span>
-<br />    <span class='sectionToc'>23.95 <a id='QQ2-25-459' href='Filters.html#x25-39600023.95'>IQ Demux</a></span>
-<br />    <span class='sectionToc'>23.96 <a id='QQ2-25-460' href='Filters.html#x25-39700023.96'>IQ Squelch</a></span>
-<br />    <span class='sectionToc'>23.97 <a id='QQ2-25-461' href='Filters.html#x25-39800023.97'>Jitter</a></span>
-<br />    <span class='sectionToc'>23.98 <a id='QQ2-25-465' href='Filters.html#x25-40200023.98'>Jitter Spectrum</a></span>
-<br />    <span class='sectionToc'>23.99 <a id='QQ2-25-466' href='Filters.html#x25-40300023.99'>JTAG</a></span>
-<br />    <span class='sectionToc'>23.100 <a id='QQ2-25-467' href='Filters.html#x25-40400023.100'>Magnitude</a></span>
-<br />    <span class='sectionToc'>23.101 <a id='QQ2-25-468' href='Filters.html#x25-40500023.101'>Maximum</a></span>
-<br />    <span class='sectionToc'>23.102 <a id='QQ2-25-472' href='Filters.html#x25-40900023.102'>MDIO</a></span>
-<br />    <span class='sectionToc'>23.103 <a id='QQ2-25-473' href='Filters.html#x25-41000023.103'>Memory</a></span>
-<br />    <span class='sectionToc'>23.104 <a id='QQ2-25-474' href='Filters.html#x25-41100023.104'>MIL-STD-1553</a></span>
-<br />    <span class='sectionToc'>23.105 <a id='QQ2-25-475' href='Filters.html#x25-41200023.105'>Minimum</a></span>
-<br />    <span class='sectionToc'>23.106 <a id='QQ2-25-479' href='Filters.html#x25-41600023.106'>MIPI D-Phy Data</a></span>
-<br />    <span class='sectionToc'>23.107 <a id='QQ2-25-480' href='Filters.html#x25-41700023.107'>MIPI D-Phy Escape Mode</a></span>
-<br />    <span class='sectionToc'>23.108 <a id='QQ2-25-481' href='Filters.html#x25-41800023.108'>MIPI D-Phy Symbol</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>23.109 <a id='QQ2-25-482' href='Filters.html#x25-41900023.109'>MIPI DSI Frame</a></span>
-<br />    <span class='sectionToc'>23.110 <a id='QQ2-25-483' href='Filters.html#x25-42000023.110'>MIPI DSI Packet</a></span>
-<br />    <span class='sectionToc'>23.111 <a id='QQ2-25-484' href='Filters.html#x25-42100023.111'>Moving Average</a></span>
-<br />    <span class='sectionToc'>23.112 <a id='QQ2-25-485' href='Filters.html#x25-42200023.112'>Multiply</a></span>
-<br />    <span class='sectionToc'>23.113 <a id='QQ2-25-486' href='Filters.html#x25-42300023.113'>Noise</a></span>
-<br />    <span class='sectionToc'>23.114 <a id='QQ2-25-487' href='Filters.html#x25-42400023.114'>Overshoot</a></span>
-<br />    <span class='sectionToc'>23.115 <a id='QQ2-25-488' href='Filters.html#x25-42500023.115'>PAM4 Demodulator</a></span>
-<br />    <span class='sectionToc'>23.116 <a id='QQ2-25-489' href='Filters.html#x25-42600023.116'>PAM Edge Detector</a></span>
-<br />    <span class='sectionToc'>23.117 <a id='QQ2-25-490' href='Filters.html#x25-42700023.117'>Parallel Bus</a></span>
-<br />    <span class='sectionToc'>23.118 <a id='QQ2-25-491' href='Filters.html#x25-42800023.118'>PcapNG Import</a></span>
-<br />    <span class='sectionToc'>23.119 <a id='QQ2-25-492' href='Filters.html#x25-42900023.119'>PCIe Data Link</a></span>
-<br />    <span class='sectionToc'>23.120 <a id='QQ2-25-493' href='Filters.html#x25-43000023.120'>PCIe Gen 1/2 Logical</a></span>
-<br />    <span class='sectionToc'>23.121 <a id='QQ2-25-494' href='Filters.html#x25-43100023.121'>PCIe Gen 3/4/5 Logical</a></span>
-<br />    <span class='sectionToc'>23.122 <a id='QQ2-25-495' href='Filters.html#x25-43200023.122'>PCIe Link Training</a></span>
-<br />    <span class='sectionToc'>23.123 <a id='QQ2-25-496' href='Filters.html#x25-43300023.123'>PCIe Transport</a></span>
-<br />    <span class='sectionToc'>23.124 <a id='QQ2-25-497' href='Filters.html#x25-43400023.124'>Peak Hold</a></span>
-<br />    <span class='sectionToc'>23.125 <a id='QQ2-25-498' href='Filters.html#x25-43500023.125'>Peak-to-Peak</a></span>
-<br />    <span class='sectionToc'>23.126 <a id='QQ2-25-499' href='Filters.html#x25-43600023.126'>Peaks</a></span>
-<br />    <span class='sectionToc'>23.127 <a id='QQ2-25-500' href='Filters.html#x25-43700023.127'>Period</a></span>
-<br />    <span class='sectionToc'>23.128 <a id='QQ2-25-501' href='Filters.html#x25-43800023.128'>Phase</a></span>
-<br />    <span class='sectionToc'>23.129 <a id='QQ2-25-502' href='Filters.html#x25-43900023.129'>Phase Nonlinearity</a></span>
-<br />    <span class='sectionToc'>23.130 <a id='QQ2-25-507' href='Filters.html#x25-44300023.130'>PRBS</a></span>
-<br />    <span class='sectionToc'>23.131 <a id='QQ2-25-508' href='Filters.html#x25-44400023.131'>Pulse Width</a></span>
-<br />    <span class='sectionToc'>23.132 <a id='QQ2-25-512' href='Filters.html#x25-44700023.132'>QSPI</a></span>
-<br />    <span class='sectionToc'>23.133 <a id='QQ2-25-513' href='Filters.html#x25-44800023.133'>Quadrature</a></span>
-<br />    <span class='sectionToc'>23.134 <a id='QQ2-25-514' href='Filters.html#x25-44900023.134'>Reference Plane Extension</a></span>
-<br />    <span class='sectionToc'>23.135 <a id='QQ2-25-515' href='Filters.html#x25-45000023.135'>Rj + BUj</a></span>
-<br />    <span class='sectionToc'>23.136 <a id='QQ2-25-516' href='Filters.html#x25-45100023.136'>RMS</a></span>
-<br />    <span class='sectionToc'>23.137 <a id='QQ2-25-520' href='Filters.html#x25-45500023.137'>Rise</a></span>
-<br />    <span class='sectionToc'>23.138 <a id='QQ2-25-521' href='Filters.html#x25-45600023.138'>S-Parameter Cascade</a></span>
-<br />    <span class='sectionToc'>23.139 <a id='QQ2-25-522' href='Filters.html#x25-45700023.139'>S-Parameter De-Embed</a></span>
-<br />    <span class='sectionToc'>23.140 <a id='QQ2-25-523' href='Filters.html#x25-45800023.140'>Scalar Pulse Delay</a></span>
-<br />    <span class='sectionToc'>23.141 <a id='QQ2-25-524' href='Filters.html#x25-45900023.141'>Scalar Stairstep</a></span>
-<br />    <span class='sectionToc'>23.142 <a id='QQ2-25-525' href='Filters.html#x25-46000023.142'>Scale</a></span>
-<br />    <span class='sectionToc'>23.143 <a id='QQ2-25-526' href='Filters.html#x25-46100023.143'>SD Card Command</a></span>
-<br />    <span class='sectionToc'>23.144 <a id='QQ2-25-527' href='Filters.html#x25-46200023.144'>Sine</a></span>
-<br />    <span class='sectionToc'>23.145 <a id='QQ2-25-528' href='Filters.html#x25-46300023.145'>SNR</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>23.146 <a id='QQ2-25-532' href='Filters.html#x25-46700023.146'>Spectrogram</a></span>
-<br />    <span class='sectionToc'>23.147 <a id='QQ2-25-533' href='Filters.html#x25-46800023.147'>SPI</a></span>
-<br />    <span class='sectionToc'>23.148 <a id='QQ2-25-534' href='Filters.html#x25-46900023.148'>SPI Flash</a></span>
-<br />    <span class='sectionToc'>23.149 <a id='QQ2-25-535' href='Filters.html#x25-47000023.149'>Squelch</a></span>
-<br />    <span class='sectionToc'>23.150 <a id='QQ2-25-536' href='Filters.html#x25-47100023.150'>Step</a></span>
-<br />    <span class='sectionToc'>23.151 <a id='QQ2-25-537' href='Filters.html#x25-47200023.151'>Subtract</a></span>
-<br />    <span class='sectionToc'>23.152 <a id='QQ2-25-541' href='Filters.html#x25-47600023.152'>SWD</a></span>
-<br />    <span class='sectionToc'>23.153 <a id='QQ2-25-546' href='Filters.html#x25-48000023.153'>SWD MEM-AP</a></span>
-<br />    <span class='sectionToc'>23.154 <a id='QQ2-25-547' href='Filters.html#x25-48100023.154'>Tachometer</a></span>
-<br />    <span class='sectionToc'>23.155 <a id='QQ2-25-548' href='Filters.html#x25-48200023.155'>Tapped Delay Line</a></span>
-<br />    <span class='sectionToc'>23.156 <a id='QQ2-25-549' href='Filters.html#x25-48300023.156'>TCP</a></span>
-<br />    <span class='sectionToc'>23.157 <a id='QQ2-25-550' href='Filters.html#x25-48400023.157'>TDR</a></span>
-<br />    <span class='sectionToc'>23.158 <a id='QQ2-25-551' href='Filters.html#x25-48500023.158'>Time Outside Level</a></span>
-<br />    <span class='sectionToc'>23.159 <a id='QQ2-25-555' href='Filters.html#x25-48800023.159'>Thermal Diode</a></span>
-<br />    <span class='sectionToc'>23.160 <a id='QQ2-25-556' href='Filters.html#x25-48900023.160'>Threshold</a></span>
-<br />    <span class='sectionToc'>23.161 <a id='QQ2-25-560' href='Filters.html#x25-49300023.161'>TIE</a></span>
-<br />    <span class='sectionToc'>23.162 <a id='QQ2-25-561' href='Filters.html#x25-49400023.162'>Top</a></span>
-<br />    <span class='sectionToc'>23.163 <a id='QQ2-25-565' href='Filters.html#x25-49800023.163'>Touchstone Export</a></span>
-<br />    <span class='sectionToc'>23.164 <a id='QQ2-25-566' href='Filters.html#x25-49900023.164'>Touchstone Import</a></span>
-<br />    <span class='sectionToc'>23.165 <a id='QQ2-25-567' href='Filters.html#x25-50000023.165'>Trend</a></span>
-<br />    <span class='sectionToc'>23.166 <a id='QQ2-25-568' href='Filters.html#x25-50100023.166'>TRC Import</a></span>
-<br />    <span class='sectionToc'>23.167 <a id='QQ2-25-569' href='Filters.html#x25-50200023.167'>UART</a></span>
-<br />    <span class='sectionToc'>23.168 <a id='QQ2-25-570' href='Filters.html#x25-50300023.168'>Unwrapped Phase</a></span>
-<br />    <span class='sectionToc'>23.169 <a id='QQ2-25-575' href='Filters.html#x25-50700023.169'>USB 1.0 / 2.x Activity</a></span>
-<br />    <span class='sectionToc'>23.170 <a id='QQ2-25-576' href='Filters.html#x25-50800023.170'>USB 1.0 / 2.x Packet</a></span>
-<br />    <span class='sectionToc'>23.171 <a id='QQ2-25-577' href='Filters.html#x25-50900023.171'>USB 1.0 / 2.x PCS</a></span>
-<br />    <span class='sectionToc'>23.172 <a id='QQ2-25-578' href='Filters.html#x25-51000023.172'>USB 1.0 / 2.x PMA</a></span>
-<br />    <span class='sectionToc'>23.173 <a id='QQ2-25-579' href='Filters.html#x25-51100023.173'>Undershoot</a></span>
-<br />    <span class='sectionToc'>23.174 <a id='QQ2-25-580' href='Filters.html#x25-51200023.174'>Upsample</a></span>
-<br />    <span class='sectionToc'>23.175 <a id='QQ2-25-581' href='Filters.html#x25-51300023.175'>VCD Import</a></span>
-<br />    <span class='sectionToc'>23.176 <a id='QQ2-25-582' href='Filters.html#x25-51400023.176'>Vector Frequency</a></span>
-<br />    <span class='sectionToc'>23.177 <a id='QQ2-25-583' href='Filters.html#x25-51500023.177'>Vector Phase</a></span>
-<br />    <span class='sectionToc'>23.178 <a id='QQ2-25-584' href='Filters.html#x25-51600023.178'>Vertical Bathtub</a></span>
-<br />    <span class='sectionToc'>23.179 <a id='QQ2-25-585' href='Filters.html#x25-51700023.179'>VICP</a></span>
-<br />    <span class='sectionToc'>23.180 <a id='QQ2-25-586' href='Filters.html#x25-51800023.180'>Waterfall</a></span>
-<br />    <span class='sectionToc'>23.181 <a id='QQ2-25-587' href='Filters.html#x25-51900023.181'>WAV Import</a></span>
-<br />    <span class='sectionToc'>23.182 <a id='QQ2-25-588' href='Filters.html#x25-52000023.182'>WFM Import</a></span>
-                                                                                         
-                                                                                         
-<br />    <span class='sectionToc'>23.183 <a id='QQ2-25-589' href='Filters.html#x25-52100023.183'>Windowed Autocorrelation</a></span>
-<br />    <span class='sectionToc'>23.184 <a id='QQ2-25-590' href='Filters.html#x25-52200023.184'>Window</a></span>
-<br />    <span class='sectionToc'>23.185 <a id='QQ2-25-594' href='Filters.html#x25-52600023.185'>X-Y Sweep</a></span>
-   </div>
-                                                                                         
-                                                                                         
-
-                                                                                         
-                                                                                         
-                                                                                         
-                                                                                         
-
-                                                                                         
-                                                                                         
-
                                                                                          
                                                                                          
                                                                                          
@@ -384,14 +64,20 @@ Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0).
 
                                                                                          
                                                                                          
-                                                                                         
-                                                                                         
 
                                                                                          
                                                                                          
                                                                                          
                                                                                          
 
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
                                                                                          
                                                                                          
 
@@ -428,6 +114,18 @@ Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0).
                                                                                          
                                                                                          
 
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
                                                                                          
                                                                                          
 
