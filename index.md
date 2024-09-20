@@ -25,6 +25,6 @@ layout: default
 
 * [Get involved](/getinvolved)
 * [Supported hardware](/hardware)
-* [User manual (HTML)](/manual/ngscopeclient-manual.html)
+* [User manual (HTML)](/manual/contentsname.html)
 * [User manual (PDF)](/downloads/ngscopeclient-manual.pdf)
 * [Developer API documentation](/devdocs)
