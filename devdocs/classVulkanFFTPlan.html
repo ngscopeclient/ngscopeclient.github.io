@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -67,7 +67,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classVulkanFFTPlan-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">VulkanFFTPlan Class Reference</div></div>
+  <div class="headertitle"><div class="title">VulkanFFTPlan Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -78,69 +78,276 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5be750762b4814ac42b3fec8a06259b3"><td class="memItemLeft" align="right" valign="top"><a id="a5be750762b4814ac42b3fec8a06259b3" name="a5be750762b4814ac42b3fec8a06259b3"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>VulkanFFTPlanDirection</b> { <b>DIRECTION_FORWARD</b>
-, <b>DIRECTION_REVERSE</b>
+<tr class="memitem:a5be750762b4814ac42b3fec8a06259b3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3">VulkanFFTPlanDirection</a> { <a class="el" href="classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3a2615751b5d8bb1d60671b74e329c2961">DIRECTION_FORWARD</a>
+, <a class="el" href="classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3aba2419a031429cb7f11056c01a0f965d">DIRECTION_REVERSE</a>
  }</td></tr>
+<tr class="memdesc:a5be750762b4814ac42b3fec8a06259b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction of a FFT.  <a href="classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3">More...</a><br /></td></tr>
 <tr class="separator:a5be750762b4814ac42b3fec8a06259b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a223c93dd373b5d569860beb32f9fb674"><td class="memItemLeft" align="right" valign="top"><a id="a223c93dd373b5d569860beb32f9fb674" name="a223c93dd373b5d569860beb32f9fb674"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>VulkanFFTDataType</b> { <b>TYPE_REAL</b>
-, <b>TYPE_COMPLEX</b>
+<tr class="memitem:a223c93dd373b5d569860beb32f9fb674"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674">VulkanFFTDataType</a> { <a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674a8cd30efc9cc7210e688bff257847acfc">TYPE_REAL</a>
+, <a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674ae347b2a5e3b7e61fc9096938f28ae57f">TYPE_COMPLEX</a>
  }</td></tr>
+<tr class="memdesc:a223c93dd373b5d569860beb32f9fb674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data type of a FFT input or output.  <a href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674">More...</a><br /></td></tr>
 <tr class="separator:a223c93dd373b5d569860beb32f9fb674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a90999a41dd2d52f7cc683688380f7e1f"><td class="memItemLeft" align="right" valign="top"><a id="a90999a41dd2d52f7cc683688380f7e1f" name="a90999a41dd2d52f7cc683688380f7e1f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>VulkanFFTPlan</b> (size_t npoints, size_t nouts, VulkanFFTPlanDirection dir, size_t numBatches=1, VulkanFFTDataType timeDomainType=VulkanFFTPlan::TYPE_REAL)</td></tr>
+<tr class="memitem:a90999a41dd2d52f7cc683688380f7e1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVulkanFFTPlan.html#a90999a41dd2d52f7cc683688380f7e1f">VulkanFFTPlan</a> (size_t npoints, size_t nouts, <a class="el" href="classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3">VulkanFFTPlanDirection</a> dir, size_t numBatches=1, <a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674">VulkanFFTDataType</a> timeDomainType=<a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674a8cd30efc9cc7210e688bff257847acfc">VulkanFFTPlan::TYPE_REAL</a>)</td></tr>
+<tr class="memdesc:a90999a41dd2d52f7cc683688380f7e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new FFT plan.  <a href="classVulkanFFTPlan.html#a90999a41dd2d52f7cc683688380f7e1f">More...</a><br /></td></tr>
 <tr class="separator:a90999a41dd2d52f7cc683688380f7e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addc390a6b70e29b47d21e1a42d83555f"><td class="memItemLeft" align="right" valign="top"><a id="addc390a6b70e29b47d21e1a42d83555f" name="addc390a6b70e29b47d21e1a42d83555f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AppendForward</b> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataIn, <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataOut, vk::raii::CommandBuffer &amp;cmdBuf)</td></tr>
+<tr class="memitem:addc390a6b70e29b47d21e1a42d83555f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVulkanFFTPlan.html#addc390a6b70e29b47d21e1a42d83555f">AppendForward</a> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataIn, <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataOut, vk::raii::CommandBuffer &amp;cmdBuf)</td></tr>
+<tr class="memdesc:addc390a6b70e29b47d21e1a42d83555f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a forward FFT to a command buffer.  <a href="classVulkanFFTPlan.html#addc390a6b70e29b47d21e1a42d83555f">More...</a><br /></td></tr>
 <tr class="separator:addc390a6b70e29b47d21e1a42d83555f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a096e86280b01067c679433020be16017"><td class="memItemLeft" align="right" valign="top"><a id="a096e86280b01067c679433020be16017" name="a096e86280b01067c679433020be16017"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AppendReverse</b> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataIn, <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataOut, vk::raii::CommandBuffer &amp;cmdBuf)</td></tr>
+<tr class="memitem:a096e86280b01067c679433020be16017"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVulkanFFTPlan.html#a096e86280b01067c679433020be16017">AppendReverse</a> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataIn, <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;dataOut, vk::raii::CommandBuffer &amp;cmdBuf)</td></tr>
+<tr class="memdesc:a096e86280b01067c679433020be16017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends an inverse FFT to a command buffer.  <a href="classVulkanFFTPlan.html#a096e86280b01067c679433020be16017">More...</a><br /></td></tr>
 <tr class="separator:a096e86280b01067c679433020be16017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a53a0f15ae36cf7de73b7bccb293ac9"><td class="memItemLeft" align="right" valign="top"><a id="a3a53a0f15ae36cf7de73b7bccb293ac9" name="a3a53a0f15ae36cf7de73b7bccb293ac9"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
+<tr class="memdesc:a3a53a0f15ae36cf7de73b7bccb293ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of points in the FFT. <br /></td></tr>
 <tr class="separator:a3a53a0f15ae36cf7de73b7bccb293ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a6f2c77af411636ed4c7f8c8c9f7a75f1"><td class="memItemLeft" align="right" valign="top"><a id="a6f2c77af411636ed4c7f8c8c9f7a75f1" name="a6f2c77af411636ed4c7f8c8c9f7a75f1"></a>
 VkFFTApplication&#160;</td><td class="memItemRight" valign="bottom"><b>m_app</b></td></tr>
+<tr class="memdesc:a6f2c77af411636ed4c7f8c8c9f7a75f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">VkFFT application handle. <br /></td></tr>
 <tr class="separator:a6f2c77af411636ed4c7f8c8c9f7a75f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad730181c102575de6f75ec2dbd60ced0"><td class="memItemLeft" align="right" valign="top"><a id="ad730181c102575de6f75ec2dbd60ced0" name="ad730181c102575de6f75ec2dbd60ced0"></a>
 VkFFTConfiguration&#160;</td><td class="memItemRight" valign="bottom"><b>m_config</b></td></tr>
+<tr class="memdesc:ad730181c102575de6f75ec2dbd60ced0"><td class="mdescLeft">&#160;</td><td class="mdescRight">VkFFT configuration state. <br /></td></tr>
 <tr class="separator:ad730181c102575de6f75ec2dbd60ced0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcbeabadb1e79226d3e6ab6aaba3c3d1"><td class="memItemLeft" align="right" valign="top"><a id="abcbeabadb1e79226d3e6ab6aaba3c3d1" name="abcbeabadb1e79226d3e6ab6aaba3c3d1"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_size</b></td></tr>
+<tr class="memdesc:abcbeabadb1e79226d3e6ab6aaba3c3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of points in the FFT. <br /></td></tr>
 <tr class="separator:abcbeabadb1e79226d3e6ab6aaba3c3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea11c7d0702bc63cfa032591c2b57696"><td class="memItemLeft" align="right" valign="top"><a id="aea11c7d0702bc63cfa032591c2b57696" name="aea11c7d0702bc63cfa032591c2b57696"></a>
 VkPhysicalDevice&#160;</td><td class="memItemRight" valign="bottom"><b>m_physicalDevice</b></td></tr>
+<tr class="memdesc:aea11c7d0702bc63cfa032591c2b57696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical device the FFT is runnning on. <br /></td></tr>
 <tr class="separator:aea11c7d0702bc63cfa032591c2b57696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1726f43d45f3794ddd0888ba2722ed7"><td class="memItemLeft" align="right" valign="top"><a id="ab1726f43d45f3794ddd0888ba2722ed7" name="ab1726f43d45f3794ddd0888ba2722ed7"></a>
 VkDevice&#160;</td><td class="memItemRight" valign="bottom"><b>m_device</b></td></tr>
+<tr class="memdesc:ab1726f43d45f3794ddd0888ba2722ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device the FFT is runnning on. <br /></td></tr>
 <tr class="separator:ab1726f43d45f3794ddd0888ba2722ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ba115a1d040a6763aac08f5de9154d4"><td class="memItemLeft" align="right" valign="top"><a id="a8ba115a1d040a6763aac08f5de9154d4" name="a8ba115a1d040a6763aac08f5de9154d4"></a>
 VkPipelineCache&#160;</td><td class="memItemRight" valign="bottom"><b>m_pipelineCache</b></td></tr>
+<tr class="memdesc:a8ba115a1d040a6763aac08f5de9154d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pipeline cache for precompiled shader binaries. <br /></td></tr>
 <tr class="separator:a8ba115a1d040a6763aac08f5de9154d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29faaebe9d8810b55b3b97a9a6584c99"><td class="memItemLeft" align="right" valign="top"><a id="a29faaebe9d8810b55b3b97a9a6584c99" name="a29faaebe9d8810b55b3b97a9a6584c99"></a>
 vk::raii::Fence&#160;</td><td class="memItemRight" valign="bottom"><b>m_fence</b></td></tr>
+<tr class="memdesc:a29faaebe9d8810b55b3b97a9a6584c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fence for synchronizing FFTs. <br /></td></tr>
 <tr class="separator:a29faaebe9d8810b55b3b97a9a6584c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9db317b911dbc395e7ab2e14797191f3"><td class="memItemLeft" align="right" valign="top"><a id="a9db317b911dbc395e7ab2e14797191f3" name="a9db317b911dbc395e7ab2e14797191f3"></a>
 VkFence&#160;</td><td class="memItemRight" valign="bottom"><b>m_rawfence</b></td></tr>
+<tr class="memdesc:a9db317b911dbc395e7ab2e14797191f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The underlying VkFence of m_fence (we need to be able to take a pointer to it) <br /></td></tr>
 <tr class="separator:a9db317b911dbc395e7ab2e14797191f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6150741d54bd14cf2d190b07d3f980b7"><td class="memItemLeft" align="right" valign="top"><a id="a6150741d54bd14cf2d190b07d3f980b7" name="a6150741d54bd14cf2d190b07d3f980b7"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_bsize</b></td></tr>
+<tr class="memdesc:a6150741d54bd14cf2d190b07d3f980b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byte size of the output buffer (for forward) or input (for reverse) <br /></td></tr>
 <tr class="separator:a6150741d54bd14cf2d190b07d3f980b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaa22da15957c3b60422f3da9652aa91"><td class="memItemLeft" align="right" valign="top"><a id="aeaa22da15957c3b60422f3da9652aa91" name="aeaa22da15957c3b60422f3da9652aa91"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_tsize</b></td></tr>
+<tr class="memdesc:aeaa22da15957c3b60422f3da9652aa91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byte size of the temporary working buffer. <br /></td></tr>
 <tr class="separator:aeaa22da15957c3b60422f3da9652aa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa403b69161b937f24b254a87e855633"><td class="memItemLeft" align="right" valign="top"><a id="afa403b69161b937f24b254a87e855633" name="afa403b69161b937f24b254a87e855633"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_isize</b></td></tr>
+<tr class="memdesc:afa403b69161b937f24b254a87e855633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byte size of the input buffer (for forward) or output (for reverse) <br /></td></tr>
 <tr class="separator:afa403b69161b937f24b254a87e855633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >RAII wrapper around a VkFFTApplication and VkFFTConfiguration. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a223c93dd373b5d569860beb32f9fb674" name="a223c93dd373b5d569860beb32f9fb674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a223c93dd373b5d569860beb32f9fb674">&#9670;&nbsp;</a></span>VulkanFFTDataType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674">VulkanFFTPlan::VulkanFFTDataType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Data type of a FFT input or output. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a223c93dd373b5d569860beb32f9fb674a8cd30efc9cc7210e688bff257847acfc" name="a223c93dd373b5d569860beb32f9fb674a8cd30efc9cc7210e688bff257847acfc"></a>TYPE_REAL&#160;</td><td class="fielddoc"><p >Real float32 values. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a223c93dd373b5d569860beb32f9fb674ae347b2a5e3b7e61fc9096938f28ae57f" name="a223c93dd373b5d569860beb32f9fb674ae347b2a5e3b7e61fc9096938f28ae57f"></a>TYPE_COMPLEX&#160;</td><td class="fielddoc"><p >Complex float32 values. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a5be750762b4814ac42b3fec8a06259b3" name="a5be750762b4814ac42b3fec8a06259b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5be750762b4814ac42b3fec8a06259b3">&#9670;&nbsp;</a></span>VulkanFFTPlanDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3">VulkanFFTPlan::VulkanFFTPlanDirection</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Direction of a FFT. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5be750762b4814ac42b3fec8a06259b3a2615751b5d8bb1d60671b74e329c2961" name="a5be750762b4814ac42b3fec8a06259b3a2615751b5d8bb1d60671b74e329c2961"></a>DIRECTION_FORWARD&#160;</td><td class="fielddoc"><p >Normal FFT. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5be750762b4814ac42b3fec8a06259b3aba2419a031429cb7f11056c01a0f965d" name="a5be750762b4814ac42b3fec8a06259b3aba2419a031429cb7f11056c01a0f965d"></a>DIRECTION_REVERSE&#160;</td><td class="fielddoc"><p >Inverse FFT. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a90999a41dd2d52f7cc683688380f7e1f" name="a90999a41dd2d52f7cc683688380f7e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90999a41dd2d52f7cc683688380f7e1f">&#9670;&nbsp;</a></span>VulkanFFTPlan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VulkanFFTPlan::VulkanFFTPlan </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>npoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nouts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3">VulkanFFTPlanDirection</a>&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>numBatches</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674">VulkanFFTDataType</a>&#160;</td>
+          <td class="paramname"><em>timeDomainType</em> = <code><a class="el" href="classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674a8cd30efc9cc7210e688bff257847acfc">VulkanFFTPlan::TYPE_REAL</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new FFT plan. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">npoints</td><td>Number of points in the FFT </td></tr>
+    <tr><td class="paramname">nouts</td><td>Number of output samples </td></tr>
+    <tr><td class="paramname">dir</td><td>Direction (forward or reverse) </td></tr>
+    <tr><td class="paramname">numBatches</td><td>Number of batched FFTs to perform (for spectrograms etc) </td></tr>
+    <tr><td class="paramname">timeDomainType</td><td>Data type of the time-domain signal (real or complex) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="addc390a6b70e29b47d21e1a42d83555f" name="addc390a6b70e29b47d21e1a42d83555f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc390a6b70e29b47d21e1a42d83555f">&#9670;&nbsp;</a></span>AppendForward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VulkanFFTPlan::AppendForward </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dataIn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dataOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vk::raii::CommandBuffer &amp;&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a forward FFT to a command buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataIn</td><td>Time domain input </td></tr>
+    <tr><td class="paramname">dataOut</td><td>Frequency domain output </td></tr>
+    <tr><td class="paramname">cmdBuf</td><td>Command buffer to append the FFT to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a096e86280b01067c679433020be16017" name="a096e86280b01067c679433020be16017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096e86280b01067c679433020be16017">&#9670;&nbsp;</a></span>AppendReverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VulkanFFTPlan::AppendReverse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dataIn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dataOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vk::raii::CommandBuffer &amp;&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends an inverse FFT to a command buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataIn</td><td>Frequency domain input </td></tr>
+    <tr><td class="paramname">dataOut</td><td>Time domain output </td></tr>
+    <tr><td class="paramname">cmdBuf</td><td>Command buffer to append the FFT to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="VulkanFFTPlan_8h_source.html">VulkanFFTPlan.h</a></li>
 <li>lib/scopehal/<a class="el" href="VulkanFFTPlan_8cpp.html">VulkanFFTPlan.cpp</a></li>
 </ul>

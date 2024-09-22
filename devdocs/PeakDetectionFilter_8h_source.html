@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -144,7 +144,7 @@ $(function() {
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="comment">//Get peak search width in bins</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            <span class="comment">//(assume bins are equal size, this should get us close)</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            int64_t binsize = GetOffsetScaled(cap, 1) - GetOffsetScaled(cap, 0);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            int64_t binsize = <a class="code hl_function" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, 1) - <a class="code hl_function" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, 0);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            int64_t search_bins = ceil(search_hz / binsize);</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            int64_t search_rad = search_bins/2;</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            search_rad = std::max(search_rad, (int64_t)1);</div>
@@ -220,7 +220,7 @@ $(function() {
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                         <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                    }</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>                }</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                <span class="keywordtype">float</span> fwhm = GetOffsetScaled(cap, hmright) - GetOffsetScaled(cap, hmleft);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                <span class="keywordtype">float</span> fwhm = <a class="code hl_function" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, hmright) - <a class="code hl_function" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, hmleft);</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>                peaks.push_back(<a class="code hl_class" href="classPeak.html">Peak</a>(peak_location, target, fwhm));</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
@@ -271,6 +271,7 @@ $(function() {
 <div class="ttc" id="aclassPeakDetectionFilter_html"><div class="ttname"><a href="classPeakDetectionFilter.html">PeakDetectionFilter</a></div><div class="ttdoc">A filter that does peak detection.</div><div class="ttdef"><b>Definition:</b> PeakDetectionFilter.h:184</div></div>
 <div class="ttc" id="aclassPeakDetector_html"><div class="ttname"><a href="classPeakDetector.html">PeakDetector</a></div><div class="ttdef"><b>Definition:</b> PeakDetectionFilter.h:56</div></div>
 <div class="ttc" id="aclassPeak_html"><div class="ttname"><a href="classPeak.html">Peak</a></div><div class="ttdef"><b>Definition:</b> PeakDetectionFilter.h:39</div></div>
+<div class="ttc" id="agroup__datamodel_html_ga977048a82dd93c68f9a67c1670d30491"><div class="ttname"><a href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a></div><div class="ttdeci">int64_t GetOffsetScaled(T *wfm, size_t i)</div><div class="ttdoc">Returns the offset of a sample from the start of the waveform, in X axis units.</div><div class="ttdef"><b>Definition:</b> Waveform.h:680</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -140,8 +140,8 @@ $(function() {
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>{</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <a class="code hl_class" href="classDSIFrameWaveform.html">DSIFrameWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;DSIFrameSymbol&gt;</a>() {};</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classDSIFrameWaveform.html#aefa54dbe4e2814984835815c13513d4f">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classDSIFrameWaveform.html#a404e77e6a27290c49bb94c1e95d4baeb">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classDSIFrameDecoder.html">   82</a></span><span class="keyword">class </span><a class="code hl_class" href="classDSIFrameDecoder.html">DSIFrameDecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classPacketDecoder.html">PacketDecoder</a></div>
@@ -170,8 +170,10 @@ $(function() {
 <div class="ttc" id="aclassDSIFrameDecoder_html_aa9bee2b624849e81c0a67479eca1364b"><div class="ttname"><a href="classDSIFrameDecoder.html#aa9bee2b624849e81c0a67479eca1364b">DSIFrameDecoder::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> DSIFrameDecoder.cpp:87</div></div>
 <div class="ttc" id="aclassDSIFrameSymbol_html"><div class="ttname"><a href="classDSIFrameSymbol.html">DSIFrameSymbol</a></div><div class="ttdef"><b>Definition:</b> DSIFrameDecoder.h:42</div></div>
 <div class="ttc" id="aclassDSIFrameWaveform_html"><div class="ttname"><a href="classDSIFrameWaveform.html">DSIFrameWaveform</a></div><div class="ttdef"><b>Definition:</b> DSIFrameDecoder.h:75</div></div>
+<div class="ttc" id="aclassDSIFrameWaveform_html_a404e77e6a27290c49bb94c1e95d4baeb"><div class="ttname"><a href="classDSIFrameWaveform.html#a404e77e6a27290c49bb94c1e95d4baeb">DSIFrameWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> DSIFrameDecoder.cpp:286</div></div>
+<div class="ttc" id="aclassDSIFrameWaveform_html_aefa54dbe4e2814984835815c13513d4f"><div class="ttname"><a href="classDSIFrameWaveform.html#aefa54dbe4e2814984835815c13513d4f">DSIFrameWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> DSIFrameDecoder.cpp:308</div></div>
 <div class="ttc" id="aclassPacketDecoder_html"><div class="ttname"><a href="classPacketDecoder.html">PacketDecoder</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:85</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

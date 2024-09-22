@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -100,7 +100,7 @@ Collaboration diagram for DPAuxChannelDecoder:</div>
 <area shape="rect" title=" " alt="" coords="344,49,536,90"/>
 <area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="756,107,805,133"/>
 <area shape="rect" href="classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="719,299,842,325"/>
-<area shape="rect" href="classSparseWaveformBase.html" title=" " alt="" coords="1016,225,1183,252"/>
+<area shape="rect" href="classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1016,225,1183,252"/>
 <area shape="rect" href="classAcceleratorBuffer.html" title=" " alt="" coords="367,291,513,333"/>
 <area shape="rect" href="classAlignedAllocator.html" title=" " alt="" coords="5,291,191,333"/>
 <area shape="rect" href="classSparseWaveform.html" title="A waveform sampled at irregular intervals." alt="" coords="1315,205,1487,232"/>
@@ -880,12 +880,12 @@ static <a class="el" href="classFilter.html">Filter</a> *&#160;</td><td class="m
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
-<tr class="memitem:a6252fa0bf66016daebf1c45dbb51e413"><td class="memItemLeft" align="right" valign="top"><a id="a6252fa0bf66016daebf1c45dbb51e413" name="a6252fa0bf66016daebf1c45dbb51e413"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>CAP_FORMAT_1BYTE</b>
+<tr class="memitem:a5c622569cc0f82034a9a0f679fe9e406"><td class="memItemLeft" align="right" valign="top"><a id="a5c622569cc0f82034a9a0f679fe9e406" name="a5c622569cc0f82034a9a0f679fe9e406"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>CAP_FORMAT_1BYTE</b>
 , <b>CAP_FORMAT_4BYTE</b>
 , <b>CAP_FORMAT_UNKNOWN</b>
  }</td></tr>
-<tr class="separator:a6252fa0bf66016daebf1c45dbb51e413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a903828b0bd0c67772c72dd7d000d3b67"><td class="memItemLeft" align="right" valign="top"><a id="a903828b0bd0c67772c72dd7d000d3b67" name="a903828b0bd0c67772c72dd7d000d3b67"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="separator:a5c622569cc0f82034a9a0f679fe9e406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6252fa0bf66016daebf1c45dbb51e413"><td class="memItemLeft" align="right" valign="top"><a id="a6252fa0bf66016daebf1c45dbb51e413" name="a6252fa0bf66016daebf1c45dbb51e413"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>DFP_TYPE_VGA</b>
 , <b>DFP_TYPE_DVI</b>
 , <b>DFP_TYPE_DP</b>
@@ -896,7 +896,7 @@ Protected Types</h2></td></tr>
 , <b>DFP_TYPE_UNKNOWN</b>
 <br />
  }</td></tr>
-<tr class="separator:a903828b0bd0c67772c72dd7d000d3b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a6252fa0bf66016daebf1c45dbb51e413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_types_classFilter"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classFilter')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classFilter.html">Filter</a></td></tr>
 <tr class="memitem:a5771bd453dd3585111ee0df7616ce891 inherit pro_types_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a5771bd453dd3585111ee0df7616ce891" name="a5771bd453dd3585111ee0df7616ce891"></a>
 typedef std::map&lt; std::string, CreateProcType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateMapType</b></td></tr>
@@ -1014,12 +1014,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a47a97a93a44872cbb83cc69a5a5869e0"><td class="memItemLeft" align="right" valign="top"><a id="a47a97a93a44872cbb83cc69a5a5869e0" name="a47a97a93a44872cbb83cc69a5a5869e0"></a>
+<tr class="memitem:a903049e5c1e186fe78d24631649e8ef8"><td class="memItemLeft" align="right" valign="top"><a id="a903049e5c1e186fe78d24631649e8ef8" name="a903049e5c1e186fe78d24631649e8ef8"></a>
 enum DPAuxChannelDecoder:: { ... } &#160;</td><td class="memItemRight" valign="bottom"><b>m_capFormat</b></td></tr>
-<tr class="separator:a47a97a93a44872cbb83cc69a5a5869e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc71d833f49114c49ef46142e67d0419"><td class="memItemLeft" align="right" valign="top"><a id="adc71d833f49114c49ef46142e67d0419" name="adc71d833f49114c49ef46142e67d0419"></a>
+<tr class="separator:a903049e5c1e186fe78d24631649e8ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86cc682752546e67cfa4c50f4500a72"><td class="memItemLeft" align="right" valign="top"><a id="ab86cc682752546e67cfa4c50f4500a72" name="ab86cc682752546e67cfa4c50f4500a72"></a>
 enum DPAuxChannelDecoder:: { ... } &#160;</td><td class="memItemRight" valign="bottom"><b>m_dfpType</b></td></tr>
-<tr class="separator:adc71d833f49114c49ef46142e67d0419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ab86cc682752546e67cfa4c50f4500a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f81041d2efbb0101342dae87caa0449"><td class="memItemLeft" align="right" valign="top"><a id="a6f81041d2efbb0101342dae87caa0449" name="a6f81041d2efbb0101342dae87caa0449"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>m_dcpdRevision</b></td></tr>
 <tr class="separator:a6f81041d2efbb0101342dae87caa0449"><td class="memSeparator" colspan="2">&#160;</td></tr>

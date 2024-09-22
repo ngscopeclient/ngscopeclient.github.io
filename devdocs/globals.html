@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -70,11 +70,12 @@ $(function() {
 
 
 <h3><a id="index_b" name="index_b"></a>- b -</h3><ul>
-<li>BinarySearchForGequal()&#160;:&#160;<a class="el" href="Waveform_8h.html#a804f5cecebfee99054fa11ea3ee5a8eb">Waveform.h</a></li>
+<li>BinarySearchForGequal()&#160;:&#160;<a class="el" href="group__datamodel.html#ga804f5cecebfee99054fa11ea3ee5a8eb">Waveform.cpp</a>, <a class="el" href="group__datamodel.html#ga804f5cecebfee99054fa11ea3ee5a8eb">Waveform.h</a></li>
 </ul>
 
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
+<li>ColorFromString()&#160;:&#160;<a class="el" href="Waveform_8cpp.html#ab23e9d05b33d4d5e8c8e4e95aa158c71">Waveform.cpp</a></li>
 <li>ConvertVectorSignalToScalar()&#160;:&#160;<a class="el" href="scopehal_8cpp.html#a49a8e4ce7868eb5d96c560ee9c37ef84">scopehal.cpp</a></li>
 <li>CRC32()&#160;:&#160;<a class="el" href="scopehal_8cpp.html#a28962b86ee7a4125ad51a175a468c31c">scopehal.cpp</a>, <a class="el" href="scopehal_8h.html#a28962b86ee7a4125ad51a175a468c31c">scopehal.h</a></li>
 </ul>
@@ -100,39 +101,54 @@ $(function() {
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
 <li>g_gpuFilterEnabled&#160;:&#160;<a class="el" href="scopehal_8h.html#ac651e49d657c994eab7bb45f656df02f">scopehal.h</a>, <a class="el" href="scopehal_8cpp.html#ac651e49d657c994eab7bb45f656df02f">scopehal.cpp</a></li>
 <li>g_gpuScopeDriverEnabled&#160;:&#160;<a class="el" href="scopehal_8h.html#a408e714cf7e625ed23da098ad12263f6">scopehal.h</a>, <a class="el" href="scopehal_8cpp.html#a408e714cf7e625ed23da098ad12263f6">scopehal.cpp</a></li>
-<li>g_lastWaveformRenderTime&#160;:&#160;<a class="el" href="Session_8h.html#a094fca4e0b25504eadd6cd679bc245fa">Session.h</a>, <a class="el" href="WaveformThread_8cpp.html#a601803d1a7d8d690ad4563d89b23d7ad">WaveformThread.cpp</a></li>
+<li>g_hasDebugUtils&#160;:&#160;<a class="el" href="group__vksupport.html#ga6ff80e4412ae7b88ae9c1d492e2161d7">QueueManager.cpp</a>, <a class="el" href="group__vksupport.html#ga6ff80e4412ae7b88ae9c1d492e2161d7">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga6ff80e4412ae7b88ae9c1d492e2161d7">VulkanInit.cpp</a>, <a class="el" href="group__vksupport.html#ga6ff80e4412ae7b88ae9c1d492e2161d7">AcceleratorBuffer.h</a></li>
+<li>g_hasMemoryBudget&#160;:&#160;<a class="el" href="group__vksupport.html#ga5d815b6e1134e440af733900a21c9a22">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga5d815b6e1134e440af733900a21c9a22">VulkanInit.cpp</a></li>
+<li>g_hasPushDescriptor&#160;:&#160;<a class="el" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">VulkanInit.cpp</a></li>
+<li>g_hasShaderAtomicFloat&#160;:&#160;<a class="el" href="group__vksupport.html#ga0afebf122ebe8306b53279624bd67543">VulkanInit.cpp</a>, <a class="el" href="group__vksupport.html#ga0afebf122ebe8306b53279624bd67543">scopehal.h</a></li>
+<li>g_hasShaderFloat64&#160;:&#160;<a class="el" href="group__vksupport.html#gabc02de1971874644efec59e1c9827a09">scopehal.h</a>, <a class="el" href="group__vksupport.html#gabc02de1971874644efec59e1c9827a09">VulkanInit.cpp</a></li>
+<li>g_hasShaderInt16&#160;:&#160;<a class="el" href="group__vksupport.html#ga62c711d530cc3276d5547de2d60b52c3">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga62c711d530cc3276d5547de2d60b52c3">VulkanInit.cpp</a></li>
+<li>g_hasShaderInt64&#160;:&#160;<a class="el" href="group__vksupport.html#ga145fdf2b113121241abc1c4593e1c46c">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga145fdf2b113121241abc1c4593e1c46c">VulkanInit.cpp</a></li>
+<li>g_hasShaderInt8&#160;:&#160;<a class="el" href="group__vksupport.html#gaee2b4019d246a322ae18df43494bec13">scopehal.h</a>, <a class="el" href="group__vksupport.html#gaee2b4019d246a322ae18df43494bec13">VulkanInit.cpp</a></li>
+<li>g_lastWaveformRenderTime&#160;:&#160;<a class="el" href="WaveformThread_8cpp.html#a601803d1a7d8d690ad4563d89b23d7ad">WaveformThread.cpp</a>, <a class="el" href="Session_8h.html#a094fca4e0b25504eadd6cd679bc245fa">Session.h</a></li>
 <li>g_log_mutex&#160;:&#160;<a class="el" href="log_8cpp.html#a353553140f8a79b1e00fa0083abe71ad">log.cpp</a>, <a class="el" href="log_8h.html#a8508a5f5508e7d530cd96097a5a0d316">log.h</a></li>
 <li>g_log_sinks&#160;:&#160;<a class="el" href="log_8cpp.html#aeab7d7c9db60435a29b37e3946d62cd8">log.cpp</a>, <a class="el" href="log_8h.html#a74590355b40ec1f884e8001581f7bc8f">log.h</a></li>
 <li>g_logIndentLevel&#160;:&#160;<a class="el" href="log_8cpp.html#a152751c8367b28401e33f510bb654a69">log.cpp</a>, <a class="el" href="log_8h.html#a152751c8367b28401e33f510bb654a69">log.h</a></li>
 <li>g_logToStdoutAlways&#160;:&#160;<a class="el" href="log_8cpp.html#a379eba323535922d8d82011383170249">log.cpp</a></li>
-<li>g_trace_filters&#160;:&#160;<a class="el" href="log_8h.html#abbdb7ef026d48c632dd80718599d77a5">log.h</a>, <a class="el" href="log_8cpp.html#a582e85898d07b7e310f7855c8adbd883">log.cpp</a></li>
-<li>g_vkComputeDevice&#160;:&#160;<a class="el" href="AcceleratorBuffer_8h.html#ab6bf68c92c2f2c4540ed92367c9e00e2">AcceleratorBuffer.h</a>, <a class="el" href="VulkanInit_8cpp.html#a945c2c77ece3cb4606a1adcd4d2dd25e">VulkanInit.cpp</a></li>
-<li>g_vkComputeDeviceDriverVer&#160;:&#160;<a class="el" href="scopehal_8h.html#afea0a98a5db07bcce90a7119e2fd0192">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#afea0a98a5db07bcce90a7119e2fd0192">VulkanInit.cpp</a></li>
-<li>g_vkComputeDeviceUuid&#160;:&#160;<a class="el" href="scopehal_8h.html#a0e34661f30ee8cee04922a8d7c4886d0">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#a0e34661f30ee8cee04922a8d7c4886d0">VulkanInit.cpp</a></li>
-<li>g_vkComputePhysicalDevice&#160;:&#160;<a class="el" href="scopehal_8h.html#adc8fd2940d4e73b4c9d95161adabe656">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#adc8fd2940d4e73b4c9d95161adabe656">VulkanInit.cpp</a></li>
-<li>g_vkContext&#160;:&#160;<a class="el" href="scopehal_8h.html#ab8f5f0bcc10fc0a77d1c28193df07487">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#ab8f5f0bcc10fc0a77d1c28193df07487">VulkanInit.cpp</a></li>
-<li>g_vkInstance&#160;:&#160;<a class="el" href="VulkanInit_8cpp.html#a1f628eb855ff626bcdb9bf89934f6e93">VulkanInit.cpp</a>, <a class="el" href="scopehal_8h.html#aa47fea0f460af7f7233a824538170067">scopehal.h</a></li>
-<li>g_vkLocalMemoryHeap&#160;:&#160;<a class="el" href="scopehal_8h.html#ac6f7a2f17c5c4e3e5b4d66330e435c22">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#ac6f7a2f17c5c4e3e5b4d66330e435c22">VulkanInit.cpp</a></li>
-<li>g_vkLocalMemoryType&#160;:&#160;<a class="el" href="AcceleratorBuffer_8h.html#ae7f19146c8e4e58818b248291a46f087">AcceleratorBuffer.h</a>, <a class="el" href="VulkanInit_8cpp.html#ae7f19146c8e4e58818b248291a46f087">VulkanInit.cpp</a></li>
-<li>g_vkPinnedMemoryHeap&#160;:&#160;<a class="el" href="scopehal_8h.html#acd865ca0e9d0c4f6cfb85cfa4146d713">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#acd865ca0e9d0c4f6cfb85cfa4146d713">VulkanInit.cpp</a></li>
-<li>g_vkPinnedMemoryType&#160;:&#160;<a class="el" href="AcceleratorBuffer_8h.html#a0399c400a07f35d8a39eb1c28104fbcd">AcceleratorBuffer.h</a>, <a class="el" href="VulkanInit_8cpp.html#a0399c400a07f35d8a39eb1c28104fbcd">VulkanInit.cpp</a></li>
-<li>g_vkQueueManager&#160;:&#160;<a class="el" href="scopehal_8h.html#a6298f13f63fb6f8cdcb0988c4ab20528">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#a6298f13f63fb6f8cdcb0988c4ab20528">VulkanInit.cpp</a></li>
-<li>g_vkTransferCommandBuffer&#160;:&#160;<a class="el" href="AcceleratorBuffer_8h.html#aa28f761a8ea63a555de8a160a3dd3a76">AcceleratorBuffer.h</a>, <a class="el" href="VulkanInit_8cpp.html#aa112df5e5ac07738551aaf117d49130a">VulkanInit.cpp</a></li>
-<li>g_vkTransferCommandPool&#160;:&#160;<a class="el" href="VulkanInit_8cpp.html#ab3813c41c232be1620c12ae0ec27558c">VulkanInit.cpp</a></li>
-<li>g_vkTransferMutex&#160;:&#160;<a class="el" href="AcceleratorBuffer_8h.html#aa77945f725615a87df0e7ee3c5217d11">AcceleratorBuffer.h</a>, <a class="el" href="VulkanInit_8cpp.html#a5ce9839b056cc290f6064e10f4a70ce8">VulkanInit.cpp</a></li>
-<li>g_vkTransferQueue&#160;:&#160;<a class="el" href="AcceleratorBuffer_8h.html#a9ef2f2959e41dc7dcdfa02da107f1e55">AcceleratorBuffer.h</a>, <a class="el" href="VulkanInit_8cpp.html#abd2ceb9b89b40431159e2a081352647f">VulkanInit.cpp</a></li>
-<li>g_vulkanActivityMutex&#160;:&#160;<a class="el" href="Session_8cpp.html#af3b3caa42198dc41a73b03f1792e6f2c">Session.cpp</a>, <a class="el" href="WaveformThread_8cpp.html#af3b3caa42198dc41a73b03f1792e6f2c">WaveformThread.cpp</a></li>
-<li>GetDigitalValueAtTime()&#160;:&#160;<a class="el" href="Waveform_8h.html#a04d3dfcb5a7f35cf93666a7a7e1fd9a5">Waveform.h</a></li>
+<li>g_maxComputeGroupCount&#160;:&#160;<a class="el" href="group__vksupport.html#gad1541c12c84a43c057f78b3473868861">scopehal.h</a>, <a class="el" href="group__vksupport.html#gad1541c12c84a43c057f78b3473868861">VulkanInit.cpp</a></li>
+<li>g_trace_filters&#160;:&#160;<a class="el" href="log_8cpp.html#a582e85898d07b7e310f7855c8adbd883">log.cpp</a>, <a class="el" href="log_8h.html#abbdb7ef026d48c632dd80718599d77a5">log.h</a></li>
+<li>g_vkComputeDevice&#160;:&#160;<a class="el" href="group__vksupport.html#ga945c2c77ece3cb4606a1adcd4d2dd25e">AcceleratorBuffer.h</a>, <a class="el" href="group__vksupport.html#ga945c2c77ece3cb4606a1adcd4d2dd25e">VulkanInit.cpp</a></li>
+<li>g_vkComputeDeviceDriverVer&#160;:&#160;<a class="el" href="group__vksupport.html#gafea0a98a5db07bcce90a7119e2fd0192">scopehal.h</a>, <a class="el" href="group__vksupport.html#gafea0a98a5db07bcce90a7119e2fd0192">VulkanInit.cpp</a></li>
+<li>g_vkComputeDeviceUuid&#160;:&#160;<a class="el" href="group__vksupport.html#ga0e34661f30ee8cee04922a8d7c4886d0">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga0e34661f30ee8cee04922a8d7c4886d0">VulkanInit.cpp</a></li>
+<li>g_vkComputePhysicalDevice&#160;:&#160;<a class="el" href="group__vksupport.html#gadc8fd2940d4e73b4c9d95161adabe656">scopehal.h</a>, <a class="el" href="group__vksupport.html#gadc8fd2940d4e73b4c9d95161adabe656">VulkanInit.cpp</a></li>
+<li>g_vkContext&#160;:&#160;<a class="el" href="group__vksupport.html#gab8f5f0bcc10fc0a77d1c28193df07487">scopehal.h</a>, <a class="el" href="group__vksupport.html#gab8f5f0bcc10fc0a77d1c28193df07487">VulkanInit.cpp</a></li>
+<li>g_vkInstance&#160;:&#160;<a class="el" href="group__vksupport.html#ga1f628eb855ff626bcdb9bf89934f6e93">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga1f628eb855ff626bcdb9bf89934f6e93">VulkanInit.cpp</a></li>
+<li>g_vkLocalMemoryHeap&#160;:&#160;<a class="el" href="group__vksupport.html#gac6f7a2f17c5c4e3e5b4d66330e435c22">scopehal.h</a>, <a class="el" href="group__vksupport.html#gac6f7a2f17c5c4e3e5b4d66330e435c22">VulkanInit.cpp</a></li>
+<li>g_vkLocalMemoryType&#160;:&#160;<a class="el" href="group__vksupport.html#gae7f19146c8e4e58818b248291a46f087">AcceleratorBuffer.h</a>, <a class="el" href="group__vksupport.html#gae7f19146c8e4e58818b248291a46f087">VulkanInit.cpp</a></li>
+<li>g_vkPinnedMemoryHeap&#160;:&#160;<a class="el" href="group__vksupport.html#gacd865ca0e9d0c4f6cfb85cfa4146d713">scopehal.h</a>, <a class="el" href="group__vksupport.html#gacd865ca0e9d0c4f6cfb85cfa4146d713">VulkanInit.cpp</a></li>
+<li>g_vkPinnedMemoryType&#160;:&#160;<a class="el" href="group__vksupport.html#ga0399c400a07f35d8a39eb1c28104fbcd">AcceleratorBuffer.h</a>, <a class="el" href="group__vksupport.html#ga0399c400a07f35d8a39eb1c28104fbcd">VulkanInit.cpp</a></li>
+<li>g_vkQueueManager&#160;:&#160;<a class="el" href="group__vksupport.html#ga6298f13f63fb6f8cdcb0988c4ab20528">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga6298f13f63fb6f8cdcb0988c4ab20528">VulkanInit.cpp</a></li>
+<li>g_vkTransferCommandBuffer&#160;:&#160;<a class="el" href="group__vksupport.html#gaa112df5e5ac07738551aaf117d49130a">AcceleratorBuffer.h</a>, <a class="el" href="group__vksupport.html#gaa112df5e5ac07738551aaf117d49130a">VulkanInit.cpp</a></li>
+<li>g_vkTransferCommandPool&#160;:&#160;<a class="el" href="group__vksupport.html#gab3813c41c232be1620c12ae0ec27558c">VulkanInit.cpp</a></li>
+<li>g_vkTransferMutex&#160;:&#160;<a class="el" href="group__vksupport.html#ga5ce9839b056cc290f6064e10f4a70ce8">AcceleratorBuffer.h</a>, <a class="el" href="group__vksupport.html#ga5ce9839b056cc290f6064e10f4a70ce8">VulkanInit.cpp</a></li>
+<li>g_vkTransferQueue&#160;:&#160;<a class="el" href="group__vksupport.html#gabd2ceb9b89b40431159e2a081352647f">AcceleratorBuffer.h</a>, <a class="el" href="group__vksupport.html#gabd2ceb9b89b40431159e2a081352647f">VulkanInit.cpp</a></li>
+<li>g_vulkanActivityMutex&#160;:&#160;<a class="el" href="WaveformThread_8cpp.html#af3b3caa42198dc41a73b03f1792e6f2c">WaveformThread.cpp</a>, <a class="el" href="Session_8cpp.html#af3b3caa42198dc41a73b03f1792e6f2c">Session.cpp</a></li>
+<li>g_vulkanDeviceHasUnifiedMemory&#160;:&#160;<a class="el" href="group__vksupport.html#gaf19e835716764bd983d2ba65c6d451e7">AcceleratorBuffer.h</a>, <a class="el" href="group__vksupport.html#gaf19e835716764bd983d2ba65c6d451e7">scopehal.h</a>, <a class="el" href="group__vksupport.html#gaf19e835716764bd983d2ba65c6d451e7">VulkanInit.cpp</a></li>
+<li>g_vulkanDeviceIsAnyMesa&#160;:&#160;<a class="el" href="group__vksupport.html#gad26debfe10990dd75571fadf4a7e21f4">scopehal.h</a>, <a class="el" href="group__vksupport.html#gad26debfe10990dd75571fadf4a7e21f4">VulkanInit.cpp</a></li>
+<li>g_vulkanDeviceIsIntelMesa&#160;:&#160;<a class="el" href="group__vksupport.html#ga10cfb75c6eabddb10ab6cb51447ac50e">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga10cfb75c6eabddb10ab6cb51447ac50e">VulkanInit.cpp</a></li>
+<li>g_vulkanDeviceIsMoltenVK&#160;:&#160;<a class="el" href="group__vksupport.html#gaaf2a2215d18fbebd198e44af283bb26a">scopehal.h</a>, <a class="el" href="group__vksupport.html#gaaf2a2215d18fbebd198e44af283bb26a">VulkanInit.cpp</a></li>
+<li>GetDigitalValueAtTime()&#160;:&#160;<a class="el" href="group__datamodel.html#ga04d3dfcb5a7f35cf93666a7a7e1fd9a5">Waveform.h</a>, <a class="el" href="group__datamodel.html#ga04d3dfcb5a7f35cf93666a7a7e1fd9a5">Waveform.cpp</a></li>
 <li>GetDirOfCurrentExecutable()&#160;:&#160;<a class="el" href="scopehal_8cpp.html#a23717eff03d228fd4e5a1b3e086d9ff4">scopehal.cpp</a>, <a class="el" href="scopehal_8h.html#a45e425765de9e0af484ff63e2ad209f6">scopehal.h</a></li>
-<li>GetIndexNearestAtOrBeforeTimestamp()&#160;:&#160;<a class="el" href="Waveform_8h.html#a742939dbb118fffcba0755547fb06422">Waveform.h</a></li>
-<li>GetProtocolValueAtTime()&#160;:&#160;<a class="el" href="Waveform_8h.html#a593460c3e5700a94a378ffef3115dc43">Waveform.h</a></li>
-<li>GetValueAtTime()&#160;:&#160;<a class="el" href="Waveform_8h.html#aaccbe506e2c0d2792ce6c42160f195cd">Waveform.h</a></li>
+<li>GetDurationScaled()&#160;:&#160;<a class="el" href="group__datamodel.html#ga08d01d5c355e4ba0badc18996c471b1f">Waveform.h</a></li>
+<li>GetIndexNearestAtOrBeforeTimestamp()&#160;:&#160;<a class="el" href="group__datamodel.html#ga742939dbb118fffcba0755547fb06422">Waveform.cpp</a>, <a class="el" href="group__datamodel.html#ga742939dbb118fffcba0755547fb06422">Waveform.h</a></li>
+<li>GetOffsetScaled()&#160;:&#160;<a class="el" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">Waveform.h</a></li>
+<li>GetProtocolValueAtTime()&#160;:&#160;<a class="el" href="group__datamodel.html#ga593460c3e5700a94a378ffef3115dc43">Waveform.cpp</a>, <a class="el" href="group__datamodel.html#ga593460c3e5700a94a378ffef3115dc43">Waveform.h</a></li>
+<li>GetValueAtTime()&#160;:&#160;<a class="el" href="group__datamodel.html#gaaccbe506e2c0d2792ce6c42160f195cd">Waveform.cpp</a>, <a class="el" href="group__datamodel.html#gaaccbe506e2c0d2792ce6c42160f195cd">Waveform.h</a></li>
 </ul>
 
 
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
 <li>InitializePlugins()&#160;:&#160;<a class="el" href="scopehal_8cpp.html#a1acc956aa9bac2ec012a773d434e35bf">scopehal.cpp</a>, <a class="el" href="scopehal_8h.html#a1acc956aa9bac2ec012a773d434e35bf">scopehal.h</a></li>
-<li>IsDevicePreferred()&#160;:&#160;<a class="el" href="VulkanInit_8cpp.html#a53c1c4f62dc4ad91a48a213cf9dc9df6">VulkanInit.cpp</a></li>
+<li>IsDevicePreferred()&#160;:&#160;<a class="el" href="group__vksupport.html#ga53c1c4f62dc4ad91a48a213cf9dc9df6">VulkanInit.cpp</a></li>
 </ul>
 
 
@@ -181,8 +197,8 @@ $(function() {
 
 
 <h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
-<li>VulkanCleanup()&#160;:&#160;<a class="el" href="scopehal_8cpp.html#a5c1bc9f3a1584ecf517e6505fa1034bf">scopehal.cpp</a>, <a class="el" href="VulkanInit_8cpp.html#a5c1bc9f3a1584ecf517e6505fa1034bf">VulkanInit.cpp</a></li>
-<li>VulkanInit()&#160;:&#160;<a class="el" href="scopehal_8h.html#a64ffacac4bc735faba745d9f34b65557">scopehal.h</a>, <a class="el" href="VulkanInit_8cpp.html#a109653c843e94439433135d42e49415a">VulkanInit.cpp</a></li>
+<li>VulkanCleanup()&#160;:&#160;<a class="el" href="group__vksupport.html#ga5c1bc9f3a1584ecf517e6505fa1034bf">scopehal.cpp</a>, <a class="el" href="group__vksupport.html#ga5c1bc9f3a1584ecf517e6505fa1034bf">VulkanInit.cpp</a></li>
+<li>VulkanInit()&#160;:&#160;<a class="el" href="group__vksupport.html#ga109653c843e94439433135d42e49415a">scopehal.h</a>, <a class="el" href="group__vksupport.html#ga109653c843e94439433135d42e49415a">VulkanInit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -139,8 +139,8 @@ $(function() {
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>{</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <a class="code hl_class" href="classMDIOWaveform.html">MDIOWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;MDIOSymbol&gt;</a>() {};</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMDIOWaveform.html#aea2e98212b4ee554d080943a18de9429">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMDIOWaveform.html#a5ce26d12cfeaf1b206723955b80493dc">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>};</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classMDIODecoder.html">   81</a></span><span class="keyword">class </span><a class="code hl_class" href="classMDIODecoder.html">MDIODecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classPacketDecoder.html">PacketDecoder</a></div>
@@ -181,9 +181,11 @@ $(function() {
 <div class="ttc" id="aclassMDIODecoder_html_ab6b676aaabd671aaf408dd7493fb286c"><div class="ttname"><a href="classMDIODecoder.html#ab6b676aaabd671aaf408dd7493fb286c">MDIODecoder::CreateMergedHeader</a></div><div class="ttdeci">virtual Packet * CreateMergedHeader(Packet *pack, size_t i) override</div><div class="ttdoc">Creates a summary packet for one or more merged packets.</div><div class="ttdef"><b>Definition:</b> MDIODecoder.cpp:967</div></div>
 <div class="ttc" id="aclassMDIOSymbol_html"><div class="ttname"><a href="classMDIOSymbol.html">MDIOSymbol</a></div><div class="ttdef"><b>Definition:</b> MDIODecoder.h:42</div></div>
 <div class="ttc" id="aclassMDIOWaveform_html"><div class="ttname"><a href="classMDIOWaveform.html">MDIOWaveform</a></div><div class="ttdef"><b>Definition:</b> MDIODecoder.h:74</div></div>
+<div class="ttc" id="aclassMDIOWaveform_html_a5ce26d12cfeaf1b206723955b80493dc"><div class="ttname"><a href="classMDIOWaveform.html#a5ce26d12cfeaf1b206723955b80493dc">MDIOWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> MDIODecoder.cpp:876</div></div>
+<div class="ttc" id="aclassMDIOWaveform_html_aea2e98212b4ee554d080943a18de9429"><div class="ttname"><a href="classMDIOWaveform.html#aea2e98212b4ee554d080943a18de9429">MDIOWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> MDIODecoder.cpp:906</div></div>
 <div class="ttc" id="aclassPacketDecoder_html"><div class="ttname"><a href="classPacketDecoder.html">PacketDecoder</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:85</div></div>
 <div class="ttc" id="aclassPacket_html"><div class="ttname"><a href="classPacket.html">Packet</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:40</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

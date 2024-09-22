@@ -1,7 +1,7 @@
 var searchData=
 [
   ['uart_0',['UART',['../classUART.html#a054aa54feaf07b6448790b19bd57134b',1,'UART::UART(const std::string &amp;devfile, int baud)'],['../classUART.html#a68e7e88d2a13f5da85f0fde1ef98515f',1,'UART::UART()']]],
-  ['uniformwaveform_1',['UniformWaveform',['../classUniformWaveform.html#a4d1ffe6e93d11b440101e247a77a79e6',1,'UniformWaveform']]],
+  ['uniformwaveform_1',['UniformWaveform',['../classUniformWaveform.html#a694f019c1b89a73a839d6d173b9c40c4',1,'UniformWaveform::UniformWaveform(const std::string &amp;name=&quot;&quot;)'],['../classUniformWaveform.html#a4d1ffe6e93d11b440101e247a77a79e6',1,'UniformWaveform::UniformWaveform(const SparseWaveform&lt; S &gt; &amp;rhs)']]],
   ['uniformwaveformbase_2',['UniformWaveformBase',['../classUniformWaveformBase.html#a0772674d17d4163800ad59ddffebae8a',1,'UniformWaveformBase']]],
   ['unitinputwithexplicitapply_3',['UnitInputWithExplicitApply',['../classDialog.html#a00c9bd1232bf4fd792d4626cd703569a',1,'Dialog']]],
   ['unitinputwithimplicitapply_4',['UnitInputWithImplicitApply',['../classDialog.html#a1cf381f13bcab3167433df0631cdeef6',1,'Dialog::UnitInputWithImplicitApply(const std::string &amp;label, std::string &amp;currentValue, float &amp;committedValue, Unit unit)'],['../classDialog.html#a14f34d90f65250454bf2742220c89d7e',1,'Dialog::UnitInputWithImplicitApply(const std::string &amp;label, std::string &amp;currentValue, double &amp;committedValue, Unit unit)'],['../classDialog.html#ab9bdbb5aff0a87bc65c767cb16ba0afd',1,'Dialog::UnitInputWithImplicitApply(const std::string &amp;label, std::string &amp;currentValue, int64_t &amp;committedValue, Unit unit)']]],

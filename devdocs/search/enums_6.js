@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['visibilitymode_0',['VisibilityMode',['../classInstrumentChannel.html#a350e257b3a190aa2f5b1ba8bfbb6a85b',1,'InstrumentChannel']]]
+  ['triggermode_0',['TriggerMode',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03b',1,'Oscilloscope']]],
+  ['triggerposition_1',['TriggerPosition',['../classCDRTrigger.html#aea061c855613fbab4d7a006ad24ee385',1,'CDRTrigger']]]
 ];

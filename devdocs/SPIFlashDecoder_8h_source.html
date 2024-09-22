@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -181,8 +181,8 @@ $(function() {
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>{</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <a class="code hl_class" href="classSPIFlashWaveform.html">SPIFlashWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;SPIFlashSymbol&gt;</a>() {};</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classSPIFlashWaveform.html#af63fe6f301ab516f41782190ae9cc0d8">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classSPIFlashWaveform.html#ab5309a4eb4f17fbbfbb3a625706b3ccc">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>};</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classSPIFlashDecoder.html">  122</a></span><span class="keyword">class </span><a class="code hl_class" href="classSPIFlashDecoder.html">SPIFlashDecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classPacketDecoder.html">PacketDecoder</a></div>
@@ -238,7 +238,9 @@ $(function() {
 <div class="ttc" id="aclassSPIFlashDecoder_html_ae58ecfb8c431a50a7a1a7a8fbaf5cf0e"><div class="ttname"><a href="classSPIFlashDecoder.html#ae58ecfb8c431a50a7a1a7a8fbaf5cf0e">SPIFlashDecoder::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> SPIFlashDecoder.cpp:110</div></div>
 <div class="ttc" id="aclassSPIFlashSymbol_html"><div class="ttname"><a href="classSPIFlashSymbol.html">SPIFlashSymbol</a></div><div class="ttdef"><b>Definition:</b> SPIFlashDecoder.h:41</div></div>
 <div class="ttc" id="aclassSPIFlashWaveform_html"><div class="ttname"><a href="classSPIFlashWaveform.html">SPIFlashWaveform</a></div><div class="ttdef"><b>Definition:</b> SPIFlashDecoder.h:115</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSPIFlashWaveform_html_ab5309a4eb4f17fbbfbb3a625706b3ccc"><div class="ttname"><a href="classSPIFlashWaveform.html#ab5309a4eb4f17fbbfbb3a625706b3ccc">SPIFlashWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> SPIFlashDecoder.cpp:1011</div></div>
+<div class="ttc" id="aclassSPIFlashWaveform_html_af63fe6f301ab516f41782190ae9cc0d8"><div class="ttname"><a href="classSPIFlashWaveform.html#af63fe6f301ab516f41782190ae9cc0d8">SPIFlashWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> SPIFlashDecoder.cpp:1041</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

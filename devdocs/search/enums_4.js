@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['severity_0',['Severity',['../group__liblog.html#ga11717da96dc4e4a5f79371318448f82b',1,'log.h']]],
-  ['streamtype_1',['StreamType',['../classStream.html#a1ac9862db2a647a12b28c5c0a523a231',1,'Stream']]]
+  ['packetcolor_0',['PacketColor',['../classPacketDecoder.html#afe5322167fa0dca258568d1700e6fdbf',1,'PacketDecoder']]],
+  ['parametertypes_1',['ParameterTypes',['../classFilterParameter.html#a5fd1afd391da16f84d273d4fdc90b07a',1,'FilterParameter']]],
+  ['patternmode_2',['PatternMode',['../classCDR8B10BTrigger.html#acc8318742627336c85895e42230871ac',1,'CDR8B10BTrigger']]],
+  ['polarity_3',['Polarity',['../classCDRTrigger.html#af42f6efa7178e3f192e776cbfc5b80df',1,'CDRTrigger']]]
 ];

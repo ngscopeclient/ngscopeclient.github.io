@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -107,8 +107,8 @@ $(function() {
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_class" href="classByteWaveform.html">ByteWaveform</a> (<span class="keyword">const</span> std::string&amp; color) : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;char&gt;</a>(), m_color(color) {};</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classByteWaveform.html#a320f4fee2ab035494840886a8fb1411d">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classByteWaveform.html#a51de97fe7e32cb170e763ee8521cbd18">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">const</span> std::string&amp; m_color;</div>
@@ -137,9 +137,11 @@ $(function() {
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassByteWaveform_html"><div class="ttname"><a href="classByteWaveform.html">ByteWaveform</a></div><div class="ttdef"><b>Definition:</b> UARTDecoder.h:42</div></div>
+<div class="ttc" id="aclassByteWaveform_html_a320f4fee2ab035494840886a8fb1411d"><div class="ttname"><a href="classByteWaveform.html#a320f4fee2ab035494840886a8fb1411d">ByteWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> UARTDecoder.cpp:236</div></div>
+<div class="ttc" id="aclassByteWaveform_html_a51de97fe7e32cb170e763ee8521cbd18"><div class="ttname"><a href="classByteWaveform.html#a51de97fe7e32cb170e763ee8521cbd18">ByteWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> UARTDecoder.cpp:231</div></div>
 <div class="ttc" id="aclassPacketDecoder_html"><div class="ttname"><a href="classPacketDecoder.html">PacketDecoder</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:85</div></div>
 <div class="ttc" id="aclassPacket_html"><div class="ttname"><a href="classPacket.html">Packet</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:40</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 <div class="ttc" id="aclassUARTDecoder_html"><div class="ttname"><a href="classUARTDecoder.html">UARTDecoder</a></div><div class="ttdef"><b>Definition:</b> UARTDecoder.h:53</div></div>
 <div class="ttc" id="aclassUARTDecoder_html_adf90fdc2cfd1f06ad37b82a7d3eece24"><div class="ttname"><a href="classUARTDecoder.html#adf90fdc2cfd1f06ad37b82a7d3eece24">UARTDecoder::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> UARTDecoder.cpp:88</div></div>

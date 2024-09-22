@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -66,7 +66,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classWaveformPool-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WaveformPool Class Reference</div></div>
+  <div class="headertitle"><div class="title">WaveformPool Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__datamodel.html">Data model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -77,30 +77,134 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afc6f99b58c2ba33701ddb602ba07b970"><td class="memItemLeft" align="right" valign="top"><a id="afc6f99b58c2ba33701ddb602ba07b970" name="afc6f99b58c2ba33701ddb602ba07b970"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *w)</td></tr>
-<tr class="memdesc:afc6f99b58c2ba33701ddb602ba07b970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new waveform to the pool if there's space for it, otherwise free it. <br /></td></tr>
+<tr class="memitem:a38c77c7afde6b186b911819dbfcc12af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformPool.html#a38c77c7afde6b186b911819dbfcc12af">WaveformPool</a> (size_t maxSize=16)</td></tr>
+<tr class="memdesc:a38c77c7afde6b186b911819dbfcc12af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a waveform pool.  <a href="classWaveformPool.html#a38c77c7afde6b186b911819dbfcc12af">More...</a><br /></td></tr>
+<tr class="separator:a38c77c7afde6b186b911819dbfcc12af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc6f99b58c2ba33701ddb602ba07b970"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformPool.html#afc6f99b58c2ba33701ddb602ba07b970">Add</a> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *w)</td></tr>
+<tr class="memdesc:afc6f99b58c2ba33701ddb602ba07b970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new waveform to the pool if there's sufficient free slots in the pool.  <a href="classWaveformPool.html#afc6f99b58c2ba33701ddb602ba07b970">More...</a><br /></td></tr>
 <tr class="separator:afc6f99b58c2ba33701ddb602ba07b970"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4ed3de28494bde4fe1376070798270c"><td class="memItemLeft" align="right" valign="top"><a id="aa4ed3de28494bde4fe1376070798270c" name="aa4ed3de28494bde4fe1376070798270c"></a>
-<a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> ()</td></tr>
-<tr class="memdesc:aa4ed3de28494bde4fe1376070798270c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a waveform from the pool if there's space for it, otherwise return null. <br /></td></tr>
+<tr class="memitem:aa4ed3de28494bde4fe1376070798270c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformPool.html#aa4ed3de28494bde4fe1376070798270c">Get</a> ()</td></tr>
+<tr class="memdesc:aa4ed3de28494bde4fe1376070798270c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get a waveform from the pool.  <a href="classWaveformPool.html#aa4ed3de28494bde4fe1376070798270c">More...</a><br /></td></tr>
 <tr class="separator:aa4ed3de28494bde4fe1376070798270c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a0de5f36ab77351d55303d164fc4c61dc"><td class="memItemLeft" align="right" valign="top"><a id="a0de5f36ab77351d55303d164fc4c61dc" name="a0de5f36ab77351d55303d164fc4c61dc"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxSize</b></td></tr>
+<tr class="memdesc:a0de5f36ab77351d55303d164fc4c61dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of waveforms to store in the pool. <br /></td></tr>
 <tr class="separator:a0de5f36ab77351d55303d164fc4c61dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a224b0205ae8469f6f66d86c406035bf8"><td class="memItemLeft" align="right" valign="top"><a id="a224b0205ae8469f6f66d86c406035bf8" name="a224b0205ae8469f6f66d86c406035bf8"></a>
 std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>m_mutex</b></td></tr>
+<tr class="memdesc:a224b0205ae8469f6f66d86c406035bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for synchronizing access to m_waveforms across threads. <br /></td></tr>
 <tr class="separator:a224b0205ae8469f6f66d86c406035bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1e7f0a1e0791fa6c1d6299f3f272b27"><td class="memItemLeft" align="right" valign="top"><a id="af1e7f0a1e0791fa6c1d6299f3f272b27" name="af1e7f0a1e0791fa6c1d6299f3f272b27"></a>
 std::list&lt; <a class="el" href="classWaveformBase.html">WaveformBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_waveforms</b></td></tr>
+<tr class="memdesc:af1e7f0a1e0791fa6c1d6299f3f272b27"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of free waveforms. <br /></td></tr>
 <tr class="separator:af1e7f0a1e0791fa6c1d6299f3f272b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Thread safe memory pool for reusing Waveform objects. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<p >Allocating and freeing GPU memory can be an expensive operation so it's usually preferable to recycle existing Waveform objects if possible. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a38c77c7afde6b186b911819dbfcc12af" name="a38c77c7afde6b186b911819dbfcc12af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c77c7afde6b186b911819dbfcc12af">&#9670;&nbsp;</a></span>WaveformPool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WaveformPool::WaveformPool </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>maxSize</em> = <code>16</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a waveform pool. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxSize</td><td>Maximum number of waveforms to store in the pool </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afc6f99b58c2ba33701ddb602ba07b970" name="afc6f99b58c2ba33701ddb602ba07b970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6f99b58c2ba33701ddb602ba07b970">&#9670;&nbsp;</a></span>Add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WaveformPool::Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a new waveform to the pool if there's sufficient free slots in the pool. </p>
+<p >If the pool is already full the waveform is destroyed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">w</td><td>The waveform to add </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa4ed3de28494bde4fe1376070798270c" name="aa4ed3de28494bde4fe1376070798270c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ed3de28494bde4fe1376070798270c">&#9670;&nbsp;</a></span>Get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classWaveformBase.html">WaveformBase</a> * WaveformPool::Get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to get a waveform from the pool. </p>
+<dl class="section return"><dt>Returns</dt><dd>The waveform, if one is available. Returns nullptr if the pool is empty. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/scopehal/<a class="el" href="WaveformPool_8h_source.html">WaveformPool.h</a></li>
 </ul>
 </div><!-- contents -->

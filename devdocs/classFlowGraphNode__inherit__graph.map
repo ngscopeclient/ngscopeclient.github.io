@@ -13,12 +13,12 @@
 <area shape="rect" id="node31" href="$classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="413,411,571,437"/>
 <area shape="rect" id="node32" href="$classRFSignalGeneratorChannel.html" title="A single channel of an RF signal generator." alt="" coords="393,461,591,488"/>
 <area shape="rect" id="node33" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="375,512,609,539"/>
-<area shape="rect" id="node5" href="$classBufferedSwitchMatrixIOChannel.html" title="An output channel of a buffered switch matrix." alt="" coords="657,33,888,60"/>
-<area shape="rect" id="node7" href="$classBufferedSwitchMatrixInputChannel.html" title="An input channel of a buffered switch matrix." alt="" coords="675,85,871,126"/>
-<area shape="rect" id="node9" href="$classBufferedSwitchMatrixOutputChannel.html" title="An output channel of a buffered switch matrix." alt="" coords="669,150,876,191"/>
+<area shape="rect" id="node5" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="657,33,888,60"/>
+<area shape="rect" id="node7" href="$classBufferedSwitchMatrixInputChannel.html" title="Declaration of BufferedSwitchMatrixInputChannel." alt="" coords="675,85,871,126"/>
+<area shape="rect" id="node9" href="$classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="669,150,876,191"/>
 <area shape="rect" id="node14" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="675,216,870,243"/>
 <area shape="rect" id="node15" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="701,267,844,293"/>
-<area shape="rect" id="node17" href="$classCANChannel.html" title="A single channel of a CAN bus interface." alt="" coords="721,317,824,344"/>
+<area shape="rect" id="node17" href="$classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="721,317,824,344"/>
 <area shape="rect" id="node18" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="706,368,839,395"/>
 <area shape="rect" id="node19" href="$classFilter.html" title="Abstract base class for all filters and protocol decoders." alt="" coords="745,419,800,445"/>
 <area shape="rect" id="node29" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data." alt="" coords="697,469,848,496"/>
@@ -33,7 +33,7 @@
 <area shape="rect" id="node26" href="$classAverageFilter.html" title=" " alt="" coords="983,545,1091,572"/>
 <area shape="rect" id="node27" href="$classBandwidthMeasurement.html" title=" " alt="" coords="947,596,1128,623"/>
 <area shape="rect" id="node28" href="$classBaseMeasurement.html" title=" " alt="" coords="965,647,1109,673"/>
-<area shape="rect" id="node35" href="$classCDRTrigger.html" title="A trigger involving hardware clock/data recovery." alt="" coords="445,571,539,597"/>
+<area shape="rect" id="node35" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="445,571,539,597"/>
 <area shape="rect" id="node38" href="$classDCAEdgeTrigger.html" title="Simple edge trigger." alt="" coords="429,621,555,648"/>
 <area shape="rect" id="node39" href="$classDropoutTrigger.html" title="Trigger when a signal stops toggling for some amount of time." alt="" coords="433,672,551,699"/>
 <area shape="rect" id="node40" href="$classEdgeTrigger.html" title="Simple edge trigger." alt="" coords="443,723,541,749"/>

@@ -1,14 +1,15 @@
 <map id="lib/scopehal/Filter.h" name="lib/scopehal/Filter.h">
-<area shape="rect" id="node1" title="Declaration of Filter." alt="" coords="6011,5,6159,32"/>
-<area shape="rect" id="node2" href="$Filter_8cpp.html" title="Implementation of Filter." alt="" coords="4095,162,4257,189"/>
-<area shape="rect" id="node3" href="$FilterParameter_8cpp.html" title="Implementation of FilterParameter." alt="" coords="4282,162,4513,189"/>
+<area shape="rect" id="node1" title="Declaration of Filter." alt="" coords="5385,5,5533,32"/>
+<area shape="rect" id="node2" href="$Filter_8cpp.html" title="Implementation of Filter." alt="" coords="3779,162,3941,189"/>
+<area shape="rect" id="node3" href="$FilterParameter_8cpp.html" title="Implementation of FilterParameter." alt="" coords="3966,162,4197,189"/>
 <area shape="rect" id="node4" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="2133,80,2347,107"/>
 <area shape="rect" id="node6" href="$scopeprotocols_8h.html" title="Main library include file." alt="" coords="2367,348,2507,389"/>
 <area shape="rect" id="node23" href="$PCIeLinkTrainingDecoder_8cpp.html" title="Implementation of PCIeLinkTrainingDecoder." alt="" coords="4349,251,4563,293"/>
-<area shape="rect" id="node33" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5998,80,6173,107"/>
-<area shape="rect" id="node48" href="$PCIeGen2LogicalDecoder_8cpp.html" title="Implementation of PCIeGen2LogicalDecoder." alt="" coords="8048,155,8264,196"/>
-<area shape="rect" id="node49" href="$PCIeGen3LogicalDecoder_8cpp.html" title="Implementation of PCIeGen3LogicalDecoder." alt="" coords="8288,155,8504,196"/>
-<area shape="rect" id="node50" href="$QSGMIIDecoder_8cpp.html" title="Implementation of QSGMIIDecoder." alt="" coords="8528,155,8683,196"/>
+<area shape="rect" id="node33" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="4221,162,4419,189"/>
+<area shape="rect" id="node34" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5751,80,5926,107"/>
+<area shape="rect" id="node48" href="$PCIeGen2LogicalDecoder_8cpp.html" title="Implementation of PCIeGen2LogicalDecoder." alt="" coords="7671,155,7887,196"/>
+<area shape="rect" id="node49" href="$PCIeGen3LogicalDecoder_8cpp.html" title="Implementation of PCIeGen3LogicalDecoder." alt="" coords="7911,155,8127,196"/>
+<area shape="rect" id="node50" href="$QSGMIIDecoder_8cpp.html" title="Implementation of QSGMIIDecoder." alt="" coords="8151,155,8305,196"/>
 <area shape="rect" id="node5" href="$CANAnalyzerFilter_8h.html" title="Declaration of CANAnalyzerFilter." alt="" coords="784,251,939,293"/>
 <area shape="rect" id="node7" href="$CANDecoder_8h.html" title="Declaration of CANDecoder." alt="" coords="963,251,1103,293"/>
 <area shape="rect" id="node8" href="$DPAuxChannelDecoder_8h.html" title="Declaration of DPAuxChannelDecoder." alt="" coords="1127,251,1315,293"/>
@@ -19,34 +20,33 @@
 <area shape="rect" id="node13" href="$EthernetAutonegotiationPageDecoder_8h.html" title="Declaration of EthernetAutonegotiationPageDecoder." alt="" coords="2082,244,2299,300"/>
 <area shape="rect" id="node14" href="$EthernetBaseXAutonegotiationDecoder_8h.html" title="Declaration of EthernetBaseXAutonegotiationDecoder." alt="" coords="2324,244,2551,300"/>
 <area shape="rect" id="node15" href="$EthernetProtocolDecoder_8h.html" title="Declaration of EthernetProtocolDecoder." alt="" coords="2575,251,2775,293"/>
-<area shape="rect" id="node16" href="$I2CDecoder_8h.html" title="Declaration of I2CDecoder." alt="" coords="3015,251,3155,293"/>
-<area shape="rect" id="node17" href="$I2CEepromDecoder_8h.html" title="Declaration of I2CEepromDecoder." alt="" coords="3180,251,3343,293"/>
-<area shape="rect" id="node18" href="$I2CRegisterDecoder_8h.html" title="Declaration of I2CRegisterDecoder." alt="" coords="3367,251,3534,293"/>
-<area shape="rect" id="node19" href="$JtagDecoder_8h.html" title="Declaration of JtagDecoder." alt="" coords="3558,251,3698,293"/>
-<area shape="rect" id="node20" href="$MDIODecoder_8h.html" title="Declaration of MDIODecoder." alt="" coords="3722,251,3862,293"/>
-<area shape="rect" id="node21" href="$PCIeDataLinkDecoder_8h.html" title="Declaration of PCIeDataLinkDecoder." alt="" coords="3887,251,4065,293"/>
-<area shape="rect" id="node22" href="$PCIeLinkTrainingDecoder_8h.html" title="Declaration of PCIe2LinkTrainingDecoder." alt="" coords="3820,155,4020,196"/>
-<area shape="rect" id="node24" href="$PCIeTransportDecoder_8h.html" title="Declaration of PCIeTransportDecoder." alt="" coords="4090,251,4273,293"/>
-<area shape="rect" id="node25" href="$SDCmdDecoder_8h.html" title="Declaration of SDCmdDecoder." alt="" coords="2799,155,2939,196"/>
-<area shape="rect" id="node26" href="$SDDataDecoder_8h.html" title="Declaration of SDDataDecoder." alt="" coords="2799,251,2940,293"/>
+<area shape="rect" id="node16" href="$I2CDecoder_8h.html" title="Declaration of I2CDecoder." alt="" coords="2799,251,2939,293"/>
+<area shape="rect" id="node17" href="$I2CEepromDecoder_8h.html" title="Declaration of I2CEepromDecoder." alt="" coords="2964,251,3127,293"/>
+<area shape="rect" id="node18" href="$I2CRegisterDecoder_8h.html" title="Declaration of I2CRegisterDecoder." alt="" coords="3151,251,3318,293"/>
+<area shape="rect" id="node19" href="$JtagDecoder_8h.html" title="Declaration of JtagDecoder." alt="" coords="3342,251,3482,293"/>
+<area shape="rect" id="node20" href="$MDIODecoder_8h.html" title="Declaration of MDIODecoder." alt="" coords="3506,251,3646,293"/>
+<area shape="rect" id="node21" href="$PCIeDataLinkDecoder_8h.html" title="Declaration of PCIeDataLinkDecoder." alt="" coords="3671,251,3849,293"/>
+<area shape="rect" id="node22" href="$PCIeLinkTrainingDecoder_8h.html" title="Declaration of PCIe2LinkTrainingDecoder." alt="" coords="3504,155,3704,196"/>
+<area shape="rect" id="node24" href="$PCIeTransportDecoder_8h.html" title="Declaration of PCIeTransportDecoder." alt="" coords="3874,251,4057,293"/>
+<area shape="rect" id="node25" href="$SDCmdDecoder_8h.html" title="Declaration of SDCmdDecoder." alt="" coords="3289,155,3429,196"/>
+<area shape="rect" id="node26" href="$SDDataDecoder_8h.html" title="Declaration of SDDataDecoder." alt="" coords="4132,251,4273,293"/>
 <area shape="rect" id="node27" href="$SPIFlashDecoder_8h.html" title="Declaration of SPIFlashDecoder." alt="" coords="5,251,152,293"/>
 <area shape="rect" id="node28" href="$SWDMemAPDecoder_8h.html" title="Declaration of SWDMemAPDecoder." alt="" coords="176,251,349,293"/>
 <area shape="rect" id="node29" href="$UARTDecoder_8h.html" title="Declaration of UARTDecoder." alt="" coords="374,251,514,293"/>
 <area shape="rect" id="node30" href="$USB2PacketDecoder_8h.html" title="Declaration of USB2PacketDecoder." alt="" coords="539,251,709,293"/>
-<area shape="rect" id="node31" href="$VICPDecoder_8h.html" title="Declaration of VICPDecoder." alt="" coords="710,155,850,196"/>
-<area shape="rect" id="node32" href="$PacketManager_8h.html" title="Declaration of PacketManager." alt="" coords="1969,155,2151,196"/>
-<area shape="rect" id="node34" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="4639,162,4865,189"/>
-<area shape="rect" id="node35" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="4890,155,5094,196"/>
-<area shape="rect" id="node36" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="5119,162,5361,189"/>
-<area shape="rect" id="node37" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="5385,162,5612,189"/>
-<area shape="rect" id="node38" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="5637,155,5827,196"/>
-<area shape="rect" id="node39" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="5852,155,6063,196"/>
-<area shape="rect" id="node40" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="6087,162,6339,189"/>
-<area shape="rect" id="node41" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="6363,162,6554,189"/>
-<area shape="rect" id="node42" href="$IBISParser_8cpp.html" title="Implementation of IBISParser and related classes." alt="" coords="6579,162,6776,189"/>
-<area shape="rect" id="node43" href="$InstrumentChannel_8cpp.html" title="Implementation of InstrumentChannel." alt="" coords="6801,162,7055,189"/>
-<area shape="rect" id="node44" href="$MockOscilloscope_8cpp.html" title="Implementation of MockOscilloscope." alt="" coords="7080,162,7328,189"/>
-<area shape="rect" id="node45" href="$Oscilloscope_8cpp.html" title="Implementation of Oscilloscope." alt="" coords="7352,162,7565,189"/>
-<area shape="rect" id="node46" href="$OscilloscopeChannel_8cpp.html" title="Implementation of OscilloscopeChannel." alt="" coords="7589,155,7776,196"/>
-<area shape="rect" id="node47" href="$PausableFilter_8cpp.html" title="Implementation of PausableFilter." alt="" coords="7801,162,8023,189"/>
+<area shape="rect" id="node31" href="$VICPDecoder_8h.html" title="Declaration of VICPDecoder." alt="" coords="871,155,1011,196"/>
+<area shape="rect" id="node32" href="$PacketManager_8h.html" title="Declaration of PacketManager." alt="" coords="1715,155,1898,196"/>
+<area shape="rect" id="node35" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="7191,162,7417,189"/>
+<area shape="rect" id="node36" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="7442,155,7646,196"/>
+<area shape="rect" id="node37" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="4493,162,4705,189"/>
+<area shape="rect" id="node38" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="4729,162,4975,189"/>
+<area shape="rect" id="node39" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="4999,155,5206,196"/>
+<area shape="rect" id="node40" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="5230,162,5434,189"/>
+<area shape="rect" id="node41" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="5459,162,5701,189"/>
+<area shape="rect" id="node42" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="5725,162,5952,189"/>
+<area shape="rect" id="node43" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="5977,155,6167,196"/>
+<area shape="rect" id="node44" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="6192,155,6403,196"/>
+<area shape="rect" id="node45" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="6427,162,6679,189"/>
+<area shape="rect" id="node46" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="6703,162,6894,189"/>
+<area shape="rect" id="node47" href="$IBISParser_8cpp.html" title="Implementation of IBISParser and related classes." alt="" coords="6919,162,7116,189"/>
 </map>

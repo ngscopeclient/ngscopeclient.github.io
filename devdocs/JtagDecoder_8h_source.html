@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -163,8 +163,8 @@ $(function() {
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>{</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <a class="code hl_class" href="classJtagWaveform.html">JtagWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;JtagSymbol&gt;</a>() {};</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classJtagWaveform.html#a20999be6c40fc098378678fd218bc9db">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classJtagWaveform.html#ad7147de8bd25f999257e96ecb5d8a632">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>};</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="classJtagDecoder.html">  105</a></span><span class="keyword">class </span><a class="code hl_class" href="classJtagDecoder.html">JtagDecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classPacketDecoder.html">PacketDecoder</a></div>
@@ -190,8 +190,10 @@ $(function() {
 <div class="ttc" id="aclassJtagDecoder_html_a0fef2008aca84cce7a1f7f5c38982f56"><div class="ttname"><a href="classJtagDecoder.html#a0fef2008aca84cce7a1f7f5c38982f56">JtagDecoder::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> JtagDecoder.cpp:120</div></div>
 <div class="ttc" id="aclassJtagSymbol_html"><div class="ttname"><a href="classJtagSymbol.html">JtagSymbol</a></div><div class="ttdef"><b>Definition:</b> JtagDecoder.h:42</div></div>
 <div class="ttc" id="aclassJtagWaveform_html"><div class="ttname"><a href="classJtagWaveform.html">JtagWaveform</a></div><div class="ttdef"><b>Definition:</b> JtagDecoder.h:98</div></div>
+<div class="ttc" id="aclassJtagWaveform_html_a20999be6c40fc098378678fd218bc9db"><div class="ttname"><a href="classJtagWaveform.html#a20999be6c40fc098378678fd218bc9db">JtagWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> JtagDecoder.cpp:361</div></div>
+<div class="ttc" id="aclassJtagWaveform_html_ad7147de8bd25f999257e96ecb5d8a632"><div class="ttname"><a href="classJtagWaveform.html#ad7147de8bd25f999257e96ecb5d8a632">JtagWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> JtagDecoder.cpp:336</div></div>
 <div class="ttc" id="aclassPacketDecoder_html"><div class="ttname"><a href="classPacketDecoder.html">PacketDecoder</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:85</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

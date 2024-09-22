@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -67,51 +67,192 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classCANSymbol-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CANSymbol Class Reference</div></div>
+  <div class="headertitle"><div class="title">CANSymbol Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__datamodel.html">Data model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>A single symbol within a CAN bus protocol decode.  
+ <a href="classCANSymbol.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="CANChannel_8h_source.html">CANChannel.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a9f488a3b80df758ac19fa6c558b070f9"><td class="memItemLeft" align="right" valign="top"><a id="a9f488a3b80df758ac19fa6c558b070f9" name="a9f488a3b80df758ac19fa6c558b070f9"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>stype</b> { <br />
-&#160;&#160;<b>TYPE_SOF</b>
-, <b>TYPE_ID</b>
-, <b>TYPE_RTR</b>
-, <b>TYPE_R0</b>
+<tr class="memitem:a9f488a3b80df758ac19fa6c558b070f9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9">stype</a> { <br />
+&#160;&#160;<a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9a1c9ba30717d8494d9a3b3a49dae953db">TYPE_SOF</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9a37c0c3515cb699857f8bc5a449c80fb8">TYPE_ID</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9ab12debf237f743c763dc6c552e1f99c0">TYPE_RTR</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9a23c6a5acb3a09297225219bd57b596fe">TYPE_R0</a>
 , <br />
-&#160;&#160;<b>TYPE_FD</b>
-, <b>TYPE_DLC</b>
-, <b>TYPE_DATA</b>
-, <b>TYPE_CRC_OK</b>
+&#160;&#160;<a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9a08d39391a98b2365d871f83d80f0efeb">TYPE_FD</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9ac903bb79a8a29ae6a82bf3fc1dde5c23">TYPE_DLC</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9a40d9f0e23243d562065307eb00d423be">TYPE_DATA</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9ae1df0de6f566437f7d6483279ca310af">TYPE_CRC_OK</a>
 , <br />
-&#160;&#160;<b>TYPE_CRC_BAD</b>
-, <b>TYPE_CRC_DELIM</b>
-, <b>TYPE_ACK</b>
-, <b>TYPE_ACK_DELIM</b>
+&#160;&#160;<a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9ac050135b9663be827140d4351ff8b3bb">TYPE_CRC_BAD</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9af5abd5bdbfd395e381f7922abbeab803">TYPE_CRC_DELIM</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9a3ad6aa5468392353ae8721da0f63759b">TYPE_ACK</a>
+, <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9af642d0a78ab353ea83f8de548aacb396">TYPE_ACK_DELIM</a>
 , <br />
-&#160;&#160;<b>TYPE_EOF</b>
+&#160;&#160;<a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9ad4d23ffcffa522832725e994a60a4e07">TYPE_EOF</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a9f488a3b80df758ac19fa6c558b070f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the symbol.  <a href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9">More...</a><br /></td></tr>
 <tr class="separator:a9f488a3b80df758ac19fa6c558b070f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5e517ae2a72436c32f1e8fea3c274109"><td class="memItemLeft" align="right" valign="top"><a id="a5e517ae2a72436c32f1e8fea3c274109" name="a5e517ae2a72436c32f1e8fea3c274109"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>CANSymbol</b> (stype t, uint32_t data)</td></tr>
+<tr class="memitem:aaceea33bbc6b6820b5b90e718ff9e8bb"><td class="memItemLeft" align="right" valign="top"><a id="aaceea33bbc6b6820b5b90e718ff9e8bb" name="aaceea33bbc6b6820b5b90e718ff9e8bb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CANSymbol</b> ()</td></tr>
+<tr class="memdesc:aaceea33bbc6b6820b5b90e718ff9e8bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor, performs no initialization. <br /></td></tr>
+<tr class="separator:aaceea33bbc6b6820b5b90e718ff9e8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e517ae2a72436c32f1e8fea3c274109"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCANSymbol.html#a5e517ae2a72436c32f1e8fea3c274109">CANSymbol</a> (<a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9">stype</a> t, uint32_t data)</td></tr>
+<tr class="memdesc:a5e517ae2a72436c32f1e8fea3c274109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a CAN symbol.  <a href="classCANSymbol.html#a5e517ae2a72436c32f1e8fea3c274109">More...</a><br /></td></tr>
 <tr class="separator:a5e517ae2a72436c32f1e8fea3c274109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35660a82edc46eb23e1e933a9d1dd0e6"><td class="memItemLeft" align="right" valign="top"><a id="a35660a82edc46eb23e1e933a9d1dd0e6" name="a35660a82edc46eb23e1e933a9d1dd0e6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classCANSymbol.html">CANSymbol</a> &amp;s) const</td></tr>
+<tr class="memitem:a35660a82edc46eb23e1e933a9d1dd0e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCANSymbol.html#a35660a82edc46eb23e1e933a9d1dd0e6">operator==</a> (const <a class="el" href="classCANSymbol.html">CANSymbol</a> &amp;s) const</td></tr>
+<tr class="memdesc:a35660a82edc46eb23e1e933a9d1dd0e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks this symbol for equality against a second.  <a href="classCANSymbol.html#a35660a82edc46eb23e1e933a9d1dd0e6">More...</a><br /></td></tr>
 <tr class="separator:a35660a82edc46eb23e1e933a9d1dd0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5b766fe60d95bc16470d0915e5733d91"><td class="memItemLeft" align="right" valign="top"><a id="a5b766fe60d95bc16470d0915e5733d91" name="a5b766fe60d95bc16470d0915e5733d91"></a>
-stype&#160;</td><td class="memItemRight" valign="bottom"><b>m_stype</b></td></tr>
+<a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9">stype</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_stype</b></td></tr>
+<tr class="memdesc:a5b766fe60d95bc16470d0915e5733d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the symbol. <br /></td></tr>
 <tr class="separator:a5b766fe60d95bc16470d0915e5733d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac069bab306030bfe4496f317a970ac42"><td class="memItemLeft" align="right" valign="top"><a id="ac069bab306030bfe4496f317a970ac42" name="ac069bab306030bfe4496f317a970ac42"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_data</b></td></tr>
+<tr class="memdesc:ac069bab306030bfe4496f317a970ac42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data value (meaning depends on type) <br /></td></tr>
 <tr class="separator:ac069bab306030bfe4496f317a970ac42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >A single symbol within a CAN bus protocol decode. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a9f488a3b80df758ac19fa6c558b070f9" name="a9f488a3b80df758ac19fa6c558b070f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f488a3b80df758ac19fa6c558b070f9">&#9670;&nbsp;</a></span>stype</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9">CANSymbol::stype</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of the symbol. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9a1c9ba30717d8494d9a3b3a49dae953db" name="a9f488a3b80df758ac19fa6c558b070f9a1c9ba30717d8494d9a3b3a49dae953db"></a>TYPE_SOF&#160;</td><td class="fielddoc"><p >Start of frame. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9a37c0c3515cb699857f8bc5a449c80fb8" name="a9f488a3b80df758ac19fa6c558b070f9a37c0c3515cb699857f8bc5a449c80fb8"></a>TYPE_ID&#160;</td><td class="fielddoc"><p >CAN ID. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9ab12debf237f743c763dc6c552e1f99c0" name="a9f488a3b80df758ac19fa6c558b070f9ab12debf237f743c763dc6c552e1f99c0"></a>TYPE_RTR&#160;</td><td class="fielddoc"><p >Remote transmission request bit. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9a23c6a5acb3a09297225219bd57b596fe" name="a9f488a3b80df758ac19fa6c558b070f9a23c6a5acb3a09297225219bd57b596fe"></a>TYPE_R0&#160;</td><td class="fielddoc"><p >Reserved bit. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9a08d39391a98b2365d871f83d80f0efeb" name="a9f488a3b80df758ac19fa6c558b070f9a08d39391a98b2365d871f83d80f0efeb"></a>TYPE_FD&#160;</td><td class="fielddoc"><p >Full-duplex bit. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9ac903bb79a8a29ae6a82bf3fc1dde5c23" name="a9f488a3b80df758ac19fa6c558b070f9ac903bb79a8a29ae6a82bf3fc1dde5c23"></a>TYPE_DLC&#160;</td><td class="fielddoc"><p >Data length code. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9a40d9f0e23243d562065307eb00d423be" name="a9f488a3b80df758ac19fa6c558b070f9a40d9f0e23243d562065307eb00d423be"></a>TYPE_DATA&#160;</td><td class="fielddoc"><p >A data byte. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9ae1df0de6f566437f7d6483279ca310af" name="a9f488a3b80df758ac19fa6c558b070f9ae1df0de6f566437f7d6483279ca310af"></a>TYPE_CRC_OK&#160;</td><td class="fielddoc"><p >CRC with a correct value. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9ac050135b9663be827140d4351ff8b3bb" name="a9f488a3b80df758ac19fa6c558b070f9ac050135b9663be827140d4351ff8b3bb"></a>TYPE_CRC_BAD&#160;</td><td class="fielddoc"><p >CRC with an incorrect value. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9af5abd5bdbfd395e381f7922abbeab803" name="a9f488a3b80df758ac19fa6c558b070f9af5abd5bdbfd395e381f7922abbeab803"></a>TYPE_CRC_DELIM&#160;</td><td class="fielddoc"><p >CRC delimiter. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9a3ad6aa5468392353ae8721da0f63759b" name="a9f488a3b80df758ac19fa6c558b070f9a3ad6aa5468392353ae8721da0f63759b"></a>TYPE_ACK&#160;</td><td class="fielddoc"><p >Acknowledgement bit. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9af642d0a78ab353ea83f8de548aacb396" name="a9f488a3b80df758ac19fa6c558b070f9af642d0a78ab353ea83f8de548aacb396"></a>TYPE_ACK_DELIM&#160;</td><td class="fielddoc"><p >ACK delimiter. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9f488a3b80df758ac19fa6c558b070f9ad4d23ffcffa522832725e994a60a4e07" name="a9f488a3b80df758ac19fa6c558b070f9ad4d23ffcffa522832725e994a60a4e07"></a>TYPE_EOF&#160;</td><td class="fielddoc"><p >End of frame. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5e517ae2a72436c32f1e8fea3c274109" name="a5e517ae2a72436c32f1e8fea3c274109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e517ae2a72436c32f1e8fea3c274109">&#9670;&nbsp;</a></span>CANSymbol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CANSymbol::CANSymbol </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCANSymbol.html#a9f488a3b80df758ac19fa6c558b070f9">stype</a>&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes a CAN symbol. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>Type of the symbol </td></tr>
+    <tr><td class="paramname">data</td><td>Data value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a35660a82edc46eb23e1e933a9d1dd0e6" name="a35660a82edc46eb23e1e933a9d1dd0e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35660a82edc46eb23e1e933a9d1dd0e6">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CANSymbol::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classCANSymbol.html">CANSymbol</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks this symbol for equality against a second. </p>
+<p >Two symbols are considered equal if both the type and data are equal.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>The other symbol </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/scopehal/<a class="el" href="CANChannel_8h_source.html">CANChannel.h</a></li>
 </ul>

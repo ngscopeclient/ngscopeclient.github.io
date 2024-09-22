@@ -1,8 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="5,1568,128,1595"/>
 <area shape="rect" id="node2" href="$classDensityFunctionWaveform.html" title="Base class for waveforms such as eye patterns, spectrograms, and waterfalls which are conceptually a ..." alt="" coords="176,107,371,133"/>
-<area shape="rect" id="node7" href="$classSparseWaveformBase.html" title=" " alt="" coords="190,1568,357,1595"/>
-<area shape="rect" id="node103" href="$classUniformWaveformBase.html" title=" " alt="" coords="186,2263,361,2289"/>
+<area shape="rect" id="node7" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="190,1568,357,1595"/>
+<area shape="rect" id="node103" href="$classUniformWaveformBase.html" title="Base class for waveforms with data sampled at uniform intervals." alt="" coords="186,2263,361,2289"/>
 <area shape="rect" id="node3" href="$classConstellationWaveform.html" title="A constellation diagram." alt="" coords="478,5,654,32"/>
 <area shape="rect" id="node4" href="$classEyeWaveform.html" title=" " alt="" coords="509,56,623,83"/>
 <area shape="rect" id="node5" href="$classSpectrogramWaveform.html" title=" " alt="" coords="479,107,653,133"/>
@@ -57,7 +57,7 @@
 <area shape="rect" id="node102" href="$classSparseWaveform.html" title="A waveform sampled at irregular intervals." alt="" coords="480,2883,652,2909"/>
 <area shape="rect" id="node9" href="$classADL5205Waveform.html" title=" " alt="" coords="812,208,960,235"/>
 <area shape="rect" id="node11" href="$classByteWaveform.html" title=" " alt="" coords="826,259,946,285"/>
-<area shape="rect" id="node13" href="$classCANWaveform.html" title=" " alt="" coords="827,309,945,336"/>
+<area shape="rect" id="node13" href="$classCANWaveform.html" title="A waveform containing CAN bus packets." alt="" coords="827,309,945,336"/>
 <area shape="rect" id="node15" href="$classDPAuxWaveform.html" title=" " alt="" coords="819,360,953,387"/>
 <area shape="rect" id="node17" href="$classDPhyDataWaveform.html" title=" " alt="" coords="809,419,963,445"/>
 <area shape="rect" id="node19" href="$classDPhyEscapeModeWaveform.html" title=" " alt="" coords="783,484,989,511"/>

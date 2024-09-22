@@ -19,6 +19,8 @@ var searchData=
   ['notesdialog_2ecpp_16',['NotesDialog.cpp',['../NotesDialog_8cpp.html',1,'']]],
   ['notesdialog_2eh_17',['NotesDialog.h',['../NotesDialog_8h.html',1,'']]],
   ['notice_18',['NOTICE',['../group__liblog.html#gga11717da96dc4e4a5f79371318448f82baaa14599dc3fdfa9cc81a7c3c247b77b9',1,'log.h']]],
-  ['nthedgebursttrigger_19',['NthEdgeBurstTrigger',['../classNthEdgeBurstTrigger.html',1,'']]],
-  ['nthedgebursttrigger_2eh_20',['NthEdgeBurstTrigger.h',['../NthEdgeBurstTrigger_8h.html',1,'']]]
+  ['npoints_19',['npoints',['../structWindowFunctionArgs.html#a55153d46eed7010bb3f90e7ad7c6816f',1,'WindowFunctionArgs']]],
+  ['nthedgebursttrigger_20',['NthEdgeBurstTrigger',['../classNthEdgeBurstTrigger.html',1,'']]],
+  ['nthedgebursttrigger_2eh_21',['NthEdgeBurstTrigger.h',['../NthEdgeBurstTrigger_8h.html',1,'']]],
+  ['numactualsamples_22',['numActualSamples',['../structWindowFunctionArgs.html#a49be022cee28d751fc5889ead21a49b4',1,'WindowFunctionArgs']]]
 ];

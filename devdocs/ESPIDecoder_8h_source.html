@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -255,8 +255,8 @@ $(function() {
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>{</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <a class="code hl_class" href="classESPIWaveform.html">ESPIWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;ESPISymbol&gt;</a>() {};</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classESPIWaveform.html#a9e2f093fa754174287434222830ee53a">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classESPIWaveform.html#a0806dbbe3526a1bf208e94ac1260ce65">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>};</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="classESPIDecoder.html">  201</a></span><span class="keyword">class </span><a class="code hl_class" href="classESPIDecoder.html">ESPIDecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classPacketDecoder.html">PacketDecoder</a></div>
@@ -297,9 +297,11 @@ $(function() {
 <div class="ttc" id="aclassESPIDecoder_html_ae1c0dd217757fcea86b5b26b99ce114e"><div class="ttname"><a href="classESPIDecoder.html#ae1c0dd217757fcea86b5b26b99ce114e">ESPIDecoder::CreateMergedHeader</a></div><div class="ttdeci">virtual Packet * CreateMergedHeader(Packet *pack, size_t i) override</div><div class="ttdoc">Creates a summary packet for one or more merged packets.</div><div class="ttdef"><b>Definition:</b> ESPIDecoder.cpp:2167</div></div>
 <div class="ttc" id="aclassESPISymbol_html"><div class="ttname"><a href="classESPISymbol.html">ESPISymbol</a></div><div class="ttdef"><b>Definition:</b> ESPIDecoder.h:41</div></div>
 <div class="ttc" id="aclassESPIWaveform_html"><div class="ttname"><a href="classESPIWaveform.html">ESPIWaveform</a></div><div class="ttdef"><b>Definition:</b> ESPIDecoder.h:189</div></div>
+<div class="ttc" id="aclassESPIWaveform_html_a0806dbbe3526a1bf208e94ac1260ce65"><div class="ttname"><a href="classESPIWaveform.html#a0806dbbe3526a1bf208e94ac1260ce65">ESPIWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> ESPIDecoder.cpp:1466</div></div>
+<div class="ttc" id="aclassESPIWaveform_html_a9e2f093fa754174287434222830ee53a"><div class="ttname"><a href="classESPIWaveform.html#a9e2f093fa754174287434222830ee53a">ESPIWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> ESPIDecoder.cpp:1543</div></div>
 <div class="ttc" id="aclassPacketDecoder_html"><div class="ttname"><a href="classPacketDecoder.html">PacketDecoder</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:85</div></div>
 <div class="ttc" id="aclassPacket_html"><div class="ttname"><a href="classPacket.html">Packet</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:40</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

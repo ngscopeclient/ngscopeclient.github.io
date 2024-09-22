@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['trigger_5fmode_5fauto_0',['TRIGGER_MODE_AUTO',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03ba411f68f91bf1d4bebbfa91f348b52db0',1,'Oscilloscope']]],
-  ['trigger_5fmode_5fcount_1',['TRIGGER_MODE_COUNT',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03ba5534509445b94f31967cd2d5480645f5',1,'Oscilloscope']]],
-  ['trigger_5fmode_5frun_2',['TRIGGER_MODE_RUN',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03bac7e78908f131d96ee380e261f0afbe2d',1,'Oscilloscope']]],
-  ['trigger_5fmode_5fstop_3',['TRIGGER_MODE_STOP',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03bad805c5dcf1905557618ae2244da270ef',1,'Oscilloscope']]],
-  ['trigger_5fmode_5ftriggered_4',['TRIGGER_MODE_TRIGGERED',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03baab6b2d9ca553b1bccd5e2cd8cf59369f',1,'Oscilloscope']]],
-  ['trigger_5fmode_5fwait_5',['TRIGGER_MODE_WAIT',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03baa07d9191164e019386d37f8addbefb49',1,'Oscilloscope']]]
+  ['lecroy_5feq_5fhigh_0',['LECROY_EQ_HIGH',['../classCDRTrigger.html#a63eab969eb761dc9b1f76e533a77a20cab996b9a031c0d71b0fe944ad4520e502',1,'CDRTrigger']]],
+  ['lecroy_5feq_5flow_1',['LECROY_EQ_LOW',['../classCDRTrigger.html#a63eab969eb761dc9b1f76e533a77a20ca81c838bc63b520633d5769b559447aee',1,'CDRTrigger']]],
+  ['lecroy_5feq_5fmedium_2',['LECROY_EQ_MEDIUM',['../classCDRTrigger.html#a63eab969eb761dc9b1f76e533a77a20ca8634177b9dd1816e39607e8d49ba6f66',1,'CDRTrigger']]],
+  ['lecroy_5feq_5fnone_3',['LECROY_EQ_NONE',['../classCDRTrigger.html#a63eab969eb761dc9b1f76e533a77a20cafa19c38dbd72566b81db3fa38c3ee0eb',1,'CDRTrigger']]]
 ];

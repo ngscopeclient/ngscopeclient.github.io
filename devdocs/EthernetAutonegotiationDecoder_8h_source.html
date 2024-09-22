@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -106,8 +106,8 @@ $(function() {
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_class" href="classEthernetAutonegotiationWaveform.html">EthernetAutonegotiationWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;uint16_t&gt;</a>() {};</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classEthernetAutonegotiationWaveform.html#a3d30c7f583fd77543ba048d1d669d053">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classEthernetAutonegotiationWaveform.html#a2797941bb8c8217e9adc98d14a3ebcd2">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classEthernetAutonegotiationDecoder.html">   48</a></span><span class="keyword">class </span><a class="code hl_class" href="classEthernetAutonegotiationDecoder.html">EthernetAutonegotiationDecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classFilter.html">Filter</a></div>
@@ -130,8 +130,10 @@ $(function() {
 <div class="ttc" id="aclassEthernetAutonegotiationDecoder_html"><div class="ttname"><a href="classEthernetAutonegotiationDecoder.html">EthernetAutonegotiationDecoder</a></div><div class="ttdef"><b>Definition:</b> EthernetAutonegotiationDecoder.h:49</div></div>
 <div class="ttc" id="aclassEthernetAutonegotiationDecoder_html_a0729e9732daf28924e98cc8e7e3aaec0"><div class="ttname"><a href="classEthernetAutonegotiationDecoder.html#a0729e9732daf28924e98cc8e7e3aaec0">EthernetAutonegotiationDecoder::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> EthernetAutonegotiationDecoder.cpp:73</div></div>
 <div class="ttc" id="aclassEthernetAutonegotiationWaveform_html"><div class="ttname"><a href="classEthernetAutonegotiationWaveform.html">EthernetAutonegotiationWaveform</a></div><div class="ttdef"><b>Definition:</b> EthernetAutonegotiationDecoder.h:40</div></div>
+<div class="ttc" id="aclassEthernetAutonegotiationWaveform_html_a2797941bb8c8217e9adc98d14a3ebcd2"><div class="ttname"><a href="classEthernetAutonegotiationWaveform.html#a2797941bb8c8217e9adc98d14a3ebcd2">EthernetAutonegotiationWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> EthernetAutonegotiationDecoder.cpp:167</div></div>
+<div class="ttc" id="aclassEthernetAutonegotiationWaveform_html_a3d30c7f583fd77543ba048d1d669d053"><div class="ttname"><a href="classEthernetAutonegotiationWaveform.html#a3d30c7f583fd77543ba048d1d669d053">EthernetAutonegotiationWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> EthernetAutonegotiationDecoder.cpp:172</div></div>
 <div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filters and protocol decoders.</div><div class="ttdef"><b>Definition:</b> Filter.h:82</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

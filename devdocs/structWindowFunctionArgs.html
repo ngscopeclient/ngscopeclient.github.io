@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -65,35 +65,49 @@ $(function() {
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structWindowFunctionArgs-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WindowFunctionArgs Struct Reference</div></div>
+  <div class="headertitle"><div class="title">WindowFunctionArgs Struct Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Arguments to a window function for FFT processing.  
+ <a href="structWindowFunctionArgs.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="VulkanFFTPlan_8h_source.html">VulkanFFTPlan.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a49be022cee28d751fc5889ead21a49b4"><td class="memItemLeft" align="right" valign="top"><a id="a49be022cee28d751fc5889ead21a49b4" name="a49be022cee28d751fc5889ead21a49b4"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>numActualSamples</b></td></tr>
+<tr class="memdesc:a49be022cee28d751fc5889ead21a49b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of samples in the input. <br /></td></tr>
 <tr class="separator:a49be022cee28d751fc5889ead21a49b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55153d46eed7010bb3f90e7ad7c6816f"><td class="memItemLeft" align="right" valign="top"><a id="a55153d46eed7010bb3f90e7ad7c6816f" name="a55153d46eed7010bb3f90e7ad7c6816f"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>npoints</b></td></tr>
+<tr class="memdesc:a55153d46eed7010bb3f90e7ad7c6816f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of FFT points. <br /></td></tr>
 <tr class="separator:a55153d46eed7010bb3f90e7ad7c6816f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd1243a8c89d5eb41317a3af5c7898fa"><td class="memItemLeft" align="right" valign="top"><a id="abd1243a8c89d5eb41317a3af5c7898fa" name="abd1243a8c89d5eb41317a3af5c7898fa"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>offsetIn</b></td></tr>
+<tr class="memdesc:abd1243a8c89d5eb41317a3af5c7898fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset from start of the input buffer to start reading from. <br /></td></tr>
 <tr class="separator:abd1243a8c89d5eb41317a3af5c7898fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0916894c70e25d6d987b63a808aa9695"><td class="memItemLeft" align="right" valign="top"><a id="a0916894c70e25d6d987b63a808aa9695" name="a0916894c70e25d6d987b63a808aa9695"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>offsetOut</b></td></tr>
+<tr class="memdesc:a0916894c70e25d6d987b63a808aa9695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset from start of the output buffer to start writing to. <br /></td></tr>
 <tr class="separator:a0916894c70e25d6d987b63a808aa9695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4618ff74060b3e16eefb53686c5f85b0"><td class="memItemLeft" align="right" valign="top"><a id="a4618ff74060b3e16eefb53686c5f85b0" name="a4618ff74060b3e16eefb53686c5f85b0"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b></td></tr>
+<tr class="memdesc:a4618ff74060b3e16eefb53686c5f85b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling factor for normalization. <br /></td></tr>
 <tr class="separator:a4618ff74060b3e16eefb53686c5f85b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d17f93d0c72ed7c4641fcf25e2a5177"><td class="memItemLeft" align="right" valign="top"><a id="a6d17f93d0c72ed7c4641fcf25e2a5177" name="a6d17f93d0c72ed7c4641fcf25e2a5177"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>alpha0</b></td></tr>
+<tr class="memdesc:a6d17f93d0c72ed7c4641fcf25e2a5177"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alpha0 factor for cosine-sum windows, ignored for others. <br /></td></tr>
 <tr class="separator:a6d17f93d0c72ed7c4641fcf25e2a5177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b27eba5ec28d76cadf16c68e58143b"><td class="memItemLeft" align="right" valign="top"><a id="ac2b27eba5ec28d76cadf16c68e58143b" name="ac2b27eba5ec28d76cadf16c68e58143b"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>alpha1</b></td></tr>
+<tr class="memdesc:ac2b27eba5ec28d76cadf16c68e58143b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alpha1 factor for cosine-sum windows, ignored for others. <br /></td></tr>
 <tr class="separator:ac2b27eba5ec28d76cadf16c68e58143b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Arguments to a window function for FFT processing. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>lib/scopehal/<a class="el" href="VulkanFFTPlan_8h_source.html">VulkanFFTPlan.h</a></li>
 </ul>
 </div><!-- contents -->

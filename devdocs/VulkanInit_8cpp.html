@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,7 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">VulkanInit.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">VulkanInit.cpp File Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__vksupport.html">Vulkan acceleration</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -111,7 +111,7 @@ Include dependency graph for VulkanInit.cpp:</div>
 <area shape="rect" title=" " alt="" coords="1207,155,1281,181"/>
 <area shape="rect" title=" " alt="" coords="5252,379,5423,405"/>
 <area shape="rect" href="Unit_8h.html" title="Declaration of Unit." alt="" coords="1305,155,1367,181"/>
-<area shape="rect" href="Bijection_8h.html" title="Declaration of Bijection class." alt="" coords="1391,155,1481,181"/>
+<area shape="rect" href="Bijection_8h.html" title="Declaration of Bijection." alt="" coords="1391,155,1481,181"/>
 <area shape="rect" href="IDTable_8h.html" title="Declaration of IDTable class." alt="" coords="1505,155,1588,181"/>
 <area shape="rect" href="AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="5214,229,5362,256"/>
 <area shape="rect" href="ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="5166,155,5311,181"/>
@@ -141,246 +141,131 @@ Include dependency graph for VulkanInit.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a53c1c4f62dc4ad91a48a213cf9dc9df6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="VulkanInit_8cpp.html#a53c1c4f62dc4ad91a48a213cf9dc9df6">IsDevicePreferred</a> (const vk::PhysicalDeviceProperties &amp;a, const vk::PhysicalDeviceProperties &amp;b)</td></tr>
-<tr class="memdesc:a53c1c4f62dc4ad91a48a213cf9dc9df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given Vulkan device is "better" than another.  <a href="VulkanInit_8cpp.html#a53c1c4f62dc4ad91a48a213cf9dc9df6">More...</a><br /></td></tr>
-<tr class="separator:a53c1c4f62dc4ad91a48a213cf9dc9df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c1bc9f3a1584ecf517e6505fa1034bf"><td class="memItemLeft" align="right" valign="top"><a id="a5c1bc9f3a1584ecf517e6505fa1034bf" name="a5c1bc9f3a1584ecf517e6505fa1034bf"></a>
+<tr class="memitem:ga53c1c4f62dc4ad91a48a213cf9dc9df6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#ga53c1c4f62dc4ad91a48a213cf9dc9df6">IsDevicePreferred</a> (const vk::PhysicalDeviceProperties &amp;a, const vk::PhysicalDeviceProperties &amp;b)</td></tr>
+<tr class="memdesc:ga53c1c4f62dc4ad91a48a213cf9dc9df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a given Vulkan device is "better" than another.  <a href="group__vksupport.html#ga53c1c4f62dc4ad91a48a213cf9dc9df6">More...</a><br /></td></tr>
+<tr class="separator:ga53c1c4f62dc4ad91a48a213cf9dc9df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c1bc9f3a1584ecf517e6505fa1034bf"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>VulkanCleanup</b> ()</td></tr>
-<tr class="memdesc:a5c1bc9f3a1584ecf517e6505fa1034bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free all global Vulkan resources in the correct order. <br /></td></tr>
-<tr class="separator:a5c1bc9f3a1584ecf517e6505fa1034bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a109653c843e94439433135d42e49415a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="VulkanInit_8cpp.html#a109653c843e94439433135d42e49415a">VulkanInit</a> (bool skipGLFW)</td></tr>
-<tr class="memdesc:a109653c843e94439433135d42e49415a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a Vulkan context for compute.  <a href="VulkanInit_8cpp.html#a109653c843e94439433135d42e49415a">More...</a><br /></td></tr>
-<tr class="separator:a109653c843e94439433135d42e49415a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ga5c1bc9f3a1584ecf517e6505fa1034bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free all global Vulkan resources in the correct order. <br /></td></tr>
+<tr class="separator:ga5c1bc9f3a1584ecf517e6505fa1034bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga109653c843e94439433135d42e49415a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#ga109653c843e94439433135d42e49415a">VulkanInit</a> (bool skipGLFW)</td></tr>
+<tr class="memdesc:ga109653c843e94439433135d42e49415a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a Vulkan context for compute.  <a href="group__vksupport.html#ga109653c843e94439433135d42e49415a">More...</a><br /></td></tr>
+<tr class="separator:ga109653c843e94439433135d42e49415a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab8f5f0bcc10fc0a77d1c28193df07487"><td class="memItemLeft" align="right" valign="top"><a id="ab8f5f0bcc10fc0a77d1c28193df07487" name="ab8f5f0bcc10fc0a77d1c28193df07487"></a>
+<tr class="memitem:gab8f5f0bcc10fc0a77d1c28193df07487"><td class="memItemLeft" align="right" valign="top">
 vk::raii::Context&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkContext</b></td></tr>
-<tr class="memdesc:ab8f5f0bcc10fc0a77d1c28193df07487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global Vulkan context. <br /></td></tr>
-<tr class="separator:ab8f5f0bcc10fc0a77d1c28193df07487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f628eb855ff626bcdb9bf89934f6e93"><td class="memItemLeft" align="right" valign="top"><a id="a1f628eb855ff626bcdb9bf89934f6e93" name="a1f628eb855ff626bcdb9bf89934f6e93"></a>
+<tr class="memdesc:gab8f5f0bcc10fc0a77d1c28193df07487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global Vulkan context. <br /></td></tr>
+<tr class="separator:gab8f5f0bcc10fc0a77d1c28193df07487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f628eb855ff626bcdb9bf89934f6e93"><td class="memItemLeft" align="right" valign="top">
 unique_ptr&lt; vk::raii::Instance &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkInstance</b></td></tr>
-<tr class="memdesc:a1f628eb855ff626bcdb9bf89934f6e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global Vulkan instance. <br /></td></tr>
-<tr class="separator:a1f628eb855ff626bcdb9bf89934f6e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a945c2c77ece3cb4606a1adcd4d2dd25e"><td class="memItemLeft" align="right" valign="top"><a id="a945c2c77ece3cb4606a1adcd4d2dd25e" name="a945c2c77ece3cb4606a1adcd4d2dd25e"></a>
+<tr class="memdesc:ga1f628eb855ff626bcdb9bf89934f6e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global Vulkan instance. <br /></td></tr>
+<tr class="separator:ga1f628eb855ff626bcdb9bf89934f6e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga945c2c77ece3cb4606a1adcd4d2dd25e"><td class="memItemLeft" align="right" valign="top">
 shared_ptr&lt; vk::raii::Device &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkComputeDevice</b></td></tr>
-<tr class="memdesc:a945c2c77ece3cb4606a1adcd4d2dd25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Vulkan device selected for compute operations (may or may not be same device as rendering) <br /></td></tr>
-<tr class="separator:a945c2c77ece3cb4606a1adcd4d2dd25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3813c41c232be1620c12ae0ec27558c"><td class="memItemLeft" align="right" valign="top">unique_ptr&lt; vk::raii::CommandPool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="VulkanInit_8cpp.html#ab3813c41c232be1620c12ae0ec27558c">g_vkTransferCommandPool</a></td></tr>
-<tr class="memdesc:ab3813c41c232be1620c12ae0ec27558c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command pool for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers.  <a href="VulkanInit_8cpp.html#ab3813c41c232be1620c12ae0ec27558c">More...</a><br /></td></tr>
-<tr class="separator:ab3813c41c232be1620c12ae0ec27558c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa112df5e5ac07738551aaf117d49130a"><td class="memItemLeft" align="right" valign="top">unique_ptr&lt; vk::raii::CommandBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="VulkanInit_8cpp.html#aa112df5e5ac07738551aaf117d49130a">g_vkTransferCommandBuffer</a></td></tr>
-<tr class="memdesc:aa112df5e5ac07738551aaf117d49130a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command buffer for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers.  <a href="VulkanInit_8cpp.html#aa112df5e5ac07738551aaf117d49130a">More...</a><br /></td></tr>
-<tr class="separator:aa112df5e5ac07738551aaf117d49130a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd2ceb9b89b40431159e2a081352647f"><td class="memItemLeft" align="right" valign="top">shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="VulkanInit_8cpp.html#abd2ceb9b89b40431159e2a081352647f">g_vkTransferQueue</a></td></tr>
-<tr class="memdesc:abd2ceb9b89b40431159e2a081352647f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers.  <a href="VulkanInit_8cpp.html#abd2ceb9b89b40431159e2a081352647f">More...</a><br /></td></tr>
-<tr class="separator:abd2ceb9b89b40431159e2a081352647f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6298f13f63fb6f8cdcb0988c4ab20528"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classQueueManager.html">QueueManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="VulkanInit_8cpp.html#a6298f13f63fb6f8cdcb0988c4ab20528">g_vkQueueManager</a></td></tr>
-<tr class="memdesc:a6298f13f63fb6f8cdcb0988c4ab20528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates <a class="el" href="classQueueHandle.html" title="Wrapper around a Vulkan Queue, protected by mutex for thread safety.">QueueHandle</a> objects.  <a href="VulkanInit_8cpp.html#a6298f13f63fb6f8cdcb0988c4ab20528">More...</a><br /></td></tr>
-<tr class="separator:a6298f13f63fb6f8cdcb0988c4ab20528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ce9839b056cc290f6064e10f4a70ce8"><td class="memItemLeft" align="right" valign="top"><a id="a5ce9839b056cc290f6064e10f4a70ce8" name="a5ce9839b056cc290f6064e10f4a70ce8"></a>
+<tr class="memdesc:ga945c2c77ece3cb4606a1adcd4d2dd25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Vulkan device selected for compute operations (may or may not be same device as rendering) <br /></td></tr>
+<tr class="separator:ga945c2c77ece3cb4606a1adcd4d2dd25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab3813c41c232be1620c12ae0ec27558c"><td class="memItemLeft" align="right" valign="top">unique_ptr&lt; vk::raii::CommandPool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#gab3813c41c232be1620c12ae0ec27558c">g_vkTransferCommandPool</a></td></tr>
+<tr class="memdesc:gab3813c41c232be1620c12ae0ec27558c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command pool for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers.  <a href="group__vksupport.html#gab3813c41c232be1620c12ae0ec27558c">More...</a><br /></td></tr>
+<tr class="separator:gab3813c41c232be1620c12ae0ec27558c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa112df5e5ac07738551aaf117d49130a"><td class="memItemLeft" align="right" valign="top">unique_ptr&lt; vk::raii::CommandBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#gaa112df5e5ac07738551aaf117d49130a">g_vkTransferCommandBuffer</a></td></tr>
+<tr class="memdesc:gaa112df5e5ac07738551aaf117d49130a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command buffer for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers.  <a href="group__vksupport.html#gaa112df5e5ac07738551aaf117d49130a">More...</a><br /></td></tr>
+<tr class="separator:gaa112df5e5ac07738551aaf117d49130a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd2ceb9b89b40431159e2a081352647f"><td class="memItemLeft" align="right" valign="top">shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#gabd2ceb9b89b40431159e2a081352647f">g_vkTransferQueue</a></td></tr>
+<tr class="memdesc:gabd2ceb9b89b40431159e2a081352647f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers.  <a href="group__vksupport.html#gabd2ceb9b89b40431159e2a081352647f">More...</a><br /></td></tr>
+<tr class="separator:gabd2ceb9b89b40431159e2a081352647f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6298f13f63fb6f8cdcb0988c4ab20528"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classQueueManager.html">QueueManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#ga6298f13f63fb6f8cdcb0988c4ab20528">g_vkQueueManager</a></td></tr>
+<tr class="memdesc:ga6298f13f63fb6f8cdcb0988c4ab20528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates <a class="el" href="classQueueHandle.html" title="Wrapper around a Vulkan Queue, protected by mutex for thread safety.">QueueHandle</a> objects.  <a href="group__vksupport.html#ga6298f13f63fb6f8cdcb0988c4ab20528">More...</a><br /></td></tr>
+<tr class="separator:ga6298f13f63fb6f8cdcb0988c4ab20528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ce9839b056cc290f6064e10f4a70ce8"><td class="memItemLeft" align="right" valign="top">
 mutex&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkTransferMutex</b></td></tr>
-<tr class="memdesc:a5ce9839b056cc290f6064e10f4a70ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for interlocking access to g_vkTransferCommandBuffer and g_vkTransferCommandPool. <br /></td></tr>
-<tr class="separator:a5ce9839b056cc290f6064e10f4a70ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0399c400a07f35d8a39eb1c28104fbcd"><td class="memItemLeft" align="right" valign="top"><a id="a0399c400a07f35d8a39eb1c28104fbcd" name="a0399c400a07f35d8a39eb1c28104fbcd"></a>
+<tr class="memdesc:ga5ce9839b056cc290f6064e10f4a70ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for interlocking access to g_vkTransferCommandBuffer and g_vkTransferCommandPool. <br /></td></tr>
+<tr class="separator:ga5ce9839b056cc290f6064e10f4a70ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0399c400a07f35d8a39eb1c28104fbcd"><td class="memItemLeft" align="right" valign="top">
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkPinnedMemoryType</b></td></tr>
-<tr class="memdesc:a0399c400a07f35d8a39eb1c28104fbcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vulkan memory type for CPU-based memory that is also GPU-readable. <br /></td></tr>
-<tr class="separator:a0399c400a07f35d8a39eb1c28104fbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f19146c8e4e58818b248291a46f087"><td class="memItemLeft" align="right" valign="top"><a id="ae7f19146c8e4e58818b248291a46f087" name="ae7f19146c8e4e58818b248291a46f087"></a>
+<tr class="memdesc:ga0399c400a07f35d8a39eb1c28104fbcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vulkan memory type for CPU-based memory that is also GPU-readable. <br /></td></tr>
+<tr class="separator:ga0399c400a07f35d8a39eb1c28104fbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7f19146c8e4e58818b248291a46f087"><td class="memItemLeft" align="right" valign="top">
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkLocalMemoryType</b></td></tr>
-<tr class="memdesc:ae7f19146c8e4e58818b248291a46f087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vulkan memory type for GPU-based memory (generally not CPU-readable, except on integrated cards) <br /></td></tr>
-<tr class="separator:ae7f19146c8e4e58818b248291a46f087"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e34661f30ee8cee04922a8d7c4886d0"><td class="memItemLeft" align="right" valign="top"><a id="a0e34661f30ee8cee04922a8d7c4886d0" name="a0e34661f30ee8cee04922a8d7c4886d0"></a>
+<tr class="memdesc:gae7f19146c8e4e58818b248291a46f087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vulkan memory type for GPU-based memory (generally not CPU-readable, except on unified memory systems) <br /></td></tr>
+<tr class="separator:gae7f19146c8e4e58818b248291a46f087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e34661f30ee8cee04922a8d7c4886d0"><td class="memItemLeft" align="right" valign="top">
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkComputeDeviceUuid</b> [16]</td></tr>
-<tr class="memdesc:a0e34661f30ee8cee04922a8d7c4886d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">UUID of g_vkComputeDevice. <br /></td></tr>
-<tr class="separator:a0e34661f30ee8cee04922a8d7c4886d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afea0a98a5db07bcce90a7119e2fd0192"><td class="memItemLeft" align="right" valign="top"><a id="afea0a98a5db07bcce90a7119e2fd0192" name="afea0a98a5db07bcce90a7119e2fd0192"></a>
+<tr class="memdesc:ga0e34661f30ee8cee04922a8d7c4886d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">UUID of g_vkComputeDevice. <br /></td></tr>
+<tr class="separator:ga0e34661f30ee8cee04922a8d7c4886d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafea0a98a5db07bcce90a7119e2fd0192"><td class="memItemLeft" align="right" valign="top">
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkComputeDeviceDriverVer</b></td></tr>
-<tr class="memdesc:afea0a98a5db07bcce90a7119e2fd0192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver version of g_vkComputeDevice. <br /></td></tr>
-<tr class="separator:afea0a98a5db07bcce90a7119e2fd0192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc8fd2940d4e73b4c9d95161adabe656"><td class="memItemLeft" align="right" valign="top"><a id="adc8fd2940d4e73b4c9d95161adabe656" name="adc8fd2940d4e73b4c9d95161adabe656"></a>
+<tr class="memdesc:gafea0a98a5db07bcce90a7119e2fd0192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver version of g_vkComputeDevice. <br /></td></tr>
+<tr class="separator:gafea0a98a5db07bcce90a7119e2fd0192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc8fd2940d4e73b4c9d95161adabe656"><td class="memItemLeft" align="right" valign="top">
 vk::raii::PhysicalDevice *&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkComputePhysicalDevice</b></td></tr>
-<tr class="memdesc:adc8fd2940d4e73b4c9d95161adabe656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical device for g_vkComputeDevice. <br /></td></tr>
-<tr class="separator:adc8fd2940d4e73b4c9d95161adabe656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd865ca0e9d0c4f6cfb85cfa4146d713"><td class="memItemLeft" align="right" valign="top"><a id="acd865ca0e9d0c4f6cfb85cfa4146d713" name="acd865ca0e9d0c4f6cfb85cfa4146d713"></a>
+<tr class="memdesc:gadc8fd2940d4e73b4c9d95161adabe656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical device for g_vkComputeDevice. <br /></td></tr>
+<tr class="separator:gadc8fd2940d4e73b4c9d95161adabe656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd865ca0e9d0c4f6cfb85cfa4146d713"><td class="memItemLeft" align="right" valign="top">
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkPinnedMemoryHeap</b> = 0</td></tr>
-<tr class="memdesc:acd865ca0e9d0c4f6cfb85cfa4146d713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap from which g_vkPinnedMemoryType is allocated. <br /></td></tr>
-<tr class="separator:acd865ca0e9d0c4f6cfb85cfa4146d713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6f7a2f17c5c4e3e5b4d66330e435c22"><td class="memItemLeft" align="right" valign="top"><a id="ac6f7a2f17c5c4e3e5b4d66330e435c22" name="ac6f7a2f17c5c4e3e5b4d66330e435c22"></a>
+<tr class="memdesc:gacd865ca0e9d0c4f6cfb85cfa4146d713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap from which g_vkPinnedMemoryType is allocated. <br /></td></tr>
+<tr class="separator:gacd865ca0e9d0c4f6cfb85cfa4146d713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6f7a2f17c5c4e3e5b4d66330e435c22"><td class="memItemLeft" align="right" valign="top">
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkLocalMemoryHeap</b> = 0</td></tr>
-<tr class="memdesc:ac6f7a2f17c5c4e3e5b4d66330e435c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap from which g_vkLocalMemoryType is allocated. <br /></td></tr>
-<tr class="separator:ac6f7a2f17c5c4e3e5b4d66330e435c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc02de1971874644efec59e1c9827a09"><td class="memItemLeft" align="right" valign="top"><a id="abc02de1971874644efec59e1c9827a09" name="abc02de1971874644efec59e1c9827a09"></a>
+<tr class="memdesc:gac6f7a2f17c5c4e3e5b4d66330e435c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap from which g_vkLocalMemoryType is allocated. <br /></td></tr>
+<tr class="separator:gac6f7a2f17c5c4e3e5b4d66330e435c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc02de1971874644efec59e1c9827a09"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasShaderFloat64</b> = false</td></tr>
-<tr class="separator:abc02de1971874644efec59e1c9827a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a145fdf2b113121241abc1c4593e1c46c"><td class="memItemLeft" align="right" valign="top"><a id="a145fdf2b113121241abc1c4593e1c46c" name="a145fdf2b113121241abc1c4593e1c46c"></a>
+<tr class="memdesc:gabc02de1971874644efec59e1c9827a09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the float64 type is available for use in shaders and SSBOs. <br /></td></tr>
+<tr class="separator:gabc02de1971874644efec59e1c9827a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga145fdf2b113121241abc1c4593e1c46c"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasShaderInt64</b> = false</td></tr>
-<tr class="separator:a145fdf2b113121241abc1c4593e1c46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62c711d530cc3276d5547de2d60b52c3"><td class="memItemLeft" align="right" valign="top"><a id="a62c711d530cc3276d5547de2d60b52c3" name="a62c711d530cc3276d5547de2d60b52c3"></a>
+<tr class="memdesc:ga145fdf2b113121241abc1c4593e1c46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the int64 type is available for use in shaders and SSBOs. <br /></td></tr>
+<tr class="separator:ga145fdf2b113121241abc1c4593e1c46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62c711d530cc3276d5547de2d60b52c3"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasShaderInt16</b> = false</td></tr>
-<tr class="separator:a62c711d530cc3276d5547de2d60b52c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee2b4019d246a322ae18df43494bec13"><td class="memItemLeft" align="right" valign="top"><a id="aee2b4019d246a322ae18df43494bec13" name="aee2b4019d246a322ae18df43494bec13"></a>
+<tr class="memdesc:ga62c711d530cc3276d5547de2d60b52c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the int16 type is available for use in shaders and SSBOs. <br /></td></tr>
+<tr class="separator:ga62c711d530cc3276d5547de2d60b52c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee2b4019d246a322ae18df43494bec13"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasShaderInt8</b> = false</td></tr>
-<tr class="separator:aee2b4019d246a322ae18df43494bec13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0afebf122ebe8306b53279624bd67543"><td class="memItemLeft" align="right" valign="top"><a id="a0afebf122ebe8306b53279624bd67543" name="a0afebf122ebe8306b53279624bd67543"></a>
+<tr class="memdesc:gaee2b4019d246a322ae18df43494bec13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the int8 type is available for use in shaders and SSBOs. <br /></td></tr>
+<tr class="separator:gaee2b4019d246a322ae18df43494bec13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0afebf122ebe8306b53279624bd67543"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasShaderAtomicFloat</b> = false</td></tr>
-<tr class="separator:a0afebf122ebe8306b53279624bd67543"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff80e4412ae7b88ae9c1d492e2161d7"><td class="memItemLeft" align="right" valign="top"><a id="a6ff80e4412ae7b88ae9c1d492e2161d7" name="a6ff80e4412ae7b88ae9c1d492e2161d7"></a>
+<tr class="memdesc:ga0afebf122ebe8306b53279624bd67543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether atomic operations on the float type are available in shaders. <br /></td></tr>
+<tr class="separator:ga0afebf122ebe8306b53279624bd67543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ff80e4412ae7b88ae9c1d492e2161d7"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasDebugUtils</b> = false</td></tr>
-<tr class="separator:a6ff80e4412ae7b88ae9c1d492e2161d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d815b6e1134e440af733900a21c9a22"><td class="memItemLeft" align="right" valign="top"><a id="a5d815b6e1134e440af733900a21c9a22" name="a5d815b6e1134e440af733900a21c9a22"></a>
+<tr class="memdesc:ga6ff80e4412ae7b88ae9c1d492e2161d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the VK_EXT_debug_utils extension is available. <br /></td></tr>
+<tr class="separator:ga6ff80e4412ae7b88ae9c1d492e2161d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d815b6e1134e440af733900a21c9a22"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasMemoryBudget</b> = false</td></tr>
-<tr class="separator:a5d815b6e1134e440af733900a21c9a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32ecc7927c01f7d7a09bd9081f06f11b"><td class="memItemLeft" align="right" valign="top"><a id="a32ecc7927c01f7d7a09bd9081f06f11b" name="a32ecc7927c01f7d7a09bd9081f06f11b"></a>
+<tr class="memdesc:ga5d815b6e1134e440af733900a21c9a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the VK_EXT_memory_budget extension is available. <br /></td></tr>
+<tr class="separator:ga5d815b6e1134e440af733900a21c9a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga32ecc7927c01f7d7a09bd9081f06f11b"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasPushDescriptor</b> = false</td></tr>
-<tr class="separator:a32ecc7927c01f7d7a09bd9081f06f11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af19e835716764bd983d2ba65c6d451e7"><td class="memItemLeft" align="right" valign="top"><a id="af19e835716764bd983d2ba65c6d451e7" name="af19e835716764bd983d2ba65c6d451e7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_vulkanDeviceHasUnifiedMemory</b> = false</td></tr>
-<tr class="separator:af19e835716764bd983d2ba65c6d451e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1541c12c84a43c057f78b3473868861"><td class="memItemLeft" align="right" valign="top"><a id="ad1541c12c84a43c057f78b3473868861" name="ad1541c12c84a43c057f78b3473868861"></a>
+<tr class="memdesc:ga32ecc7927c01f7d7a09bd9081f06f11b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the VK_KHR_push_descriptor extension is available. <br /></td></tr>
+<tr class="separator:ga32ecc7927c01f7d7a09bd9081f06f11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf19e835716764bd983d2ba65c6d451e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#gaf19e835716764bd983d2ba65c6d451e7">g_vulkanDeviceHasUnifiedMemory</a> = false</td></tr>
+<tr class="memdesc:gaf19e835716764bd983d2ba65c6d451e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the Vulkan device is unified memory.  <a href="group__vksupport.html#gaf19e835716764bd983d2ba65c6d451e7">More...</a><br /></td></tr>
+<tr class="separator:gaf19e835716764bd983d2ba65c6d451e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1541c12c84a43c057f78b3473868861"><td class="memItemLeft" align="right" valign="top">
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_maxComputeGroupCount</b> [3] = {0}</td></tr>
-<tr class="separator:ad1541c12c84a43c057f78b3473868861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10cfb75c6eabddb10ab6cb51447ac50e"><td class="memItemLeft" align="right" valign="top"><a id="a10cfb75c6eabddb10ab6cb51447ac50e" name="a10cfb75c6eabddb10ab6cb51447ac50e"></a>
+<tr class="memdesc:gad1541c12c84a43c057f78b3473868861"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size of a Vulkan dispatch group for compute shaders, in each axis. <br /></td></tr>
+<tr class="separator:gad1541c12c84a43c057f78b3473868861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga10cfb75c6eabddb10ab6cb51447ac50e"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_vulkanDeviceIsIntelMesa</b> = false</td></tr>
-<tr class="separator:a10cfb75c6eabddb10ab6cb51447ac50e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad26debfe10990dd75571fadf4a7e21f4"><td class="memItemLeft" align="right" valign="top"><a id="ad26debfe10990dd75571fadf4a7e21f4" name="ad26debfe10990dd75571fadf4a7e21f4"></a>
+<tr class="memdesc:ga10cfb75c6eabddb10ab6cb51447ac50e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the Vulkan driver is Mesa on an Intel GPU. <br /></td></tr>
+<tr class="separator:ga10cfb75c6eabddb10ab6cb51447ac50e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad26debfe10990dd75571fadf4a7e21f4"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_vulkanDeviceIsAnyMesa</b> = false</td></tr>
-<tr class="separator:ad26debfe10990dd75571fadf4a7e21f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf2a2215d18fbebd198e44af283bb26a"><td class="memItemLeft" align="right" valign="top"><a id="aaf2a2215d18fbebd198e44af283bb26a" name="aaf2a2215d18fbebd198e44af283bb26a"></a>
+<tr class="memdesc:gad26debfe10990dd75571fadf4a7e21f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the Vulkan driver is Mesa on any GPU. <br /></td></tr>
+<tr class="separator:gad26debfe10990dd75571fadf4a7e21f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf2a2215d18fbebd198e44af283bb26a"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_vulkanDeviceIsMoltenVK</b> = false</td></tr>
-<tr class="separator:aaf2a2215d18fbebd198e44af283bb26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:gaaf2a2215d18fbebd198e44af283bb26a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the Vulkan driver is MoltenVK. <br /></td></tr>
+<tr class="separator:gaaf2a2215d18fbebd198e44af283bb26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Vulkan initialization. </p>
 <dl class="section author"><dt>Author</dt><dd>Andrew D. Zonenberg </dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a53c1c4f62dc4ad91a48a213cf9dc9df6" name="a53c1c4f62dc4ad91a48a213cf9dc9df6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53c1c4f62dc4ad91a48a213cf9dc9df6">&#9670;&nbsp;</a></span>IsDevicePreferred()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IsDevicePreferred </td>
-          <td>(</td>
-          <td class="paramtype">const vk::PhysicalDeviceProperties &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const vk::PhysicalDeviceProperties &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Checks if a given Vulkan device is "better" than another. </p>
-<p >True if we should use device B over A </p>
-
-</div>
-</div>
-<a id="a109653c843e94439433135d42e49415a" name="a109653c843e94439433135d42e49415a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a109653c843e94439433135d42e49415a">&#9670;&nbsp;</a></span>VulkanInit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool VulkanInit </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>skipGLFW</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialize a Vulkan context for compute. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">skipGLFW</td><td>Do not initalize GLFW (workaround for what looks like gtk or video driver bug). This should only be set true in glscopeclient. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a6298f13f63fb6f8cdcb0988c4ab20528" name="a6298f13f63fb6f8cdcb0988c4ab20528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6298f13f63fb6f8cdcb0988c4ab20528">&#9670;&nbsp;</a></span>g_vkQueueManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classQueueManager.html">QueueManager</a>&gt; g_vkQueueManager</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allocates <a class="el" href="classQueueHandle.html" title="Wrapper around a Vulkan Queue, protected by mutex for thread safety.">QueueHandle</a> objects. </p>
-<p >This is a single global resource, all QueueHandles must be obtained through this object. </p>
-
-</div>
-</div>
-<a id="aa112df5e5ac07738551aaf117d49130a" name="aa112df5e5ac07738551aaf117d49130a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa112df5e5ac07738551aaf117d49130a">&#9670;&nbsp;</a></span>g_vkTransferCommandBuffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unique_ptr&lt;vk::raii::CommandBuffer&gt; g_vkTransferCommandBuffer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Command buffer for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers. </p>
-<p >This is a single global resource interlocked by g_vkTransferMutex and is used for convenience and code simplicity when parallelism isn't that important. </p>
-
-</div>
-</div>
-<a id="ab3813c41c232be1620c12ae0ec27558c" name="ab3813c41c232be1620c12ae0ec27558c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3813c41c232be1620c12ae0ec27558c">&#9670;&nbsp;</a></span>g_vkTransferCommandPool</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unique_ptr&lt;vk::raii::CommandPool&gt; g_vkTransferCommandPool</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Command pool for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers. </p>
-<p >This is a single global resource interlocked by g_vkTransferMutex and is used for convenience and code simplicity when parallelism isn't that important. </p>
-
-</div>
-</div>
-<a id="abd2ceb9b89b40431159e2a081352647f" name="abd2ceb9b89b40431159e2a081352647f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd2ceb9b89b40431159e2a081352647f">&#9670;&nbsp;</a></span>g_vkTransferQueue</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">shared_ptr&lt;<a class="el" href="classQueueHandle.html">QueueHandle</a>&gt; g_vkTransferQueue</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Queue for <a class="el" href="classAcceleratorBuffer.html" title="A buffer of memory which may be used by GPU acceleration.">AcceleratorBuffer</a> transfers. </p>
-<p >This is a single global resource interlocked by g_vkTransferMutex and is used for convenience and code simplicity when parallelism isn't that important. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4

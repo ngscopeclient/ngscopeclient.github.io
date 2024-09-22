@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -130,8 +130,8 @@ $(function() {
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>{</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <a class="code hl_class" href="classUSB2PMAWaveform.html">USB2PMAWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;USB2PMASymbol&gt;</a>() {};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classUSB2PMAWaveform.html#ad5f41539194b85d0bee4c5542126cb5e">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classUSB2PMAWaveform.html#a30e9e0224397be341925fe542c7ca34e">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classUSB2PMADecoder.html">   74</a></span><span class="keyword">class </span><a class="code hl_class" href="classUSB2PMADecoder.html">USB2PMADecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classFilter.html">Filter</a></div>
@@ -163,12 +163,14 @@ $(function() {
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filters and protocol decoders.</div><div class="ttdef"><b>Definition:</b> Filter.h:82</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 <div class="ttc" id="aclassUSB2PMADecoder_html"><div class="ttname"><a href="classUSB2PMADecoder.html">USB2PMADecoder</a></div><div class="ttdef"><b>Definition:</b> USB2PMADecoder.h:75</div></div>
 <div class="ttc" id="aclassUSB2PMADecoder_html_a598cdb931a09391a9c8b72a444793083"><div class="ttname"><a href="classUSB2PMADecoder.html#a598cdb931a09391a9c8b72a444793083">USB2PMADecoder::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> USB2PMADecoder.cpp:80</div></div>
 <div class="ttc" id="aclassUSB2PMASymbol_html"><div class="ttname"><a href="classUSB2PMASymbol.html">USB2PMASymbol</a></div><div class="ttdoc">A single bit on a USB 1.x/2.x differential bus.</div><div class="ttdef"><b>Definition:</b> USB2PMADecoder.h:42</div></div>
 <div class="ttc" id="aclassUSB2PMAWaveform_html"><div class="ttname"><a href="classUSB2PMAWaveform.html">USB2PMAWaveform</a></div><div class="ttdef"><b>Definition:</b> USB2PMADecoder.h:67</div></div>
+<div class="ttc" id="aclassUSB2PMAWaveform_html_a30e9e0224397be341925fe542c7ca34e"><div class="ttname"><a href="classUSB2PMAWaveform.html#a30e9e0224397be341925fe542c7ca34e">USB2PMAWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> USB2PMADecoder.cpp:204</div></div>
+<div class="ttc" id="aclassUSB2PMAWaveform_html_ad5f41539194b85d0bee4c5542126cb5e"><div class="ttname"><a href="classUSB2PMAWaveform.html#ad5f41539194b85d0bee4c5542126cb5e">USB2PMAWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> USB2PMADecoder.cpp:223</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

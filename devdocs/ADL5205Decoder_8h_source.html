@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -125,8 +125,8 @@ $(function() {
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>{</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <a class="code hl_class" href="classADL5205Waveform.html">ADL5205Waveform</a> (<span class="keyword">const</span> std::string&amp; color) : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;ADL5205Symbol&gt;</a>(), m_color(color) {};</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classADL5205Waveform.html#a8ee6bebc377393bef5fbbceebcf55d48">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classADL5205Waveform.html#a0f46364f73546074998c88a525735284">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keyword">const</span> std::string&amp; m_color;</div>
@@ -151,8 +151,10 @@ $(function() {
 <div class="ttc" id="aclassADL5205Decoder_html_aa2f53079336883aaf52e646a7e59baa3"><div class="ttname"><a href="classADL5205Decoder.html#aa2f53079336883aaf52e646a7e59baa3">ADL5205Decoder::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> ADL5205Decoder.cpp:71</div></div>
 <div class="ttc" id="aclassADL5205Symbol_html"><div class="ttname"><a href="classADL5205Symbol.html">ADL5205Symbol</a></div><div class="ttdef"><b>Definition:</b> ADL5205Decoder.h:39</div></div>
 <div class="ttc" id="aclassADL5205Waveform_html"><div class="ttname"><a href="classADL5205Waveform.html">ADL5205Waveform</a></div><div class="ttdef"><b>Definition:</b> ADL5205Decoder.h:59</div></div>
+<div class="ttc" id="aclassADL5205Waveform_html_a0f46364f73546074998c88a525735284"><div class="ttname"><a href="classADL5205Waveform.html#a0f46364f73546074998c88a525735284">ADL5205Waveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> ADL5205Decoder.cpp:162</div></div>
+<div class="ttc" id="aclassADL5205Waveform_html_a8ee6bebc377393bef5fbbceebcf55d48"><div class="ttname"><a href="classADL5205Waveform.html#a8ee6bebc377393bef5fbbceebcf55d48">ADL5205Waveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> ADL5205Decoder.cpp:167</div></div>
 <div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filters and protocol decoders.</div><div class="ttdef"><b>Definition:</b> Filter.h:82</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

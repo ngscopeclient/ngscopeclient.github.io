@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -65,11 +65,11 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classBufferedSwitchMatrixOutputChannel-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">BufferedSwitchMatrixOutputChannel Class Reference</div></div>
+  <div class="headertitle"><div class="title">BufferedSwitchMatrixOutputChannel Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>An output channel of a buffered switch matrix.  
+<p>Declaration of <a class="el" href="classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel.">BufferedSwitchMatrixOutputChannel</a>.  
  <a href="classBufferedSwitchMatrixOutputChannel.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="BufferedSwitchMatrixOutputChannel_8h_source.html">BufferedSwitchMatrixOutputChannel.h</a>&gt;</code></p>
@@ -78,7 +78,7 @@ Inheritance diagram for BufferedSwitchMatrixOutputChannel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classBufferedSwitchMatrixOutputChannel__inherit__graph.png" border="0" usemap="#aBufferedSwitchMatrixOutputChannel_inherit__map" alt="Inheritance graph"/></div>
 <map name="aBufferedSwitchMatrixOutputChannel_inherit__map" id="aBufferedSwitchMatrixOutputChannel_inherit__map">
-<area shape="rect" title="An output channel of a buffered switch matrix." alt="" coords="5,229,212,271"/>
+<area shape="rect" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="5,229,212,271"/>
 <area shape="rect" href="classDigitalOutputChannel.html" title="A digital output channel (GPIO or similar)" alt="" coords="27,155,190,181"/>
 <area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="35,80,182,107"/>
 <area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="45,5,172,32"/>
@@ -89,7 +89,7 @@ Collaboration diagram for BufferedSwitchMatrixOutputChannel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classBufferedSwitchMatrixOutputChannel__coll__graph.png" border="0" usemap="#aBufferedSwitchMatrixOutputChannel_coll__map" alt="Collaboration graph"/></div>
 <map name="aBufferedSwitchMatrixOutputChannel_coll__map" id="aBufferedSwitchMatrixOutputChannel_coll__map">
-<area shape="rect" title="An output channel of a buffered switch matrix." alt="" coords="84,337,291,379"/>
+<area shape="rect" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="84,337,291,379"/>
 <area shape="rect" href="classDigitalOutputChannel.html" title="A digital output channel (GPIO or similar)" alt="" coords="106,261,269,288"/>
 <area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="114,185,261,212"/>
 <area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,96,132,123"/>
@@ -101,8 +101,8 @@ Collaboration diagram for BufferedSwitchMatrixOutputChannel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa9c842364e558b863729fd766cb9cbd4"><td class="memItemLeft" align="right" valign="top"><a id="aa9c842364e558b863729fd766cb9cbd4" name="aa9c842364e558b863729fd766cb9cbd4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BufferedSwitchMatrixOutputChannel</b> (const std::string &amp;hwname, <a class="el" href="classSwitchMatrix.html">SwitchMatrix</a> *parent, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</td></tr>
+<tr class="memitem:aa9c842364e558b863729fd766cb9cbd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBufferedSwitchMatrixOutputChannel.html#aa9c842364e558b863729fd766cb9cbd4">BufferedSwitchMatrixOutputChannel</a> (const std::string &amp;hwname, <a class="el" href="classSwitchMatrix.html">SwitchMatrix</a> *parent, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</td></tr>
+<tr class="memdesc:aa9c842364e558b863729fd766cb9cbd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the output channel.  <a href="classBufferedSwitchMatrixOutputChannel.html#aa9c842364e558b863729fd766cb9cbd4">More...</a><br /></td></tr>
 <tr class="separator:aa9c842364e558b863729fd766cb9cbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad82fed282921b1760b8223ec65dc48e6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBufferedSwitchMatrixOutputChannel.html#ad82fed282921b1760b8223ec65dc48e6">ValidateChannel</a> (size_t i, <a class="el" href="classStreamDescriptor.html">StreamDescriptor</a> stream) override</td></tr>
 <tr class="separator:ad82fed282921b1760b8223ec65dc48e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,15 +111,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a335a956e2ac2a4c9de88e20249e11577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a247c8d12bba2462e0fe390565762d2f6"><td class="memItemLeft" align="right" valign="top"><a id="a247c8d12bba2462e0fe390565762d2f6" name="a247c8d12bba2462e0fe390565762d2f6"></a>
 <a class="el" href="classSwitchMatrix.html">SwitchMatrix</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetSwitchMatrix</b> ()</td></tr>
+<tr class="memdesc:a247c8d12bba2462e0fe390565762d2f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the switch matrix this channel is part of. <br /></td></tr>
 <tr class="separator:a247c8d12bba2462e0fe390565762d2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bb30bf4946d98f9e8f7993ed9cb888d"><td class="memItemLeft" align="right" valign="top"><a id="a5bb30bf4946d98f9e8f7993ed9cb888d" name="a5bb30bf4946d98f9e8f7993ed9cb888d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>MuxHasConfigurableDrive</b> ()</td></tr>
+<tr class="memdesc:a5bb30bf4946d98f9e8f7993ed9cb888d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the channel has configurable output drive voltage. <br /></td></tr>
 <tr class="separator:a5bb30bf4946d98f9e8f7993ed9cb888d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4258685e642c1b78cdc7199c85c6cff4"><td class="memItemLeft" align="right" valign="top"><a id="a4258685e642c1b78cdc7199c85c6cff4" name="a4258685e642c1b78cdc7199c85c6cff4"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GetMuxOutputDrive</b> ()</td></tr>
+<tr class="memdesc:a4258685e642c1b78cdc7199c85c6cff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the output port drive voltage. <br /></td></tr>
 <tr class="separator:a4258685e642c1b78cdc7199c85c6cff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a017b56ca27d91742592ef6cefed19c67"><td class="memItemLeft" align="right" valign="top"><a id="a017b56ca27d91742592ef6cefed19c67" name="a017b56ca27d91742592ef6cefed19c67"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMuxOutputDrive</b> (float v)</td></tr>
+<tr class="memitem:a017b56ca27d91742592ef6cefed19c67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBufferedSwitchMatrixOutputChannel.html#a017b56ca27d91742592ef6cefed19c67">SetMuxOutputDrive</a> (float v)</td></tr>
+<tr class="memdesc:a017b56ca27d91742592ef6cefed19c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the output port drive voltage.  <a href="classBufferedSwitchMatrixOutputChannel.html#a017b56ca27d91742592ef6cefed19c67">More...</a><br /></td></tr>
 <tr class="separator:a017b56ca27d91742592ef6cefed19c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classDigitalOutputChannel"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classDigitalOutputChannel')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classDigitalOutputChannel.html">DigitalOutputChannel</a></td></tr>
 <tr class="memitem:ab3b2d1ea7e26ebb7e2af92cf5e871c41 inherit pub_methods_classDigitalOutputChannel"><td class="memItemLeft" align="right" valign="top"><a id="ab3b2d1ea7e26ebb7e2af92cf5e871c41" name="ab3b2d1ea7e26ebb7e2af92cf5e871c41"></a>
@@ -402,8 +405,61 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="separator:aa0fc7a721126c545ebd58a232f65cc8b inherit pro_attribs_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >An output channel of a buffered switch matrix. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p >Declaration of <a class="el" href="classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel.">BufferedSwitchMatrixOutputChannel</a>. </p>
+<p >An output channel of a buffered switch matrix </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa9c842364e558b863729fd766cb9cbd4" name="aa9c842364e558b863729fd766cb9cbd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9c842364e558b863729fd766cb9cbd4">&#9670;&nbsp;</a></span>BufferedSwitchMatrixOutputChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BufferedSwitchMatrixOutputChannel::BufferedSwitchMatrixOutputChannel </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>hwname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSwitchMatrix.html">SwitchMatrix</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>color</em> = <code>&quot;#808080&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the output channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hwname</td><td>Hardware name of the channel </td></tr>
+    <tr><td class="paramname">parent</td><td>Switch matrix the channel is part of </td></tr>
+    <tr><td class="paramname">color</td><td>Initial display color of the channel </td></tr>
+    <tr><td class="paramname">index</td><td>Number of the channel </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a335a956e2ac2a4c9de88e20249e11577" name="a335a956e2ac2a4c9de88e20249e11577"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a335a956e2ac2a4c9de88e20249e11577">&#9670;&nbsp;</a></span>OnInputChanged()</h2>
 
@@ -433,6 +489,40 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <p >For example, instrument channels may make hardware changes as soon as a new input is connected. </p>
 
 <p>Reimplemented from <a class="el" href="classFlowGraphNode.html#ada5543cf97afcba4eb75077ed8bf03c0">FlowGraphNode</a>.</p>
+
+</div>
+</div>
+<a id="a017b56ca27d91742592ef6cefed19c67" name="a017b56ca27d91742592ef6cefed19c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a017b56ca27d91742592ef6cefed19c67">&#9670;&nbsp;</a></span>SetMuxOutputDrive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BufferedSwitchMatrixOutputChannel::SetMuxOutputDrive </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the output port drive voltage. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Output drive voltage, in volts </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

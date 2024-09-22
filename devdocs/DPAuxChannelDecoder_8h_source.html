@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -143,8 +143,8 @@ $(function() {
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>{</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_class" href="classDPAuxWaveform.html">DPAuxWaveform</a> () : <a class="code hl_class" href="classSparseWaveform.html">SparseWaveform&lt;DPAuxSymbol&gt;</a>() {};</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keyword">virtual</span> std::string GetText(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">virtual</span> std::string GetColor(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classDPAuxWaveform.html#a5bd93f63b50a7ec1b58b6376c23e018e">GetText</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classDPAuxWaveform.html#a35c6afb550b37dfd3266c942b50a7638">GetColor</a>(<span class="keywordtype">size_t</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>};</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classDPAuxChannelDecoder.html">   84</a></span><span class="keyword">class </span><a class="code hl_class" href="classDPAuxChannelDecoder.html">DPAuxChannelDecoder</a> : <span class="keyword">public</span> <a class="code hl_class" href="classPacketDecoder.html">PacketDecoder</a></div>
@@ -207,11 +207,13 @@ $(function() {
 <div class="ttc" id="aclassDPAuxChannelDecoder_html_ada2503482d07b78aa001a24254f2e57a"><div class="ttname"><a href="classDPAuxChannelDecoder.html#ada2503482d07b78aa001a24254f2e57a">DPAuxChannelDecoder::CanMerge</a></div><div class="ttdeci">virtual bool CanMerge(Packet *first, Packet *cur, Packet *next) override</div><div class="ttdoc">Checks if multiple packets can be merged under a single heading in the protocol analyzer view.</div><div class="ttdef"><b>Definition:</b> DPAuxChannelDecoder.cpp:1906</div></div>
 <div class="ttc" id="aclassDPAuxSymbol_html"><div class="ttname"><a href="classDPAuxSymbol.html">DPAuxSymbol</a></div><div class="ttdef"><b>Definition:</b> DPAuxChannelDecoder.h:41</div></div>
 <div class="ttc" id="aclassDPAuxWaveform_html"><div class="ttname"><a href="classDPAuxWaveform.html">DPAuxWaveform</a></div><div class="ttdef"><b>Definition:</b> DPAuxChannelDecoder.h:77</div></div>
+<div class="ttc" id="aclassDPAuxWaveform_html_a35c6afb550b37dfd3266c942b50a7638"><div class="ttname"><a href="classDPAuxWaveform.html#a35c6afb550b37dfd3266c942b50a7638">DPAuxWaveform::GetColor</a></div><div class="ttdeci">virtual std::string GetColor(size_t) override</div><div class="ttdoc">Returns the displayed color (in HTML #rrggbb or #rrggbbaa notation) of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> DPAuxChannelDecoder.cpp:2071</div></div>
+<div class="ttc" id="aclassDPAuxWaveform_html_a5bd93f63b50a7ec1b58b6376c23e018e"><div class="ttname"><a href="classDPAuxWaveform.html#a5bd93f63b50a7ec1b58b6376c23e018e">DPAuxWaveform::GetText</a></div><div class="ttdeci">virtual std::string GetText(size_t) override</div><div class="ttdoc">Returns the text representation of a given protocol sample.</div><div class="ttdef"><b>Definition:</b> DPAuxChannelDecoder.cpp:2104</div></div>
 <div class="ttc" id="aclassPacketDecoder_html"><div class="ttname"><a href="classPacketDecoder.html">PacketDecoder</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:85</div></div>
 <div class="ttc" id="aclassPacket_html"><div class="ttname"><a href="classPacket.html">Packet</a></div><div class="ttdef"><b>Definition:</b> PacketDecoder.h:40</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:329</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
-<div class="ttc" id="aclassUniformWaveform_html"><div class="ttname"><a href="classUniformWaveform.html">UniformWaveform</a></div><div class="ttdoc">A waveform sampled at uniform intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:253</div></div>
+<div class="ttc" id="aclassUniformWaveform_html"><div class="ttname"><a href="classUniformWaveform.html">UniformWaveform</a></div><div class="ttdoc">A waveform sampled at uniform intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:359</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

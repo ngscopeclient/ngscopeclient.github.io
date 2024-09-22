@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
    </div>
   </td>
  </tr>
@@ -131,7 +131,7 @@ $(function() {
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        buf.<a class="code hl_function" href="classAcceleratorBuffer.html#a88c7c569893ac1992d8768c35ad48b4b">PrepareForGpuAccess</a>(outputOnly);</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <a class="code hl_variable" href="classComputePipeline.html#aa397d2b7cfb3a435d43f13d4a8d6cc50">m_bufferInfo</a>[i] = buf.<a class="code hl_function" href="classAcceleratorBuffer.html#a1bce9a2246e0d7dbb1c082040da57ace">GetBufferInfo</a>();</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">if</span>(g_hasPushDescriptor)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        {</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            <a class="code hl_variable" href="classComputePipeline.html#a5613552eeee73b7d2e997d9b0739f520">m_writeDescriptors</a>[i] =</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                vk::WriteDescriptorSet(<span class="keyword">nullptr</span>, i, 0, vk::DescriptorType::eStorageBuffer, {}, <a class="code hl_variable" href="classComputePipeline.html#aa397d2b7cfb3a435d43f13d4a8d6cc50">m_bufferInfo</a>[i]);</div>
@@ -151,7 +151,7 @@ $(function() {
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordtype">size_t</span> numImage = i - <a class="code hl_variable" href="classComputePipeline.html#aeed3ca9f9a759dc77708ea565c8f8490">m_numSSBOs</a>;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <a class="code hl_variable" href="classComputePipeline.html#af00e31c9e8acb6389d7b82b8ba0b901a">m_storageImageInfo</a>[numImage] = vk::DescriptorImageInfo(sampler, view, layout);</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        <span class="keywordflow">if</span>(g_hasPushDescriptor)</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        {</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>            <a class="code hl_variable" href="classComputePipeline.html#a5613552eeee73b7d2e997d9b0739f520">m_writeDescriptors</a>[i] = vk::WriteDescriptorSet(</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                <span class="keyword">nullptr</span>, i, 0, vk::DescriptorType::eStorageImage, <a class="code hl_variable" href="classComputePipeline.html#af00e31c9e8acb6389d7b82b8ba0b901a">m_storageImageInfo</a>[numImage]);</div>
@@ -171,7 +171,7 @@ $(function() {
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        <span class="keywordtype">size_t</span> numImage = i - (<a class="code hl_variable" href="classComputePipeline.html#aeed3ca9f9a759dc77708ea565c8f8490">m_numSSBOs</a> + <a class="code hl_variable" href="classComputePipeline.html#a1b431cc54d7fe8f83dca28e7a58e3f80">m_numStorageImages</a>);</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        <a class="code hl_variable" href="classComputePipeline.html#ad8da1987e30753c8257c869b739d0261">m_sampledImageInfo</a>[numImage] = vk::DescriptorImageInfo(sampler, view, layout);</div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        <span class="keywordflow">if</span>(g_hasPushDescriptor)</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        {</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>            <a class="code hl_variable" href="classComputePipeline.html#a5613552eeee73b7d2e997d9b0739f520">m_writeDescriptors</a>[i] = vk::WriteDescriptorSet(</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>                <span class="keyword">nullptr</span>, i, 0, vk::DescriptorType::eCombinedImageSampler, <a class="code hl_variable" href="classComputePipeline.html#ad8da1987e30753c8257c869b739d0261">m_sampledImageInfo</a>[numImage]);</div>
@@ -199,7 +199,7 @@ $(function() {
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        buf.<a class="code hl_function" href="classAcceleratorBuffer.html#aa92643da744d1c68cbc59f98ee0b4bb5">PrepareForGpuAccessNonblocking</a>(outputOnly, cmdBuf);</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        <a class="code hl_variable" href="classComputePipeline.html#aa397d2b7cfb3a435d43f13d4a8d6cc50">m_bufferInfo</a>[i] = buf.<a class="code hl_function" href="classAcceleratorBuffer.html#a1bce9a2246e0d7dbb1c082040da57ace">GetBufferInfo</a>();</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        <span class="keywordflow">if</span>(g_hasPushDescriptor)</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        {</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>            <a class="code hl_variable" href="classComputePipeline.html#a5613552eeee73b7d2e997d9b0739f520">m_writeDescriptors</a>[i] =</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>                vk::WriteDescriptorSet(<span class="keyword">nullptr</span>, i, 0, vk::DescriptorType::eStorageBuffer, {}, <a class="code hl_variable" href="classComputePipeline.html#aa397d2b7cfb3a435d43f13d4a8d6cc50">m_bufferInfo</a>[i]);</div>
@@ -232,8 +232,8 @@ $(function() {
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="classComputePipeline.html#ab33531d005941d27ab2d8be69f2e14f0">  242</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComputePipeline.html#ab33531d005941d27ab2d8be69f2e14f0">Dispatch</a>(vk::raii::CommandBuffer&amp; cmdBuf, T pushConstants, uint32_t x, uint32_t y=1, uint32_t z=1)</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    {</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        <span class="keywordflow">if</span>(!g_hasPushDescriptor)</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>            <a class="code hl_variable" href="AcceleratorBuffer_8h.html#ab6bf68c92c2f2c4540ed92367c9e00e2">g_vkComputeDevice</a>-&gt;updateDescriptorSets(<a class="code hl_variable" href="classComputePipeline.html#a5613552eeee73b7d2e997d9b0739f520">m_writeDescriptors</a>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        <span class="keywordflow">if</span>(!<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>            <a class="code hl_variable" href="group__vksupport.html#ga945c2c77ece3cb4606a1adcd4d2dd25e">g_vkComputeDevice</a>-&gt;updateDescriptorSets(<a class="code hl_variable" href="classComputePipeline.html#a5613552eeee73b7d2e997d9b0739f520">m_writeDescriptors</a>, <span class="keyword">nullptr</span>);</div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        <a class="code hl_function" href="classComputePipeline.html#ab8535e88a4ff422b7b26594f5c0eeddc">Bind</a>(cmdBuf);</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        cmdBuf.pushConstants&lt;T&gt;(</div>
@@ -242,7 +242,7 @@ $(function() {
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>            0,</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>            pushConstants);</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        <span class="keywordflow">if</span>(g_hasPushDescriptor)</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>        {</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            cmdBuf.pushDescriptorSetKHR(</div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>                vk::PipelineBindPoint::eCompute,</div>
@@ -266,7 +266,7 @@ $(function() {
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno"><a class="line" href="classComputePipeline.html#a9c4186a6d98e53cf176b5bce11b9ff24">  291</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComputePipeline.html#a9c4186a6d98e53cf176b5bce11b9ff24">DispatchNoRebind</a>(vk::raii::CommandBuffer&amp; cmdBuf, T pushConstants, uint32_t x, uint32_t y=1, uint32_t z=1)</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    {</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        <span class="keywordflow">if</span>(g_hasPushDescriptor)</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        {</div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>            cmdBuf.pushDescriptorSetKHR(</div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>                vk::PipelineBindPoint::eCompute,</div>
@@ -320,7 +320,6 @@ $(function() {
 <div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span> </div>
 <div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aAcceleratorBuffer_8h_html"><div class="ttname"><a href="AcceleratorBuffer_8h.html">AcceleratorBuffer.h</a></div><div class="ttdoc">Declaration of AcceleratorBuffer.</div></div>
-<div class="ttc" id="aAcceleratorBuffer_8h_html_ab6bf68c92c2f2c4540ed92367c9e00e2"><div class="ttname"><a href="AcceleratorBuffer_8h.html#ab6bf68c92c2f2c4540ed92367c9e00e2">g_vkComputeDevice</a></div><div class="ttdeci">std::shared_ptr&lt; vk::raii::Device &gt; g_vkComputeDevice</div><div class="ttdoc">The Vulkan device selected for compute operations (may or may not be same device as rendering)</div><div class="ttdef"><b>Definition:</b> VulkanInit.cpp:67</div></div>
 <div class="ttc" id="aclassAcceleratorBuffer_html"><div class="ttname"><a href="classAcceleratorBuffer.html">AcceleratorBuffer</a></div><div class="ttdoc">A buffer of memory which may be used by GPU acceleration.</div><div class="ttdef"><b>Definition:</b> AcceleratorBuffer.h:126</div></div>
 <div class="ttc" id="aclassAcceleratorBuffer_html_a066907af139322815b19acd656fa14f4"><div class="ttname"><a href="classAcceleratorBuffer.html#a066907af139322815b19acd656fa14f4">AcceleratorBuffer::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdoc">Returns true if the container is empty.</div><div class="ttdef"><b>Definition:</b> AcceleratorBuffer.h:359</div></div>
 <div class="ttc" id="aclassAcceleratorBuffer_html_a1bce9a2246e0d7dbb1c082040da57ace"><div class="ttname"><a href="classAcceleratorBuffer.html#a1bce9a2246e0d7dbb1c082040da57ace">AcceleratorBuffer::GetBufferInfo</a></div><div class="ttdeci">vk::DescriptorBufferInfo GetBufferInfo()</div><div class="ttdoc">Returns a vk::DescriptorBufferInfo suitable for binding this object to.</div><div class="ttdef"><b>Definition:</b> AcceleratorBuffer.h:414</div></div>
@@ -353,6 +352,8 @@ $(function() {
 <div class="ttc" id="aclassComputePipeline_html_aeed3ca9f9a759dc77708ea565c8f8490"><div class="ttname"><a href="classComputePipeline.html#aeed3ca9f9a759dc77708ea565c8f8490">ComputePipeline::m_numSSBOs</a></div><div class="ttdeci">size_t m_numSSBOs</div><div class="ttdoc">Number of SSBO bindings in the shader.</div><div class="ttdef"><b>Definition:</b> ComputePipeline.h:318</div></div>
 <div class="ttc" id="aclassComputePipeline_html_af00e31c9e8acb6389d7b82b8ba0b901a"><div class="ttname"><a href="classComputePipeline.html#af00e31c9e8acb6389d7b82b8ba0b901a">ComputePipeline::m_storageImageInfo</a></div><div class="ttdeci">std::vector&lt; vk::DescriptorImageInfo &gt; m_storageImageInfo</div><div class="ttdoc">Details about our output images.</div><div class="ttdef"><b>Definition:</b> ComputePipeline.h:354</div></div>
 <div class="ttc" id="aclassComputePipeline_html_afeeca71c68bc083915b0fe8a0d4a23cc"><div class="ttname"><a href="classComputePipeline.html#afeeca71c68bc083915b0fe8a0d4a23cc">ComputePipeline::DeferredInit</a></div><div class="ttdeci">void DeferredInit()</div><div class="ttdoc">Performs deferred initialization of the compute pipeline the first time the object is used.</div><div class="ttdef"><b>Definition:</b> ComputePipeline.cpp:128</div></div>
+<div class="ttc" id="agroup__vksupport_html_ga32ecc7927c01f7d7a09bd9081f06f11b"><div class="ttname"><a href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a></div><div class="ttdeci">bool g_hasPushDescriptor</div><div class="ttdoc">Indicates whether the VK_KHR_push_descriptor extension is available.</div><div class="ttdef"><b>Definition:</b> VulkanInit.cpp:207</div></div>
+<div class="ttc" id="agroup__vksupport_html_ga945c2c77ece3cb4606a1adcd4d2dd25e"><div class="ttname"><a href="group__vksupport.html#ga945c2c77ece3cb4606a1adcd4d2dd25e">g_vkComputeDevice</a></div><div class="ttdeci">std::shared_ptr&lt; vk::raii::Device &gt; g_vkComputeDevice</div><div class="ttdoc">The Vulkan device selected for compute operations (may or may not be same device as rendering)</div><div class="ttdef"><b>Definition:</b> VulkanInit.cpp:71</div></div>
 <div class="ttc" id="ascopehal_8h_html"><div class="ttname"><a href="scopehal_8h.html">scopehal.h</a></div><div class="ttdoc">Main library include file.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
