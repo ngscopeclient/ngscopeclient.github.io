@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
    </div>
   </td>
  </tr>
@@ -115,19 +115,37 @@ Collaboration diagram for SiglentSCPIOscilloscope:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a8780a45cfbf7ef985a69d6b4fbe0af5b"><td class="memItemLeft" align="right" valign="top"><a id="a8780a45cfbf7ef985a69d6b4fbe0af5b" name="a8780a45cfbf7ef985a69d6b4fbe0af5b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Protocol</b> { <b>PROTOCOL_SPO</b>
+, <b>PROTOCOL_ESERIES</b>
+, <b>PROTOCOL_E11</b>
+, <b>PROTOCOL_UNKNOWN</b>
+ }</td></tr>
+<tr class="separator:a8780a45cfbf7ef985a69d6b4fbe0af5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace616dc972e038039e8d75c2e9c3dfb0"><td class="memItemLeft" align="right" valign="top"><a id="ace616dc972e038039e8d75c2e9c3dfb0" name="ace616dc972e038039e8d75c2e9c3dfb0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Model</b> { <br />
 &#160;&#160;<b>MODEL_SIGLENT_SDS800X_HD</b>
 , <b>MODEL_SIGLENT_SDS1000</b>
+, <b>MODEL_SIGLENT_SDS1000X_HD</b>
 , <b>MODEL_SIGLENT_SDS2000XE</b>
-, <b>MODEL_SIGLENT_SDS2000XP</b>
 , <br />
-&#160;&#160;<b>MODEL_SIGLENT_SDS2000X_HD</b>
+&#160;&#160;<b>MODEL_SIGLENT_SDS2000XP</b>
+, <b>MODEL_SIGLENT_SDS2000X_HD</b>
+, <b>MODEL_SIGLENT_SDS3000X_HD</b>
 , <b>MODEL_SIGLENT_SDS5000X</b>
+, <br />
+&#160;&#160;<b>MODEL_SIGLENT_SDS6000L</b>
 , <b>MODEL_SIGLENT_SDS6000A</b>
-, <b>MODEL_UNKNOWN</b>
+, <b>MODEL_SIGLENT_SDS6000PRO</b>
+, <b>MODEL_SIGLENT_SDS7000A</b>
+, <br />
+&#160;&#160;<b>MODEL_UNKNOWN</b>
 <br />
  }</td></tr>
 <tr class="separator:ace616dc972e038039e8d75c2e9c3dfb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5415dcef121ecf5183c27995e410b8e1"><td class="memItemLeft" align="right" valign="top"><a id="a5415dcef121ecf5183c27995e410b8e1" name="a5415dcef121ecf5183c27995e410b8e1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ChannelMode</b> { <b>CHANNEL_MODE_SINGLE</b>
+, <b>CHANNEL_MODE_DUAL</b>
+, <b>CHANNEL_MODE_MULTI</b>
+ }</td></tr>
+<tr class="separator:a5415dcef121ecf5183c27995e410b8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa52789832da2eb67ba04da0ff1db2484"><td class="memItemLeft" align="right" valign="top"><a id="aa52789832da2eb67ba04da0ff1db2484" name="aa52789832da2eb67ba04da0ff1db2484"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ADCMode</b> { <b>ADC_MODE_8BIT</b> = 0
 , <b>ADC_MODE_10BIT</b> = 1
  }</td></tr>
@@ -1039,6 +1057,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a11709c0850b0e312117192f996119b03"><td class="memItemLeft" align="right" valign="top"><a id="a11709c0850b0e312117192f996119b03" name="a11709c0850b0e312117192f996119b03"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>IdentifyHardware</b> ()</td></tr>
 <tr class="separator:a11709c0850b0e312117192f996119b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc39c5b79f2a1c85cb0971b5b4124ad"><td class="memItemLeft" align="right" valign="top"><a id="a3bc39c5b79f2a1c85cb0971b5b4124ad" name="a3bc39c5b79f2a1c85cb0971b5b4124ad"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DetectBandwidth</b> ()</td></tr>
+<tr class="separator:a3bc39c5b79f2a1c85cb0971b5b4124ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa2486641e3ecacd8470cc2fb10579b"><td class="memItemLeft" align="right" valign="top"><a id="acaa2486641e3ecacd8470cc2fb10579b" name="acaa2486641e3ecacd8470cc2fb10579b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SharedCtorInit</b> ()</td></tr>
 <tr class="separator:acaa2486641e3ecacd8470cc2fb10579b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1056,6 +1077,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DetectOptions</b> ()<
 <tr class="memitem:ab68e88f20327bcad2f05766ace630bec"><td class="memItemLeft" align="right" valign="top"><a id="ab68e88f20327bcad2f05766ace630bec" name="ab68e88f20327bcad2f05766ace630bec"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ParseFirmwareVersion</b> ()</td></tr>
 <tr class="separator:ab68e88f20327bcad2f05766ace630bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8516366061c1de473983a45468819ec0"><td class="memItemLeft" align="right" valign="top"><a id="a8516366061c1de473983a45468819ec0" name="a8516366061c1de473983a45468819ec0"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaxPoints</b> ()</td></tr>
+<tr class="separator:a8516366061c1de473983a45468819ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc4df6c7bd7e593ae874442f6ed4281f"><td class="memItemLeft" align="right" valign="top"><a id="afc4df6c7bd7e593ae874442f6ed4281f" name="afc4df6c7bd7e593ae874442f6ed4281f"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetAcqPoints</b> ()</td></tr>
+<tr class="separator:afc4df6c7bd7e593ae874442f6ed4281f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa770738dd12b4cecc67c807f08f8e8a8"><td class="memItemLeft" align="right" valign="top"><a id="aa770738dd12b4cecc67c807f08f8e8a8" name="aa770738dd12b4cecc67c807f08f8e8a8"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDigitalAcqPoints</b> ()</td></tr>
+<tr class="separator:aa770738dd12b4cecc67c807f08f8e8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a402300f2cd201c0eda89490879daa383"><td class="memItemLeft" align="right" valign="top"><a id="a402300f2cd201c0eda89490879daa383" name="a402300f2cd201c0eda89490879daa383"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PullDropoutTrigger</b> ()</td></tr>
 <tr class="memdesc:a402300f2cd201c0eda89490879daa383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads settings for a dropout trigger from the instrument. <br /></td></tr>
@@ -1084,10 +1114,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PullUartTrigger</b> (
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PullWindowTrigger</b> ()</td></tr>
 <tr class="memdesc:a856226481809fa351ce188b616c0d192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads settings for a window trigger from the instrument. <br /></td></tr>
 <tr class="separator:a856226481809fa351ce188b616c0d192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaea8f5b5064f107e5baec179ba9c4235"><td class="memItemLeft" align="right" valign="top"><a id="aaea8f5b5064f107e5baec179ba9c4235" name="aaea8f5b5064f107e5baec179ba9c4235"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PullTriggerSource</b> (<a class="el" href="classTrigger.html">Trigger</a> *trig, std::string triggerModeName)</td></tr>
-<tr class="memdesc:aaea8f5b5064f107e5baec179ba9c4235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the source of a trigger from the instrument. <br /></td></tr>
-<tr class="separator:aaea8f5b5064f107e5baec179ba9c4235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a3572456c157487aa26e4977f25cf6"><td class="memItemLeft" align="right" valign="top"><a id="a13a3572456c157487aa26e4977f25cf6" name="a13a3572456c157487aa26e4977f25cf6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PullTriggerSource</b> (<a class="el" href="classTrigger.html">Trigger</a> *trig, std::string triggerModeName, bool isUart)</td></tr>
+<tr class="memdesc:a13a3572456c157487aa26e4977f25cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the source of a trigger from the instrument. <br /></td></tr>
+<tr class="separator:a13a3572456c157487aa26e4977f25cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13a46e2c5676ebe1e5f81cc5faf7175d"><td class="memItemLeft" align="right" valign="top"><a id="a13a46e2c5676ebe1e5f81cc5faf7175d" name="a13a46e2c5676ebe1e5f81cc5faf7175d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>GetTriggerSlope</b> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig, std::string reply)</td></tr>
 <tr class="memdesc:a13a46e2c5676ebe1e5f81cc5faf7175d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes the slope for an edge or edge-derived trigger. <br /></td></tr>
@@ -1141,15 +1171,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PushWindowTrigger</b>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>BulkCheckChannelEnableState</b> ()</td></tr>
 <tr class="memdesc:abc580e1d3913fcaf18b978b32293d769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimized function for checking channel enable status en masse with less round trips to the scope. <br /></td></tr>
 <tr class="separator:abc580e1d3913fcaf18b978b32293d769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab176eeee940399e8c548f9e536f7fcb5"><td class="memItemLeft" align="right" valign="top"><a id="ab176eeee940399e8c548f9e536f7fcb5" name="ab176eeee940399e8c548f9e536f7fcb5"></a>
+ChannelMode&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelMode</b> ()</td></tr>
+<tr class="separator:ab176eeee940399e8c548f9e536f7fcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae45550bfb1d8470b5f80d092753d6432"><td class="memItemLeft" align="right" valign="top"><a id="ae45550bfb1d8470b5f80d092753d6432" name="ae45550bfb1d8470b5f80d092753d6432"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PrepareAcquisition</b> ()</td></tr>
+<tr class="separator:ae45550bfb1d8470b5f80d092753d6432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf2e33996d0f1638c8f7ec689b5bfd71"><td class="memItemLeft" align="right" valign="top"><a id="aaf2e33996d0f1638c8f7ec689b5bfd71" name="aaf2e33996d0f1638c8f7ec689b5bfd71"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPossiblyEmptyString</b> (const std::string &amp;property)</td></tr>
 <tr class="separator:aaf2e33996d0f1638c8f7ec689b5bfd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74b33cabe1d77db2ca57d1e3cce6791b"><td class="memItemLeft" align="right" valign="top"><a id="a74b33cabe1d77db2ca57d1e3cce6791b" name="a74b33cabe1d77db2ca57d1e3cce6791b"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>ReadWaveformBlock</b> (uint32_t maxsize, char *data, bool hdSizeWorkaround=false)</td></tr>
 <tr class="separator:a74b33cabe1d77db2ca57d1e3cce6791b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a028332ec421856897c8ef103c3d108d5"><td class="memItemLeft" align="right" valign="top"><a id="a028332ec421856897c8ef103c3d108d5" name="a028332ec421856897c8ef103c3d108d5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadWavedescs</b> (char wavedescs[MAX_ANALOG][WAVEDESC_SIZE], bool *enabled, unsigned int &amp;firstEnabledChannel, bool &amp;any_enabled)</td></tr>
-<tr class="separator:a028332ec421856897c8ef103c3d108d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5462ca885fef0aa27aef2ffa8cf48c"><td class="memItemLeft" align="right" valign="top"><a id="a9a5462ca885fef0aa27aef2ffa8cf48c" name="a9a5462ca885fef0aa27aef2ffa8cf48c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadWavedescs</b> (char wavedescs[MAX_ANALOG][WAVEDESC_SIZE], bool *analogEnabled, bool *digitalEnabled, bool &amp;anyAnalogEnabled, bool &amp;anyDigitalEnabled)</td></tr>
+<tr class="separator:a9a5462ca885fef0aa27aef2ffa8cf48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d6d07fae883d630a472c859845a4057"><td class="memItemLeft" align="right" valign="top"><a id="a8d6d07fae883d630a472c859845a4057" name="a8d6d07fae883d630a472c859845a4057"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RequestWaveforms</b> (bool *enabled, uint32_t num_sequences, bool denabled)</td></tr>
 <tr class="separator:a8d6d07fae883d630a472c859845a4057"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1159,9 +1195,9 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>ExtractTimestamp</b
 <tr class="memitem:ad7bc63b826528cbc9c7ce4f5cdfd27bb"><td class="memItemLeft" align="right" valign="top"><a id="ad7bc63b826528cbc9c7ce4f5cdfd27bb" name="ad7bc63b826528cbc9c7ce4f5cdfd27bb"></a>
 std::vector&lt; <a class="el" href="classWaveformBase.html">WaveformBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessAnalogWaveform</b> (const char *data, size_t datalen, char *wavedesc, uint32_t num_sequences, time_t ttime, double basetime, double *wavetime, int i)</td></tr>
 <tr class="separator:ad7bc63b826528cbc9c7ce4f5cdfd27bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a7bdc0846b16014262b76a64823667d"><td class="memItemLeft" align="right" valign="top"><a id="a3a7bdc0846b16014262b76a64823667d" name="a3a7bdc0846b16014262b76a64823667d"></a>
-std::map&lt; int, <a class="el" href="classSparseWaveform.html">SparseDigitalWaveform</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessDigitalWaveform</b> (std::string &amp;data)</td></tr>
-<tr class="separator:a3a7bdc0846b16014262b76a64823667d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6b5996a8524be903426361f7bba32e"><td class="memItemLeft" align="right" valign="top"><a id="a6e6b5996a8524be903426361f7bba32e" name="a6e6b5996a8524be903426361f7bba32e"></a>
+std::vector&lt; <a class="el" href="classSparseWaveform.html">SparseDigitalWaveform</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessDigitalWaveform</b> (const char *data, size_t datalen, char *wavedesc, uint32_t num_sequences, time_t ttime, double basetime, double *wavetime, int i)</td></tr>
+<tr class="separator:a6e6b5996a8524be903426361f7bba32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a533caa9fd92f2b190df3785a2f8f8dc4"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSiglentSCPIOscilloscope.html#a533caa9fd92f2b190df3785a2f8f8dc4">ParseCommaSeparatedNameValueList</a> (std::string str, bool forwardMap=true)</td></tr>
 <tr class="memdesc:a533caa9fd92f2b190df3785a2f8f8dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a name-value set expressed as pairs of comma separated values.  <a href="classSiglentSCPIOscilloscope.html#a533caa9fd92f2b190df3785a2f8f8dc4">More...</a><br /></td></tr>
 <tr class="separator:a533caa9fd92f2b190df3785a2f8f8dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1213,12 +1249,18 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_analogChann
 <tr class="memitem:a10ca2f99e9342984250c5977677205e3"><td class="memItemLeft" align="right" valign="top"><a id="a10ca2f99e9342984250c5977677205e3" name="a10ca2f99e9342984250c5977677205e3"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalChannelCount</b></td></tr>
 <tr class="separator:a10ca2f99e9342984250c5977677205e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142926883a455f658d86ad0c66fa1446"><td class="memItemLeft" align="right" valign="top"><a id="a142926883a455f658d86ad0c66fa1446" name="a142926883a455f658d86ad0c66fa1446"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_analogAndDigitalChannelCount</b></td></tr>
+<tr class="separator:a142926883a455f658d86ad0c66fa1446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64fd96e1e1d9d05884c4a3ac318182cb"><td class="memItemLeft" align="right" valign="top"><a id="a64fd96e1e1d9d05884c4a3ac318182cb" name="a64fd96e1e1d9d05884c4a3ac318182cb"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalChannelBase</b></td></tr>
 <tr class="separator:a64fd96e1e1d9d05884c4a3ac318182cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1471d94ce098f86b1ea994a5745104f"><td class="memItemLeft" align="right" valign="top"><a id="aa1471d94ce098f86b1ea994a5745104f" name="aa1471d94ce098f86b1ea994a5745104f"></a>
 Model&#160;</td><td class="memItemRight" valign="bottom"><b>m_modelid</b></td></tr>
 <tr class="separator:aa1471d94ce098f86b1ea994a5745104f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61ae49ab53cef74e9f39769ef016893"><td class="memItemLeft" align="right" valign="top"><a id="ad61ae49ab53cef74e9f39769ef016893" name="ad61ae49ab53cef74e9f39769ef016893"></a>
+Protocol&#160;</td><td class="memItemRight" valign="bottom"><b>m_protocolId</b></td></tr>
+<tr class="separator:ad61ae49ab53cef74e9f39769ef016893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad286369d928458c999a9578c0eec5213"><td class="memItemLeft" align="right" valign="top"><a id="ad286369d928458c999a9578c0eec5213" name="ad286369d928458c999a9578c0eec5213"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>m_ubootMajorVersion</b></td></tr>
 <tr class="separator:ad286369d928458c999a9578c0eec5213"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1277,21 +1319,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_triggerOneShot</b><
 <tr class="memitem:a012e337d088ff9c0fbd4f936c723177b"><td class="memItemLeft" align="right" valign="top"><a id="a012e337d088ff9c0fbd4f936c723177b" name="a012e337d088ff9c0fbd4f936c723177b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_triggerForced</b></td></tr>
 <tr class="separator:a012e337d088ff9c0fbd4f936c723177b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31da7e41f562ef1b36628670ac88d950"><td class="memItemLeft" align="right" valign="top"><a id="a31da7e41f562ef1b36628670ac88d950" name="a31da7e41f562ef1b36628670ac88d950"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><b>m_analogWaveformData</b> [MAX_ANALOG][WAVEFORM_SIZE]</td></tr>
-<tr class="separator:a31da7e41f562ef1b36628670ac88d950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26b8c6b372ec5d8d9d789d37b7b08601"><td class="memItemLeft" align="right" valign="top"><a id="a26b8c6b372ec5d8d9d789d37b7b08601" name="a26b8c6b372ec5d8d9d789d37b7b08601"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_analogWaveformDataSize</b> [MAX_ANALOG]</td></tr>
-<tr class="separator:a26b8c6b372ec5d8d9d789d37b7b08601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ddbe84363bc3849997cf6bb87d7eb70"><td class="memItemLeft" align="right" valign="top"><a id="a2ddbe84363bc3849997cf6bb87d7eb70" name="a2ddbe84363bc3849997cf6bb87d7eb70"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><b>m_wavedescs</b> [MAX_ANALOG][WAVEDESC_SIZE]</td></tr>
-<tr class="separator:a2ddbe84363bc3849997cf6bb87d7eb70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37a6ed5086835114d231b103b08653b1"><td class="memItemLeft" align="right" valign="top"><a id="a37a6ed5086835114d231b103b08653b1" name="a37a6ed5086835114d231b103b08653b1"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalWaveformDataBytes</b> [WAVEFORM_SIZE]</td></tr>
-<tr class="separator:a37a6ed5086835114d231b103b08653b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ae522f3ae4dc5cb15f634e7c75a9387"><td class="memItemLeft" align="right" valign="top"><a id="a3ae522f3ae4dc5cb15f634e7c75a9387" name="a3ae522f3ae4dc5cb15f634e7c75a9387"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalWaveformData</b></td></tr>
-<tr class="separator:a3ae522f3ae4dc5cb15f634e7c75a9387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab51bc5de1dcfa70d0b50a2f9d04005a0"><td class="memItemLeft" align="right" valign="top"><a id="ab51bc5de1dcfa70d0b50a2f9d04005a0" name="ab51bc5de1dcfa70d0b50a2f9d04005a0"></a>
 std::map&lt; size_t, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelVoltageRanges</b></td></tr>
 <tr class="separator:ab51bc5de1dcfa70d0b50a2f9d04005a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1319,6 +1346,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_triggerOffsetValid<
 <tr class="memitem:a87daac13ed07126781dda12ccd65bdd7"><td class="memItemLeft" align="right" valign="top"><a id="a87daac13ed07126781dda12ccd65bdd7" name="a87daac13ed07126781dda12ccd65bdd7"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_triggerOffset</b></td></tr>
 <tr class="separator:a87daac13ed07126781dda12ccd65bdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ea0cb931f8a73da4aa28c8cbc5d98f"><td class="memItemLeft" align="right" valign="top"><a id="af4ea0cb931f8a73da4aa28c8cbc5d98f" name="af4ea0cb931f8a73da4aa28c8cbc5d98f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxPointsValid</b></td></tr>
+<tr class="separator:af4ea0cb931f8a73da4aa28c8cbc5d98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8311ee08323f6151a69a1766d635f114"><td class="memItemLeft" align="right" valign="top"><a id="a8311ee08323f6151a69a1766d635f114" name="a8311ee08323f6151a69a1766d635f114"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxPoints</b></td></tr>
+<tr class="separator:a8311ee08323f6151a69a1766d635f114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa23f2751dbb3d79c8651286a2ed9c24d"><td class="memItemLeft" align="right" valign="top"><a id="aa23f2751dbb3d79c8651286a2ed9c24d" name="aa23f2751dbb3d79c8651286a2ed9c24d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_acqPointsValid</b></td></tr>
+<tr class="separator:aa23f2751dbb3d79c8651286a2ed9c24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe1da3c84d747299d139483601d28315"><td class="memItemLeft" align="right" valign="top"><a id="afe1da3c84d747299d139483601d28315" name="afe1da3c84d747299d139483601d28315"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_acqPoints</b></td></tr>
+<tr class="separator:afe1da3c84d747299d139483601d28315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dbe900984269c15d45f4dc90c8ce8a0"><td class="memItemLeft" align="right" valign="top"><a id="a6dbe900984269c15d45f4dc90c8ce8a0" name="a6dbe900984269c15d45f4dc90c8ce8a0"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalAcqPointsValid</b></td></tr>
+<tr class="separator:a6dbe900984269c15d45f4dc90c8ce8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26a52871e92d8b78774531ef43ba68f"><td class="memItemLeft" align="right" valign="top"><a id="ae26a52871e92d8b78774531ef43ba68f" name="ae26a52871e92d8b78774531ef43ba68f"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalAcqPoints</b></td></tr>
+<tr class="separator:ae26a52871e92d8b78774531ef43ba68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80e70d3d8b6e58515492f65ffcfd9fd8"><td class="memItemLeft" align="right" valign="top"><a id="a80e70d3d8b6e58515492f65ffcfd9fd8" name="a80e70d3d8b6e58515492f65ffcfd9fd8"></a>
 std::map&lt; size_t, int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelDeskew</b></td></tr>
 <tr class="separator:a80e70d3d8b6e58515492f65ffcfd9fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>

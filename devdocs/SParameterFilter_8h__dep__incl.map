@@ -1,52 +1,52 @@
 <map id="lib/scopehal/SParameterFilter.h" name="lib/scopehal/SParameterFilter.h">
-<area shape="rect" id="node1" title="Declaration of SParameterFilter." alt="" coords="5903,5,6127,32"/>
-<area shape="rect" id="node2" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5865,80,6039,107"/>
-<area shape="rect" id="node50" href="$ReferencePlaneExtensionFilter_8cpp.html" title="Implementation of ReferencePlaneExtensionFilter." alt="" coords="11145,162,11396,203"/>
-<area shape="rect" id="node3" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="5,169,232,196"/>
-<area shape="rect" id="node4" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="257,162,461,203"/>
-<area shape="rect" id="node5" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="485,169,697,196"/>
-<area shape="rect" id="node6" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="721,169,967,196"/>
-<area shape="rect" id="node7" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="991,162,1198,203"/>
-<area shape="rect" id="node8" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="1222,169,1426,196"/>
-<area shape="rect" id="node9" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="1451,169,1693,196"/>
-<area shape="rect" id="node10" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="1717,169,1944,196"/>
-<area shape="rect" id="node11" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="1969,162,2159,203"/>
-<area shape="rect" id="node12" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="2184,162,2395,203"/>
-<area shape="rect" id="node13" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="2419,169,2671,196"/>
-<area shape="rect" id="node14" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="2695,169,2886,196"/>
-<area shape="rect" id="node15" href="$Filter_8cpp.html" title="Implementation of Filter." alt="" coords="2911,169,3073,196"/>
-<area shape="rect" id="node16" href="$FilterParameter_8cpp.html" title="Implementation of FilterParameter." alt="" coords="3098,169,3329,196"/>
-<area shape="rect" id="node17" href="$IBISParser_8cpp.html" title="Implementation of IBISParser and related classes." alt="" coords="3353,169,3551,196"/>
-<area shape="rect" id="node18" href="$InstrumentChannel_8cpp.html" title="Implementation of InstrumentChannel." alt="" coords="3575,169,3830,196"/>
-<area shape="rect" id="node19" href="$MockOscilloscope_8cpp.html" title="Implementation of MockOscilloscope." alt="" coords="3855,169,4103,196"/>
-<area shape="rect" id="node20" href="$Oscilloscope_8cpp.html" title="Implementation of Oscilloscope." alt="" coords="4127,169,4340,196"/>
-<area shape="rect" id="node21" href="$OscilloscopeChannel_8cpp.html" title="Implementation of OscilloscopeChannel." alt="" coords="4364,162,4551,203"/>
-<area shape="rect" id="node22" href="$PausableFilter_8cpp.html" title="Implementation of PausableFilter." alt="" coords="4575,169,4798,196"/>
-<area shape="rect" id="node23" href="$SCPINullTransport_8cpp.html" title="Implementation of SCPINullTransport." alt="" coords="4822,169,5069,196"/>
-<area shape="rect" id="node24" href="$SCPISocketCANTransport_8cpp.html" title="Implementation of SCPISocketCANTransport." alt="" coords="5093,169,5385,196"/>
-<area shape="rect" id="node25" href="$SCPISocketTransport_8cpp.html" title="Implementation of SCPISocketTransport." alt="" coords="5409,169,5673,196"/>
-<area shape="rect" id="node26" href="$SCPITMCTransport_8cpp.html" title="Implementation of SCPITMCTransport." alt="" coords="5697,169,5948,196"/>
-<area shape="rect" id="node27" href="$SCPITransport_8cpp.html" title="Implementation of SCPITransport." alt="" coords="5972,169,6193,196"/>
-<area shape="rect" id="node28" href="$SCPIUARTTransport_8cpp.html" title="Implementation of SCPIUARTTransport." alt="" coords="6218,169,6475,196"/>
-<area shape="rect" id="node29" href="$SParameters_8cpp.html" title="Implementation of SParameters." alt="" coords="6499,169,6714,196"/>
-<area shape="rect" id="node30" href="$TestWaveformSource_8cpp.html" title="Implementation of TestWaveformSource." alt="" coords="6738,162,6937,203"/>
-<area shape="rect" id="node31" href="$TouchstoneParser_8cpp.html" title="Implementation of TouchstoneParser." alt="" coords="6961,169,7207,196"/>
-<area shape="rect" id="node32" href="$VICPSocketTransport_8cpp.html" title="Implementation of VICPSocketTransport." alt="" coords="7231,169,7497,196"/>
-<area shape="rect" id="node33" href="$VulkanFFTPlan_8cpp.html" title="Implementation of VulkanFFTPlan." alt="" coords="7521,169,7749,196"/>
-<area shape="rect" id="node34" href="$VulkanInit_8cpp.html" title="Vulkan initialization." alt="" coords="7773,169,7971,196"/>
-<area shape="rect" id="node35" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="7995,169,8194,196"/>
-<area shape="rect" id="node36" href="$WindowTrigger_8cpp.html" title="Implementation of WindowTrigger." alt="" coords="8218,169,8446,196"/>
-<area shape="rect" id="node37" href="$scopehal_8cpp.html" title="Implementation of global functions." alt="" coords="8471,169,8660,196"/>
-<area shape="rect" id="node38" href="$CANDecoder_8cpp.html" title="Implementation of CANDecoder." alt="" coords="8685,162,8825,203"/>
-<area shape="rect" id="node39" href="$DDR1Decoder_8cpp.html" title="Implementation of DDR1Decoder." alt="" coords="8849,162,8993,203"/>
-<area shape="rect" id="node40" href="$DDR3Decoder_8cpp.html" title="Implementation of DDR3Decoder." alt="" coords="9017,162,9161,203"/>
-<area shape="rect" id="node41" href="$DPhySymbolDecoder_8cpp.html" title="Implementation of DPhySymbolDecoder." alt="" coords="9186,162,9377,203"/>
-<area shape="rect" id="node42" href="$DSIFrameDecoder_8cpp.html" title="Implementation of DSIFrameDecoder." alt="" coords="9401,162,9572,203"/>
-<area shape="rect" id="node43" href="$DVIDecoder_8cpp.html" title="Implementation of DVIDecoder." alt="" coords="9597,162,9737,203"/>
-<area shape="rect" id="node44" href="$Ethernet64b66bDecoder_8cpp.html" title="Implementation of Ethernet64b66bDecoder." alt="" coords="9761,162,9972,203"/>
-<area shape="rect" id="node45" href="$EthernetAutonegotiationDecoder_8cpp.html" title="Implementation of EthernetAutonegotiationDecoder." alt="" coords="9996,162,10263,203"/>
-<area shape="rect" id="node46" href="$EthernetAutonegotiationPageDecoder_8cpp.html" title="Implementation of EthernetAutonegotiationPageDecoder." alt="" coords="10287,155,10505,211"/>
-<area shape="rect" id="node47" href="$EthernetBaseXAutonegotiationDecoder_8cpp.html" title="Implementation of EthernetBaseXAutonegotiationDecoder." alt="" coords="10529,155,10756,211"/>
-<area shape="rect" id="node48" href="$HyperRAMDecoder_8cpp.html" title="Implementation of HyperRAMDecoder." alt="" coords="10780,162,10956,203"/>
-<area shape="rect" id="node49" href="$I2CDecoder_8cpp.html" title="Implementation of I2CDecoder." alt="" coords="10981,162,11121,203"/>
+<area shape="rect" id="node1" title="Declaration of SParameterFilter." alt="" coords="5764,5,5988,32"/>
+<area shape="rect" id="node2" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5726,80,5901,107"/>
+<area shape="rect" id="node50" href="$ReferencePlaneExtensionFilter_8cpp.html" title="Implementation of ReferencePlaneExtensionFilter." alt="" coords="11284,155,11535,196"/>
+<area shape="rect" id="node3" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="5,162,232,189"/>
+<area shape="rect" id="node4" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="257,155,461,196"/>
+<area shape="rect" id="node5" href="$BERT_8cpp.html" title="Implementation of BERT." alt="" coords="485,162,648,189"/>
+<area shape="rect" id="node6" href="$BERTInputChannel_8cpp.html" title="Implementation of BERTInputChannel." alt="" coords="672,162,923,189"/>
+<area shape="rect" id="node7" href="$BERTInputChannelWithDataCapture_8cpp.html" title="Implementation of BERTInputChannelWithDataCapture." alt="" coords="947,155,1171,196"/>
+<area shape="rect" id="node8" href="$BERTOutputChannel_8cpp.html" title="Implementation of BERTOutputChannel." alt="" coords="1195,162,1458,189"/>
+<area shape="rect" id="node9" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="1482,162,1694,189"/>
+<area shape="rect" id="node10" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="1718,162,1965,189"/>
+<area shape="rect" id="node11" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="1989,155,2195,196"/>
+<area shape="rect" id="node12" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="2219,162,2423,189"/>
+<area shape="rect" id="node13" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="2448,162,2691,189"/>
+<area shape="rect" id="node14" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="2715,162,2941,189"/>
+<area shape="rect" id="node15" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="2966,155,3157,196"/>
+<area shape="rect" id="node16" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="3181,155,3392,196"/>
+<area shape="rect" id="node17" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="3417,162,3669,189"/>
+<area shape="rect" id="node18" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="3693,162,3883,189"/>
+<area shape="rect" id="node19" href="$Filter_8cpp.html" title="Implementation of Filter." alt="" coords="3908,162,4071,189"/>
+<area shape="rect" id="node20" href="$FilterParameter_8cpp.html" title="Implementation of FilterParameter." alt="" coords="4095,162,4326,189"/>
+<area shape="rect" id="node21" href="$IBISParser_8cpp.html" title="Implementation of IBISParser and related classes." alt="" coords="4351,162,4548,189"/>
+<area shape="rect" id="node22" href="$InstrumentChannel_8cpp.html" title="Implementation of InstrumentChannel." alt="" coords="4573,162,4827,189"/>
+<area shape="rect" id="node23" href="$MockOscilloscope_8cpp.html" title="Implementation of MockOscilloscope." alt="" coords="4852,162,5100,189"/>
+<area shape="rect" id="node24" href="$Oscilloscope_8cpp.html" title="Implementation of Oscilloscope." alt="" coords="5124,162,5337,189"/>
+<area shape="rect" id="node25" href="$OscilloscopeChannel_8cpp.html" title="Implementation of OscilloscopeChannel." alt="" coords="5361,155,5548,196"/>
+<area shape="rect" id="node26" href="$PausableFilter_8cpp.html" title="Implementation of PausableFilter." alt="" coords="5573,162,5795,189"/>
+<area shape="rect" id="node27" href="$SCPINullTransport_8cpp.html" title="Implementation of SCPINullTransport." alt="" coords="5819,162,6066,189"/>
+<area shape="rect" id="node28" href="$SCPISocketCANTransport_8cpp.html" title="Implementation of SCPISocketCANTransport." alt="" coords="6090,162,6382,189"/>
+<area shape="rect" id="node29" href="$SCPISocketTransport_8cpp.html" title="Implementation of SCPISocketTransport." alt="" coords="6407,162,6671,189"/>
+<area shape="rect" id="node30" href="$SCPITMCTransport_8cpp.html" title="Implementation of SCPITMCTransport." alt="" coords="6695,162,6945,189"/>
+<area shape="rect" id="node31" href="$SCPITransport_8cpp.html" title="Implementation of SCPITransport." alt="" coords="6969,162,7191,189"/>
+<area shape="rect" id="node32" href="$SCPIUARTTransport_8cpp.html" title="Implementation of SCPIUARTTransport." alt="" coords="7215,162,7473,189"/>
+<area shape="rect" id="node33" href="$SParameters_8cpp.html" title="Implementation of SParameters." alt="" coords="7497,162,7711,189"/>
+<area shape="rect" id="node34" href="$TestWaveformSource_8cpp.html" title="Implementation of TestWaveformSource." alt="" coords="7735,155,7934,196"/>
+<area shape="rect" id="node35" href="$TouchstoneParser_8cpp.html" title="Implementation of TouchstoneParser." alt="" coords="7959,162,8204,189"/>
+<area shape="rect" id="node36" href="$VICPSocketTransport_8cpp.html" title="Implementation of VICPSocketTransport." alt="" coords="8229,162,8494,189"/>
+<area shape="rect" id="node37" href="$VulkanFFTPlan_8cpp.html" title="Implementation of VulkanFFTPlan." alt="" coords="8518,162,8746,189"/>
+<area shape="rect" id="node38" href="$VulkanInit_8cpp.html" title="Vulkan initialization." alt="" coords="8771,162,8968,189"/>
+<area shape="rect" id="node39" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="8993,162,9191,189"/>
+<area shape="rect" id="node40" href="$WindowTrigger_8cpp.html" title="Implementation of WindowTrigger." alt="" coords="9215,162,9443,189"/>
+<area shape="rect" id="node41" href="$scopehal_8cpp.html" title="Implementation of global functions." alt="" coords="9468,162,9657,189"/>
+<area shape="rect" id="node42" href="$CANDecoder_8cpp.html" title="Implementation of CANDecoder." alt="" coords="9682,155,9822,196"/>
+<area shape="rect" id="node43" href="$DDR1Decoder_8cpp.html" title="Implementation of DDR1Decoder." alt="" coords="9847,155,9991,196"/>
+<area shape="rect" id="node44" href="$DDR3Decoder_8cpp.html" title="Implementation of DDR3Decoder." alt="" coords="10015,155,10159,196"/>
+<area shape="rect" id="node45" href="$DPhySymbolDecoder_8cpp.html" title="Implementation of DPhySymbolDecoder." alt="" coords="10183,155,10374,196"/>
+<area shape="rect" id="node46" href="$DSIFrameDecoder_8cpp.html" title="Implementation of DSIFrameDecoder." alt="" coords="10399,155,10569,196"/>
+<area shape="rect" id="node47" href="$DVIDecoder_8cpp.html" title="Implementation of DVIDecoder." alt="" coords="10594,155,10734,196"/>
+<area shape="rect" id="node48" href="$Ethernet64b66bDecoder_8cpp.html" title="Implementation of Ethernet64b66bDecoder." alt="" coords="10759,155,10969,196"/>
+<area shape="rect" id="node49" href="$EthernetAutonegotiationDecoder_8cpp.html" title="Implementation of EthernetAutonegotiationDecoder." alt="" coords="10993,155,11260,196"/>
 </map>

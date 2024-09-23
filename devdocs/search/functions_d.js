@@ -23,5 +23,6 @@ var searchData=
   ['operator_2f_20',['operator/',['../classUnit.html#a770684ae174adb0d9fb2f1bf00802c20',1,'Unit']]],
   ['operator_3c_21',['operator&lt;',['../classMarker.html#a523854bdccd97b93e316f88db1a619c5',1,'Marker']]],
   ['operator_3d_3d_22',['operator==',['../classCANSymbol.html#a35660a82edc46eb23e1e933a9d1dd0e6',1,'CANSymbol']]],
-  ['outputporttooltip_23',['OutputPortTooltip',['../classFilterGraphEditor.html#a602da88ff850c3822c688e573a0a8e00',1,'FilterGraphEditor']]]
+  ['operator_5b_5d_23',['operator[]',['../classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06',1,'Bijection::operator[](T2 key)'],['../classBijection.html#a9b8eca26357ac965aaec87be3540d008',1,'Bijection::operator[](T1 key)']]],
+  ['outputporttooltip_24',['OutputPortTooltip',['../classFilterGraphEditor.html#a602da88ff850c3822c688e573a0a8e00',1,'FilterGraphEditor']]]
 ];

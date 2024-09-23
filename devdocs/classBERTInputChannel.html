@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
    </div>
   </td>
  </tr>
@@ -67,11 +67,11 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classBERTInputChannel-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">BERTInputChannel Class Reference</div></div>
+  <div class="headertitle"><div class="title">BERTInputChannel Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>A pattern checker channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate testers.">BERT</a>.  
+<p>A pattern checker channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a>.  
  <a href="classBERTInputChannel.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="BERTInputChannel_8h_source.html">BERTInputChannel.h</a>&gt;</code></p>
@@ -105,11 +105,12 @@ Collaboration diagram for BERTInputChannel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a267159860359f7c646c38dcb2107bd1b"><td class="memItemLeft" align="right" valign="top"><a id="a267159860359f7c646c38dcb2107bd1b" name="a267159860359f7c646c38dcb2107bd1b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>StreamIDs</b> { <b>STREAM_HBATHTUB</b> = 0
-, <b>STREAM_EYE</b> = 1
-, <b>STREAM_BER</b> = 2
-, <b>STREAM_MASKHITRATE</b> = 3
+<tr class="memitem:a267159860359f7c646c38dcb2107bd1b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a267159860359f7c646c38dcb2107bd1b">StreamIDs</a> { <a class="el" href="classBERTInputChannel.html#a267159860359f7c646c38dcb2107bd1baf265b44d4ec2fbe3ab165d16384a1aa5">STREAM_HBATHTUB</a> = 0
+, <a class="el" href="classBERTInputChannel.html#a267159860359f7c646c38dcb2107bd1bab036407acb24a71c3ddf5273d5dfbd84">STREAM_EYE</a> = 1
+, <a class="el" href="classBERTInputChannel.html#a267159860359f7c646c38dcb2107bd1ba95af5f791edcb029c11f0204cfbbaba6">STREAM_BER</a> = 2
+, <a class="el" href="classBERTInputChannel.html#a267159860359f7c646c38dcb2107bd1ba14e92ce0d0b43e4bae8be70896e5eb2b">STREAM_MASKHITRATE</a> = 3
  }</td></tr>
+<tr class="memdesc:a267159860359f7c646c38dcb2107bd1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Well known indexes of output streams.  <a href="classBERTInputChannel.html#a267159860359f7c646c38dcb2107bd1b">More...</a><br /></td></tr>
 <tr class="separator:a267159860359f7c646c38dcb2107bd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classOscilloscopeChannel"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classOscilloscopeChannel')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classOscilloscopeChannel.html">OscilloscopeChannel</a></td></tr>
 <tr class="memitem:aac03d3cc39ad355ad10e9a118e691539 inherit pub_types_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="aac03d3cc39ad355ad10e9a118e691539" name="aac03d3cc39ad355ad10e9a118e691539"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CouplingType</b> { <br />
@@ -154,8 +155,8 @@ typedef std::map&lt; std::string, <a class="el" href="classFilterParameter.html"
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa4935aeeb9ea259e0a79c955d98eb12d"><td class="memItemLeft" align="right" valign="top"><a id="aa4935aeeb9ea259e0a79c955d98eb12d" name="aa4935aeeb9ea259e0a79c955d98eb12d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BERTInputChannel</b> (const std::string &amp;hwname, std::weak_ptr&lt; <a class="el" href="classBERT.html">BERT</a> &gt; bert, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</td></tr>
+<tr class="memitem:aa4935aeeb9ea259e0a79c955d98eb12d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#aa4935aeeb9ea259e0a79c955d98eb12d">BERTInputChannel</a> (const std::string &amp;hwname, std::weak_ptr&lt; <a class="el" href="classBERT.html">BERT</a> &gt; bert, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</td></tr>
+<tr class="memdesc:aa4935aeeb9ea259e0a79c955d98eb12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the channel.  <a href="classBERTInputChannel.html#aa4935aeeb9ea259e0a79c955d98eb12d">More...</a><br /></td></tr>
 <tr class="separator:aa4935aeeb9ea259e0a79c955d98eb12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c6176b7cf9fd33b2ce6e148607f17ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a4c6176b7cf9fd33b2ce6e148607f17ad">Refresh</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue) override</td></tr>
 <tr class="separator:a4c6176b7cf9fd33b2ce6e148607f17ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,92 +164,106 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4ef51d38c7bfcf8591d3be315c242e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4e8d2365e64f85f577b36b9a6c590fc"><td class="memItemLeft" align="right" valign="top"><a id="ae4e8d2365e64f85f577b36b9a6c590fc" name="ae4e8d2365e64f85f577b36b9a6c590fc"></a>
 std::weak_ptr&lt; <a class="el" href="classBERT.html">BERT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetBERT</b> () const</td></tr>
+<tr class="memdesc:ae4e8d2365e64f85f577b36b9a6c590fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a> we're part of. <br /></td></tr>
 <tr class="separator:ae4e8d2365e64f85f577b36b9a6c590fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64836acd0c75084825f46b0c356564d7"><td class="memItemLeft" align="right" valign="top"><a id="a64836acd0c75084825f46b0c356564d7" name="a64836acd0c75084825f46b0c356564d7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetInvert</b> ()</td></tr>
+<tr class="memdesc:a64836acd0c75084825f46b0c356564d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the polarity inversion state. <br /></td></tr>
 <tr class="separator:a64836acd0c75084825f46b0c356564d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9a316c1e949613295d03cda28059032"><td class="memItemLeft" align="right" valign="top"><a id="af9a316c1e949613295d03cda28059032" name="af9a316c1e949613295d03cda28059032"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetInvert</b> (bool invert)</td></tr>
+<tr class="memitem:af9a316c1e949613295d03cda28059032"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#af9a316c1e949613295d03cda28059032">SetInvert</a> (bool invert)</td></tr>
+<tr class="memdesc:af9a316c1e949613295d03cda28059032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the polarity inversion state.  <a href="classBERTInputChannel.html#af9a316c1e949613295d03cda28059032">More...</a><br /></td></tr>
 <tr class="separator:af9a316c1e949613295d03cda28059032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cc23dd81682b175fd468f4af2f672f7"><td class="memItemLeft" align="right" valign="top"><a id="a4cc23dd81682b175fd468f4af2f672f7" name="a4cc23dd81682b175fd468f4af2f672f7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetCdrLockState</b> ()</td></tr>
+<tr class="memdesc:a4cc23dd81682b175fd468f4af2f672f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the CDR is currently locked. <br /></td></tr>
 <tr class="separator:a4cc23dd81682b175fd468f4af2f672f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29a132ba1208880392023eadde38f51a"><td class="memItemLeft" align="right" valign="top"><a id="a29a132ba1208880392023eadde38f51a" name="a29a132ba1208880392023eadde38f51a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPattern</b> (BERT::Pattern pattern)</td></tr>
+<tr class="memitem:a29a132ba1208880392023eadde38f51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a29a132ba1208880392023eadde38f51a">SetPattern</a> (<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> pattern)</td></tr>
+<tr class="memdesc:a29a132ba1208880392023eadde38f51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the pattern this channel is expecting to see.  <a href="classBERTInputChannel.html#a29a132ba1208880392023eadde38f51a">More...</a><br /></td></tr>
 <tr class="separator:a29a132ba1208880392023eadde38f51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcd0b4e67c2c4870682c4fbb721b2034"><td class="memItemLeft" align="right" valign="top"><a id="afcd0b4e67c2c4870682c4fbb721b2034" name="afcd0b4e67c2c4870682c4fbb721b2034"></a>
-BERT::Pattern&#160;</td><td class="memItemRight" valign="bottom"><b>GetPattern</b> ()</td></tr>
+<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetPattern</b> ()</td></tr>
+<tr class="memdesc:afcd0b4e67c2c4870682c4fbb721b2034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pattern this channel is expecting to see. <br /></td></tr>
 <tr class="separator:afcd0b4e67c2c4870682c4fbb721b2034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab72a8dd51144cbea977e380f44b662cb"><td class="memItemLeft" align="right" valign="top"><a id="ab72a8dd51144cbea977e380f44b662cb" name="ab72a8dd51144cbea977e380f44b662cb"></a>
-std::vector&lt; BERT::Pattern &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvailablePatterns</b> ()</td></tr>
+std::vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvailablePatterns</b> ()</td></tr>
+<tr class="memdesc:ab72a8dd51144cbea977e380f44b662cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of all patterns this channel knows how to match. <br /></td></tr>
 <tr class="separator:ab72a8dd51144cbea977e380f44b662cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a341c76688f237626b3d04af2d3e8439d"><td class="memItemLeft" align="right" valign="top"><a id="a341c76688f237626b3d04af2d3e8439d" name="a341c76688f237626b3d04af2d3e8439d"></a>
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetScanDepth</b> ()</td></tr>
+<tr class="memitem:a341c76688f237626b3d04af2d3e8439d"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a341c76688f237626b3d04af2d3e8439d">GetScanDepth</a> ()</td></tr>
+<tr class="memdesc:a341c76688f237626b3d04af2d3e8439d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected integration depth for eye / bathtub scans.  <a href="classBERTInputChannel.html#a341c76688f237626b3d04af2d3e8439d">More...</a><br /></td></tr>
 <tr class="separator:a341c76688f237626b3d04af2d3e8439d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3c22796e23d91be1b6b645d6e90414"><td class="memItemLeft" align="right" valign="top"><a id="a7c3c22796e23d91be1b6b645d6e90414" name="a7c3c22796e23d91be1b6b645d6e90414"></a>
 std::vector&lt; int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetScanDepths</b> ()</td></tr>
+<tr class="memdesc:a7c3c22796e23d91be1b6b645d6e90414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the available integration depths for eye / bathtub scans. <br /></td></tr>
 <tr class="separator:a7c3c22796e23d91be1b6b645d6e90414"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73d11f8d2d3fa744f5ced9dbd1dae2c1"><td class="memItemLeft" align="right" valign="top"><a id="a73d11f8d2d3fa744f5ced9dbd1dae2c1" name="a73d11f8d2d3fa744f5ced9dbd1dae2c1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetScanDepth</b> (int64_t depth)</td></tr>
+<tr class="memitem:a73d11f8d2d3fa744f5ced9dbd1dae2c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a73d11f8d2d3fa744f5ced9dbd1dae2c1">SetScanDepth</a> (int64_t depth)</td></tr>
+<tr class="memdesc:a73d11f8d2d3fa744f5ced9dbd1dae2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the currently selected integration depth for eye / bathtub scans.  <a href="classBERTInputChannel.html#a73d11f8d2d3fa744f5ced9dbd1dae2c1">More...</a><br /></td></tr>
 <tr class="separator:a73d11f8d2d3fa744f5ced9dbd1dae2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12ba7ac4be0f11801eac662751c591b4"><td class="memItemLeft" align="right" valign="top"><a id="a12ba7ac4be0f11801eac662751c591b4" name="a12ba7ac4be0f11801eac662751c591b4"></a>
 <a class="el" href="classStreamDescriptor.html">StreamDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetHBathtubStream</b> ()</td></tr>
+<tr class="memdesc:a12ba7ac4be0f11801eac662751c591b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the stream for the horizontal bathtub output. <br /></td></tr>
 <tr class="separator:a12ba7ac4be0f11801eac662751c591b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ea5cce76c57c3399527f29c2ac0c9b"><td class="memItemLeft" align="right" valign="top"><a id="ab9ea5cce76c57c3399527f29c2ac0c9b" name="ab9ea5cce76c57c3399527f29c2ac0c9b"></a>
 <a class="el" href="classStreamDescriptor.html">StreamDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetEyeStream</b> ()</td></tr>
+<tr class="memdesc:ab9ea5cce76c57c3399527f29c2ac0c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the stream for the eye pattern output. <br /></td></tr>
 <tr class="separator:ab9ea5cce76c57c3399527f29c2ac0c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2ec8d69347d613562165dafdf4d173c"><td class="memItemLeft" align="right" valign="top"><a id="ac2ec8d69347d613562165dafdf4d173c" name="ac2ec8d69347d613562165dafdf4d173c"></a>
 <a class="el" href="classStreamDescriptor.html">StreamDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetBERStream</b> ()</td></tr>
+<tr class="memdesc:ac2ec8d69347d613562165dafdf4d173c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the stream for the realtime BER output. <br /></td></tr>
 <tr class="separator:ac2ec8d69347d613562165dafdf4d173c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185c5d47b35ed6735849a5b3d9050351"><td class="memItemLeft" align="right" valign="top"><a id="a185c5d47b35ed6735849a5b3d9050351" name="a185c5d47b35ed6735849a5b3d9050351"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasCTLE</b> ()</td></tr>
+<tr class="memdesc:a185c5d47b35ed6735849a5b3d9050351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the channel has a CTLE on the input. <br /></td></tr>
 <tr class="separator:a185c5d47b35ed6735849a5b3d9050351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2ebb17a8966b3d14ed4265aeef8e31e"><td class="memItemLeft" align="right" valign="top"><a id="ad2ebb17a8966b3d14ed4265aeef8e31e" name="ad2ebb17a8966b3d14ed4265aeef8e31e"></a>
 std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCTLEGainSteps</b> ()</td></tr>
+<tr class="memdesc:ad2ebb17a8966b3d14ed4265aeef8e31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set of available gain steps for the CTLE, in dB. <br /></td></tr>
 <tr class="separator:ad2ebb17a8966b3d14ed4265aeef8e31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad616cdee0d8ec65c218ce806170b4a2b"><td class="memItemLeft" align="right" valign="top"><a id="ad616cdee0d8ec65c218ce806170b4a2b" name="ad616cdee0d8ec65c218ce806170b4a2b"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetCTLEGainStep</b> ()</td></tr>
+<tr class="memitem:ad616cdee0d8ec65c218ce806170b4a2b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#ad616cdee0d8ec65c218ce806170b4a2b">GetCTLEGainStep</a> ()</td></tr>
+<tr class="memdesc:ad616cdee0d8ec65c218ce806170b4a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected CTLE gain step.  <a href="classBERTInputChannel.html#ad616cdee0d8ec65c218ce806170b4a2b">More...</a><br /></td></tr>
 <tr class="separator:ad616cdee0d8ec65c218ce806170b4a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b37ce6c3da0b6ceeaa6a671d049566"><td class="memItemLeft" align="right" valign="top"><a id="a04b37ce6c3da0b6ceeaa6a671d049566" name="a04b37ce6c3da0b6ceeaa6a671d049566"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCTLEGainStep</b> (size_t step)</td></tr>
+<tr class="memitem:a04b37ce6c3da0b6ceeaa6a671d049566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a04b37ce6c3da0b6ceeaa6a671d049566">SetCTLEGainStep</a> (size_t step)</td></tr>
+<tr class="memdesc:a04b37ce6c3da0b6ceeaa6a671d049566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the gain for the CTLE.  <a href="classBERTInputChannel.html#a04b37ce6c3da0b6ceeaa6a671d049566">More...</a><br /></td></tr>
 <tr class="separator:a04b37ce6c3da0b6ceeaa6a671d049566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a719ef657c858938921a95aa9e7826abc"><td class="memItemLeft" align="right" valign="top"><a id="a719ef657c858938921a95aa9e7826abc" name="a719ef657c858938921a95aa9e7826abc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetBERSamplingPoint</b> (int64_t dx, float dy)</td></tr>
+<tr class="memitem:a719ef657c858938921a95aa9e7826abc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a719ef657c858938921a95aa9e7826abc">SetBERSamplingPoint</a> (int64_t dx, float dy)</td></tr>
+<tr class="memdesc:a719ef657c858938921a95aa9e7826abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the sampling location for real time offset BER measurements.  <a href="classBERTInputChannel.html#a719ef657c858938921a95aa9e7826abc">More...</a><br /></td></tr>
 <tr class="separator:a719ef657c858938921a95aa9e7826abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8853c0a60913a04e51e38dd50c6ef376"><td class="memItemLeft" align="right" valign="top"><a id="a8853c0a60913a04e51e38dd50c6ef376" name="a8853c0a60913a04e51e38dd50c6ef376"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GetBERSamplingPoint</b> (int64_t &amp;dx, float &amp;dy)</td></tr>
+<tr class="memitem:a8853c0a60913a04e51e38dd50c6ef376"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a8853c0a60913a04e51e38dd50c6ef376">GetBERSamplingPoint</a> (int64_t &amp;dx, float &amp;dy)</td></tr>
+<tr class="memdesc:a8853c0a60913a04e51e38dd50c6ef376"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sampling location for real time offset BER measurements.  <a href="classBERTInputChannel.html#a8853c0a60913a04e51e38dd50c6ef376">More...</a><br /></td></tr>
 <tr class="separator:a8853c0a60913a04e51e38dd50c6ef376"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fcb6d1353c642fd6b2953e33f51ee6e"><td class="memItemLeft" align="right" valign="top"><a id="a8fcb6d1353c642fd6b2953e33f51ee6e" name="a8fcb6d1353c642fd6b2953e33f51ee6e"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDataRate</b> ()</td></tr>
+<tr class="memdesc:a8fcb6d1353c642fd6b2953e33f51ee6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the data rate of this channel, in symbols per second. <br /></td></tr>
 <tr class="separator:a8fcb6d1353c642fd6b2953e33f51ee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9902fcd901d82e92b845833bd084e0e"><td class="memItemLeft" align="right" valign="top"><a id="ac9902fcd901d82e92b845833bd084e0e" name="ac9902fcd901d82e92b845833bd084e0e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDataRate</b> (int64_t rate)</td></tr>
+<tr class="memitem:ac9902fcd901d82e92b845833bd084e0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#ac9902fcd901d82e92b845833bd084e0e">SetDataRate</a> (int64_t rate)</td></tr>
+<tr class="memdesc:ac9902fcd901d82e92b845833bd084e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data rate of this channel, in symbols per second.  <a href="classBERTInputChannel.html#ac9902fcd901d82e92b845833bd084e0e">More...</a><br /></td></tr>
 <tr class="separator:ac9902fcd901d82e92b845833bd084e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4397a2b579e9c762da6b72d70b4e6f31"><td class="memItemLeft" align="right" valign="top"><a id="a4397a2b579e9c762da6b72d70b4e6f31" name="a4397a2b579e9c762da6b72d70b4e6f31"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaskFile</b> ()</td></tr>
+<tr class="memdesc:a4397a2b579e9c762da6b72d70b4e6f31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the path of the mask file for pass/fail testing (if any) <br /></td></tr>
 <tr class="separator:a4397a2b579e9c762da6b72d70b4e6f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61e0b3e3c82e29f4a81cc8f653e2fa18"><td class="memItemLeft" align="right" valign="top"><a id="a61e0b3e3c82e29f4a81cc8f653e2fa18" name="a61e0b3e3c82e29f4a81cc8f653e2fa18"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaskFile</b> (const std::string &amp;fname)</td></tr>
+<tr class="memitem:a61e0b3e3c82e29f4a81cc8f653e2fa18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a61e0b3e3c82e29f4a81cc8f653e2fa18">SetMaskFile</a> (const std::string &amp;fname)</td></tr>
+<tr class="memdesc:a61e0b3e3c82e29f4a81cc8f653e2fa18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the path of the mask file for pass/fail testing.  <a href="classBERTInputChannel.html#a61e0b3e3c82e29f4a81cc8f653e2fa18">More...</a><br /></td></tr>
 <tr class="separator:a61e0b3e3c82e29f4a81cc8f653e2fa18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a221c0eb220859670fd4d6628623a40b2"><td class="memItemLeft" align="right" valign="top"><a id="a221c0eb220859670fd4d6628623a40b2" name="a221c0eb220859670fd4d6628623a40b2"></a>
 const <a class="el" href="classEyeMask.html">EyeMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMask</b> ()</td></tr>
+<tr class="memdesc:a221c0eb220859670fd4d6628623a40b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="classEyeMask.html" title="A mask used for checking eye patterns.">EyeMask</a> being used for pass/fail testing (may be blank) <br /></td></tr>
 <tr class="separator:a221c0eb220859670fd4d6628623a40b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07b6097f7428810c2054c6c8c13e5bf5"><td class="memItemLeft" align="right" valign="top">virtual PhysicalConnector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a07b6097f7428810c2054c6c8c13e5bf5">GetPhysicalConnector</a> () override</td></tr>
 <tr class="separator:a07b6097f7428810c2054c6c8c13e5bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dbc25ff44be1182ef694b526393fef6"><td class="memItemLeft" align="right" valign="top"><a id="a9dbc25ff44be1182ef694b526393fef6" name="a9dbc25ff44be1182ef694b526393fef6"></a>
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetExpectedBathtubCaptureTime</b> ()</td></tr>
+<tr class="memitem:a9dbc25ff44be1182ef694b526393fef6"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a9dbc25ff44be1182ef694b526393fef6">GetExpectedBathtubCaptureTime</a> ()</td></tr>
+<tr class="memdesc:a9dbc25ff44be1182ef694b526393fef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the time needed to capture a bathtub curve with the current settings.  <a href="classBERTInputChannel.html#a9dbc25ff44be1182ef694b526393fef6">More...</a><br /></td></tr>
 <tr class="separator:a9dbc25ff44be1182ef694b526393fef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cfe8dc7531108e4930d737964412442"><td class="memItemLeft" align="right" valign="top"><a id="a4cfe8dc7531108e4930d737964412442" name="a4cfe8dc7531108e4930d737964412442"></a>
-int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetExpectedEyeCaptureTime</b> ()</td></tr>
+<tr class="memitem:a4cfe8dc7531108e4930d737964412442"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a4cfe8dc7531108e4930d737964412442">GetExpectedEyeCaptureTime</a> ()</td></tr>
+<tr class="memdesc:a4cfe8dc7531108e4930d737964412442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate the time needed to capture an eye pattern with the current settings.  <a href="classBERTInputChannel.html#a4cfe8dc7531108e4930d737964412442">More...</a><br /></td></tr>
 <tr class="separator:a4cfe8dc7531108e4930d737964412442"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71d75c093743b293f7af5f614fb421c"><td class="memItemLeft" align="right" valign="top"><a id="ab71d75c093743b293f7af5f614fb421c" name="ab71d75c093743b293f7af5f614fb421c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsEyeScanInProgress</b> ()</td></tr>
+<tr class="memitem:ab71d75c093743b293f7af5f614fb421c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#ab71d75c093743b293f7af5f614fb421c">IsEyeScanInProgress</a> ()</td></tr>
+<tr class="memdesc:ab71d75c093743b293f7af5f614fb421c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an eye scan is currently executing.  <a href="classBERTInputChannel.html#ab71d75c093743b293f7af5f614fb421c">More...</a><br /></td></tr>
 <tr class="separator:ab71d75c093743b293f7af5f614fb421c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e08e256588e83b8da96588462ea0963"><td class="memItemLeft" align="right" valign="top"><a id="a8e08e256588e83b8da96588462ea0963" name="a8e08e256588e83b8da96588462ea0963"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GetScanProgress</b> ()</td></tr>
+<tr class="memitem:a8e08e256588e83b8da96588462ea0963"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a8e08e256588e83b8da96588462ea0963">GetScanProgress</a> ()</td></tr>
+<tr class="memdesc:a8e08e256588e83b8da96588462ea0963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an estimate of the current scan progress (if an eye or bathtub scan is executing)  <a href="classBERTInputChannel.html#a8e08e256588e83b8da96588462ea0963">More...</a><br /></td></tr>
 <tr class="separator:a8e08e256588e83b8da96588462ea0963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaf5b95f90f0ae85eb0523e09eba310f"><td class="memItemLeft" align="right" valign="top"><a id="aaaf5b95f90f0ae85eb0523e09eba310f" name="aaaf5b95f90f0ae85eb0523e09eba310f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsHBathtubScanInProgress</b> ()</td></tr>
+<tr class="memitem:aaaf5b95f90f0ae85eb0523e09eba310f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#aaaf5b95f90f0ae85eb0523e09eba310f">IsHBathtubScanInProgress</a> ()</td></tr>
+<tr class="memdesc:aaaf5b95f90f0ae85eb0523e09eba310f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a bathtub scan is currently executing.  <a href="classBERTInputChannel.html#aaaf5b95f90f0ae85eb0523e09eba310f">More...</a><br /></td></tr>
 <tr class="separator:aaaf5b95f90f0ae85eb0523e09eba310f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8da1d0608115a27a429db4ae676c9853"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#a8da1d0608115a27a429db4ae676c9853">ClearStreams</a> () override</td></tr>
 <tr class="memdesc:a8da1d0608115a27a429db4ae676c9853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears out any existing streams.  <a href="classBERTInputChannel.html#a8da1d0608115a27a429db4ae676c9853">More...</a><br /></td></tr>
@@ -537,18 +552,22 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ac248fb57884dd4267752f2e4a9a38938"><td class="memItemLeft" align="right" valign="top"><a id="ac248fb57884dd4267752f2e4a9a38938" name="ac248fb57884dd4267752f2e4a9a38938"></a>
 std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_ranges</b></td></tr>
+<tr class="memdesc:ac248fb57884dd4267752f2e4a9a38938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voltage range of each stream. <br /></td></tr>
 <tr class="separator:ac248fb57884dd4267752f2e4a9a38938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531ba876f7526c97a11c9f52eeeff881"><td class="memItemLeft" align="right" valign="top"><a id="a531ba876f7526c97a11c9f52eeeff881" name="a531ba876f7526c97a11c9f52eeeff881"></a>
 std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_offsets</b></td></tr>
+<tr class="memdesc:a531ba876f7526c97a11c9f52eeeff881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertical offset of each stream. <br /></td></tr>
 <tr class="separator:a531ba876f7526c97a11c9f52eeeff881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac937f1a5a5e1accdd2506ee474c4c00c"><td class="memItemLeft" align="right" valign="top"><a id="ac937f1a5a5e1accdd2506ee474c4c00c" name="ac937f1a5a5e1accdd2506ee474c4c00c"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_maskFile</b></td></tr>
+<tr class="memdesc:ac937f1a5a5e1accdd2506ee474c4c00c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the YAML file, if any, that m_mask was loaded from. <br /></td></tr>
 <tr class="separator:ac937f1a5a5e1accdd2506ee474c4c00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64e979f029518f18031ac6b89f29db3e"><td class="memItemLeft" align="right" valign="top"><a id="a64e979f029518f18031ac6b89f29db3e" name="a64e979f029518f18031ac6b89f29db3e"></a>
 <a class="el" href="classEyeMask.html">EyeMask</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_mask</b></td></tr>
+<tr class="memdesc:a64e979f029518f18031ac6b89f29db3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eye mask used for pass/fail testing. <br /></td></tr>
 <tr class="separator:a64e979f029518f18031ac6b89f29db3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d273b6bfdccfc0faf927c663fae3d3"><td class="memItemLeft" align="right" valign="top"><a id="aa7d273b6bfdccfc0faf927c663fae3d3" name="aa7d273b6bfdccfc0faf927c663fae3d3"></a>
-std::weak_ptr&lt; <a class="el" href="classBERT.html">BERT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bert</b></td></tr>
+<tr class="memitem:aa7d273b6bfdccfc0faf927c663fae3d3"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classBERT.html">BERT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTInputChannel.html#aa7d273b6bfdccfc0faf927c663fae3d3">m_bert</a></td></tr>
+<tr class="memdesc:aa7d273b6bfdccfc0faf927c663fae3d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the parent instrument.  <a href="classBERTInputChannel.html#aa7d273b6bfdccfc0faf927c663fae3d3">More...</a><br /></td></tr>
 <tr class="separator:aa7d273b6bfdccfc0faf927c663fae3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classOscilloscopeChannel"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classOscilloscopeChannel')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classOscilloscopeChannel.html">OscilloscopeChannel</a></td></tr>
 <tr class="memitem:ac99046f76ef31bf62a2858a11f755adb inherit pro_attribs_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="ac99046f76ef31bf62a2858a11f755adb" name="ac99046f76ef31bf62a2858a11f755adb"></a>
@@ -655,9 +674,103 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 <tr class="separator:a81b291ff9132f1c66c5280ba3a9f5096 inherit pro_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A pattern checker channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate testers.">BERT</a>. </p>
+<div class="textblock"><p >A pattern checker channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a>. </p>
 <p >Derived from <a class="el" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope.">OscilloscopeChannel</a> because we can output time domain bathtub curves etc </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a267159860359f7c646c38dcb2107bd1b" name="a267159860359f7c646c38dcb2107bd1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267159860359f7c646c38dcb2107bd1b">&#9670;&nbsp;</a></span>StreamIDs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classBERTInputChannel.html#a267159860359f7c646c38dcb2107bd1b">BERTInputChannel::StreamIDs</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Well known indexes of output streams. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a267159860359f7c646c38dcb2107bd1baf265b44d4ec2fbe3ab165d16384a1aa5" name="a267159860359f7c646c38dcb2107bd1baf265b44d4ec2fbe3ab165d16384a1aa5"></a>STREAM_HBATHTUB&#160;</td><td class="fielddoc"><p >Horizontal bathtub. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a267159860359f7c646c38dcb2107bd1bab036407acb24a71c3ddf5273d5dfbd84" name="a267159860359f7c646c38dcb2107bd1bab036407acb24a71c3ddf5273d5dfbd84"></a>STREAM_EYE&#160;</td><td class="fielddoc"><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Eye</td><td>pattern </td></tr>
+  </table>
+  </dd>
+</dl>
+</td></tr>
+<tr><td class="fieldname"><a id="a267159860359f7c646c38dcb2107bd1ba95af5f791edcb029c11f0204cfbbaba6" name="a267159860359f7c646c38dcb2107bd1ba95af5f791edcb029c11f0204cfbbaba6"></a>STREAM_BER&#160;</td><td class="fielddoc"><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Realtime</td><td>bit error rate </td></tr>
+  </table>
+  </dd>
+</dl>
+</td></tr>
+<tr><td class="fieldname"><a id="a267159860359f7c646c38dcb2107bd1ba14e92ce0d0b43e4bae8be70896e5eb2b" name="a267159860359f7c646c38dcb2107bd1ba14e92ce0d0b43e4bae8be70896e5eb2b"></a>STREAM_MASKHITRATE&#160;</td><td class="fielddoc"><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Mask</td><td>hit rate </td></tr>
+  </table>
+  </dd>
+</dl>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa4935aeeb9ea259e0a79c955d98eb12d" name="aa4935aeeb9ea259e0a79c955d98eb12d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4935aeeb9ea259e0a79c955d98eb12d">&#9670;&nbsp;</a></span>BERTInputChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BERTInputChannel::BERTInputChannel </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>hwname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classBERT.html">BERT</a> &gt;&#160;</td>
+          <td class="paramname"><em>bert</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>color</em> = <code>&quot;#808080&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hwname</td><td>Hardware name of the channel </td></tr>
+    <tr><td class="paramname">bert</td><td><a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a> the channel is part of </td></tr>
+    <tr><td class="paramname">color</td><td>Initial display color of the channel </td></tr>
+    <tr><td class="paramname">index</td><td>Number of the channel </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="af690d54d8d98cdc67cb3b468b494c375" name="af690d54d8d98cdc67cb3b468b494c375"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af690d54d8d98cdc67cb3b468b494c375">&#9670;&nbsp;</a></span>AddStream()</h2>
 
@@ -740,6 +853,137 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 
 </div>
 </div>
+<a id="a8853c0a60913a04e51e38dd50c6ef376" name="a8853c0a60913a04e51e38dd50c6ef376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8853c0a60913a04e51e38dd50c6ef376">&#9670;&nbsp;</a></span>GetBERSamplingPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::GetBERSamplingPoint </td>
+          <td>(</td>
+          <td class="paramtype">int64_t &amp;&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>dy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the sampling location for real time offset BER measurements. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dx</td><td>Horizontal offset of the sampling point from the center of the eye, in femtoseconds </td></tr>
+    <tr><td class="paramname">dy</td><td>Vertical offset of the sampling point from the center of the eye, in volts </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad616cdee0d8ec65c218ce806170b4a2b" name="ad616cdee0d8ec65c218ce806170b4a2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad616cdee0d8ec65c218ce806170b4a2b">&#9670;&nbsp;</a></span>GetCTLEGainStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t BERTInputChannel::GetCTLEGainStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the currently selected CTLE gain step. </p>
+<p >The actual gain value can be looked up in the table returned by <a class="el" href="classBERTInputChannel.html#ad2ebb17a8966b3d14ed4265aeef8e31e" title="Get the set of available gain steps for the CTLE, in dB.">GetCTLEGainSteps()</a>. </p>
+
+</div>
+</div>
+<a id="a9dbc25ff44be1182ef694b526393fef6" name="a9dbc25ff44be1182ef694b526393fef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbc25ff44be1182ef694b526393fef6">&#9670;&nbsp;</a></span>GetExpectedBathtubCaptureTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t BERTInputChannel::GetExpectedBathtubCaptureTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Estimate the time needed to capture a bathtub curve with the current settings. </p>
+<p >This can be used for displaying progress bars, hints in the GUI, etc.</p>
+<dl class="section return"><dt>Returns</dt><dd>Expected capture time, in femtoseconds </dd></dl>
+
+</div>
+</div>
+<a id="a4cfe8dc7531108e4930d737964412442" name="a4cfe8dc7531108e4930d737964412442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cfe8dc7531108e4930d737964412442">&#9670;&nbsp;</a></span>GetExpectedEyeCaptureTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t BERTInputChannel::GetExpectedEyeCaptureTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Estimate the time needed to capture an eye pattern with the current settings. </p>
+<p >This can be used for displaying progress bars, hints in the GUI, etc.</p>
+<dl class="section return"><dt>Returns</dt><dd>Expected capture time, in femtoseconds </dd></dl>
+
+</div>
+</div>
 <a id="aaacc7863b6572a35644ba074873b141d" name="aaacc7863b6572a35644ba074873b141d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaacc7863b6572a35644ba074873b141d">&#9670;&nbsp;</a></span>GetOffset()</h2>
 
@@ -795,6 +1039,62 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 
 </div>
 </div>
+<a id="a341c76688f237626b3d04af2d3e8439d" name="a341c76688f237626b3d04af2d3e8439d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a341c76688f237626b3d04af2d3e8439d">&#9670;&nbsp;</a></span>GetScanDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t BERTInputChannel::GetScanDepth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the currently selected integration depth for eye / bathtub scans. </p>
+<dl class="section return"><dt>Returns</dt><dd>Integration depth, in UIs per pixel or point </dd></dl>
+
+</div>
+</div>
+<a id="a8e08e256588e83b8da96588462ea0963" name="a8e08e256588e83b8da96588462ea0963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e08e256588e83b8da96588462ea0963">&#9670;&nbsp;</a></span>GetScanProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BERTInputChannel::GetScanProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an estimate of the current scan progress (if an eye or bathtub scan is executing) </p>
+<dl class="section return"><dt>Returns</dt><dd>Estimated progress in the range [0, 1] </dd></dl>
+
+</div>
+</div>
 <a id="a542dd18a05c94e7f0e4d7d144049ae3e" name="a542dd18a05c94e7f0e4d7d144049ae3e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a542dd18a05c94e7f0e4d7d144049ae3e">&#9670;&nbsp;</a></span>GetVoltageRange()</h2>
 
@@ -820,6 +1120,62 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classOscilloscopeChannel.html">OscilloscopeChannel</a>.</p>
+
+</div>
+</div>
+<a id="ab71d75c093743b293f7af5f614fb421c" name="ab71d75c093743b293f7af5f614fb421c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71d75c093743b293f7af5f614fb421c">&#9670;&nbsp;</a></span>IsEyeScanInProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BERTInputChannel::IsEyeScanInProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if an eye scan is currently executing. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if scan is in progress, false if not </dd></dl>
+
+</div>
+</div>
+<a id="aaaf5b95f90f0ae85eb0523e09eba310f" name="aaaf5b95f90f0ae85eb0523e09eba310f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf5b95f90f0ae85eb0523e09eba310f">&#9670;&nbsp;</a></span>IsHBathtubScanInProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BERTInputChannel::IsHBathtubScanInProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a bathtub scan is currently executing. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if scan is in progress, false if not </dd></dl>
 
 </div>
 </div>
@@ -861,6 +1217,182 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 
 </div>
 </div>
+<a id="a719ef657c858938921a95aa9e7826abc" name="a719ef657c858938921a95aa9e7826abc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719ef657c858938921a95aa9e7826abc">&#9670;&nbsp;</a></span>SetBERSamplingPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::SetBERSamplingPoint </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the sampling location for real time offset BER measurements. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dx</td><td>Horizontal offset of the sampling point from the center of the eye, in femtoseconds </td></tr>
+    <tr><td class="paramname">dy</td><td>Vertical offset of the sampling point from the center of the eye, in volts </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a04b37ce6c3da0b6ceeaa6a671d049566" name="a04b37ce6c3da0b6ceeaa6a671d049566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b37ce6c3da0b6ceeaa6a671d049566">&#9670;&nbsp;</a></span>SetCTLEGainStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::SetCTLEGainStep </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the gain for the CTLE. </p>
+<p >The actual gain value can be looked up in the table returned by <a class="el" href="classBERTInputChannel.html#ad2ebb17a8966b3d14ed4265aeef8e31e" title="Get the set of available gain steps for the CTLE, in dB.">GetCTLEGainSteps()</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td>Step index </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac9902fcd901d82e92b845833bd084e0e" name="ac9902fcd901d82e92b845833bd084e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9902fcd901d82e92b845833bd084e0e">&#9670;&nbsp;</a></span>SetDataRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::SetDataRate </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the data rate of this channel, in symbols per second. </p>
+<p >Depending on the clocking architecture of the instrument, this may affect other channels.</p>
+<p >For example, on MultiLane BERTs all channels share a single timebase. Antikernel Labs BERTs are based on Xilinx FPGAs and channels are divided into quads which each share some clocking resources.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rate</td><td>Desired data rate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af9a316c1e949613295d03cda28059032" name="af9a316c1e949613295d03cda28059032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9a316c1e949613295d03cda28059032">&#9670;&nbsp;</a></span>SetInvert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::SetInvert </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invert</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the polarity inversion state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">invert</td><td>True for inverted polarity, false for normal </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a61e0b3e3c82e29f4a81cc8f653e2fa18" name="a61e0b3e3c82e29f4a81cc8f653e2fa18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e0b3e3c82e29f4a81cc8f653e2fa18">&#9670;&nbsp;</a></span>SetMaskFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::SetMaskFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the path of the mask file for pass/fail testing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fname</td><td>Path of the YAML mask file </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a9926b42797392738a0dde08434dca257" name="a9926b42797392738a0dde08434dca257"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9926b42797392738a0dde08434dca257">&#9670;&nbsp;</a></span>SetOffset()</h2>
 
@@ -896,6 +1428,74 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classOscilloscopeChannel.html">OscilloscopeChannel</a>.</p>
+
+</div>
+</div>
+<a id="a29a132ba1208880392023eadde38f51a" name="a29a132ba1208880392023eadde38f51a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a132ba1208880392023eadde38f51a">&#9670;&nbsp;</a></span>SetPattern()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::SetPattern </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a>&#160;</td>
+          <td class="paramname"><em>pattern</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the pattern this channel is expecting to see. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pattern</td><td>Expected pattern </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a73d11f8d2d3fa744f5ced9dbd1dae2c1" name="a73d11f8d2d3fa744f5ced9dbd1dae2c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d11f8d2d3fa744f5ced9dbd1dae2c1">&#9670;&nbsp;</a></span>SetScanDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTInputChannel::SetScanDepth </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>depth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the currently selected integration depth for eye / bathtub scans. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">depth</td><td>Integration depth, in UIs per pixel or point </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -975,9 +1575,35 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateInput</b> (cons
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa7d273b6bfdccfc0faf927c663fae3d3" name="aa7d273b6bfdccfc0faf927c663fae3d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d273b6bfdccfc0faf927c663fae3d3">&#9670;&nbsp;</a></span>m_bert</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::weak_ptr&lt;<a class="el" href="classBERT.html">BERT</a>&gt; BERTInputChannel::m_bert</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointer to the parent instrument. </p>
+<p >TODO: this needs to get refactored away so we can just use <a class="el" href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab" title="The instrument we&#39;re part of (may be null in the case of filters etc)">InstrumentChannel::m_instrument</a> </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="BERTInputChannel_8h_source.html">BERTInputChannel.h</a></li>
-<li>lib/scopehal/BERTInputChannel.cpp</li>
+<li>lib/scopehal/<a class="el" href="BERTInputChannel_8cpp.html">BERTInputChannel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

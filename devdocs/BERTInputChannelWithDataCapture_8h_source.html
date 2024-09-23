@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,7 @@ $(function() {
   <div class="headertitle"><div class="title">BERTInputChannelWithDataCapture.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
+<a href="BERTInputChannelWithDataCapture_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
@@ -98,32 +98,38 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#ifndef BERTInputChannelWithDataCapture_h</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define BERTInputChannelWithDataCapture_h</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;BERTInputChannel.h&quot;</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classBERTInputChannelWithDataCapture.html">   38</a></span><span class="keyword">class </span><a class="code hl_class" href="classBERTInputChannelWithDataCapture.html">BERTInputChannelWithDataCapture</a> : <span class="keyword">public</span> <a class="code hl_class" href="classBERTInputChannel.html">BERTInputChannel</a></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_class" href="classBERTInputChannelWithDataCapture.html">BERTInputChannelWithDataCapture</a>(</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keyword">const</span> std::string&amp; hwname,</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        std::weak_ptr&lt;BERT&gt; bert,</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keyword">const</span> std::string&amp; color = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">size_t</span> index = 0);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classBERTInputChannelWithDataCapture.html">~BERTInputChannelWithDataCapture</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">enum</span> DataStreamIDs</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        STREAM_CDR_CAPTURE = 4,</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        STREAM_CDR_RECCLK = 5</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    };</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassBERTInputChannelWithDataCapture_html"><div class="ttname"><a href="classBERTInputChannelWithDataCapture.html">BERTInputChannelWithDataCapture</a></div><div class="ttdoc">Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode.</div><div class="ttdef"><b>Definition:</b> BERTInputChannelWithDataCapture.h:39</div></div>
-<div class="ttc" id="aclassBERTInputChannel_html"><div class="ttname"><a href="classBERTInputChannel.html">BERTInputChannel</a></div><div class="ttdoc">A pattern checker channel of a BERT.</div><div class="ttdef"><b>Definition:</b> BERTInputChannel.h:42</div></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef BERTInputChannelWithDataCapture_h</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define BERTInputChannelWithDataCapture_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="BERTInputChannel_8h.html">BERTInputChannel.h</a>&quot;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classBERTInputChannelWithDataCapture.html">   46</a></span><span class="keyword">class </span><a class="code hl_class" href="classBERTInputChannelWithDataCapture.html">BERTInputChannelWithDataCapture</a> : <span class="keyword">public</span> <a class="code hl_class" href="classBERTInputChannel.html">BERTInputChannel</a></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_function" href="classBERTInputChannelWithDataCapture.html#a7132dd82161632091c9df40e27379e9a">BERTInputChannelWithDataCapture</a>(</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keyword">const</span> std::string&amp; hwname,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        std::weak_ptr&lt;BERT&gt; bert,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keyword">const</span> std::string&amp; color = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordtype">size_t</span> index = 0);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classBERTInputChannelWithDataCapture.html">~BERTInputChannelWithDataCapture</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8">   58</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8">DataStreamIDs</a></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8aad55a7ca4ef2d1eb3cffab9868428312">   61</a></span>        <a class="code hl_enumvalue" href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8aad55a7ca4ef2d1eb3cffab9868428312">STREAM_CDR_CAPTURE</a> = 4,</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <a class="code hl_enumvalue" href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8a9ab2c084db5a28536714303aae7c6ea3">STREAM_CDR_RECCLK</a> = 5</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8a9ab2c084db5a28536714303aae7c6ea3">   65</a></span>    };</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aBERTInputChannel_8h_html"><div class="ttname"><a href="BERTInputChannel_8h.html">BERTInputChannel.h</a></div><div class="ttdoc">Declaration of BERTInputChannel.</div></div>
+<div class="ttc" id="aclassBERTInputChannelWithDataCapture_html"><div class="ttname"><a href="classBERTInputChannelWithDataCapture.html">BERTInputChannelWithDataCapture</a></div><div class="ttdoc">Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode.</div><div class="ttdef"><b>Definition:</b> BERTInputChannelWithDataCapture.h:47</div></div>
+<div class="ttc" id="aclassBERTInputChannelWithDataCapture_html_a2699bc41fa83a2f33ac0bfb2104d11c8"><div class="ttname"><a href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8">BERTInputChannelWithDataCapture::DataStreamIDs</a></div><div class="ttdeci">DataStreamIDs</div><div class="ttdoc">Stream IDs for waveform capture.</div><div class="ttdef"><b>Definition:</b> BERTInputChannelWithDataCapture.h:59</div></div>
+<div class="ttc" id="aclassBERTInputChannelWithDataCapture_html_a2699bc41fa83a2f33ac0bfb2104d11c8a9ab2c084db5a28536714303aae7c6ea3"><div class="ttname"><a href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8a9ab2c084db5a28536714303aae7c6ea3">BERTInputChannelWithDataCapture::STREAM_CDR_RECCLK</a></div><div class="ttdeci">@ STREAM_CDR_RECCLK</div><div class="ttdoc">Recovered clock waveform.</div><div class="ttdef"><b>Definition:</b> BERTInputChannelWithDataCapture.h:64</div></div>
+<div class="ttc" id="aclassBERTInputChannelWithDataCapture_html_a2699bc41fa83a2f33ac0bfb2104d11c8aad55a7ca4ef2d1eb3cffab9868428312"><div class="ttname"><a href="classBERTInputChannelWithDataCapture.html#a2699bc41fa83a2f33ac0bfb2104d11c8aad55a7ca4ef2d1eb3cffab9868428312">BERTInputChannelWithDataCapture::STREAM_CDR_CAPTURE</a></div><div class="ttdeci">@ STREAM_CDR_CAPTURE</div><div class="ttdoc">Data capture waveform.</div><div class="ttdef"><b>Definition:</b> BERTInputChannelWithDataCapture.h:61</div></div>
+<div class="ttc" id="aclassBERTInputChannelWithDataCapture_html_a7132dd82161632091c9df40e27379e9a"><div class="ttname"><a href="classBERTInputChannelWithDataCapture.html#a7132dd82161632091c9df40e27379e9a">BERTInputChannelWithDataCapture::BERTInputChannelWithDataCapture</a></div><div class="ttdeci">BERTInputChannelWithDataCapture(const std::string &amp;hwname, std::weak_ptr&lt; BERT &gt; bert, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</div><div class="ttdoc">Initialize the channel.</div><div class="ttdef"><b>Definition:</b> BERTInputChannelWithDataCapture.cpp:53</div></div>
+<div class="ttc" id="aclassBERTInputChannel_html"><div class="ttname"><a href="classBERTInputChannel.html">BERTInputChannel</a></div><div class="ttdoc">A pattern checker channel of a BERT.</div><div class="ttdef"><b>Definition:</b> BERTInputChannel.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

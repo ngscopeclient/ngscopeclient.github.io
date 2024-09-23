@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
    </div>
   </td>
  </tr>
@@ -80,42 +80,47 @@ $(function() {
 Public Types</h2></td></tr>
 <tr class="memitem:af4bc2a6ad6f8f3a607ff5f4477206ef9"><td class="memItemLeft" align="right" valign="top"><a id="af4bc2a6ad6f8f3a607ff5f4477206ef9" name="af4bc2a6ad6f8f3a607ff5f4477206ef9"></a>
 typedef std::map&lt; T1, T2, Compare1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forwardType</b></td></tr>
+<tr class="memdesc:af4bc2a6ad6f8f3a607ff5f4477206ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the forward map. <br /></td></tr>
 <tr class="separator:af4bc2a6ad6f8f3a607ff5f4477206ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3216f124fcfe3134bad16b76d146ae74"><td class="memItemLeft" align="right" valign="top"><a id="a3216f124fcfe3134bad16b76d146ae74" name="a3216f124fcfe3134bad16b76d146ae74"></a>
 typedef std::map&lt; T2, T1, Compare2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>reverseType</b></td></tr>
+<tr class="memdesc:a3216f124fcfe3134bad16b76d146ae74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the reverse map. <br /></td></tr>
 <tr class="separator:a3216f124fcfe3134bad16b76d146ae74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1524c14e6305119455e8a04023538820"><td class="memItemLeft" align="right" valign="top"><a id="a1524c14e6305119455e8a04023538820" name="a1524c14e6305119455e8a04023538820"></a>
 forwardType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> ()</td></tr>
+<tr class="memdesc:a1524c14e6305119455e8a04023538820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an iterator to the start of the forward map. <br /></td></tr>
 <tr class="separator:a1524c14e6305119455e8a04023538820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadfcec9d58990695ba9d023288bb0065"><td class="memItemLeft" align="right" valign="top"><a id="aadfcec9d58990695ba9d023288bb0065" name="aadfcec9d58990695ba9d023288bb0065"></a>
 forwardType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> ()</td></tr>
+<tr class="memdesc:aadfcec9d58990695ba9d023288bb0065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an iterator to the end of the forward map. <br /></td></tr>
 <tr class="separator:aadfcec9d58990695ba9d023288bb0065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7be0701371ec577018cc57fabb41ec91"><td class="memItemLeft" align="right" valign="top"><a id="a7be0701371ec577018cc57fabb41ec91" name="a7be0701371ec577018cc57fabb41ec91"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>emplace</b> (T1 a, T2 b)</td></tr>
+<tr class="memitem:a7be0701371ec577018cc57fabb41ec91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">emplace</a> (T1 a, T2 b)</td></tr>
+<tr class="memdesc:a7be0701371ec577018cc57fabb41ec91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new entry to the bijection.  <a href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">More...</a><br /></td></tr>
 <tr class="separator:a7be0701371ec577018cc57fabb41ec91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06"><td class="memItemLeft" align="right" valign="top"><a id="ab2d1afdd3a4b77d4c9d2e7f4f99e9d06" name="ab2d1afdd3a4b77d4c9d2e7f4f99e9d06"></a>
-const T1 &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (T2 key)</td></tr>
+<tr class="memitem:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06"><td class="memItemLeft" align="right" valign="top">const T1 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06">operator[]</a> (T2 key)</td></tr>
+<tr class="memdesc:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up an object in the reverse direction.  <a href="classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06">More...</a><br /></td></tr>
 <tr class="separator:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b8eca26357ac965aaec87be3540d008"><td class="memItemLeft" align="right" valign="top"><a id="a9b8eca26357ac965aaec87be3540d008" name="a9b8eca26357ac965aaec87be3540d008"></a>
-const T2 &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (T1 key)</td></tr>
+<tr class="memitem:a9b8eca26357ac965aaec87be3540d008"><td class="memItemLeft" align="right" valign="top">const T2 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a9b8eca26357ac965aaec87be3540d008">operator[]</a> (T1 key)</td></tr>
+<tr class="memdesc:a9b8eca26357ac965aaec87be3540d008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up an object in the forward direction.  <a href="classBijection.html#a9b8eca26357ac965aaec87be3540d008">More...</a><br /></td></tr>
 <tr class="separator:a9b8eca26357ac965aaec87be3540d008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a5de41206dcb70041d8629a793849df"><td class="memItemLeft" align="right" valign="top"><a id="a7a5de41206dcb70041d8629a793849df" name="a7a5de41206dcb70041d8629a793849df"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasEntry</b> (T1 key)</td></tr>
+<tr class="memitem:a7a5de41206dcb70041d8629a793849df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7a5de41206dcb70041d8629a793849df">HasEntry</a> (T1 key)</td></tr>
+<tr class="memdesc:a7a5de41206dcb70041d8629a793849df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if an object is present in the forward mapping.  <a href="classBijection.html#a7a5de41206dcb70041d8629a793849df">More...</a><br /></td></tr>
 <tr class="separator:a7a5de41206dcb70041d8629a793849df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab82cf68937e467b04929cc3438897173"><td class="memItemLeft" align="right" valign="top"><a id="ab82cf68937e467b04929cc3438897173" name="ab82cf68937e467b04929cc3438897173"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasEntry</b> (T2 key)</td></tr>
+<tr class="memitem:ab82cf68937e467b04929cc3438897173"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ab82cf68937e467b04929cc3438897173">HasEntry</a> (T2 key)</td></tr>
+<tr class="memdesc:ab82cf68937e467b04929cc3438897173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if an object is present in the reverse mapping.  <a href="classBijection.html#ab82cf68937e467b04929cc3438897173">More...</a><br /></td></tr>
 <tr class="separator:ab82cf68937e467b04929cc3438897173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7a469d097047901d5b79731309036e1"><td class="memItemLeft" align="right" valign="top"><a id="ab7a469d097047901d5b79731309036e1" name="ab7a469d097047901d5b79731309036e1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="memdesc:ab7a469d097047901d5b79731309036e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase all entries in the bijection. <br /></td></tr>
 <tr class="separator:ab7a469d097047901d5b79731309036e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d120f6599c0ccbe15d25523ca9ee786"><td class="memItemLeft" align="right" valign="top"><a id="a7d120f6599c0ccbe15d25523ca9ee786" name="a7d120f6599c0ccbe15d25523ca9ee786"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>erase</b> (T1 key)</td></tr>
+<tr class="memitem:a7d120f6599c0ccbe15d25523ca9ee786"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7d120f6599c0ccbe15d25523ca9ee786">erase</a> (T1 key)</td></tr>
+<tr class="memdesc:a7d120f6599c0ccbe15d25523ca9ee786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an entry given a forward key.  <a href="classBijection.html#a7d120f6599c0ccbe15d25523ca9ee786">More...</a><br /></td></tr>
 <tr class="separator:a7d120f6599c0ccbe15d25523ca9ee786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac11fe24b803024e4faf06ac14fd21540"><td class="memItemLeft" align="right" valign="top"><a id="ac11fe24b803024e4faf06ac14fd21540" name="ac11fe24b803024e4faf06ac14fd21540"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>erase</b> (T2 key)</td></tr>
+<tr class="memitem:ac11fe24b803024e4faf06ac14fd21540"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ac11fe24b803024e4faf06ac14fd21540">erase</a> (T2 key)</td></tr>
+<tr class="memdesc:ac11fe24b803024e4faf06ac14fd21540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an entry given a reverse key.  <a href="classBijection.html#ac11fe24b803024e4faf06ac14fd21540">More...</a><br /></td></tr>
 <tr class="separator:ac11fe24b803024e4faf06ac14fd21540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7a4d788e1d0949a59e766d4b253c5d"><td class="memItemLeft" align="right" valign="top"><a id="a1c7a4d788e1d0949a59e766d4b253c5d" name="a1c7a4d788e1d0949a59e766d4b253c5d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>replace</b> (T2 oldval, T2 newval)</td></tr>
@@ -123,22 +128,290 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>replace</b> (T2 oldva
 <tr class="separator:a1c7a4d788e1d0949a59e766d4b253c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb134ee46ca8e321c1485410f7ecb0b0"><td class="memItemLeft" align="right" valign="top"><a id="afb134ee46ca8e321c1485410f7ecb0b0" name="afb134ee46ca8e321c1485410f7ecb0b0"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> ()</td></tr>
+<tr class="memdesc:afb134ee46ca8e321c1485410f7ecb0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of entries in the bijection. <br /></td></tr>
 <tr class="separator:afb134ee46ca8e321c1485410f7ecb0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a28aac016b6b70bd5562171bb8ad7a4a0"><td class="memItemLeft" align="right" valign="top"><a id="a28aac016b6b70bd5562171bb8ad7a4a0" name="a28aac016b6b70bd5562171bb8ad7a4a0"></a>
-forwardType&#160;</td><td class="memItemRight" valign="bottom"><b>m_forwardMap</b></td></tr>
+<a class="el" href="classBijection.html#af4bc2a6ad6f8f3a607ff5f4477206ef9">forwardType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_forwardMap</b></td></tr>
+<tr class="memdesc:a28aac016b6b70bd5562171bb8ad7a4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of object-to-object in the forward direction. <br /></td></tr>
 <tr class="separator:a28aac016b6b70bd5562171bb8ad7a4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae43e095a21ff32501999a025f7e1fb39"><td class="memItemLeft" align="right" valign="top"><a id="ae43e095a21ff32501999a025f7e1fb39" name="ae43e095a21ff32501999a025f7e1fb39"></a>
-reverseType&#160;</td><td class="memItemRight" valign="bottom"><b>m_reverseMap</b></td></tr>
+<a class="el" href="classBijection.html#a3216f124fcfe3134bad16b76d146ae74">reverseType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_reverseMap</b></td></tr>
+<tr class="memdesc:ae43e095a21ff32501999a025f7e1fb39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of object-to-object in the reverse direction. <br /></td></tr>
 <tr class="separator:ae43e095a21ff32501999a025f7e1fb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T1, class T2, typename Compare1 = std::less&lt;T1&gt;, typename Compare2 = std::less&lt;T2&gt;&gt;<br />
 class Bijection&lt; T1, T2, Compare1, Compare2 &gt;</div><p >A strict one-to-one mapping from objects of type T1 to type T2 (which must be different types). </p>
 <p >Internally implemented as two synchronized std::map instances </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7be0701371ec577018cc57fabb41ec91" name="a7be0701371ec577018cc57fabb41ec91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7be0701371ec577018cc57fabb41ec91">&#9670;&nbsp;</a></span>emplace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::emplace </td>
+          <td>(</td>
+          <td class="paramtype">T1&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T2&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a new entry to the bijection. </p>
+<p >Neither a nor b is allowed to be in the map when this function is called.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>First object </td></tr>
+    <tr><td class="paramname">b</td><td>Second object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7d120f6599c0ccbe15d25523ca9ee786" name="a7d120f6599c0ccbe15d25523ca9ee786"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d120f6599c0ccbe15d25523ca9ee786">&#9670;&nbsp;</a></span>erase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::erase </td>
+          <td>(</td>
+          <td class="paramtype">T1&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase an entry given a forward key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The object to remove </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac11fe24b803024e4faf06ac14fd21540" name="ac11fe24b803024e4faf06ac14fd21540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11fe24b803024e4faf06ac14fd21540">&#9670;&nbsp;</a></span>erase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::erase </td>
+          <td>(</td>
+          <td class="paramtype">T2&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase an entry given a reverse key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The object to remove </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7a5de41206dcb70041d8629a793849df" name="a7a5de41206dcb70041d8629a793849df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a5de41206dcb70041d8629a793849df">&#9670;&nbsp;</a></span>HasEntry() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::HasEntry </td>
+          <td>(</td>
+          <td class="paramtype">T1&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines if an object is present in the forward mapping. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The object being looked up </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab82cf68937e467b04929cc3438897173" name="ab82cf68937e467b04929cc3438897173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82cf68937e467b04929cc3438897173">&#9670;&nbsp;</a></span>HasEntry() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::HasEntry </td>
+          <td>(</td>
+          <td class="paramtype">T2&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines if an object is present in the reverse mapping. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The object being looked up </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9b8eca26357ac965aaec87be3540d008" name="a9b8eca26357ac965aaec87be3540d008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8eca26357ac965aaec87be3540d008">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T2 &amp; <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">T1&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Looks up an object in the forward direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The object being looked up </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab2d1afdd3a4b77d4c9d2e7f4f99e9d06" name="ab2d1afdd3a4b77d4c9d2e7f4f99e9d06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T1 &amp; <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">T2&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Looks up an object in the reverse direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The object being looked up </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/scopehal/<a class="el" href="Bijection_8h_source.html">Bijection.h</a></li>
 </ul>
 </div><!-- contents -->

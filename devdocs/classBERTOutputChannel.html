@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
    </div>
   </td>
  </tr>
@@ -65,11 +65,11 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classBERTOutputChannel-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">BERTOutputChannel Class Reference</div></div>
+  <div class="headertitle"><div class="title">BERTOutputChannel Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>A pattern generator channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate testers.">BERT</a>.  
+<p>A pattern generator channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a>.  
  <a href="classBERTOutputChannel.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="BERTOutputChannel_8h_source.html">BERTOutputChannel.h</a>&gt;</code></p>
@@ -99,8 +99,8 @@ Collaboration diagram for BERTOutputChannel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa981f4d89c655e45a36473b42cb7dd71"><td class="memItemLeft" align="right" valign="top"><a id="aa981f4d89c655e45a36473b42cb7dd71" name="aa981f4d89c655e45a36473b42cb7dd71"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>BERTOutputChannel</b> (const std::string &amp;hwname, <a class="el" href="classBERT.html">BERT</a> *bert, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</td></tr>
+<tr class="memitem:aa981f4d89c655e45a36473b42cb7dd71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#aa981f4d89c655e45a36473b42cb7dd71">BERTOutputChannel</a> (const std::string &amp;hwname, <a class="el" href="classBERT.html">BERT</a> *bert, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</td></tr>
+<tr class="memdesc:aa981f4d89c655e45a36473b42cb7dd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the channel.  <a href="classBERTOutputChannel.html#aa981f4d89c655e45a36473b42cb7dd71">More...</a><br /></td></tr>
 <tr class="separator:aa981f4d89c655e45a36473b42cb7dd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2244bb1fadccac95b9b357aab17fc36d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a2244bb1fadccac95b9b357aab17fc36d">Refresh</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue) override</td></tr>
 <tr class="separator:a2244bb1fadccac95b9b357aab17fc36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -108,54 +108,60 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a013b5eced04b38f4ed218b5e048c0c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abba88fd1cc1b6504814e43b98788649b"><td class="memItemLeft" align="right" valign="top"><a id="abba88fd1cc1b6504814e43b98788649b" name="abba88fd1cc1b6504814e43b98788649b"></a>
 <a class="el" href="classBERT.html">BERT</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetBERT</b> () const</td></tr>
+<tr class="memdesc:abba88fd1cc1b6504814e43b98788649b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a> this channel is part of. <br /></td></tr>
 <tr class="separator:abba88fd1cc1b6504814e43b98788649b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e582a7cff69d9a64804617262d8b791"><td class="memItemLeft" align="right" valign="top"><a id="a2e582a7cff69d9a64804617262d8b791" name="a2e582a7cff69d9a64804617262d8b791"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPattern</b> (BERT::Pattern pattern)</td></tr>
+<tr class="memitem:a2e582a7cff69d9a64804617262d8b791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a2e582a7cff69d9a64804617262d8b791">SetPattern</a> (<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> pattern)</td></tr>
+<tr class="memdesc:a2e582a7cff69d9a64804617262d8b791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the pattern this channel is generating.  <a href="classBERTOutputChannel.html#a2e582a7cff69d9a64804617262d8b791">More...</a><br /></td></tr>
 <tr class="separator:a2e582a7cff69d9a64804617262d8b791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4471465e4a7130cbcd6d78b5ec7f3ff"><td class="memItemLeft" align="right" valign="top"><a id="af4471465e4a7130cbcd6d78b5ec7f3ff" name="af4471465e4a7130cbcd6d78b5ec7f3ff"></a>
-BERT::Pattern&#160;</td><td class="memItemRight" valign="bottom"><b>GetPattern</b> ()</td></tr>
+<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetPattern</b> ()</td></tr>
+<tr class="memdesc:af4471465e4a7130cbcd6d78b5ec7f3ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pattern this channel is currently generating. <br /></td></tr>
 <tr class="separator:af4471465e4a7130cbcd6d78b5ec7f3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec13c9a9c3d0110b855fc0a18a57ffc0"><td class="memItemLeft" align="right" valign="top"><a id="aec13c9a9c3d0110b855fc0a18a57ffc0" name="aec13c9a9c3d0110b855fc0a18a57ffc0"></a>
-std::vector&lt; BERT::Pattern &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvailablePatterns</b> ()</td></tr>
+std::vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvailablePatterns</b> ()</td></tr>
+<tr class="memdesc:aec13c9a9c3d0110b855fc0a18a57ffc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set of patterns this channel is capable of generating. <br /></td></tr>
 <tr class="separator:aec13c9a9c3d0110b855fc0a18a57ffc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae54d8d204b5516c87b2a92f28e94505d"><td class="memItemLeft" align="right" valign="top"><a id="ae54d8d204b5516c87b2a92f28e94505d" name="ae54d8d204b5516c87b2a92f28e94505d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetInvert</b> ()</td></tr>
+<tr class="memdesc:ae54d8d204b5516c87b2a92f28e94505d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the polarity inversion state of this channel. <br /></td></tr>
 <tr class="separator:ae54d8d204b5516c87b2a92f28e94505d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c70233b0f98aae0e8bc2b739afc27b4"><td class="memItemLeft" align="right" valign="top"><a id="a0c70233b0f98aae0e8bc2b739afc27b4" name="a0c70233b0f98aae0e8bc2b739afc27b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetInvert</b> (bool invert)</td></tr>
+<tr class="memitem:a0c70233b0f98aae0e8bc2b739afc27b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a0c70233b0f98aae0e8bc2b739afc27b4">SetInvert</a> (bool invert)</td></tr>
+<tr class="memdesc:a0c70233b0f98aae0e8bc2b739afc27b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the polarity inversion state of this channel.  <a href="classBERTOutputChannel.html#a0c70233b0f98aae0e8bc2b739afc27b4">More...</a><br /></td></tr>
 <tr class="separator:a0c70233b0f98aae0e8bc2b739afc27b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0e5350766353c2a1119c823f259f561"><td class="memItemLeft" align="right" valign="top"><a id="ab0e5350766353c2a1119c823f259f561" name="ab0e5350766353c2a1119c823f259f561"></a>
-std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvailableDriveStrengths</b> ()</td></tr>
+<tr class="memitem:ab0e5350766353c2a1119c823f259f561"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#ab0e5350766353c2a1119c823f259f561">GetAvailableDriveStrengths</a> ()</td></tr>
+<tr class="memdesc:ab0e5350766353c2a1119c823f259f561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set of amplitudes this channel is capable of outputting.  <a href="classBERTOutputChannel.html#ab0e5350766353c2a1119c823f259f561">More...</a><br /></td></tr>
 <tr class="separator:ab0e5350766353c2a1119c823f259f561"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9d9c9ea02f976e71062bc23b702ad0f"><td class="memItemLeft" align="right" valign="top"><a id="ab9d9c9ea02f976e71062bc23b702ad0f" name="ab9d9c9ea02f976e71062bc23b702ad0f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GetDriveStrength</b> ()</td></tr>
+<tr class="memitem:ab9d9c9ea02f976e71062bc23b702ad0f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#ab9d9c9ea02f976e71062bc23b702ad0f">GetDriveStrength</a> ()</td></tr>
+<tr class="memdesc:ab9d9c9ea02f976e71062bc23b702ad0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current nominal amplitude of this channel.  <a href="classBERTOutputChannel.html#ab9d9c9ea02f976e71062bc23b702ad0f">More...</a><br /></td></tr>
 <tr class="separator:ab9d9c9ea02f976e71062bc23b702ad0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addc4d36b2a8983560d2973c6b91b82b4"><td class="memItemLeft" align="right" valign="top"><a id="addc4d36b2a8983560d2973c6b91b82b4" name="addc4d36b2a8983560d2973c6b91b82b4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDriveStrength</b> (float drive)</td></tr>
+<tr class="memitem:addc4d36b2a8983560d2973c6b91b82b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#addc4d36b2a8983560d2973c6b91b82b4">SetDriveStrength</a> (float drive)</td></tr>
+<tr class="memdesc:addc4d36b2a8983560d2973c6b91b82b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current nominal amplitude of this channel.  <a href="classBERTOutputChannel.html#addc4d36b2a8983560d2973c6b91b82b4">More...</a><br /></td></tr>
 <tr class="separator:addc4d36b2a8983560d2973c6b91b82b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50d64df014cd838818d9719d0ef09802"><td class="memItemLeft" align="right" valign="top"><a id="a50d64df014cd838818d9719d0ef09802" name="a50d64df014cd838818d9719d0ef09802"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetEnable</b> ()</td></tr>
+<tr class="memdesc:a50d64df014cd838818d9719d0ef09802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the enable status of this channel. <br /></td></tr>
 <tr class="separator:a50d64df014cd838818d9719d0ef09802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85226a93170dbbbff2ced54364c565a7"><td class="memItemLeft" align="right" valign="top"><a id="a85226a93170dbbbff2ced54364c565a7" name="a85226a93170dbbbff2ced54364c565a7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Enable</b> (bool b)</td></tr>
+<tr class="memitem:a85226a93170dbbbff2ced54364c565a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a85226a93170dbbbff2ced54364c565a7">Enable</a> (bool b)</td></tr>
+<tr class="memdesc:a85226a93170dbbbff2ced54364c565a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the enable state of this channel.  <a href="classBERTOutputChannel.html#a85226a93170dbbbff2ced54364c565a7">More...</a><br /></td></tr>
 <tr class="separator:a85226a93170dbbbff2ced54364c565a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a967caf505839f739337b42dd384ea2a9"><td class="memItemLeft" align="right" valign="top"><a id="a967caf505839f739337b42dd384ea2a9" name="a967caf505839f739337b42dd384ea2a9"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GetPreCursor</b> ()</td></tr>
+<tr class="memitem:a967caf505839f739337b42dd384ea2a9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a967caf505839f739337b42dd384ea2a9">GetPreCursor</a> ()</td></tr>
+<tr class="memdesc:a967caf505839f739337b42dd384ea2a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the TX FFE pre-cursor coefficient.  <a href="classBERTOutputChannel.html#a967caf505839f739337b42dd384ea2a9">More...</a><br /></td></tr>
 <tr class="separator:a967caf505839f739337b42dd384ea2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab178203bba5afb1c70918fd6e52e8951"><td class="memItemLeft" align="right" valign="top"><a id="ab178203bba5afb1c70918fd6e52e8951" name="ab178203bba5afb1c70918fd6e52e8951"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPreCursor</b> (float f)</td></tr>
+<tr class="memitem:ab178203bba5afb1c70918fd6e52e8951"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#ab178203bba5afb1c70918fd6e52e8951">SetPreCursor</a> (float f)</td></tr>
+<tr class="memdesc:ab178203bba5afb1c70918fd6e52e8951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the TX FFE pre-cursor coefficient.  <a href="classBERTOutputChannel.html#ab178203bba5afb1c70918fd6e52e8951">More...</a><br /></td></tr>
 <tr class="separator:ab178203bba5afb1c70918fd6e52e8951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1269f9f51b37d65e1da18177352169b"><td class="memItemLeft" align="right" valign="top"><a id="af1269f9f51b37d65e1da18177352169b" name="af1269f9f51b37d65e1da18177352169b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GetPostCursor</b> ()</td></tr>
+<tr class="memitem:af1269f9f51b37d65e1da18177352169b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#af1269f9f51b37d65e1da18177352169b">GetPostCursor</a> ()</td></tr>
+<tr class="memdesc:af1269f9f51b37d65e1da18177352169b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the TX FFE post-cursor coefficient.  <a href="classBERTOutputChannel.html#af1269f9f51b37d65e1da18177352169b">More...</a><br /></td></tr>
 <tr class="separator:af1269f9f51b37d65e1da18177352169b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16259407d8f475c8054cec6089598844"><td class="memItemLeft" align="right" valign="top"><a id="a16259407d8f475c8054cec6089598844" name="a16259407d8f475c8054cec6089598844"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPostCursor</b> (float f)</td></tr>
+<tr class="memitem:a16259407d8f475c8054cec6089598844"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a16259407d8f475c8054cec6089598844">SetPostCursor</a> (float f)</td></tr>
+<tr class="memdesc:a16259407d8f475c8054cec6089598844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the TX FFE post-cursor coefficient.  <a href="classBERTOutputChannel.html#a16259407d8f475c8054cec6089598844">More...</a><br /></td></tr>
 <tr class="separator:a16259407d8f475c8054cec6089598844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa080d489cd16c10b52b94a9de4dc294d"><td class="memItemLeft" align="right" valign="top"><a id="aa080d489cd16c10b52b94a9de4dc294d" name="aa080d489cd16c10b52b94a9de4dc294d"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDataRate</b> ()</td></tr>
+<tr class="memdesc:aa080d489cd16c10b52b94a9de4dc294d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the data rate of this channel, in symbols per second. <br /></td></tr>
 <tr class="separator:aa080d489cd16c10b52b94a9de4dc294d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27d6dd9c36807375ebc8cbf1e1d84b60"><td class="memItemLeft" align="right" valign="top"><a id="a27d6dd9c36807375ebc8cbf1e1d84b60" name="a27d6dd9c36807375ebc8cbf1e1d84b60"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDataRate</b> (int64_t rate)</td></tr>
+<tr class="memitem:a27d6dd9c36807375ebc8cbf1e1d84b60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a27d6dd9c36807375ebc8cbf1e1d84b60">SetDataRate</a> (int64_t rate)</td></tr>
+<tr class="memdesc:a27d6dd9c36807375ebc8cbf1e1d84b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data rate of this channel, in symbols per second.  <a href="classBERTOutputChannel.html#a27d6dd9c36807375ebc8cbf1e1d84b60">More...</a><br /></td></tr>
 <tr class="separator:a27d6dd9c36807375ebc8cbf1e1d84b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e5f27da79cb0695f431507cc0ac2e02"><td class="memItemLeft" align="right" valign="top">virtual PhysicalConnector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERTOutputChannel.html#a0e5f27da79cb0695f431507cc0ac2e02">GetPhysicalConnector</a> () override</td></tr>
 <tr class="separator:a0e5f27da79cb0695f431507cc0ac2e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -431,8 +437,150 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="separator:aa0fc7a721126c545ebd58a232f65cc8b inherit pro_attribs_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A pattern generator channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate testers.">BERT</a>. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p >A pattern generator channel of a <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa981f4d89c655e45a36473b42cb7dd71" name="aa981f4d89c655e45a36473b42cb7dd71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa981f4d89c655e45a36473b42cb7dd71">&#9670;&nbsp;</a></span>BERTOutputChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BERTOutputChannel::BERTOutputChannel </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>hwname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classBERT.html">BERT</a> *&#160;</td>
+          <td class="paramname"><em>bert</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>color</em> = <code>&quot;#808080&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hwname</td><td>Hardware name of the channel </td></tr>
+    <tr><td class="paramname">parent</td><td><a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a> the channel is part of </td></tr>
+    <tr><td class="paramname">color</td><td>Initial display color of the channel </td></tr>
+    <tr><td class="paramname">index</td><td>Number of the channel </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a85226a93170dbbbff2ced54364c565a7" name="a85226a93170dbbbff2ced54364c565a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85226a93170dbbbff2ced54364c565a7">&#9670;&nbsp;</a></span>Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTOutputChannel::Enable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the enable state of this channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td>True to enable the channel, false to disable </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab0e5350766353c2a1119c823f259f561" name="ab0e5350766353c2a1119c823f259f561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0e5350766353c2a1119c823f259f561">&#9670;&nbsp;</a></span>GetAvailableDriveStrengths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; float &gt; BERTOutputChannel::GetAvailableDriveStrengths </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the set of amplitudes this channel is capable of outputting. </p>
+<p >Amplitudes are in nominal volts P-P with all TX equalizer taps set to zero. </p>
+
+</div>
+</div>
+<a id="ab9d9c9ea02f976e71062bc23b702ad0f" name="ab9d9c9ea02f976e71062bc23b702ad0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d9c9ea02f976e71062bc23b702ad0f">&#9670;&nbsp;</a></span>GetDriveStrength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BERTOutputChannel::GetDriveStrength </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current nominal amplitude of this channel. </p>
+<p >Amplitudes are in nominal volts P-P with all TX equalizer taps set to zero. </p>
+
+</div>
+</div>
 <a id="a0e5f27da79cb0695f431507cc0ac2e02" name="a0e5f27da79cb0695f431507cc0ac2e02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e5f27da79cb0695f431507cc0ac2e02">&#9670;&nbsp;</a></span>GetPhysicalConnector()</h2>
 
@@ -457,6 +605,64 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classInstrumentChannel.html">InstrumentChannel</a>.</p>
+
+</div>
+</div>
+<a id="af1269f9f51b37d65e1da18177352169b" name="af1269f9f51b37d65e1da18177352169b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1269f9f51b37d65e1da18177352169b">&#9670;&nbsp;</a></span>GetPostCursor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BERTOutputChannel::GetPostCursor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the TX FFE post-cursor coefficient. </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear. </p>
+
+</div>
+</div>
+<a id="a967caf505839f739337b42dd384ea2a9" name="a967caf505839f739337b42dd384ea2a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967caf505839f739337b42dd384ea2a9">&#9670;&nbsp;</a></span>GetPreCursor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BERTOutputChannel::GetPreCursor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the TX FFE pre-cursor coefficient. </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear. </p>
 
 </div>
 </div>
@@ -495,6 +701,216 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a>.</p>
+
+</div>
+</div>
+<a id="a27d6dd9c36807375ebc8cbf1e1d84b60" name="a27d6dd9c36807375ebc8cbf1e1d84b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d6dd9c36807375ebc8cbf1e1d84b60">&#9670;&nbsp;</a></span>SetDataRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTOutputChannel::SetDataRate </td>
+          <td>(</td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the data rate of this channel, in symbols per second. </p>
+<p >Depending on the clocking architecture of the instrument, this may affect other channels.</p>
+<p >For example, on MultiLane BERTs all channels share a single timebase. Antikernel Labs BERTs are based on Xilinx FPGAs and channels are divided into quads which each share some clocking resources.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rate</td><td>Desired data rate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="addc4d36b2a8983560d2973c6b91b82b4" name="addc4d36b2a8983560d2973c6b91b82b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc4d36b2a8983560d2973c6b91b82b4">&#9670;&nbsp;</a></span>SetDriveStrength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTOutputChannel::SetDriveStrength </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>drive</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the current nominal amplitude of this channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">drive</td><td>Desired amplitude; nominal volts P-P with all TX equalizer taps set to zero. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0c70233b0f98aae0e8bc2b739afc27b4" name="a0c70233b0f98aae0e8bc2b739afc27b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c70233b0f98aae0e8bc2b739afc27b4">&#9670;&nbsp;</a></span>SetInvert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTOutputChannel::SetInvert </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invert</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the polarity inversion state of this channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">invert</td><td>New inversion state (true = invert, false = normal polarity) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2e582a7cff69d9a64804617262d8b791" name="a2e582a7cff69d9a64804617262d8b791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e582a7cff69d9a64804617262d8b791">&#9670;&nbsp;</a></span>SetPattern()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTOutputChannel::SetPattern </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a>&#160;</td>
+          <td class="paramname"><em>pattern</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the pattern this channel is generating. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pattern</td><td>The new pattern </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a16259407d8f475c8054cec6089598844" name="a16259407d8f475c8054cec6089598844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16259407d8f475c8054cec6089598844">&#9670;&nbsp;</a></span>SetPostCursor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTOutputChannel::SetPostCursor </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the TX FFE post-cursor coefficient. </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Post-cursor coefficient </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab178203bba5afb1c70918fd6e52e8951" name="ab178203bba5afb1c70918fd6e52e8951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab178203bba5afb1c70918fd6e52e8951">&#9670;&nbsp;</a></span>SetPreCursor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BERTOutputChannel::SetPreCursor </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the TX FFE pre-cursor coefficient. </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Pre-cursor coefficient </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -538,7 +954,7 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="BERTOutputChannel_8h_source.html">BERTOutputChannel.h</a></li>
-<li>lib/scopehal/BERTOutputChannel.cpp</li>
+<li>lib/scopehal/<a class="el" href="BERTOutputChannel_8cpp.html">BERTOutputChannel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

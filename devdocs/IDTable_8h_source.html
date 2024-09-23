@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
    </div>
   </td>
  </tr>
@@ -113,24 +113,24 @@ $(function() {
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    uintptr_t emplace(<span class="keywordtype">void</span>* p)</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">if</span>(HasID(p))</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">return</span> m_reverseMap[p];</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">m_reverseMap</a>[p];</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        uint32_t <span class="keywordtype">id</span> = m_nextID ++;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        Bijection::emplace(<span class="keywordtype">id</span>, p);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_function" href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">Bijection::emplace</a>(<span class="keywordtype">id</span>, p);</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">return</span> id;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> emplace(uintptr_t <span class="keywordtype">id</span>, <span class="keywordtype">void</span>* p)</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    {</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        ReserveID(<span class="keywordtype">id</span>);</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        Bijection::emplace(<span class="keywordtype">id</span>, p);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <a class="code hl_function" href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">Bijection::emplace</a>(<span class="keywordtype">id</span>, p);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    }</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">bool</span> HasID(<span class="keywordtype">void</span>* p)</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    { <span class="keywordflow">return</span> (m_reverseMap.find(p) != m_reverseMap.end()); }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    { <span class="keywordflow">return</span> (<a class="code hl_variable" href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">m_reverseMap</a>.find(p) != <a class="code hl_variable" href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">m_reverseMap</a>.end()); }</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">bool</span> HasID(uintptr_t <span class="keywordtype">id</span>)</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    { <span class="keywordflow">return</span> (m_forwardMap.find(<span class="keywordtype">id</span>) != m_forwardMap.end()); }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    { <span class="keywordflow">return</span> (<a class="code hl_variable" href="classBijection.html#a28aac016b6b70bd5562171bb8ad7a4a0">m_forwardMap</a>.find(<span class="keywordtype">id</span>) != <a class="code hl_variable" href="classBijection.html#a28aac016b6b70bd5562171bb8ad7a4a0">m_forwardMap</a>.end()); }</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">/*</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">        @brief Reserves an ID, guaranteeing that we will never use it for anything else</span></div>
@@ -140,8 +140,8 @@ $(function() {
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classIDTable.html#a6a7a73fe4bbd79f3eb068386a59fc2c0">   78</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classIDTable.html#a6a7a73fe4bbd79f3eb068386a59fc2c0">clear</a>()</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        m_forwardMap.clear();</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        m_reverseMap.clear();</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <a class="code hl_variable" href="classBijection.html#a28aac016b6b70bd5562171bb8ad7a4a0">m_forwardMap</a>.clear();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <a class="code hl_variable" href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">m_reverseMap</a>.clear();</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        m_nextID = 1;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    }</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
@@ -151,6 +151,9 @@ $(function() {
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassBijection_html"><div class="ttname"><a href="classBijection.html">Bijection</a></div><div class="ttdoc">A strict one-to-one mapping from objects of type T1 to type T2 (which must be different types).</div><div class="ttdef"><b>Definition:</b> Bijection.h:48</div></div>
+<div class="ttc" id="aclassBijection_html_a28aac016b6b70bd5562171bb8ad7a4a0"><div class="ttname"><a href="classBijection.html#a28aac016b6b70bd5562171bb8ad7a4a0">Bijection&lt; uintptr_t, void * &gt;::m_forwardMap</a></div><div class="ttdeci">forwardType m_forwardMap</div><div class="ttdoc">Map of object-to-object in the forward direction.</div><div class="ttdef"><b>Definition:</b> Bijection.h:160</div></div>
+<div class="ttc" id="aclassBijection_html_a7be0701371ec577018cc57fabb41ec91"><div class="ttname"><a href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">Bijection::emplace</a></div><div class="ttdeci">void emplace(T1 a, T2 b)</div><div class="ttdoc">Adds a new entry to the bijection.</div><div class="ttdef"><b>Definition:</b> Bijection.h:73</div></div>
+<div class="ttc" id="aclassBijection_html_ae43e095a21ff32501999a025f7e1fb39"><div class="ttname"><a href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">Bijection&lt; uintptr_t, void * &gt;::m_reverseMap</a></div><div class="ttdeci">reverseType m_reverseMap</div><div class="ttdoc">Map of object-to-object in the reverse direction.</div><div class="ttdef"><b>Definition:</b> Bijection.h:163</div></div>
 <div class="ttc" id="aclassIDTable_html"><div class="ttname"><a href="classIDTable.html">IDTable</a></div><div class="ttdef"><b>Definition:</b> IDTable.h:39</div></div>
 <div class="ttc" id="aclassIDTable_html_a6a7a73fe4bbd79f3eb068386a59fc2c0"><div class="ttname"><a href="classIDTable.html#a6a7a73fe4bbd79f3eb068386a59fc2c0">IDTable::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Deletes all entries from the table.</div><div class="ttdef"><b>Definition:</b> IDTable.h:78</div></div>
 </div><!-- fragment --></div><!-- contents -->

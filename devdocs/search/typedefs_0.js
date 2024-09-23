@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['interleaveconflict_0',['InterleaveConflict',['../classOscilloscope.html#a116076a558768bcf0465ad14361e2db0',1,'Oscilloscope']]]
+  ['forwardtype_0',['forwardType',['../classBijection.html#af4bc2a6ad6f8f3a607ff5f4477206ef9',1,'Bijection']]]
 ];

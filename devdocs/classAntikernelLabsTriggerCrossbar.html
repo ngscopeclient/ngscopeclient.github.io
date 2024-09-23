@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+dc267838e</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
    </div>
   </td>
  </tr>
@@ -83,7 +83,7 @@ Inheritance diagram for AntikernelLabsTriggerCrossbar:</div>
 <map name="aAntikernelLabsTriggerCrossbar_inherit__map" id="aAntikernelLabsTriggerCrossbar_inherit__map">
 <area shape="rect" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="56,319,276,345"/>
 <area shape="rect" href="classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="57,244,142,271"/>
-<area shape="rect" href="classBERT.html" title="Base class for bit error rate testers." alt="" coords="170,169,226,196"/>
+<area shape="rect" href="classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="170,169,226,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="177,95,270,121"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="23,169,146,196"/>
 <area shape="rect" href="classSwitchMatrix.html" title="A generic power supply." alt="" coords="330,244,437,271"/>
@@ -100,7 +100,7 @@ Collaboration diagram for AntikernelLabsTriggerCrossbar:</div>
 <map name="aAntikernelLabsTriggerCrossbar_coll__map" id="aAntikernelLabsTriggerCrossbar_coll__map">
 <area shape="rect" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="123,391,343,417"/>
 <area shape="rect" href="classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="108,315,193,341"/>
-<area shape="rect" href="classBERT.html" title="Base class for bit error rate testers." alt="" coords="95,213,151,240"/>
+<area shape="rect" href="classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="95,213,151,240"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="113,109,207,136"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="175,213,297,240"/>
 <area shape="rect" href="classSwitchMatrix.html" title="A generic power supply." alt="" coords="5,264,112,291"/>
@@ -135,13 +135,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a19e4e1bdb0d1fcaabfec47816110bafd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a19e4e1bdb0d1fcaabfec47816110bafd">SetChannelDisplayName</a> (size_t i, std::string name) override</td></tr>
 <tr class="memdesc:a19e4e1bdb0d1fcaabfec47816110bafd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the hardware display name for a channel. This is an arbitrary user-selected string.  <a href="classAntikernelLabsTriggerCrossbar.html#a19e4e1bdb0d1fcaabfec47816110bafd">More...</a><br /></td></tr>
 <tr class="separator:a19e4e1bdb0d1fcaabfec47816110bafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61dca843aba63cd5a4a85ac8f70954eb"><td class="memItemLeft" align="right" valign="top">virtual Pattern&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a61dca843aba63cd5a4a85ac8f70954eb">GetTxPattern</a> (size_t i) override</td></tr>
+<tr class="memitem:a61dca843aba63cd5a4a85ac8f70954eb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a61dca843aba63cd5a4a85ac8f70954eb">GetTxPattern</a> (size_t i) override</td></tr>
 <tr class="memdesc:a61dca843aba63cd5a4a85ac8f70954eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected transmit pattern for a channel.  <a href="classAntikernelLabsTriggerCrossbar.html#a61dca843aba63cd5a4a85ac8f70954eb">More...</a><br /></td></tr>
 <tr class="separator:a61dca843aba63cd5a4a85ac8f70954eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19919b8cd6444356cc5dc7e10ce3e630"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a19919b8cd6444356cc5dc7e10ce3e630">SetTxPattern</a> (size_t i, Pattern pattern) override</td></tr>
+<tr class="memitem:a19919b8cd6444356cc5dc7e10ce3e630"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a19919b8cd6444356cc5dc7e10ce3e630">SetTxPattern</a> (size_t i, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> pattern) override</td></tr>
 <tr class="memdesc:a19919b8cd6444356cc5dc7e10ce3e630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the transmit pattern for the selected channel.  <a href="classAntikernelLabsTriggerCrossbar.html#a19919b8cd6444356cc5dc7e10ce3e630">More...</a><br /></td></tr>
 <tr class="separator:a19919b8cd6444356cc5dc7e10ce3e630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40449706f3ed1f215fc919be34afce4e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; Pattern &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a40449706f3ed1f215fc919be34afce4e">GetAvailableTxPatterns</a> (size_t i) override</td></tr>
+<tr class="memitem:a40449706f3ed1f215fc919be34afce4e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a40449706f3ed1f215fc919be34afce4e">GetAvailableTxPatterns</a> (size_t i) override</td></tr>
 <tr class="memdesc:a40449706f3ed1f215fc919be34afce4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available transmit patterns for a channel.  <a href="classAntikernelLabsTriggerCrossbar.html#a40449706f3ed1f215fc919be34afce4e">More...</a><br /></td></tr>
 <tr class="separator:a40449706f3ed1f215fc919be34afce4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8a79725ee75af22a255cdd971392c76"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#aa8a79725ee75af22a255cdd971392c76">IsCustomPatternPerChannel</a> () override</td></tr>
@@ -199,7 +199,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab524f85a30e93b29ea97b98a6d741916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the input buffer has a continuous-time linear equalizer.  <a href="classAntikernelLabsTriggerCrossbar.html#ab524f85a30e93b29ea97b98a6d741916">More...</a><br /></td></tr>
 <tr class="separator:ab524f85a30e93b29ea97b98a6d741916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe8c91bf47b4f0f70b7c3dd1f1b4672a"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#afe8c91bf47b4f0f70b7c3dd1f1b4672a">GetRxCTLEGainSteps</a> () override</td></tr>
-<tr class="memdesc:afe8c91bf47b4f0f70b7c3dd1f1b4672a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of available RX CTLE gain values, in dB.  <a href="classAntikernelLabsTriggerCrossbar.html#afe8c91bf47b4f0f70b7c3dd1f1b4672a">More...</a><br /></td></tr>
+<tr class="memdesc:afe8c91bf47b4f0f70b7c3dd1f1b4672a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of available RX CTLE gain values (in dB)  <a href="classAntikernelLabsTriggerCrossbar.html#afe8c91bf47b4f0f70b7c3dd1f1b4672a">More...</a><br /></td></tr>
 <tr class="separator:afe8c91bf47b4f0f70b7c3dd1f1b4672a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab84f1bf093ebdf670e16a8582d2a0130"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#ab84f1bf093ebdf670e16a8582d2a0130">GetRxCTLEGainStep</a> (size_t i) override</td></tr>
 <tr class="memdesc:ab84f1bf093ebdf670e16a8582d2a0130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected RX CTLE gain index.  <a href="classAntikernelLabsTriggerCrossbar.html#ab84f1bf093ebdf670e16a8582d2a0130">More...</a><br /></td></tr>
@@ -207,13 +207,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a243cc9f25a8c8172d1422e0004de79a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a243cc9f25a8c8172d1422e0004de79a9">SetRxCTLEGainStep</a> (size_t i, size_t step) override</td></tr>
 <tr class="memdesc:a243cc9f25a8c8172d1422e0004de79a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the RX CTLE gain index.  <a href="classAntikernelLabsTriggerCrossbar.html#a243cc9f25a8c8172d1422e0004de79a9">More...</a><br /></td></tr>
 <tr class="separator:a243cc9f25a8c8172d1422e0004de79a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e1b96da02a344c1797af52ccdeae4e"><td class="memItemLeft" align="right" valign="top">virtual Pattern&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#ab2e1b96da02a344c1797af52ccdeae4e">GetRxPattern</a> (size_t i) override</td></tr>
+<tr class="memitem:ab2e1b96da02a344c1797af52ccdeae4e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#ab2e1b96da02a344c1797af52ccdeae4e">GetRxPattern</a> (size_t i) override</td></tr>
 <tr class="memdesc:ab2e1b96da02a344c1797af52ccdeae4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected receive pattern for a channel.  <a href="classAntikernelLabsTriggerCrossbar.html#ab2e1b96da02a344c1797af52ccdeae4e">More...</a><br /></td></tr>
 <tr class="separator:ab2e1b96da02a344c1797af52ccdeae4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ddea01448c6a143a5f8d0e962770301"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a1ddea01448c6a143a5f8d0e962770301">SetRxPattern</a> (size_t i, Pattern pattern) override</td></tr>
+<tr class="memitem:a1ddea01448c6a143a5f8d0e962770301"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a1ddea01448c6a143a5f8d0e962770301">SetRxPattern</a> (size_t i, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> pattern) override</td></tr>
 <tr class="memdesc:a1ddea01448c6a143a5f8d0e962770301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the receive pattern for the selected channel.  <a href="classAntikernelLabsTriggerCrossbar.html#a1ddea01448c6a143a5f8d0e962770301">More...</a><br /></td></tr>
 <tr class="separator:a1ddea01448c6a143a5f8d0e962770301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37cd78be9856444ffda4bcb46640028e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; Pattern &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a37cd78be9856444ffda4bcb46640028e">GetAvailableRxPatterns</a> (size_t i) override</td></tr>
+<tr class="memitem:a37cd78be9856444ffda4bcb46640028e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a37cd78be9856444ffda4bcb46640028e">GetAvailableRxPatterns</a> (size_t i) override</td></tr>
 <tr class="memdesc:a37cd78be9856444ffda4bcb46640028e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available receive patterns for a channel.  <a href="classAntikernelLabsTriggerCrossbar.html#a37cd78be9856444ffda4bcb46640028e">More...</a><br /></td></tr>
 <tr class="separator:a37cd78be9856444ffda4bcb46640028e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f047260f5d941ca56d3a88c99b31407"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a1f047260f5d941ca56d3a88c99b31407">GetRxCdrLockState</a> (size_t i) override</td></tr>
@@ -244,7 +244,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa75e5ecf47487b3eed9fd839731c638e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of integration depths for eye / bathtub scans.  <a href="classAntikernelLabsTriggerCrossbar.html#aa75e5ecf47487b3eed9fd839731c638e">More...</a><br /></td></tr>
 <tr class="separator:aa75e5ecf47487b3eed9fd839731c638e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eaba73ebc88cc92270796f11b14eb93"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a9eaba73ebc88cc92270796f11b14eb93">GetScanDepth</a> (size_t i) override</td></tr>
-<tr class="memdesc:a9eaba73ebc88cc92270796f11b14eb93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the configured scan depth for a channel.  <a href="classAntikernelLabsTriggerCrossbar.html#a9eaba73ebc88cc92270796f11b14eb93">More...</a><br /></td></tr>
+<tr class="memdesc:a9eaba73ebc88cc92270796f11b14eb93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the configured scan depth for a channel, in UIs per sample/pixel.  <a href="classAntikernelLabsTriggerCrossbar.html#a9eaba73ebc88cc92270796f11b14eb93">More...</a><br /></td></tr>
 <tr class="separator:a9eaba73ebc88cc92270796f11b14eb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26a3dbec1f91f4997c9948adfc631640"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a26a3dbec1f91f4997c9948adfc631640">SetScanDepth</a> (size_t i, int64_t depth) override</td></tr>
 <tr class="memdesc:a26a3dbec1f91f4997c9948adfc631640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the configured scan depth for a channel.  <a href="classAntikernelLabsTriggerCrossbar.html#a26a3dbec1f91f4997c9948adfc631640">More...</a><br /></td></tr>
@@ -274,25 +274,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a791aef5c75d9a6f62afac1d26a13a3f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available reference clock mux settings.  <a href="classAntikernelLabsTriggerCrossbar.html#a791aef5c75d9a6f62afac1d26a13a3f6">More...</a><br /></td></tr>
 <tr class="separator:a791aef5c75d9a6f62afac1d26a13a3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbda3e6ee19c4e3dee39bcab47f4f9e7"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#adbda3e6ee19c4e3dee39bcab47f4f9e7">GetRefclkOutFrequency</a> () override</td></tr>
-<tr class="memdesc:adbda3e6ee19c4e3dee39bcab47f4f9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected refclk out frequency.  <a href="classAntikernelLabsTriggerCrossbar.html#adbda3e6ee19c4e3dee39bcab47f4f9e7">More...</a><br /></td></tr>
+<tr class="memdesc:adbda3e6ee19c4e3dee39bcab47f4f9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected refclk out frequency, in Hz.  <a href="classAntikernelLabsTriggerCrossbar.html#adbda3e6ee19c4e3dee39bcab47f4f9e7">More...</a><br /></td></tr>
 <tr class="separator:adbda3e6ee19c4e3dee39bcab47f4f9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4120858ba07c8e1ea05a95433e5c81b"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#ac4120858ba07c8e1ea05a95433e5c81b">GetRefclkInFrequency</a> () override</td></tr>
-<tr class="memdesc:ac4120858ba07c8e1ea05a95433e5c81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the refclk in frequency required to generate the currently selected data rate.  <a href="classAntikernelLabsTriggerCrossbar.html#ac4120858ba07c8e1ea05a95433e5c81b">More...</a><br /></td></tr>
+<tr class="memdesc:ac4120858ba07c8e1ea05a95433e5c81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the refclk in frequency, in Hz, required to generate the currently selected data rate.  <a href="classAntikernelLabsTriggerCrossbar.html#ac4120858ba07c8e1ea05a95433e5c81b">More...</a><br /></td></tr>
 <tr class="separator:ac4120858ba07c8e1ea05a95433e5c81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f47f09062a9cd827a135fee81623b0e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a9f47f09062a9cd827a135fee81623b0e">IsDataRatePerChannel</a> () override</td></tr>
 <tr class="memdesc:a9f47f09062a9cd827a135fee81623b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the TX/RX clock is a per-instrument or per-channel setting.  <a href="classAntikernelLabsTriggerCrossbar.html#a9f47f09062a9cd827a135fee81623b0e">More...</a><br /></td></tr>
 <tr class="separator:a9f47f09062a9cd827a135fee81623b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab08069956771c5c42cc73d089f6deb91"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#ab08069956771c5c42cc73d089f6deb91">GetDataRate</a> (size_t i) override</td></tr>
-<tr class="memdesc:ab08069956771c5c42cc73d089f6deb91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected line rate (in bits/sec)  <a href="classAntikernelLabsTriggerCrossbar.html#ab08069956771c5c42cc73d089f6deb91">More...</a><br /></td></tr>
+<tr class="memdesc:ab08069956771c5c42cc73d089f6deb91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected line rate (in symbols/sec)  <a href="classAntikernelLabsTriggerCrossbar.html#ab08069956771c5c42cc73d089f6deb91">More...</a><br /></td></tr>
 <tr class="separator:ab08069956771c5c42cc73d089f6deb91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a836c6e41c39cd81b840d317723e63cc5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a836c6e41c39cd81b840d317723e63cc5">SetDataRate</a> (size_t i, int64_t rate) override</td></tr>
-<tr class="memdesc:a836c6e41c39cd81b840d317723e63cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data rate (in bits/sec)  <a href="classAntikernelLabsTriggerCrossbar.html#a836c6e41c39cd81b840d317723e63cc5">More...</a><br /></td></tr>
+<tr class="memdesc:a836c6e41c39cd81b840d317723e63cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data rate (in symbols/sec)  <a href="classAntikernelLabsTriggerCrossbar.html#a836c6e41c39cd81b840d317723e63cc5">More...</a><br /></td></tr>
 <tr class="separator:a836c6e41c39cd81b840d317723e63cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ff7fc673ea5973f6df73cee8ae1afe9"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a0ff7fc673ea5973f6df73cee8ae1afe9">GetAvailableDataRates</a> () override</td></tr>
-<tr class="memdesc:a0ff7fc673ea5973f6df73cee8ae1afe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available data rates.  <a href="classAntikernelLabsTriggerCrossbar.html#a0ff7fc673ea5973f6df73cee8ae1afe9">More...</a><br /></td></tr>
+<tr class="memdesc:a0ff7fc673ea5973f6df73cee8ae1afe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available data rates, in symbols/sec.  <a href="classAntikernelLabsTriggerCrossbar.html#a0ff7fc673ea5973f6df73cee8ae1afe9">More...</a><br /></td></tr>
 <tr class="separator:a0ff7fc673ea5973f6df73cee8ae1afe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5efb9640bd7706720ce5da0058671f81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#a5efb9640bd7706720ce5da0058671f81">SetUseExternalRefclk</a> (bool external) override</td></tr>
-<tr class="memdesc:a5efb9640bd7706720ce5da0058671f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reference clock source.  <a href="classAntikernelLabsTriggerCrossbar.html#a5efb9640bd7706720ce5da0058671f81">More...</a><br /></td></tr>
+<tr class="memdesc:a5efb9640bd7706720ce5da0058671f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reference clock source (internal or external)  <a href="classAntikernelLabsTriggerCrossbar.html#a5efb9640bd7706720ce5da0058671f81">More...</a><br /></td></tr>
 <tr class="separator:a5efb9640bd7706720ce5da0058671f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af381de207dccd0e6cedc3eea5ffd1407"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#af381de207dccd0e6cedc3eea5ffd1407">GetUseExternalRefclk</a> () override</td></tr>
 <tr class="memdesc:af381de207dccd0e6cedc3eea5ffd1407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reference clock source.  <a href="classAntikernelLabsTriggerCrossbar.html#af381de207dccd0e6cedc3eea5ffd1407">More...</a><br /></td></tr>
@@ -443,13 +443,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adae46bddf1bd17afbc86389d003a47bf"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#adae46bddf1bd17afbc86389d003a47bf">GetInstrumentTypes</a> () const override</td></tr>
 <tr class="memdesc:adae46bddf1bd17afbc86389d003a47bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a bitfield describing the set of instrument types that this instrument supports.  <a href="classBERT.html#adae46bddf1bd17afbc86389d003a47bf">More...</a><br /></td></tr>
 <tr class="separator:adae46bddf1bd17afbc86389d003a47bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a5788587b70d2f9ef9da5c716fcfcc0"><td class="memItemLeft" align="right" valign="top">virtual Pattern&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a2a5788587b70d2f9ef9da5c716fcfcc0">GetTxPattern</a> (size_t i)=0</td></tr>
+<tr class="memitem:a2a5788587b70d2f9ef9da5c716fcfcc0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a2a5788587b70d2f9ef9da5c716fcfcc0">GetTxPattern</a> (size_t i)=0</td></tr>
 <tr class="memdesc:a2a5788587b70d2f9ef9da5c716fcfcc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected transmit pattern for a channel.  <a href="classBERT.html#a2a5788587b70d2f9ef9da5c716fcfcc0">More...</a><br /></td></tr>
 <tr class="separator:a2a5788587b70d2f9ef9da5c716fcfcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8911568ab926ff4754c58fd13546e688"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a8911568ab926ff4754c58fd13546e688">SetTxPattern</a> (size_t i, Pattern pattern)=0</td></tr>
+<tr class="memitem:a8911568ab926ff4754c58fd13546e688"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a8911568ab926ff4754c58fd13546e688">SetTxPattern</a> (size_t i, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> pattern)=0</td></tr>
 <tr class="memdesc:a8911568ab926ff4754c58fd13546e688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the transmit pattern for the selected channel.  <a href="classBERT.html#a8911568ab926ff4754c58fd13546e688">More...</a><br /></td></tr>
 <tr class="separator:a8911568ab926ff4754c58fd13546e688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f0a8cb13fedfb07d6cba33b718c7e9"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; Pattern &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#ac2f0a8cb13fedfb07d6cba33b718c7e9">GetAvailableTxPatterns</a> (size_t i)=0</td></tr>
+<tr class="memitem:ac2f0a8cb13fedfb07d6cba33b718c7e9"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#ac2f0a8cb13fedfb07d6cba33b718c7e9">GetAvailableTxPatterns</a> (size_t i)=0</td></tr>
 <tr class="memdesc:ac2f0a8cb13fedfb07d6cba33b718c7e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available transmit patterns for a channel.  <a href="classBERT.html#ac2f0a8cb13fedfb07d6cba33b718c7e9">More...</a><br /></td></tr>
 <tr class="separator:ac2f0a8cb13fedfb07d6cba33b718c7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a475783814b0b214c73a480494160007a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a475783814b0b214c73a480494160007a">IsCustomPatternPerChannel</a> ()=0</td></tr>
@@ -510,7 +510,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:add4b3a72653e81a5efd931241cfa4b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the input buffer has a continuous-time linear equalizer.  <a href="classBERT.html#add4b3a72653e81a5efd931241cfa4b99">More...</a><br /></td></tr>
 <tr class="separator:add4b3a72653e81a5efd931241cfa4b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a699a7829ece3f849d7fcc7fc35fe32ec"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a699a7829ece3f849d7fcc7fc35fe32ec">GetRxCTLEGainSteps</a> ()=0</td></tr>
-<tr class="memdesc:a699a7829ece3f849d7fcc7fc35fe32ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of available RX CTLE gain values, in dB.  <a href="classBERT.html#a699a7829ece3f849d7fcc7fc35fe32ec">More...</a><br /></td></tr>
+<tr class="memdesc:a699a7829ece3f849d7fcc7fc35fe32ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of available RX CTLE gain values (in dB)  <a href="classBERT.html#a699a7829ece3f849d7fcc7fc35fe32ec">More...</a><br /></td></tr>
 <tr class="separator:a699a7829ece3f849d7fcc7fc35fe32ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab70dbde39fe51d5b1d6ed8873c1540f8"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#ab70dbde39fe51d5b1d6ed8873c1540f8">GetRxCTLEGainStep</a> (size_t i)=0</td></tr>
 <tr class="memdesc:ab70dbde39fe51d5b1d6ed8873c1540f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected RX CTLE gain index.  <a href="classBERT.html#ab70dbde39fe51d5b1d6ed8873c1540f8">More...</a><br /></td></tr>
@@ -518,13 +518,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1a88d63cfeca9d0ee894199c1d3bbb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#af1a88d63cfeca9d0ee894199c1d3bbb9">SetRxCTLEGainStep</a> (size_t i, size_t step)=0</td></tr>
 <tr class="memdesc:af1a88d63cfeca9d0ee894199c1d3bbb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the RX CTLE gain index.  <a href="classBERT.html#af1a88d63cfeca9d0ee894199c1d3bbb9">More...</a><br /></td></tr>
 <tr class="separator:af1a88d63cfeca9d0ee894199c1d3bbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19bbfe99db4773de496117e90123c355"><td class="memItemLeft" align="right" valign="top">virtual Pattern&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a19bbfe99db4773de496117e90123c355">GetRxPattern</a> (size_t i)=0</td></tr>
+<tr class="memitem:a19bbfe99db4773de496117e90123c355"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a19bbfe99db4773de496117e90123c355">GetRxPattern</a> (size_t i)=0</td></tr>
 <tr class="memdesc:a19bbfe99db4773de496117e90123c355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected receive pattern for a channel.  <a href="classBERT.html#a19bbfe99db4773de496117e90123c355">More...</a><br /></td></tr>
 <tr class="separator:a19bbfe99db4773de496117e90123c355"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61460559ba83587b38787e1fb3633d38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a61460559ba83587b38787e1fb3633d38">SetRxPattern</a> (size_t i, Pattern pattern)=0</td></tr>
+<tr class="memitem:a61460559ba83587b38787e1fb3633d38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a61460559ba83587b38787e1fb3633d38">SetRxPattern</a> (size_t i, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> pattern)=0</td></tr>
 <tr class="memdesc:a61460559ba83587b38787e1fb3633d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the receive pattern for the selected channel.  <a href="classBERT.html#a61460559ba83587b38787e1fb3633d38">More...</a><br /></td></tr>
 <tr class="separator:a61460559ba83587b38787e1fb3633d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74273b606514b193dff181d81328d25e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; Pattern &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a74273b606514b193dff181d81328d25e">GetAvailableRxPatterns</a> (size_t i)=0</td></tr>
+<tr class="memitem:a74273b606514b193dff181d81328d25e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a74273b606514b193dff181d81328d25e">GetAvailableRxPatterns</a> (size_t i)=0</td></tr>
 <tr class="memdesc:a74273b606514b193dff181d81328d25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available receive patterns for a channel.  <a href="classBERT.html#a74273b606514b193dff181d81328d25e">More...</a><br /></td></tr>
 <tr class="separator:a74273b606514b193dff181d81328d25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fedec9c616e59a4a694d87553c8609a"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a2fedec9c616e59a4a694d87553c8609a">GetExpectedBathtubCaptureTime</a> (size_t i)</td></tr>
@@ -567,7 +567,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af445ad7be3bc32726238fb29691b8057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of integration depths for eye / bathtub scans.  <a href="classBERT.html#af445ad7be3bc32726238fb29691b8057">More...</a><br /></td></tr>
 <tr class="separator:af445ad7be3bc32726238fb29691b8057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a134d25229272a9e998349af5d143df06"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a134d25229272a9e998349af5d143df06">GetScanDepth</a> (size_t i)</td></tr>
-<tr class="memdesc:a134d25229272a9e998349af5d143df06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the configured scan depth for a channel.  <a href="classBERT.html#a134d25229272a9e998349af5d143df06">More...</a><br /></td></tr>
+<tr class="memdesc:a134d25229272a9e998349af5d143df06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the configured scan depth for a channel, in UIs per sample/pixel.  <a href="classBERT.html#a134d25229272a9e998349af5d143df06">More...</a><br /></td></tr>
 <tr class="separator:a134d25229272a9e998349af5d143df06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9eb95f7dbd030b792c307b563dd7bea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#ac9eb95f7dbd030b792c307b563dd7bea">SetScanDepth</a> (size_t i, int64_t depth)</td></tr>
 <tr class="memdesc:ac9eb95f7dbd030b792c307b563dd7bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the configured scan depth for a channel.  <a href="classBERT.html#ac9eb95f7dbd030b792c307b563dd7bea">More...</a><br /></td></tr>
@@ -588,25 +588,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8b6e72ff3f9dad8818794183bab01024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available reference clock mux settings.  <a href="classBERT.html#a8b6e72ff3f9dad8818794183bab01024">More...</a><br /></td></tr>
 <tr class="separator:a8b6e72ff3f9dad8818794183bab01024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ed2c07af97c5dbe74f209582c7bf9a2"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a8ed2c07af97c5dbe74f209582c7bf9a2">GetRefclkOutFrequency</a> ()=0</td></tr>
-<tr class="memdesc:a8ed2c07af97c5dbe74f209582c7bf9a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected refclk out frequency.  <a href="classBERT.html#a8ed2c07af97c5dbe74f209582c7bf9a2">More...</a><br /></td></tr>
+<tr class="memdesc:a8ed2c07af97c5dbe74f209582c7bf9a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected refclk out frequency, in Hz.  <a href="classBERT.html#a8ed2c07af97c5dbe74f209582c7bf9a2">More...</a><br /></td></tr>
 <tr class="separator:a8ed2c07af97c5dbe74f209582c7bf9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e3d5283ee238b1e4da4c269a0f4ff5f"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a9e3d5283ee238b1e4da4c269a0f4ff5f">GetRefclkInFrequency</a> ()=0</td></tr>
-<tr class="memdesc:a9e3d5283ee238b1e4da4c269a0f4ff5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the refclk in frequency required to generate the currently selected data rate.  <a href="classBERT.html#a9e3d5283ee238b1e4da4c269a0f4ff5f">More...</a><br /></td></tr>
+<tr class="memdesc:a9e3d5283ee238b1e4da4c269a0f4ff5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the refclk in frequency, in Hz, required to generate the currently selected data rate.  <a href="classBERT.html#a9e3d5283ee238b1e4da4c269a0f4ff5f">More...</a><br /></td></tr>
 <tr class="separator:a9e3d5283ee238b1e4da4c269a0f4ff5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a062b782f171260b8cd7c70368c591b14"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a062b782f171260b8cd7c70368c591b14">IsDataRatePerChannel</a> ()=0</td></tr>
 <tr class="memdesc:a062b782f171260b8cd7c70368c591b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the TX/RX clock is a per-instrument or per-channel setting.  <a href="classBERT.html#a062b782f171260b8cd7c70368c591b14">More...</a><br /></td></tr>
 <tr class="separator:a062b782f171260b8cd7c70368c591b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a587e0bee1a09f39f040a91bc8dfc843b"><td class="memItemLeft" align="right" valign="top">virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a587e0bee1a09f39f040a91bc8dfc843b">GetDataRate</a> (size_t i)=0</td></tr>
-<tr class="memdesc:a587e0bee1a09f39f040a91bc8dfc843b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected line rate (in bits/sec)  <a href="classBERT.html#a587e0bee1a09f39f040a91bc8dfc843b">More...</a><br /></td></tr>
+<tr class="memdesc:a587e0bee1a09f39f040a91bc8dfc843b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected line rate (in symbols/sec)  <a href="classBERT.html#a587e0bee1a09f39f040a91bc8dfc843b">More...</a><br /></td></tr>
 <tr class="separator:a587e0bee1a09f39f040a91bc8dfc843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7131f14c64e51a71e5bddd12914462b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#af7131f14c64e51a71e5bddd12914462b">SetDataRate</a> (size_t i, int64_t rate)=0</td></tr>
-<tr class="memdesc:af7131f14c64e51a71e5bddd12914462b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data rate (in bits/sec)  <a href="classBERT.html#af7131f14c64e51a71e5bddd12914462b">More...</a><br /></td></tr>
+<tr class="memdesc:af7131f14c64e51a71e5bddd12914462b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data rate (in symbols/sec)  <a href="classBERT.html#af7131f14c64e51a71e5bddd12914462b">More...</a><br /></td></tr>
 <tr class="separator:af7131f14c64e51a71e5bddd12914462b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c9cd16a17322c51c238f304bd9a9093"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a3c9cd16a17322c51c238f304bd9a9093">GetAvailableDataRates</a> ()=0</td></tr>
-<tr class="memdesc:a3c9cd16a17322c51c238f304bd9a9093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available data rates.  <a href="classBERT.html#a3c9cd16a17322c51c238f304bd9a9093">More...</a><br /></td></tr>
+<tr class="memdesc:a3c9cd16a17322c51c238f304bd9a9093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of available data rates, in symbols/sec.  <a href="classBERT.html#a3c9cd16a17322c51c238f304bd9a9093">More...</a><br /></td></tr>
 <tr class="separator:a3c9cd16a17322c51c238f304bd9a9093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5715af3f40945d25ec2d64d277e97072"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a5715af3f40945d25ec2d64d277e97072">SetUseExternalRefclk</a> (bool external)=0</td></tr>
-<tr class="memdesc:a5715af3f40945d25ec2d64d277e97072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reference clock source.  <a href="classBERT.html#a5715af3f40945d25ec2d64d277e97072">More...</a><br /></td></tr>
+<tr class="memdesc:a5715af3f40945d25ec2d64d277e97072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reference clock source (internal or external)  <a href="classBERT.html#a5715af3f40945d25ec2d64d277e97072">More...</a><br /></td></tr>
 <tr class="separator:a5715af3f40945d25ec2d64d277e97072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4062c7e7a32f8ec5166156edabfcb379"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a4062c7e7a32f8ec5166156edabfcb379">GetUseExternalRefclk</a> ()=0</td></tr>
 <tr class="memdesc:a4062c7e7a32f8ec5166156edabfcb379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reference clock source.  <a href="classBERT.html#a4062c7e7a32f8ec5166156edabfcb379">More...</a><br /></td></tr>
@@ -1063,11 +1063,11 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>EnumDrivers</b
 static std::shared_ptr&lt; <a class="el" href="classSCPIBERT.html">SCPIBERT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateBERT</b> (std::string driver, <a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
 <tr class="separator:ac3ba441c0c15b0be3cd9772b6d5dd019 inherit pub_static_methods_classSCPIBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classBERT"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classBERT')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classBERT.html">BERT</a></td></tr>
-<tr class="memitem:a34f9ec55d097e1ae45f67d5f5f2a477c inherit pub_static_methods_classBERT"><td class="memItemLeft" align="right" valign="top"><a id="a34f9ec55d097e1ae45f67d5f5f2a477c" name="a34f9ec55d097e1ae45f67d5f5f2a477c"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPatternName</b> (Pattern pat)</td></tr>
+<tr class="memitem:a34f9ec55d097e1ae45f67d5f5f2a477c inherit pub_static_methods_classBERT"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a34f9ec55d097e1ae45f67d5f5f2a477c">GetPatternName</a> (<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> pat)</td></tr>
+<tr class="memdesc:a34f9ec55d097e1ae45f67d5f5f2a477c inherit pub_static_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a Pattern enum into a strnig.  <a href="classBERT.html#a34f9ec55d097e1ae45f67d5f5f2a477c">More...</a><br /></td></tr>
 <tr class="separator:a34f9ec55d097e1ae45f67d5f5f2a477c inherit pub_static_methods_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeacf6abe348b503719a74fe1e1b562f6 inherit pub_static_methods_classBERT"><td class="memItemLeft" align="right" valign="top"><a id="aeacf6abe348b503719a74fe1e1b562f6" name="aeacf6abe348b503719a74fe1e1b562f6"></a>
-static Pattern&#160;</td><td class="memItemRight" valign="bottom"><b>GetPatternOfName</b> (std::string name)</td></tr>
+<tr class="memitem:aeacf6abe348b503719a74fe1e1b562f6 inherit pub_static_methods_classBERT"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#aeacf6abe348b503719a74fe1e1b562f6">GetPatternOfName</a> (std::string name)</td></tr>
+<tr class="memdesc:aeacf6abe348b503719a74fe1e1b562f6 inherit pub_static_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string name into a Pattern enum.  <a href="classBERT.html#aeacf6abe348b503719a74fe1e1b562f6">More...</a><br /></td></tr>
 <tr class="separator:aeacf6abe348b503719a74fe1e1b562f6 inherit pub_static_methods_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
 <tr class="memitem:a32e3b6382a55efbfd98c2a39dcbb7ed1 inherit pub_static_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a32e3b6382a55efbfd98c2a39dcbb7ed1" name="a32e3b6382a55efbfd98c2a39dcbb7ed1"></a>
@@ -1110,17 +1110,14 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a395af6262f61b3886cdc046b64dbaf9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of points on either side of the center for a full eye/bathtub scan.  <a href="classAntikernelLabsTriggerCrossbar.html#a395af6262f61b3886cdc046b64dbaf9f">More...</a><br /></td></tr>
 <tr class="separator:a395af6262f61b3886cdc046b64dbaf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classBERT"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classBERT')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classBERT.html">BERT</a></td></tr>
-<tr class="memitem:ace16881d769aeebf1d33a86b38633438 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top"><a id="ace16881d769aeebf1d33a86b38633438" name="ace16881d769aeebf1d33a86b38633438"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
-<tr class="memdesc:ace16881d769aeebf1d33a86b38633438 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this <a class="el" href="classBERT.html" title="Base class for bit error rate testers.">BERT</a>'s configuration to a YAML node. <br /></td></tr>
+<tr class="memitem:ace16881d769aeebf1d33a86b38633438 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#ace16881d769aeebf1d33a86b38633438">DoSerializeConfiguration</a> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
+<tr class="memdesc:ace16881d769aeebf1d33a86b38633438 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a>'s configuration to a YAML node.  <a href="classBERT.html#ace16881d769aeebf1d33a86b38633438">More...</a><br /></td></tr>
 <tr class="separator:ace16881d769aeebf1d33a86b38633438 inherit pro_methods_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top"><a id="a6febc886dd8beba2771fcc75ea55b3d6" name="a6febc886dd8beba2771fcc75ea55b3d6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memitem:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a6febc886dd8beba2771fcc75ea55b3d6">DoLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
+<tr class="memdesc:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classBERT.html#a6febc886dd8beba2771fcc75ea55b3d6">More...</a><br /></td></tr>
 <tr class="separator:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46eda7f8c6a07dcedd4dec2c11c21e62 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top"><a id="a46eda7f8c6a07dcedd4dec2c11c21e62" name="a46eda7f8c6a07dcedd4dec2c11c21e62"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
-<tr class="memdesc:a46eda7f8c6a07dcedd4dec2c11c21e62 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memitem:a46eda7f8c6a07dcedd4dec2c11c21e62 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a46eda7f8c6a07dcedd4dec2c11c21e62">DoPreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
+<tr class="memdesc:a46eda7f8c6a07dcedd4dec2c11c21e62 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate instrument and channel configuration from a save file.  <a href="classBERT.html#a46eda7f8c6a07dcedd4dec2c11c21e62">More...</a><br /></td></tr>
 <tr class="separator:a46eda7f8c6a07dcedd4dec2c11c21e62 inherit pro_methods_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classSCPIInstrument"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classSCPIInstrument')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classSCPIInstrument.html">SCPIInstrument</a></td></tr>
 <tr class="memitem:af24d249d09e7cb4a1afe73b7c7fbfa2d inherit pro_methods_classSCPIInstrument"><td class="memItemLeft" align="right" valign="top"><a id="af24d249d09e7cb4a1afe73b7c7fbfa2d" name="af24d249d09e7cb4a1afe73b7c7fbfa2d"></a>
@@ -1186,7 +1183,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m_trigDrive</b> [12]
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_trigThreshold</b> [12]</td></tr>
 <tr class="separator:a2ded5af3b362362c8ca7a4a711b8bf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4c8b3de1f61aa2e4dffd0ad82c9c0b9"><td class="memItemLeft" align="right" valign="top"><a id="ad4c8b3de1f61aa2e4dffd0ad82c9c0b9" name="ad4c8b3de1f61aa2e4dffd0ad82c9c0b9"></a>
-Pattern&#160;</td><td class="memItemRight" valign="bottom"><b>m_txPattern</b> [2]</td></tr>
+<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_txPattern</b> [2]</td></tr>
 <tr class="separator:ad4c8b3de1f61aa2e4dffd0ad82c9c0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac47573b2c47c2b137ebeac4ddbd6f1dd"><td class="memItemLeft" align="right" valign="top"><a id="ac47573b2c47c2b137ebeac4ddbd6f1dd" name="ac47573b2c47c2b137ebeac4ddbd6f1dd"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_txInvert</b> [2]</td></tr>
@@ -1324,21 +1321,22 @@ Additional Inherited Members</h2></td></tr>
 typedef std::shared_ptr&lt; <a class="el" href="classSCPIBERT.html">SCPIBERT</a> &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><b>BERTCreateProcType</b>) (<a class="el" href="classSCPITransport.html">SCPITransport</a> *)</td></tr>
 <tr class="separator:aeecfc8c2b04eff0bb915de082ee2ecc8 inherit pub_types_classSCPIBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classBERT"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classBERT')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classBERT.html">BERT</a></td></tr>
-<tr class="memitem:a8e96613a5b0a72908799cd132373aeb9 inherit pub_types_classBERT"><td class="memItemLeft" align="right" valign="top"><a id="a8e96613a5b0a72908799cd132373aeb9" name="a8e96613a5b0a72908799cd132373aeb9"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Pattern</b> { <br />
-&#160;&#160;<b>PATTERN_PRBS7</b>
-, <b>PATTERN_PRBS9</b>
-, <b>PATTERN_PRBS11</b>
-, <b>PATTERN_PRBS15</b>
+<tr class="memitem:a8e96613a5b0a72908799cd132373aeb9 inherit pub_types_classBERT"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a> { <br />
+&#160;&#160;<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9a01456d1f7fc48ca5e5feaf2d0c33549f">PATTERN_PRBS7</a>
+, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9afab84bd30143fc29d31a981a31ec7881">PATTERN_PRBS9</a>
+, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9af1baaeb00380b61e3a1315cf8d1a5b44">PATTERN_PRBS11</a>
+, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9ab11b3389391fa3c2d7e4e1438792f254">PATTERN_PRBS15</a>
 , <br />
-&#160;&#160;<b>PATTERN_PRBS23</b>
-, <b>PATTERN_PRBS31</b>
-, <b>PATTERN_CUSTOM</b>
-, <b>PATTERN_CLOCK_DIV2</b>
+&#160;&#160;<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9abad9f02b28aa32c14eda53495fa9e18a">PATTERN_PRBS23</a>
+, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9a6c6def22f6a82bcedff7dbd5f924140b">PATTERN_PRBS31</a>
+, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9a132e50792ff642a68f4b663f7fd940ea">PATTERN_CUSTOM</a>
+, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9a3ea54fcfe50e96fefb71d82f2f9171f7">PATTERN_CLOCK_DIV2</a>
 , <br />
-&#160;&#160;<b>PATTERN_CLOCK_DIV32</b>
-, <b>PATTERN_AUTO</b>
+&#160;&#160;<a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9ab14ea51a642af49a2fa364849a46b53d">PATTERN_CLOCK_DIV32</a>
+, <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9a5525e23800290afed92a7aa7956b11ea">PATTERN_AUTO</a>
 <br />
  }</td></tr>
+<tr class="memdesc:a8e96613a5b0a72908799cd132373aeb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of patterns we can generate or accept.  <a href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">More...</a><br /></td></tr>
 <tr class="separator:a8e96613a5b0a72908799cd132373aeb9 inherit pub_types_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
 <tr class="memitem:ad2711efa3bcfa2e0f5d6e95fa2ee0ab1 inherit pub_types_classInstrument"><td class="memItemLeft" align="right" valign="top"><a id="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1" name="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>InstrumentTypes</b> { <br />
@@ -1632,7 +1630,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Gets the list of available data rates. </p>
+<p>Gets the list of available data rates, in symbols/sec. </p>
 
 <p>Implements <a class="el" href="classBERT.html#a3c9cd16a17322c51c238f304bd9a9093">BERT</a>.</p>
 
@@ -1648,7 +1646,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt; BERT::Pattern &gt; AntikernelLabsTriggerCrossbar::GetAvailableRxPatterns </td>
+          <td class="memname">vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> &gt; AntikernelLabsTriggerCrossbar::GetAvailableRxPatterns </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -1663,6 +1661,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the list of available receive patterns for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a74273b606514b193dff181d81328d25e">BERT</a>.</p>
 
@@ -1693,7 +1697,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the list of available drive strengths (in volts) for a channel. </p>
-<p >Drive strength is nominal p-p swing with full main cursor tap and pre/post cursors at zero. </p>
+<p >Drive strength is nominal p-p swing with full main cursor tap and pre/post cursors at zero.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#af4cef1e08ca70f975ad8f11e8c49f602">BERT</a>.</p>
 
@@ -1709,7 +1719,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt; BERT::Pattern &gt; AntikernelLabsTriggerCrossbar::GetAvailableTxPatterns </td>
+          <td class="memname">vector&lt; <a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> &gt; AntikernelLabsTriggerCrossbar::GetAvailableTxPatterns </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -1724,6 +1734,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the list of available transmit patterns for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#ac2f0a8cb13fedfb07d6cba33b718c7e9">BERT</a>.</p>
 
@@ -1799,6 +1815,14 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Get the sampling point for BER measurements. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">dx</td><td>Horizontal offset of the sampling point from the center of the eye, in femtoseconds </td></tr>
+    <tr><td class="paramname">dy</td><td>Vertical offset of the sampling point from the center of the eye, in volts </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#aa78dd2d14a1ba66bc644ed3d2d22b946">BERT</a>.</p>
 
@@ -2034,6 +2058,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Returns the number of bits in a custom pattern (may change with line rate) </p>
+<dl class="section return"><dt>Returns</dt><dd>Length of the custom pattern </dd></dl>
 
 <p>Implements <a class="el" href="classBERT.html#a310418288b5f5f71f175162201e669e4">BERT</a>.</p>
 
@@ -2063,7 +2088,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Gets the currently selected line rate (in bits/sec) </p>
+<p>Gets the currently selected line rate (in symbols/sec) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a587e0bee1a09f39f040a91bc8dfc843b">BERT</a>.</p>
 
@@ -2094,7 +2125,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Returns the expected time, in femtoseconds, to complete a bathtub scan with the current settings. </p>
-<p >The default implementation returns zero. </p>
+<p >The default implementation returns zero.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#a2fedec9c616e59a4a694d87553c8609a">BERT</a>.</p>
 
@@ -2125,7 +2162,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Returns the expected time, in femtoseconds, to complete an eye scan with the current settings. </p>
-<p >The default implementation returns zero. </p>
+<p >The default implementation returns zero.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#aaf71bab01f15f12c09e49c2835076d57">BERT</a>.</p>
 
@@ -2185,6 +2228,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the global custom pattern (only valid if IsCustomPatternPerChannel returns false) </p>
+<dl class="section return"><dt>Returns</dt><dd>The bit sequence </dd></dl>
 
 <p>Implements <a class="el" href="classBERT.html#a5ad1f1971fe75a6c5ab1e17a249c06cb">BERT</a>.</p>
 
@@ -2366,7 +2410,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Gets the refclk in frequency required to generate the currently selected data rate. </p>
+<p>Gets the refclk in frequency, in Hz, required to generate the currently selected data rate. </p>
 
 <p>Implements <a class="el" href="classBERT.html#a9e3d5283ee238b1e4da4c269a0f4ff5f">BERT</a>.</p>
 
@@ -2395,7 +2439,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Gets the currently selected refclk out frequency. </p>
+<p>Gets the currently selected refclk out frequency, in Hz. </p>
 
 <p>Implements <a class="el" href="classBERT.html#a8ed2c07af97c5dbe74f209582c7bf9a2">BERT</a>.</p>
 
@@ -2485,7 +2529,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the RX CDR lock state (true=lock, false=unlock) </p>
-<p >NOTE: For some instruments this is just CDR lock, for others it indicates both CDR and pattern checker lock </p>
+<p >NOTE: For some instruments this is just CDR lock, for others it indicates both CDR and pattern checker lock</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#af05aaf329e25596a40a8359e62e42496">BERT</a>.</p>
 
@@ -2516,6 +2566,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the currently selected RX CTLE gain index. </p>
+<p >To get the actual gain in dB, use this value as the index into the table returned by <a class="el" href="classAntikernelLabsTriggerCrossbar.html#afe8c91bf47b4f0f70b7c3dd1f1b4672a" title="Get the list of available RX CTLE gain values (in dB)">GetRxCTLEGainSteps()</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#ab70dbde39fe51d5b1d6ed8873c1540f8">BERT</a>.</p>
 
@@ -2544,7 +2601,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Get the list of available RX CTLE gain values, in dB. </p>
+<p>Get the list of available RX CTLE gain values (in dB) </p>
 
 <p>Implements <a class="el" href="classBERT.html#a699a7829ece3f849d7fcc7fc35fe32ec">BERT</a>.</p>
 
@@ -2575,6 +2632,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the transmit invert flag for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a20f493107de3ef0d3440838c6ad3c600">BERT</a>.</p>
 
@@ -2590,7 +2653,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">BERT::Pattern AntikernelLabsTriggerCrossbar::GetRxPattern </td>
+          <td class="memname"><a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> AntikernelLabsTriggerCrossbar::GetRxPattern </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -2605,6 +2668,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the currently selected receive pattern for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a19bbfe99db4773de496117e90123c355">BERT</a>.</p>
 
@@ -2808,7 +2877,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Get the configured scan depth for a channel. </p>
+<p>Get the configured scan depth for a channel, in UIs per sample/pixel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#a134d25229272a9e998349af5d143df06">BERT</a>.</p>
 
@@ -2839,7 +2914,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Returns the list of integration depths for eye / bathtub scans. </p>
-<p >Higher depths will give better resolution at low BER values, but increase scan time. </p>
+<p >Higher depths will give better resolution at low BER values, but increase scan time.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#af445ad7be3bc32726238fb29691b8057">BERT</a>.</p>
 
@@ -2899,6 +2980,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the estimated completion status (0-1) of the current scan. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#a62248a51b84b240f858b70aba32be295">BERT</a>.</p>
 
@@ -2958,6 +3045,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Get the drive strength for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a2c701128cab167bd2badea6106cbfdad">BERT</a>.</p>
 
@@ -2988,6 +3081,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the transmit enable flag for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a4d33e1be9161ff6b989608cb0145e67c">BERT</a>.</p>
 
@@ -3018,6 +3117,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the transmit invert flag for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a957cc7f208f59a07ef1aff7f67efdc13">BERT</a>.</p>
 
@@ -3033,7 +3138,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">BERT::Pattern AntikernelLabsTriggerCrossbar::GetTxPattern </td>
+          <td class="memname"><a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">BERT::Pattern</a> AntikernelLabsTriggerCrossbar::GetTxPattern </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -3048,6 +3153,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Gets the currently selected transmit pattern for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a2a5788587b70d2f9ef9da5c716fcfcc0">BERT</a>.</p>
 
@@ -3078,7 +3189,14 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Get the post-cursor equalizer tap for a channel. </p>
-<p >Tap values are normalized to 0-1 </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a043b2a4de197b15f47a0ec2d1fbfe28c">BERT</a>.</p>
 
@@ -3109,7 +3227,14 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Get the pre-cursor equalizer tap for a channel. </p>
-<p >Tap values are normalized to 0-1 </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#ab98d14858c9bb7d67bc46de1b3511512">BERT</a>.</p>
 
@@ -3139,6 +3264,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the reference clock source. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if external clock is in use, false if internal </dd></dl>
 
 <p>Implements <a class="el" href="classBERT.html#a4062c7e7a32f8ec5166156edabfcb379">BERT</a>.</p>
 
@@ -3314,7 +3440,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Determines whether custom patterns are settable per channel, or shared by the whole device. </p>
-<p >True = per channel, false = global </p>
+<dl class="section return"><dt>Returns</dt><dd>True = per channel, false = global </dd></dl>
 
 <p>Implements <a class="el" href="classBERT.html#a475783814b0b214c73a480494160007a">BERT</a>.</p>
 
@@ -3375,6 +3501,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Returns true if an eye scan is in progress. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#a011d178cb51b4d4707568c2033f44f1a">BERT</a>.</p>
 
@@ -3405,6 +3537,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Returns true if a horizontal bathtub scan is in progress. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#a9f35093293ded71038ec77ab57666f86">BERT</a>.</p>
 
@@ -3493,6 +3631,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Acquires an eye pattern. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a7b8b792772d4f181b84f0d0b25357500">BERT</a>.</p>
 
@@ -3523,6 +3667,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Acquires a bathtub curve. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a761edd241c2f11e929c70b67f069a18c">BERT</a>.</p>
 
@@ -3776,7 +3926,14 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Set the sampling point for BER measurements. </p>
-<p >X position is measured in fs relative to nominal eye center Y position is measured in V relative to nominal eye center </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">dx</td><td>Horizontal offset of the sampling point from the center of the eye, in femtoseconds </td></tr>
+    <tr><td class="paramname">dy</td><td>Vertical offset of the sampling point from the center of the eye, in volts </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#ad517f645742fb1fd7f7ffa72c41c0d1f">BERT</a>.</p>
 
@@ -4116,7 +4273,14 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Sets the data rate (in bits/sec) </p>
+<p>Sets the data rate (in symbols/sec) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">rate</td><td>Baud rate of the channel </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#af7131f14c64e51a71e5bddd12914462b">BERT</a>.</p>
 
@@ -4147,6 +4311,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the global custom pattern (only valid if IsCustomPatternPerChannel returns false) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pattern</td><td>The bit sequence (up to 64 bits in length) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a37bc7bccafa2aadb25566f0c9e710b29">BERT</a>.</p>
 
@@ -4360,6 +4530,12 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the reference clock output mux. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Index of the mux within the table returned by <a class="el" href="classAntikernelLabsTriggerCrossbar.html#a791aef5c75d9a6f62afac1d26a13a3f6" title="Gets the list of available reference clock mux settings.">GetRefclkOutMuxNames()</a> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a8bd50cb7bd44b2b03298fc887e88fa06">BERT</a>.</p>
 
@@ -4400,6 +4576,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the RX CTLE gain index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">step</td><td>Index of the gain value within the <a class="el" href="classAntikernelLabsTriggerCrossbar.html#afe8c91bf47b4f0f70b7c3dd1f1b4672a" title="Get the list of available RX CTLE gain values (in dB)">GetRxCTLEGainSteps()</a> table to use </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#af1a88d63cfeca9d0ee894199c1d3bbb9">BERT</a>.</p>
 
@@ -4440,6 +4623,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the receive invert flag for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">invert</td><td>True = inverted, false = inverted </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a883dad59154bfc85c1880e5160b4c30b">BERT</a>.</p>
 
@@ -4463,7 +4653,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Pattern&#160;</td>
+          <td class="paramtype"><a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td>
           <td class="paramname"><em>pattern</em>&#160;</td>
         </tr>
         <tr>
@@ -4480,6 +4670,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the receive pattern for the selected channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">pattern</td><td>Desired input pattern </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a61460559ba83587b38787e1fb3633d38">BERT</a>.</p>
 
@@ -4580,6 +4777,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Set the configured scan depth for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">depth</td><td>Integration depth, in UIs </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="classBERT.html#ac9eb95f7dbd030b792c307b563dd7bea">BERT</a>.</p>
 
@@ -4656,6 +4860,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Set the drive strength for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">drive</td><td>Nominal p-p swing </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a800b7e65c1549c43f133990fba6139d9">BERT</a>.</p>
 
@@ -4696,6 +4907,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the transmit enable flag for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">enable</td><td>True = enabled, false = disabled </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a9818e6ba0d82e51765cd283aeb762524">BERT</a>.</p>
 
@@ -4736,6 +4954,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the transmit invert flag for a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">invert</td><td>True = inverted, false = normal </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a0ed3fb75149abca370d4c784ef75213b">BERT</a>.</p>
 
@@ -4759,7 +4984,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Pattern&#160;</td>
+          <td class="paramtype"><a class="el" href="classBERT.html#a8e96613a5b0a72908799cd132373aeb9">Pattern</a>&#160;</td>
           <td class="paramname"><em>pattern</em>&#160;</td>
         </tr>
         <tr>
@@ -4776,6 +5001,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Sets the transmit pattern for the selected channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">pattern</td><td>The selected pattern </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a8911568ab926ff4754c58fd13546e688">BERT</a>.</p>
 
@@ -4816,6 +5048,15 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Set the post-cursor equalizer tap for a channel. </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">postcursor</td><td>Post-cursor tap </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a30b1c29b3d88ea81525bc9bb6d525e79">BERT</a>.</p>
 
@@ -4856,6 +5097,15 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Set the pre-cursor equalizer tap for a channel. </p>
+<p >Equalizer coefficients are are normalized so that 0 is the lowest possible tap value and 1 is the highest possible tap value. Some instruments allow negative values (which invert the sign of the tap).</p>
+<p >The exact mapping of normalized coefficients to FFE gain steps is instrument specific and may be nonlinear.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+    <tr><td class="paramname">precursor</td><td>Pre-cursor tap </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a17f4adc82d6bda8d36e9aa7ee3661a93">BERT</a>.</p>
 
@@ -4885,7 +5135,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 </div><div class="memdoc">
 
-<p>Sets the reference clock source. </p>
+<p>Sets the reference clock source (internal or external) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">external</td><td>True to select external clock, false to select internal </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="classBERT.html#a5715af3f40945d25ec2d64d277e97072">BERT</a>.</p>
 
