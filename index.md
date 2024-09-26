@@ -28,3 +28,4 @@ layout: default
 * [User manual (HTML)](/manual/contentsname.html)
 * [User manual (PDF)](/downloads/ngscopeclient-manual.pdf)
 * [Developer API documentation](/devdocs)
+* [ngscopeclient organization on GitHub](https://github.com/ngscopeclient)
