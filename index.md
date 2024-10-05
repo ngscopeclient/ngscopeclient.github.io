@@ -21,6 +21,15 @@ layout: default
 * [Multi-scope support](/multiscope)
 * [Protocol analysis](/protocol-analysis)
 
+# Download
+
+Downloads of prebuilt binaries are not yet available.
+
+For build and installation instructions, please refer to the "Getting Started" chapter of the User Manual:
+
+* [User Manual, Getting Started (HTML)](/manual/GettingStarted.html)
+* [User Manual (PDF)](/downloads/ngscopeclient-manual.pdf)
+
 # Learn more
 
 * [Get involved](/getinvolved)
@@ -28,3 +37,4 @@ layout: default
 * [User manual (HTML)](/manual/contentsname.html)
 * [User manual (PDF)](/downloads/ngscopeclient-manual.pdf)
 * [Developer API documentation](/devdocs)
+* [ngscopeclient organization on GitHub](https://github.com/ngscopeclient)
