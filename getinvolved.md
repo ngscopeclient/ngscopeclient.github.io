@@ -8,7 +8,7 @@ layout: default
 
 Want to contribute to the project? We suggest joining the developer chat, which may be accessed via your choice of IRC or Discord:
 
-* IRC: \#scopehal on [irc.libera.chat](ircs://irc.libera.chat:6697/scopehal)
+* IRC webchat: [\#scopehal on Libera.Chat](https://web.libera.chat/#scopehal) (or [connect with your own client](ircs://irc.libera.chat:6697/scopehal))
 * Discord: [\#scopehal on 1bitsquared](https://discord.gg/URuN2BuGwG)
 
 Both the IRC and Discord channels are bridged so you can talk to everyone using either protocol.
