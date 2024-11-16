@@ -91,30 +91,49 @@ SCPI port plus one.
 </p>
    <h3 class='sectionHead' id='uart'><span class='titlemark'>11.7   </span> <a id='x13-8800011.7'></a>uart</h3>
 <!-- l. 90 --><p class='noindent'>SCPI over RS-232 or USB-UART.
-</p><!-- l. 92 --><p class='indent'>   This transport takes two arguments: device path (required) and baud rate (optional). If baud rate is
-not specified, it defaults to 115200.
+</p><!-- l. 92 --><p class='indent'>   This transport takes 3 arguments: device path (required), baud rate (optional), and flags (optional). If
+baud rate is not specified, it defaults to 115200.
 </p><!-- l. 95 --><p class='indent'>   Example: </p><!-- l. 96 -->
     <pre class='lstlisting' id='listing-36'><span class='label'><a id='x13-88001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:rigol:uart:/dev/ttyUSB0:115200</span></span></pre>
     
-<!-- l. 100 --><p class='noindent'>
+<!-- l. 100 --><p class='indent'>   Some devices, like the NanoVNA, need to activate the DTR line to communicate. This can be achieved
+by adding the DTR flag to the connection string.
+</p><!-- l. 102 --><p class='indent'>   Example: </p><!-- l. 103 -->
+    <pre class='lstlisting' id='listing-37'><span class='label'><a id='x13-88002r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>NanoVNA-F:nanovna:uart:COM6:115200:DTR</span></span></pre>
+    
+<!-- l. 108 --><p class='noindent'>
 </p>
    <h3 class='sectionHead' id='usbtmc'><span class='titlemark'>11.8   </span> <a id='x13-8900011.8'></a>usbtmc</h3>
-<!-- l. 102 --><p class='noindent'>SCPI over USB Test &amp; Measurement Class protocol.
-</p><!-- l. 104 --><p class='indent'>   This transport takes two arguments: the path to the usbtmc kernel device object and the TMC transfer
+<!-- l. 110 --><p class='noindent'>SCPI over USB Test &amp; Measurement Class protocol.
+</p><!-- l. 112 --><p class='indent'>   This transport takes two arguments: the path to the usbtmc kernel device object and the TMC transfer
 size (optional). As Workaround for Siglent SDS1x04x-E set size to 48.
-</p><!-- l. 106 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux. There is currently no support
+</p><!-- l. 114 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux. There is currently no support
 for USBTMC on Windows (<a href='https://github.com/ngscopeclient/scopehal/issues/301'>scopehal:301</a>)
-</p><!-- l. 109 --><p class='indent'>   Example: </p><!-- l. 110 -->
-    <pre class='lstlisting' id='listing-37'><span class='label'><a id='x13-89001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:siglent:usbtmc:/dev/usbtmc0:48</span></span></pre>
+</p><!-- l. 117 --><p class='indent'>   Example: </p><!-- l. 118 -->
+    <pre class='lstlisting' id='listing-38'><span class='label'><a id='x13-89001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:siglent:usbtmc:/dev/usbtmc0:48</span></span></pre>
     
-<!-- l. 114 --><p class='noindent'>
+<!-- l. 122 --><p class='noindent'>
 </p>
    <h3 class='sectionHead' id='vicp'><span class='titlemark'>11.9   </span> <a id='x13-9000011.9'></a>vicp</h3>
-<!-- l. 116 --><p class='noindent'>SCPI over Teledyne LeCroy Virtual Instrument Control Protocol.
-</p><!-- l. 118 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
-</p><!-- l. 120 --><p class='indent'>   If port number is not specified, uses TCP port 1861 (IANA assigned) by default.
-</p><!-- l. 122 --><p class='indent'>   Example: </p><!-- l. 123 -->
-    <pre class='lstlisting' id='listing-38'><span class='label'><a id='x13-90001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:lecroy:vicp:192.0.2.9</span></span></pre>
+<!-- l. 124 --><p class='noindent'>SCPI over Teledyne LeCroy Virtual Instrument Control Protocol.
+</p><!-- l. 126 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
+</p><!-- l. 128 --><p class='indent'>   If port number is not specified, uses TCP port 1861 (IANA assigned) by default.
+</p><!-- l. 130 --><p class='indent'>   Example: </p><!-- l. 131 -->
+                                                                                         
+                                                                                         
+    <pre class='lstlisting' id='listing-39'><span class='label'><a id='x13-90001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:lecroy:vicp:192.0.2.9</span></span></pre>
+    
+<!-- l. 135 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead' id='hid'><span class='titlemark'>11.10   </span> <a id='x13-9100011.10'></a>hid</h3>
+<!-- l. 137 --><p class='noindent'>This transport layer is usually used by binary drivers to communicate with Test &amp; Measurement equiment
+over USB.
+</p><!-- l. 139 --><p class='indent'>   This transport takes two arguments: vendor ID (hex) and product ID (hex).
+</p><!-- l. 141 --><p class='indent'>   Optionally a third argument can be added with the instrument’s serial number. If not provided, the
+instrument’s serial number is automatically pulled at first connection and stored in the connection
+string.
+</p><!-- l. 144 --><p class='indent'>   Example: </p><!-- l. 145 -->
+    <pre class='lstlisting' id='listing-40'><span class='label'><a id='x13-91001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>AlientekDP100:alientek_dp:hid:2e3c:af01</span></span></pre>
     
                                                                                          
                                                                                          
