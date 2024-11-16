@@ -1,17 +1,18 @@
 <map id="SCPIFunctionGenerator" name="SCPIFunctionGenerator">
-<area shape="rect" id="node1" title="An SCPI&#45;based function generator." alt="" coords="580,157,751,184"/>
+<area shape="rect" id="node1" title="An SCPI&#45;based function generator." alt="" coords="580,183,751,209"/>
 <area shape="rect" id="node7" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="831,5,981,32"/>
-<area shape="rect" id="node9" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="841,56,971,83"/>
-<area shape="rect" id="node10" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="828,107,984,133"/>
-<area shape="rect" id="node11" href="$classRigolFunctionGenerator.html" title=" " alt="" coords="819,157,993,184"/>
-<area shape="rect" id="node12" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="817,208,995,235"/>
-<area shape="rect" id="node13" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="799,259,1013,285"/>
-<area shape="rect" id="node14" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="824,309,988,336"/>
-<area shape="rect" id="node2" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="389,183,532,209"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,183,340,209"/>
-<area shape="rect" id="node5" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="399,132,522,159"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,175,197,217"/>
-<area shape="rect" id="node6" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,132,341,159"/>
+<area shape="rect" id="node9" href="$classOwonXDGFunctionGenerator.html" title="Owon XDG Function Generator series driver class." alt="" coords="802,56,1010,83"/>
+<area shape="rect" id="node10" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="841,107,971,133"/>
+<area shape="rect" id="node11" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="828,157,984,184"/>
+<area shape="rect" id="node12" href="$classRigolFunctionGenerator.html" title=" " alt="" coords="819,208,993,235"/>
+<area shape="rect" id="node13" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="817,259,995,285"/>
+<area shape="rect" id="node14" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="799,309,1013,336"/>
+<area shape="rect" id="node15" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="824,360,988,387"/>
+<area shape="rect" id="node2" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="389,208,532,235"/>
+<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,208,340,235"/>
+<area shape="rect" id="node5" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="399,157,522,184"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,201,197,242"/>
+<area shape="rect" id="node6" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,157,341,184"/>
 <area shape="rect" id="node8" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1065,5,1244,32"/>
-<area shape="rect" id="node15" href="$classTektronixHSIOscilloscope.html" title="TektronixHSIOscilloscope." alt="" coords="1061,309,1248,336"/>
+<area shape="rect" id="node16" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1061,360,1248,387"/>
 </map>

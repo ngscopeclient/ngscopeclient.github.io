@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -275,7 +275,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -399,7 +399,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a2514be1aa0ec30349b2a3ad1f73fcd48 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a9968ac1c2ce757b00021aa0dfc4d8b05" name="a9968ac1c2ce757b00021aa0dfc4d8b05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b35da06103790c7a3b8d799c2de772 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="aa5b35da06103790c7a3b8d799c2de772" name="aa5b35da06103790c7a3b8d799c2de772"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>

@@ -1,17 +1,18 @@
 <map id="AseqSpectrometer" name="AseqSpectrometer">
-<area shape="rect" id="node1" title="AseqSpectrometer &#45; driver for talking to the scopehal&#45;aseq&#45;bridge server." alt="" coords="281,468,424,495"/>
-<area shape="rect" id="node2" href="$classSCPISpectrometer.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="179,379,318,405"/>
-<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="177,303,310,329"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="53,213,157,240"/>
-<area shape="rect" id="node7" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer triggers." alt="" coords="86,303,153,329"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="237,109,330,136"/>
-<area shape="rect" id="node10" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="181,213,303,240"/>
-<area shape="rect" id="node14" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="387,303,534,329"/>
-<area shape="rect" id="node6" title=" " alt="" coords="187,5,379,47"/>
-<area shape="rect" id="node8" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="328,213,455,240"/>
-<area shape="rect" id="node9" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="5,109,124,136"/>
-<area shape="rect" id="node11" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="562,109,658,136"/>
-<area shape="rect" id="node12" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="554,13,666,39"/>
-<area shape="rect" id="node13" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="342,379,577,405"/>
-<area shape="rect" id="node15" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="479,213,528,240"/>
+<area shape="rect" id="node1" title="Driver for Aseq Instruments LR1/HR1 spectrometers via the scopehal&#45;aseq&#45;bridge server." alt="" coords="295,480,438,507"/>
+<area shape="rect" id="node2" href="$classSCPISpectrometer.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="233,404,372,431"/>
+<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="204,303,337,329"/>
+<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="263,213,367,240"/>
+<area shape="rect" id="node7" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="549,303,616,329"/>
+<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="176,109,269,136"/>
+<area shape="rect" id="node12" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="108,213,231,240"/>
+<area shape="rect" id="node16" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="408,213,555,240"/>
+<area shape="rect" id="node6" title=" " alt="" coords="141,5,333,47"/>
+<area shape="rect" id="node8" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="511,109,638,136"/>
+<area shape="rect" id="node9" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="661,213,784,240"/>
+<area shape="rect" id="node10" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="703,109,753,136"/>
+<area shape="rect" id="node11" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="314,109,433,136"/>
+<area shape="rect" id="node13" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="28,109,124,136"/>
+<area shape="rect" id="node14" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
+<area shape="rect" id="node15" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="357,353,592,380"/>
 </map>

@@ -1,12 +1,13 @@
 <map id="ActionProvider" name="ActionProvider">
 <area shape="rect" id="node1" title="Abstract base for objects (usually filters) which provide a series of actions a user can perform." alt="" coords="5,132,123,159"/>
 <area shape="rect" id="node2" href="$classConstellationFilter.html" title=" " alt="" coords="186,5,326,32"/>
-<area shape="rect" id="node3" href="$classExportFilter.html" title=" " alt="" coords="208,56,304,83"/>
-<area shape="rect" id="node6" href="$classMemoryFilter.html" title=" " alt="" coords="202,107,310,133"/>
-<area shape="rect" id="node7" href="$classPAMEdgeDetectorFilter.html" title=" " alt="" coords="171,157,341,184"/>
-<area shape="rect" id="node8" href="$classPausableFilter.html" title="A filter which may be started and stopped." alt="" coords="199,208,313,235"/>
-<area shape="rect" id="node10" href="$classScalarStairstepFilter.html" title=" " alt="" coords="180,259,332,285"/>
-<area shape="rect" id="node4" href="$classCSVExportFilter.html" title=" " alt="" coords="413,31,535,57"/>
-<area shape="rect" id="node5" href="$classTouchstoneExportFilter.html" title=" " alt="" coords="389,81,559,108"/>
-<area shape="rect" id="node9" href="$classTrendFilter.html" title=" " alt="" coords="429,208,519,235"/>
+<area shape="rect" id="node3" href="$classExportFilter.html" title="Base class for filters providing file&#45;export functionality." alt="" coords="208,56,304,83"/>
+<area shape="rect" id="node7" href="$classMemoryFilter.html" title=" " alt="" coords="202,107,310,133"/>
+<area shape="rect" id="node8" href="$classPAMEdgeDetectorFilter.html" title=" " alt="" coords="171,157,341,184"/>
+<area shape="rect" id="node9" href="$classPausableFilter.html" title="A filter which may be started and stopped." alt="" coords="199,208,313,235"/>
+<area shape="rect" id="node11" href="$classScalarStairstepFilter.html" title=" " alt="" coords="180,259,332,285"/>
+<area shape="rect" id="node4" href="$classCSVExportFilter.html" title=" " alt="" coords="413,5,535,32"/>
+<area shape="rect" id="node5" href="$classPcapngExportFilter.html" title=" " alt="" coords="403,56,545,83"/>
+<area shape="rect" id="node6" href="$classTouchstoneExportFilter.html" title=" " alt="" coords="389,107,559,133"/>
+<area shape="rect" id="node10" href="$classTrendFilter.html" title=" " alt="" coords="429,208,519,235"/>
 </map>

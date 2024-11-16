@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="FlowGraphNode__inlines_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal v0.1                                                                                                     *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2022 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -98,28 +98,29 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#ifndef FlowGraphNode_inlines_h</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define FlowGraphNode_inlines_h</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classFlowGraphNode.html#a835e6336c905aef73337c96fa7152aa2">   46</a></span><span class="keyword">inline</span> <a class="code hl_class" href="classWaveformBase.html">WaveformBase</a>* <a class="code hl_function" href="classFlowGraphNode.html#a835e6336c905aef73337c96fa7152aa2">FlowGraphNode::GetInputWaveform</a>(<span class="keywordtype">size_t</span> i)</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">auto</span> chan = <a class="code hl_variable" href="classFlowGraphNode.html#a4846708edfd0d4d8ce4b23c911a2804d">m_inputs</a>[i].m_channel;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">if</span>(chan == NULL)</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">return</span> NULL;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">return</span> chan-&gt;GetData(<a class="code hl_variable" href="classFlowGraphNode.html#a4846708edfd0d4d8ce4b23c911a2804d">m_inputs</a>[i].m_stream);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">inline</span> <a class="code hl_enumeration" href="classStream.html#a1ac9862db2a647a12b28c5c0a523a231">Stream::StreamType</a> StreamDescriptor::GetType()</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>{</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordflow">if</span>(m_channel == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">return</span> Stream::STREAM_TYPE_ANALOG;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordflow">return</span> m_channel-&gt;<a class="code hl_function" href="classInstrumentChannel.html#aadbc436327b5470a9a809eb5db340a96">GetType</a>(m_stream);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassFlowGraphNode_html_a4846708edfd0d4d8ce4b23c911a2804d"><div class="ttname"><a href="classFlowGraphNode.html#a4846708edfd0d4d8ce4b23c911a2804d">FlowGraphNode::m_inputs</a></div><div class="ttdeci">std::vector&lt; StreamDescriptor &gt; m_inputs</div><div class="ttdoc">The channel (if any) connected to each of our inputs.</div><div class="ttdef"><b>Definition:</b> FlowGraphNode.h:164</div></div>
-<div class="ttc" id="aclassFlowGraphNode_html_a835e6336c905aef73337c96fa7152aa2"><div class="ttname"><a href="classFlowGraphNode.html#a835e6336c905aef73337c96fa7152aa2">FlowGraphNode::GetInputWaveform</a></div><div class="ttdeci">WaveformBase * GetInputWaveform(size_t i)</div><div class="ttdoc">Gets the waveform attached to the specified input.</div><div class="ttdef"><b>Definition:</b> FlowGraphNode_inlines.h:46</div></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#ifndef FlowGraphNode_inlines_h</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define FlowGraphNode_inlines_h</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classFlowGraphNode.html#a835e6336c905aef73337c96fa7152aa2">   51</a></span><span class="keyword">inline</span> <a class="code hl_class" href="classWaveformBase.html">WaveformBase</a>* <a class="code hl_function" href="classFlowGraphNode.html#a835e6336c905aef73337c96fa7152aa2">FlowGraphNode::GetInputWaveform</a>(<span class="keywordtype">size_t</span> i)</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>{</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">auto</span> chan = <a class="code hl_variable" href="classFlowGraphNode.html#a4846708edfd0d4d8ce4b23c911a2804d">m_inputs</a>[i].m_channel;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordflow">if</span>(chan == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordflow">return</span> chan-&gt;GetData(<a class="code hl_variable" href="classFlowGraphNode.html#a4846708edfd0d4d8ce4b23c911a2804d">m_inputs</a>[i].m_stream);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classStreamDescriptor.html#a1520e060ce40aea1884eda3fffe60081">   62</a></span><span class="keyword">inline</span> <a class="code hl_enumeration" href="classStream.html#a1ac9862db2a647a12b28c5c0a523a231">Stream::StreamType</a> <a class="code hl_function" href="classStreamDescriptor.html#a1520e060ce40aea1884eda3fffe60081">StreamDescriptor::GetType</a>()</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordflow">if</span>(m_channel == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordflow">return</span> Stream::STREAM_TYPE_ANALOG;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordflow">return</span> m_channel-&gt;<a class="code hl_function" href="classInstrumentChannel.html#aadbc436327b5470a9a809eb5db340a96">GetType</a>(m_stream);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassFlowGraphNode_html_a4846708edfd0d4d8ce4b23c911a2804d"><div class="ttname"><a href="classFlowGraphNode.html#a4846708edfd0d4d8ce4b23c911a2804d">FlowGraphNode::m_inputs</a></div><div class="ttdeci">std::vector&lt; StreamDescriptor &gt; m_inputs</div><div class="ttdoc">The channel (if any) connected to each of our inputs.</div><div class="ttdef"><b>Definition:</b> FlowGraphNode.h:178</div></div>
+<div class="ttc" id="aclassFlowGraphNode_html_a835e6336c905aef73337c96fa7152aa2"><div class="ttname"><a href="classFlowGraphNode.html#a835e6336c905aef73337c96fa7152aa2">FlowGraphNode::GetInputWaveform</a></div><div class="ttdeci">WaveformBase * GetInputWaveform(size_t i)</div><div class="ttdoc">Gets the waveform attached to the specified input.</div><div class="ttdef"><b>Definition:</b> FlowGraphNode_inlines.h:51</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_aadbc436327b5470a9a809eb5db340a96"><div class="ttname"><a href="classInstrumentChannel.html#aadbc436327b5470a9a809eb5db340a96">InstrumentChannel::GetType</a></div><div class="ttdeci">Stream::StreamType GetType(size_t stream)</div><div class="ttdoc">Returns the type of a specified stream.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:162</div></div>
+<div class="ttc" id="aclassStreamDescriptor_html_a1520e060ce40aea1884eda3fffe60081"><div class="ttname"><a href="classStreamDescriptor.html#a1520e060ce40aea1884eda3fffe60081">StreamDescriptor::GetType</a></div><div class="ttdeci">Stream::StreamType GetType()</div><div class="ttdoc">Get the type of stream (if connected). Returns STREAM_TYPE_ANALOG if null.</div><div class="ttdef"><b>Definition:</b> FlowGraphNode_inlines.h:62</div></div>
 <div class="ttc" id="aclassStream_html_a1ac9862db2a647a12b28c5c0a523a231"><div class="ttname"><a href="classStream.html#a1ac9862db2a647a12b28c5c0a523a231">Stream::StreamType</a></div><div class="ttdeci">StreamType</div><div class="ttdoc">General data type stored in a stream.</div><div class="ttdef"><b>Definition:</b> Stream.h:58</div></div>
 <div class="ttc" id="aclassWaveformBase_html"><div class="ttname"><a href="classWaveformBase.html">WaveformBase</a></div><div class="ttdoc">Base class for all Waveform specializations.</div><div class="ttdef"><b>Definition:</b> Waveform.h:59</div></div>
 </div><!-- fragment --></div><!-- contents -->

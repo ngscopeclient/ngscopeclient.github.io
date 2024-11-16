@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="TouchstoneParser_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal v0.1                                                                                                     *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2021 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -98,29 +98,31 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef TouchstoneParser_h</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define TouchstoneParser_h</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classTouchstoneParser.html">   42</a></span><span class="keyword">class </span><a class="code hl_class" href="classTouchstoneParser.html">TouchstoneParser</a></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_class" href="classTouchstoneParser.html">TouchstoneParser</a>();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classTouchstoneParser.html">~TouchstoneParser</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classTouchstoneParser.html#ac29d550b273842f523ac9902747b3b04">Load</a>(std::string fname, <a class="code hl_class" href="classSParameters.html">SParameters</a>&amp; params);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#ifndef TouchstoneParser_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define TouchstoneParser_h</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classTouchstoneParser.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classTouchstoneParser.html">TouchstoneParser</a></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_function" href="classTouchstoneParser.html#ac21b464f161a26eba44f07afdd3e1013">TouchstoneParser</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classTouchstoneParser.html#aa983d2c95ec6396d718e014201ba6dce">~TouchstoneParser</a>();</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classTouchstoneParser.html#a10c9ac0107f91bb16689bc3a496caae3">ComplexToPolar</a>(<span class="keywordtype">float</span>&amp; f1, <span class="keywordtype">float</span>&amp; f2);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classTouchstoneParser.html#aad8fd65ee310a37e3ca5cba8e444d3b8">ReadFloat</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* buf, <span class="keywordtype">size_t</span>&amp; i, <span class="keywordtype">size_t</span> len, <span class="keywordtype">float</span>&amp; f);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classTouchstoneParser.html#ac29d550b273842f523ac9902747b3b04">Load</a>(std::string fname, <a class="code hl_class" href="classSParameters.html">SParameters</a>&amp; params);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classTouchstoneParser.html#a10c9ac0107f91bb16689bc3a496caae3">ComplexToPolar</a>(<span class="keywordtype">float</span>&amp; f1, <span class="keywordtype">float</span>&amp; f2);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classTouchstoneParser.html#aad8fd65ee310a37e3ca5cba8e444d3b8">ReadFloat</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* buf, <span class="keywordtype">size_t</span>&amp; i, <span class="keywordtype">size_t</span> len, <span class="keywordtype">float</span>&amp; f);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassSParameters_html"><div class="ttname"><a href="classSParameters.html">SParameters</a></div><div class="ttdoc">A set of S-parameters.</div><div class="ttdef"><b>Definition:</b> SParameters.h:201</div></div>
-<div class="ttc" id="aclassTouchstoneParser_html"><div class="ttname"><a href="classTouchstoneParser.html">TouchstoneParser</a></div><div class="ttdoc">Touchstone (SxP) file parser.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.h:43</div></div>
-<div class="ttc" id="aclassTouchstoneParser_html_a10c9ac0107f91bb16689bc3a496caae3"><div class="ttname"><a href="classTouchstoneParser.html#a10c9ac0107f91bb16689bc3a496caae3">TouchstoneParser::ComplexToPolar</a></div><div class="ttdeci">void ComplexToPolar(float &amp;f1, float &amp;f2)</div><div class="ttdoc">Converts a complex number in (real, imaginary) form to (magnitude, angle)</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:263</div></div>
-<div class="ttc" id="aclassTouchstoneParser_html_aad8fd65ee310a37e3ca5cba8e444d3b8"><div class="ttname"><a href="classTouchstoneParser.html#aad8fd65ee310a37e3ca5cba8e444d3b8">TouchstoneParser::ReadFloat</a></div><div class="ttdeci">bool ReadFloat(const char *buf, size_t &amp;i, size_t len, float &amp;f)</div><div class="ttdoc">Reads a single ASCII float from the input buffer.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:242</div></div>
-<div class="ttc" id="aclassTouchstoneParser_html_ac29d550b273842f523ac9902747b3b04"><div class="ttname"><a href="classTouchstoneParser.html#ac29d550b273842f523ac9902747b3b04">TouchstoneParser::Load</a></div><div class="ttdeci">bool Load(std::string fname, SParameters &amp;params)</div><div class="ttdoc">Reads a SxP file.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:55</div></div>
+<div class="ttc" id="aclassTouchstoneParser_html"><div class="ttname"><a href="classTouchstoneParser.html">TouchstoneParser</a></div><div class="ttdoc">Touchstone (SxP) file parser.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.h:45</div></div>
+<div class="ttc" id="aclassTouchstoneParser_html_a10c9ac0107f91bb16689bc3a496caae3"><div class="ttname"><a href="classTouchstoneParser.html#a10c9ac0107f91bb16689bc3a496caae3">TouchstoneParser::ComplexToPolar</a></div><div class="ttdeci">void ComplexToPolar(float &amp;f1, float &amp;f2)</div><div class="ttdoc">Converts a complex number in (real, imaginary) form to (magnitude, angle)</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:285</div></div>
+<div class="ttc" id="aclassTouchstoneParser_html_aa983d2c95ec6396d718e014201ba6dce"><div class="ttname"><a href="classTouchstoneParser.html#aa983d2c95ec6396d718e014201ba6dce">TouchstoneParser::~TouchstoneParser</a></div><div class="ttdeci">virtual ~TouchstoneParser()</div><div class="ttdoc">Default destructor, does nothing.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:54</div></div>
+<div class="ttc" id="aclassTouchstoneParser_html_aad8fd65ee310a37e3ca5cba8e444d3b8"><div class="ttname"><a href="classTouchstoneParser.html#aad8fd65ee310a37e3ca5cba8e444d3b8">TouchstoneParser::ReadFloat</a></div><div class="ttdeci">bool ReadFloat(const char *buf, size_t &amp;i, size_t len, float &amp;f)</div><div class="ttdoc">Reads a single ASCII float from the input buffer.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:261</div></div>
+<div class="ttc" id="aclassTouchstoneParser_html_ac21b464f161a26eba44f07afdd3e1013"><div class="ttname"><a href="classTouchstoneParser.html#ac21b464f161a26eba44f07afdd3e1013">TouchstoneParser::TouchstoneParser</a></div><div class="ttdeci">TouchstoneParser()</div><div class="ttdoc">Default constructor, does nothing.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:47</div></div>
+<div class="ttc" id="aclassTouchstoneParser_html_ac29d550b273842f523ac9902747b3b04"><div class="ttname"><a href="classTouchstoneParser.html#ac29d550b273842f523ac9902747b3b04">TouchstoneParser::Load</a></div><div class="ttdeci">bool Load(std::string fname, SParameters &amp;params)</div><div class="ttdoc">Reads a SxP file.</div><div class="ttdef"><b>Definition:</b> TouchstoneParser.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

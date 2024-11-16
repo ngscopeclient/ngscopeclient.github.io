@@ -1,9 +1,10 @@
 <map id="SCPITransport" name="SCPITransport">
-<area shape="rect" id="node1" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,107,117,133"/>
-<area shape="rect" id="node2" href="$classSCPINullTransport.html" title="Null SCPITransport for simulated scopes (signal generator etc)" alt="" coords="174,5,313,32"/>
-<area shape="rect" id="node3" href="$classSCPISocketTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="166,56,321,83"/>
-<area shape="rect" id="node5" href="$classSCPITMCTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="173,107,314,133"/>
-<area shape="rect" id="node6" href="$classSCPIUARTTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="169,157,317,184"/>
-<area shape="rect" id="node7" href="$classVICPSocketTransport.html" title="A SCPI transport tunneled over LeCroy&#39;s Virtual Instrument Control Protocol." alt="" coords="165,208,321,235"/>
-<area shape="rect" id="node4" href="$classSCPITwinLanTransport.html" title="A SCPISocketTransport plus a second socket for waveform data." alt="" coords="369,56,533,83"/>
+<area shape="rect" id="node1" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,132,117,159"/>
+<area shape="rect" id="node2" href="$classSCPIHIDTransport.html" title="Transport for instruments attached via USB HID." alt="" coords="175,5,311,32"/>
+<area shape="rect" id="node3" href="$classSCPINullTransport.html" title="Dummy SCPITransport for demo scope etc." alt="" coords="174,56,313,83"/>
+<area shape="rect" id="node4" href="$classSCPISocketTransport.html" title="Transport that moves SCPI data over a single TCP socket with no framing." alt="" coords="166,107,321,133"/>
+<area shape="rect" id="node6" href="$classSCPITMCTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="173,157,314,184"/>
+<area shape="rect" id="node7" href="$classSCPIUARTTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="169,208,317,235"/>
+<area shape="rect" id="node8" href="$classVICPSocketTransport.html" title="A SCPI transport tunneled over LeCroy&#39;s Virtual Instrument Control Protocol." alt="" coords="165,259,321,285"/>
+<area shape="rect" id="node5" href="$classSCPITwinLanTransport.html" title="A SCPISocketTransport plus a second socket for waveform data." alt="" coords="369,107,533,133"/>
 </map>

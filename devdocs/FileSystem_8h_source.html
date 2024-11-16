@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="FileSystem_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* glscopeclient                                                                                                        *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2020 Andrew D. Zonenberg                                                                          *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -98,19 +98,21 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef FileSystem_h</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define FileSystem_h</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">// Find all files/directories matching given pattern</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>std::vector&lt;std::string&gt; Glob(<span class="keyword">const</span> std::string&amp; pathPattern, <span class="keywordtype">bool</span> onlyDirectories);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">// Remove given directory and all its contents</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keywordtype">void</span> RemoveDirectory(<span class="keyword">const</span> std::string&amp; basePath);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif </span><span class="comment">// FileSystem_h</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#ifndef FileSystem_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define FileSystem_h</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">// Find all files/directories matching given pattern</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>std::vector&lt;std::string&gt; <a class="code hl_function" href="FileSystem_8cpp.html#a075a786c9b437ef116004aa358b8a875">Glob</a>(<span class="keyword">const</span> std::string&amp; pathPattern, <span class="keywordtype">bool</span> onlyDirectories);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">// Remove given directory and all its contents</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keywordtype">void</span> <a class="code hl_function" href="FileSystem_8cpp.html#aa147b82abf39e928633d3123f2945a5a">RemoveDirectory</a>(<span class="keyword">const</span> std::string&amp; basePath);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif </span><span class="comment">// FileSystem_h</span></div>
+<div class="ttc" id="aFileSystem_8cpp_html_a075a786c9b437ef116004aa358b8a875"><div class="ttname"><a href="FileSystem_8cpp.html#a075a786c9b437ef116004aa358b8a875">Glob</a></div><div class="ttdeci">vector&lt; string &gt; Glob(const string &amp;pathPattern, bool onlyDirectories)</div><div class="ttdoc">Find files matching a filter expression.</div><div class="ttdef"><b>Definition:</b> FileSystem.cpp:62</div></div>
+<div class="ttc" id="aFileSystem_8cpp_html_aa147b82abf39e928633d3123f2945a5a"><div class="ttname"><a href="FileSystem_8cpp.html#aa147b82abf39e928633d3123f2945a5a">RemoveDirectory</a></div><div class="ttdeci">void RemoveDirectory(const string &amp;basePath)</div><div class="ttdoc">Deletes a directory.</div><div class="ttdef"><b>Definition:</b> FileSystem.cpp:124</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

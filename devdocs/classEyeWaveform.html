@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -68,15 +68,20 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classEyeWaveform-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">EyeWaveform Class Reference</div></div>
+  <div class="headertitle"><div class="title">EyeWaveform Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__datamodel.html">Data model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>An eye-pattern waveform.  
+ <a href="classEyeWaveform.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="EyeWaveform_8h_source.html">EyeWaveform.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for EyeWaveform:</div>
 <div class="dyncontent">
 <div class="center"><img src="classEyeWaveform__inherit__graph.png" border="0" usemap="#aEyeWaveform_inherit__map" alt="Inheritance graph"/></div>
 <map name="aEyeWaveform_inherit__map" id="aEyeWaveform_inherit__map">
-<area shape="rect" title=" " alt="" coords="45,155,160,181"/>
+<area shape="rect" title="An eye&#45;pattern waveform." alt="" coords="45,155,160,181"/>
 <area shape="rect" href="classDensityFunctionWaveform.html" title="Base class for waveforms such as eye patterns, spectrograms, and waterfalls which are conceptually a ..." alt="" coords="5,80,200,107"/>
 <area shape="rect" href="classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="41,5,164,32"/>
 </map>
@@ -86,7 +91,7 @@ Collaboration diagram for EyeWaveform:</div>
 <div class="dyncontent">
 <div class="center"><img src="classEyeWaveform__coll__graph.png" border="0" usemap="#aEyeWaveform_coll__map" alt="Collaboration graph"/></div>
 <map name="aEyeWaveform_coll__map" id="aEyeWaveform_coll__map">
-<area shape="rect" title=" " alt="" coords="130,393,245,420"/>
+<area shape="rect" title="An eye&#45;pattern waveform." alt="" coords="130,393,245,420"/>
 <area shape="rect" href="classDensityFunctionWaveform.html" title="Base class for waveforms such as eye patterns, spectrograms, and waterfalls which are conceptually a ..." alt="" coords="90,317,285,344"/>
 <area shape="rect" href="classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="47,221,170,247"/>
 <area shape="rect" href="classAcceleratorBuffer.html" title=" " alt="" coords="25,109,171,151"/>
@@ -110,8 +115,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ff4a0281bd73c42252d27e455bd92cd"><td class="memItemLeft" align="right" valign="top"><a id="a7ff4a0281bd73c42252d27e455bd92cd" name="a7ff4a0281bd73c42252d27e455bd92cd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>EyeWaveform</b> (size_t width, size_t height, float center, EyeWaveform::EyeType etype)</td></tr>
+<tr class="memitem:a7ff4a0281bd73c42252d27e455bd92cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#a7ff4a0281bd73c42252d27e455bd92cd">EyeWaveform</a> (size_t width, size_t height, float center, EyeWaveform::EyeType etype)</td></tr>
+<tr class="memdesc:a7ff4a0281bd73c42252d27e455bd92cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new blank eye waveform.  <a href="classEyeWaveform.html#a7ff4a0281bd73c42252d27e455bd92cd">More...</a><br /></td></tr>
 <tr class="separator:a7ff4a0281bd73c42252d27e455bd92cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d4b5df9e826e517e394ad93f1b7457b"><td class="memItemLeft" align="right" valign="top"><a id="a2d4b5df9e826e517e394ad93f1b7457b" name="a2d4b5df9e826e517e394ad93f1b7457b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>EyeWaveform</b> (const <a class="el" href="classEyeWaveform.html">EyeWaveform</a> &amp;)=delete</td></tr>
@@ -121,37 +126,53 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7528c41af06bc2988398e3728da5ce0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71f169821099184485bcdefe851eb760"><td class="memItemLeft" align="right" valign="top"><a id="a71f169821099184485bcdefe851eb760" name="a71f169821099184485bcdefe851eb760"></a>
 int64_t *&#160;</td><td class="memItemRight" valign="bottom"><b>GetAccumData</b> ()</td></tr>
+<tr class="memdesc:a71f169821099184485bcdefe851eb760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the raw (not normalized) accumulator data. <br /></td></tr>
 <tr class="separator:a71f169821099184485bcdefe851eb760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a269cf1f66f15df8791061ccf706a9795"><td class="memItemLeft" align="right" valign="top"><a id="a269cf1f66f15df8791061ccf706a9795" name="a269cf1f66f15df8791061ccf706a9795"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Normalize</b> ()</td></tr>
+<tr class="memdesc:a269cf1f66f15df8791061ccf706a9795"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalize the integrated integer buffer into float32 output buffer. <br /></td></tr>
 <tr class="separator:a269cf1f66f15df8791061ccf706a9795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45a7ac0ec1e3b18cc218a80c9ac16592"><td class="memItemLeft" align="right" valign="top"><a id="a45a7ac0ec1e3b18cc218a80c9ac16592" name="a45a7ac0ec1e3b18cc218a80c9ac16592"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetTotalUIs</b> ()</td></tr>
+<tr class="memdesc:a45a7ac0ec1e3b18cc218a80c9ac16592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of UIs integrated in this eye. <br /></td></tr>
 <tr class="separator:a45a7ac0ec1e3b18cc218a80c9ac16592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf7f469d71e13637dad7479d964f2ac8"><td class="memItemLeft" align="right" valign="top"><a id="aaf7f469d71e13637dad7479d964f2ac8" name="aaf7f469d71e13637dad7479d964f2ac8"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GetCenterVoltage</b> ()</td></tr>
+<tr class="memitem:a05f2a55634628b2d255b9cec3f3d69a5"><td class="memItemLeft" align="right" valign="top"><a id="a05f2a55634628b2d255b9cec3f3d69a5" name="a05f2a55634628b2d255b9cec3f3d69a5"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetTotalSamples</b> ()</td></tr>
+<tr class="memdesc:a05f2a55634628b2d255b9cec3f3d69a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of samples integrated in this eye. <br /></td></tr>
+<tr class="separator:a05f2a55634628b2d255b9cec3f3d69a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7f469d71e13637dad7479d964f2ac8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#aaf7f469d71e13637dad7479d964f2ac8">GetCenterVoltage</a> ()</td></tr>
+<tr class="memdesc:aaf7f469d71e13637dad7479d964f2ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the center voltage of the eye plot (not the center of the opening)  <a href="classEyeWaveform.html#aaf7f469d71e13637dad7479d964f2ac8">More...</a><br /></td></tr>
 <tr class="separator:aaf7f469d71e13637dad7479d964f2ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa23cbf8fa6388ba601130940190dc86"><td class="memItemLeft" align="right" valign="top"><a id="aaa23cbf8fa6388ba601130940190dc86" name="aaa23cbf8fa6388ba601130940190dc86"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>IntegrateUIs</b> (size_t uis)</td></tr>
-<tr class="separator:aaa23cbf8fa6388ba601130940190dc86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d0fab9589657e7d38cfc5f83989b8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#ad7d0fab9589657e7d38cfc5f83989b8f">IntegrateUIs</a> (size_t uis, size_t samples)</td></tr>
+<tr class="memdesc:ad7d0fab9589657e7d38cfc5f83989b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a given number of UIs as integrated.  <a href="classEyeWaveform.html#ad7d0fab9589657e7d38cfc5f83989b8f">More...</a><br /></td></tr>
+<tr class="separator:ad7d0fab9589657e7d38cfc5f83989b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc9cbc82f95d4bcdb66183a2fea2d395"><td class="memItemLeft" align="right" valign="top"><a id="afc9cbc82f95d4bcdb66183a2fea2d395" name="afc9cbc82f95d4bcdb66183a2fea2d395"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GetUIWidth</b> ()</td></tr>
+<tr class="memdesc:afc9cbc82f95d4bcdb66183a2fea2d395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the UI width, in X axis units. <br /></td></tr>
 <tr class="separator:afc9cbc82f95d4bcdb66183a2fea2d395"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4c3a0507120d29aa8f2aa724cc6030b"><td class="memItemLeft" align="right" valign="top"><a id="ae4c3a0507120d29aa8f2aa724cc6030b" name="ae4c3a0507120d29aa8f2aa724cc6030b"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaskHitRate</b> ()</td></tr>
+<tr class="memdesc:ae4c3a0507120d29aa8f2aa724cc6030b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mask hit rate, or zero if there is no mask defined. <br /></td></tr>
 <tr class="separator:ae4c3a0507120d29aa8f2aa724cc6030b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9c32e6feeb12a9c9391289997f3d38"><td class="memItemLeft" align="right" valign="top"><a id="a9c9c32e6feeb12a9c9391289997f3d38" name="a9c9c32e6feeb12a9c9391289997f3d38"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaskHitRate</b> (float rate)</td></tr>
+<tr class="memitem:a9c9c32e6feeb12a9c9391289997f3d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#a9c9c32e6feeb12a9c9391289997f3d38">SetMaskHitRate</a> (float rate)</td></tr>
+<tr class="memdesc:a9c9c32e6feeb12a9c9391289997f3d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the mask hit rate (normally called by the filter or instrument owning the waveform)  <a href="classEyeWaveform.html#a9c9c32e6feeb12a9c9391289997f3d38">More...</a><br /></td></tr>
 <tr class="separator:a9c9c32e6feeb12a9c9391289997f3d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a215755f5169c62b80f56b77556f1190d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#a215755f5169c62b80f56b77556f1190d">GetBERAtPoint</a> (ssize_t pointx, ssize_t pointy, ssize_t xmid, ssize_t ymid)</td></tr>
 <tr class="memdesc:a215755f5169c62b80f56b77556f1190d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the BER at a single point, relative to the center of the eye opening.  <a href="classEyeWaveform.html#a215755f5169c62b80f56b77556f1190d">More...</a><br /></td></tr>
 <tr class="separator:a215755f5169c62b80f56b77556f1190d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9df1c1ce6ef7154189dff334c74607f8"><td class="memItemLeft" align="right" valign="top"><a id="a9df1c1ce6ef7154189dff334c74607f8" name="a9df1c1ce6ef7154189dff334c74607f8"></a>
 EyeType&#160;</td><td class="memItemRight" valign="bottom"><b>GetType</b> ()</td></tr>
+<tr class="memdesc:a9df1c1ce6ef7154189dff334c74607f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the eye type (normal or BER) <br /></td></tr>
 <tr class="separator:a9df1c1ce6ef7154189dff334c74607f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad60a11362ffd322d5381dcdbb5930c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#a3ad60a11362ffd322d5381dcdbb5930c">FreeGpuMemory</a> () override</td></tr>
+<tr class="memdesc:a3ad60a11362ffd322d5381dcdbb5930c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while.  <a href="classEyeWaveform.html#a3ad60a11362ffd322d5381dcdbb5930c">More...</a><br /></td></tr>
+<tr class="separator:a3ad60a11362ffd322d5381dcdbb5930c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24327de50acf5b25a66e013e4b0cd010"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#a24327de50acf5b25a66e013e4b0cd010">HasGpuBuffer</a> () override</td></tr>
+<tr class="memdesc:a24327de50acf5b25a66e013e4b0cd010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have at least one buffer resident on the GPU.  <a href="classEyeWaveform.html#a24327de50acf5b25a66e013e4b0cd010">More...</a><br /></td></tr>
+<tr class="separator:a24327de50acf5b25a66e013e4b0cd010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classDensityFunctionWaveform"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classDensityFunctionWaveform')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classDensityFunctionWaveform.html">DensityFunctionWaveform</a></td></tr>
-<tr class="memitem:a7cc1a294075110f47196f83a1b8937a0 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="a7cc1a294075110f47196f83a1b8937a0" name="a7cc1a294075110f47196f83a1b8937a0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DensityFunctionWaveform</b> (size_t width, size_t height)</td></tr>
+<tr class="memitem:a7cc1a294075110f47196f83a1b8937a0 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a7cc1a294075110f47196f83a1b8937a0">DensityFunctionWaveform</a> (size_t width, size_t height)</td></tr>
+<tr class="memdesc:a7cc1a294075110f47196f83a1b8937a0 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a new density function waveform of a given size.  <a href="classDensityFunctionWaveform.html#a7cc1a294075110f47196f83a1b8937a0">More...</a><br /></td></tr>
 <tr class="separator:a7cc1a294075110f47196f83a1b8937a0 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92efbba0a41f996ecbe15ba003a23608 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="a92efbba0a41f996ecbe15ba003a23608" name="a92efbba0a41f996ecbe15ba003a23608"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DensityFunctionWaveform</b> (const <a class="el" href="classDensityFunctionWaveform.html">DensityFunctionWaveform</a> &amp;)=delete</td></tr>
@@ -159,48 +180,52 @@ EyeType&#160;</td><td class="memItemRight" valign="bottom"><b>GetType</b> ()</td
 <tr class="memitem:a41becd5580298aa67f50b551876d9945 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="a41becd5580298aa67f50b551876d9945" name="a41becd5580298aa67f50b551876d9945"></a>
 <a class="el" href="classDensityFunctionWaveform.html">DensityFunctionWaveform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classDensityFunctionWaveform.html">DensityFunctionWaveform</a> &amp;)=delete</td></tr>
 <tr class="separator:a41becd5580298aa67f50b551876d9945 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addbf9adcdc276e6d66ec339c85e317f5 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#addbf9adcdc276e6d66ec339c85e317f5">Rename</a> (const std::string &amp;=&quot;&quot;)</td></tr>
-<tr class="memdesc:addbf9adcdc276e6d66ec339c85e317f5 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assings a human readable name to the waveform for debug purposes.  <a href="classDensityFunctionWaveform.html#addbf9adcdc276e6d66ec339c85e317f5">More...</a><br /></td></tr>
-<tr class="separator:addbf9adcdc276e6d66ec339c85e317f5 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac7463a5111f855cd23fc81ac1d5ad4 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#afac7463a5111f855cd23fc81ac1d5ad4">Rename</a> (const std::string &amp;name=&quot;&quot;) override</td></tr>
+<tr class="memdesc:afac7463a5111f855cd23fc81ac1d5ad4 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assings a human readable name to the waveform for debug purposes.  <a href="classDensityFunctionWaveform.html#afac7463a5111f855cd23fc81ac1d5ad4">More...</a><br /></td></tr>
+<tr class="separator:afac7463a5111f855cd23fc81ac1d5ad4 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaae7f2e8472bc11d90390126a6280cff inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="aaae7f2e8472bc11d90390126a6280cff" name="aaae7f2e8472bc11d90390126a6280cff"></a>
 float *&#160;</td><td class="memItemRight" valign="bottom"><b>GetData</b> ()</td></tr>
+<tr class="memdesc:aaae7f2e8472bc11d90390126a6280cff inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the CPU-side sample data buffer. <br /></td></tr>
 <tr class="separator:aaae7f2e8472bc11d90390126a6280cff inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29ecf96b5af35425118d05239204ca12 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="a29ecf96b5af35425118d05239204ca12" name="a29ecf96b5af35425118d05239204ca12"></a>
 <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetOutData</b> ()</td></tr>
+<tr class="memdesc:a29ecf96b5af35425118d05239204ca12 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the output data buffer object. <br /></td></tr>
 <tr class="separator:a29ecf96b5af35425118d05239204ca12 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addd629f437c37fd296cd81ab99c023dd inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="addd629f437c37fd296cd81ab99c023dd" name="addd629f437c37fd296cd81ab99c023dd"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetHeight</b> ()</td></tr>
+<tr class="memdesc:addd629f437c37fd296cd81ab99c023dd inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the height of the bitmap in pixels. <br /></td></tr>
 <tr class="separator:addd629f437c37fd296cd81ab99c023dd inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add9307e68ed78f1a3ac8921121e2bd5d inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="add9307e68ed78f1a3ac8921121e2bd5d" name="add9307e68ed78f1a3ac8921121e2bd5d"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetWidth</b> ()</td></tr>
+<tr class="memdesc:add9307e68ed78f1a3ac8921121e2bd5d inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the width of the bitmap in pixels. <br /></td></tr>
 <tr class="separator:add9307e68ed78f1a3ac8921121e2bd5d inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7838aa8db07ffd472bd0031539433d2c inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a7838aa8db07ffd472bd0031539433d2c">clear</a> ()</td></tr>
-<tr class="memdesc:a7838aa8db07ffd472bd0031539433d2c inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all samples from this waveform.  <a href="classDensityFunctionWaveform.html#a7838aa8db07ffd472bd0031539433d2c">More...</a><br /></td></tr>
-<tr class="separator:a7838aa8db07ffd472bd0031539433d2c inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab298e9f5cc41a1147cb7b92bf77f79ed inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#ab298e9f5cc41a1147cb7b92bf77f79ed">Resize</a> (size_t)</td></tr>
-<tr class="memdesc:ab298e9f5cc41a1147cb7b92bf77f79ed inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocates buffers so the waveform contains the specified number of samples.  <a href="classDensityFunctionWaveform.html#ab298e9f5cc41a1147cb7b92bf77f79ed">More...</a><br /></td></tr>
-<tr class="separator:ab298e9f5cc41a1147cb7b92bf77f79ed inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b789e1184b64f696b36f61809209163 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a9b789e1184b64f696b36f61809209163">PrepareForCpuAccess</a> ()</td></tr>
-<tr class="memdesc:a9b789e1184b64f696b36f61809209163 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform is going to be used by the CPU in the near future.  <a href="classDensityFunctionWaveform.html#a9b789e1184b64f696b36f61809209163">More...</a><br /></td></tr>
-<tr class="separator:a9b789e1184b64f696b36f61809209163 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac82be22dfcc0e6119bb20964a5089f4c inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#ac82be22dfcc0e6119bb20964a5089f4c">PrepareForGpuAccess</a> ()</td></tr>
-<tr class="memdesc:ac82be22dfcc0e6119bb20964a5089f4c inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform is going to be used by the CPU in the near future.  <a href="classDensityFunctionWaveform.html#ac82be22dfcc0e6119bb20964a5089f4c">More...</a><br /></td></tr>
-<tr class="separator:ac82be22dfcc0e6119bb20964a5089f4c inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeab385d9ae7d4b809ee4f0ba87d2b930 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#aeab385d9ae7d4b809ee4f0ba87d2b930">MarkSamplesModifiedFromCpu</a> ()</td></tr>
-<tr class="memdesc:aeab385d9ae7d4b809ee4f0ba87d2b930 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data has been modified on the CPU and the GPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#aeab385d9ae7d4b809ee4f0ba87d2b930">More...</a><br /></td></tr>
-<tr class="separator:aeab385d9ae7d4b809ee4f0ba87d2b930 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01d429d757dfb28b2bdd336e6bf571e0 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a01d429d757dfb28b2bdd336e6bf571e0">MarkSamplesModifiedFromGpu</a> ()</td></tr>
-<tr class="memdesc:a01d429d757dfb28b2bdd336e6bf571e0 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data has been modified on the GPU and the CPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#a01d429d757dfb28b2bdd336e6bf571e0">More...</a><br /></td></tr>
-<tr class="separator:a01d429d757dfb28b2bdd336e6bf571e0 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae9785c911a1afe08249aa2b0471a717 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#aae9785c911a1afe08249aa2b0471a717">MarkModifiedFromCpu</a> ()</td></tr>
-<tr class="memdesc:aae9785c911a1afe08249aa2b0471a717 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data and timestamps have been modified on the CPU and the GPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#aae9785c911a1afe08249aa2b0471a717">More...</a><br /></td></tr>
-<tr class="separator:aae9785c911a1afe08249aa2b0471a717 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4032b8e7c0b886da21644498b935b7 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a0c4032b8e7c0b886da21644498b935b7">MarkModifiedFromGpu</a> ()</td></tr>
-<tr class="memdesc:a0c4032b8e7c0b886da21644498b935b7 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data and timestamps have been modified on the GPU and the CPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#a0c4032b8e7c0b886da21644498b935b7">More...</a><br /></td></tr>
-<tr class="separator:a0c4032b8e7c0b886da21644498b935b7 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4839c1a853124625f26341123e9c5307 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a4839c1a853124625f26341123e9c5307">size</a> () const</td></tr>
-<tr class="memdesc:a4839c1a853124625f26341123e9c5307 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of samples in this waveform.  <a href="classDensityFunctionWaveform.html#a4839c1a853124625f26341123e9c5307">More...</a><br /></td></tr>
-<tr class="separator:a4839c1a853124625f26341123e9c5307 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f798ca1b9d7d9b60ed5813fb1caa77 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a48f798ca1b9d7d9b60ed5813fb1caa77">clear</a> () override</td></tr>
+<tr class="memdesc:a48f798ca1b9d7d9b60ed5813fb1caa77 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all samples from this waveform.  <a href="classDensityFunctionWaveform.html#a48f798ca1b9d7d9b60ed5813fb1caa77">More...</a><br /></td></tr>
+<tr class="separator:a48f798ca1b9d7d9b60ed5813fb1caa77 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956c0c64501fc5f697b7149db34e306a inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a956c0c64501fc5f697b7149db34e306a">Resize</a> (size_t unused) override</td></tr>
+<tr class="memdesc:a956c0c64501fc5f697b7149db34e306a inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocates buffers so the waveform contains the specified number of samples.  <a href="classDensityFunctionWaveform.html#a956c0c64501fc5f697b7149db34e306a">More...</a><br /></td></tr>
+<tr class="separator:a956c0c64501fc5f697b7149db34e306a inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c32c5d5bb25fe09cdd9401232dd6a2e inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a4c32c5d5bb25fe09cdd9401232dd6a2e">PrepareForCpuAccess</a> () override</td></tr>
+<tr class="memdesc:a4c32c5d5bb25fe09cdd9401232dd6a2e inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform is going to be used by the CPU in the near future.  <a href="classDensityFunctionWaveform.html#a4c32c5d5bb25fe09cdd9401232dd6a2e">More...</a><br /></td></tr>
+<tr class="separator:a4c32c5d5bb25fe09cdd9401232dd6a2e inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40ed921c9d96953089e46babd95b57b7 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a40ed921c9d96953089e46babd95b57b7">PrepareForGpuAccess</a> () override</td></tr>
+<tr class="memdesc:a40ed921c9d96953089e46babd95b57b7 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform is going to be used by the CPU in the near future.  <a href="classDensityFunctionWaveform.html#a40ed921c9d96953089e46babd95b57b7">More...</a><br /></td></tr>
+<tr class="separator:a40ed921c9d96953089e46babd95b57b7 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91937a28bca8bbe1c176c7dc0507f966 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#a91937a28bca8bbe1c176c7dc0507f966">MarkSamplesModifiedFromCpu</a> () override</td></tr>
+<tr class="memdesc:a91937a28bca8bbe1c176c7dc0507f966 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data has been modified on the CPU and the GPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#a91937a28bca8bbe1c176c7dc0507f966">More...</a><br /></td></tr>
+<tr class="separator:a91937a28bca8bbe1c176c7dc0507f966 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7585053f334126f6b4c4c28dd9ec82f inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#ac7585053f334126f6b4c4c28dd9ec82f">MarkSamplesModifiedFromGpu</a> () override</td></tr>
+<tr class="memdesc:ac7585053f334126f6b4c4c28dd9ec82f inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data has been modified on the GPU and the CPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#ac7585053f334126f6b4c4c28dd9ec82f">More...</a><br /></td></tr>
+<tr class="separator:ac7585053f334126f6b4c4c28dd9ec82f inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9a07c292ee2a766a1dac072791a917c inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#aa9a07c292ee2a766a1dac072791a917c">MarkModifiedFromCpu</a> () override</td></tr>
+<tr class="memdesc:aa9a07c292ee2a766a1dac072791a917c inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data and timestamps have been modified on the CPU and the GPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#aa9a07c292ee2a766a1dac072791a917c">More...</a><br /></td></tr>
+<tr class="separator:aa9a07c292ee2a766a1dac072791a917c inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add74292613953930fe9b4aa45095c8fa inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#add74292613953930fe9b4aa45095c8fa">MarkModifiedFromGpu</a> () override</td></tr>
+<tr class="memdesc:add74292613953930fe9b4aa45095c8fa inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that this waveform's sample data and timestamps have been modified on the GPU and the CPU-side copy is no longer coherent.  <a href="classDensityFunctionWaveform.html#add74292613953930fe9b4aa45095c8fa">More...</a><br /></td></tr>
+<tr class="separator:add74292613953930fe9b4aa45095c8fa inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3bb819ee2a68e726c1dc36c46bbb561 inherit pub_methods_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDensityFunctionWaveform.html#ad3bb819ee2a68e726c1dc36c46bbb561">size</a> () const override</td></tr>
+<tr class="memdesc:ad3bb819ee2a68e726c1dc36c46bbb561 inherit pub_methods_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of samples in this waveform.  <a href="classDensityFunctionWaveform.html#ad3bb819ee2a68e726c1dc36c46bbb561">More...</a><br /></td></tr>
+<tr class="separator:ad3bb819ee2a68e726c1dc36c46bbb561 inherit pub_methods_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classWaveformBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classWaveformBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classWaveformBase.html">WaveformBase</a></td></tr>
 <tr class="memitem:a6476c59a4b80f4c2e026e7073ec42143 inherit pub_methods_classWaveformBase"><td class="memItemLeft" align="right" valign="top"><a id="a6476c59a4b80f4c2e026e7073ec42143" name="a6476c59a4b80f4c2e026e7073ec42143"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>WaveformBase</b> ()</td></tr>
@@ -257,14 +282,20 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> ()<
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>CacheColors</b> ()</td></tr>
 <tr class="memdesc:a3c844fc1bcfde92cc9b9baac8ebe91e4 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the cache of packed colors to avoid string parsing every frame. <br /></td></tr>
 <tr class="separator:a3c844fc1bcfde92cc9b9baac8ebe91e4 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">FreeGpuMemory</a> ()=0</td></tr>
+<tr class="memdesc:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while.  <a href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">More...</a><br /></td></tr>
+<tr class="separator:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">HasGpuBuffer</a> ()=0</td></tr>
+<tr class="memdesc:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have at least one buffer resident on the GPU.  <a href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">More...</a><br /></td></tr>
+<tr class="separator:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6306db260fd11e57e5d9e1bbffd1d9a7"><td class="memItemLeft" align="right" valign="top"><a id="a6306db260fd11e57e5d9e1bbffd1d9a7" name="a6306db260fd11e57e5d9e1bbffd1d9a7"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m_uiWidth</b></td></tr>
+<tr class="memitem:a6306db260fd11e57e5d9e1bbffd1d9a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#a6306db260fd11e57e5d9e1bbffd1d9a7">m_uiWidth</a></td></tr>
+<tr class="memdesc:a6306db260fd11e57e5d9e1bbffd1d9a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nominal unit interval width of the eye.  <a href="classEyeWaveform.html#a6306db260fd11e57e5d9e1bbffd1d9a7">More...</a><br /></td></tr>
 <tr class="separator:a6306db260fd11e57e5d9e1bbffd1d9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ce3c942ef91345cbbbf7d563d96e914"><td class="memItemLeft" align="right" valign="top"><a id="a4ce3c942ef91345cbbbf7d563d96e914" name="a4ce3c942ef91345cbbbf7d563d96e914"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m_saturationLevel</b></td></tr>
+<tr class="memitem:a4ce3c942ef91345cbbbf7d563d96e914"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeWaveform.html#a4ce3c942ef91345cbbbf7d563d96e914">m_saturationLevel</a></td></tr>
+<tr class="memdesc:a4ce3c942ef91345cbbbf7d563d96e914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saturation level for normalization.  <a href="classEyeWaveform.html#a4ce3c942ef91345cbbbf7d563d96e914">More...</a><br /></td></tr>
 <tr class="separator:a4ce3c942ef91345cbbbf7d563d96e914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classWaveformBase"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classWaveformBase')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classWaveformBase.html">WaveformBase</a></td></tr>
 <tr class="memitem:aa282579d02700f5a566d1329acb184cf inherit pub_attribs_classWaveformBase"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformBase.html#aa282579d02700f5a566d1329acb184cf">m_timescale</a></td></tr>
@@ -293,28 +324,40 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_flags</b></td></
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a2e3014885a8191973fe9d91a69d4cec3"><td class="memItemLeft" align="right" valign="top"><a id="a2e3014885a8191973fe9d91a69d4cec3" name="a2e3014885a8191973fe9d91a69d4cec3"></a>
 int64_t *&#160;</td><td class="memItemRight" valign="bottom"><b>m_accumdata</b></td></tr>
+<tr class="memdesc:a2e3014885a8191973fe9d91a69d4cec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulator buffer. <br /></td></tr>
 <tr class="separator:a2e3014885a8191973fe9d91a69d4cec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c0d39edb1a8af6cfcadaf69c9b84d33"><td class="memItemLeft" align="right" valign="top"><a id="a1c0d39edb1a8af6cfcadaf69c9b84d33" name="a1c0d39edb1a8af6cfcadaf69c9b84d33"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_totalUIs</b></td></tr>
+<tr class="memdesc:a1c0d39edb1a8af6cfcadaf69c9b84d33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total UIs integrated. <br /></td></tr>
 <tr class="separator:a1c0d39edb1a8af6cfcadaf69c9b84d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed67a488430c44d997587419d5543b06"><td class="memItemLeft" align="right" valign="top"><a id="aed67a488430c44d997587419d5543b06" name="aed67a488430c44d997587419d5543b06"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_totalSamples</b></td></tr>
+<tr class="memdesc:aed67a488430c44d997587419d5543b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total samples integrated. <br /></td></tr>
+<tr class="separator:aed67a488430c44d997587419d5543b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa01ea828a6f696c68bcf4e4c312a5d39"><td class="memItemLeft" align="right" valign="top"><a id="aa01ea828a6f696c68bcf4e4c312a5d39" name="aa01ea828a6f696c68bcf4e4c312a5d39"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_centerVoltage</b></td></tr>
+<tr class="memdesc:aa01ea828a6f696c68bcf4e4c312a5d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voltage of the vertical midpoint of the plot. <br /></td></tr>
 <tr class="separator:aa01ea828a6f696c68bcf4e4c312a5d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab01dcc56784a4d6c193be239644ea2e4"><td class="memItemLeft" align="right" valign="top"><a id="ab01dcc56784a4d6c193be239644ea2e4" name="ab01dcc56784a4d6c193be239644ea2e4"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_maskHitRate</b></td></tr>
+<tr class="memdesc:ab01dcc56784a4d6c193be239644ea2e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask hit rate. <br /></td></tr>
 <tr class="separator:ab01dcc56784a4d6c193be239644ea2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa45ae8564460acc1621515a381901a40"><td class="memItemLeft" align="right" valign="top"><a id="aa45ae8564460acc1621515a381901a40" name="aa45ae8564460acc1621515a381901a40"></a>
 EyeType&#160;</td><td class="memItemRight" valign="bottom"><b>m_type</b></td></tr>
+<tr class="memdesc:aa45ae8564460acc1621515a381901a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the eye pattern. <br /></td></tr>
 <tr class="separator:aa45ae8564460acc1621515a381901a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classDensityFunctionWaveform"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classDensityFunctionWaveform')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classDensityFunctionWaveform.html">DensityFunctionWaveform</a></td></tr>
 <tr class="memitem:a5773b7a00fd332610aee17a1797346ef inherit pro_attribs_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="a5773b7a00fd332610aee17a1797346ef" name="a5773b7a00fd332610aee17a1797346ef"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_width</b></td></tr>
+<tr class="memdesc:a5773b7a00fd332610aee17a1797346ef inherit pro_attribs_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer width, in pixels. <br /></td></tr>
 <tr class="separator:a5773b7a00fd332610aee17a1797346ef inherit pro_attribs_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab177b56c048a55b2f531466c6758459 inherit pro_attribs_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="aab177b56c048a55b2f531466c6758459" name="aab177b56c048a55b2f531466c6758459"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_height</b></td></tr>
+<tr class="memdesc:aab177b56c048a55b2f531466c6758459 inherit pro_attribs_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer height, in pixels. <br /></td></tr>
 <tr class="separator:aab177b56c048a55b2f531466c6758459 inherit pro_attribs_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2b98f197235ff0fc3051c7ef1d20492 inherit pro_attribs_classDensityFunctionWaveform"><td class="memItemLeft" align="right" valign="top"><a id="ad2b98f197235ff0fc3051c7ef1d20492" name="ad2b98f197235ff0fc3051c7ef1d20492"></a>
 <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_outdata</b></td></tr>
+<tr class="memdesc:ad2b98f197235ff0fc3051c7ef1d20492 inherit pro_attribs_classDensityFunctionWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pixel buffer. <br /></td></tr>
 <tr class="separator:ad2b98f197235ff0fc3051c7ef1d20492 inherit pro_attribs_classDensityFunctionWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classWaveformBase"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classWaveformBase')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classWaveformBase.html">WaveformBase</a></td></tr>
 <tr class="memitem:a157fa10b61192c59b81dc1aa5f4b0cd2 inherit pro_attribs_classWaveformBase"><td class="memItemLeft" align="right" valign="top"><a id="a157fa10b61192c59b81dc1aa5f4b0cd2" name="a157fa10b61192c59b81dc1aa5f4b0cd2"></a>
@@ -326,7 +369,94 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedColorRevi
 <tr class="memdesc:ab96c85570853bdeb03a1a93a07fd8b8d inherit pro_attribs_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Revision we last cached colors of. <br /></td></tr>
 <tr class="separator:ab96c85570853bdeb03a1a93a07fd8b8d inherit pro_attribs_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >An eye-pattern waveform. </p>
+<p >May be generated by a filter or directly measured by a <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a>, sampling oscilloscope, etc.</p>
+<p >The internal data is integrated as int64 to avoid loss of precision, then normalized to float32 by <a class="el" href="classEyeWaveform.html#a269cf1f66f15df8791061ccf706a9795" title="Normalize the integrated integer buffer into float32 output buffer.">Normalize()</a> after being updated.</p>
+<p >The raw accumulator buffer is scaled by EYE_ACCUM_SCALE to enable antialiasing where a sample fits between two rows of samples. In other words, a single sample will produce a total of EYE_ACCUM_SCALE counts in the buffer, often split between several pixel locations. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7ff4a0281bd73c42252d27e455bd92cd" name="a7ff4a0281bd73c42252d27e455bd92cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ff4a0281bd73c42252d27e455bd92cd">&#9670;&nbsp;</a></span>EyeWaveform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EyeWaveform::EyeWaveform </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EyeWaveform::EyeType&#160;</td>
+          <td class="paramname"><em>etype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a new blank eye waveform. </p>
+<p >The eye is initialized to all zeroes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>Width of the buffer, in pixels </td></tr>
+    <tr><td class="paramname">height</td><td>Height of the buffer, in pixels </td></tr>
+    <tr><td class="paramname">center</td><td>Center voltage </td></tr>
+    <tr><td class="paramname">etype</td><td>Type of the eye (BER or normal integrated samples) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3ad60a11362ffd322d5381dcdbb5930c" name="a3ad60a11362ffd322d5381dcdbb5930c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad60a11362ffd322d5381dcdbb5930c">&#9670;&nbsp;</a></span>FreeGpuMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void EyeWaveform::FreeGpuMemory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while. </p>
+
+<p>Implements <a class="el" href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">WaveformBase</a>.</p>
+
+</div>
+</div>
 <a id="a215755f5169c62b80f56b77556f1190d" name="a215755f5169c62b80f56b77556f1190d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a215755f5169c62b80f56b77556f1190d">&#9670;&nbsp;</a></span>GetBERAtPoint()</h2>
 
@@ -380,9 +510,182 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedColorRevi
 
 </div>
 </div>
+<a id="aaf7f469d71e13637dad7479d964f2ac8" name="aaf7f469d71e13637dad7479d964f2ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7f469d71e13637dad7479d964f2ac8">&#9670;&nbsp;</a></span>GetCenterVoltage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float EyeWaveform::GetCenterVoltage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the center voltage of the eye plot (not the center of the opening) </p>
+<p >This is normally 0 for AC coupled links but can be nonzero if there is a DC bias. </p>
+
+</div>
+</div>
+<a id="a24327de50acf5b25a66e013e4b0cd010" name="a24327de50acf5b25a66e013e4b0cd010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24327de50acf5b25a66e013e4b0cd010">&#9670;&nbsp;</a></span>HasGpuBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool EyeWaveform::HasGpuBuffer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if we have at least one buffer resident on the GPU. </p>
+
+<p>Implements <a class="el" href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">WaveformBase</a>.</p>
+
+</div>
+</div>
+<a id="ad7d0fab9589657e7d38cfc5f83989b8f" name="ad7d0fab9589657e7d38cfc5f83989b8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d0fab9589657e7d38cfc5f83989b8f">&#9670;&nbsp;</a></span>IntegrateUIs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EyeWaveform::IntegrateUIs </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>uis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>samples</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Marks a given number of UIs as integrated. </p>
+<p >This does not actually do anything to waveform data, it just increments the symbol count.</p>
+<p >Typically called by filters at the end of a refresh cycle.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uis</td><td>Number of UIs integrated </td></tr>
+    <tr><td class="paramname">samples</td><td>Number of samples integrated </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9c9c32e6feeb12a9c9391289997f3d38" name="a9c9c32e6feeb12a9c9391289997f3d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9c32e6feeb12a9c9391289997f3d38">&#9670;&nbsp;</a></span>SetMaskHitRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EyeWaveform::SetMaskHitRate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the mask hit rate (normally called by the filter or instrument owning the waveform) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rate</td><td>Hit rate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4ce3c942ef91345cbbbf7d563d96e914" name="a4ce3c942ef91345cbbbf7d563d96e914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ce3c942ef91345cbbbf7d563d96e914">&#9670;&nbsp;</a></span>m_saturationLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float EyeWaveform::m_saturationLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saturation level for normalization. </p>
+<p >Saturation level of 1.0 means mapping all values to [0, 1]. 2.0 means mapping values to [0, 2] and saturating anything above 1. </p>
+
+</div>
+</div>
+<a id="a6306db260fd11e57e5d9e1bbffd1d9a7" name="a6306db260fd11e57e5d9e1bbffd1d9a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6306db260fd11e57e5d9e1bbffd1d9a7">&#9670;&nbsp;</a></span>m_uiWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float EyeWaveform::m_uiWidth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Nominal unit interval width of the eye. </p>
+<p >The entire displayed eye is two UIs wide. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="EyeWaveform_8h_source.html">EyeWaveform.h</a></li>
-<li>lib/scopehal/EyeWaveform.cpp</li>
+<li>lib/scopehal/<a class="el" href="EyeWaveform_8cpp.html">EyeWaveform.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="SCPITransport_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal v0.1                                                                                                     *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2022 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -98,110 +98,110 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef SCPITransport_h</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define SCPITransport_h</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classSCPITransport.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classSCPITransport.html">SCPITransport</a></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_class" href="classSCPITransport.html">SCPITransport</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classSCPITransport.html">~SCPITransport</a>();</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">virtual</span> std::string GetConnectionString() =0;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">virtual</span> std::string GetName() =0;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">/*</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">        Queued command API</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"></span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">        Note that glscopeclient flushes the command queue in ScopeThread.</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">        Headless applications will need to do this manually after performing a write-only application, otherwise</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">        the command will remain queued indefinitely.</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment"></span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">        TODO: look into a background thread or something that&#39;s automatically launched by the transport to do this</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">        after some kind of fixed timeout?</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">     */</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a55c976481cc75d10f912b2130c5b6d30">SendCommandQueued</a>(<span class="keyword">const</span> std::string&amp; cmd);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    std::string <a class="code hl_function" href="classSCPITransport.html#aaa78062c0f1304ae155fb3cd39de2a51">SendCommandQueuedWithReply</a>(std::string cmd, <span class="keywordtype">bool</span> endOnSemicolon = <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a566a6c61e794e9432d5308076991bf92">SendCommandImmediate</a>(std::string cmd);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    std::string <a class="code hl_function" href="classSCPITransport.html#a684b2c24f367d794f49f08f2c8279b4b">SendCommandImmediateWithReply</a>(std::string cmd, <span class="keywordtype">bool</span> endOnSemicolon = <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span>* <a class="code hl_function" href="classSCPITransport.html#a762da86c8ed188e5fe8d65583d4585eb">SendCommandImmediateWithRawBlockReply</a>(std::string cmd, <span class="keywordtype">size_t</span>&amp; len);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classSCPITransport.html#a5027dad202a49c2dd66f049c5463e5d6">FlushCommandQueue</a>();</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">//Manual mutex locking for ReadRawData() etc</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::recursive_mutex&amp; GetMutex()</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    { <span class="keywordflow">return</span> m_netMutex; }</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="comment">//Immediate command API</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> FlushRXBuffer(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> SendCommand(<span class="keyword">const</span> std::string&amp; cmd) =0;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keyword">virtual</span> std::string ReadReply(<span class="keywordtype">bool</span> endOnSemicolon = <span class="keyword">true</span>) =0;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> ReadRawData(<span class="keywordtype">size_t</span> len, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* buf) =0;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> SendRawData(<span class="keywordtype">size_t</span> len, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* buf) =0;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsCommandBatchingSupported() =0;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsConnected() =0;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="classSCPITransport.html#a0c81712e65e15da5b11d7bfc6be09362">   93</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a0c81712e65e15da5b11d7bfc6be09362">EnableRateLimiting</a>(std::chrono::milliseconds interval)</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    {</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        m_rateLimitingEnabled = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        m_rateLimitingInterval = interval;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        m_nextCommandReady = std::chrono::system_clock::now();</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    }</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="classSCPITransport.html#addfb243954897dd3a477def513f340bd">  118</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#addfb243954897dd3a477def513f340bd">DeduplicateCommand</a>(<span class="keyword">const</span> std::string&amp; cmd)</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    { m_dedupCommands.emplace(cmd); }</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keyword">typedef</span> <a class="code hl_class" href="classSCPITransport.html">SCPITransport</a>* (*CreateProcType)(<span class="keyword">const</span> std::string&amp; args);</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> DoAddTransportClass(std::string name, CreateProcType proc);</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> EnumTransports(std::vector&lt;std::string&gt;&amp; names);</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keyword">static</span> <a class="code hl_class" href="classSCPITransport.html">SCPITransport</a>* CreateTransport(<span class="keyword">const</span> std::string&amp; transport, <span class="keyword">const</span> std::string&amp; args);</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a384094f24b60e7c821839b1ceb17e539">RateLimitingWait</a>();</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="comment">//Class enumeration</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keyword">typedef</span> std::map&lt; std::string, CreateProcType &gt; CreateMapType;</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keyword">static</span> CreateMapType m_createprocs;</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="comment">//Queued commands waiting to be sent</span></div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    std::mutex m_queueMutex;</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    std::recursive_mutex m_netMutex;</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    std::list&lt;std::string&gt; m_txQueue;</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="comment">//Set of commands that are OK to deduplicate</span></div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    std::set&lt;std::string&gt; m_dedupCommands;</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="comment">//Rate limiting (send max of one command per X time)</span></div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="keywordtype">bool</span> m_rateLimitingEnabled;</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    std::chrono::system_clock::time_point m_nextCommandReady;</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    std::chrono::milliseconds m_rateLimitingInterval;</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>};</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="preprocessor">#define TRANSPORT_INITPROC(T) \</span></div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span><span class="preprocessor">    static SCPITransport* CreateInstance(const std::string&amp; args) \</span></div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="preprocessor">    { \</span></div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">        return new T(args); \</span></div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="preprocessor">    } \</span></div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="preprocessor">    virtual std::string GetName() override \</span></div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="preprocessor">    { return GetTransportName(); }</span></div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span><span class="preprocessor">#define AddTransportClass(T) SCPITransport::DoAddTransportClass(T::GetTransportName(), T::CreateInstance)</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#ifndef SCPITransport_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define SCPITransport_h</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classSCPITransport.html">   46</a></span><span class="keyword">class </span><a class="code hl_class" href="classSCPITransport.html">SCPITransport</a></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_class" href="classSCPITransport.html">SCPITransport</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classSCPITransport.html">~SCPITransport</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">virtual</span> std::string GetConnectionString() =0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">virtual</span> std::string GetName() =0;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">        Queued command API</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment"></span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">        Note that glscopeclient flushes the command queue in ScopeThread.</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">        Headless applications will need to do this manually after performing a write-only application, otherwise</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">        the command will remain queued indefinitely.</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment"></span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">        TODO: look into a background thread or something that&#39;s automatically launched by the transport to do this</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">        after some kind of fixed timeout?</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">     */</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a55c976481cc75d10f912b2130c5b6d30">SendCommandQueued</a>(<span class="keyword">const</span> std::string&amp; cmd);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    std::string <a class="code hl_function" href="classSCPITransport.html#aaa78062c0f1304ae155fb3cd39de2a51">SendCommandQueuedWithReply</a>(std::string cmd, <span class="keywordtype">bool</span> endOnSemicolon = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a566a6c61e794e9432d5308076991bf92">SendCommandImmediate</a>(std::string cmd);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    std::string <a class="code hl_function" href="classSCPITransport.html#a684b2c24f367d794f49f08f2c8279b4b">SendCommandImmediateWithReply</a>(std::string cmd, <span class="keywordtype">bool</span> endOnSemicolon = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">void</span>* <a class="code hl_function" href="classSCPITransport.html#a762da86c8ed188e5fe8d65583d4585eb">SendCommandImmediateWithRawBlockReply</a>(std::string cmd, <span class="keywordtype">size_t</span>&amp; len);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classSCPITransport.html#a5027dad202a49c2dd66f049c5463e5d6">FlushCommandQueue</a>();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="comment">//Manual mutex locking for ReadRawData() etc</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    std::recursive_mutex&amp; GetMutex()</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    { <span class="keywordflow">return</span> m_netMutex; }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="comment">//Immediate command API</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> FlushRXBuffer(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> SendCommand(<span class="keyword">const</span> std::string&amp; cmd) =0;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">virtual</span> std::string ReadReply(<span class="keywordtype">bool</span> endOnSemicolon = <span class="keyword">true</span>, std::function&lt;<span class="keywordtype">void</span>(<span class="keywordtype">float</span>)&gt; progress = <span class="keyword">nullptr</span>) =0;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> ReadRawData(<span class="keywordtype">size_t</span> len, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* buf, std::function&lt;<span class="keywordtype">void</span>(<span class="keywordtype">float</span>)&gt; progress = <span class="keyword">nullptr</span>) =0;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> SendRawData(<span class="keywordtype">size_t</span> len, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* buf) =0;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsCommandBatchingSupported() =0;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> IsConnected() =0;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="classSCPITransport.html#a0c81712e65e15da5b11d7bfc6be09362">   95</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a0c81712e65e15da5b11d7bfc6be09362">EnableRateLimiting</a>(std::chrono::milliseconds interval)</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    {</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        m_rateLimitingEnabled = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        m_rateLimitingInterval = interval;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        m_nextCommandReady = std::chrono::system_clock::now();</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    }</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="classSCPITransport.html#addfb243954897dd3a477def513f340bd">  120</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#addfb243954897dd3a477def513f340bd">DeduplicateCommand</a>(<span class="keyword">const</span> std::string&amp; cmd)</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    { m_dedupCommands.emplace(cmd); }</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keyword">typedef</span> <a class="code hl_class" href="classSCPITransport.html">SCPITransport</a>* (*CreateProcType)(<span class="keyword">const</span> std::string&amp; args);</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> DoAddTransportClass(std::string name, CreateProcType proc);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> EnumTransports(std::vector&lt;std::string&gt;&amp; names);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keyword">static</span> <a class="code hl_class" href="classSCPITransport.html">SCPITransport</a>* CreateTransport(<span class="keyword">const</span> std::string&amp; transport, <span class="keyword">const</span> std::string&amp; args);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classSCPITransport.html#a384094f24b60e7c821839b1ceb17e539">RateLimitingWait</a>();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="comment">//Class enumeration</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <span class="keyword">typedef</span> std::map&lt; std::string, CreateProcType &gt; CreateMapType;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keyword">static</span> CreateMapType m_createprocs;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="comment">//Queued commands waiting to be sent</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    std::mutex m_queueMutex;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    std::recursive_mutex m_netMutex;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    std::list&lt;std::string&gt; m_txQueue;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="comment">//Set of commands that are OK to deduplicate</span></div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    std::set&lt;std::string&gt; m_dedupCommands;</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="comment">//Rate limiting (send max of one command per X time)</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keywordtype">bool</span> m_rateLimitingEnabled;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    std::chrono::system_clock::time_point m_nextCommandReady;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    std::chrono::milliseconds m_rateLimitingInterval;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>};</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="preprocessor">#define TRANSPORT_INITPROC(T) \</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">    static SCPITransport* CreateInstance(const std::string&amp; args) \</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="preprocessor">    { \</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="preprocessor">        return new T(args); \</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="preprocessor">    } \</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="preprocessor">    virtual std::string GetName() override \</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span><span class="preprocessor">    { return GetTransportName(); }</span></div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassSCPITransport_html"><div class="ttname"><a href="classSCPITransport.html">SCPITransport</a></div><div class="ttdoc">Abstraction of a transport layer for moving SCPI data between endpoints.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:45</div></div>
-<div class="ttc" id="aclassSCPITransport_html_a0c81712e65e15da5b11d7bfc6be09362"><div class="ttname"><a href="classSCPITransport.html#a0c81712e65e15da5b11d7bfc6be09362">SCPITransport::EnableRateLimiting</a></div><div class="ttdeci">void EnableRateLimiting(std::chrono::milliseconds interval)</div><div class="ttdoc">Enables rate limiting. Rate limiting is only applied to the queued command API.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:93</div></div>
-<div class="ttc" id="aclassSCPITransport_html_a384094f24b60e7c821839b1ceb17e539"><div class="ttname"><a href="classSCPITransport.html#a384094f24b60e7c821839b1ceb17e539">SCPITransport::RateLimitingWait</a></div><div class="ttdeci">void RateLimitingWait()</div><div class="ttdoc">Block until it's time to send the next command when rate limiting.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:170</div></div>
-<div class="ttc" id="aclassSCPITransport_html_a5027dad202a49c2dd66f049c5463e5d6"><div class="ttname"><a href="classSCPITransport.html#a5027dad202a49c2dd66f049c5463e5d6">SCPITransport::FlushCommandQueue</a></div><div class="ttdeci">bool FlushCommandQueue()</div><div class="ttdoc">Pushes all pending commands from SendCommandQueued() calls and blocks until they are all sent.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:179</div></div>
-<div class="ttc" id="aclassSCPITransport_html_a55c976481cc75d10f912b2130c5b6d30"><div class="ttname"><a href="classSCPITransport.html#a55c976481cc75d10f912b2130c5b6d30">SCPITransport::SendCommandQueued</a></div><div class="ttdeci">void SendCommandQueued(const std::string &amp;cmd)</div><div class="ttdoc">Pushes a command into the transmit FIFO then returns immediately.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:83</div></div>
-<div class="ttc" id="aclassSCPITransport_html_a566a6c61e794e9432d5308076991bf92"><div class="ttname"><a href="classSCPITransport.html#a566a6c61e794e9432d5308076991bf92">SCPITransport::SendCommandImmediate</a></div><div class="ttdeci">void SendCommandImmediate(std::string cmd)</div><div class="ttdoc">Sends a command (jumping ahead of the queue) which does not require a response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:233</div></div>
-<div class="ttc" id="aclassSCPITransport_html_a684b2c24f367d794f49f08f2c8279b4b"><div class="ttname"><a href="classSCPITransport.html#a684b2c24f367d794f49f08f2c8279b4b">SCPITransport::SendCommandImmediateWithReply</a></div><div class="ttdeci">std::string SendCommandImmediateWithReply(std::string cmd, bool endOnSemicolon=true)</div><div class="ttdoc">Sends a command (jumping ahead of the queue), then returns the response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:218</div></div>
-<div class="ttc" id="aclassSCPITransport_html_a762da86c8ed188e5fe8d65583d4585eb"><div class="ttname"><a href="classSCPITransport.html#a762da86c8ed188e5fe8d65583d4585eb">SCPITransport::SendCommandImmediateWithRawBlockReply</a></div><div class="ttdeci">void * SendCommandImmediateWithRawBlockReply(std::string cmd, size_t &amp;len)</div><div class="ttdoc">Sends a command (jumping ahead of the queue) which reads a binary block response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:246</div></div>
-<div class="ttc" id="aclassSCPITransport_html_aaa78062c0f1304ae155fb3cd39de2a51"><div class="ttname"><a href="classSCPITransport.html#aaa78062c0f1304ae155fb3cd39de2a51">SCPITransport::SendCommandQueuedWithReply</a></div><div class="ttdeci">std::string SendCommandQueuedWithReply(std::string cmd, bool endOnSemicolon=true)</div><div class="ttdoc">Sends a command (flushing any pending/queued commands first), then returns the response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:207</div></div>
-<div class="ttc" id="aclassSCPITransport_html_addfb243954897dd3a477def513f340bd"><div class="ttname"><a href="classSCPITransport.html#addfb243954897dd3a477def513f340bd">SCPITransport::DeduplicateCommand</a></div><div class="ttdeci">void DeduplicateCommand(const std::string &amp;cmd)</div><div class="ttdoc">Adds a command to the set of commands which may be deduplicated in the queue.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:118</div></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="preprocessor">#define AddTransportClass(T) SCPITransport::DoAddTransportClass(T::GetTransportName(), T::CreateInstance)</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassSCPITransport_html"><div class="ttname"><a href="classSCPITransport.html">SCPITransport</a></div><div class="ttdoc">Abstraction of a transport layer for moving SCPI data between endpoints.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:47</div></div>
+<div class="ttc" id="aclassSCPITransport_html_a0c81712e65e15da5b11d7bfc6be09362"><div class="ttname"><a href="classSCPITransport.html#a0c81712e65e15da5b11d7bfc6be09362">SCPITransport::EnableRateLimiting</a></div><div class="ttdeci">void EnableRateLimiting(std::chrono::milliseconds interval)</div><div class="ttdoc">Enables rate limiting. Rate limiting is only applied to the queued command API.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:95</div></div>
+<div class="ttc" id="aclassSCPITransport_html_a384094f24b60e7c821839b1ceb17e539"><div class="ttname"><a href="classSCPITransport.html#a384094f24b60e7c821839b1ceb17e539">SCPITransport::RateLimitingWait</a></div><div class="ttdeci">void RateLimitingWait()</div><div class="ttdoc">Block until it's time to send the next command when rate limiting.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:171</div></div>
+<div class="ttc" id="aclassSCPITransport_html_a5027dad202a49c2dd66f049c5463e5d6"><div class="ttname"><a href="classSCPITransport.html#a5027dad202a49c2dd66f049c5463e5d6">SCPITransport::FlushCommandQueue</a></div><div class="ttdeci">bool FlushCommandQueue()</div><div class="ttdoc">Pushes all pending commands from SendCommandQueued() calls and blocks until they are all sent.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:180</div></div>
+<div class="ttc" id="aclassSCPITransport_html_a55c976481cc75d10f912b2130c5b6d30"><div class="ttname"><a href="classSCPITransport.html#a55c976481cc75d10f912b2130c5b6d30">SCPITransport::SendCommandQueued</a></div><div class="ttdeci">void SendCommandQueued(const std::string &amp;cmd)</div><div class="ttdoc">Pushes a command into the transmit FIFO then returns immediately.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:84</div></div>
+<div class="ttc" id="aclassSCPITransport_html_a566a6c61e794e9432d5308076991bf92"><div class="ttname"><a href="classSCPITransport.html#a566a6c61e794e9432d5308076991bf92">SCPITransport::SendCommandImmediate</a></div><div class="ttdeci">void SendCommandImmediate(std::string cmd)</div><div class="ttdoc">Sends a command (jumping ahead of the queue) which does not require a response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:234</div></div>
+<div class="ttc" id="aclassSCPITransport_html_a684b2c24f367d794f49f08f2c8279b4b"><div class="ttname"><a href="classSCPITransport.html#a684b2c24f367d794f49f08f2c8279b4b">SCPITransport::SendCommandImmediateWithReply</a></div><div class="ttdeci">std::string SendCommandImmediateWithReply(std::string cmd, bool endOnSemicolon=true)</div><div class="ttdoc">Sends a command (jumping ahead of the queue), then returns the response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:219</div></div>
+<div class="ttc" id="aclassSCPITransport_html_a762da86c8ed188e5fe8d65583d4585eb"><div class="ttname"><a href="classSCPITransport.html#a762da86c8ed188e5fe8d65583d4585eb">SCPITransport::SendCommandImmediateWithRawBlockReply</a></div><div class="ttdeci">void * SendCommandImmediateWithRawBlockReply(std::string cmd, size_t &amp;len)</div><div class="ttdoc">Sends a command (jumping ahead of the queue) which reads a binary block response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:247</div></div>
+<div class="ttc" id="aclassSCPITransport_html_aaa78062c0f1304ae155fb3cd39de2a51"><div class="ttname"><a href="classSCPITransport.html#aaa78062c0f1304ae155fb3cd39de2a51">SCPITransport::SendCommandQueuedWithReply</a></div><div class="ttdeci">std::string SendCommandQueuedWithReply(std::string cmd, bool endOnSemicolon=true)</div><div class="ttdoc">Sends a command (flushing any pending/queued commands first), then returns the response.</div><div class="ttdef"><b>Definition:</b> SCPITransport.cpp:208</div></div>
+<div class="ttc" id="aclassSCPITransport_html_addfb243954897dd3a477def513f340bd"><div class="ttname"><a href="classSCPITransport.html#addfb243954897dd3a477def513f340bd">SCPITransport::DeduplicateCommand</a></div><div class="ttdeci">void DeduplicateCommand(const std::string &amp;cmd)</div><div class="ttdoc">Adds a command to the set of commands which may be deduplicated in the queue.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:120</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

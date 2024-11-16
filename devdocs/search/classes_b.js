@@ -10,6 +10,7 @@ var searchData=
   ['loaddialog_7',['LoadDialog',['../classLoadDialog.html',1,'']]],
   ['loadstate_8',['LoadState',['../classLoadState.html',1,'']]],
   ['logindenter_9',['LogIndenter',['../classLogIndenter.html',1,'']]],
-  ['logsink_10',['LogSink',['../classLogSink.html',1,'']]],
-  ['logviewerdialog_11',['LogViewerDialog',['../classLogViewerDialog.html',1,'']]]
+  ['logline_10',['LogLine',['../classLogLine.html',1,'']]],
+  ['logsink_11',['LogSink',['../classLogSink.html',1,'']]],
+  ['logviewerdialog_12',['LogViewerDialog',['../classLogViewerDialog.html',1,'']]]
 ];

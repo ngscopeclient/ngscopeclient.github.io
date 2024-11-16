@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="AlignedAllocator_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal v0.1                                                                                                     *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2021 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -98,129 +98,145 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef AlignedAllocator_h</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define AlignedAllocator_h</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#include &lt;windows.h&gt;</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T, <span class="keywordtype">size_t</span> alignment&gt;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html">   49</a></span><span class="keyword">class </span><a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>{</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">//Standard typedefs</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">typedef</span> T* pointer;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keyword">typedef</span> <span class="keyword">const</span> T* const_pointer;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keyword">typedef</span> T&amp; reference;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keyword">typedef</span> <span class="keyword">const</span> T&amp; const_reference;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keyword">typedef</span> T value_type;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">typedef</span> <span class="keywordtype">size_t</span> size_type;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">typedef</span> ptrdiff_t difference_type;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#ifndef AlignedAllocator_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define AlignedAllocator_h</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &lt;windows.h&gt;</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T, <span class="keywordtype">size_t</span> alignment&gt;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html">   52</a></span><span class="keyword">class </span><a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#ace173cbb585102f35337af6a2f0773d0">   57</a></span>    <span class="keyword">typedef</span> T* <a class="code hl_typedef" href="classAlignedAllocator.html#ace173cbb585102f35337af6a2f0773d0">pointer</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#aa0023d9d0cd46d1436908ca3438b4253">   60</a></span>    <span class="keyword">typedef</span> <span class="keyword">const</span> T* <a class="code hl_typedef" href="classAlignedAllocator.html#aa0023d9d0cd46d1436908ca3438b4253">const_pointer</a>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">//Overloads in case somebody overloaded the unary operator&amp;()</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="comment">//(which is pretty weird but the spec allows it)</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    T* address(T&amp; rhs)</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    { <span class="keywordflow">return</span> &amp;rhs; }</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">const</span> T* address(T&amp; rhs)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> &amp;rhs; }</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">size_t</span> max_size()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> (<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(0) - <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(1)) / <span class="keyword">sizeof</span>(T); }</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="comment">//RTTI and construction helpers</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> U&gt;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="structAlignedAllocator_1_1rebind.html">   75</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structAlignedAllocator_1_1rebind.html">rebind</a></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keyword">typedef</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator&lt;U, alignment&gt;</a> <a class="code hl_class" href="classAlignedAllocator.html">other</a>;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    };</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">bool</span> operator!=(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; other)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> !(*<span class="keyword">this</span> == other); }</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="comment">//Look at that, a placement new! First time I&#39;ve ever used one.</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> construct(T* <span class="keyword">const</span> p, <span class="keyword">const</span> T&amp; t)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keyword">    </span>{ <span class="keyword">new</span>( <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(p) ) T(t); }</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">void</span> destroy(T* <span class="keyword">const</span> p)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keyword">    </span>{ p-&gt;~T(); }</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="comment">//Check if this allocator is functionally equivalent to another</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="comment">//We have no member variables, so all objects of the same type are equivalent</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">bool</span> operator== (<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; <span class="comment">/* unused */</span>)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="comment">//Default ctors, do nothing</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>()</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {}</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#aa7ea4f8ae44e6681548689059258f7ed">   63</a></span>    <span class="keyword">typedef</span> T&amp; <a class="code hl_typedef" href="classAlignedAllocator.html#aa7ea4f8ae44e6681548689059258f7ed">reference</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a1f9389d4b2f98606022504b1695945b7">   66</a></span>    <span class="keyword">typedef</span> <span class="keyword">const</span> T&amp; <a class="code hl_typedef" href="classAlignedAllocator.html#a1f9389d4b2f98606022504b1695945b7">const_reference</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a8156c3bcb3f481eee1ed5744f1bee588">   69</a></span>    <span class="keyword">typedef</span> T <a class="code hl_typedef" href="classAlignedAllocator.html#a8156c3bcb3f481eee1ed5744f1bee588">value_type</a>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a1888edf8723ac823a6955b7a55b120a5">   72</a></span>    <span class="keyword">typedef</span> <span class="keywordtype">size_t</span> <a class="code hl_typedef" href="classAlignedAllocator.html#a1888edf8723ac823a6955b7a55b120a5">size_type</a>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a31ad61cf5c16d9cdc533b503111e3543">   75</a></span>    <span class="keyword">typedef</span> ptrdiff_t <a class="code hl_typedef" href="classAlignedAllocator.html#a31ad61cf5c16d9cdc533b503111e3543">difference_type</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a53ee7d3d7a472c9614c598b058d97b01">   85</a></span>    T* <a class="code hl_function" href="classAlignedAllocator.html#a53ee7d3d7a472c9614c598b058d97b01">address</a>(T&amp; rhs)</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    { <span class="keywordflow">return</span> &amp;rhs; }</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a3885b2c9e6bc76f1583808d2fa7853e6">   96</a></span>    <span class="keyword">const</span> T* <a class="code hl_function" href="classAlignedAllocator.html#a3885b2c9e6bc76f1583808d2fa7853e6">address</a>(T&amp; rhs)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> &amp;rhs; }</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; <span class="comment">/* unused */</span>)</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    {}</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> U&gt;</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator&lt;U, alignment&gt;</a>&amp;)</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    {}</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <a class="code hl_class" href="classAlignedAllocator.html">~AlignedAllocator</a>()</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    {}</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="comment">//Now for the fun part</span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    T* allocate(<span class="keywordtype">size_t</span> n)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="comment">//Fail if we got an invalid size</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keywordflow">if</span>(n == 0)</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            <span class="keywordflow">return</span> NULL;</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <span class="keywordflow">if</span>(n &gt; max_size())</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            <span class="keywordflow">throw</span> std::length_error(<span class="stringliteral">&quot;AlignedAllocator&lt;T&gt;::allocate(): requested size is too large, integer overflow?&quot;</span>);</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        <span class="comment">//Round size up to multiple of alignment</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        <span class="keywordflow">if</span>( (n % alignment) != 0)</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        {</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>            n |= (alignment - 1);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>            n ++;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        }</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="comment">//Do the actual allocation</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        T* ret = <span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(_aligned_malloc(n*<span class="keyword">sizeof</span>(T), alignment));</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        T* ret = <span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(aligned_alloc(alignment, n*<span class="keyword">sizeof</span>(T)));</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#ad6133f9e9d3e7f3587bba7ee177811a2">  104</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_function" href="classAlignedAllocator.html#ad6133f9e9d3e7f3587bba7ee177811a2">max_size</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> (<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(0) - <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(1)) / <span class="keyword">sizeof</span>(T); }</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> U&gt;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="structAlignedAllocator_1_1rebind.html">  109</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structAlignedAllocator_1_1rebind.html">rebind</a></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    {</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <span class="keyword">typedef</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator&lt;U, alignment&gt;</a> <a class="code hl_class" href="classAlignedAllocator.html">other</a>;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    };</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a8bca013ca7e76cfd831ee0412a3c5690">  119</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classAlignedAllocator.html#a8bca013ca7e76cfd831ee0412a3c5690">operator!=</a>(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; other)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> !(*<span class="keyword">this</span> == other); }</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">//Look at that, a placement new! First time I&#39;ve ever used one.</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a6f9f4d30d77673108508714a471e1819">  129</a></span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classAlignedAllocator.html#a6f9f4d30d77673108508714a471e1819">construct</a>(T* <span class="keyword">const</span> p, <span class="keyword">const</span> T&amp; t)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keyword">    </span>{ <span class="keyword">new</span>( <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(p) ) T(t); }</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <span class="comment">//Error check</span></div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordflow">if</span>(ret == NULL)</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>            <span class="keywordflow">throw</span> std::bad_alloc();</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    }</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordtype">void</span> deallocate(T* <span class="keyword">const</span> p, <span class="keyword">const</span> <span class="keywordtype">size_t</span> <span class="comment">/*unused*/</span>)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        _aligned_free(p);</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        free(p);</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    }</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="comment">//convenience wrapper</span></div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keywordtype">void</span> deallocate(T* <span class="keyword">const</span> p)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span><span class="keyword">    </span>{ deallocate(p, 1); }</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="comment">//Not quite sure what this is for but apparently we need it?</span></div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> U&gt;</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    T* allocate(<span class="keyword">const</span> <span class="keywordtype">size_t</span> n, <span class="keyword">const</span> U* <span class="comment">/* const hint */</span> <span class="keyword">const</span>)</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    { <span class="keywordflow">return</span> allocate(n); }</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="comment">//Disallow assignment</span></div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp;) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>};</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassAlignedAllocator_html"><div class="ttname"><a href="classAlignedAllocator.html">AlignedAllocator</a></div><div class="ttdoc">Aligned memory allocator for STL containers.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:50</div></div>
-<div class="ttc" id="astructAlignedAllocator_1_1rebind_html"><div class="ttname"><a href="structAlignedAllocator_1_1rebind.html">AlignedAllocator::rebind</a></div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:76</div></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">void</span> destroy(T* <span class="keyword">const</span> p)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="keyword">    </span>{ p-&gt;~T(); }</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="comment">//Check if this allocator is functionally equivalent to another</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="comment">//We have no member variables, so all objects of the same type are equivalent</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keywordtype">bool</span> operator== (<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; <span class="comment">/* unused */</span>)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="comment">//Default ctors, do nothing</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>()</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    {}</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; <span class="comment">/* unused */</span>)</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    {}</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> U&gt;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator&lt;U, alignment&gt;</a>&amp;)</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    {}</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <a class="code hl_class" href="classAlignedAllocator.html">~AlignedAllocator</a>()</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    {}</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a6940f93c7db7cdcd6b6718ac5ae53701">  159</a></span>    T* <a class="code hl_function" href="classAlignedAllocator.html#a6940f93c7db7cdcd6b6718ac5ae53701">allocate</a>(<span class="keywordtype">size_t</span> n)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        <span class="comment">//Fail if we got an invalid size</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        <span class="keywordflow">if</span>(n == 0)</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>        <span class="keywordflow">if</span>(n &gt; <a class="code hl_function" href="classAlignedAllocator.html#ad6133f9e9d3e7f3587bba7ee177811a2">max_size</a>())</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>            <span class="keywordflow">throw</span> std::length_error(<span class="stringliteral">&quot;AlignedAllocator&lt;T&gt;::allocate(): requested size is too large, integer overflow?&quot;</span>);</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="comment">//Round size up to multiple of alignment</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        <span class="keywordflow">if</span>( (n % alignment) != 0)</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        {</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>            n |= (alignment - 1);</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>            n ++;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        }</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        <span class="comment">//Do the actual allocation</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        T* ret = <span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(_aligned_malloc(n*<span class="keyword">sizeof</span>(T), alignment));</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        T* ret = <span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(aligned_alloc(alignment, n*<span class="keyword">sizeof</span>(T)));</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        <span class="comment">//Error check</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>        <span class="keywordflow">if</span>(ret == NULL)</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>            <span class="keywordflow">throw</span> std::bad_alloc();</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    }</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a3d104d0f6a92493bbcb9036512a7be93">  194</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classAlignedAllocator.html#a3d104d0f6a92493bbcb9036512a7be93">deallocate</a>(T* <span class="keyword">const</span> p, [[maybe_unused]] <span class="keyword">const</span> <span class="keywordtype">size_t</span> unused)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        _aligned_free(p);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        free(p);</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    }</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#afc23d6448000399f7243e61de5f2e55d">  208</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classAlignedAllocator.html#afc23d6448000399f7243e61de5f2e55d">deallocate</a>(T* <span class="keyword">const</span> p)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="keyword">    </span>{ <a class="code hl_function" href="classAlignedAllocator.html#a3d104d0f6a92493bbcb9036512a7be93">deallocate</a>(p, 1); }</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    <span class="comment">//Not quite sure what this is for but apparently we need it?</span></div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="comment"></span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> U&gt;</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="classAlignedAllocator.html#a2fe92f2ad2817d4df6d555ec58c80cbc">  219</a></span>    T* <a class="code hl_function" href="classAlignedAllocator.html#a2fe92f2ad2817d4df6d555ec58c80cbc">allocate</a>(<span class="keyword">const</span> <span class="keywordtype">size_t</span> n, [[maybe_unused]] <span class="keyword">const</span> U* <span class="keyword">const</span> hint)</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classAlignedAllocator.html#a6940f93c7db7cdcd6b6718ac5ae53701">allocate</a>(n); }</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <span class="comment">//Disallow assignment</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="classAlignedAllocator.html">AlignedAllocator</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>};</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassAlignedAllocator_html"><div class="ttname"><a href="classAlignedAllocator.html">AlignedAllocator</a></div><div class="ttdoc">Aligned memory allocator for STL containers.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:53</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a1888edf8723ac823a6955b7a55b120a5"><div class="ttname"><a href="classAlignedAllocator.html#a1888edf8723ac823a6955b7a55b120a5">AlignedAllocator::size_type</a></div><div class="ttdeci">size_t size_type</div><div class="ttdoc">Type of the size of an allocated object.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:72</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a1f9389d4b2f98606022504b1695945b7"><div class="ttname"><a href="classAlignedAllocator.html#a1f9389d4b2f98606022504b1695945b7">AlignedAllocator::const_reference</a></div><div class="ttdeci">const T &amp; const_reference</div><div class="ttdoc">Const reference to the allocated type.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:66</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a2fe92f2ad2817d4df6d555ec58c80cbc"><div class="ttname"><a href="classAlignedAllocator.html#a2fe92f2ad2817d4df6d555ec58c80cbc">AlignedAllocator::allocate</a></div><div class="ttdeci">T * allocate(const size_t n, const U *const hint)</div><div class="ttdoc">Allocate an object.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:219</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a31ad61cf5c16d9cdc533b503111e3543"><div class="ttname"><a href="classAlignedAllocator.html#a31ad61cf5c16d9cdc533b503111e3543">AlignedAllocator::difference_type</a></div><div class="ttdeci">ptrdiff_t difference_type</div><div class="ttdoc">Type of the difference between two allocated pointers.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:75</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a3885b2c9e6bc76f1583808d2fa7853e6"><div class="ttname"><a href="classAlignedAllocator.html#a3885b2c9e6bc76f1583808d2fa7853e6">AlignedAllocator::address</a></div><div class="ttdeci">const T * address(T &amp;rhs) const</div><div class="ttdoc">Get the address of an object.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:96</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a3d104d0f6a92493bbcb9036512a7be93"><div class="ttname"><a href="classAlignedAllocator.html#a3d104d0f6a92493bbcb9036512a7be93">AlignedAllocator::deallocate</a></div><div class="ttdeci">void deallocate(T *const p, const size_t unused) const</div><div class="ttdoc">Free a block of memory.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:194</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a53ee7d3d7a472c9614c598b058d97b01"><div class="ttname"><a href="classAlignedAllocator.html#a53ee7d3d7a472c9614c598b058d97b01">AlignedAllocator::address</a></div><div class="ttdeci">T * address(T &amp;rhs)</div><div class="ttdoc">Get the address of an object.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:85</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a6940f93c7db7cdcd6b6718ac5ae53701"><div class="ttname"><a href="classAlignedAllocator.html#a6940f93c7db7cdcd6b6718ac5ae53701">AlignedAllocator::allocate</a></div><div class="ttdeci">T * allocate(size_t n) const</div><div class="ttdoc">Allocate a block of memory.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:159</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a6f9f4d30d77673108508714a471e1819"><div class="ttname"><a href="classAlignedAllocator.html#a6f9f4d30d77673108508714a471e1819">AlignedAllocator::construct</a></div><div class="ttdeci">void construct(T *const p, const T &amp;t) const</div><div class="ttdoc">Construct an object in-place given a reference one.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:129</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a8156c3bcb3f481eee1ed5744f1bee588"><div class="ttname"><a href="classAlignedAllocator.html#a8156c3bcb3f481eee1ed5744f1bee588">AlignedAllocator::value_type</a></div><div class="ttdeci">T value_type</div><div class="ttdoc">The allocated type.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:69</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_a8bca013ca7e76cfd831ee0412a3c5690"><div class="ttname"><a href="classAlignedAllocator.html#a8bca013ca7e76cfd831ee0412a3c5690">AlignedAllocator::operator!=</a></div><div class="ttdeci">bool operator!=(const AlignedAllocator &amp;other) const</div><div class="ttdoc">Check if two allocators are the same.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:119</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_aa0023d9d0cd46d1436908ca3438b4253"><div class="ttname"><a href="classAlignedAllocator.html#aa0023d9d0cd46d1436908ca3438b4253">AlignedAllocator::const_pointer</a></div><div class="ttdeci">const T * const_pointer</div><div class="ttdoc">Const pointer to the allocated type.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:60</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_aa7ea4f8ae44e6681548689059258f7ed"><div class="ttname"><a href="classAlignedAllocator.html#aa7ea4f8ae44e6681548689059258f7ed">AlignedAllocator::reference</a></div><div class="ttdeci">T &amp; reference</div><div class="ttdoc">Reference to the allocated type.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:63</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_ace173cbb585102f35337af6a2f0773d0"><div class="ttname"><a href="classAlignedAllocator.html#ace173cbb585102f35337af6a2f0773d0">AlignedAllocator::pointer</a></div><div class="ttdeci">T * pointer</div><div class="ttdoc">Pointer to the allocated type.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:57</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_ad6133f9e9d3e7f3587bba7ee177811a2"><div class="ttname"><a href="classAlignedAllocator.html#ad6133f9e9d3e7f3587bba7ee177811a2">AlignedAllocator::max_size</a></div><div class="ttdeci">size_t max_size() const</div><div class="ttdoc">Get the max possible allocation size the allocator supports.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:104</div></div>
+<div class="ttc" id="aclassAlignedAllocator_html_afc23d6448000399f7243e61de5f2e55d"><div class="ttname"><a href="classAlignedAllocator.html#afc23d6448000399f7243e61de5f2e55d">AlignedAllocator::deallocate</a></div><div class="ttdeci">void deallocate(T *const p) const</div><div class="ttdoc">Free a single object.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:208</div></div>
+<div class="ttc" id="astructAlignedAllocator_1_1rebind_html"><div class="ttname"><a href="structAlignedAllocator_1_1rebind.html">AlignedAllocator::rebind</a></div><div class="ttdoc">Rebind to a different type of allocator.</div><div class="ttdef"><b>Definition:</b> AlignedAllocator.h:110</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

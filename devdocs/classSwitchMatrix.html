@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -66,11 +66,11 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classSwitchMatrix-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SwitchMatrix Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">SwitchMatrix Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>A generic power supply.  
+<p>Base class for switch matrixes.  
  <a href="classSwitchMatrix.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="SwitchMatrix_8h_source.html">SwitchMatrix.h</a>&gt;</code></p>
@@ -79,7 +79,7 @@ Inheritance diagram for SwitchMatrix:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSwitchMatrix__inherit__graph.png" border="0" usemap="#aSwitchMatrix_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSwitchMatrix_inherit__map" id="aSwitchMatrix_inherit__map">
-<area shape="rect" title="A generic power supply." alt="" coords="62,169,169,196"/>
+<area shape="rect" title="Base class for switch matrixes." alt="" coords="62,169,169,196"/>
 <area shape="rect" href="classAntikernelLabsTriggerCrossbar.html" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="5,244,225,271"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="69,95,162,121"/>
 <area shape="rect" title=" " alt="" coords="19,5,211,47"/>
@@ -90,7 +90,7 @@ Collaboration diagram for SwitchMatrix:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSwitchMatrix__coll__graph.png" border="0" usemap="#aSwitchMatrix_coll__map" alt="Collaboration graph"/></div>
 <map name="aSwitchMatrix_coll__map" id="aSwitchMatrix_coll__map">
-<area shape="rect" title="A generic power supply." alt="" coords="48,169,155,196"/>
+<area shape="rect" title="Base class for switch matrixes." alt="" coords="48,169,155,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,95,148,121"/>
 <area shape="rect" title=" " alt="" coords="5,5,197,47"/>
 </map>
@@ -175,7 +175,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -189,7 +189,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a7df49a44f616ddae56b3e517e8fd9a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06010c70f318ca3ff280f1800b237ad1"><td class="memItemLeft" align="right" valign="top"><a id="a06010c70f318ca3ff280f1800b237ad1" name="a06010c70f318ca3ff280f1800b237ad1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a06010c70f318ca3ff280f1800b237ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a06010c70f318ca3ff280f1800b237ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a06010c70f318ca3ff280f1800b237ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a389f4b95571603dbe84f1b27cb08a6fa"><td class="memItemLeft" align="right" valign="top"><a id="a389f4b95571603dbe84f1b27cb08a6fa" name="a389f4b95571603dbe84f1b27cb08a6fa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -237,7 +237,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 <tr class="separator:a9cd067fac1e95924c1bdd1e2968ae28e inherit pro_attribs_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A generic power supply. </p>
+<div class="textblock"><p >Base class for switch matrixes. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1490be97b6bc8337a7f4ab15d7d63e5a" name="a1490be97b6bc8337a7f4ab15d7d63e5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1490be97b6bc8337a7f4ab15d7d63e5a">&#9670;&nbsp;</a></span>GetInstrumentTypes()</h2>
@@ -544,7 +544,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="SwitchMatrix_8h_source.html">SwitchMatrix.h</a></li>
-<li>lib/scopehal/SwitchMatrix.cpp</li>
+<li>lib/scopehal/<a class="el" href="SwitchMatrix_8cpp.html">SwitchMatrix.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

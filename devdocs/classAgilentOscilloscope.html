@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -70,15 +70,20 @@ $(function() {
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classAgilentOscilloscope-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AgilentOscilloscope Class Reference</div></div>
+  <div class="headertitle"><div class="title">AgilentOscilloscope Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__drivers.html">Instrument drivers</a> &raquo; <a class="el" href="group__scopedrivers.html">Oscilloscope / LA drivers</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Driver for Agilent (and some Keysight) oscilloscopes.  
+ <a href="classAgilentOscilloscope.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="AgilentOscilloscope_8h_source.html">AgilentOscilloscope.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for AgilentOscilloscope:</div>
 <div class="dyncontent">
 <div class="center"><img src="classAgilentOscilloscope__inherit__graph.png" border="0" usemap="#aAgilentOscilloscope_inherit__map" alt="Inheritance graph"/></div>
 <map name="aAgilentOscilloscope_inherit__map" id="aAgilentOscilloscope_inherit__map">
-<area shape="rect" title=" " alt="" coords="59,319,210,345"/>
+<area shape="rect" title="Driver for Agilent (and some Keysight) oscilloscopes." alt="" coords="59,319,210,345"/>
 <area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="68,244,201,271"/>
 <area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="152,169,256,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="148,95,241,121"/>
@@ -92,27 +97,28 @@ Collaboration diagram for AgilentOscilloscope:</div>
 <div class="dyncontent">
 <div class="center"><img src="classAgilentOscilloscope__coll__graph.png" border="0" usemap="#aAgilentOscilloscope_coll__map" alt="Collaboration graph"/></div>
 <map name="aAgilentOscilloscope_coll__map" id="aAgilentOscilloscope_coll__map">
-<area shape="rect" title=" " alt="" coords="432,392,583,419"/>
-<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="522,303,655,329"/>
-<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="215,213,319,240"/>
-<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer triggers." alt="" coords="135,303,202,329"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="403,109,497,136"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="527,213,650,240"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="353,213,499,240"/>
-<area shape="rect" title=" " alt="" coords="354,5,546,47"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,109,132,136"/>
-<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="156,109,275,136"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="670,109,766,136"/>
-<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="662,13,774,39"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="341,303,498,329"/>
-<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="585,109,635,136"/>
+<area shape="rect" title="Driver for Agilent (and some Keysight) oscilloscopes." alt="" coords="289,392,439,419"/>
+<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="201,303,335,329"/>
+<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="260,213,364,240"/>
+<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="556,303,623,329"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="176,109,269,136"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="108,213,231,240"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="408,213,555,240"/>
+<area shape="rect" title=" " alt="" coords="141,5,333,47"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="511,109,638,136"/>
+<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="661,213,784,240"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="703,109,753,136"/>
+<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="314,109,433,136"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="28,109,124,136"/>
+<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="363,303,520,329"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad5fba84e3384015f8a00536776ff81f6"><td class="memItemLeft" align="right" valign="top"><a id="ad5fba84e3384015f8a00536776ff81f6" name="ad5fba84e3384015f8a00536776ff81f6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>AgilentOscilloscope</b> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memitem:ad5fba84e3384015f8a00536776ff81f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#ad5fba84e3384015f8a00536776ff81f6">AgilentOscilloscope</a> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memdesc:ad5fba84e3384015f8a00536776ff81f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to an oscilloscope.  <a href="classAgilentOscilloscope.html#ad5fba84e3384015f8a00536776ff81f6">More...</a><br /></td></tr>
 <tr class="separator:ad5fba84e3384015f8a00536776ff81f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a289d9a3ec3f67694d1b7f1ba34d38684"><td class="memItemLeft" align="right" valign="top"><a id="a289d9a3ec3f67694d1b7f1ba34d38684" name="a289d9a3ec3f67694d1b7f1ba34d38684"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>AgilentOscilloscope</b> (const <a class="el" href="classAgilentOscilloscope.html">AgilentOscilloscope</a> &amp;rhs)=delete</td></tr>
@@ -563,6 +569,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>PopPendingDiag
 <tr class="memitem:a46f12c37b0e72aad478af4b5a86bbd27 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a46f12c37b0e72aad478af4b5a86bbd27" name="a46f12c37b0e72aad478af4b5a86bbd27"></a>
 std::map&lt; std::string, <a class="el" href="classFilterParameter.html">FilterParameter</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetDiagnosticsValues</b> ()</td></tr>
 <tr class="separator:a46f12c37b0e72aad478af4b5a86bbd27 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a20ad86898a2d2cedb03600a0590d3d98">FreeWaveformPools</a> ()</td></tr>
+<tr class="memdesc:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free all waveforms in our pool to reclaim memory.  <a href="classOscilloscope.html#a20ad86898a2d2cedb03600a0590d3d98">More...</a><br /></td></tr>
+<tr class="separator:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefd97ec49ddf55d33d5c10074d95756c inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="aefd97ec49ddf55d33d5c10074d95756c" name="aefd97ec49ddf55d33d5c10074d95756c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>AddWaveformToAnalogPool</b> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *w)</td></tr>
 <tr class="separator:aefd97ec49ddf55d33d5c10074d95756c inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -619,7 +628,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -655,6 +664,7 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDri
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abf098af15097b22c5c47cc9af2d3049c"><td class="memItemLeft" align="right" valign="top"><a id="abf098af15097b22c5c47cc9af2d3049c" name="abf098af15097b22c5c47cc9af2d3049c"></a>
 static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDriverNameInternal</b> ()</td></tr>
+<tr class="memdesc:abf098af15097b22c5c47cc9af2d3049c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the constant driver name "agilent". <br /></td></tr>
 <tr class="separator:abf098af15097b22c5c47cc9af2d3049c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
 <tr class="memitem:a32e3b6382a55efbfd98c2a39dcbb7ed1 inherit pub_static_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a32e3b6382a55efbfd98c2a39dcbb7ed1" name="a32e3b6382a55efbfd98c2a39dcbb7ed1"></a>
@@ -693,10 +703,11 @@ static std::shared_ptr&lt; <a class="el" href="classOscilloscope.html">Oscillosc
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
-<tr class="memitem:a441dfd4316ee7a14d2b0e3138e7fd20e"><td class="memItemLeft" align="right" valign="top"><a id="a441dfd4316ee7a14d2b0e3138e7fd20e" name="a441dfd4316ee7a14d2b0e3138e7fd20e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ProbeType</b> { <b>None</b>
-, <b>AutoProbe</b>
-, <b>SmartProbe</b>
+<tr class="memitem:a441dfd4316ee7a14d2b0e3138e7fd20e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#a441dfd4316ee7a14d2b0e3138e7fd20e">ProbeType</a> { <a class="el" href="classAgilentOscilloscope.html#a441dfd4316ee7a14d2b0e3138e7fd20ea5b4e376963a8ba2be636440e7b12b9a3">None</a>
+, <a class="el" href="classAgilentOscilloscope.html#a441dfd4316ee7a14d2b0e3138e7fd20ea054a52d5dab5bb4639624186fa568657">AutoProbe</a>
+, <a class="el" href="classAgilentOscilloscope.html#a441dfd4316ee7a14d2b0e3138e7fd20ea24f21f71ba2fafdeead36452d5cbf1df">SmartProbe</a>
  }</td></tr>
+<tr class="memdesc:a441dfd4316ee7a14d2b0e3138e7fd20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of probe connected to a channel.  <a href="classAgilentOscilloscope.html#a441dfd4316ee7a14d2b0e3138e7fd20e">More...</a><br /></td></tr>
 <tr class="separator:a441dfd4316ee7a14d2b0e3138e7fd20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_types_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
 <tr class="memitem:a0cc1c4723c810cb81e72c130e6347f58 inherit pro_types_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a0cc1c4723c810cb81e72c130e6347f58" name="a0cc1c4723c810cb81e72c130e6347f58"></a>
@@ -714,9 +725,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PullEdgeTrigger</b> (
 <tr class="separator:a9eb27c71e18acb88319191721e0abc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7d2e7c9e8937b77c67c113242a7546a"><td class="memItemLeft" align="right" valign="top"><a id="aa7d2e7c9e8937b77c67c113242a7546a" name="aa7d2e7c9e8937b77c67c113242a7546a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PullNthEdgeBurstTrigger</b> ()</td></tr>
+<tr class="memdesc:aa7d2e7c9e8937b77c67c113242a7546a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads settings for an Nth-edge-burst trigger from the instrument. <br /></td></tr>
 <tr class="separator:aa7d2e7c9e8937b77c67c113242a7546a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89952bc97989f8be660f23900903fc9b"><td class="memItemLeft" align="right" valign="top"><a id="a89952bc97989f8be660f23900903fc9b" name="a89952bc97989f8be660f23900903fc9b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PullPulseWidthTrigger</b> ()</td></tr>
+<tr class="memdesc:a89952bc97989f8be660f23900903fc9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads settings for a pulse width trigger from the instrument. <br /></td></tr>
 <tr class="separator:a89952bc97989f8be660f23900903fc9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5477870f9e8660661e50d02eeb356789"><td class="memItemLeft" align="right" valign="top"><a id="a5477870f9e8660661e50d02eeb356789" name="a5477870f9e8660661e50d02eeb356789"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>GetTriggerSlope</b> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig, std::string reply)</td></tr>
@@ -724,45 +737,52 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GetTriggerSlope</b> (
 <tr class="memitem:a5365bf0183927c20ce701e340f18f482"><td class="memItemLeft" align="right" valign="top"><a id="a5365bf0183927c20ce701e340f18f482" name="a5365bf0183927c20ce701e340f18f482"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>GetTriggerSlope</b> (<a class="el" href="classNthEdgeBurstTrigger.html">NthEdgeBurstTrigger</a> *trig, std::string reply)</td></tr>
 <tr class="separator:a5365bf0183927c20ce701e340f18f482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad209159da6226d968735ab5a899e33e3"><td class="memItemLeft" align="right" valign="top"><a id="ad209159da6226d968735ab5a899e33e3" name="ad209159da6226d968735ab5a899e33e3"></a>
-Trigger::Condition&#160;</td><td class="memItemRight" valign="bottom"><b>GetCondition</b> (std::string reply)</td></tr>
-<tr class="memdesc:ad209159da6226d968735ab5a899e33e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a trigger condition. <br /></td></tr>
+<tr class="memitem:ad209159da6226d968735ab5a899e33e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Trigger::Condition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#ad209159da6226d968735ab5a899e33e3">GetCondition</a> (std::string reply)</td></tr>
+<tr class="memdesc:ad209159da6226d968735ab5a899e33e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a trigger condition from a string to a <a class="el" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2" title="Conditions for triggers that perform logical comparisons of values.">Trigger::Condition</a>.  <a href="classAgilentOscilloscope.html#ad209159da6226d968735ab5a899e33e3">More...</a><br /></td></tr>
 <tr class="separator:ad209159da6226d968735ab5a899e33e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54b790295a416d4204ba8d182d83fed1"><td class="memItemLeft" align="right" valign="top"><a id="a54b790295a416d4204ba8d182d83fed1" name="a54b790295a416d4204ba8d182d83fed1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>GetProbeType</b> (size_t i)</td></tr>
+<tr class="memitem:a54b790295a416d4204ba8d182d83fed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#a54b790295a416d4204ba8d182d83fed1">GetProbeType</a> (size_t i)</td></tr>
+<tr class="memdesc:a54b790295a416d4204ba8d182d83fed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Figures out what kind of probe is connected to a channel.  <a href="classAgilentOscilloscope.html#a54b790295a416d4204ba8d182d83fed1">More...</a><br /></td></tr>
 <tr class="separator:a54b790295a416d4204ba8d182d83fed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d25d3f4daf08f5d49c6d14be2372ca"><td class="memItemLeft" align="right" valign="top"><a id="aa7d25d3f4daf08f5d49c6d14be2372ca" name="aa7d25d3f4daf08f5d49c6d14be2372ca"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushEdgeTrigger</b> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig)</td></tr>
-<tr class="memdesc:aa7d25d3f4daf08f5d49c6d14be2372ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument. <br /></td></tr>
+<tr class="memitem:aa7d25d3f4daf08f5d49c6d14be2372ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#aa7d25d3f4daf08f5d49c6d14be2372ca">PushEdgeTrigger</a> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig)</td></tr>
+<tr class="memdesc:aa7d25d3f4daf08f5d49c6d14be2372ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument.  <a href="classAgilentOscilloscope.html#aa7d25d3f4daf08f5d49c6d14be2372ca">More...</a><br /></td></tr>
 <tr class="separator:aa7d25d3f4daf08f5d49c6d14be2372ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c26138a3a68013f8534b43bf6da8219"><td class="memItemLeft" align="right" valign="top"><a id="a9c26138a3a68013f8534b43bf6da8219" name="a9c26138a3a68013f8534b43bf6da8219"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushNthEdgeBurstTrigger</b> (<a class="el" href="classNthEdgeBurstTrigger.html">NthEdgeBurstTrigger</a> *trig)</td></tr>
-<tr class="memdesc:a9c26138a3a68013f8534b43bf6da8219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for a Nth edge burst trigger to the instrument. <br /></td></tr>
+<tr class="memitem:a9c26138a3a68013f8534b43bf6da8219"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#a9c26138a3a68013f8534b43bf6da8219">PushNthEdgeBurstTrigger</a> (<a class="el" href="classNthEdgeBurstTrigger.html">NthEdgeBurstTrigger</a> *trig)</td></tr>
+<tr class="memdesc:a9c26138a3a68013f8534b43bf6da8219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for a Nth edge burst trigger to the instrument.  <a href="classAgilentOscilloscope.html#a9c26138a3a68013f8534b43bf6da8219">More...</a><br /></td></tr>
 <tr class="separator:a9c26138a3a68013f8534b43bf6da8219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bf3827c9615795e56c8bfd3292829a0"><td class="memItemLeft" align="right" valign="top"><a id="a6bf3827c9615795e56c8bfd3292829a0" name="a6bf3827c9615795e56c8bfd3292829a0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushPulseWidthTrigger</b> (<a class="el" href="classPulseWidthTrigger.html">PulseWidthTrigger</a> *trig)</td></tr>
-<tr class="memdesc:a6bf3827c9615795e56c8bfd3292829a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for a pulse width trigger to the instrument. <br /></td></tr>
+<tr class="memitem:a6bf3827c9615795e56c8bfd3292829a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#a6bf3827c9615795e56c8bfd3292829a0">PushPulseWidthTrigger</a> (<a class="el" href="classPulseWidthTrigger.html">PulseWidthTrigger</a> *trig)</td></tr>
+<tr class="memdesc:a6bf3827c9615795e56c8bfd3292829a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for a pulse width trigger to the instrument.  <a href="classAgilentOscilloscope.html#a6bf3827c9615795e56c8bfd3292829a0">More...</a><br /></td></tr>
 <tr class="separator:a6bf3827c9615795e56c8bfd3292829a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49dd2af4dc95451d71b0656cbe9e8da5"><td class="memItemLeft" align="right" valign="top"><a id="a49dd2af4dc95451d71b0656cbe9e8da5" name="a49dd2af4dc95451d71b0656cbe9e8da5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushCondition</b> (std::string path, Trigger::Condition cond)</td></tr>
+<tr class="memitem:a49dd2af4dc95451d71b0656cbe9e8da5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#a49dd2af4dc95451d71b0656cbe9e8da5">PushCondition</a> (std::string path, <a class="el" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Trigger::Condition</a> cond)</td></tr>
+<tr class="memdesc:a49dd2af4dc95451d71b0656cbe9e8da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a trigger condition to the instrument.  <a href="classAgilentOscilloscope.html#a49dd2af4dc95451d71b0656cbe9e8da5">More...</a><br /></td></tr>
 <tr class="separator:a49dd2af4dc95451d71b0656cbe9e8da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab97d6635e1425b01f4dfcee0b2ab57d5"><td class="memItemLeft" align="right" valign="top"><a id="ab97d6635e1425b01f4dfcee0b2ab57d5" name="ab97d6635e1425b01f4dfcee0b2ab57d5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushFloat</b> (std::string path, float f)</td></tr>
+<tr class="memitem:ab97d6635e1425b01f4dfcee0b2ab57d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAgilentOscilloscope.html#ab97d6635e1425b01f4dfcee0b2ab57d5">PushFloat</a> (std::string path, float f)</td></tr>
+<tr class="memdesc:ab97d6635e1425b01f4dfcee0b2ab57d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a floating-point value to the instrument.  <a href="classAgilentOscilloscope.html#ab97d6635e1425b01f4dfcee0b2ab57d5">More...</a><br /></td></tr>
 <tr class="separator:ab97d6635e1425b01f4dfcee0b2ab57d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6112b38e4aab323b57363c3844cf8b0"><td class="memItemLeft" align="right" valign="top"><a id="ad6112b38e4aab323b57363c3844cf8b0" name="ad6112b38e4aab323b57363c3844cf8b0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushSlope</b> (std::string path, EdgeTrigger::EdgeType slope)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PushSlope</b> (std::string path, <a class="el" href="classEdgeTrigger.html#a741bfba53892a3b15c53dc33a297434c">EdgeTrigger::EdgeType</a> slope)</td></tr>
 <tr class="separator:ad6112b38e4aab323b57363c3844cf8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f5fed7bd81471b72c11ff9c1d543b86"><td class="memItemLeft" align="right" valign="top"><a id="a8f5fed7bd81471b72c11ff9c1d543b86" name="a8f5fed7bd81471b72c11ff9c1d543b86"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushSlope</b> (std::string path, NthEdgeBurstTrigger::EdgeType slope)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PushSlope</b> (std::string path, <a class="el" href="classNthEdgeBurstTrigger.html#a47c6e7079677355e9b126c903bb75aab">NthEdgeBurstTrigger::EdgeType</a> slope)</td></tr>
 <tr class="separator:a8f5fed7bd81471b72c11ff9c1d543b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
+<tr class="memitem:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="ac205c93314fa0d2a9f57f2755ef0d560" name="ac205c93314fa0d2a9f57f2755ef0d560"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ChannelsDownloadStarted</b> ()</td></tr>
+<tr class="memdesc:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers to reset all channels to "waiting to download" state. <br /></td></tr>
+<tr class="separator:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a4a4683dd262cc9f2fd6a045269358768">ChannelsDownloadStatusUpdate</a> (size_t ch, <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">InstrumentChannel::DownloadState</a> state, float progress)</td></tr>
+<tr class="memdesc:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers to set one channel's download status and update its download progress. Be aware that there is a measurement on ngscopeclient UI of the time spent between the download start and the progress of the last enabled channel. This measurement is used to decide whether to display a progress bar or not. This download speed evaluation method only works if enabled channels are download sequencially in increasing numeric order or if all channels are downloaded at the same speed.  <a href="classOscilloscope.html#a4a4683dd262cc9f2fd6a045269358768">More...</a><br /></td></tr>
+<tr class="separator:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a66e2ae698291b6bbc940e249bed29878" name="a66e2ae698291b6bbc940e249bed29878"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ChannelsDownloadFinished</b> ()</td></tr>
+<tr class="memdesc:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers when waveform download is finished to reset all channels to "no download" state. <br /></td></tr>
+<tr class="separator:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="af23079fed60bb306339952ced919205d" name="af23079fed60bb306339952ced919205d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
 <tr class="memdesc:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this oscilloscope's configuration to a YAML node. <br /></td></tr>
 <tr class="separator:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a0d2b2f14aa8a823d05a3ec34f4bae0a1" name="a0d2b2f14aa8a823d05a3ec34f4bae0a1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d04f08d7241640e878a9554c478e09c inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a5d04f08d7241640e878a9554c478e09c" name="a5d04f08d7241640e878a9554c478e09c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -786,54 +806,71 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ad9464a7019f92ee5102dfa12b3a95e86"><td class="memItemLeft" align="right" valign="top"><a id="ad9464a7019f92ee5102dfa12b3a95e86" name="ad9464a7019f92ee5102dfa12b3a95e86"></a>
 <a class="el" href="classOscilloscopeChannel.html">OscilloscopeChannel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_extTrigChannel</b></td></tr>
+<tr class="memdesc:ad9464a7019f92ee5102dfa12b3a95e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">External trigger. <br /></td></tr>
 <tr class="separator:ad9464a7019f92ee5102dfa12b3a95e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d655ac6052177124b296e0343fb276b"><td class="memItemLeft" align="right" valign="top"><a id="a7d655ac6052177124b296e0343fb276b" name="a7d655ac6052177124b296e0343fb276b"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_analogChannelCount</b></td></tr>
+<tr class="memdesc:a7d655ac6052177124b296e0343fb276b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hardware analog channel count, independent of LA option etc. <br /></td></tr>
 <tr class="separator:a7d655ac6052177124b296e0343fb276b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30f63debf6c52d28780a0dca044d4e0"><td class="memItemLeft" align="right" valign="top"><a id="ad30f63debf6c52d28780a0dca044d4e0" name="ad30f63debf6c52d28780a0dca044d4e0"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalChannelCount</b></td></tr>
+<tr class="memdesc:ad30f63debf6c52d28780a0dca044d4e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of digital channels supported. <br /></td></tr>
 <tr class="separator:ad30f63debf6c52d28780a0dca044d4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60997cc71aaebe45453f7fad158dc75"><td class="memItemLeft" align="right" valign="top"><a id="af60997cc71aaebe45453f7fad158dc75" name="af60997cc71aaebe45453f7fad158dc75"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>m_digitalChannelBase</b></td></tr>
+<tr class="memdesc:af60997cc71aaebe45453f7fad158dc75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the first digital channel (if any) <br /></td></tr>
 <tr class="separator:af60997cc71aaebe45453f7fad158dc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49a1d993b50e2fc68e4b5377a3faa26f"><td class="memItemLeft" align="right" valign="top"><a id="a49a1d993b50e2fc68e4b5377a3faa26f" name="a49a1d993b50e2fc68e4b5377a3faa26f"></a>
 std::map&lt; size_t, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelOffsets</b></td></tr>
+<tr class="memdesc:a49a1d993b50e2fc68e4b5377a3faa26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of channel ID to offset. <br /></td></tr>
 <tr class="separator:a49a1d993b50e2fc68e4b5377a3faa26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1061d03ee332338c810906d331b3f4d"><td class="memItemLeft" align="right" valign="top"><a id="aa1061d03ee332338c810906d331b3f4d" name="aa1061d03ee332338c810906d331b3f4d"></a>
 std::map&lt; size_t, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelVoltageRanges</b></td></tr>
+<tr class="memdesc:aa1061d03ee332338c810906d331b3f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of channel ID to voltage range. <br /></td></tr>
 <tr class="separator:aa1061d03ee332338c810906d331b3f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced630ece4d63a408e5f5dc4de55632d"><td class="memItemLeft" align="right" valign="top"><a id="aced630ece4d63a408e5f5dc4de55632d" name="aced630ece4d63a408e5f5dc4de55632d"></a>
 std::map&lt; size_t, OscilloscopeChannel::CouplingType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelCouplings</b></td></tr>
+<tr class="memdesc:aced630ece4d63a408e5f5dc4de55632d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of channel ID to voltage range. <br /></td></tr>
 <tr class="separator:aced630ece4d63a408e5f5dc4de55632d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1dae4586b1e76ada7c9a168fdee8bfc"><td class="memItemLeft" align="right" valign="top"><a id="af1dae4586b1e76ada7c9a168fdee8bfc" name="af1dae4586b1e76ada7c9a168fdee8bfc"></a>
 std::map&lt; size_t, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelAttenuations</b></td></tr>
+<tr class="memdesc:af1dae4586b1e76ada7c9a168fdee8bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of channel ID to attenuation. <br /></td></tr>
 <tr class="separator:af1dae4586b1e76ada7c9a168fdee8bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d7cd4b7b4074b6d6e2b6ac335c97077"><td class="memItemLeft" align="right" valign="top"><a id="a3d7cd4b7b4074b6d6e2b6ac335c97077" name="a3d7cd4b7b4074b6d6e2b6ac335c97077"></a>
 std::map&lt; size_t, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelBandwidthLimits</b></td></tr>
+<tr class="memdesc:a3d7cd4b7b4074b6d6e2b6ac335c97077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of channel ID to bandwidth limit. <br /></td></tr>
 <tr class="separator:a3d7cd4b7b4074b6d6e2b6ac335c97077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9ea278de2d739059bd57d88c2ca0eac"><td class="memItemLeft" align="right" valign="top"><a id="ad9ea278de2d739059bd57d88c2ca0eac" name="ad9ea278de2d739059bd57d88c2ca0eac"></a>
 std::map&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelsEnabled</b></td></tr>
+<tr class="memdesc:ad9ea278de2d739059bd57d88c2ca0eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of channel ID to enable flag. <br /></td></tr>
 <tr class="separator:ad9ea278de2d739059bd57d88c2ca0eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa836cef9a3547d46a2fc89004b241bb0"><td class="memItemLeft" align="right" valign="top"><a id="aa836cef9a3547d46a2fc89004b241bb0" name="aa836cef9a3547d46a2fc89004b241bb0"></a>
-std::map&lt; size_t, ProbeType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_probeTypes</b></td></tr>
+std::map&lt; size_t, <a class="el" href="classAgilentOscilloscope.html#a441dfd4316ee7a14d2b0e3138e7fd20e">ProbeType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_probeTypes</b></td></tr>
+<tr class="memdesc:aa836cef9a3547d46a2fc89004b241bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of channel ID to probe type. <br /></td></tr>
 <tr class="separator:aa836cef9a3547d46a2fc89004b241bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40103a11f5fbbb9a1e56c105c357ffa7"><td class="memItemLeft" align="right" valign="top"><a id="a40103a11f5fbbb9a1e56c105c357ffa7" name="a40103a11f5fbbb9a1e56c105c357ffa7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_sampleDepthValid</b></td></tr>
+<tr class="memdesc:a40103a11f5fbbb9a1e56c105c357ffa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if m_sampleDepth is valid, false if not. <br /></td></tr>
 <tr class="separator:a40103a11f5fbbb9a1e56c105c357ffa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a7864b80c9f7bd8d3b3445ace0d9e1f"><td class="memItemLeft" align="right" valign="top"><a id="a0a7864b80c9f7bd8d3b3445ace0d9e1f" name="a0a7864b80c9f7bd8d3b3445ace0d9e1f"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_sampleDepth</b></td></tr>
+<tr class="memdesc:a0a7864b80c9f7bd8d3b3445ace0d9e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquisition memory depth. <br /></td></tr>
 <tr class="separator:a0a7864b80c9f7bd8d3b3445ace0d9e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bd30032acdd58d6fbd2c7737531bdd7"><td class="memItemLeft" align="right" valign="top"><a id="a5bd30032acdd58d6fbd2c7737531bdd7" name="a5bd30032acdd58d6fbd2c7737531bdd7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_sampleRateValid</b></td></tr>
+<tr class="memdesc:a5bd30032acdd58d6fbd2c7737531bdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if m_sampleRate is valid, false if not. <br /></td></tr>
 <tr class="separator:a5bd30032acdd58d6fbd2c7737531bdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b88cbddc39775e3b0e03f8db409bf50"><td class="memItemLeft" align="right" valign="top"><a id="a4b88cbddc39775e3b0e03f8db409bf50" name="a4b88cbddc39775e3b0e03f8db409bf50"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_sampleRate</b></td></tr>
+<tr class="memdesc:a4b88cbddc39775e3b0e03f8db409bf50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquisition sample rate. <br /></td></tr>
 <tr class="separator:a4b88cbddc39775e3b0e03f8db409bf50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26372f289a3ec5a900e310dd8b879265"><td class="memItemLeft" align="right" valign="top"><a id="a26372f289a3ec5a900e310dd8b879265" name="a26372f289a3ec5a900e310dd8b879265"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_triggerArmed</b></td></tr>
+<tr class="memdesc:a26372f289a3ec5a900e310dd8b879265"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if trigger is armed, false if idle. <br /></td></tr>
 <tr class="separator:a26372f289a3ec5a900e310dd8b879265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7e47c698e4fdddd929acbfb4ea6b2e3"><td class="memItemLeft" align="right" valign="top"><a id="aa7e47c698e4fdddd929acbfb4ea6b2e3" name="aa7e47c698e4fdddd929acbfb4ea6b2e3"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_triggerOneShot</b></td></tr>
+<tr class="memdesc:aa7e47c698e4fdddd929acbfb4ea6b2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if trigger is one-shot (single or forced), false if idle. <br /></td></tr>
 <tr class="separator:aa7e47c698e4fdddd929acbfb4ea6b2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classSCPIOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classSCPIOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classSCPIOscilloscope.html">SCPIOscilloscope</a></td></tr>
 <tr class="memitem:afbc9d6a29694d0141f6c90d73c394699 inherit pro_attribs_classSCPIOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="afbc9d6a29694d0141f6c90d73c394699" name="afbc9d6a29694d0141f6c90d73c394699"></a>
@@ -959,6 +996,68 @@ typedef std::shared_ptr&lt; <a class="el" href="classOscilloscope.html">Oscillos
 static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_createprocs</b></td></tr>
 <tr class="separator:aa65cfd8b3ad3f3a78cd2ab6981739dd9 inherit pro_static_attribs_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Driver for Agilent (and some Keysight) oscilloscopes. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a441dfd4316ee7a14d2b0e3138e7fd20e" name="a441dfd4316ee7a14d2b0e3138e7fd20e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a441dfd4316ee7a14d2b0e3138e7fd20e">&#9670;&nbsp;</a></span>ProbeType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classAgilentOscilloscope.html#a441dfd4316ee7a14d2b0e3138e7fd20e">AgilentOscilloscope::ProbeType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Type of probe connected to a channel. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a441dfd4316ee7a14d2b0e3138e7fd20ea5b4e376963a8ba2be636440e7b12b9a3" name="a441dfd4316ee7a14d2b0e3138e7fd20ea5b4e376963a8ba2be636440e7b12b9a3"></a>None&#160;</td><td class="fielddoc"><p >No probe, or no ID ring present. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a441dfd4316ee7a14d2b0e3138e7fd20ea054a52d5dab5bb4639624186fa568657" name="a441dfd4316ee7a14d2b0e3138e7fd20ea054a52d5dab5bb4639624186fa568657"></a>AutoProbe&#160;</td><td class="fielddoc"><p >Passive probe with ID resistor for detecting attenuation. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a441dfd4316ee7a14d2b0e3138e7fd20ea24f21f71ba2fafdeead36452d5cbf1df" name="a441dfd4316ee7a14d2b0e3138e7fd20ea24f21f71ba2fafdeead36452d5cbf1df"></a>SmartProbe&#160;</td><td class="fielddoc"><p >Active probe. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad5fba84e3384015f8a00536776ff81f6" name="ad5fba84e3384015f8a00536776ff81f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5fba84e3384015f8a00536776ff81f6">&#9670;&nbsp;</a></span>AgilentOscilloscope()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AgilentOscilloscope::AgilentOscilloscope </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSCPITransport.html">SCPITransport</a> *&#160;</td>
+          <td class="paramname"><em>transport</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connect to an oscilloscope. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transport</td><td><a class="el" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints.">SCPITransport</a> connected to the scope </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4d3eacf7764de30647847535c1660bda" name="a4d3eacf7764de30647847535c1660bda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d3eacf7764de30647847535c1660bda">&#9670;&nbsp;</a></span>AcquireData()</h2>
@@ -1368,6 +1467,40 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
+<a id="ad209159da6226d968735ab5a899e33e3" name="ad209159da6226d968735ab5a899e33e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad209159da6226d968735ab5a899e33e3">&#9670;&nbsp;</a></span>GetCondition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Trigger::Condition</a> AgilentOscilloscope::GetCondition </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>reply</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts a trigger condition from a string to a <a class="el" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2" title="Conditions for triggers that perform logical comparisons of values.">Trigger::Condition</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reply</td><td>Response from the instrument </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="abe2f892cbfb8d28be9c4628a4f98d834" name="abe2f892cbfb8d28be9c4628a4f98d834"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe2f892cbfb8d28be9c4628a4f98d834">&#9670;&nbsp;</a></span>GetExternalTrigger()</h2>
 
@@ -1488,6 +1621,40 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classOscilloscope.html">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a54b790295a416d4204ba8d182d83fed1" name="a54b790295a416d4204ba8d182d83fed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b790295a416d4204ba8d182d83fed1">&#9670;&nbsp;</a></span>GetProbeType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AgilentOscilloscope::GetProbeType </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Figures out what kind of probe is connected to a channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1866,6 +2033,198 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <p>Updates m_trigger with any changes made from the instrument side. </p>
 
 <p>Implements <a class="el" href="classOscilloscope.html#ac02d1e41608e79c0b8c15075139caa16">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a49dd2af4dc95451d71b0656cbe9e8da5" name="a49dd2af4dc95451d71b0656cbe9e8da5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49dd2af4dc95451d71b0656cbe9e8da5">&#9670;&nbsp;</a></span>PushCondition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AgilentOscilloscope::PushCondition </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Trigger::Condition</a>&#160;</td>
+          <td class="paramname"><em>cond</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send a trigger condition to the instrument. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>SCPI path of the parameter to set </td></tr>
+    <tr><td class="paramname">cond</td><td><a class="el" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs.">Trigger</a> condition </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa7d25d3f4daf08f5d49c6d14be2372ca" name="aa7d25d3f4daf08f5d49c6d14be2372ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d25d3f4daf08f5d49c6d14be2372ca">&#9670;&nbsp;</a></span>PushEdgeTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AgilentOscilloscope::PushEdgeTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *&#160;</td>
+          <td class="paramname"><em>trig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes settings for an edge trigger to the instrument. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trig</td><td>The trigger </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab97d6635e1425b01f4dfcee0b2ab57d5" name="ab97d6635e1425b01f4dfcee0b2ab57d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab97d6635e1425b01f4dfcee0b2ab57d5">&#9670;&nbsp;</a></span>PushFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AgilentOscilloscope::PushFloat </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send a floating-point value to the instrument. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>SCPI path of the parameter to set </td></tr>
+    <tr><td class="paramname">f</td><td>The value to send </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9c26138a3a68013f8534b43bf6da8219" name="a9c26138a3a68013f8534b43bf6da8219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c26138a3a68013f8534b43bf6da8219">&#9670;&nbsp;</a></span>PushNthEdgeBurstTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AgilentOscilloscope::PushNthEdgeBurstTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classNthEdgeBurstTrigger.html">NthEdgeBurstTrigger</a> *&#160;</td>
+          <td class="paramname"><em>trig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes settings for a Nth edge burst trigger to the instrument. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trig</td><td>The trigger </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6bf3827c9615795e56c8bfd3292829a0" name="a6bf3827c9615795e56c8bfd3292829a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf3827c9615795e56c8bfd3292829a0">&#9670;&nbsp;</a></span>PushPulseWidthTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AgilentOscilloscope::PushPulseWidthTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPulseWidthTrigger.html">PulseWidthTrigger</a> *&#160;</td>
+          <td class="paramname"><em>trig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes settings for a pulse width trigger to the instrument. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trig</td><td>The trigger </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2366,7 +2725,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="AgilentOscilloscope_8h_source.html">AgilentOscilloscope.h</a></li>
-<li>lib/scopehal/AgilentOscilloscope.cpp</li>
+<li>lib/scopehal/<a class="el" href="AgilentOscilloscope_8cpp.html">AgilentOscilloscope.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

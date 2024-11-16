@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -66,15 +66,20 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classIDTable-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">IDTable Class Reference</div></div>
+  <div class="headertitle"><div class="title">IDTable Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Bidirectional table mapping integer IDs in scopesession files to object pointers.  
+ <a href="classIDTable.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="IDTable_8h_source.html">IDTable.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IDTable:</div>
 <div class="dyncontent">
 <div class="center"><img src="classIDTable__inherit__graph.png" border="0" usemap="#aIDTable_inherit__map" alt="Inheritance graph"/></div>
 <map name="aIDTable_inherit__map" id="aIDTable_inherit__map">
-<area shape="rect" title=" " alt="" coords="39,95,109,121"/>
+<area shape="rect" title="Bidirectional table mapping integer IDs in scopesession files to object pointers." alt="" coords="39,95,109,121"/>
 <area shape="rect" href="classBijection.html" title=" " alt="" coords="5,5,143,47"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -83,27 +88,28 @@ Collaboration diagram for IDTable:</div>
 <div class="dyncontent">
 <div class="center"><img src="classIDTable__coll__graph.png" border="0" usemap="#aIDTable_coll__map" alt="Collaboration graph"/></div>
 <map name="aIDTable_coll__map" id="aIDTable_coll__map">
-<area shape="rect" title=" " alt="" coords="39,95,109,121"/>
+<area shape="rect" title="Bidirectional table mapping integer IDs in scopesession files to object pointers." alt="" coords="39,95,109,121"/>
 <area shape="rect" href="classBijection.html" title=" " alt="" coords="5,5,143,47"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ee11439f77025f38ff598ec64a81020"><td class="memItemLeft" align="right" valign="top"><a id="a5ee11439f77025f38ff598ec64a81020" name="a5ee11439f77025f38ff598ec64a81020"></a>
-uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><b>emplace</b> (void *p)</td></tr>
+<tr class="memitem:a5ee11439f77025f38ff598ec64a81020"><td class="memItemLeft" align="right" valign="top">uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#a5ee11439f77025f38ff598ec64a81020">emplace</a> (void *p)</td></tr>
+<tr class="memdesc:a5ee11439f77025f38ff598ec64a81020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a new object in the table.  <a href="classIDTable.html#a5ee11439f77025f38ff598ec64a81020">More...</a><br /></td></tr>
 <tr class="separator:a5ee11439f77025f38ff598ec64a81020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefe38af726230aab1298264b49bec5a3"><td class="memItemLeft" align="right" valign="top"><a id="aefe38af726230aab1298264b49bec5a3" name="aefe38af726230aab1298264b49bec5a3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>emplace</b> (uintptr_t id, void *p)</td></tr>
+<tr class="memitem:aefe38af726230aab1298264b49bec5a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#aefe38af726230aab1298264b49bec5a3">emplace</a> (uintptr_t id, void *p)</td></tr>
+<tr class="memdesc:aefe38af726230aab1298264b49bec5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a new object in the table using a specific ID.  <a href="classIDTable.html#aefe38af726230aab1298264b49bec5a3">More...</a><br /></td></tr>
 <tr class="separator:aefe38af726230aab1298264b49bec5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83b40ddc38ed2c4561b4ead7a6f54b58"><td class="memItemLeft" align="right" valign="top"><a id="a83b40ddc38ed2c4561b4ead7a6f54b58" name="a83b40ddc38ed2c4561b4ead7a6f54b58"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasID</b> (void *p)</td></tr>
+<tr class="memitem:a83b40ddc38ed2c4561b4ead7a6f54b58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#a83b40ddc38ed2c4561b4ead7a6f54b58">HasID</a> (void *p)</td></tr>
+<tr class="memdesc:a83b40ddc38ed2c4561b4ead7a6f54b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if we have an object at a specific pointer.  <a href="classIDTable.html#a83b40ddc38ed2c4561b4ead7a6f54b58">More...</a><br /></td></tr>
 <tr class="separator:a83b40ddc38ed2c4561b4ead7a6f54b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa88f6fe887e424d1039c9e5e3c5d1451"><td class="memItemLeft" align="right" valign="top"><a id="aa88f6fe887e424d1039c9e5e3c5d1451" name="aa88f6fe887e424d1039c9e5e3c5d1451"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasID</b> (uintptr_t id)</td></tr>
+<tr class="memitem:aa88f6fe887e424d1039c9e5e3c5d1451"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#aa88f6fe887e424d1039c9e5e3c5d1451">HasID</a> (uintptr_t id)</td></tr>
+<tr class="memdesc:aa88f6fe887e424d1039c9e5e3c5d1451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if we have an object with a specific ID.  <a href="classIDTable.html#aa88f6fe887e424d1039c9e5e3c5d1451">More...</a><br /></td></tr>
 <tr class="separator:aa88f6fe887e424d1039c9e5e3c5d1451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e49bf27a24d80d6c0b908f9a1d4611b"><td class="memItemLeft" align="right" valign="top"><a id="a1e49bf27a24d80d6c0b908f9a1d4611b" name="a1e49bf27a24d80d6c0b908f9a1d4611b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ReserveID</b> (uintptr_t id)</td></tr>
+<tr class="memdesc:a1e49bf27a24d80d6c0b908f9a1d4611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an ID as unavailable for use, without assigning an pointer to it. <br /></td></tr>
 <tr class="separator:a1e49bf27a24d80d6c0b908f9a1d4611b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a7a73fe4bbd79f3eb068386a59fc2c0"><td class="memItemLeft" align="right" valign="top"><a id="a6a7a73fe4bbd79f3eb068386a59fc2c0" name="a6a7a73fe4bbd79f3eb068386a59fc2c0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
@@ -156,6 +162,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> ()</td></t
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ac5a5af93fb6d5eea91b77b7a2c3f2280"><td class="memItemLeft" align="right" valign="top"><a id="ac5a5af93fb6d5eea91b77b7a2c3f2280" name="ac5a5af93fb6d5eea91b77b7a2c3f2280"></a>
 uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_nextID</b></td></tr>
+<tr class="memdesc:ac5a5af93fb6d5eea91b77b7a2c3f2280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the next ID to be assigned. <br /></td></tr>
 <tr class="separator:ac5a5af93fb6d5eea91b77b7a2c3f2280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classBijection"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classBijection')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classBijection.html">Bijection&lt; uintptr_t, void * &gt;</a></td></tr>
 <tr class="memitem:a28aac016b6b70bd5562171bb8ad7a4a0 inherit pro_attribs_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="a28aac016b6b70bd5562171bb8ad7a4a0" name="a28aac016b6b70bd5562171bb8ad7a4a0"></a>
@@ -179,6 +186,159 @@ typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td
 <tr class="memdesc:a3216f124fcfe3134bad16b76d146ae74 inherit pub_types_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the reverse map. <br /></td></tr>
 <tr class="separator:a3216f124fcfe3134bad16b76d146ae74 inherit pub_types_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Bidirectional table mapping integer IDs in scopesession files to object pointers. </p>
+<p >No type information is stored, the caller is responsible for knowing what type of object is being stored in the table.</p>
+<p >TODO: can we store RTTI info along with the objects to sanity check that we're using the right kind of object </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aefe38af726230aab1298264b49bec5a3" name="aefe38af726230aab1298264b49bec5a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefe38af726230aab1298264b49bec5a3">&#9670;&nbsp;</a></span>emplace() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IDTable::emplace </td>
+          <td>(</td>
+          <td class="paramtype">uintptr_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store a new object in the table using a specific ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID to assign to the object </td></tr>
+    <tr><td class="paramname">p</td><td>Pointer to the object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5ee11439f77025f38ff598ec64a81020" name="a5ee11439f77025f38ff598ec64a81020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ee11439f77025f38ff598ec64a81020">&#9670;&nbsp;</a></span>emplace() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uintptr_t IDTable::emplace </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store a new object in the table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>Pointer to the object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The ID of the object </dd></dl>
+
+</div>
+</div>
+<a id="aa88f6fe887e424d1039c9e5e3c5d1451" name="aa88f6fe887e424d1039c9e5e3c5d1451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa88f6fe887e424d1039c9e5e3c5d1451">&#9670;&nbsp;</a></span>HasID() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDTable::HasID </td>
+          <td>(</td>
+          <td class="paramtype">uintptr_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if we have an object with a specific ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID of the object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a83b40ddc38ed2c4561b4ead7a6f54b58" name="a83b40ddc38ed2c4561b4ead7a6f54b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b40ddc38ed2c4561b4ead7a6f54b58">&#9670;&nbsp;</a></span>HasID() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDTable::HasID </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if we have an object at a specific pointer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>Pointer to the object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/scopehal/<a class="el" href="IDTable_8h_source.html">IDTable.h</a></li>
 </ul>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -93,22 +93,23 @@ Collaboration diagram for RSRTO6Oscilloscope:</div>
 <div class="dyncontent">
 <div class="center"><img src="classRSRTO6Oscilloscope__coll__graph.png" border="0" usemap="#aRSRTO6Oscilloscope_coll__map" alt="Collaboration graph"/></div>
 <map name="aRSRTO6Oscilloscope_coll__map" id="aRSRTO6Oscilloscope_coll__map">
-<area shape="rect" title=" " alt="" coords="249,392,405,419"/>
-<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="261,303,394,329"/>
-<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="319,213,423,240"/>
-<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer triggers." alt="" coords="437,303,503,329"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="190,109,283,136"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="173,213,295,240"/>
-<area shape="rect" href="classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="5,213,148,240"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="615,213,762,240"/>
-<area shape="rect" title=" " alt="" coords="155,5,347,47"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="536,109,663,136"/>
-<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="308,109,427,136"/>
-<area shape="rect" href="classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="66,303,237,329"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="42,109,138,136"/>
-<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="19,13,131,39"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="581,303,738,329"/>
-<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="732,109,781,136"/>
+<area shape="rect" title=" " alt="" coords="285,392,441,419"/>
+<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="296,303,429,329"/>
+<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="353,213,457,240"/>
+<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="483,303,549,329"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="188,109,281,136"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="33,213,156,240"/>
+<area shape="rect" href="classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="181,213,323,240"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="625,213,772,240"/>
+<area shape="rect" title=" " alt="" coords="141,5,333,47"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="533,109,659,136"/>
+<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="796,213,919,240"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="691,109,741,136"/>
+<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="346,109,465,136"/>
+<area shape="rect" href="classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="101,303,272,329"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="16,109,112,136"/>
+<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="604,303,761,329"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -266,41 +267,56 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a35a72a542835f40e09f4949fba444a6d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a35a72a542835f40e09f4949fba444a6d">SetInterleaving</a> (bool combine) override</td></tr>
 <tr class="memdesc:a35a72a542835f40e09f4949fba444a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the scope to combine channels.  <a href="classRSRTO6Oscilloscope.html#a35a72a542835f40e09f4949fba444a6d">More...</a><br /></td></tr>
 <tr class="separator:a35a72a542835f40e09f4949fba444a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf946a128d659e611e05fdf6741efc41"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; WaveShape &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#aaf946a128d659e611e05fdf6741efc41">GetAvailableWaveformShapes</a> (int chan) override</td></tr>
+<tr class="memitem:aaf946a128d659e611e05fdf6741efc41"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#aaf946a128d659e611e05fdf6741efc41">GetAvailableWaveformShapes</a> (int chan) override</td></tr>
+<tr class="memdesc:aaf946a128d659e611e05fdf6741efc41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the set of available pre-defined waveforms for this generator.  <a href="classRSRTO6Oscilloscope.html#aaf946a128d659e611e05fdf6741efc41">More...</a><br /></td></tr>
 <tr class="separator:aaf946a128d659e611e05fdf6741efc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9f736507c36906aa46c2c35f387c3d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a8c9f736507c36906aa46c2c35f387c3d">GetFunctionChannelActive</a> (int chan) override</td></tr>
+<tr class="memdesc:a8c9f736507c36906aa46c2c35f387c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the function generator channel's output is enabled.  <a href="classRSRTO6Oscilloscope.html#a8c9f736507c36906aa46c2c35f387c3d">More...</a><br /></td></tr>
 <tr class="separator:a8c9f736507c36906aa46c2c35f387c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d534620c21b314728e30d50375140dc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a7d534620c21b314728e30d50375140dc">SetFunctionChannelActive</a> (int chan, bool on) override</td></tr>
+<tr class="memdesc:a7d534620c21b314728e30d50375140dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns a function generator channel on or off.  <a href="classRSRTO6Oscilloscope.html#a7d534620c21b314728e30d50375140dc">More...</a><br /></td></tr>
 <tr class="separator:a7d534620c21b314728e30d50375140dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9173a7433bf15a80bc32be7612b0d0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#aad9173a7433bf15a80bc32be7612b0d0">HasFunctionDutyCycleControls</a> (int chan) override</td></tr>
-<tr class="memdesc:aad9173a7433bf15a80bc32be7612b0d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the function generator allows control over rise/fall times.  <a href="classRSRTO6Oscilloscope.html#aad9173a7433bf15a80bc32be7612b0d0">More...</a><br /></td></tr>
+<tr class="memdesc:aad9173a7433bf15a80bc32be7612b0d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the function generator allows control over duty cycles.  <a href="classRSRTO6Oscilloscope.html#aad9173a7433bf15a80bc32be7612b0d0">More...</a><br /></td></tr>
 <tr class="separator:aad9173a7433bf15a80bc32be7612b0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adee986388ed7d90272589785fcf162f8"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#adee986388ed7d90272589785fcf162f8">GetFunctionChannelDutyCycle</a> (int chan) override</td></tr>
+<tr class="memdesc:adee986388ed7d90272589785fcf162f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the duty cycle for a function generator output.  <a href="classRSRTO6Oscilloscope.html#adee986388ed7d90272589785fcf162f8">More...</a><br /></td></tr>
 <tr class="separator:adee986388ed7d90272589785fcf162f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf71b504aad31edb0b65b9433e202e89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#abf71b504aad31edb0b65b9433e202e89">SetFunctionChannelDutyCycle</a> (int chan, float duty) override</td></tr>
+<tr class="memdesc:abf71b504aad31edb0b65b9433e202e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the duty cycle for a function generator output.  <a href="classRSRTO6Oscilloscope.html#abf71b504aad31edb0b65b9433e202e89">More...</a><br /></td></tr>
 <tr class="separator:abf71b504aad31edb0b65b9433e202e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac17847eb69f52e602d06965c9f5c4a04"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#ac17847eb69f52e602d06965c9f5c4a04">GetFunctionChannelAmplitude</a> (int chan) override</td></tr>
+<tr class="memdesc:ac17847eb69f52e602d06965c9f5c4a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the amplitude for a function generator output.  <a href="classRSRTO6Oscilloscope.html#ac17847eb69f52e602d06965c9f5c4a04">More...</a><br /></td></tr>
 <tr class="separator:ac17847eb69f52e602d06965c9f5c4a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac141cfadfbf66d6deb927055082957f1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#ac141cfadfbf66d6deb927055082957f1">SetFunctionChannelAmplitude</a> (int chan, float amplitude) override</td></tr>
+<tr class="memdesc:ac141cfadfbf66d6deb927055082957f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the amplitude for a function generator output.  <a href="classRSRTO6Oscilloscope.html#ac141cfadfbf66d6deb927055082957f1">More...</a><br /></td></tr>
 <tr class="separator:ac141cfadfbf66d6deb927055082957f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adab3486527ade8fec6a8dda3cb34765e"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#adab3486527ade8fec6a8dda3cb34765e">GetFunctionChannelOffset</a> (int chan) override</td></tr>
+<tr class="memdesc:adab3486527ade8fec6a8dda3cb34765e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the DC offset for a function generator output.  <a href="classRSRTO6Oscilloscope.html#adab3486527ade8fec6a8dda3cb34765e">More...</a><br /></td></tr>
 <tr class="separator:adab3486527ade8fec6a8dda3cb34765e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a743142191f33ee58fd3df13de0f3e4c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a743142191f33ee58fd3df13de0f3e4c0">SetFunctionChannelOffset</a> (int chan, float offset) override</td></tr>
+<tr class="memdesc:a743142191f33ee58fd3df13de0f3e4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the DC offset for a function generator output.  <a href="classRSRTO6Oscilloscope.html#a743142191f33ee58fd3df13de0f3e4c0">More...</a><br /></td></tr>
 <tr class="separator:a743142191f33ee58fd3df13de0f3e4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8be0ce73676f7ff9362bfb4f9e42d6de"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a8be0ce73676f7ff9362bfb4f9e42d6de">GetFunctionChannelFrequency</a> (int chan) override</td></tr>
+<tr class="memdesc:a8be0ce73676f7ff9362bfb4f9e42d6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the frequency for a function generator output.  <a href="classRSRTO6Oscilloscope.html#a8be0ce73676f7ff9362bfb4f9e42d6de">More...</a><br /></td></tr>
 <tr class="separator:a8be0ce73676f7ff9362bfb4f9e42d6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e93985ecdd7d75feaf1f83fdc27a741"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a3e93985ecdd7d75feaf1f83fdc27a741">SetFunctionChannelFrequency</a> (int chan, float hz) override</td></tr>
+<tr class="memdesc:a3e93985ecdd7d75feaf1f83fdc27a741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the frequency for a function generator output.  <a href="classRSRTO6Oscilloscope.html#a3e93985ecdd7d75feaf1f83fdc27a741">More...</a><br /></td></tr>
 <tr class="separator:a3e93985ecdd7d75feaf1f83fdc27a741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d900c0d56007802cfc608e2df882a13"><td class="memItemLeft" align="right" valign="top">virtual WaveShape&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a4d900c0d56007802cfc608e2df882a13">GetFunctionChannelShape</a> (int chan) override</td></tr>
+<tr class="memitem:a4d900c0d56007802cfc608e2df882a13"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a4d900c0d56007802cfc608e2df882a13">GetFunctionChannelShape</a> (int chan) override</td></tr>
+<tr class="memdesc:a4d900c0d56007802cfc608e2df882a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the waveform shape for a function generator output.  <a href="classRSRTO6Oscilloscope.html#a4d900c0d56007802cfc608e2df882a13">More...</a><br /></td></tr>
 <tr class="separator:a4d900c0d56007802cfc608e2df882a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54467d5d5ae64732f9d206d05a61e003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a54467d5d5ae64732f9d206d05a61e003">SetFunctionChannelShape</a> (int chan, WaveShape shape) override</td></tr>
+<tr class="memitem:a54467d5d5ae64732f9d206d05a61e003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a54467d5d5ae64732f9d206d05a61e003">SetFunctionChannelShape</a> (int chan, <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a> shape) override</td></tr>
+<tr class="memdesc:a54467d5d5ae64732f9d206d05a61e003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the waveform shape for a function generator output.  <a href="classRSRTO6Oscilloscope.html#a54467d5d5ae64732f9d206d05a61e003">More...</a><br /></td></tr>
 <tr class="separator:a54467d5d5ae64732f9d206d05a61e003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc908f4a8cd056e72945079d331aa7b9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#abc908f4a8cd056e72945079d331aa7b9">HasFunctionRiseFallTimeControls</a> (int chan) override</td></tr>
 <tr class="memdesc:abc908f4a8cd056e72945079d331aa7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the function generator allows control over rise/fall times.  <a href="classRSRTO6Oscilloscope.html#abc908f4a8cd056e72945079d331aa7b9">More...</a><br /></td></tr>
 <tr class="separator:abc908f4a8cd056e72945079d331aa7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b7085de42a9dc56be2e0aeaf3a5fc11"><td class="memItemLeft" align="right" valign="top">virtual OutputImpedance&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a3b7085de42a9dc56be2e0aeaf3a5fc11">GetFunctionChannelOutputImpedance</a> (int chan) override</td></tr>
+<tr class="memitem:a3b7085de42a9dc56be2e0aeaf3a5fc11"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">OutputImpedance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a3b7085de42a9dc56be2e0aeaf3a5fc11">GetFunctionChannelOutputImpedance</a> (int chan) override</td></tr>
+<tr class="memdesc:a3b7085de42a9dc56be2e0aeaf3a5fc11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected output impedance for a function generator output (if supported)  <a href="classRSRTO6Oscilloscope.html#a3b7085de42a9dc56be2e0aeaf3a5fc11">More...</a><br /></td></tr>
 <tr class="separator:a3b7085de42a9dc56be2e0aeaf3a5fc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63aa46ecff741b08fc74f6a881717e8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a63aa46ecff741b08fc74f6a881717e8b">SetFunctionChannelOutputImpedance</a> (int chan, OutputImpedance z) override</td></tr>
+<tr class="memitem:a63aa46ecff741b08fc74f6a881717e8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a63aa46ecff741b08fc74f6a881717e8b">SetFunctionChannelOutputImpedance</a> (int chan, <a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">OutputImpedance</a> z) override</td></tr>
+<tr class="memdesc:a63aa46ecff741b08fc74f6a881717e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the currently selected output impedance for a function generator output (if supported)  <a href="classRSRTO6Oscilloscope.html#a63aa46ecff741b08fc74f6a881717e8b">More...</a><br /></td></tr>
 <tr class="separator:a63aa46ecff741b08fc74f6a881717e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3877cedf26d5afc18e2f79340f1b287b"><td class="memTemplParams" colspan="2"><a id="a3877cedf26d5afc18e2f79340f1b287b" name="a3877cedf26d5afc18e2f79340f1b287b"></a>
 template&lt;typename T &gt; </td></tr>
@@ -627,6 +643,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>PopPendingDiag
 <tr class="memitem:a46f12c37b0e72aad478af4b5a86bbd27 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a46f12c37b0e72aad478af4b5a86bbd27" name="a46f12c37b0e72aad478af4b5a86bbd27"></a>
 std::map&lt; std::string, <a class="el" href="classFilterParameter.html">FilterParameter</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetDiagnosticsValues</b> ()</td></tr>
 <tr class="separator:a46f12c37b0e72aad478af4b5a86bbd27 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a20ad86898a2d2cedb03600a0590d3d98">FreeWaveformPools</a> ()</td></tr>
+<tr class="memdesc:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free all waveforms in our pool to reclaim memory.  <a href="classOscilloscope.html#a20ad86898a2d2cedb03600a0590d3d98">More...</a><br /></td></tr>
+<tr class="separator:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefd97ec49ddf55d33d5c10074d95756c inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="aefd97ec49ddf55d33d5c10074d95756c" name="aefd97ec49ddf55d33d5c10074d95756c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>AddWaveformToAnalogPool</b> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *w)</td></tr>
 <tr class="separator:aefd97ec49ddf55d33d5c10074d95756c inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -683,7 +702,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -718,56 +737,56 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDri
 <tr class="memitem:aad7dd92b0c07684c185c1a6cf4446b30 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#aad7dd92b0c07684c185c1a6cf4446b30">AcquireData</a> () override</td></tr>
 <tr class="memdesc:aad7dd92b0c07684c185c1a6cf4446b30 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classFunctionGenerator.html#aad7dd92b0c07684c185c1a6cf4446b30">More...</a><br /></td></tr>
 <tr class="separator:aad7dd92b0c07684c185c1a6cf4446b30 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5373636188fcad9e4b787e82d74c5224 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a5373636188fcad9e4b787e82d74c5224" name="a5373636188fcad9e4b787e82d74c5224"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelActive</b> (int chan)=0</td></tr>
+<tr class="memitem:a5373636188fcad9e4b787e82d74c5224 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a5373636188fcad9e4b787e82d74c5224">GetFunctionChannelActive</a> (int chan)=0</td></tr>
+<tr class="memdesc:a5373636188fcad9e4b787e82d74c5224 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the function generator channel's output is enabled.  <a href="classFunctionGenerator.html#a5373636188fcad9e4b787e82d74c5224">More...</a><br /></td></tr>
 <tr class="separator:a5373636188fcad9e4b787e82d74c5224 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40442190dad55eeec2ca423e7d564451 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a40442190dad55eeec2ca423e7d564451" name="a40442190dad55eeec2ca423e7d564451"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelActive</b> (int chan, bool on)=0</td></tr>
+<tr class="memitem:a40442190dad55eeec2ca423e7d564451 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a40442190dad55eeec2ca423e7d564451">SetFunctionChannelActive</a> (int chan, bool on)=0</td></tr>
+<tr class="memdesc:a40442190dad55eeec2ca423e7d564451 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns a function generator channel on or off.  <a href="classFunctionGenerator.html#a40442190dad55eeec2ca423e7d564451">More...</a><br /></td></tr>
 <tr class="separator:a40442190dad55eeec2ca423e7d564451 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5570509def892f62f44af1c18e622d63 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a5570509def892f62f44af1c18e622d63">HasFunctionDutyCycleControls</a> (int chan)</td></tr>
-<tr class="memdesc:a5570509def892f62f44af1c18e622d63 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the function generator allows control over rise/fall times.  <a href="classFunctionGenerator.html#a5570509def892f62f44af1c18e622d63">More...</a><br /></td></tr>
+<tr class="memdesc:a5570509def892f62f44af1c18e622d63 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the function generator allows control over duty cycles.  <a href="classFunctionGenerator.html#a5570509def892f62f44af1c18e622d63">More...</a><br /></td></tr>
 <tr class="separator:a5570509def892f62f44af1c18e622d63 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03bd489aff31e2714db57e0d19a885b4 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a03bd489aff31e2714db57e0d19a885b4" name="a03bd489aff31e2714db57e0d19a885b4"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelDutyCycle</b> (int chan)</td></tr>
+<tr class="memitem:a03bd489aff31e2714db57e0d19a885b4 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a03bd489aff31e2714db57e0d19a885b4">GetFunctionChannelDutyCycle</a> (int chan)</td></tr>
+<tr class="memdesc:a03bd489aff31e2714db57e0d19a885b4 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the duty cycle for a function generator output.  <a href="classFunctionGenerator.html#a03bd489aff31e2714db57e0d19a885b4">More...</a><br /></td></tr>
 <tr class="separator:a03bd489aff31e2714db57e0d19a885b4 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a714eb1e5b56f14ebfe8bbdc39c41edbe inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a714eb1e5b56f14ebfe8bbdc39c41edbe" name="a714eb1e5b56f14ebfe8bbdc39c41edbe"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelDutyCycle</b> (int chan, float duty)</td></tr>
+<tr class="memitem:a714eb1e5b56f14ebfe8bbdc39c41edbe inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a714eb1e5b56f14ebfe8bbdc39c41edbe">SetFunctionChannelDutyCycle</a> (int chan, float duty)</td></tr>
+<tr class="memdesc:a714eb1e5b56f14ebfe8bbdc39c41edbe inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the duty cycle for a function generator output.  <a href="classFunctionGenerator.html#a714eb1e5b56f14ebfe8bbdc39c41edbe">More...</a><br /></td></tr>
 <tr class="separator:a714eb1e5b56f14ebfe8bbdc39c41edbe inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd65c45355d3aa362dac7749933253e inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="accd65c45355d3aa362dac7749933253e" name="accd65c45355d3aa362dac7749933253e"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelAmplitude</b> (int chan)=0</td></tr>
+<tr class="memitem:accd65c45355d3aa362dac7749933253e inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#accd65c45355d3aa362dac7749933253e">GetFunctionChannelAmplitude</a> (int chan)=0</td></tr>
+<tr class="memdesc:accd65c45355d3aa362dac7749933253e inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the amplitude for a function generator output.  <a href="classFunctionGenerator.html#accd65c45355d3aa362dac7749933253e">More...</a><br /></td></tr>
 <tr class="separator:accd65c45355d3aa362dac7749933253e inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c108c5013c39444bc8bc672eb78f5fb inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a5c108c5013c39444bc8bc672eb78f5fb" name="a5c108c5013c39444bc8bc672eb78f5fb"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelAmplitude</b> (int chan, float amplitude)=0</td></tr>
+<tr class="memitem:a5c108c5013c39444bc8bc672eb78f5fb inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a5c108c5013c39444bc8bc672eb78f5fb">SetFunctionChannelAmplitude</a> (int chan, float amplitude)=0</td></tr>
+<tr class="memdesc:a5c108c5013c39444bc8bc672eb78f5fb inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the amplitude for a function generator output.  <a href="classFunctionGenerator.html#a5c108c5013c39444bc8bc672eb78f5fb">More...</a><br /></td></tr>
 <tr class="separator:a5c108c5013c39444bc8bc672eb78f5fb inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7100b018faa5ad40f6b9f8ee9eaf48b9 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a7100b018faa5ad40f6b9f8ee9eaf48b9" name="a7100b018faa5ad40f6b9f8ee9eaf48b9"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelOffset</b> (int chan)=0</td></tr>
+<tr class="memitem:a7100b018faa5ad40f6b9f8ee9eaf48b9 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a7100b018faa5ad40f6b9f8ee9eaf48b9">GetFunctionChannelOffset</a> (int chan)=0</td></tr>
+<tr class="memdesc:a7100b018faa5ad40f6b9f8ee9eaf48b9 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the DC offset for a function generator output.  <a href="classFunctionGenerator.html#a7100b018faa5ad40f6b9f8ee9eaf48b9">More...</a><br /></td></tr>
 <tr class="separator:a7100b018faa5ad40f6b9f8ee9eaf48b9 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefd3d9dab250ff097de1e6a4c87498e1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="aefd3d9dab250ff097de1e6a4c87498e1" name="aefd3d9dab250ff097de1e6a4c87498e1"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelOffset</b> (int chan, float offset)=0</td></tr>
+<tr class="memitem:aefd3d9dab250ff097de1e6a4c87498e1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#aefd3d9dab250ff097de1e6a4c87498e1">SetFunctionChannelOffset</a> (int chan, float offset)=0</td></tr>
+<tr class="memdesc:aefd3d9dab250ff097de1e6a4c87498e1 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the DC offset for a function generator output.  <a href="classFunctionGenerator.html#aefd3d9dab250ff097de1e6a4c87498e1">More...</a><br /></td></tr>
 <tr class="separator:aefd3d9dab250ff097de1e6a4c87498e1 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ac4025ddf9befeb2304295c2429cfef inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a6ac4025ddf9befeb2304295c2429cfef" name="a6ac4025ddf9befeb2304295c2429cfef"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelFrequency</b> (int chan)=0</td></tr>
+<tr class="memitem:a6ac4025ddf9befeb2304295c2429cfef inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a6ac4025ddf9befeb2304295c2429cfef">GetFunctionChannelFrequency</a> (int chan)=0</td></tr>
+<tr class="memdesc:a6ac4025ddf9befeb2304295c2429cfef inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the frequency for a function generator output.  <a href="classFunctionGenerator.html#a6ac4025ddf9befeb2304295c2429cfef">More...</a><br /></td></tr>
 <tr class="separator:a6ac4025ddf9befeb2304295c2429cfef inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02e492d6cd4f12732bafa70cddcb078f inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a02e492d6cd4f12732bafa70cddcb078f" name="a02e492d6cd4f12732bafa70cddcb078f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelFrequency</b> (int chan, float hz)=0</td></tr>
+<tr class="memitem:a02e492d6cd4f12732bafa70cddcb078f inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a02e492d6cd4f12732bafa70cddcb078f">SetFunctionChannelFrequency</a> (int chan, float hz)=0</td></tr>
+<tr class="memdesc:a02e492d6cd4f12732bafa70cddcb078f inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the frequency for a function generator output.  <a href="classFunctionGenerator.html#a02e492d6cd4f12732bafa70cddcb078f">More...</a><br /></td></tr>
 <tr class="separator:a02e492d6cd4f12732bafa70cddcb078f inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d9b55b9f6bc883a0ee111101dae562e inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a6d9b55b9f6bc883a0ee111101dae562e" name="a6d9b55b9f6bc883a0ee111101dae562e"></a>
-virtual WaveShape&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelShape</b> (int chan)=0</td></tr>
+<tr class="memitem:a6d9b55b9f6bc883a0ee111101dae562e inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a6d9b55b9f6bc883a0ee111101dae562e">GetFunctionChannelShape</a> (int chan)=0</td></tr>
+<tr class="memdesc:a6d9b55b9f6bc883a0ee111101dae562e inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the waveform shape for a function generator output.  <a href="classFunctionGenerator.html#a6d9b55b9f6bc883a0ee111101dae562e">More...</a><br /></td></tr>
 <tr class="separator:a6d9b55b9f6bc883a0ee111101dae562e inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60a307059da71fc15b5137e9eaf63e88 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a60a307059da71fc15b5137e9eaf63e88" name="a60a307059da71fc15b5137e9eaf63e88"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelShape</b> (int chan, WaveShape shape)=0</td></tr>
+<tr class="memitem:a60a307059da71fc15b5137e9eaf63e88 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a60a307059da71fc15b5137e9eaf63e88">SetFunctionChannelShape</a> (int chan, <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a> shape)=0</td></tr>
+<tr class="memdesc:a60a307059da71fc15b5137e9eaf63e88 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the waveform shape for a function generator output.  <a href="classFunctionGenerator.html#a60a307059da71fc15b5137e9eaf63e88">More...</a><br /></td></tr>
 <tr class="separator:a60a307059da71fc15b5137e9eaf63e88 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abba5b29a7973dafc62ab9be96ac592e1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="abba5b29a7973dafc62ab9be96ac592e1" name="abba5b29a7973dafc62ab9be96ac592e1"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelRiseTime</b> (int chan)</td></tr>
+<tr class="memitem:abba5b29a7973dafc62ab9be96ac592e1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#abba5b29a7973dafc62ab9be96ac592e1">GetFunctionChannelRiseTime</a> (int chan)</td></tr>
+<tr class="memdesc:abba5b29a7973dafc62ab9be96ac592e1 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rise time for a function generator output (if supported)  <a href="classFunctionGenerator.html#abba5b29a7973dafc62ab9be96ac592e1">More...</a><br /></td></tr>
 <tr class="separator:abba5b29a7973dafc62ab9be96ac592e1 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb80a4734359f7570244f98bd1627824 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="afb80a4734359f7570244f98bd1627824" name="afb80a4734359f7570244f98bd1627824"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelRiseTime</b> (int chan, float fs)</td></tr>
+<tr class="memitem:afb80a4734359f7570244f98bd1627824 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#afb80a4734359f7570244f98bd1627824">SetFunctionChannelRiseTime</a> (int chan, float fs)</td></tr>
+<tr class="memdesc:afb80a4734359f7570244f98bd1627824 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rise time for a function generator output (if supported)  <a href="classFunctionGenerator.html#afb80a4734359f7570244f98bd1627824">More...</a><br /></td></tr>
 <tr class="separator:afb80a4734359f7570244f98bd1627824 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8afd0abc555ba7cc7270da9c238c9c1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="aa8afd0abc555ba7cc7270da9c238c9c1" name="aa8afd0abc555ba7cc7270da9c238c9c1"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelFallTime</b> (int chan)</td></tr>
+<tr class="memitem:aa8afd0abc555ba7cc7270da9c238c9c1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#aa8afd0abc555ba7cc7270da9c238c9c1">GetFunctionChannelFallTime</a> (int chan)</td></tr>
+<tr class="memdesc:aa8afd0abc555ba7cc7270da9c238c9c1 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the fall time for a function generator output (if supported)  <a href="classFunctionGenerator.html#aa8afd0abc555ba7cc7270da9c238c9c1">More...</a><br /></td></tr>
 <tr class="separator:aa8afd0abc555ba7cc7270da9c238c9c1 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af365e9ac040578cba4e304723352b2ee inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="af365e9ac040578cba4e304723352b2ee" name="af365e9ac040578cba4e304723352b2ee"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelFallTime</b> (int chan, float fs)</td></tr>
+<tr class="memitem:af365e9ac040578cba4e304723352b2ee inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#af365e9ac040578cba4e304723352b2ee">SetFunctionChannelFallTime</a> (int chan, float fs)</td></tr>
+<tr class="memdesc:af365e9ac040578cba4e304723352b2ee inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the fall time for a function generator output (if supported)  <a href="classFunctionGenerator.html#af365e9ac040578cba4e304723352b2ee">More...</a><br /></td></tr>
 <tr class="separator:af365e9ac040578cba4e304723352b2ee inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09569c5b1a1313681f12e00c3caee884 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a09569c5b1a1313681f12e00c3caee884">HasFunctionRiseFallTimeControls</a> (int chan)=0</td></tr>
 <tr class="memdesc:a09569c5b1a1313681f12e00c3caee884 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the function generator allows control over rise/fall times.  <a href="classFunctionGenerator.html#a09569c5b1a1313681f12e00c3caee884">More...</a><br /></td></tr>
@@ -775,14 +794,14 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionCh
 <tr class="memitem:a740edcdd6ac15f177096ace865026525 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a740edcdd6ac15f177096ace865026525">HasFunctionImpedanceControls</a> (int chan)</td></tr>
 <tr class="memdesc:a740edcdd6ac15f177096ace865026525 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the function generator allows control over rise/fall times.  <a href="classFunctionGenerator.html#a740edcdd6ac15f177096ace865026525">More...</a><br /></td></tr>
 <tr class="separator:a740edcdd6ac15f177096ace865026525 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a600d883e2a82aa66b289d678c18daaae inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a600d883e2a82aa66b289d678c18daaae" name="a600d883e2a82aa66b289d678c18daaae"></a>
-virtual OutputImpedance&#160;</td><td class="memItemRight" valign="bottom"><b>GetFunctionChannelOutputImpedance</b> (int chan)</td></tr>
+<tr class="memitem:a600d883e2a82aa66b289d678c18daaae inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">OutputImpedance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a600d883e2a82aa66b289d678c18daaae">GetFunctionChannelOutputImpedance</a> (int chan)</td></tr>
+<tr class="memdesc:a600d883e2a82aa66b289d678c18daaae inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently selected output impedance for a function generator output (if supported)  <a href="classFunctionGenerator.html#a600d883e2a82aa66b289d678c18daaae">More...</a><br /></td></tr>
 <tr class="separator:a600d883e2a82aa66b289d678c18daaae inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06594621cf80137320d876dcfe17bf7a inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a06594621cf80137320d876dcfe17bf7a" name="a06594621cf80137320d876dcfe17bf7a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFunctionChannelOutputImpedance</b> (int chan, OutputImpedance z)</td></tr>
+<tr class="memitem:a06594621cf80137320d876dcfe17bf7a inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a06594621cf80137320d876dcfe17bf7a">SetFunctionChannelOutputImpedance</a> (int chan, <a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">OutputImpedance</a> z)</td></tr>
+<tr class="memdesc:a06594621cf80137320d876dcfe17bf7a inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the currently selected output impedance for a function generator output (if supported)  <a href="classFunctionGenerator.html#a06594621cf80137320d876dcfe17bf7a">More...</a><br /></td></tr>
 <tr class="separator:a06594621cf80137320d876dcfe17bf7a inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46cc5a731baa20c860e29c050671e3d1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a46cc5a731baa20c860e29c050671e3d1" name="a46cc5a731baa20c860e29c050671e3d1"></a>
-virtual std::vector&lt; WaveShape &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvailableWaveformShapes</b> (int chan)=0</td></tr>
+<tr class="memitem:a46cc5a731baa20c860e29c050671e3d1 inherit pub_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a46cc5a731baa20c860e29c050671e3d1">GetAvailableWaveformShapes</a> (int chan)=0</td></tr>
+<tr class="memdesc:a46cc5a731baa20c860e29c050671e3d1 inherit pub_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the set of available pre-defined waveforms for this generator.  <a href="classFunctionGenerator.html#a46cc5a731baa20c860e29c050671e3d1">More...</a><br /></td></tr>
 <tr class="separator:a46cc5a731baa20c860e29c050671e3d1 inherit pub_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -835,17 +854,17 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>EnumDrivers</b
 static std::shared_ptr&lt; <a class="el" href="classSCPIFunctionGenerator.html">SCPIFunctionGenerator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateFunctionGenerator</b> (std::string driver, <a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
 <tr class="separator:a515c49350facd56a7c136b1459dbdf2c inherit pub_static_methods_classSCPIFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classFunctionGenerator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classFunctionGenerator')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a></td></tr>
-<tr class="memitem:abc4c4cb8fcabf039fb062767fb4b4de4 inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="abc4c4cb8fcabf039fb062767fb4b4de4" name="abc4c4cb8fcabf039fb062767fb4b4de4"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetNameOfShape</b> (WaveShape shape)</td></tr>
+<tr class="memitem:abc4c4cb8fcabf039fb062767fb4b4de4 inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#abc4c4cb8fcabf039fb062767fb4b4de4">GetNameOfShape</a> (<a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a> shape)</td></tr>
+<tr class="memdesc:abc4c4cb8fcabf039fb062767fb4b4de4 inherit pub_static_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a WaveShape enum to a human readable name.  <a href="classFunctionGenerator.html#abc4c4cb8fcabf039fb062767fb4b4de4">More...</a><br /></td></tr>
 <tr class="separator:abc4c4cb8fcabf039fb062767fb4b4de4 inherit pub_static_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c080122f370b78d1bbf0631a0be1cc4 inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a0c080122f370b78d1bbf0631a0be1cc4" name="a0c080122f370b78d1bbf0631a0be1cc4"></a>
-static WaveShape&#160;</td><td class="memItemRight" valign="bottom"><b>GetShapeOfName</b> (const std::string &amp;name)</td></tr>
+<tr class="memitem:a0c080122f370b78d1bbf0631a0be1cc4 inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a0c080122f370b78d1bbf0631a0be1cc4">GetShapeOfName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a0c080122f370b78d1bbf0631a0be1cc4 inherit pub_static_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a human readable name to a WaveShape.  <a href="classFunctionGenerator.html#a0c080122f370b78d1bbf0631a0be1cc4">More...</a><br /></td></tr>
 <tr class="separator:a0c080122f370b78d1bbf0631a0be1cc4 inherit pub_static_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacfaa69c18478eba1ee047b95d776c58 inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="aacfaa69c18478eba1ee047b95d776c58" name="aacfaa69c18478eba1ee047b95d776c58"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetNameOfImpedance</b> (OutputImpedance imp)</td></tr>
+<tr class="memitem:aacfaa69c18478eba1ee047b95d776c58 inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#aacfaa69c18478eba1ee047b95d776c58">GetNameOfImpedance</a> (<a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">OutputImpedance</a> imp)</td></tr>
+<tr class="memdesc:aacfaa69c18478eba1ee047b95d776c58 inherit pub_static_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OutputImpedance enum to a human readable name.  <a href="classFunctionGenerator.html#aacfaa69c18478eba1ee047b95d776c58">More...</a><br /></td></tr>
 <tr class="separator:aacfaa69c18478eba1ee047b95d776c58 inherit pub_static_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f3ec03824ea8471d84ff9af66e104b inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="ad1f3ec03824ea8471d84ff9af66e104b" name="ad1f3ec03824ea8471d84ff9af66e104b"></a>
-static OutputImpedance&#160;</td><td class="memItemRight" valign="bottom"><b>GetImpedanceOfName</b> (const std::string &amp;name)</td></tr>
+<tr class="memitem:ad1f3ec03824ea8471d84ff9af66e104b inherit pub_static_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">OutputImpedance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#ad1f3ec03824ea8471d84ff9af66e104b">GetImpedanceOfName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:ad1f3ec03824ea8471d84ff9af66e104b inherit pub_static_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a human readable name to an OutputImpedance.  <a href="classFunctionGenerator.html#ad1f3ec03824ea8471d84ff9af66e104b">More...</a><br /></td></tr>
 <tr class="separator:ad1f3ec03824ea8471d84ff9af66e104b inherit pub_static_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -869,13 +888,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PushEdgeTrigger</b> (
 <tr class="memdesc:add27c115944a1191e33672752d1fd4a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument. <br /></td></tr>
 <tr class="separator:add27c115944a1191e33672752d1fd4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
+<tr class="memitem:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="ac205c93314fa0d2a9f57f2755ef0d560" name="ac205c93314fa0d2a9f57f2755ef0d560"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ChannelsDownloadStarted</b> ()</td></tr>
+<tr class="memdesc:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers to reset all channels to "waiting to download" state. <br /></td></tr>
+<tr class="separator:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a4a4683dd262cc9f2fd6a045269358768">ChannelsDownloadStatusUpdate</a> (size_t ch, <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">InstrumentChannel::DownloadState</a> state, float progress)</td></tr>
+<tr class="memdesc:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers to set one channel's download status and update its download progress. Be aware that there is a measurement on ngscopeclient UI of the time spent between the download start and the progress of the last enabled channel. This measurement is used to decide whether to display a progress bar or not. This download speed evaluation method only works if enabled channels are download sequencially in increasing numeric order or if all channels are downloaded at the same speed.  <a href="classOscilloscope.html#a4a4683dd262cc9f2fd6a045269358768">More...</a><br /></td></tr>
+<tr class="separator:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a66e2ae698291b6bbc940e249bed29878" name="a66e2ae698291b6bbc940e249bed29878"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ChannelsDownloadFinished</b> ()</td></tr>
+<tr class="memdesc:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers when waveform download is finished to reset all channels to "no download" state. <br /></td></tr>
+<tr class="separator:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="af23079fed60bb306339952ced919205d" name="af23079fed60bb306339952ced919205d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
 <tr class="memdesc:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this oscilloscope's configuration to a YAML node. <br /></td></tr>
 <tr class="separator:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a0d2b2f14aa8a823d05a3ec34f4bae0a1" name="a0d2b2f14aa8a823d05a3ec34f4bae0a1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d04f08d7241640e878a9554c478e09c inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a5d04f08d7241640e878a9554c478e09c" name="a5d04f08d7241640e878a9554c478e09c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -895,17 +925,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>AddDiagnosticLog</b> 
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
 <tr class="separator:af24d249d09e7cb4a1afe73b7c7fbfa2d inherit pro_methods_classSCPIInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classFunctionGenerator"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classFunctionGenerator')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a></td></tr>
-<tr class="memitem:a4a9fa50e117f6e614c072518922e5be7 inherit pro_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a4a9fa50e117f6e614c072518922e5be7" name="a4a9fa50e117f6e614c072518922e5be7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
-<tr class="memdesc:a4a9fa50e117f6e614c072518922e5be7 inherit pro_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this oscilloscope's configuration to a YAML node. <br /></td></tr>
+<tr class="memitem:a4a9fa50e117f6e614c072518922e5be7 inherit pro_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a4a9fa50e117f6e614c072518922e5be7">DoSerializeConfiguration</a> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
+<tr class="memdesc:a4a9fa50e117f6e614c072518922e5be7 inherit pro_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classFunctionGenerator.html#a4a9fa50e117f6e614c072518922e5be7">More...</a><br /></td></tr>
 <tr class="separator:a4a9fa50e117f6e614c072518922e5be7 inherit pro_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabbfeb5c764bfc5d541a75e1a0f86bdc inherit pro_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="aabbfeb5c764bfc5d541a75e1a0f86bdc" name="aabbfeb5c764bfc5d541a75e1a0f86bdc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:aabbfeb5c764bfc5d541a75e1a0f86bdc inherit pro_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memitem:aabbfeb5c764bfc5d541a75e1a0f86bdc inherit pro_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#aabbfeb5c764bfc5d541a75e1a0f86bdc">DoLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
+<tr class="memdesc:aabbfeb5c764bfc5d541a75e1a0f86bdc inherit pro_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classFunctionGenerator.html#aabbfeb5c764bfc5d541a75e1a0f86bdc">More...</a><br /></td></tr>
 <tr class="separator:aabbfeb5c764bfc5d541a75e1a0f86bdc inherit pro_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a33880427035a957b8cb3570b75318b inherit pro_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a8a33880427035a957b8cb3570b75318b" name="a8a33880427035a957b8cb3570b75318b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
-<tr class="memdesc:a8a33880427035a957b8cb3570b75318b inherit pro_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memitem:a8a33880427035a957b8cb3570b75318b inherit pro_methods_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a8a33880427035a957b8cb3570b75318b">DoPreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
+<tr class="memdesc:a8a33880427035a957b8cb3570b75318b inherit pro_methods_classFunctionGenerator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate instrument and channel configuration from a save file.  <a href="classFunctionGenerator.html#a8a33880427035a957b8cb3570b75318b">More...</a><br /></td></tr>
 <tr class="separator:a8a33880427035a957b8cb3570b75318b inherit pro_methods_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -937,6 +964,9 @@ std::map&lt; size_t, float &gt;&#160;</td><td class="memItemRight" valign="botto
 <tr class="memitem:a732e1b6f5bd2090639961081574b2e9b"><td class="memItemLeft" align="right" valign="top"><a id="a732e1b6f5bd2090639961081574b2e9b" name="a732e1b6f5bd2090639961081574b2e9b"></a>
 std::map&lt; int, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelsEnabled</b></td></tr>
 <tr class="separator:a732e1b6f5bd2090639961081574b2e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e2706e6787e155dab29bb50ec778da6"><td class="memItemLeft" align="right" valign="top"><a id="a5e2706e6787e155dab29bb50ec778da6" name="a5e2706e6787e155dab29bb50ec778da6"></a>
+std::map&lt; size_t, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelDigitalThresholds</b></td></tr>
+<tr class="separator:a5e2706e6787e155dab29bb50ec778da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a473c85add8ab4b59bf075a7164d3b2c6"><td class="memItemLeft" align="right" valign="top"><a id="a473c85add8ab4b59bf075a7164d3b2c6" name="a473c85add8ab4b59bf075a7164d3b2c6"></a>
 std::map&lt; size_t, OscilloscopeChannel::CouplingType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelCouplings</b></td></tr>
 <tr class="separator:a473c85add8ab4b59bf075a7164d3b2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1041,7 +1071,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_fwVersion</b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a2105ec987f7c7bbc0aa26cf83692bbd2"><td class="memItemLeft" align="right" valign="top">static const std::map&lt; const std::string, const WaveShape &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a2105ec987f7c7bbc0aa26cf83692bbd2">m_waveShapeNames</a></td></tr>
+<tr class="memitem:a2105ec987f7c7bbc0aa26cf83692bbd2"><td class="memItemLeft" align="right" valign="top">static const std::map&lt; const std::string, const <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSRTO6Oscilloscope.html#a2105ec987f7c7bbc0aa26cf83692bbd2">m_waveShapeNames</a></td></tr>
 <tr class="separator:a2105ec987f7c7bbc0aa26cf83692bbd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
 <tr class="memitem:aa65cfd8b3ad3f3a78cd2ab6981739dd9 inherit pro_static_attribs_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="aa65cfd8b3ad3f3a78cd2ab6981739dd9" name="aa65cfd8b3ad3f3a78cd2ab6981739dd9"></a>
@@ -1103,7 +1133,7 @@ typedef std::shared_ptr&lt; <a class="el" href="classOscilloscope.html">Oscillos
 typedef std::shared_ptr&lt; <a class="el" href="classSCPIFunctionGenerator.html">SCPIFunctionGenerator</a> &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><b>GeneratorCreateProcType</b>) (<a class="el" href="classSCPITransport.html">SCPITransport</a> *)</td></tr>
 <tr class="separator:a15804a2aa9c52015fadeb921174ef5f1 inherit pub_types_classSCPIFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classFunctionGenerator"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classFunctionGenerator')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a></td></tr>
-<tr class="memitem:a454477b6f3f16a93c1d4aa78681df907 inherit pub_types_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a454477b6f3f16a93c1d4aa78681df907" name="a454477b6f3f16a93c1d4aa78681df907"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>WaveShape</b> { <br />
+<tr class="memitem:a454477b6f3f16a93c1d4aa78681df907 inherit pub_types_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="a454477b6f3f16a93c1d4aa78681df907" name="a454477b6f3f16a93c1d4aa78681df907"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a> { <br />
 &#160;&#160;<b>SHAPE_SINE</b>
 , <b>SHAPE_SQUARE</b>
 , <b>SHAPE_TRIANGLE</b>
@@ -1162,10 +1192,12 @@ typedef std::shared_ptr&lt; <a class="el" href="classSCPIFunctionGenerator.html"
 &#160;&#160;<b>SHAPE_ARB</b>
 <br />
  }</td></tr>
+<tr class="memdesc:a454477b6f3f16a93c1d4aa78681df907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined waveform shapes. <br /></td></tr>
 <tr class="separator:a454477b6f3f16a93c1d4aa78681df907 inherit pub_types_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd9cef74c1d8b37277abf3442d21fea inherit pub_types_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top"><a id="aafd9cef74c1d8b37277abf3442d21fea" name="aafd9cef74c1d8b37277abf3442d21fea"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>OutputImpedance</b> { <b>IMPEDANCE_HIGH_Z</b>
-, <b>IMPEDANCE_50_OHM</b>
+<tr class="memitem:aafd9cef74c1d8b37277abf3442d21fea inherit pub_types_classFunctionGenerator"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">OutputImpedance</a> { <a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21feaa4f29333bbed01c053b1391e725f18a1e">IMPEDANCE_HIGH_Z</a>
+, <a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21feaaedec1ee48e0fb1609a336690851d0ee5">IMPEDANCE_50_OHM</a>
  }</td></tr>
+<tr class="memdesc:aafd9cef74c1d8b37277abf3442d21fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nominal output impedance for a function generator channel.  <a href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">More...</a><br /></td></tr>
 <tr class="separator:aafd9cef74c1d8b37277abf3442d21fea inherit pub_types_classFunctionGenerator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
 <tr class="memitem:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#abd440c031656ca3947b23e899aacc299">m_nickname</a></td></tr>
@@ -1396,7 +1428,7 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt; FunctionGenerator::WaveShape &gt; RSRTO6Oscilloscope::GetAvailableWaveformShapes </td>
+          <td class="memname">vector&lt; <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> &gt; RSRTO6Oscilloscope::GetAvailableWaveformShapes </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>chan</em></td><td>)</td>
@@ -1410,7 +1442,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Query the set of available pre-defined waveforms for this generator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of supported WaveShape's </dd></dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a46cc5a731baa20c860e29c050671e3d1">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -1800,7 +1841,15 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Returns true if the function generator channel's output is enabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a5373636188fcad9e4b787e82d74c5224">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -1828,7 +1877,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Gets the amplitude for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Amplitude, in Vpp </dd></dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#accd65c45355d3aa362dac7749933253e">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -1856,7 +1914,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Gets the duty cycle for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Duty cycle, in range [0, 1] </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classFunctionGenerator.html#a03bd489aff31e2714db57e0d19a885b4">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -1884,7 +1951,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Gets the frequency for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Frequency, in Hz </dd></dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a6ac4025ddf9befeb2304295c2429cfef">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -1912,7 +1988,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Gets the DC offset for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Offset, in volts </dd></dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a7100b018faa5ad40f6b9f8ee9eaf48b9">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -1926,7 +2011,7 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FunctionGenerator::OutputImpedance RSRTO6Oscilloscope::GetFunctionChannelOutputImpedance </td>
+          <td class="memname"><a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">FunctionGenerator::OutputImpedance</a> RSRTO6Oscilloscope::GetFunctionChannelOutputImpedance </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>chan</em></td><td>)</td>
@@ -1940,7 +2025,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Gets the currently selected output impedance for a function generator output (if supported) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Output impedance </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classFunctionGenerator.html#a600d883e2a82aa66b289d678c18daaae">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -1954,7 +2048,7 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FunctionGenerator::WaveShape RSRTO6Oscilloscope::GetFunctionChannelShape </td>
+          <td class="memname"><a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> RSRTO6Oscilloscope::GetFunctionChannelShape </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>chan</em></td><td>)</td>
@@ -1968,7 +2062,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Gets the waveform shape for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Waveform shape </dd></dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a6d9b55b9f6bc883a0ee111101dae562e">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -2329,8 +2432,15 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Determines if the function generator allows control over rise/fall times. </p>
-<p >If this function returns false, GetFunctionChannelDutyCycle() will always return 0.5, and SetFunctionChannelRiseTime() and SetFunctionChannelDutyCycle() is a no-op. </p>
+<p>Determines if the function generator allows control over duty cycles. </p>
+<p >If this function returns false, <a class="el" href="classRSRTO6Oscilloscope.html#adee986388ed7d90272589785fcf162f8" title="Gets the duty cycle for a function generator output.">GetFunctionChannelDutyCycle()</a> will always return 0.5, and <a class="el" href="classFunctionGenerator.html#afb80a4734359f7570244f98bd1627824" title="Sets the rise time for a function generator output (if supported)">SetFunctionChannelRiseTime()</a> and <a class="el" href="classRSRTO6Oscilloscope.html#abf71b504aad31edb0b65b9433e202e89" title="Sets the duty cycle for a function generator output.">SetFunctionChannelDutyCycle()</a> is a no-op.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if duty cycle control is available, false if unavailable </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classFunctionGenerator.html#a5570509def892f62f44af1c18e622d63">FunctionGenerator</a>.</p>
 
@@ -2361,7 +2471,14 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </div><div class="memdoc">
 
 <p>Determines if the function generator allows control over rise/fall times. </p>
-<p >If this function returns false, GetFunctionChannelRiseTime() and GetFunctionChannelFallTime() will always return 0, and SetFunctionChannelRiseTime() and SetFunctionChannelFallTime() are no-ops. </p>
+<p >If this function returns false, <a class="el" href="classFunctionGenerator.html#abba5b29a7973dafc62ab9be96ac592e1" title="Gets the rise time for a function generator output (if supported)">GetFunctionChannelRiseTime()</a> and <a class="el" href="classFunctionGenerator.html#aa8afd0abc555ba7cc7270da9c238c9c1" title="Gets the fall time for a function generator output (if supported)">GetFunctionChannelFallTime()</a> will always return 0, and <a class="el" href="classFunctionGenerator.html#afb80a4734359f7570244f98bd1627824" title="Sets the rise time for a function generator output (if supported)">SetFunctionChannelRiseTime()</a> and <a class="el" href="classFunctionGenerator.html#af365e9ac040578cba4e304723352b2ee" title="Sets the fall time for a function generator output (if supported)">SetFunctionChannelFallTime()</a> are no-ops.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if rise/fall time control is available, false if unavailable </dd></dl>
 
 <p>Implements <a class="el" href="classFunctionGenerator.html#a09569c5b1a1313681f12e00c3caee884">FunctionGenerator</a>.</p>
 
@@ -2926,7 +3043,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Turns a function generator channel on or off. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+    <tr><td class="paramname">on</td><td>True to enable output, false to disable </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a40442190dad55eeec2ca423e7d564451">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -2964,7 +3090,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Sets the amplitude for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+    <tr><td class="paramname">amplitude</td><td>Output amplitude, in Vpp </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a5c108c5013c39444bc8bc672eb78f5fb">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -3002,7 +3137,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Sets the duty cycle for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+    <tr><td class="paramname">duty</td><td>Duty cycle, in range [0, 1] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classFunctionGenerator.html#a714eb1e5b56f14ebfe8bbdc39c41edbe">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -3040,7 +3184,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Sets the frequency for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+    <tr><td class="paramname">hz</td><td>Frequency, in Hz </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a02e492d6cd4f12732bafa70cddcb078f">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -3078,7 +3231,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Sets the DC offset for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+    <tr><td class="paramname">amplitude</td><td>Offset, in volts </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#aefd3d9dab250ff097de1e6a4c87498e1">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -3100,7 +3262,7 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FunctionGenerator::OutputImpedance&#160;</td>
+          <td class="paramtype"><a class="el" href="classFunctionGenerator.html#aafd9cef74c1d8b37277abf3442d21fea">FunctionGenerator::OutputImpedance</a>&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -3116,7 +3278,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Sets the currently selected output impedance for a function generator output (if supported) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+    <tr><td class="paramname">z</td><td>Output impedance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classFunctionGenerator.html#a06594621cf80137320d876dcfe17bf7a">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -3138,7 +3309,7 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FunctionGenerator::WaveShape&#160;</td>
+          <td class="paramtype"><a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">WaveShape</a>&#160;</td>
           <td class="paramname"><em>shape</em>&#160;</td>
         </tr>
         <tr>
@@ -3154,7 +3325,16 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classFunctionGenerator.html">FunctionGenerator</a>.</p>
+<p>Sets the waveform shape for a function generator output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chan</td><td>Channel index </td></tr>
+    <tr><td class="paramname">shape</td><td>Desired output waveform </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classFunctionGenerator.html#a60a307059da71fc15b5137e9eaf63e88">FunctionGenerator</a>.</p>
 
 </div>
 </div>
@@ -3385,7 +3565,7 @@ typedef std::map&lt; std::string, GeneratorCreateProcType &gt;&#160;</td><td cla
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::map&lt; const std::string, const FunctionGenerator::WaveShape &gt; RSRTO6Oscilloscope::m_waveShapeNames</td>
+          <td class="memname">const std::map&lt; const std::string, const <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> &gt; RSRTO6Oscilloscope::m_waveShapeNames</td>
         </tr>
       </table>
   </td>

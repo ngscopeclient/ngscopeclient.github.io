@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -93,9 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a054aa54feaf07b6448790b19bd57134b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUART.html#a054aa54feaf07b6448790b19bd57134b">UART</a> (const std::string &amp;devfile, int baud)</td></tr>
 <tr class="memdesc:a054aa54feaf07b6448790b19bd57134b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a serial port.  <a href="classUART.html#a054aa54feaf07b6448790b19bd57134b">More...</a><br /></td></tr>
 <tr class="separator:a054aa54feaf07b6448790b19bd57134b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b36b6a9d14ab3a68eeda48d35fb6028"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUART.html#a8b36b6a9d14ab3a68eeda48d35fb6028">Connect</a> (const std::string &amp;devfile, int baud)</td></tr>
-<tr class="memdesc:a8b36b6a9d14ab3a68eeda48d35fb6028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a serial port.  <a href="classUART.html#a8b36b6a9d14ab3a68eeda48d35fb6028">More...</a><br /></td></tr>
-<tr class="separator:a8b36b6a9d14ab3a68eeda48d35fb6028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804a0b023e7317a2ecd8100e699493d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUART.html#a804a0b023e7317a2ecd8100e699493d4">Connect</a> (const std::string &amp;devfile, int baud, bool dtrEnable=false)</td></tr>
+<tr class="memdesc:a804a0b023e7317a2ecd8100e699493d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a serial port.  <a href="classUART.html#a804a0b023e7317a2ecd8100e699493d4">More...</a><br /></td></tr>
+<tr class="separator:a804a0b023e7317a2ecd8100e699493d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a066225f909734a82da1ca06f24304103"><td class="memItemLeft" align="right" valign="top"><a id="a066225f909734a82da1ca06f24304103" name="a066225f909734a82da1ca06f24304103"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Close</b> ()</td></tr>
 <tr class="memdesc:a066225f909734a82da1ca06f24304103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects from the serial port. <br /></td></tr>
@@ -176,8 +176,8 @@ FILE_DESCRIPTOR&#160;</td><td class="memItemRight" valign="bottom"><b>m_fd</b></
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8b36b6a9d14ab3a68eeda48d35fb6028" name="a8b36b6a9d14ab3a68eeda48d35fb6028"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b36b6a9d14ab3a68eeda48d35fb6028">&#9670;&nbsp;</a></span>Connect()</h2>
+<a id="a804a0b023e7317a2ecd8100e699493d4" name="a804a0b023e7317a2ecd8100e699493d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804a0b023e7317a2ecd8100e699493d4">&#9670;&nbsp;</a></span>Connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,13 @@ FILE_DESCRIPTOR&#160;</td><td class="memItemRight" valign="bottom"><b>m_fd</b></
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>baud</em>&#160;</td>
+          <td class="paramname"><em>baud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>dtrEnable</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -213,6 +219,7 @@ FILE_DESCRIPTOR&#160;</td><td class="memItemRight" valign="bottom"><b>m_fd</b></
   <table class="params">
     <tr><td class="paramname">devfile</td><td>The device file </td></tr>
     <tr><td class="paramname">baud</td><td>Baud rate to use (in bits per second) </td></tr>
+    <tr><td class="paramname">dtrEnable</td><td>True if DTR line should be enabled (needed by some devices like the <a class="el" href="classNanoVNA.html" title="NanoVNA - driver for talking to a NanoVNA using the NanoVNA 5 software.">NanoVNA</a> to communicate) </td></tr>
   </table>
   </dd>
 </dl>

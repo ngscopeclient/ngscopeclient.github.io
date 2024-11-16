@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -66,7 +66,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classWaveformCacheKey-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WaveformCacheKey Class Reference</div></div>
+  <div class="headertitle"><div class="title">WaveformCacheKey Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -88,8 +88,12 @@ Collaboration diagram for WaveformCacheKey:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac374238bee91cf388f361aa079c34478"><td class="memItemLeft" align="right" valign="top"><a id="ac374238bee91cf388f361aa079c34478" name="ac374238bee91cf388f361aa079c34478"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>WaveformCacheKey</b> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *wfm)</td></tr>
+<tr class="memitem:a05fc9af274b598fbf77cc952db8be09b"><td class="memItemLeft" align="right" valign="top"><a id="a05fc9af274b598fbf77cc952db8be09b" name="a05fc9af274b598fbf77cc952db8be09b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>WaveformCacheKey</b> ()</td></tr>
+<tr class="memdesc:a05fc9af274b598fbf77cc952db8be09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an empty cache key for a null waveform. <br /></td></tr>
+<tr class="separator:a05fc9af274b598fbf77cc952db8be09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac374238bee91cf388f361aa079c34478"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformCacheKey.html#ac374238bee91cf388f361aa079c34478">WaveformCacheKey</a> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *wfm)</td></tr>
+<tr class="memdesc:ac374238bee91cf388f361aa079c34478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a cache key for a waveform.  <a href="classWaveformCacheKey.html#ac374238bee91cf388f361aa079c34478">More...</a><br /></td></tr>
 <tr class="separator:ac374238bee91cf388f361aa079c34478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abce5bd888b89ebd9ec548515efcf7369"><td class="memItemLeft" align="right" valign="top"><a id="abce5bd888b89ebd9ec548515efcf7369" name="abce5bd888b89ebd9ec548515efcf7369"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *wfm)</td></tr>
@@ -108,15 +112,71 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (<a cl
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2eada0d76bba626e2838dadeebea656e"><td class="memItemLeft" align="right" valign="top"><a id="a2eada0d76bba626e2838dadeebea656e" name="a2eada0d76bba626e2838dadeebea656e"></a>
 <a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_wfm</b></td></tr>
+<tr class="memdesc:a2eada0d76bba626e2838dadeebea656e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the waveform object. <br /></td></tr>
 <tr class="separator:a2eada0d76bba626e2838dadeebea656e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afec8409f23aef9948527e493c6b6bdf2"><td class="memItemLeft" align="right" valign="top"><a id="afec8409f23aef9948527e493c6b6bdf2" name="afec8409f23aef9948527e493c6b6bdf2"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_rev</b></td></tr>
+<tr class="memitem:afec8409f23aef9948527e493c6b6bdf2"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformCacheKey.html#afec8409f23aef9948527e493c6b6bdf2">m_rev</a></td></tr>
 <tr class="separator:afec8409f23aef9948527e493c6b6bdf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Describes a particular revision of a waveform. </p>
 <p >Used to determine whether a filter input has changed, and thus cached state should be invalidated </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac374238bee91cf388f361aa079c34478" name="ac374238bee91cf388f361aa079c34478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac374238bee91cf388f361aa079c34478">&#9670;&nbsp;</a></span>WaveformCacheKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WaveformCacheKey::WaveformCacheKey </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td>
+          <td class="paramname"><em>wfm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a cache key for a waveform. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wfm</td><td>Input waveform </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afec8409f23aef9948527e493c6b6bdf2" name="afec8409f23aef9948527e493c6b6bdf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afec8409f23aef9948527e493c6b6bdf2">&#9670;&nbsp;</a></span>m_rev</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t WaveformCacheKey::m_rev</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Version</td><td>of the waveform </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/scopehal/<a class="el" href="Filter_8h_source.html">Filter.h</a></li>
 </ul>
 </div><!-- contents -->

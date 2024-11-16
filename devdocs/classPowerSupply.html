@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -79,16 +79,19 @@ Inheritance diagram for PowerSupply:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPowerSupply__inherit__graph.png" border="0" usemap="#aPowerSupply_inherit__map" alt="Inheritance graph"/></div>
 <map name="aPowerSupply_inherit__map" id="aPowerSupply_inherit__map">
-<area shape="rect" title="A generic power supply." alt="" coords="387,132,493,159"/>
-<area shape="rect" href="classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="541,132,676,159"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,132,339,159"/>
-<area shape="rect" title=" " alt="" coords="5,125,197,166"/>
-<area shape="rect" href="classDemoPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="771,5,916,32"/>
-<area shape="rect" href="classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="724,56,963,83"/>
-<area shape="rect" href="classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="761,107,926,133"/>
-<area shape="rect" href="classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="753,157,934,184"/>
-<area shape="rect" href="classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="733,209,953,250"/>
-<area shape="rect" href="classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="768,275,919,301"/>
+<area shape="rect" title="A generic power supply." alt="" coords="387,208,493,235"/>
+<area shape="rect" href="classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="541,208,676,235"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,208,339,235"/>
+<area shape="rect" title=" " alt="" coords="5,201,197,242"/>
+<area shape="rect" href="classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="763,5,923,32"/>
+<area shape="rect" href="classDemoPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="771,56,916,83"/>
+<area shape="rect" href="classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="724,107,963,133"/>
+<area shape="rect" href="classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="761,157,926,184"/>
+<area shape="rect" href="classKuaiquPowerSupply.html" title="A KUAIQU power supply." alt="" coords="768,208,919,235"/>
+<area shape="rect" href="classRidenPowerSupply.html" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="772,259,915,285"/>
+<area shape="rect" href="classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="753,309,934,336"/>
+<area shape="rect" href="classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="733,361,953,402"/>
+<area shape="rect" href="classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="768,427,919,453"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -229,7 +232,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -243,7 +246,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a2514be1aa0ec30349b2a3ad1f73fcd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9968ac1c2ce757b00021aa0dfc4d8b05"><td class="memItemLeft" align="right" valign="top"><a id="a9968ac1c2ce757b00021aa0dfc4d8b05" name="a9968ac1c2ce757b00021aa0dfc4d8b05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a9968ac1c2ce757b00021aa0dfc4d8b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b35da06103790c7a3b8d799c2de772"><td class="memItemLeft" align="right" valign="top"><a id="aa5b35da06103790c7a3b8d799c2de772" name="aa5b35da06103790c7a3b8d799c2de772"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -462,7 +465,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 <p>Determines if the power supply supports switching individual output channels. </p>
 <p >If this function returns false, GetPowerChannelActive() will always return true, and SetPowerChannelActive() is a no-op. </p>
 
-<p>Reimplemented in <a class="el" href="classDemoPowerSupply.html#ad9eaf4a6180b4888d5a5b9a8188429f9">DemoPowerSupply</a>, <a class="el" href="classHP662xAPowerSupply.html#af98e61f5399c9d347375876d7e8ce5c2">HP662xAPowerSupply</a>, <a class="el" href="classRigolDP8xxPowerSupply.html#a9b8788aa33301fac1b397b35e05b175b">RigolDP8xxPowerSupply</a>, <a class="el" href="classRohdeSchwarzHMC804xPowerSupply.html#a746a007e226273e1bb258ca94cf3a094">RohdeSchwarzHMC804xPowerSupply</a>, and <a class="el" href="classSiglentPowerSupply.html#af4ec41baebc300419f0a26340d69fadf">SiglentPowerSupply</a>.</p>
+<p>Reimplemented in <a class="el" href="classAlientekPowerSupply.html#a11d9221d128a0a9829b2f0057d1265fb">AlientekPowerSupply</a>, <a class="el" href="classDemoPowerSupply.html#ad9eaf4a6180b4888d5a5b9a8188429f9">DemoPowerSupply</a>, <a class="el" href="classHP662xAPowerSupply.html#af98e61f5399c9d347375876d7e8ce5c2">HP662xAPowerSupply</a>, <a class="el" href="classKuaiquPowerSupply.html#a67b70c4328874661d5b0206ab5287c49">KuaiquPowerSupply</a>, <a class="el" href="classRidenPowerSupply.html#afa4cd5843b82bc9ca90525957a3a874d">RidenPowerSupply</a>, <a class="el" href="classRigolDP8xxPowerSupply.html#a9b8788aa33301fac1b397b35e05b175b">RigolDP8xxPowerSupply</a>, <a class="el" href="classRohdeSchwarzHMC804xPowerSupply.html#a746a007e226273e1bb258ca94cf3a094">RohdeSchwarzHMC804xPowerSupply</a>, and <a class="el" href="classSiglentPowerSupply.html#af4ec41baebc300419f0a26340d69fadf">SiglentPowerSupply</a>.</p>
 
 </div>
 </div>
@@ -583,7 +586,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 <p>Determines if the power supply supports voltage/current control for the given channel. </p>
 <p >If this function returns false, GetPowerVoltage* and GetPowerCurrent* will always return zero, and SetPowerCurrent*, and SetPowerVoltage* are no-ops. </p>
 
-<p>Reimplemented in <a class="el" href="classSiglentPowerSupply.html#a60adffaed870804bb8ac95a172ed4846">SiglentPowerSupply</a>.</p>
+<p>Reimplemented in <a class="el" href="classAlientekPowerSupply.html#a95a8d7b5d3069ab61e29203926ca8c23">AlientekPowerSupply</a>, <a class="el" href="classKuaiquPowerSupply.html#a30062049492374fb2cb13ade326dd50c">KuaiquPowerSupply</a>, <a class="el" href="classRidenPowerSupply.html#a82b99608f1c4d13018862bbbb8a7dbff">RidenPowerSupply</a>, and <a class="el" href="classSiglentPowerSupply.html#a60adffaed870804bb8ac95a172ed4846">SiglentPowerSupply</a>.</p>
 
 </div>
 </div>

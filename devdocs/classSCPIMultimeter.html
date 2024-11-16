@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -81,17 +81,18 @@ Inheritance diagram for SCPIMultimeter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSCPIMultimeter__inherit__graph.png" border="0" usemap="#aSCPIMultimeter_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSCPIMultimeter_inherit__map" id="aSCPIMultimeter_inherit__map">
-<area shape="rect" title="An SCPI&#45;based multimeter." alt="" coords="259,244,381,271"/>
-<area shape="rect" href="classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="20,319,169,345"/>
-<area shape="rect" href="classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="194,319,446,345"/>
-<area shape="rect" href="classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="470,319,634,345"/>
-<area shape="rect" href="classMultimeter.html" title="A multimeter." alt="" coords="339,169,434,196"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="332,95,425,121"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="192,169,315,196"/>
-<area shape="rect" title=" " alt="" coords="283,5,475,47"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="205,95,301,121"/>
-<area shape="rect" href="classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="5,393,184,420"/>
-<area shape="rect" href="classTektronixHSIOscilloscope.html" title="TektronixHSIOscilloscope." alt="" coords="459,393,645,420"/>
+<area shape="rect" title="An SCPI&#45;based multimeter." alt="" coords="560,81,683,108"/>
+<area shape="rect" href="classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="782,5,931,32"/>
+<area shape="rect" href="classOwonXDMMultimeter.html" title="Driver for Owon XDM multimeter." alt="" coords="775,56,938,83"/>
+<area shape="rect" href="classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="731,107,983,133"/>
+<area shape="rect" href="classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="775,157,939,184"/>
+<area shape="rect" href="classMultimeter.html" title="A multimeter." alt="" coords="403,107,498,133"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,107,340,133"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="389,56,512,83"/>
+<area shape="rect" title=" " alt="" coords="5,99,197,141"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,56,341,83"/>
+<area shape="rect" href="classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1035,5,1213,32"/>
+<area shape="rect" href="classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1031,157,1217,184"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -116,15 +117,20 @@ typedef std::shared_ptr&lt; <a class="el" href="classSCPIMultimeter.html">SCPIMu
 <tr class="separator:afa7f008dc4a233bbdfd3d3f9063d063b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classMultimeter"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMultimeter')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMultimeter.html">Multimeter</a></td></tr>
 <tr class="memitem:ace2fa030ae199c41526d1f247112dddf inherit pub_types_classMultimeter"><td class="memItemLeft" align="right" valign="top"><a id="ace2fa030ae199c41526d1f247112dddf" name="ace2fa030ae199c41526d1f247112dddf"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>MeasurementTypes</b> { <br />
-&#160;&#160;<b>NONE</b> = 0x00
-, <b>DC_VOLTAGE</b> = 0x01
-, <b>DC_RMS_AMPLITUDE</b> = 0x02
-, <b>AC_RMS_AMPLITUDE</b> = 0x04
+&#160;&#160;<b>NONE</b> = 0x000
+, <b>DC_VOLTAGE</b> = 0x001
+, <b>DC_RMS_AMPLITUDE</b> = 0x002
+, <b>AC_RMS_AMPLITUDE</b> = 0x004
 , <br />
-&#160;&#160;<b>FREQUENCY</b> = 0x08
-, <b>DC_CURRENT</b> = 0x10
-, <b>AC_CURRENT</b> = 0x20
-, <b>TEMPERATURE</b> = 0x40
+&#160;&#160;<b>FREQUENCY</b> = 0x008
+, <b>DC_CURRENT</b> = 0x010
+, <b>AC_CURRENT</b> = 0x020
+, <b>TEMPERATURE</b> = 0x040
+, <br />
+&#160;&#160;<b>RESISTANCE</b> = 0x080
+, <b>CAPACITANCE</b> = 0x100
+, <b>CONTINUITY</b> = 0x200
+, <b>DIODE</b> = 0x400
 <br />
  }</td></tr>
 <tr class="separator:ace2fa030ae199c41526d1f247112dddf inherit pub_types_classMultimeter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,7 +291,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -327,7 +333,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a2c2733ea33bd793046ba126a8a7dd5ae inherit pro_methods_classMultimeter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f81b5b2557e6af868c4c5419bbdf834 inherit pro_methods_classMultimeter"><td class="memItemLeft" align="right" valign="top"><a id="a0f81b5b2557e6af868c4c5419bbdf834" name="a0f81b5b2557e6af868c4c5419bbdf834"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a0f81b5b2557e6af868c4c5419bbdf834 inherit pro_methods_classMultimeter"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a0f81b5b2557e6af868c4c5419bbdf834 inherit pro_methods_classMultimeter"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a0f81b5b2557e6af868c4c5419bbdf834 inherit pro_methods_classMultimeter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56b5790927e46a34adb68515884a3334 inherit pro_methods_classMultimeter"><td class="memItemLeft" align="right" valign="top"><a id="a56b5790927e46a34adb68515884a3334" name="a56b5790927e46a34adb68515884a3334"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>

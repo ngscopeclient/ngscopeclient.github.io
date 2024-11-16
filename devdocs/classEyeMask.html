@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -64,10 +64,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classEyeMask-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">EyeMask Class Reference</div></div>
+  <div class="headertitle"><div class="title">EyeMask Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__datamodel.html">Data model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -78,69 +77,187 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a663688994785e786f2f8b0a223d6abf3"><td class="memItemLeft" align="right" valign="top"><a id="a663688994785e786f2f8b0a223d6abf3" name="a663688994785e786f2f8b0a223d6abf3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>EyeMask</b> ()</td></tr>
+<tr class="memdesc:a663688994785e786f2f8b0a223d6abf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize an empty mask. <br /></td></tr>
+<tr class="separator:a663688994785e786f2f8b0a223d6abf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09883ec2aae1cbc64bffd037d366dd32"><td class="memItemLeft" align="right" valign="top"><a id="a09883ec2aae1cbc64bffd037d366dd32" name="a09883ec2aae1cbc64bffd037d366dd32"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>Load</b> (std::string path)</td></tr>
 <tr class="separator:a09883ec2aae1cbc64bffd037d366dd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1e9e7d736e18787f98ff70a473f479e"><td class="memItemLeft" align="right" valign="top"><a id="af1e9e7d736e18787f98ff70a473f479e" name="af1e9e7d736e18787f98ff70a473f479e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Load</b> (const YAML::Node &amp;node)</td></tr>
-<tr class="memdesc:af1e9e7d736e18787f98ff70a473f479e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the YAML file. <br /></td></tr>
+<tr class="memitem:af1e9e7d736e18787f98ff70a473f479e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeMask.html#af1e9e7d736e18787f98ff70a473f479e">Load</a> (const YAML::Node &amp;node)</td></tr>
+<tr class="memdesc:af1e9e7d736e18787f98ff70a473f479e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the mask from a YAML node.  <a href="classEyeMask.html#af1e9e7d736e18787f98ff70a473f479e">More...</a><br /></td></tr>
 <tr class="separator:af1e9e7d736e18787f98ff70a473f479e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa14a352fe7d83c23d2906dc7cb75f3ec"><td class="memItemLeft" align="right" valign="top"><a id="aa14a352fe7d83c23d2906dc7cb75f3ec" name="aa14a352fe7d83c23d2906dc7cb75f3ec"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetFileName</b> () const</td></tr>
+<tr class="memdesc:aa14a352fe7d83c23d2906dc7cb75f3ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the filename of the mask. <br /></td></tr>
 <tr class="separator:aa14a352fe7d83c23d2906dc7cb75f3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c0368596e199d33160b2cecb8646f30"><td class="memItemLeft" align="right" valign="top"><a id="a5c0368596e199d33160b2cecb8646f30" name="a5c0368596e199d33160b2cecb8646f30"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaskName</b> () const</td></tr>
+<tr class="memdesc:a5c0368596e199d33160b2cecb8646f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the display name of the eye pattern mask. <br /></td></tr>
 <tr class="separator:a5c0368596e199d33160b2cecb8646f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63efd134c809497ab513452fa9bb4c2b"><td class="memItemLeft" align="right" valign="top"><a id="a63efd134c809497ab513452fa9bb4c2b" name="a63efd134c809497ab513452fa9bb4c2b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllowedHitRate</b> () const</td></tr>
+<tr class="memitem:a63efd134c809497ab513452fa9bb4c2b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeMask.html#a63efd134c809497ab513452fa9bb4c2b">GetAllowedHitRate</a> () const</td></tr>
+<tr class="memdesc:a63efd134c809497ab513452fa9bb4c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the allowed mask hit rate.  <a href="classEyeMask.html#a63efd134c809497ab513452fa9bb4c2b">More...</a><br /></td></tr>
 <tr class="separator:a63efd134c809497ab513452fa9bb4c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa16c6c3a0bba4ec81ef7d2be5421af34"><td class="memItemLeft" align="right" valign="top"><a id="aa16c6c3a0bba4ec81ef7d2be5421af34" name="aa16c6c3a0bba4ec81ef7d2be5421af34"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RenderForDisplay</b> (Cairo::RefPtr&lt; Cairo::Context &gt; cr, <a class="el" href="classEyeWaveform.html">EyeWaveform</a> *waveform, float xscale, float xoff, float yscale, float yoff, float height) const</td></tr>
-<tr class="separator:aa16c6c3a0bba4ec81ef7d2be5421af34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94970398d90c53f2d987ce7f8b647847"><td class="memItemLeft" align="right" valign="top"><a id="a94970398d90c53f2d987ce7f8b647847" name="a94970398d90c53f2d987ce7f8b647847"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RenderForAnalysis</b> (Cairo::RefPtr&lt; Cairo::Context &gt; cr, <a class="el" href="classEyeWaveform.html">EyeWaveform</a> *waveform, float xscale, float xoff, float yscale, float yoff, float height) const</td></tr>
-<tr class="separator:a94970398d90c53f2d987ce7f8b647847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1ba056320aab26c3b5471338b89afe1"><td class="memItemLeft" align="right" valign="top"><a id="aa1ba056320aab26c3b5471338b89afe1" name="aa1ba056320aab26c3b5471338b89afe1"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>CalculateHitRate</b> (<a class="el" href="classEyeWaveform.html">EyeWaveform</a> *cap, size_t width, size_t height, float fullscalerange, float xscale, float xoff) const</td></tr>
-<tr class="memdesc:aa1ba056320aab26c3b5471338b89afe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks a raw eye pattern dataset against the mask. <br /></td></tr>
-<tr class="separator:aa1ba056320aab26c3b5471338b89afe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2938c55228dc603755476ce4cfa6e372"><td class="memItemLeft" align="right" valign="top"><a id="a2938c55228dc603755476ce4cfa6e372" name="a2938c55228dc603755476ce4cfa6e372"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RenderForAnalysis</b> (<a class="el" href="classEyeWaveform.html">EyeWaveform</a> *waveform, float xscale, float xoff, float yscale, float yoff, float height) const</td></tr>
+<tr class="memdesc:a2938c55228dc603755476ce4cfa6e372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the mask to an offscreen buffer we can use for hit testing. <br /></td></tr>
+<tr class="separator:a2938c55228dc603755476ce4cfa6e372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab378f8dacec5e31256c8f748de3b675d"><td class="memItemLeft" align="right" valign="top"><a id="ab378f8dacec5e31256c8f748de3b675d" name="ab378f8dacec5e31256c8f748de3b675d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>CalculateHitRate</b> (<a class="el" href="classEyeWaveform.html">EyeWaveform</a> *cap, size_t width, size_t height, float fullscalerange, float xscale, float xoff)</td></tr>
+<tr class="memdesc:ab378f8dacec5e31256c8f748de3b675d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks a raw eye pattern dataset against the mask. <br /></td></tr>
+<tr class="separator:ab378f8dacec5e31256c8f748de3b675d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a110940330b6bb2cb37c1efc33d30988f"><td class="memItemLeft" align="right" valign="top"><a id="a110940330b6bb2cb37c1efc33d30988f" name="a110940330b6bb2cb37c1efc33d30988f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const</td></tr>
+<tr class="memdesc:a110940330b6bb2cb37c1efc33d30988f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if there are no polygons in the mask. <br /></td></tr>
 <tr class="separator:a110940330b6bb2cb37c1efc33d30988f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f8195e45932f7730737e8c29afb84b8"><td class="memItemLeft" align="right" valign="top"><a id="a8f8195e45932f7730737e8c29afb84b8" name="a8f8195e45932f7730737e8c29afb84b8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTimebaseRelative</b> ()</td></tr>
+<tr class="memdesc:a8f8195e45932f7730737e8c29afb84b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the timebase is in relative units (UI) and false if absolute (time) <br /></td></tr>
 <tr class="separator:a8f8195e45932f7730737e8c29afb84b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5191fb86babeb63d81014abe37e38f9d"><td class="memItemLeft" align="right" valign="top"><a id="a5191fb86babeb63d81014abe37e38f9d" name="a5191fb86babeb63d81014abe37e38f9d"></a>
 const std::vector&lt; <a class="el" href="classEyeMaskPolygon.html">EyeMaskPolygon</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPolygons</b> () const</td></tr>
+<tr class="memdesc:a5191fb86babeb63d81014abe37e38f9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the set of polygons in the mask. <br /></td></tr>
 <tr class="separator:a5191fb86babeb63d81014abe37e38f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a8bf457f2cc42a9842380c81776b5a53d"><td class="memItemLeft" align="right" valign="top"><a id="a8bf457f2cc42a9842380c81776b5a53d" name="a8bf457f2cc42a9842380c81776b5a53d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RenderInternal</b> (Cairo::RefPtr&lt; Cairo::Context &gt; cr, <a class="el" href="classEyeWaveform.html">EyeWaveform</a> *waveform, float xscale, float xoff, float yscale, float yoff, float height) const</td></tr>
-<tr class="separator:a8bf457f2cc42a9842380c81776b5a53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc3bd9de053dad53206d4be2a4a4ca1"><td class="memItemLeft" align="right" valign="top"><a id="adcc3bd9de053dad53206d4be2a4a4ca1" name="adcc3bd9de053dad53206d4be2a4a4ca1"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetWidth</b> ()</td></tr>
+<tr class="memdesc:adcc3bd9de053dad53206d4be2a4a4ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the rendered width of the mask. <br /></td></tr>
+<tr class="separator:adcc3bd9de053dad53206d4be2a4a4ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a9ed96601355e1c1516b33413449f06"><td class="memItemLeft" align="right" valign="top"><a id="a1a9ed96601355e1c1516b33413449f06" name="a1a9ed96601355e1c1516b33413449f06"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetHeight</b> ()</td></tr>
+<tr class="memdesc:a1a9ed96601355e1c1516b33413449f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the rendered height of the mask. <br /></td></tr>
+<tr class="separator:a1a9ed96601355e1c1516b33413449f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43e69d5577ebe5405e6efe57911fd20c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEyeMask.html#a43e69d5577ebe5405e6efe57911fd20c">GetPixels</a> (std::vector&lt; uint8_t &gt; &amp;pixels)</td></tr>
+<tr class="memdesc:a43e69d5577ebe5405e6efe57911fd20c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the raw image data as RGBA32.  <a href="classEyeMask.html#a43e69d5577ebe5405e6efe57911fd20c">More...</a><br /></td></tr>
+<tr class="separator:a43e69d5577ebe5405e6efe57911fd20c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a96eb2d297bc25ad90a95d0c22b8c8b25"><td class="memItemLeft" align="right" valign="top"><a id="a96eb2d297bc25ad90a95d0c22b8c8b25" name="a96eb2d297bc25ad90a95d0c22b8c8b25"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_fname</b></td></tr>
+<tr class="memdesc:a96eb2d297bc25ad90a95d0c22b8c8b25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filename of the mask. <br /></td></tr>
 <tr class="separator:a96eb2d297bc25ad90a95d0c22b8c8b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ee2983e6ea8e72707af4ecfd9ebdd1e"><td class="memItemLeft" align="right" valign="top"><a id="a6ee2983e6ea8e72707af4ecfd9ebdd1e" name="a6ee2983e6ea8e72707af4ecfd9ebdd1e"></a>
 std::vector&lt; <a class="el" href="classEyeMaskPolygon.html">EyeMaskPolygon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_polygons</b></td></tr>
+<tr class="memdesc:a6ee2983e6ea8e72707af4ecfd9ebdd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of polygons in the mask. <br /></td></tr>
 <tr class="separator:a6ee2983e6ea8e72707af4ecfd9ebdd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb0838ef1b5728a5dc136cd21bf5b224"><td class="memItemLeft" align="right" valign="top"><a id="abb0838ef1b5728a5dc136cd21bf5b224" name="abb0838ef1b5728a5dc136cd21bf5b224"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_hitrate</b></td></tr>
+<tr class="memdesc:abb0838ef1b5728a5dc136cd21bf5b224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Most recent hit rate. <br /></td></tr>
 <tr class="separator:abb0838ef1b5728a5dc136cd21bf5b224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d94a7450a94c566450c23ef3d299fda"><td class="memItemLeft" align="right" valign="top"><a id="a9d94a7450a94c566450c23ef3d299fda" name="a9d94a7450a94c566450c23ef3d299fda"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_timebaseIsRelative</b></td></tr>
+<tr class="memdesc:a9d94a7450a94c566450c23ef3d299fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">true = time measured in UIs || false = time measured in ps <br /></td></tr>
 <tr class="separator:a9d94a7450a94c566450c23ef3d299fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63340bb802baba7f026fb4f0a32c149d"><td class="memItemLeft" align="right" valign="top"><a id="a63340bb802baba7f026fb4f0a32c149d" name="a63340bb802baba7f026fb4f0a32c149d"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_maskname</b></td></tr>
+<tr class="memdesc:a63340bb802baba7f026fb4f0a32c149d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Human readable name of the mask (e.g. "XFI") <br /></td></tr>
 <tr class="separator:a63340bb802baba7f026fb4f0a32c149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed064297bb5187b9116da4f3dcfa5e91"><td class="memItemLeft" align="right" valign="top"><a id="aed064297bb5187b9116da4f3dcfa5e91" name="aed064297bb5187b9116da4f3dcfa5e91"></a>
+std::unique_ptr&lt; canvas_ity::canvas &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_canvas</b></td></tr>
+<tr class="memdesc:aed064297bb5187b9116da4f3dcfa5e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Canvas for rasterizing the mask. <br /></td></tr>
+<tr class="separator:aed064297bb5187b9116da4f3dcfa5e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d321247bc0088591452d7de9793fcda"><td class="memItemLeft" align="right" valign="top"><a id="a1d321247bc0088591452d7de9793fcda" name="a1d321247bc0088591452d7de9793fcda"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_width</b></td></tr>
+<tr class="memdesc:a1d321247bc0088591452d7de9793fcda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current width. <br /></td></tr>
+<tr class="separator:a1d321247bc0088591452d7de9793fcda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48cbb1c1bdd0312262065ff5093930e2"><td class="memItemLeft" align="right" valign="top"><a id="a48cbb1c1bdd0312262065ff5093930e2" name="a48cbb1c1bdd0312262065ff5093930e2"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_height</b></td></tr>
+<tr class="memdesc:a48cbb1c1bdd0312262065ff5093930e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current height. <br /></td></tr>
+<tr class="separator:a48cbb1c1bdd0312262065ff5093930e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A mask used for checking eye patterns. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a63efd134c809497ab513452fa9bb4c2b" name="a63efd134c809497ab513452fa9bb4c2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63efd134c809497ab513452fa9bb4c2b">&#9670;&nbsp;</a></span>GetAllowedHitRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float EyeMask::GetAllowedHitRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the allowed mask hit rate. </p>
+<p >Most standards do not allow any mask hits, however some standards do permit a small hit ratio </p>
+
+</div>
+</div>
+<a id="a43e69d5577ebe5405e6efe57911fd20c" name="a43e69d5577ebe5405e6efe57911fd20c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e69d5577ebe5405e6efe57911fd20c">&#9670;&nbsp;</a></span>GetPixels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EyeMask::GetPixels </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; uint8_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pixels</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the raw image data as RGBA32. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pixels</td><td>Empty std::vector to be filled with image data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af1e9e7d736e18787f98ff70a473f479e" name="af1e9e7d736e18787f98ff70a473f479e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e9e7d736e18787f98ff70a473f479e">&#9670;&nbsp;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EyeMask::Load </td>
+          <td>(</td>
+          <td class="paramtype">const YAML::Node &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads the mask from a YAML node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>Root node of the YAML document</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on failure </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="EyeMask_8h_source.html">EyeMask.h</a></li>
 <li>lib/scopehal/<a class="el" href="EyeMask_8cpp.html">EyeMask.cpp</a></li>
 </ul>

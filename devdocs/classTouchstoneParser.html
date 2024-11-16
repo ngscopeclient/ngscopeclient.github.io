@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -66,7 +66,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classTouchstoneParser-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">TouchstoneParser Class Reference</div></div>
+  <div class="headertitle"><div class="title">TouchstoneParser Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -77,24 +77,75 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac21b464f161a26eba44f07afdd3e1013"><td class="memItemLeft" align="right" valign="top"><a id="ac21b464f161a26eba44f07afdd3e1013" name="ac21b464f161a26eba44f07afdd3e1013"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>TouchstoneParser</b> ()</td></tr>
+<tr class="memdesc:ac21b464f161a26eba44f07afdd3e1013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor, does nothing. <br /></td></tr>
+<tr class="separator:ac21b464f161a26eba44f07afdd3e1013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa983d2c95ec6396d718e014201ba6dce"><td class="memItemLeft" align="right" valign="top"><a id="aa983d2c95ec6396d718e014201ba6dce" name="aa983d2c95ec6396d718e014201ba6dce"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~TouchstoneParser</b> ()</td></tr>
+<tr class="memdesc:aa983d2c95ec6396d718e014201ba6dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor, does nothing. <br /></td></tr>
+<tr class="separator:aa983d2c95ec6396d718e014201ba6dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac29d550b273842f523ac9902747b3b04"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTouchstoneParser.html#ac29d550b273842f523ac9902747b3b04">Load</a> (std::string fname, <a class="el" href="classSParameters.html">SParameters</a> &amp;params)</td></tr>
 <tr class="memdesc:ac29d550b273842f523ac9902747b3b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a SxP file.  <a href="classTouchstoneParser.html#ac29d550b273842f523ac9902747b3b04">More...</a><br /></td></tr>
 <tr class="separator:ac29d550b273842f523ac9902747b3b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a10c9ac0107f91bb16689bc3a496caae3"><td class="memItemLeft" align="right" valign="top"><a id="a10c9ac0107f91bb16689bc3a496caae3" name="a10c9ac0107f91bb16689bc3a496caae3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ComplexToPolar</b> (float &amp;f1, float &amp;f2)</td></tr>
-<tr class="memdesc:a10c9ac0107f91bb16689bc3a496caae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a complex number in (real, imaginary) form to (magnitude, angle) <br /></td></tr>
+<tr class="memitem:a10c9ac0107f91bb16689bc3a496caae3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTouchstoneParser.html#a10c9ac0107f91bb16689bc3a496caae3">ComplexToPolar</a> (float &amp;f1, float &amp;f2)</td></tr>
+<tr class="memdesc:a10c9ac0107f91bb16689bc3a496caae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a complex number in (real, imaginary) form to (magnitude, angle)  <a href="classTouchstoneParser.html#a10c9ac0107f91bb16689bc3a496caae3">More...</a><br /></td></tr>
 <tr class="separator:a10c9ac0107f91bb16689bc3a496caae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad8fd65ee310a37e3ca5cba8e444d3b8"><td class="memItemLeft" align="right" valign="top"><a id="aad8fd65ee310a37e3ca5cba8e444d3b8" name="aad8fd65ee310a37e3ca5cba8e444d3b8"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadFloat</b> (const char *buf, size_t &amp;i, size_t len, float &amp;f)</td></tr>
-<tr class="memdesc:aad8fd65ee310a37e3ca5cba8e444d3b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a single ASCII float from the input buffer. <br /></td></tr>
+<tr class="memitem:aad8fd65ee310a37e3ca5cba8e444d3b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTouchstoneParser.html#aad8fd65ee310a37e3ca5cba8e444d3b8">ReadFloat</a> (const char *buf, size_t &amp;i, size_t len, float &amp;f)</td></tr>
+<tr class="memdesc:aad8fd65ee310a37e3ca5cba8e444d3b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a single ASCII float from the input buffer.  <a href="classTouchstoneParser.html#aad8fd65ee310a37e3ca5cba8e444d3b8">More...</a><br /></td></tr>
 <tr class="separator:aad8fd65ee310a37e3ca5cba8e444d3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Touchstone (SxP) file parser. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a10c9ac0107f91bb16689bc3a496caae3" name="a10c9ac0107f91bb16689bc3a496caae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c9ac0107f91bb16689bc3a496caae3">&#9670;&nbsp;</a></span>ComplexToPolar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TouchstoneParser::ComplexToPolar </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>f1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>f2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts a complex number in (real, imaginary) form to (magnitude, angle) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f1</td><td>Input real part, output magnitude part </td></tr>
+    <tr><td class="paramname">f2</td><td>Input imaginary part, output angle part </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ac29d550b273842f523ac9902747b3b04" name="ac29d550b273842f523ac9902747b3b04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac29d550b273842f523ac9902747b3b04">&#9670;&nbsp;</a></span>Load()</h2>
 
@@ -122,7 +173,75 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReadFloat</b> (const 
 </div><div class="memdoc">
 
 <p>Reads a SxP file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">fname</td><td>Path to the .s*p file </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">params</td><td>The parsed S-parameters (if successful)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True on success, false on failure </dd></dl>
 <p >is a comment, ignore everything until the next newline</p>
+
+</div>
+</div>
+<a id="aad8fd65ee310a37e3ca5cba8e444d3b8" name="aad8fd65ee310a37e3ca5cba8e444d3b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad8fd65ee310a37e3ca5cba8e444d3b8">&#9670;&nbsp;</a></span>ReadFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TouchstoneParser::ReadFloat </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads a single ASCII float from the input buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">buf</td><td>Input buffer </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">i</td><td>Index of the cursor within the buffer </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">len</td><td>Size of the buffer </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">f</td><td>Output value</td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">True</td><td>on success, false on EOF or malformed data </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

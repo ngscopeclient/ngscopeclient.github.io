@@ -1,16 +1,17 @@
 <map id="RigolOscilloscope" name="RigolOscilloscope">
-<area shape="rect" id="node1" title=" " alt="" coords="439,392,576,419"/>
-<area shape="rect" id="node2" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="522,303,655,329"/>
-<area shape="rect" id="node3" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="215,213,319,240"/>
-<area shape="rect" id="node6" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer triggers." alt="" coords="135,303,202,329"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="403,109,497,136"/>
-<area shape="rect" id="node9" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="527,213,650,240"/>
-<area shape="rect" id="node13" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="353,213,499,240"/>
-<area shape="rect" id="node5" title=" " alt="" coords="354,5,546,47"/>
-<area shape="rect" id="node7" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,109,132,136"/>
-<area shape="rect" id="node8" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="156,109,275,136"/>
-<area shape="rect" id="node10" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="670,109,766,136"/>
-<area shape="rect" id="node11" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="662,13,774,39"/>
-<area shape="rect" id="node12" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="341,303,498,329"/>
-<area shape="rect" id="node14" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="585,109,635,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="295,392,433,419"/>
+<area shape="rect" id="node2" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="201,303,335,329"/>
+<area shape="rect" id="node3" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="260,213,364,240"/>
+<area shape="rect" id="node6" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="556,303,623,329"/>
+<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="176,109,269,136"/>
+<area shape="rect" id="node11" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="108,213,231,240"/>
+<area shape="rect" id="node15" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="408,213,555,240"/>
+<area shape="rect" id="node5" title=" " alt="" coords="141,5,333,47"/>
+<area shape="rect" id="node7" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="511,109,638,136"/>
+<area shape="rect" id="node8" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="661,213,784,240"/>
+<area shape="rect" id="node9" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="703,109,753,136"/>
+<area shape="rect" id="node10" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="314,109,433,136"/>
+<area shape="rect" id="node12" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="28,109,124,136"/>
+<area shape="rect" id="node13" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
+<area shape="rect" id="node14" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="363,303,520,329"/>
 </map>

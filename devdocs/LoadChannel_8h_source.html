@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,7 @@ $(function() {
   <div class="headertitle"><div class="title">LoadChannel.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
+<a href="LoadChannel_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
@@ -98,63 +98,73 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#ifndef LoadChannel_h</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define LoadChannel_h</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classLoadChannel.html">   36</a></span><span class="keyword">class </span><a class="code hl_class" href="classLoadChannel.html">LoadChannel</a> : <span class="keyword">public</span> <a class="code hl_class" href="classInstrumentChannel.html">InstrumentChannel</a></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#ifndef LoadChannel_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define LoadChannel_h</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_class" href="classLoadChannel.html">LoadChannel</a>(</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keyword">const</span> std::string&amp; hwname,</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_class" href="classLoad.html">Load</a>* load,</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keyword">const</span> std::string&amp; color = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordtype">size_t</span> index = 0);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classLoadChannel.html">~LoadChannel</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classLoadChannel.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classLoadChannel.html">LoadChannel</a> : <span class="keyword">public</span> <a class="code hl_class" href="classInstrumentChannel.html">InstrumentChannel</a></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_class" href="classLoad.html">Load</a>* GetLoad()</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    { <span class="keywordflow">return</span> <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="classLoad.html">Load</a>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">m_instrument</a>); }</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">/*</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">        Measured voltage/current</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"></span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">        Available but not using (can be rederived, no sense wasting bandwidth pulling from hardware):</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">            power</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">            resistance</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment"></span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">        waveform?? need to learn more about this</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">     */</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="comment">//Well defined stream IDs used by LoadChannel</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">enum</span> StreamIndexes</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        STREAM_VOLTAGE_MEASURED,</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        STREAM_CURRENT_MEASURED,</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        STREAM_SET_POINT</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    };</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">float</span> GetVoltageMeasured()</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(STREAM_VOLTAGE_MEASURED); }</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">float</span> GetCurrentMeasured()</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(STREAM_CURRENT_MEASURED); }</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">float</span> GetSetPoint()</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(STREAM_SET_POINT); }</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFlowGraphNode.html#ad940d5518bd1ac797604f53955f0eeb3">Refresh</a>(vk::raii::CommandBuffer&amp; cmdBuf, std::shared_ptr&lt;QueueHandle&gt; queue) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> ValidateChannel(<span class="keywordtype">size_t</span> i, <a class="code hl_class" href="classStreamDescriptor.html">StreamDescriptor</a> stream) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_function" href="classLoadChannel.html#abf5d92b44bb8b780cc4be68a26866722">LoadChannel</a>(</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">const</span> std::string&amp; hwname,</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_class" href="classLoad.html">Load</a>* load,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keyword">const</span> std::string&amp; color = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordtype">size_t</span> index = 0);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classLoadChannel.html">~LoadChannel</a>();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classLoadChannel.html#ad30475a51fda79de21f44795b7c431d9">   57</a></span>    <a class="code hl_class" href="classLoad.html">Load</a>* <a class="code hl_function" href="classLoadChannel.html#ad30475a51fda79de21f44795b7c431d9">GetLoad</a>()</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    { <span class="keywordflow">return</span> <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="classLoad.html">Load</a>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">m_instrument</a>); }</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">        Measured voltage/current</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment"></span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">        Available but not using (can be rederived, no sense wasting bandwidth pulling from hardware):</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">            power</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">            resistance</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment"></span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">        waveform?? need to learn more about this</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment">     */</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63">   71</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63">StreamIndexes</a></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63a1fa7735ab0ffe37e1b706781edc85a21">   74</a></span>        <a class="code hl_enumvalue" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63a1fa7735ab0ffe37e1b706781edc85a21">STREAM_VOLTAGE_MEASURED</a>,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63aa99c7abc43547247953cc63f6ce43b3f">   77</a></span>        <a class="code hl_enumvalue" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63aa99c7abc43547247953cc63f6ce43b3f">STREAM_CURRENT_MEASURED</a>,</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <a class="code hl_enumvalue" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63ab2d65dbc322fdca2c69b4d0e6e56d4a0">STREAM_SET_POINT</a></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63ab2d65dbc322fdca2c69b4d0e6e56d4a0">   81</a></span>    };</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classLoadChannel.html#a0f08a6cdfa50394c620df5c9161d692a">   84</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classLoadChannel.html#a0f08a6cdfa50394c620df5c9161d692a">GetVoltageMeasured</a>()</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(<a class="code hl_enumvalue" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63a1fa7735ab0ffe37e1b706781edc85a21">STREAM_VOLTAGE_MEASURED</a>); }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classLoadChannel.html#a3cca0b496ae677080efbca8079861ce8">   88</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classLoadChannel.html#a3cca0b496ae677080efbca8079861ce8">GetCurrentMeasured</a>()</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(<a class="code hl_enumvalue" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63aa99c7abc43547247953cc63f6ce43b3f">STREAM_CURRENT_MEASURED</a>); }</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classLoadChannel.html#ad4d3b0fff6a3e049cecd23216a5cbc2c">   92</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classLoadChannel.html#ad4d3b0fff6a3e049cecd23216a5cbc2c">GetSetPoint</a>()</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(<a class="code hl_enumvalue" href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63ab2d65dbc322fdca2c69b4d0e6e56d4a0">STREAM_SET_POINT</a>); }</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFlowGraphNode.html#ad940d5518bd1ac797604f53955f0eeb3">Refresh</a>(vk::raii::CommandBuffer&amp; cmdBuf, std::shared_ptr&lt;QueueHandle&gt; queue) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> ValidateChannel(<span class="keywordtype">size_t</span> i, <a class="code hl_class" href="classStreamDescriptor.html">StreamDescriptor</a> stream) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>};</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassFlowGraphNode_html_ad940d5518bd1ac797604f53955f0eeb3"><div class="ttname"><a href="classFlowGraphNode.html#ad940d5518bd1ac797604f53955f0eeb3">FlowGraphNode::Refresh</a></div><div class="ttdeci">virtual void Refresh()</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> FlowGraphNode.cpp:87</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html"><div class="ttname"><a href="classInstrumentChannel.html">InstrumentChannel</a></div><div class="ttdoc">A single channel of an instrument.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:63</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a67fab2d7362ce1fc7b4cd2bb6c5705dd"><div class="ttname"><a href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">InstrumentChannel::GetScalarValue</a></div><div class="ttdeci">float GetScalarValue(size_t stream)</div><div class="ttdoc">Gets the value of a scalar data stream.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:200</div></div>
-<div class="ttc" id="aclassInstrumentChannel_html_a94aa3a73a9e287e3c5ae97ba2fc061ab"><div class="ttname"><a href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">InstrumentChannel::m_instrument</a></div><div class="ttdeci">Instrument * m_instrument</div><div class="ttdoc">The instrument we're part of (may be null in the case of filters etc)</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:248</div></div>
-<div class="ttc" id="aclassLoadChannel_html"><div class="ttname"><a href="classLoadChannel.html">LoadChannel</a></div><div class="ttdoc">A single channel of a power supply.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:37</div></div>
-<div class="ttc" id="aclassLoad_html"><div class="ttname"><a href="classLoad.html">Load</a></div><div class="ttdoc">A generic electronic load.</div><div class="ttdef"><b>Definition:</b> Load.h:37</div></div>
-<div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
+<div class="ttc" id="aclassInstrumentChannel_html_a94aa3a73a9e287e3c5ae97ba2fc061ab"><div class="ttname"><a href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">InstrumentChannel::m_instrument</a></div><div class="ttdeci">Instrument * m_instrument</div><div class="ttdoc">The instrument we're part of (may be null in the case of filters etc)</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:274</div></div>
+<div class="ttc" id="aclassLoadChannel_html"><div class="ttname"><a href="classLoadChannel.html">LoadChannel</a></div><div class="ttdoc">A single channel of an active load.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:45</div></div>
+<div class="ttc" id="aclassLoadChannel_html_a0f08a6cdfa50394c620df5c9161d692a"><div class="ttname"><a href="classLoadChannel.html#a0f08a6cdfa50394c620df5c9161d692a">LoadChannel::GetVoltageMeasured</a></div><div class="ttdeci">float GetVoltageMeasured()</div><div class="ttdoc">Return the most recent (cached) voltage measurement.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:84</div></div>
+<div class="ttc" id="aclassLoadChannel_html_a3cca0b496ae677080efbca8079861ce8"><div class="ttname"><a href="classLoadChannel.html#a3cca0b496ae677080efbca8079861ce8">LoadChannel::GetCurrentMeasured</a></div><div class="ttdeci">float GetCurrentMeasured()</div><div class="ttdoc">Return the most recent (current) current measurement.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:88</div></div>
+<div class="ttc" id="aclassLoadChannel_html_a621bf3b755ef6bb8100657746f9aaf63"><div class="ttname"><a href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63">LoadChannel::StreamIndexes</a></div><div class="ttdeci">StreamIndexes</div><div class="ttdoc">Well defined stream IDs used by LoadChannel.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:72</div></div>
+<div class="ttc" id="aclassLoadChannel_html_a621bf3b755ef6bb8100657746f9aaf63a1fa7735ab0ffe37e1b706781edc85a21"><div class="ttname"><a href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63a1fa7735ab0ffe37e1b706781edc85a21">LoadChannel::STREAM_VOLTAGE_MEASURED</a></div><div class="ttdeci">@ STREAM_VOLTAGE_MEASURED</div><div class="ttdoc">Actual voltage being supplied to the load.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:74</div></div>
+<div class="ttc" id="aclassLoadChannel_html_a621bf3b755ef6bb8100657746f9aaf63aa99c7abc43547247953cc63f6ce43b3f"><div class="ttname"><a href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63aa99c7abc43547247953cc63f6ce43b3f">LoadChannel::STREAM_CURRENT_MEASURED</a></div><div class="ttdeci">@ STREAM_CURRENT_MEASURED</div><div class="ttdoc">Actual current being drawn by the load.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:77</div></div>
+<div class="ttc" id="aclassLoadChannel_html_a621bf3b755ef6bb8100657746f9aaf63ab2d65dbc322fdca2c69b4d0e6e56d4a0"><div class="ttname"><a href="classLoadChannel.html#a621bf3b755ef6bb8100657746f9aaf63ab2d65dbc322fdca2c69b4d0e6e56d4a0">LoadChannel::STREAM_SET_POINT</a></div><div class="ttdeci">@ STREAM_SET_POINT</div><div class="ttdoc">Set point of the load (voltage, current, power, or resistance depending on operating mode)</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:80</div></div>
+<div class="ttc" id="aclassLoadChannel_html_abf5d92b44bb8b780cc4be68a26866722"><div class="ttname"><a href="classLoadChannel.html#abf5d92b44bb8b780cc4be68a26866722">LoadChannel::LoadChannel</a></div><div class="ttdeci">LoadChannel(const std::string &amp;hwname, Load *load, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</div><div class="ttdoc">Initialize a load channel.</div><div class="ttdef"><b>Definition:</b> LoadChannel.cpp:53</div></div>
+<div class="ttc" id="aclassLoadChannel_html_ad30475a51fda79de21f44795b7c431d9"><div class="ttname"><a href="classLoadChannel.html#ad30475a51fda79de21f44795b7c431d9">LoadChannel::GetLoad</a></div><div class="ttdeci">Load * GetLoad()</div><div class="ttdoc">Get the parent load of this channel.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:57</div></div>
+<div class="ttc" id="aclassLoadChannel_html_ad4d3b0fff6a3e049cecd23216a5cbc2c"><div class="ttname"><a href="classLoadChannel.html#ad4d3b0fff6a3e049cecd23216a5cbc2c">LoadChannel::GetSetPoint</a></div><div class="ttdeci">float GetSetPoint()</div><div class="ttdoc">Return the the set point of the load voltage measurement.</div><div class="ttdef"><b>Definition:</b> LoadChannel.h:92</div></div>
+<div class="ttc" id="aclassLoad_html"><div class="ttname"><a href="classLoad.html">Load</a></div><div class="ttdoc">Base class for all electronic load drivers.</div><div class="ttdef"><b>Definition:</b> Load.h:45</div></div>
+<div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

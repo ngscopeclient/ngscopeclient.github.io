@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -110,6 +110,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d1ffe6e93d11b440101e247a77a79e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniformWaveform.html#a4d1ffe6e93d11b440101e247a77a79e6">UniformWaveform</a> (const <a class="el" href="classSparseWaveform.html">SparseWaveform</a>&lt; S &gt; &amp;rhs)</td></tr>
 <tr class="memdesc:a4d1ffe6e93d11b440101e247a77a79e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a uniform waveform as a copy of a sparse one which happens to be sampled at uniform rate.  <a href="classUniformWaveform.html#a4d1ffe6e93d11b440101e247a77a79e6">More...</a><br /></td></tr>
 <tr class="separator:a4d1ffe6e93d11b440101e247a77a79e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81d7a5f0a4395fe41e785582487d6d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniformWaveform.html#af81d7a5f0a4395fe41e785582487d6d9">FreeGpuMemory</a> () override</td></tr>
+<tr class="memdesc:af81d7a5f0a4395fe41e785582487d6d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while.  <a href="classUniformWaveform.html#af81d7a5f0a4395fe41e785582487d6d9">More...</a><br /></td></tr>
+<tr class="separator:af81d7a5f0a4395fe41e785582487d6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde1a015f6d64329da3067f06d5c9144"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniformWaveform.html#afde1a015f6d64329da3067f06d5c9144">HasGpuBuffer</a> () override</td></tr>
+<tr class="memdesc:afde1a015f6d64329da3067f06d5c9144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have at least one buffer resident on the GPU.  <a href="classUniformWaveform.html#afde1a015f6d64329da3067f06d5c9144">More...</a><br /></td></tr>
+<tr class="separator:afde1a015f6d64329da3067f06d5c9144"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd89cfe24df7ebba62f65070bc84967"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUniformWaveform.html#acdd89cfe24df7ebba62f65070bc84967">Resize</a> (size_t <a class="el" href="classUniformWaveform.html#ac7f7d4730f81cbf66f4157952fd99467">size</a>) override</td></tr>
 <tr class="memdesc:acdd89cfe24df7ebba62f65070bc84967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocates buffers so the waveform contains the specified number of samples.  <a href="classUniformWaveform.html#acdd89cfe24df7ebba62f65070bc84967">More...</a><br /></td></tr>
 <tr class="separator:acdd89cfe24df7ebba62f65070bc84967"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +206,12 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> ()<
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>CacheColors</b> ()</td></tr>
 <tr class="memdesc:a3c844fc1bcfde92cc9b9baac8ebe91e4 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the cache of packed colors to avoid string parsing every frame. <br /></td></tr>
 <tr class="separator:a3c844fc1bcfde92cc9b9baac8ebe91e4 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">FreeGpuMemory</a> ()=0</td></tr>
+<tr class="memdesc:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while.  <a href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">More...</a><br /></td></tr>
+<tr class="separator:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">HasGpuBuffer</a> ()=0</td></tr>
+<tr class="memdesc:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have at least one buffer resident on the GPU.  <a href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">More...</a><br /></td></tr>
+<tr class="separator:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -348,6 +360,68 @@ template&lt;class S &gt; </div>
 <p>Remove all samples from this waveform. </p>
 
 <p>Implements <a class="el" href="classWaveformBase.html#a8c589ce548fbd55e64eca4cf9e1abffd">WaveformBase</a>.</p>
+
+</div>
+</div>
+<a id="af81d7a5f0a4395fe41e785582487d6d9" name="af81d7a5f0a4395fe41e785582487d6d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81d7a5f0a4395fe41e785582487d6d9">&#9670;&nbsp;</a></span>FreeGpuMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class S &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classUniformWaveform.html">UniformWaveform</a>&lt; S &gt;::FreeGpuMemory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while. </p>
+
+<p>Implements <a class="el" href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">WaveformBase</a>.</p>
+
+</div>
+</div>
+<a id="afde1a015f6d64329da3067f06d5c9144" name="afde1a015f6d64329da3067f06d5c9144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afde1a015f6d64329da3067f06d5c9144">&#9670;&nbsp;</a></span>HasGpuBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class S &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool <a class="el" href="classUniformWaveform.html">UniformWaveform</a>&lt; S &gt;::HasGpuBuffer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if we have at least one buffer resident on the GPU. </p>
+
+<p>Implements <a class="el" href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">WaveformBase</a>.</p>
 
 </div>
 </div>

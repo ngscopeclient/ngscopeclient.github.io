@@ -1,51 +1,51 @@
 <map id="SCPIInstrument" name="SCPIInstrument">
-<area shape="rect" id="node1" title="An SCPI&#45;based oscilloscope." alt="" coords="389,360,512,387"/>
-<area shape="rect" id="node5" href="$classAntikernelLogicAnalyzer.html" title=" " alt="" coords="560,81,739,108"/>
-<area shape="rect" id="node6" href="$classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="607,132,692,159"/>
-<area shape="rect" id="node9" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="564,309,735,336"/>
-<area shape="rect" id="node19" href="$classSCPILoad.html" title="An SCPI&#45;based electronic load." alt="" coords="608,829,691,856"/>
-<area shape="rect" id="node21" href="$classSCPIMiscInstrument.html" title="An SCPI&#45;based miscellaneous instrument." alt="" coords="573,1069,725,1096"/>
-<area shape="rect" id="node23" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="588,360,711,387"/>
-<area shape="rect" id="node25" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="583,588,716,615"/>
-<area shape="rect" id="node42" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="582,1221,717,1248"/>
-<area shape="rect" id="node49" href="$classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="563,208,736,235"/>
-<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,335,340,361"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,327,197,369"/>
-<area shape="rect" id="node4" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,385,341,412"/>
-<area shape="rect" id="node7" href="$classAntikernelLabsTriggerCrossbar.html" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="803,107,1023,133"/>
-<area shape="rect" id="node8" href="$classMultiLaneBERT.html" title="A MultiLANE BERT accessed via scopehal&#45;mlbert&#45;bridge." alt="" coords="853,5,973,32"/>
-<area shape="rect" id="node10" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="838,411,987,437"/>
-<area shape="rect" id="node12" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1119,385,1250,412"/>
-<area shape="rect" id="node13" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="835,309,991,336"/>
-<area shape="rect" id="node14" href="$classRigolFunctionGenerator.html" title=" " alt="" coords="825,157,1000,184"/>
-<area shape="rect" id="node15" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="823,461,1002,488"/>
-<area shape="rect" id="node16" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="805,56,1020,83"/>
-<area shape="rect" id="node17" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="831,360,995,387"/>
-<area shape="rect" id="node11" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1095,436,1274,463"/>
-<area shape="rect" id="node18" href="$classTektronixHSIOscilloscope.html" title="TektronixHSIOscilloscope." alt="" coords="1091,335,1278,361"/>
-<area shape="rect" id="node20" href="$classSiglentLoad.html" title="Siglent electronic load." alt="" coords="863,1019,962,1045"/>
-<area shape="rect" id="node22" href="$classCSVStreamInstrument.html" title="A miscellaneous instrument which streams scalar data over CSV." alt="" coords="829,1069,996,1096"/>
-<area shape="rect" id="node24" href="$classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="787,259,1039,285"/>
-<area shape="rect" id="node26" href="$classAgilentOscilloscope.html" title=" " alt="" coords="837,816,988,843"/>
-<area shape="rect" id="node27" href="$classAntikernelLabsOscilloscope.html" title=" " alt="" coords="813,867,1013,893"/>
-<area shape="rect" id="node28" href="$classDemoOscilloscope.html" title=" " alt="" coords="841,917,984,944"/>
-<area shape="rect" id="node29" href="$classKeysightDCA.html" title=" " alt="" coords="859,968,966,995"/>
-<area shape="rect" id="node30" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="814,613,1011,640"/>
-<area shape="rect" id="node35" href="$classRigolOscilloscope.html" title=" " alt="" coords="844,512,981,539"/>
-<area shape="rect" id="node36" href="$classRohdeSchwarzOscilloscope.html" title=" " alt="" coords="813,563,1012,589"/>
-<area shape="rect" id="node37" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="873,664,952,691"/>
-<area shape="rect" id="node38" href="$classSCPISpectrometer.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="843,715,982,741"/>
-<area shape="rect" id="node40" href="$classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="873,765,952,792"/>
-<area shape="rect" id="node31" href="$classDSLabsOscilloscope.html" title="DSLabsOscilloscope &#45; driver for talking to the scopehal&#45;dslabs&#45;bridge daemons." alt="" coords="1109,613,1261,640"/>
-<area shape="rect" id="node32" href="$classDigilentOscilloscope.html" title="DigilentOscilloscope &#45; driver for talking to the scopehal&#45;waveforms&#45;bridge daemon (wfmserver)" alt="" coords="1107,512,1262,539"/>
-<area shape="rect" id="node33" href="$classThunderScopeOscilloscope.html" title="ThunderScopeOscilloscope &#45; driver for talking to the TS.NET daemons." alt="" coords="1087,563,1283,589"/>
-<area shape="rect" id="node34" href="$classUHDBridgeSDR.html" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1124,664,1245,691"/>
-<area shape="rect" id="node39" href="$classAseqSpectrometer.html" title="AseqSpectrometer &#45; driver for talking to the scopehal&#45;aseq&#45;bridge server." alt="" coords="1113,715,1256,741"/>
-<area shape="rect" id="node41" href="$classCopperMountainVNA.html" title="Driver for Copper Mountain VNAs." alt="" coords="1106,765,1263,792"/>
-<area shape="rect" id="node43" href="$classDemoPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="840,1120,985,1147"/>
-<area shape="rect" id="node44" href="$classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="793,1171,1032,1197"/>
-<area shape="rect" id="node45" href="$classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="830,1221,995,1248"/>
-<area shape="rect" id="node46" href="$classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="822,1272,1003,1299"/>
-<area shape="rect" id="node47" href="$classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="803,1323,1023,1365"/>
-<area shape="rect" id="node48" href="$classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="837,1389,988,1416"/>
+<area shape="rect" id="node1" title="An SCPI&#45;based oscilloscope." alt="" coords="389,503,512,529"/>
+<area shape="rect" id="node5" href="$classAntikernelLogicAnalyzer.html" title="Driver for Antikernel Labs FPGA logic analyzer core (WIP)" alt="" coords="560,56,739,83"/>
+<area shape="rect" id="node6" href="$classHIDInstrument.html" title="Base class for instruments using USB HID communication protocol." alt="" coords="591,107,708,133"/>
+<area shape="rect" id="node8" href="$classKuaiquPowerSupply.html" title="A KUAIQU power supply." alt="" coords="837,56,988,83"/>
+<area shape="rect" id="node9" href="$classModbusInstrument.html" title="Base class for instruments using Modbus communication protocol." alt="" coords="577,208,721,235"/>
+<area shape="rect" id="node11" href="$classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="607,477,692,504"/>
+<area shape="rect" id="node14" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="564,731,735,757"/>
+<area shape="rect" id="node23" href="$classSCPILoad.html" title="An SCPI&#45;based electronic load." alt="" coords="608,1339,691,1365"/>
+<area shape="rect" id="node25" href="$classSCPIMiscInstrument.html" title="An SCPI&#45;based miscellaneous instrument." alt="" coords="573,1592,725,1619"/>
+<area shape="rect" id="node27" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="588,933,711,960"/>
+<area shape="rect" id="node30" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="583,1187,716,1213"/>
+<area shape="rect" id="node42" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="582,259,717,285"/>
+<area shape="rect" id="node49" href="$classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="563,528,736,555"/>
+<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,477,340,504"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,470,197,511"/>
+<area shape="rect" id="node4" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,528,341,555"/>
+<area shape="rect" id="node7" href="$classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="833,5,993,32"/>
+<area shape="rect" id="node10" href="$classRidenPowerSupply.html" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="841,107,984,133"/>
+<area shape="rect" id="node12" href="$classAntikernelLabsTriggerCrossbar.html" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="803,579,1023,605"/>
+<area shape="rect" id="node13" href="$classMultiLaneBERT.html" title="A MultiLANE BERT accessed via scopehal&#45;mlbert&#45;bridge." alt="" coords="853,477,973,504"/>
+<area shape="rect" id="node15" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="838,781,987,808"/>
+<area shape="rect" id="node16" href="$classOwonXDGFunctionGenerator.html" title="Owon XDG Function Generator series driver class." alt="" coords="809,629,1017,656"/>
+<area shape="rect" id="node17" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1087,959,1217,985"/>
+<area shape="rect" id="node18" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="835,832,991,859"/>
+<area shape="rect" id="node19" href="$classRigolFunctionGenerator.html" title=" " alt="" coords="825,731,1000,757"/>
+<area shape="rect" id="node20" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="823,883,1002,909"/>
+<area shape="rect" id="node21" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="805,528,1020,555"/>
+<area shape="rect" id="node22" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="831,933,995,960"/>
+<area shape="rect" id="node24" href="$classSiglentLoad.html" title="Siglent electronic load." alt="" coords="863,1643,962,1669"/>
+<area shape="rect" id="node26" href="$classCSVStreamInstrument.html" title="A miscellaneous instrument which streams scalar data over CSV." alt="" coords="829,1693,996,1720"/>
+<area shape="rect" id="node28" href="$classOwonXDMMultimeter.html" title="Driver for Owon XDM multimeter." alt="" coords="831,984,994,1011"/>
+<area shape="rect" id="node29" href="$classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="787,1035,1039,1061"/>
+<area shape="rect" id="node31" href="$classAgilentOscilloscope.html" title="Driver for Agilent (and some Keysight) oscilloscopes." alt="" coords="837,1288,988,1315"/>
+<area shape="rect" id="node32" href="$classAntikernelLabsOscilloscope.html" title="Driver for experimental scopes, probably not useful to most people." alt="" coords="813,1339,1013,1365"/>
+<area shape="rect" id="node33" href="$classDemoOscilloscope.html" title="Simulated oscilloscope for demonstrations and testing." alt="" coords="841,1389,984,1416"/>
+<area shape="rect" id="node34" href="$classKeysightDCA.html" title=" " alt="" coords="859,1440,966,1467"/>
+<area shape="rect" id="node35" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="814,1237,1011,1264"/>
+<area shape="rect" id="node36" href="$classRigolOscilloscope.html" title=" " alt="" coords="844,1491,981,1517"/>
+<area shape="rect" id="node37" href="$classRohdeSchwarzOscilloscope.html" title=" " alt="" coords="813,1541,1012,1568"/>
+<area shape="rect" id="node38" href="$classSCPISA.html" title="Generic representation of a Spectrum Analyzer." alt="" coords="878,1592,947,1619"/>
+<area shape="rect" id="node39" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="873,1085,952,1112"/>
+<area shape="rect" id="node40" href="$classSCPISpectrometer.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="843,1136,982,1163"/>
+<area shape="rect" id="node41" href="$classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="873,1187,952,1213"/>
+<area shape="rect" id="node43" href="$classDemoPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="840,157,985,184"/>
+<area shape="rect" id="node44" href="$classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="793,208,1032,235"/>
+<area shape="rect" id="node45" href="$classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="830,259,995,285"/>
+<area shape="rect" id="node46" href="$classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="822,309,1003,336"/>
+<area shape="rect" id="node47" href="$classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="803,361,1023,402"/>
+<area shape="rect" id="node48" href="$classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="837,427,988,453"/>
 </map>

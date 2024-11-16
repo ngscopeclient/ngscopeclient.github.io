@@ -21,11 +21,12 @@ var searchData=
   ['bijection_3c_20streamdescriptor_2c_20ax_3a_3anodeeditor_3a_3alinkid_2c_20std_3a_3aless_3c_20streamdescriptor_20_3e_2c_20lessid_3c_20ax_3a_3anodeeditor_3a_3alinkid_20_3e_20_3e_18',['Bijection&lt; StreamDescriptor, ax::NodeEditor::LinkId, std::less&lt; StreamDescriptor &gt;, lessID&lt; ax::NodeEditor::LinkId &gt; &gt;',['../classBijection.html',1,'']]],
   ['bijection_3c_20streamdescriptor_2c_20ax_3a_3anodeeditor_3a_3apinid_2c_20std_3a_3aless_3c_20streamdescriptor_20_3e_2c_20lessid_3c_20ax_3a_3anodeeditor_3a_3apinid_20_3e_20_3e_19',['Bijection&lt; StreamDescriptor, ax::NodeEditor::PinId, std::less&lt; StreamDescriptor &gt;, lessID&lt; ax::NodeEditor::PinId &gt; &gt;',['../classBijection.html',1,'']]],
   ['bijection_3c_20uintptr_5ft_2c_20void_20_2a_20_3e_20',['Bijection&lt; uintptr_t, void * &gt;',['../classBijection.html',1,'']]],
-  ['binimportfilter_21',['BINImportFilter',['../classBINImportFilter.html',1,'']]],
-  ['bufferedswitchmatrixinputchannel_22',['BufferedSwitchMatrixInputChannel',['../classBufferedSwitchMatrixInputChannel.html',1,'']]],
-  ['bufferedswitchmatrixiochannel_23',['BufferedSwitchMatrixIOChannel',['../classBufferedSwitchMatrixIOChannel.html',1,'']]],
-  ['bufferedswitchmatrixoutputchannel_24',['BufferedSwitchMatrixOutputChannel',['../classBufferedSwitchMatrixOutputChannel.html',1,'']]],
-  ['burstwidthmeasurement_25',['BurstWidthMeasurement',['../classBurstWidthMeasurement.html',1,'']]],
-  ['busheatmapfilter_26',['BusHeatmapFilter',['../classBusHeatmapFilter.html',1,'']]],
-  ['bytewaveform_27',['ByteWaveform',['../classByteWaveform.html',1,'']]]
+  ['binarydriver_21',['BinaryDriver',['../classBinaryDriver.html',1,'']]],
+  ['binimportfilter_22',['BINImportFilter',['../classBINImportFilter.html',1,'']]],
+  ['bufferedswitchmatrixinputchannel_23',['BufferedSwitchMatrixInputChannel',['../classBufferedSwitchMatrixInputChannel.html',1,'']]],
+  ['bufferedswitchmatrixiochannel_24',['BufferedSwitchMatrixIOChannel',['../classBufferedSwitchMatrixIOChannel.html',1,'']]],
+  ['bufferedswitchmatrixoutputchannel_25',['BufferedSwitchMatrixOutputChannel',['../classBufferedSwitchMatrixOutputChannel.html',1,'']]],
+  ['burstwidthmeasurement_26',['BurstWidthMeasurement',['../classBurstWidthMeasurement.html',1,'']]],
+  ['busheatmapfilter_27',['BusHeatmapFilter',['../classBusHeatmapFilter.html',1,'']]],
+  ['bytewaveform_28',['ByteWaveform',['../classByteWaveform.html',1,'']]]
 ];

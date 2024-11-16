@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -83,7 +83,7 @@ Inheritance diagram for SCPILoad:</div>
 <map name="aSCPILoad_inherit__map" id="aSCPILoad_inherit__map">
 <area shape="rect" title="An SCPI&#45;based electronic load." alt="" coords="81,244,164,271"/>
 <area shape="rect" href="classSiglentLoad.html" title="Siglent electronic load." alt="" coords="73,319,172,345"/>
-<area shape="rect" href="classLoad.html" title="A generic electronic load." alt="" coords="152,169,205,196"/>
+<area shape="rect" href="classLoad.html" title="Base class for all electronic load drivers." alt="" coords="152,169,205,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="132,95,225,121"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="5,169,128,196"/>
 <area shape="rect" title=" " alt="" coords="83,5,275,47"/>
@@ -96,7 +96,7 @@ Collaboration diagram for SCPILoad:</div>
 <div class="center"><img src="classSCPILoad__coll__graph.png" border="0" usemap="#aSCPILoad_coll__map" alt="Collaboration graph"/></div>
 <map name="aSCPILoad_coll__map" id="aSCPILoad_coll__map">
 <area shape="rect" title="An SCPI&#45;based electronic load." alt="" coords="124,261,207,288"/>
-<area shape="rect" href="classLoad.html" title="A generic electronic load." alt="" coords="196,185,249,212"/>
+<area shape="rect" href="classLoad.html" title="Base class for all electronic load drivers." alt="" coords="196,185,249,212"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="176,109,269,136"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="49,185,172,212"/>
 <area shape="rect" title=" " alt="" coords="141,5,333,47"/>
@@ -111,11 +111,12 @@ Public Types</h2></td></tr>
 typedef std::shared_ptr&lt; <a class="el" href="classSCPILoad.html">SCPILoad</a> &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><b>LoadCreateProcType</b>) (<a class="el" href="classSCPITransport.html">SCPITransport</a> *)</td></tr>
 <tr class="separator:a09996a954f94d23c1dac5e99fbc24cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classLoad"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classLoad')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classLoad.html">Load</a></td></tr>
-<tr class="memitem:a0aaf9f059b9a5a002f4f2e5da5bf5576 inherit pub_types_classLoad"><td class="memItemLeft" align="right" valign="top"><a id="a0aaf9f059b9a5a002f4f2e5da5bf5576" name="a0aaf9f059b9a5a002f4f2e5da5bf5576"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>LoadMode</b> { <b>MODE_CONSTANT_CURRENT</b>
-, <b>MODE_CONSTANT_VOLTAGE</b>
-, <b>MODE_CONSTANT_RESISTANCE</b>
-, <b>MODE_CONSTANT_POWER</b>
+<tr class="memitem:a0aaf9f059b9a5a002f4f2e5da5bf5576 inherit pub_types_classLoad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a> { <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d">MODE_CONSTANT_CURRENT</a>
+, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576a83c07926ebac73a6ff08aec0e86ef61d">MODE_CONSTANT_VOLTAGE</a>
+, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576afa4927f61c9983a6e3266fd06eb86aac">MODE_CONSTANT_RESISTANCE</a>
+, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576ac4d0096c8194daa90ae8c911a7431c08">MODE_CONSTANT_POWER</a>
  }</td></tr>
+<tr class="memdesc:a0aaf9f059b9a5a002f4f2e5da5bf5576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operating modes for the load.  <a href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">More...</a><br /></td></tr>
 <tr class="separator:a0aaf9f059b9a5a002f4f2e5da5bf5576 inherit pub_types_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
 <tr class="memitem:ad2711efa3bcfa2e0f5d6e95fa2ee0ab1 inherit pub_types_classInstrument"><td class="memItemLeft" align="right" valign="top"><a id="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1" name="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>InstrumentTypes</b> { <br />
@@ -146,11 +147,11 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>EnumDrivers</b
 static std::shared_ptr&lt; <a class="el" href="classSCPILoad.html">SCPILoad</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateLoad</b> (std::string driver, <a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
 <tr class="separator:a39aeafab4d3993436e797e29f8c7299d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classLoad"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classLoad')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classLoad.html">Load</a></td></tr>
-<tr class="memitem:a468fe42d0bf4cb9cc56bf13c77683857 inherit pub_static_methods_classLoad"><td class="memItemLeft" align="right" valign="top"><a id="a468fe42d0bf4cb9cc56bf13c77683857" name="a468fe42d0bf4cb9cc56bf13c77683857"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetNameOfLoadMode</b> (LoadMode mode)</td></tr>
+<tr class="memitem:a468fe42d0bf4cb9cc56bf13c77683857 inherit pub_static_methods_classLoad"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a468fe42d0bf4cb9cc56bf13c77683857">GetNameOfLoadMode</a> (<a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a> mode)</td></tr>
+<tr class="memdesc:a468fe42d0bf4cb9cc56bf13c77683857 inherit pub_static_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a LoadMode to a printable string.  <a href="classLoad.html#a468fe42d0bf4cb9cc56bf13c77683857">More...</a><br /></td></tr>
 <tr class="separator:a468fe42d0bf4cb9cc56bf13c77683857 inherit pub_static_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa2807ddb9ed8f93d9fa953d87e8aa97 inherit pub_static_methods_classLoad"><td class="memItemLeft" align="right" valign="top"><a id="aaa2807ddb9ed8f93d9fa953d87e8aa97" name="aaa2807ddb9ed8f93d9fa953d87e8aa97"></a>
-static LoadMode&#160;</td><td class="memItemRight" valign="bottom"><b>GetLoadModeOfName</b> (const std::string &amp;name)</td></tr>
+<tr class="memitem:aaa2807ddb9ed8f93d9fa953d87e8aa97 inherit pub_static_methods_classLoad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#aaa2807ddb9ed8f93d9fa953d87e8aa97">GetLoadModeOfName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:aaa2807ddb9ed8f93d9fa953d87e8aa97 inherit pub_static_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a printable string to a LoadMode.  <a href="classLoad.html#aaa2807ddb9ed8f93d9fa953d87e8aa97">More...</a><br /></td></tr>
 <tr class="separator:aaa2807ddb9ed8f93d9fa953d87e8aa97 inherit pub_static_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
@@ -174,10 +175,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae4f963552d7980693f5acb956ad1f942 inherit pub_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#ae4f963552d7980693f5acb956ad1f942">AcquireData</a> () override</td></tr>
 <tr class="memdesc:ae4f963552d7980693f5acb956ad1f942 inherit pub_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pulls data from hardware and updates our measurements.  <a href="classLoad.html#ae4f963552d7980693f5acb956ad1f942">More...</a><br /></td></tr>
 <tr class="separator:ae4f963552d7980693f5acb956ad1f942 inherit pub_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a9238e6d42bc0e8ca6c9068e007f816 inherit pub_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual LoadMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a8a9238e6d42bc0e8ca6c9068e007f816">GetLoadMode</a> (size_t channel)=0</td></tr>
+<tr class="memitem:a8a9238e6d42bc0e8ca6c9068e007f816 inherit pub_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a8a9238e6d42bc0e8ca6c9068e007f816">GetLoadMode</a> (size_t channel)=0</td></tr>
 <tr class="memdesc:a8a9238e6d42bc0e8ca6c9068e007f816 inherit pub_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the operating mode of the load.  <a href="classLoad.html#a8a9238e6d42bc0e8ca6c9068e007f816">More...</a><br /></td></tr>
 <tr class="separator:a8a9238e6d42bc0e8ca6c9068e007f816 inherit pub_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29c96b657dc2143348f5c30a1c1951fe inherit pub_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a29c96b657dc2143348f5c30a1c1951fe">SetLoadMode</a> (size_t channel, LoadMode mode)=0</td></tr>
+<tr class="memitem:a29c96b657dc2143348f5c30a1c1951fe inherit pub_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a29c96b657dc2143348f5c30a1c1951fe">SetLoadMode</a> (size_t channel, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a> mode)=0</td></tr>
 <tr class="memdesc:a29c96b657dc2143348f5c30a1c1951fe inherit pub_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the operating mode of the load.  <a href="classLoad.html#a29c96b657dc2143348f5c30a1c1951fe">More...</a><br /></td></tr>
 <tr class="separator:a29c96b657dc2143348f5c30a1c1951fe inherit pub_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60d90edf5df6b1a5d1624eae53748da0 inherit pub_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a60d90edf5df6b1a5d1624eae53748da0">GetLoadCurrentRanges</a> (size_t channel)=0</td></tr>
@@ -260,7 +261,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -297,10 +298,10 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDri
 <tr class="separator:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classLoad"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classLoad')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classLoad.html">Load</a></td></tr>
 <tr class="memitem:afffe1090ba6f65a9b92e88992a6fa069 inherit pro_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#afffe1090ba6f65a9b92e88992a6fa069">GetLoadVoltageActual</a> (size_t channel)=0</td></tr>
-<tr class="memdesc:afffe1090ba6f65a9b92e88992a6fa069 inherit pro_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured voltage of the load.  <a href="classLoad.html#afffe1090ba6f65a9b92e88992a6fa069">More...</a><br /></td></tr>
+<tr class="memdesc:afffe1090ba6f65a9b92e88992a6fa069 inherit pro_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured voltage of the load (uncached instantaneous measurement)  <a href="classLoad.html#afffe1090ba6f65a9b92e88992a6fa069">More...</a><br /></td></tr>
 <tr class="separator:afffe1090ba6f65a9b92e88992a6fa069 inherit pro_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875aa9ae33a59aa888aaeb9ab5257b31 inherit pro_methods_classLoad"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a875aa9ae33a59aa888aaeb9ab5257b31">GetLoadCurrentActual</a> (size_t channel)=0</td></tr>
-<tr class="memdesc:a875aa9ae33a59aa888aaeb9ab5257b31 inherit pro_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured current of the load.  <a href="classLoad.html#a875aa9ae33a59aa888aaeb9ab5257b31">More...</a><br /></td></tr>
+<tr class="memdesc:a875aa9ae33a59aa888aaeb9ab5257b31 inherit pro_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured current of the load (uncached instantaneous measurement)  <a href="classLoad.html#a875aa9ae33a59aa888aaeb9ab5257b31">More...</a><br /></td></tr>
 <tr class="separator:a875aa9ae33a59aa888aaeb9ab5257b31 inherit pro_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa75fa54df0eebd35b47c55d7918c9540 inherit pro_methods_classLoad"><td class="memItemLeft" align="right" valign="top"><a id="aa75fa54df0eebd35b47c55d7918c9540" name="aa75fa54df0eebd35b47c55d7918c9540"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
@@ -308,7 +309,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:aa75fa54df0eebd35b47c55d7918c9540 inherit pro_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa993c8f65148179a60922ef7e436de38 inherit pro_methods_classLoad"><td class="memItemLeft" align="right" valign="top"><a id="aa993c8f65148179a60922ef7e436de38" name="aa993c8f65148179a60922ef7e436de38"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:aa993c8f65148179a60922ef7e436de38 inherit pro_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:aa993c8f65148179a60922ef7e436de38 inherit pro_methods_classLoad"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:aa993c8f65148179a60922ef7e436de38 inherit pro_methods_classLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad23b26dd41cd42ab750953897ba266d3 inherit pro_methods_classLoad"><td class="memItemLeft" align="right" valign="top"><a id="ad23b26dd41cd42ab750953897ba266d3" name="ad23b26dd41cd42ab750953897ba266d3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>

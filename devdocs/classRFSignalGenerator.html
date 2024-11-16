@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -171,13 +171,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af07ab009715ac4879784ebba10d4121d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#af07ab009715ac4879784ebba10d4121d">GetAnalogFMEnable</a> (int chan)=0</td></tr>
 <tr class="memdesc:af07ab009715ac4879784ebba10d4121d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable analog frequency modulation.  <a href="classRFSignalGenerator.html#af07ab009715ac4879784ebba10d4121d">More...</a><br /></td></tr>
 <tr class="separator:af07ab009715ac4879784ebba10d4121d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd42a1625b89d084cd4d6947cad0b04d"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; FunctionGenerator::WaveShape &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#abd42a1625b89d084cd4d6947cad0b04d">GetAnalogFMWaveShapes</a> ()=0</td></tr>
+<tr class="memitem:abd42a1625b89d084cd4d6947cad0b04d"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#abd42a1625b89d084cd4d6947cad0b04d">GetAnalogFMWaveShapes</a> ()=0</td></tr>
 <tr class="memdesc:abd42a1625b89d084cd4d6947cad0b04d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the set of waveforms available for analog FM.  <a href="classRFSignalGenerator.html#abd42a1625b89d084cd4d6947cad0b04d">More...</a><br /></td></tr>
 <tr class="separator:abd42a1625b89d084cd4d6947cad0b04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a017f807206e289743f5285953c4400ff"><td class="memItemLeft" align="right" valign="top">virtual FunctionGenerator::WaveShape&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#a017f807206e289743f5285953c4400ff">GetAnalogFMWaveShape</a> (int chan)=0</td></tr>
+<tr class="memitem:a017f807206e289743f5285953c4400ff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#a017f807206e289743f5285953c4400ff">GetAnalogFMWaveShape</a> (int chan)=0</td></tr>
 <tr class="memdesc:a017f807206e289743f5285953c4400ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current waveform selected for analog FM.  <a href="classRFSignalGenerator.html#a017f807206e289743f5285953c4400ff">More...</a><br /></td></tr>
 <tr class="separator:a017f807206e289743f5285953c4400ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af240b7825b9294deb0311d3a6863236d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#af240b7825b9294deb0311d3a6863236d">SetAnalogFMWaveShape</a> (int chan, FunctionGenerator::WaveShape shape)=0</td></tr>
+<tr class="memitem:af240b7825b9294deb0311d3a6863236d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#af240b7825b9294deb0311d3a6863236d">SetAnalogFMWaveShape</a> (int chan, <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> shape)=0</td></tr>
 <tr class="memdesc:af240b7825b9294deb0311d3a6863236d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the analog FM modulation shape for a channel.  <a href="classRFSignalGenerator.html#af240b7825b9294deb0311d3a6863236d">More...</a><br /></td></tr>
 <tr class="separator:af240b7825b9294deb0311d3a6863236d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac273092d12737bc44d49680ea4941878"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRFSignalGenerator.html#ac273092d12737bc44d49680ea4941878">SetAnalogFMDeviation</a> (int chan, int64_t deviation)=0</td></tr>
@@ -311,7 +311,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -360,7 +360,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a401e78ace8ef51c95c7865aebca8b792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a637feec198479fd0fec0f56fd6165fd3"><td class="memItemLeft" align="right" valign="top"><a id="a637feec198479fd0fec0f56fd6165fd3" name="a637feec198479fd0fec0f56fd6165fd3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a637feec198479fd0fec0f56fd6165fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a637feec198479fd0fec0f56fd6165fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a637feec198479fd0fec0f56fd6165fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab45b330b4f8d4b5241363fb3bf228562"><td class="memItemLeft" align="right" valign="top"><a id="ab45b330b4f8d4b5241363fb3bf228562" name="ab45b330b4f8d4b5241363fb3bf228562"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -526,7 +526,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual FunctionGenerator::WaveShape RFSignalGenerator::GetAnalogFMWaveShape </td>
+          <td class="memname">virtual <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> RFSignalGenerator::GetAnalogFMWaveShape </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>chan</em></td><td>)</td>
@@ -556,7 +556,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::vector&lt; FunctionGenerator::WaveShape &gt; RFSignalGenerator::GetAnalogFMWaveShapes </td>
+          <td class="memname">virtual std::vector&lt; <a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> &gt; RFSignalGenerator::GetAnalogFMWaveShapes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1316,7 +1316,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FunctionGenerator::WaveShape&#160;</td>
+          <td class="paramtype"><a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a>&#160;</td>
           <td class="paramname"><em>shape</em>&#160;</td>
         </tr>
         <tr>

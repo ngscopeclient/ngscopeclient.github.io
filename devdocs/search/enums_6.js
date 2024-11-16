@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['triggermode_0',['TriggerMode',['../classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03b',1,'Oscilloscope']]],
-  ['triggerposition_1',['TriggerPosition',['../classCDRTrigger.html#aea061c855613fbab4d7a006ad24ee385',1,'CDRTrigger']]]
+  ['lecroyequalizermode_0',['LeCroyEqualizerMode',['../classCDRTrigger.html#a63eab969eb761dc9b1f76e533a77a20c',1,'CDRTrigger']]],
+  ['loadmode_1',['LoadMode',['../classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576',1,'Load']]]
 ];

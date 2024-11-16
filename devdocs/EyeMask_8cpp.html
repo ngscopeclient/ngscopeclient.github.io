@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -66,7 +66,9 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="headertitle"><div class="title">EyeMask.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">EyeMask.cpp File Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__datamodel.html">Data model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -75,61 +77,64 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="scopehal_8h_source.html">scopehal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EyeWaveform_8h_source.html">EyeWaveform.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="EyeMask_8h_source.html">EyeMask.h</a>&quot;</code><br />
+<code>#include &quot;../canvas_ity/src/canvas_ity.hpp&quot;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for EyeMask.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="EyeMask_8cpp__incl.png" border="0" usemap="#alib_2scopehal_2EyeMask_8cpp" alt=""/></div>
 <map name="alib_2scopehal_2EyeMask_8cpp" id="alib_2scopehal_2EyeMask_8cpp">
-<area shape="rect" title="Implementation of EyeMask." alt="" coords="2265,5,2456,32"/>
-<area shape="rect" href="scopehal_8h.html" title="Main library include file." alt="" coords="2181,80,2273,107"/>
-<area shape="rect" href="EyeWaveform_8h.html" title="Declaration of EyeWaveform." alt="" coords="2297,80,2424,107"/>
-<area shape="rect" href="EyeMask_8h.html" title="Declaration of EyeMask, EyeMaskPoint, and EyeMaskPolygon." alt="" coords="2449,80,2542,107"/>
-<area shape="rect" title=" " alt="" coords="5,155,68,181"/>
-<area shape="rect" title=" " alt="" coords="76,229,139,256"/>
-<area shape="rect" title=" " alt="" coords="165,229,223,256"/>
-<area shape="rect" title=" " alt="" coords="410,155,461,181"/>
-<area shape="rect" title=" " alt="" coords="485,155,556,181"/>
-<area shape="rect" title=" " alt="" coords="610,229,677,256"/>
-<area shape="rect" title=" " alt="" coords="781,155,845,181"/>
-<area shape="rect" title=" " alt="" coords="247,229,325,256"/>
-<area shape="rect" title=" " alt="" coords="869,155,935,181"/>
-<area shape="rect" title=" " alt="" coords="349,229,391,256"/>
-<area shape="rect" title=" " alt="" coords="959,155,1023,181"/>
-<area shape="rect" title=" " alt="" coords="1048,155,1183,181"/>
-<area shape="rect" title=" " alt="" coords="1207,155,1339,181"/>
-<area shape="rect" href="log_8h.html" title="Main logging framework header." alt="" coords="194,155,285,181"/>
-<area shape="rect" href="ScopehalUtil_8h.html" title="Declaration of global utility functions." alt="" coords="1363,155,1479,181"/>
-<area shape="rect" title=" " alt="" coords="1503,155,1578,181"/>
-<area shape="rect" title=" " alt="" coords="1602,155,1773,181"/>
-<area shape="rect" href="Unit_8h.html" title="Declaration of Unit." alt="" coords="1797,155,1858,181"/>
-<area shape="rect" href="Bijection_8h.html" title="Declaration of Bijection." alt="" coords="1882,155,1973,181"/>
-<area shape="rect" href="IDTable_8h.html" title="Declaration of IDTable class." alt="" coords="1997,155,2079,181"/>
-<area shape="rect" href="AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="2097,229,2245,256"/>
-<area shape="rect" href="ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="2155,155,2300,181"/>
-<area shape="rect" href="SCPITransport_8h.html" title="Declaration of SCPITransport." alt="" coords="632,155,756,181"/>
-<area shape="rect" href="SCPISocketTransport_8h.html" title="Declaration of SCPISocketTransport." alt="" coords="2324,155,2491,181"/>
-<area shape="rect" href="SCPITwinLanTransport_8h.html" title="Declaration of SCPITwinLanTransport." alt="" coords="2515,155,2691,181"/>
-<area shape="rect" href="SCPILinuxGPIBTransport_8h.html" title="Declaration of SCPILinuxGPIBTransport." alt="" coords="2716,155,2907,181"/>
-<area shape="rect" href="SCPILxiTransport_8h.html" title="Declaration of SCPILxiTransport." alt="" coords="2931,155,3073,181"/>
-<area shape="rect" href="SCPINullTransport_8h.html" title="Declaration of SCPINullTransport." alt="" coords="3097,155,3248,181"/>
-<area shape="rect" href="SCPIUARTTransport_8h.html" title="Declaration of SCPIUARTTransport." alt="" coords="3273,155,3433,181"/>
-<area shape="rect" href="VICPSocketTransport_8h.html" title="Declaration of VICPSocketTransport." alt="" coords="3457,155,3625,181"/>
-<area shape="rect" href="SCPIDevice_8h_source.html" title=" " alt="" coords="3649,155,3757,181"/>
-<area shape="rect" href="SCPITMCTransport_8h.html" title="Declaration of SCPITMCTransport." alt="" coords="3781,155,3935,181"/>
-<area shape="rect" href="FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="3942,229,4081,256"/>
-<area shape="rect" href="Instrument_8h.html" title="Declaration of Instrument." alt="" coords="4113,155,4219,181"/>
-<area shape="rect" href="StreamDescriptor_8h.html" title="Declaration of StreamDescriptor." alt="" coords="4243,155,4391,181"/>
-<area shape="rect" href="OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="4415,155,4584,181"/>
-<area shape="rect" href="StreamDescriptor__inlines_8h.html" title="Inline functions for StreamDescriptor." alt="" coords="4608,155,4807,181"/>
-<area shape="rect" href="FlowGraphNode__inlines_8h.html" title="Inline functions for FlowGraphNode which reference OscilloscopeChannel class." alt="" coords="4831,155,5019,181"/>
-<area shape="rect" href="Trigger_8h.html" title="Declaration of Trigger." alt="" coords="4011,155,4089,181"/>
-<area shape="rect" href="BERT_8h.html" title="Declaration of BERT." alt="" coords="5043,155,5110,181"/>
-<area shape="rect" href="DigitalIOChannel_8h_source.html" title=" " alt="" coords="5134,155,5278,181"/>
-<area shape="rect" href="DigitalInputChannel_8h_source.html" title=" " alt="" coords="5302,155,5465,181"/>
-<area shape="rect" href="DigitalOutputChannel_8h_source.html" title=" " alt="" coords="5489,155,5664,181"/>
-<area shape="rect" href="FunctionGenerator_8h_source.html" title=" " alt="" coords="5689,155,5843,181"/>
-<area shape="rect" href="FunctionGeneratorChannel_8h_source.html" title=" " alt="" coords="5868,155,6075,181"/>
-<area shape="rect" href="Load_8h_source.html" title=" " alt="" coords="6099,155,6164,181"/>
+<area shape="rect" title="Implementation of EyeMask." alt="" coords="5554,5,5745,32"/>
+<area shape="rect" href="scopehal_8h.html" title="Main library include file." alt="" coords="2405,80,2497,107"/>
+<area shape="rect" href="EyeWaveform_8h.html" title="Declaration of EyeWaveform." alt="" coords="5443,80,5570,107"/>
+<area shape="rect" href="EyeMask_8h.html" title="Declaration of EyeMask, EyeMaskPoint, and EyeMaskPolygon." alt="" coords="5645,80,5739,107"/>
+<area shape="rect" title=" " alt="" coords="5603,155,5781,196"/>
+<area shape="rect" title=" " alt="" coords="5763,80,5827,107"/>
+<area shape="rect" title=" " alt="" coords="5851,80,5931,107"/>
+<area shape="rect" title=" " alt="" coords="5362,162,5425,189"/>
+<area shape="rect" title=" " alt="" coords="227,244,290,271"/>
+<area shape="rect" title=" " alt="" coords="356,244,415,271"/>
+<area shape="rect" title=" " alt="" coords="233,162,284,189"/>
+<area shape="rect" title=" " alt="" coords="309,162,379,189"/>
+<area shape="rect" title=" " alt="" coords="2001,244,2068,271"/>
+<area shape="rect" title=" " alt="" coords="505,162,569,189"/>
+<area shape="rect" title=" " alt="" coords="5,244,83,271"/>
+<area shape="rect" title=" " alt="" coords="593,162,660,189"/>
+<area shape="rect" title=" " alt="" coords="684,162,767,189"/>
+<area shape="rect" title=" " alt="" coords="119,244,161,271"/>
+<area shape="rect" title=" " alt="" coords="791,162,855,189"/>
+<area shape="rect" title=" " alt="" coords="879,162,1014,189"/>
+<area shape="rect" title=" " alt="" coords="1038,162,1170,189"/>
+<area shape="rect" href="log_8h.html" title="Main logging framework header." alt="" coords="119,162,209,189"/>
+<area shape="rect" href="TimeUtil_8h.html" title="Declaration of global timing utility functions." alt="" coords="1194,162,1347,189"/>
+<area shape="rect" title=" " alt="" coords="1372,162,1447,189"/>
+<area shape="rect" title=" " alt="" coords="1471,162,1641,189"/>
+<area shape="rect" href="Unit_8h.html" title="Declaration of Unit." alt="" coords="1665,162,1727,189"/>
+<area shape="rect" href="Bijection_8h.html" title="Declaration of Bijection." alt="" coords="1751,162,1841,189"/>
+<area shape="rect" href="IDTable_8h.html" title="Declaration of IDTable class." alt="" coords="1865,162,1948,189"/>
+<area shape="rect" href="AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="3974,244,4122,271"/>
+<area shape="rect" href="ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="4031,162,4177,189"/>
+<area shape="rect" href="SCPITransport_8h.html" title="Declaration of SCPITransport." alt="" coords="2023,162,2147,189"/>
+<area shape="rect" href="SCPISocketTransport_8h.html" title="Declaration of SCPISocketTransport." alt="" coords="2171,162,2338,189"/>
+<area shape="rect" href="SCPITwinLanTransport_8h.html" title="Declaration of SCPITwinLanTransport." alt="" coords="2363,162,2539,189"/>
+<area shape="rect" href="SCPILinuxGPIBTransport_8h.html" title="Declaration of SCPILinuxGPIBTransport." alt="" coords="2563,162,2754,189"/>
+<area shape="rect" href="SCPILxiTransport_8h.html" title="Declaration of SCPILxiTransport." alt="" coords="2778,162,2921,189"/>
+<area shape="rect" href="SCPINullTransport_8h.html" title="Declaration of SCPINullTransport." alt="" coords="2945,162,3095,189"/>
+<area shape="rect" href="SCPIUARTTransport_8h.html" title="Declaration of SCPIUARTTransport." alt="" coords="3120,162,3280,189"/>
+<area shape="rect" href="SCPIHIDTransport_8h.html" title="Declaration of SCPIHIDTransport." alt="" coords="3305,162,3453,189"/>
+<area shape="rect" href="VICPSocketTransport_8h.html" title="Declaration of VICPSocketTransport." alt="" coords="3477,162,3645,189"/>
+<area shape="rect" href="SCPIDevice_8h_source.html" title=" " alt="" coords="3670,162,3778,189"/>
+<area shape="rect" href="SCPITMCTransport_8h.html" title="Declaration of SCPITMCTransport." alt="" coords="3802,162,3955,189"/>
+<area shape="rect" href="FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="5432,244,5571,271"/>
+<area shape="rect" href="Instrument_8h.html" title="Declaration of Instrument." alt="" coords="4201,162,4306,189"/>
+<area shape="rect" href="StreamDescriptor_8h.html" title="Declaration of StreamDescriptor." alt="" coords="4330,162,4478,189"/>
+<area shape="rect" href="OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="4502,162,4671,189"/>
+<area shape="rect" href="StreamDescriptor__inlines_8h.html" title="Inline functions for StreamDescriptor." alt="" coords="4695,162,4894,189"/>
+<area shape="rect" href="FlowGraphNode__inlines_8h.html" title="Inline functions for FlowGraphNode which reference OscilloscopeChannel class." alt="" coords="4918,162,5106,189"/>
+<area shape="rect" href="Trigger_8h.html" title="Declaration of Trigger." alt="" coords="5501,162,5579,189"/>
+<area shape="rect" href="BERT_8h.html" title="Declaration of BERT." alt="" coords="5131,162,5197,189"/>
+<area shape="rect" href="BinaryDriver_8h.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="5222,162,5338,189"/>
 </map>
 </div>
 </div><a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

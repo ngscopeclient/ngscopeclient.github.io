@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="GlitchTrigger_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal v0.1                                                                                                     *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2021 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -98,49 +98,67 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#ifndef GlitchTrigger_h</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define GlitchTrigger_h</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="EdgeTrigger_8h.html">EdgeTrigger.h</a>&quot;</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html">   43</a></span><span class="keyword">class </span><a class="code hl_class" href="classGlitchTrigger.html">GlitchTrigger</a> : <span class="keyword">public</span> <a class="code hl_class" href="classEdgeTrigger.html">EdgeTrigger</a></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_class" href="classGlitchTrigger.html">GlitchTrigger</a>(<a class="code hl_class" href="classOscilloscope.html">Oscilloscope</a>* scope);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classGlitchTrigger.html">~GlitchTrigger</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">static</span> std::string GetTriggerName();</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    TRIGGER_INITPROC(<a class="code hl_class" href="classGlitchTrigger.html">GlitchTrigger</a>);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> SetCondition(Condition type)</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    { m_parameters[m_conditionname].SetIntVal(type); }</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    Condition GetCondition()</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    { <span class="keywordflow">return</span> (Condition) m_parameters[m_conditionname].GetIntVal(); }</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    int64_t GetLowerBound()</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    { <span class="keywordflow">return</span> m_parameters[m_lowername].GetIntVal(); }</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> SetLowerBound(int64_t bound)</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    { m_parameters[m_lowername].SetIntVal(bound); }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef GlitchTrigger_h</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define GlitchTrigger_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="EdgeTrigger_8h.html">EdgeTrigger.h</a>&quot;</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html">   45</a></span><span class="keyword">class </span><a class="code hl_class" href="classGlitchTrigger.html">GlitchTrigger</a> : <span class="keyword">public</span> <a class="code hl_class" href="classEdgeTrigger.html">EdgeTrigger</a></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_function" href="classGlitchTrigger.html#af11c187fd01a2ae78128a32071414977">GlitchTrigger</a>(<a class="code hl_class" href="classOscilloscope.html">Oscilloscope</a>* scope);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classGlitchTrigger.html">~GlitchTrigger</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">static</span> std::string <a class="code hl_function" href="classGlitchTrigger.html#a0859ee419c62a3e1b506e6975329a86c">GetTriggerName</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    TRIGGER_INITPROC(<a class="code hl_class" href="classGlitchTrigger.html">GlitchTrigger</a>);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#a992d341732ed964a8c8291d340db94ac">   61</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classGlitchTrigger.html#a992d341732ed964a8c8291d340db94ac">SetCondition</a>(<a class="code hl_enumeration" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Condition</a> type)</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    { <a class="code hl_variable" href="classGlitchTrigger.html#ad3a7f798ec7541d9ba0090979e275860">m_condition</a>.<a class="code hl_function" href="classFilterParameter.html#a35e041925270201a9a0c66fe4b55083e">SetIntVal</a>(type); }</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    int64_t GetUpperBound()</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    { <span class="keywordflow">return</span> m_parameters[m_uppername].GetIntVal(); }</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> SetUpperBound(int64_t bound)</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    { m_parameters[m_uppername].SetIntVal(bound); }</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::string m_conditionname;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    std::string m_lowername;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    std::string m_uppername;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>};</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#ac4ae92eb1f68637b1f5ed37497c189ff">   65</a></span>    <a class="code hl_enumeration" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Condition</a> <a class="code hl_function" href="classGlitchTrigger.html#ac4ae92eb1f68637b1f5ed37497c189ff">GetCondition</a>()</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    { <span class="keywordflow">return</span> (<a class="code hl_enumeration" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Condition</a>) <a class="code hl_variable" href="classGlitchTrigger.html#ad3a7f798ec7541d9ba0090979e275860">m_condition</a>.<a class="code hl_function" href="classFilterParameter.html#a5859b43c5a4350e05f31806106a94ce8">GetIntVal</a>(); }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#a2bca245b8eac6171924a3ad791483516">   69</a></span>    int64_t <a class="code hl_function" href="classGlitchTrigger.html#a2bca245b8eac6171924a3ad791483516">GetLowerBound</a>()</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="classGlitchTrigger.html#aa8ea7afac984bc751b59fccc9b85e4dd">m_lowerBound</a>.<a class="code hl_function" href="classFilterParameter.html#a5859b43c5a4350e05f31806106a94ce8">GetIntVal</a>(); }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#a22c314373cdee2beac29098c4bcb4db8">   77</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classGlitchTrigger.html#a22c314373cdee2beac29098c4bcb4db8">SetLowerBound</a>(int64_t bound)</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    { <a class="code hl_variable" href="classGlitchTrigger.html#aa8ea7afac984bc751b59fccc9b85e4dd">m_lowerBound</a>.<a class="code hl_function" href="classFilterParameter.html#a35e041925270201a9a0c66fe4b55083e">SetIntVal</a>(bound); }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#a3d23f164006f35e281c1f53d7da89d03">   81</a></span>    int64_t <a class="code hl_function" href="classGlitchTrigger.html#a3d23f164006f35e281c1f53d7da89d03">GetUpperBound</a>()</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="classGlitchTrigger.html#a2384847c3a921dacedb8f102de96f6f8">m_upperBound</a>.<a class="code hl_function" href="classFilterParameter.html#a5859b43c5a4350e05f31806106a94ce8">GetIntVal</a>(); }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#a3ee2dbdfe4ffc36b58180d20573a55dc">   89</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classGlitchTrigger.html#a3ee2dbdfe4ffc36b58180d20573a55dc">SetUpperBound</a>(int64_t bound)</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    { <a class="code hl_variable" href="classGlitchTrigger.html#a2384847c3a921dacedb8f102de96f6f8">m_upperBound</a>.<a class="code hl_function" href="classFilterParameter.html#a35e041925270201a9a0c66fe4b55083e">SetIntVal</a>(bound); }</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#ad3a7f798ec7541d9ba0090979e275860">   95</a></span>    <a class="code hl_class" href="classFilterParameter.html">FilterParameter</a> <a class="code hl_variable" href="classGlitchTrigger.html#ad3a7f798ec7541d9ba0090979e275860">m_condition</a>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#aa8ea7afac984bc751b59fccc9b85e4dd">   98</a></span>    <a class="code hl_class" href="classFilterParameter.html">FilterParameter</a> <a class="code hl_variable" href="classGlitchTrigger.html#aa8ea7afac984bc751b59fccc9b85e4dd">m_lowerBound</a>;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="classGlitchTrigger.html#a2384847c3a921dacedb8f102de96f6f8">  101</a></span>    <a class="code hl_class" href="classFilterParameter.html">FilterParameter</a> <a class="code hl_variable" href="classGlitchTrigger.html#a2384847c3a921dacedb8f102de96f6f8">m_upperBound</a>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>};</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aEdgeTrigger_8h_html"><div class="ttname"><a href="EdgeTrigger_8h.html">EdgeTrigger.h</a></div><div class="ttdoc">Declaration of EdgeTrigger.</div></div>
-<div class="ttc" id="aclassEdgeTrigger_html"><div class="ttname"><a href="classEdgeTrigger.html">EdgeTrigger</a></div><div class="ttdoc">Simple edge trigger.</div><div class="ttdef"><b>Definition:</b> EdgeTrigger.h:42</div></div>
-<div class="ttc" id="aclassGlitchTrigger_html"><div class="ttname"><a href="classGlitchTrigger.html">GlitchTrigger</a></div><div class="ttdoc">Trigger on a glitch meeting certain width criteria.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:44</div></div>
+<div class="ttc" id="aclassEdgeTrigger_html"><div class="ttname"><a href="classEdgeTrigger.html">EdgeTrigger</a></div><div class="ttdoc">Simple edge trigger.</div><div class="ttdef"><b>Definition:</b> EdgeTrigger.h:44</div></div>
+<div class="ttc" id="aclassFilterParameter_html"><div class="ttname"><a href="classFilterParameter.html">FilterParameter</a></div><div class="ttdoc">A parameter to a filter.</div><div class="ttdef"><b>Definition:</b> FilterParameter.h:86</div></div>
+<div class="ttc" id="aclassFilterParameter_html_a35e041925270201a9a0c66fe4b55083e"><div class="ttname"><a href="classFilterParameter.html#a35e041925270201a9a0c66fe4b55083e">FilterParameter::SetIntVal</a></div><div class="ttdeci">void SetIntVal(int64_t i)</div><div class="ttdoc">Sets the parameter to an integer value.</div><div class="ttdef"><b>Definition:</b> FilterParameter.cpp:307</div></div>
+<div class="ttc" id="aclassFilterParameter_html_a5859b43c5a4350e05f31806106a94ce8"><div class="ttname"><a href="classFilterParameter.html#a5859b43c5a4350e05f31806106a94ce8">FilterParameter::GetIntVal</a></div><div class="ttdeci">int64_t GetIntVal() const</div><div class="ttdoc">Returns the value of the parameter interpreted as an integer.</div><div class="ttdef"><b>Definition:</b> FilterParameter.h:119</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html"><div class="ttname"><a href="classGlitchTrigger.html">GlitchTrigger</a></div><div class="ttdoc">Trigger on a glitch meeting certain width criteria.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:46</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_a0859ee419c62a3e1b506e6975329a86c"><div class="ttname"><a href="classGlitchTrigger.html#a0859ee419c62a3e1b506e6975329a86c">GlitchTrigger::GetTriggerName</a></div><div class="ttdeci">static std::string GetTriggerName()</div><div class="ttdoc">Return the constant trigger type name &quot;Glitch&quot;.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.cpp:76</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_a22c314373cdee2beac29098c4bcb4db8"><div class="ttname"><a href="classGlitchTrigger.html#a22c314373cdee2beac29098c4bcb4db8">GlitchTrigger::SetLowerBound</a></div><div class="ttdeci">void SetLowerBound(int64_t bound)</div><div class="ttdoc">Set the duration of the shortest pulse that will be considered a glitch.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:77</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_a2384847c3a921dacedb8f102de96f6f8"><div class="ttname"><a href="classGlitchTrigger.html#a2384847c3a921dacedb8f102de96f6f8">GlitchTrigger::m_upperBound</a></div><div class="ttdeci">FilterParameter m_upperBound</div><div class="ttdoc">Upper voltage level for glitch detector.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:101</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_a2bca245b8eac6171924a3ad791483516"><div class="ttname"><a href="classGlitchTrigger.html#a2bca245b8eac6171924a3ad791483516">GlitchTrigger::GetLowerBound</a></div><div class="ttdeci">int64_t GetLowerBound()</div><div class="ttdoc">Get the lower bound, in fs, for a pulse to be considered a glitch.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:69</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_a3d23f164006f35e281c1f53d7da89d03"><div class="ttname"><a href="classGlitchTrigger.html#a3d23f164006f35e281c1f53d7da89d03">GlitchTrigger::GetUpperBound</a></div><div class="ttdeci">int64_t GetUpperBound()</div><div class="ttdoc">Get the upper bound, in fs, for a pulse to be considered a glitch.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:81</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_a3ee2dbdfe4ffc36b58180d20573a55dc"><div class="ttname"><a href="classGlitchTrigger.html#a3ee2dbdfe4ffc36b58180d20573a55dc">GlitchTrigger::SetUpperBound</a></div><div class="ttdeci">void SetUpperBound(int64_t bound)</div><div class="ttdoc">Set the duration of the longest pulse that will be considered a glitch.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:89</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_a992d341732ed964a8c8291d340db94ac"><div class="ttname"><a href="classGlitchTrigger.html#a992d341732ed964a8c8291d340db94ac">GlitchTrigger::SetCondition</a></div><div class="ttdeci">void SetCondition(Condition type)</div><div class="ttdoc">Set the condition for the glitch.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:61</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_aa8ea7afac984bc751b59fccc9b85e4dd"><div class="ttname"><a href="classGlitchTrigger.html#aa8ea7afac984bc751b59fccc9b85e4dd">GlitchTrigger::m_lowerBound</a></div><div class="ttdeci">FilterParameter m_lowerBound</div><div class="ttdoc">Lower voltage level for glitch detector.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:98</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_ac4ae92eb1f68637b1f5ed37497c189ff"><div class="ttname"><a href="classGlitchTrigger.html#ac4ae92eb1f68637b1f5ed37497c189ff">GlitchTrigger::GetCondition</a></div><div class="ttdeci">Condition GetCondition()</div><div class="ttdoc">Get the desired glitch condition.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:65</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_ad3a7f798ec7541d9ba0090979e275860"><div class="ttname"><a href="classGlitchTrigger.html#ad3a7f798ec7541d9ba0090979e275860">GlitchTrigger::m_condition</a></div><div class="ttdeci">FilterParameter m_condition</div><div class="ttdoc">Condition to look for.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.h:95</div></div>
+<div class="ttc" id="aclassGlitchTrigger_html_af11c187fd01a2ae78128a32071414977"><div class="ttname"><a href="classGlitchTrigger.html#af11c187fd01a2ae78128a32071414977">GlitchTrigger::GlitchTrigger</a></div><div class="ttdeci">GlitchTrigger(Oscilloscope *scope)</div><div class="ttdoc">Initialize the trigger.</div><div class="ttdef"><b>Definition:</b> GlitchTrigger.cpp:52</div></div>
 <div class="ttc" id="aclassOscilloscope_html"><div class="ttname"><a href="classOscilloscope.html">Oscilloscope</a></div><div class="ttdoc">Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer.</div><div class="ttdef"><b>Definition:</b> Oscilloscope.h:50</div></div>
+<div class="ttc" id="aclassTrigger_html_ac6045a961a0f32675a678befffa4fda2"><div class="ttname"><a href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Trigger::Condition</a></div><div class="ttdeci">Condition</div><div class="ttdoc">Conditions for triggers that perform logical comparisons of values.</div><div class="ttdef"><b>Definition:</b> Trigger.h:69</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

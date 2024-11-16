@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -192,7 +192,7 @@ $(function() {
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classKeysightDCA.html#a2d69ed22d85c0b52143f3b9da7bf70a6">PushEdgeTrigger</a>(<a class="code hl_class" href="classDCAEdgeTrigger.html">DCAEdgeTrigger</a>* trig);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">void</span> PushFloat(std::string path, <span class="keywordtype">float</span> f);</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">void</span> PushSlope(std::string path, DCAEdgeTrigger::EdgeType slope);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">void</span> PushSlope(std::string path, <a class="code hl_enumeration" href="classDCAEdgeTrigger.html#a2ebcbff9baace2b93295e0ebe90d7562">DCAEdgeTrigger::EdgeType</a> slope);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keyword">static</span> std::map&lt;uint64_t, uint64_t&gt; m_sampleRateToDuration;</div>
@@ -228,7 +228,8 @@ $(function() {
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aDCAEdgeTrigger_8h_html"><div class="ttname"><a href="DCAEdgeTrigger_8h.html">DCAEdgeTrigger.h</a></div><div class="ttdoc">Declaration of DCAEdgeTrigger.</div></div>
-<div class="ttc" id="aclassDCAEdgeTrigger_html"><div class="ttname"><a href="classDCAEdgeTrigger.html">DCAEdgeTrigger</a></div><div class="ttdoc">Simple edge trigger.</div><div class="ttdef"><b>Definition:</b> DCAEdgeTrigger.h:42</div></div>
+<div class="ttc" id="aclassDCAEdgeTrigger_html"><div class="ttname"><a href="classDCAEdgeTrigger.html">DCAEdgeTrigger</a></div><div class="ttdoc">Simple edge trigger for Agilent DCA oscilloscopes.</div><div class="ttdef"><b>Definition:</b> DCAEdgeTrigger.h:45</div></div>
+<div class="ttc" id="aclassDCAEdgeTrigger_html_a2ebcbff9baace2b93295e0ebe90d7562"><div class="ttname"><a href="classDCAEdgeTrigger.html#a2ebcbff9baace2b93295e0ebe90d7562">DCAEdgeTrigger::EdgeType</a></div><div class="ttdeci">EdgeType</div><div class="ttdoc">Types of edges to trigger on.</div><div class="ttdef"><b>Definition:</b> DCAEdgeTrigger.h:52</div></div>
 <div class="ttc" id="aclassKeysightDCA_html"><div class="ttname"><a href="classKeysightDCA.html">KeysightDCA</a></div><div class="ttdef"><b>Definition:</b> KeysightDCA.h:36</div></div>
 <div class="ttc" id="aclassKeysightDCA_html_a025eec238f84a1a680c8c463fa98fd90"><div class="ttname"><a href="classKeysightDCA.html#a025eec238f84a1a680c8c463fa98fd90">KeysightDCA::IsTriggerArmed</a></div><div class="ttdeci">virtual bool IsTriggerArmed() override</div><div class="ttdoc">Checks if the trigger is currently armed.</div><div class="ttdef"><b>Definition:</b> KeysightDCA.cpp:574</div></div>
 <div class="ttc" id="aclassKeysightDCA_html_a0a0892f066610dc22d7568db51fe1627"><div class="ttname"><a href="classKeysightDCA.html#a0a0892f066610dc22d7568db51fe1627">KeysightDCA::SetInterleaving</a></div><div class="ttdeci">virtual bool SetInterleaving(bool combine) override</div><div class="ttdoc">Configures the scope to combine channels.</div><div class="ttdef"><b>Definition:</b> KeysightDCA.cpp:712</div></div>
@@ -274,9 +275,9 @@ $(function() {
 <div class="ttc" id="aclassKeysightDCA_html_aee66da64988100147466c28b22d237c3"><div class="ttname"><a href="classKeysightDCA.html#aee66da64988100147466c28b22d237c3">KeysightDCA::PollTrigger</a></div><div class="ttdeci">virtual Oscilloscope::TriggerMode PollTrigger() override</div><div class="ttdoc">Checks the curent trigger status.</div><div class="ttdef"><b>Definition:</b> KeysightDCA.cpp:414</div></div>
 <div class="ttc" id="aclassKeysightDCA_html_af08deeab726872b7f6a1a819eef5315b"><div class="ttname"><a href="classKeysightDCA.html#af08deeab726872b7f6a1a819eef5315b">KeysightDCA::SetChannelOffset</a></div><div class="ttdeci">virtual void SetChannelOffset(size_t i, size_t stream, float offset) override</div><div class="ttdoc">Sets the offset for a given channel.</div><div class="ttdef"><b>Definition:</b> KeysightDCA.cpp:405</div></div>
 <div class="ttc" id="aclassOscilloscopeChannel_html"><div class="ttname"><a href="classOscilloscopeChannel.html">OscilloscopeChannel</a></div><div class="ttdoc">A single channel on an oscilloscope.</div><div class="ttdef"><b>Definition:</b> OscilloscopeChannel.h:49</div></div>
-<div class="ttc" id="aclassOscilloscope_html_ad09fcd978ab27714d1208aa4c2b4a03b"><div class="ttname"><a href="classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03b">Oscilloscope::TriggerMode</a></div><div class="ttdeci">TriggerMode</div><div class="ttdef"><b>Definition:</b> Oscilloscope.h:389</div></div>
+<div class="ttc" id="aclassOscilloscope_html_ad09fcd978ab27714d1208aa4c2b4a03b"><div class="ttname"><a href="classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03b">Oscilloscope::TriggerMode</a></div><div class="ttdeci">TriggerMode</div><div class="ttdef"><b>Definition:</b> Oscilloscope.h:411</div></div>
 <div class="ttc" id="aclassSCPIOscilloscope_html"><div class="ttname"><a href="classSCPIOscilloscope.html">SCPIOscilloscope</a></div><div class="ttdoc">An SCPI-based oscilloscope.</div><div class="ttdef"><b>Definition:</b> SCPIOscilloscope.h:38</div></div>
-<div class="ttc" id="aclassSCPITransport_html"><div class="ttname"><a href="classSCPITransport.html">SCPITransport</a></div><div class="ttdoc">Abstraction of a transport layer for moving SCPI data between endpoints.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:45</div></div>
+<div class="ttc" id="aclassSCPITransport_html"><div class="ttname"><a href="classSCPITransport.html">SCPITransport</a></div><div class="ttdoc">Abstraction of a transport layer for moving SCPI data between endpoints.</div><div class="ttdef"><b>Definition:</b> SCPITransport.h:47</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

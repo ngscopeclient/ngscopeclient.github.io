@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -93,6 +93,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6219645f67d73841e4a61b9ddfdcc8a8"><td class="memItemLeft" align="right" valign="top"><a id="a6219645f67d73841e4a61b9ddfdcc8a8" name="a6219645f67d73841e4a61b9ddfdcc8a8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>StreamDescriptor</b> (<a class="el" href="classInstrumentChannel.html">InstrumentChannel</a> *channel, size_t stream=0)</td></tr>
 <tr class="separator:a6219645f67d73841e4a61b9ddfdcc8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1192c15a35ba020fd1012ec96446c5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStreamDescriptor.html#ad1192c15a35ba020fd1012ec96446c5a">IsOutOfRange</a> ()</td></tr>
+<tr class="separator:ad1192c15a35ba020fd1012ec96446c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4297f5ee827af62c42b42345d39a2e5"><td class="memItemLeft" align="right" valign="top"><a id="aa4297f5ee827af62c42b42345d39a2e5" name="aa4297f5ee827af62c42b42345d39a2e5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>operator bool</b> () const</td></tr>
 <tr class="separator:aa4297f5ee827af62c42b42345d39a2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,6 +136,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetOffset</b> (float 
 <tr class="separator:a8174d541c3d8d7d698a1f3369e9873cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1520e060ce40aea1884eda3fffe60081"><td class="memItemLeft" align="right" valign="top"><a id="a1520e060ce40aea1884eda3fffe60081" name="a1520e060ce40aea1884eda3fffe60081"></a>
 <a class="el" href="classStream.html#a1ac9862db2a647a12b28c5c0a523a231">Stream::StreamType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetType</b> ()</td></tr>
+<tr class="memdesc:a1520e060ce40aea1884eda3fffe60081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of stream (if connected). Returns STREAM_TYPE_ANALOG if null. <br /></td></tr>
 <tr class="separator:a1520e060ce40aea1884eda3fffe60081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1026c7ba80b219c9c511ff0a80e1e611"><td class="memItemLeft" align="right" valign="top"><a id="a1026c7ba80b219c9c511ff0a80e1e611" name="a1026c7ba80b219c9c511ff0a80e1e611"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GetScalarValue</b> ()</td></tr>
@@ -150,7 +153,34 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_stream</b></td></
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Descriptor for a single stream coming off a channel. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad1192c15a35ba020fd1012ec96446c5a" name="ad1192c15a35ba020fd1012ec96446c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1192c15a35ba020fd1012ec96446c5a">&#9670;&nbsp;</a></span>IsOutOfRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool StreamDescriptor::IsOutOfRange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>True if this is an invalid stream (index greater than the highest allowed value) </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="StreamDescriptor_8h_source.html">StreamDescriptor.h</a></li>
 <li>lib/scopehal/FlowGraphNode.cpp</li>
 <li>lib/scopehal/<a class="el" href="FlowGraphNode__inlines_8h_source.html">FlowGraphNode_inlines.h</a></li>

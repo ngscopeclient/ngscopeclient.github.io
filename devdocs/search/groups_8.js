@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['vna_20drivers_0',['VNA drivers',['../group__vnadrivers.html',1,'']]],
-  ['vulkan_20acceleration_1',['Vulkan acceleration',['../group__vksupport.html',1,'']]]
+  ['ngscopeclient_20_28gui_29_0',['Ngscopeclient (GUI)',['../group__ngscopeclient.html',1,'']]]
 ];

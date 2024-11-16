@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -84,11 +84,11 @@ Inheritance diagram for InstrumentChannel:</div>
 <map name="aInstrumentChannel_inherit__map" id="aInstrumentChannel_inherit__map">
 <area shape="rect" title="A single channel of an instrument." alt="" coords="180,487,327,514"/>
 <area shape="rect" href="classBERTOutputChannel.html" title="A pattern generator channel of a BERT." alt="" coords="415,234,569,261"/>
-<area shape="rect" href="classDigitalIOChannel.html" title="A digital I/O channel (GPIO or similar)" alt="" coords="426,285,558,311"/>
+<area shape="rect" href="classDigitalIOChannel.html" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="426,285,558,311"/>
 <area shape="rect" href="classDigitalInputChannel.html" title="A digital input channel (GPIO, buffered mux path, etc)" alt="" coords="417,335,567,362"/>
-<area shape="rect" href="classDigitalOutputChannel.html" title="A digital output channel (GPIO or similar)" alt="" coords="411,386,573,413"/>
+<area shape="rect" href="classDigitalOutputChannel.html" title="A digital output channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="411,386,573,413"/>
 <area shape="rect" href="classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="395,437,589,463"/>
-<area shape="rect" href="classLoadChannel.html" title="A single channel of a power supply." alt="" coords="439,487,545,514"/>
+<area shape="rect" href="classLoadChannel.html" title="A single channel of an active load." alt="" coords="439,487,545,514"/>
 <area shape="rect" href="classMultimeterChannel.html" title="A single channel of a multimeter." alt="" coords="419,538,565,565"/>
 <area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="413,589,571,615"/>
 <area shape="rect" href="classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="413,639,571,666"/>
@@ -102,8 +102,8 @@ Inheritance diagram for InstrumentChannel:</div>
 <area shape="rect" href="classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="701,502,844,529"/>
 <area shape="rect" href="classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="721,553,824,579"/>
 <area shape="rect" href="classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="706,603,839,630"/>
-<area shape="rect" href="classFilter.html" title="Abstract base class for all filters and protocol decoders." alt="" coords="745,654,800,681"/>
-<area shape="rect" href="classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data." alt="" coords="697,705,848,731"/>
+<area shape="rect" href="classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="745,654,800,681"/>
+<area shape="rect" href="classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data in dB/degrees format." alt="" coords="697,705,848,731"/>
 <area shape="rect" href="classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="704,755,841,782"/>
 <area shape="rect" href="classBERTInputChannelWithDataCapture.html" title="Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode." alt="" coords="936,5,1139,47"/>
 <area shape="rect" href="classACCoupleFilter.html" title=" " alt="" coords="979,71,1096,98"/>
@@ -166,6 +166,17 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a350e257b3a190aa2f5b1ba8bfbb6a85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects how the channel should be displayed in e.g. the ngscopeclient filter graph editor. <br /></td></tr>
 <tr class="separator:a350e257b3a190aa2f5b1ba8bfbb6a85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a48677eded5e43a82670036ee53749"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">DownloadState</a> { <br />
+&#160;&#160;<b>DOWNLOAD_UNKNOWN</b>
+, <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749aa3d762f46c498f038338fedbf161545e">DOWNLOAD_NONE</a>
+, <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749a0e671f6a3ded4064aa7d494a40a79cb3">DOWNLOAD_WAITING</a>
+, <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749a854f74c06993ea8b14b335a3392e6f0e">DOWNLOAD_IN_PROGRESS</a>
+, <br />
+&#160;&#160;<a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749ac8302201d287a68d655737cc085a75f7">DOWNLOAD_FINISHED</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a37a48677eded5e43a82670036ee53749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum values to be mapped to <a class="el" href="classInstrumentChannel.html#a38b65374eb7c7637c92fdc2414a1c6de" title="Returns the current download state of this channel.">GetDownloadState()</a> int result value for specific channel download states.  <a href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">More...</a><br /></td></tr>
+<tr class="separator:a37a48677eded5e43a82670036ee53749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classFlowGraphNode"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classFlowGraphNode')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a></td></tr>
 <tr class="memitem:adfe4e0371075ffff01306bbf86842b8c inherit pub_types_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="adfe4e0371075ffff01306bbf86842b8c" name="adfe4e0371075ffff01306bbf86842b8c"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DataLocation</b> { <b>LOC_CPU</b>
 , <b>LOC_GPU</b>
@@ -174,6 +185,7 @@ Public Types</h2></td></tr>
 <tr class="separator:adfe4e0371075ffff01306bbf86842b8c inherit pub_types_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3eeb4c818334b6364a1068980633418 inherit pub_types_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="aa3eeb4c818334b6364a1068980633418" name="aa3eeb4c818334b6364a1068980633418"></a>
 typedef std::map&lt; std::string, <a class="el" href="classFilterParameter.html">FilterParameter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ParameterMapType</b></td></tr>
+<tr class="memdesc:aa3eeb4c818334b6364a1068980633418 inherit pub_types_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Short name for a map of strings to parameters. <br /></td></tr>
 <tr class="separator:aa3eeb4c818334b6364a1068980633418 inherit pub_types_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -259,6 +271,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetScalarValue</b> (s
 <tr class="memitem:a4f23b16f760da395eb1403764878d91e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrumentChannel.html#a4f23b16f760da395eb1403764878d91e">ShouldPersistWaveform</a> ()</td></tr>
 <tr class="memdesc:a4f23b16f760da395eb1403764878d91e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether the channel's waveform(s) should be persisted to a session file.  <a href="classInstrumentChannel.html#a4f23b16f760da395eb1403764878d91e">More...</a><br /></td></tr>
 <tr class="separator:a4f23b16f760da395eb1403764878d91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b65374eb7c7637c92fdc2414a1c6de"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">DownloadState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrumentChannel.html#a38b65374eb7c7637c92fdc2414a1c6de">GetDownloadState</a> ()</td></tr>
+<tr class="memdesc:a38b65374eb7c7637c92fdc2414a1c6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current download state of this channel.  <a href="classInstrumentChannel.html#a38b65374eb7c7637c92fdc2414a1c6de">More...</a><br /></td></tr>
+<tr class="separator:a38b65374eb7c7637c92fdc2414a1c6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a453002a34e00b5ac3d007e4634b700c1"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrumentChannel.html#a453002a34e00b5ac3d007e4634b700c1">GetDownloadProgress</a> ()</td></tr>
+<tr class="memdesc:a453002a34e00b5ac3d007e4634b700c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current completion of the download (on the range [0, 1]), if not DOWNLOAD_UNKNOWN  <a href="classInstrumentChannel.html#a453002a34e00b5ac3d007e4634b700c1">More...</a><br /></td></tr>
+<tr class="separator:a453002a34e00b5ac3d007e4634b700c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849c918146f7bb210518aa622e9aeeb2"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrumentChannel.html#a849c918146f7bb210518aa622e9aeeb2">GetDownloadStartTime</a> ()</td></tr>
+<tr class="memdesc:a849c918146f7bb210518aa622e9aeeb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the start time of a download, if we are DOWNLOAD_IN_PROGRESS; undefined, otherwise  <a href="classInstrumentChannel.html#a849c918146f7bb210518aa622e9aeeb2">More...</a><br /></td></tr>
+<tr class="separator:a849c918146f7bb210518aa622e9aeeb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classFlowGraphNode"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classFlowGraphNode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a></td></tr>
 <tr class="memitem:af9cec2c1d6543a9f9e1c14a2ef746b0f inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFlowGraphNode.html#af9cec2c1d6543a9f9e1c14a2ef746b0f">DetachInputs</a> ()</td></tr>
 <tr class="memdesc:af9cec2c1d6543a9f9e1c14a2ef746b0f inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects all inputs from the node without releasing them.  <a href="classFlowGraphNode.html#af9cec2c1d6543a9f9e1c14a2ef746b0f">More...</a><br /></td></tr>
@@ -285,23 +306,26 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ValidateChann
 <tr class="memitem:a63723f54210819f705bef8149af3ecce inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="a63723f54210819f705bef8149af3ecce" name="a63723f54210819f705bef8149af3ecce"></a>
 <a class="el" href="classFilterParameter.html">FilterParameter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetParameter</b> (std::string s)</td></tr>
 <tr class="separator:a63723f54210819f705bef8149af3ecce inherit pub_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a206cc4066756354f9ee443d33a483885 inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="a206cc4066756354f9ee443d33a483885" name="a206cc4066756354f9ee443d33a483885"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasParameter</b> (std::string s)</td></tr>
+<tr class="memitem:a206cc4066756354f9ee443d33a483885 inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFlowGraphNode.html#a206cc4066756354f9ee443d33a483885">HasParameter</a> (std::string s)</td></tr>
+<tr class="memdesc:a206cc4066756354f9ee443d33a483885 inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if we have a parameter with a given name.  <a href="classFlowGraphNode.html#a206cc4066756354f9ee443d33a483885">More...</a><br /></td></tr>
 <tr class="separator:a206cc4066756354f9ee443d33a483885 inherit pub_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a246993d1aedfe5befcbd0d9f0a6f6558 inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="a246993d1aedfe5befcbd0d9f0a6f6558" name="a246993d1aedfe5befcbd0d9f0a6f6558"></a>
 ParameterMapType::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>GetParamBegin</b> ()</td></tr>
+<tr class="memdesc:a246993d1aedfe5befcbd0d9f0a6f6558 inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning of our parameter map. <br /></td></tr>
 <tr class="separator:a246993d1aedfe5befcbd0d9f0a6f6558 inherit pub_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2227e495059ce10d4a28e64372a7fadb inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="a2227e495059ce10d4a28e64372a7fadb" name="a2227e495059ce10d4a28e64372a7fadb"></a>
 ParameterMapType::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>GetParamEnd</b> ()</td></tr>
+<tr class="memdesc:a2227e495059ce10d4a28e64372a7fadb inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the end of our parameter map. <br /></td></tr>
 <tr class="separator:a2227e495059ce10d4a28e64372a7fadb inherit pub_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7481ee22e946a88834678b0439158846 inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="a7481ee22e946a88834678b0439158846" name="a7481ee22e946a88834678b0439158846"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetParamCount</b> ()</td></tr>
+<tr class="memdesc:a7481ee22e946a88834678b0439158846 inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of parameter we have. <br /></td></tr>
 <tr class="separator:a7481ee22e946a88834678b0439158846 inherit pub_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e34b2986e8994ee49fb8eebcad2a51d inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top">virtual YAML::Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFlowGraphNode.html#a2e34b2986e8994ee49fb8eebcad2a51d">SerializeConfiguration</a> (<a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
 <tr class="memdesc:a2e34b2986e8994ee49fb8eebcad2a51d inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this trigger's configuration to a YAML string.  <a href="classFlowGraphNode.html#a2e34b2986e8994ee49fb8eebcad2a51d">More...</a><br /></td></tr>
 <tr class="separator:a2e34b2986e8994ee49fb8eebcad2a51d inherit pub_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afad6f6c5d0b1380f0ae21cbd990a144b inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFlowGraphNode.html#afad6f6c5d0b1380f0ae21cbd990a144b">LoadParameters</a> (const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
-<tr class="memdesc:afad6f6c5d0b1380f0ae21cbd990a144b inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> configuration from a save file.  <a href="classFlowGraphNode.html#afad6f6c5d0b1380f0ae21cbd990a144b">More...</a><br /></td></tr>
+<tr class="memdesc:afad6f6c5d0b1380f0ae21cbd990a144b inherit pub_methods_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> configuration from a save file.  <a href="classFlowGraphNode.html#afad6f6c5d0b1380f0ae21cbd990a144b">More...</a><br /></td></tr>
 <tr class="separator:afad6f6c5d0b1380f0ae21cbd990a144b inherit pub_methods_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66bdfc0284f084e369a5f2a38820c219 inherit pub_methods_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="a66bdfc0284f084e369a5f2a38820c219" name="a66bdfc0284f084e369a5f2a38820c219"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadInputs</b> (const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
@@ -412,7 +436,7 @@ std::vector&lt; <a class="el" href="classStreamDescriptor.html">StreamDescriptor
 <tr class="memdesc:a4846708edfd0d4d8ce4b23c911a2804d inherit pro_attribs_classFlowGraphNode"><td class="mdescLeft">&#160;</td><td class="mdescRight">The channel (if any) connected to each of our inputs. <br /></td></tr>
 <tr class="separator:a4846708edfd0d4d8ce4b23c911a2804d inherit pro_attribs_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae987c886a29ec3148710bdc5f992af30 inherit pro_attribs_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="ae987c886a29ec3148710bdc5f992af30" name="ae987c886a29ec3148710bdc5f992af30"></a>
-ParameterMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_parameters</b></td></tr>
+<a class="el" href="classFlowGraphNode.html#aa3eeb4c818334b6364a1068980633418">ParameterMapType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_parameters</b></td></tr>
 <tr class="separator:ae987c886a29ec3148710bdc5f992af30 inherit pro_attribs_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512c68c0ac65c8023f8045195d7cc131 inherit pro_attribs_classFlowGraphNode"><td class="memItemLeft" align="right" valign="top"><a id="a512c68c0ac65c8023f8045195d7cc131" name="a512c68c0ac65c8023f8045195d7cc131"></a>
 sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_parametersChangedSignal</b></td></tr>
@@ -430,7 +454,34 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <p >For example, consider a mixed signal oscilloscope with multimeter and function generator option: Four analog inputs, each are usable as oscilloscope or multimeter inputs One trigger input Sixteen logic analyzer inputs One function generator output</p>
 <p >This instrument implements three device classes (oscilloscope, multimeter, and function generator) across a total of 22 channels, however no one channel supports all three APIs.</p>
 <p >This base class implements functionality which is common to channels from any kind of instrument </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a37a48677eded5e43a82670036ee53749" name="a37a48677eded5e43a82670036ee53749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a48677eded5e43a82670036ee53749">&#9670;&nbsp;</a></span>DownloadState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">InstrumentChannel::DownloadState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enum values to be mapped to <a class="el" href="classInstrumentChannel.html#a38b65374eb7c7637c92fdc2414a1c6de" title="Returns the current download state of this channel.">GetDownloadState()</a> int result value for specific channel download states. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a37a48677eded5e43a82670036ee53749aa3d762f46c498f038338fedbf161545e" name="a37a48677eded5e43a82670036ee53749aa3d762f46c498f038338fedbf161545e"></a>DOWNLOAD_NONE&#160;</td><td class="fielddoc"><p >No download is pending (e.g. the scope is in stop mode) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a37a48677eded5e43a82670036ee53749a0e671f6a3ded4064aa7d494a40a79cb3" name="a37a48677eded5e43a82670036ee53749a0e671f6a3ded4064aa7d494a40a79cb3"></a>DOWNLOAD_WAITING&#160;</td><td class="fielddoc"><p >This channel is waiting to be downloaded (i.e. scope is triggered but previous channels are currently beeing downloaded) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a37a48677eded5e43a82670036ee53749a854f74c06993ea8b14b335a3392e6f0e" name="a37a48677eded5e43a82670036ee53749a854f74c06993ea8b14b335a3392e6f0e"></a>DOWNLOAD_IN_PROGRESS&#160;</td><td class="fielddoc"><p >Download has started. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a37a48677eded5e43a82670036ee53749ac8302201d287a68d655737cc085a75f7" name="a37a48677eded5e43a82670036ee53749ac8302201d287a68d655737cc085a75f7"></a>DOWNLOAD_FINISHED&#160;</td><td class="fielddoc"><p >Download is finished. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac60c6a41d93f047be9db34e01c410412" name="ac60c6a41d93f047be9db34e01c410412"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac60c6a41d93f047be9db34e01c410412">&#9670;&nbsp;</a></span>AddStream()</h2>
 
@@ -596,6 +647,94 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <p>Gets the human-readable nickname for this channel, as displayed in the GUI. </p>
 
 <p>Reimplemented in <a class="el" href="classOscilloscopeChannel.html#aef985fc98396f88123c2805d53321a21">OscilloscopeChannel</a>.</p>
+
+</div>
+</div>
+<a id="a453002a34e00b5ac3d007e4634b700c1" name="a453002a34e00b5ac3d007e4634b700c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a453002a34e00b5ac3d007e4634b700c1">&#9670;&nbsp;</a></span>GetDownloadProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float InstrumentChannel::GetDownloadProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the current completion of the download (on the range [0, 1]), if not DOWNLOAD_UNKNOWN </p>
+
+<p>Reimplemented in <a class="el" href="classOscilloscopeChannel.html#adf700e4a9b5b0b9a05c23cd3f5c07236">OscilloscopeChannel</a>.</p>
+
+</div>
+</div>
+<a id="a849c918146f7bb210518aa622e9aeeb2" name="a849c918146f7bb210518aa622e9aeeb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849c918146f7bb210518aa622e9aeeb2">&#9670;&nbsp;</a></span>GetDownloadStartTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double InstrumentChannel::GetDownloadStartTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the start time of a download, if we are DOWNLOAD_IN_PROGRESS; undefined, otherwise </p>
+
+<p>Reimplemented in <a class="el" href="classOscilloscopeChannel.html#ac28627fe47f88921b768acaab0d69d4f">OscilloscopeChannel</a>.</p>
+
+</div>
+</div>
+<a id="a38b65374eb7c7637c92fdc2414a1c6de" name="a38b65374eb7c7637c92fdc2414a1c6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b65374eb7c7637c92fdc2414a1c6de">&#9670;&nbsp;</a></span>GetDownloadState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">InstrumentChannel::DownloadState</a> InstrumentChannel::GetDownloadState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the current download state of this channel. </p>
+<p >The returned int value can either be an integer ranging from 0 to 100 corresponding to the percentage of the waveform that has already been downloaded or a (negative) int value to be mapped to the <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749" title="Enum values to be mapped to GetDownloadState() int result value for specific channel download states.">OscilloscopeChannel::DownloadState</a> enum </p>
+
+<p>Reimplemented in <a class="el" href="classOscilloscopeChannel.html#a4f5bf68d3790e473833c2af28832712e">OscilloscopeChannel</a>.</p>
 
 </div>
 </div>

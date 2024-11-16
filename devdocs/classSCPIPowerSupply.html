@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -81,18 +81,21 @@ Inheritance diagram for SCPIPowerSupply:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSCPIPowerSupply__inherit__graph.png" border="0" usemap="#aSCPIPowerSupply_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSCPIPowerSupply_inherit__map" id="aSCPIPowerSupply_inherit__map">
-<area shape="rect" title="An SCPI&#45;based power supply." alt="" coords="560,132,695,159"/>
-<area shape="rect" href="classDemoPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="789,5,935,32"/>
-<area shape="rect" href="classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="743,56,981,83"/>
-<area shape="rect" href="classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="779,107,945,133"/>
-<area shape="rect" href="classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="771,157,953,184"/>
-<area shape="rect" href="classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="752,209,972,250"/>
-<area shape="rect" href="classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="787,275,937,301"/>
-<area shape="rect" href="classPowerSupply.html" title="A generic power supply." alt="" coords="397,157,504,184"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,157,340,184"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="389,107,512,133"/>
-<area shape="rect" title=" " alt="" coords="5,150,197,191"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,107,341,133"/>
+<area shape="rect" title="An SCPI&#45;based power supply." alt="" coords="560,208,695,235"/>
+<area shape="rect" href="classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="782,5,942,32"/>
+<area shape="rect" href="classDemoPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="789,56,935,83"/>
+<area shape="rect" href="classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="743,107,981,133"/>
+<area shape="rect" href="classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="779,157,945,184"/>
+<area shape="rect" href="classKuaiquPowerSupply.html" title="A KUAIQU power supply." alt="" coords="787,208,937,235"/>
+<area shape="rect" href="classRidenPowerSupply.html" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="791,259,933,285"/>
+<area shape="rect" href="classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="771,309,953,336"/>
+<area shape="rect" href="classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="752,361,972,402"/>
+<area shape="rect" href="classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="787,427,937,453"/>
+<area shape="rect" href="classPowerSupply.html" title="A generic power supply." alt="" coords="397,233,504,260"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,233,340,260"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="389,183,512,209"/>
+<area shape="rect" title=" " alt="" coords="5,226,197,267"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,183,341,209"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -284,7 +287,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -326,7 +329,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a2514be1aa0ec30349b2a3ad1f73fcd48 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a9968ac1c2ce757b00021aa0dfc4d8b05" name="a9968ac1c2ce757b00021aa0dfc4d8b05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b35da06103790c7a3b8d799c2de772 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="aa5b35da06103790c7a3b8d799c2de772" name="aa5b35da06103790c7a3b8d799c2de772"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>

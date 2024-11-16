@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,7 @@ $(function() {
   <div class="headertitle"><div class="title">MultimeterChannel.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
+<a href="MultimeterChannel_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
@@ -98,46 +98,55 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#ifndef MultimeterChannel_h</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define MultimeterChannel_h</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classMultimeterChannel.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="classMultimeterChannel.html">MultimeterChannel</a> : <span class="keyword">public</span> <a class="code hl_class" href="classInstrumentChannel.html">InstrumentChannel</a></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_class" href="classMultimeterChannel.html">MultimeterChannel</a>(</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_class" href="classMultimeter.html">Multimeter</a>* parent,</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keyword">const</span> std::string&amp; hwname,</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">const</span> std::string&amp; color = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">size_t</span> index = 0);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classMultimeterChannel.html">~MultimeterChannel</a>();</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_class" href="classMultimeter.html">Multimeter</a>* GetMeter()</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    { <span class="keywordflow">return</span> <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="classMultimeter.html">Multimeter</a>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">m_instrument</a>); }</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> Update();</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">float</span> GetPrimaryValue()</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(m_primaryStream); }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef MultimeterChannel_h</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define MultimeterChannel_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMultimeterChannel.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classMultimeterChannel.html">MultimeterChannel</a> : <span class="keyword">public</span> <a class="code hl_class" href="classInstrumentChannel.html">InstrumentChannel</a></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_function" href="classMultimeterChannel.html#a490e572b9683a6ebbcf4449374d52664">MultimeterChannel</a>(</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_class" href="classMultimeter.html">Multimeter</a>* parent,</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keyword">const</span> std::string&amp; hwname,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keyword">const</span> std::string&amp; color = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordtype">size_t</span> index = 0);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classMultimeterChannel.html">~MultimeterChannel</a>();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classMultimeterChannel.html#ad55eb445b21cb79f41c2ca9fbd51b36c">   57</a></span>    <a class="code hl_class" href="classMultimeter.html">Multimeter</a>* <a class="code hl_function" href="classMultimeterChannel.html#ad55eb445b21cb79f41c2ca9fbd51b36c">GetMeter</a>()</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    { <span class="keywordflow">return</span> <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="classMultimeter.html">Multimeter</a>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">m_instrument</a>); }</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">float</span> GetSecondaryValue()</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(m_secondaryStream); }</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">virtual</span> PhysicalConnector GetPhysicalConnector() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">size_t</span> m_primaryStream;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">size_t</span> m_secondaryStream;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMultimeterChannel.html#ad34b94a623fadd2ba446b1119313d430">Update</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classMultimeterChannel.html#ab97e7c1b6e47d9ca80ed8d5f510e40f4">   63</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classMultimeterChannel.html#ab97e7c1b6e47d9ca80ed8d5f510e40f4">GetPrimaryValue</a>()</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(<a class="code hl_variable" href="classMultimeterChannel.html#afb69129269d37aa5a47b1bd8a3d30dec">m_primaryStream</a>); }</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="classMultimeterChannel.html#ab1f2a2db71c141373790b332b6e3a775">   67</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classMultimeterChannel.html#ab1f2a2db71c141373790b332b6e3a775">GetSecondaryValue</a>()</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(<a class="code hl_variable" href="classMultimeterChannel.html#a822d4aa95ce3e89452be887e08b1073e">m_secondaryStream</a>); }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">virtual</span> PhysicalConnector GetPhysicalConnector() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classMultimeterChannel.html#afb69129269d37aa5a47b1bd8a3d30dec">   75</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="classMultimeterChannel.html#afb69129269d37aa5a47b1bd8a3d30dec">m_primaryStream</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classMultimeterChannel.html#a822d4aa95ce3e89452be887e08b1073e">   78</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="classMultimeterChannel.html#a822d4aa95ce3e89452be887e08b1073e">m_secondaryStream</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassInstrumentChannel_html"><div class="ttname"><a href="classInstrumentChannel.html">InstrumentChannel</a></div><div class="ttdoc">A single channel of an instrument.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:63</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a67fab2d7362ce1fc7b4cd2bb6c5705dd"><div class="ttname"><a href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">InstrumentChannel::GetScalarValue</a></div><div class="ttdeci">float GetScalarValue(size_t stream)</div><div class="ttdoc">Gets the value of a scalar data stream.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:200</div></div>
-<div class="ttc" id="aclassInstrumentChannel_html_a94aa3a73a9e287e3c5ae97ba2fc061ab"><div class="ttname"><a href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">InstrumentChannel::m_instrument</a></div><div class="ttdeci">Instrument * m_instrument</div><div class="ttdoc">The instrument we're part of (may be null in the case of filters etc)</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:248</div></div>
-<div class="ttc" id="aclassMultimeterChannel_html"><div class="ttname"><a href="classMultimeterChannel.html">MultimeterChannel</a></div><div class="ttdoc">A single channel of a multimeter.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.h:41</div></div>
-<div class="ttc" id="aclassMultimeter_html"><div class="ttname"><a href="classMultimeter.html">Multimeter</a></div><div class="ttdoc">A multimeter.</div><div class="ttdef"><b>Definition:</b> Multimeter.h:41</div></div>
+<div class="ttc" id="aclassInstrumentChannel_html_a94aa3a73a9e287e3c5ae97ba2fc061ab"><div class="ttname"><a href="classInstrumentChannel.html#a94aa3a73a9e287e3c5ae97ba2fc061ab">InstrumentChannel::m_instrument</a></div><div class="ttdeci">Instrument * m_instrument</div><div class="ttdoc">The instrument we're part of (may be null in the case of filters etc)</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:274</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html"><div class="ttname"><a href="classMultimeterChannel.html">MultimeterChannel</a></div><div class="ttdoc">A single channel of a multimeter.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.h:45</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html_a490e572b9683a6ebbcf4449374d52664"><div class="ttname"><a href="classMultimeterChannel.html#a490e572b9683a6ebbcf4449374d52664">MultimeterChannel::MultimeterChannel</a></div><div class="ttdeci">MultimeterChannel(Multimeter *parent, const std::string &amp;hwname, const std::string &amp;color=&quot;#808080&quot;, size_t index=0)</div><div class="ttdoc">Initialize a digital input channel.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.cpp:52</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html_a822d4aa95ce3e89452be887e08b1073e"><div class="ttname"><a href="classMultimeterChannel.html#a822d4aa95ce3e89452be887e08b1073e">MultimeterChannel::m_secondaryStream</a></div><div class="ttdeci">size_t m_secondaryStream</div><div class="ttdoc">Index of our secondary output.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.h:78</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html_ab1f2a2db71c141373790b332b6e3a775"><div class="ttname"><a href="classMultimeterChannel.html#ab1f2a2db71c141373790b332b6e3a775">MultimeterChannel::GetSecondaryValue</a></div><div class="ttdeci">float GetSecondaryValue()</div><div class="ttdoc">Return the value of our secondary measurement, if applicable.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.h:67</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html_ab97e7c1b6e47d9ca80ed8d5f510e40f4"><div class="ttname"><a href="classMultimeterChannel.html#ab97e7c1b6e47d9ca80ed8d5f510e40f4">MultimeterChannel::GetPrimaryValue</a></div><div class="ttdeci">float GetPrimaryValue()</div><div class="ttdoc">Return the value of our primary measurement.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.h:63</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html_ad34b94a623fadd2ba446b1119313d430"><div class="ttname"><a href="classMultimeterChannel.html#ad34b94a623fadd2ba446b1119313d430">MultimeterChannel::Update</a></div><div class="ttdeci">void Update()</div><div class="ttdoc">Fetch the latest readings from hardware into our stream outputs.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.cpp:70</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html_ad55eb445b21cb79f41c2ca9fbd51b36c"><div class="ttname"><a href="classMultimeterChannel.html#ad55eb445b21cb79f41c2ca9fbd51b36c">MultimeterChannel::GetMeter</a></div><div class="ttdeci">Multimeter * GetMeter()</div><div class="ttdoc">Return the Multimeter this channel is attached to.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.h:57</div></div>
+<div class="ttc" id="aclassMultimeterChannel_html_afb69129269d37aa5a47b1bd8a3d30dec"><div class="ttname"><a href="classMultimeterChannel.html#afb69129269d37aa5a47b1bd8a3d30dec">MultimeterChannel::m_primaryStream</a></div><div class="ttdeci">size_t m_primaryStream</div><div class="ttdoc">Index of our primary output.</div><div class="ttdef"><b>Definition:</b> MultimeterChannel.h:75</div></div>
+<div class="ttc" id="aclassMultimeter_html"><div class="ttname"><a href="classMultimeter.html">Multimeter</a></div><div class="ttdoc">A multimeter.</div><div class="ttdef"><b>Definition:</b> Multimeter.h:48</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

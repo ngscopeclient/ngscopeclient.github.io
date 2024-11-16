@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,7 @@ $(function() {
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classVICPSocketTransport-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">VICPSocketTransport Class Reference</div></div>
+  <div class="headertitle"><div class="title">VICPSocketTransport Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__transports.html">Transports</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -99,17 +99,18 @@ Collaboration diagram for VICPSocketTransport:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aaea12b5a4e34bb0f55e6594c1b96e00a"><td class="memItemLeft" align="right" valign="top"><a id="aaea12b5a4e34bb0f55e6594c1b96e00a" name="aaea12b5a4e34bb0f55e6594c1b96e00a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>HEADER_OPS</b> { <br />
-&#160;&#160;<b>OP_DATA</b> = 0x80
-, <b>OP_REMOTE</b> = 0x40
-, <b>OP_LOCKOUT</b> = 0x20
-, <b>OP_CLEAR</b> = 0x10
+<tr class="memitem:aaea12b5a4e34bb0f55e6594c1b96e00a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00a">HEADER_OPS</a> { <br />
+&#160;&#160;<a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00aafa693c3fa854b55a5f7aa5422dbf9702">OP_DATA</a> = 0x80
+, <a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00aa1c740d3dca0cce40cfe4f68aaf925d72">OP_REMOTE</a> = 0x40
+, <a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00aa5f617cec8b086eee22d0a640793224f6">OP_LOCKOUT</a> = 0x20
+, <a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00aa83ab8dce46ca5799b7afbafd3a95f47a">OP_CLEAR</a> = 0x10
 , <br />
-&#160;&#160;<b>OP_SRQ</b> = 0x8
-, <b>OP_REQ</b> = 0x4
-, <b>OP_EOI</b> = 0x1
+&#160;&#160;<a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00aa427ab5b3f1dfc571a3d4ce5f226e65bd">OP_SRQ</a> = 0x8
+, <a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00aaf1cd0e4dea243292912169c8c081f68b">OP_REQ</a> = 0x4
+, <a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00aa9f0272f3786857abcd784cf487765e80">OP_EOI</a> = 0x1
 <br />
  }</td></tr>
+<tr class="memdesc:aaea12b5a4e34bb0f55e6594c1b96e00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">VICP header opcode values.  <a href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00a">More...</a><br /></td></tr>
 <tr class="separator:aaea12b5a4e34bb0f55e6594c1b96e00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classSCPITransport"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classSCPITransport')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classSCPITransport.html">SCPITransport</a></td></tr>
 <tr class="memitem:ac607b81e94191133f33c13051000bab8 inherit pub_types_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="ac607b81e94191133f33c13051000bab8" name="ac607b81e94191133f33c13051000bab8"></a>
@@ -118,20 +119,21 @@ typedef <a class="el" href="classSCPITransport.html">SCPITransport</a> *(*&#160;
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aea6dc71b97a69f168c504049c54ff81e"><td class="memItemLeft" align="right" valign="top"><a id="aea6dc71b97a69f168c504049c54ff81e" name="aea6dc71b97a69f168c504049c54ff81e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>VICPSocketTransport</b> (const std::string &amp;args)</td></tr>
+<tr class="memitem:aea6dc71b97a69f168c504049c54ff81e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#aea6dc71b97a69f168c504049c54ff81e">VICPSocketTransport</a> (const std::string &amp;args)</td></tr>
+<tr class="memdesc:aea6dc71b97a69f168c504049c54ff81e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a VICP transport.  <a href="classVICPSocketTransport.html#aea6dc71b97a69f168c504049c54ff81e">More...</a><br /></td></tr>
 <tr class="separator:aea6dc71b97a69f168c504049c54ff81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a600188d08d069e9e912938379ee10cb2"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#a600188d08d069e9e912938379ee10cb2">GetConnectionString</a> () override</td></tr>
 <tr class="separator:a600188d08d069e9e912938379ee10cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ba28a50e44cb207cd768f055a466ef"><td class="memItemLeft" align="right" valign="top"><a id="a46ba28a50e44cb207cd768f055a466ef" name="a46ba28a50e44cb207cd768f055a466ef"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetHostname</b> ()</td></tr>
+<tr class="memdesc:a46ba28a50e44cb207cd768f055a466ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the hostname of the scope this transport is connected to. <br /></td></tr>
 <tr class="separator:a46ba28a50e44cb207cd768f055a466ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296a004ab46674cd6430924459dc8163"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#a296a004ab46674cd6430924459dc8163">SendCommand</a> (const std::string &amp;cmd) override</td></tr>
 <tr class="separator:a296a004ab46674cd6430924459dc8163"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b9f90533539274f427a853ddde1bfe"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#a07b9f90533539274f427a853ddde1bfe">ReadReply</a> (bool endOnSemicolon=true) override</td></tr>
-<tr class="separator:a07b9f90533539274f427a853ddde1bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a166b0fe5f8ab36bfbe6dc04bde2932c2"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#a166b0fe5f8ab36bfbe6dc04bde2932c2">ReadRawData</a> (size_t len, unsigned char *buf) override</td></tr>
-<tr class="separator:a166b0fe5f8ab36bfbe6dc04bde2932c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3beb0a7f745df4f39b814a0044dad719"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#a3beb0a7f745df4f39b814a0044dad719">ReadReply</a> (bool endOnSemicolon=true, std::function&lt; void(float)&gt; progress=nullptr) override</td></tr>
+<tr class="separator:a3beb0a7f745df4f39b814a0044dad719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac179033a55daa1eecf1312d81f4b8a0"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#aac179033a55daa1eecf1312d81f4b8a0">ReadRawData</a> (size_t len, unsigned char *buf, std::function&lt; void(float)&gt; progress=nullptr) override</td></tr>
+<tr class="separator:aac179033a55daa1eecf1312d81f4b8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a143cdb49f37743d6900d6febd9921632"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#a143cdb49f37743d6900d6febd9921632">SendRawData</a> (size_t len, const unsigned char *buf) override</td></tr>
 <tr class="separator:a143cdb49f37743d6900d6febd9921632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addf7aedcaa630b47808c5685eadb1c28"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#addf7aedcaa630b47808c5685eadb1c28">IsCommandBatchingSupported</a> () override</td></tr>
@@ -177,12 +179,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>FlushRXBuffer
 <tr class="memitem:adc2b4c63ad6f0b59d6ba5e1dbf16ca4b inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="adc2b4c63ad6f0b59d6ba5e1dbf16ca4b" name="adc2b4c63ad6f0b59d6ba5e1dbf16ca4b"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>SendCommand</b> (const std::string &amp;cmd)=0</td></tr>
 <tr class="separator:adc2b4c63ad6f0b59d6ba5e1dbf16ca4b inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa57f931cf0fe859e03af2ff720be1572 inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="aa57f931cf0fe859e03af2ff720be1572" name="aa57f931cf0fe859e03af2ff720be1572"></a>
-virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>ReadReply</b> (bool endOnSemicolon=true)=0</td></tr>
-<tr class="separator:aa57f931cf0fe859e03af2ff720be1572 inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac21155f42d1a5bd970889c22b1139cdd inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="ac21155f42d1a5bd970889c22b1139cdd" name="ac21155f42d1a5bd970889c22b1139cdd"></a>
-virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>ReadRawData</b> (size_t len, unsigned char *buf)=0</td></tr>
-<tr class="separator:ac21155f42d1a5bd970889c22b1139cdd inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb91b384dae0f1dd6a87dd4dac811fd inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="abdb91b384dae0f1dd6a87dd4dac811fd" name="abdb91b384dae0f1dd6a87dd4dac811fd"></a>
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>ReadReply</b> (bool endOnSemicolon=true, std::function&lt; void(float)&gt; progress=nullptr)=0</td></tr>
+<tr class="separator:abdb91b384dae0f1dd6a87dd4dac811fd inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2259a55f788f0b09965433b5b6ec2cf inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="ab2259a55f788f0b09965433b5b6ec2cf" name="ab2259a55f788f0b09965433b5b6ec2cf"></a>
+virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>ReadRawData</b> (size_t len, unsigned char *buf, std::function&lt; void(float)&gt; progress=nullptr)=0</td></tr>
+<tr class="separator:ab2259a55f788f0b09965433b5b6ec2cf inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af897e26cd0dc494915a71b237415ca5e inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="af897e26cd0dc494915a71b237415ca5e" name="af897e26cd0dc494915a71b237415ca5e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendRawData</b> (size_t len, const unsigned char *buf)=0</td></tr>
 <tr class="separator:af897e26cd0dc494915a71b237415ca5e inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,8 +203,8 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsConnected</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a953b3a548cf9e8b86554a2d07ed13c17"><td class="memItemLeft" align="right" valign="top"><a id="a953b3a548cf9e8b86554a2d07ed13c17" name="a953b3a548cf9e8b86554a2d07ed13c17"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetTransportName</b> ()</td></tr>
+<tr class="memitem:a953b3a548cf9e8b86554a2d07ed13c17"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVICPSocketTransport.html#a953b3a548cf9e8b86554a2d07ed13c17">GetTransportName</a> ()</td></tr>
+<tr class="memdesc:a953b3a548cf9e8b86554a2d07ed13c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the constant string "vicp".  <a href="classVICPSocketTransport.html#a953b3a548cf9e8b86554a2d07ed13c17">More...</a><br /></td></tr>
 <tr class="separator:a953b3a548cf9e8b86554a2d07ed13c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classSCPITransport"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classSCPITransport')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classSCPITransport.html">SCPITransport</a></td></tr>
 <tr class="memitem:ae657947d635354d076cab23d187695c3 inherit pub_static_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="ae657947d635354d076cab23d187695c3" name="ae657947d635354d076cab23d187695c3"></a>
@@ -219,6 +221,7 @@ static <a class="el" href="classSCPITransport.html">SCPITransport</a> *&#160;</t
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac02b7023f9414641172c18b7f0b4f154"><td class="memItemLeft" align="right" valign="top"><a id="ac02b7023f9414641172c18b7f0b4f154" name="ac02b7023f9414641172c18b7f0b4f154"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetNextSequenceNumber</b> ()</td></tr>
+<tr class="memdesc:ac02b7023f9414641172c18b7f0b4f154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the next sequence number to be used by a packet. <br /></td></tr>
 <tr class="separator:ac02b7023f9414641172c18b7f0b4f154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classSCPITransport"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classSCPITransport')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classSCPITransport.html">SCPITransport</a></td></tr>
 <tr class="memitem:a384094f24b60e7c821839b1ceb17e539 inherit pro_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="a384094f24b60e7c821839b1ceb17e539" name="a384094f24b60e7c821839b1ceb17e539"></a>
@@ -230,18 +233,23 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>RateLimitingWait</b> 
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a87676addaa7daec28ded0ad64d2ec07e"><td class="memItemLeft" align="right" valign="top"><a id="a87676addaa7daec28ded0ad64d2ec07e" name="a87676addaa7daec28ded0ad64d2ec07e"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_nextSequence</b></td></tr>
+<tr class="memdesc:a87676addaa7daec28ded0ad64d2ec07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next sequence number. <br /></td></tr>
 <tr class="separator:a87676addaa7daec28ded0ad64d2ec07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b2ee881289a8ed0ec4cedafece602f2"><td class="memItemLeft" align="right" valign="top"><a id="a8b2ee881289a8ed0ec4cedafece602f2" name="a8b2ee881289a8ed0ec4cedafece602f2"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastSequence</b></td></tr>
+<tr class="memdesc:a8b2ee881289a8ed0ec4cedafece602f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previous sequence number. <br /></td></tr>
 <tr class="separator:a8b2ee881289a8ed0ec4cedafece602f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad42ee362338f16be7914a8f4ba866759"><td class="memItemLeft" align="right" valign="top"><a id="ad42ee362338f16be7914a8f4ba866759" name="ad42ee362338f16be7914a8f4ba866759"></a>
 <a class="el" href="classSocket.html">Socket</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_socket</b></td></tr>
+<tr class="memdesc:ad42ee362338f16be7914a8f4ba866759"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classSocket.html" title="Class representing a network socket.">Socket</a> for communicating with the scope. <br /></td></tr>
 <tr class="separator:ad42ee362338f16be7914a8f4ba866759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d7b2902dff86207915981a57d7e95d"><td class="memItemLeft" align="right" valign="top"><a id="ad4d7b2902dff86207915981a57d7e95d" name="ad4d7b2902dff86207915981a57d7e95d"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_hostname</b></td></tr>
+<tr class="memdesc:ad4d7b2902dff86207915981a57d7e95d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hostname our socket is connected to. <br /></td></tr>
 <tr class="separator:ad4d7b2902dff86207915981a57d7e95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac009f9b85bbdee7006dd7790cd381f42"><td class="memItemLeft" align="right" valign="top"><a id="ac009f9b85bbdee7006dd7790cd381f42" name="ac009f9b85bbdee7006dd7790cd381f42"></a>
 unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>m_port</b></td></tr>
+<tr class="memdesc:ac009f9b85bbdee7006dd7790cd381f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Port our socket is connected to. <br /></td></tr>
 <tr class="separator:ac009f9b85bbdee7006dd7790cd381f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classSCPITransport"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classSCPITransport')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classSCPITransport.html">SCPITransport</a></td></tr>
 <tr class="memitem:a009836556fbf359b1dbfbce6fbec566a inherit pro_attribs_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="a009836556fbf359b1dbfbce6fbec566a" name="a009836556fbf359b1dbfbce6fbec566a"></a>
@@ -280,7 +288,67 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A SCPI transport tunneled over LeCroy's Virtual <a class="el" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc.">Instrument</a> Control Protocol. </p>
 <p >Protocol layer is based on LeCroy's released VICPClient.h, but rewritten and modernized heavily </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aaea12b5a4e34bb0f55e6594c1b96e00a" name="aaea12b5a4e34bb0f55e6594c1b96e00a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea12b5a4e34bb0f55e6594c1b96e00a">&#9670;&nbsp;</a></span>HEADER_OPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00a">VICPSocketTransport::HEADER_OPS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>VICP header opcode values. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaea12b5a4e34bb0f55e6594c1b96e00aafa693c3fa854b55a5f7aa5422dbf9702" name="aaea12b5a4e34bb0f55e6594c1b96e00aafa693c3fa854b55a5f7aa5422dbf9702"></a>OP_DATA&#160;</td><td class="fielddoc"><p >Data block. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaea12b5a4e34bb0f55e6594c1b96e00aa1c740d3dca0cce40cfe4f68aaf925d72" name="aaea12b5a4e34bb0f55e6594c1b96e00aa1c740d3dca0cce40cfe4f68aaf925d72"></a>OP_REMOTE&#160;</td><td class="fielddoc"><p >Not used. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaea12b5a4e34bb0f55e6594c1b96e00aa5f617cec8b086eee22d0a640793224f6" name="aaea12b5a4e34bb0f55e6594c1b96e00aa5f617cec8b086eee22d0a640793224f6"></a>OP_LOCKOUT&#160;</td><td class="fielddoc"><p >Not used. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaea12b5a4e34bb0f55e6594c1b96e00aa83ab8dce46ca5799b7afbafd3a95f47a" name="aaea12b5a4e34bb0f55e6594c1b96e00aa83ab8dce46ca5799b7afbafd3a95f47a"></a>OP_CLEAR&#160;</td><td class="fielddoc"><p >Not used. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaea12b5a4e34bb0f55e6594c1b96e00aa427ab5b3f1dfc571a3d4ce5f226e65bd" name="aaea12b5a4e34bb0f55e6594c1b96e00aa427ab5b3f1dfc571a3d4ce5f226e65bd"></a>OP_SRQ&#160;</td><td class="fielddoc"><p >GPIB SRQ signal. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaea12b5a4e34bb0f55e6594c1b96e00aaf1cd0e4dea243292912169c8c081f68b" name="aaea12b5a4e34bb0f55e6594c1b96e00aaf1cd0e4dea243292912169c8c081f68b"></a>OP_REQ&#160;</td><td class="fielddoc"><p >GPIB REQ signal. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaea12b5a4e34bb0f55e6594c1b96e00aa9f0272f3786857abcd784cf487765e80" name="aaea12b5a4e34bb0f55e6594c1b96e00aa9f0272f3786857abcd784cf487765e80"></a>OP_EOI&#160;</td><td class="fielddoc"><p >GPIB EOI signal. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aea6dc71b97a69f168c504049c54ff81e" name="aea6dc71b97a69f168c504049c54ff81e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea6dc71b97a69f168c504049c54ff81e">&#9670;&nbsp;</a></span>VICPSocketTransport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VICPSocketTransport::VICPSocketTransport </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a VICP transport. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>Path to the scope, either host:port or hostname with implied port 1861 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a93d40c020ff6b229cb7217c40d2fc3cb" name="a93d40c020ff6b229cb7217c40d2fc3cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93d40c020ff6b229cb7217c40d2fc3cb">&#9670;&nbsp;</a></span>FlushRXBuffer()</h2>
 
@@ -333,6 +401,34 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classSCPITransport.html">SCPITransport</a>.</p>
+
+</div>
+</div>
+<a id="a953b3a548cf9e8b86554a2d07ed13c17" name="a953b3a548cf9e8b86554a2d07ed13c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a953b3a548cf9e8b86554a2d07ed13c17">&#9670;&nbsp;</a></span>GetTransportName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string VICPSocketTransport::GetTransportName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the constant string "vicp". </p>
+<p >Return the constant transport name string "vicp". </p>
 
 </div>
 </div>
@@ -390,8 +486,8 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
-<a id="a166b0fe5f8ab36bfbe6dc04bde2932c2" name="a166b0fe5f8ab36bfbe6dc04bde2932c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a166b0fe5f8ab36bfbe6dc04bde2932c2">&#9670;&nbsp;</a></span>ReadRawData()</h2>
+<a id="aac179033a55daa1eecf1312d81f4b8a0" name="aac179033a55daa1eecf1312d81f4b8a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac179033a55daa1eecf1312d81f4b8a0">&#9670;&nbsp;</a></span>ReadRawData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,7 +505,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>buf</em>&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -428,8 +530,8 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
-<a id="a07b9f90533539274f427a853ddde1bfe" name="a07b9f90533539274f427a853ddde1bfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b9f90533539274f427a853ddde1bfe">&#9670;&nbsp;</a></span>ReadReply()</h2>
+<a id="a3beb0a7f745df4f39b814a0044dad719" name="a3beb0a7f745df4f39b814a0044dad719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3beb0a7f745df4f39b814a0044dad719">&#9670;&nbsp;</a></span>ReadReply()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -441,8 +543,18 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
           <td class="memname">string VICPSocketTransport::ReadReply </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>endOnSemicolon</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>endOnSemicolon</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -68,11 +68,11 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classLoad-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Load Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">Load Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>A generic electronic load.  
+<p>Base class for all electronic load drivers.  
  <a href="classLoad.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="Load_8h_source.html">Load.h</a>&gt;</code></p>
@@ -81,7 +81,7 @@ Inheritance diagram for Load:</div>
 <div class="dyncontent">
 <div class="center"><img src="classLoad__inherit__graph.png" border="0" usemap="#aLoad_inherit__map" alt="Inheritance graph"/></div>
 <map name="aLoad_inherit__map" id="aLoad_inherit__map">
-<area shape="rect" title="A generic electronic load." alt="" coords="75,169,128,196"/>
+<area shape="rect" title="Base class for all electronic load drivers." alt="" coords="75,169,128,196"/>
 <area shape="rect" href="classSCPILoad.html" title="An SCPI&#45;based electronic load." alt="" coords="60,244,143,271"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,95,148,121"/>
 <area shape="rect" title=" " alt="" coords="5,5,197,47"/>
@@ -93,7 +93,7 @@ Collaboration diagram for Load:</div>
 <div class="dyncontent">
 <div class="center"><img src="classLoad__coll__graph.png" border="0" usemap="#aLoad_coll__map" alt="Collaboration graph"/></div>
 <map name="aLoad_coll__map" id="aLoad_coll__map">
-<area shape="rect" title="A generic electronic load." alt="" coords="75,169,128,196"/>
+<area shape="rect" title="Base class for all electronic load drivers." alt="" coords="75,169,128,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,95,148,121"/>
 <area shape="rect" title=" " alt="" coords="5,5,197,47"/>
 </map>
@@ -101,11 +101,12 @@ Collaboration diagram for Load:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0aaf9f059b9a5a002f4f2e5da5bf5576"><td class="memItemLeft" align="right" valign="top"><a id="a0aaf9f059b9a5a002f4f2e5da5bf5576" name="a0aaf9f059b9a5a002f4f2e5da5bf5576"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>LoadMode</b> { <b>MODE_CONSTANT_CURRENT</b>
-, <b>MODE_CONSTANT_VOLTAGE</b>
-, <b>MODE_CONSTANT_RESISTANCE</b>
-, <b>MODE_CONSTANT_POWER</b>
+<tr class="memitem:a0aaf9f059b9a5a002f4f2e5da5bf5576"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a> { <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d">MODE_CONSTANT_CURRENT</a>
+, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576a83c07926ebac73a6ff08aec0e86ef61d">MODE_CONSTANT_VOLTAGE</a>
+, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576afa4927f61c9983a6e3266fd06eb86aac">MODE_CONSTANT_RESISTANCE</a>
+, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576ac4d0096c8194daa90ae8c911a7431c08">MODE_CONSTANT_POWER</a>
  }</td></tr>
+<tr class="memdesc:a0aaf9f059b9a5a002f4f2e5da5bf5576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operating modes for the load.  <a href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">More...</a><br /></td></tr>
 <tr class="separator:a0aaf9f059b9a5a002f4f2e5da5bf5576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
 <tr class="memitem:ad2711efa3bcfa2e0f5d6e95fa2ee0ab1 inherit pub_types_classInstrument"><td class="memItemLeft" align="right" valign="top"><a id="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1" name="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>InstrumentTypes</b> { <br />
@@ -132,10 +133,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae4f963552d7980693f5acb956ad1f942"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#ae4f963552d7980693f5acb956ad1f942">AcquireData</a> () override</td></tr>
 <tr class="memdesc:ae4f963552d7980693f5acb956ad1f942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pulls data from hardware and updates our measurements.  <a href="classLoad.html#ae4f963552d7980693f5acb956ad1f942">More...</a><br /></td></tr>
 <tr class="separator:ae4f963552d7980693f5acb956ad1f942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a9238e6d42bc0e8ca6c9068e007f816"><td class="memItemLeft" align="right" valign="top">virtual LoadMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a8a9238e6d42bc0e8ca6c9068e007f816">GetLoadMode</a> (size_t channel)=0</td></tr>
+<tr class="memitem:a8a9238e6d42bc0e8ca6c9068e007f816"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a8a9238e6d42bc0e8ca6c9068e007f816">GetLoadMode</a> (size_t channel)=0</td></tr>
 <tr class="memdesc:a8a9238e6d42bc0e8ca6c9068e007f816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the operating mode of the load.  <a href="classLoad.html#a8a9238e6d42bc0e8ca6c9068e007f816">More...</a><br /></td></tr>
 <tr class="separator:a8a9238e6d42bc0e8ca6c9068e007f816"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29c96b657dc2143348f5c30a1c1951fe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a29c96b657dc2143348f5c30a1c1951fe">SetLoadMode</a> (size_t channel, LoadMode mode)=0</td></tr>
+<tr class="memitem:a29c96b657dc2143348f5c30a1c1951fe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a29c96b657dc2143348f5c30a1c1951fe">SetLoadMode</a> (size_t channel, <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a> mode)=0</td></tr>
 <tr class="memdesc:a29c96b657dc2143348f5c30a1c1951fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the operating mode of the load.  <a href="classLoad.html#a29c96b657dc2143348f5c30a1c1951fe">More...</a><br /></td></tr>
 <tr class="separator:a29c96b657dc2143348f5c30a1c1951fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60d90edf5df6b1a5d1624eae53748da0"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a60d90edf5df6b1a5d1624eae53748da0">GetLoadCurrentRanges</a> (size_t channel)=0</td></tr>
@@ -218,7 +219,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -226,20 +227,20 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a468fe42d0bf4cb9cc56bf13c77683857"><td class="memItemLeft" align="right" valign="top"><a id="a468fe42d0bf4cb9cc56bf13c77683857" name="a468fe42d0bf4cb9cc56bf13c77683857"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetNameOfLoadMode</b> (LoadMode mode)</td></tr>
+<tr class="memitem:a468fe42d0bf4cb9cc56bf13c77683857"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a468fe42d0bf4cb9cc56bf13c77683857">GetNameOfLoadMode</a> (<a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a> mode)</td></tr>
+<tr class="memdesc:a468fe42d0bf4cb9cc56bf13c77683857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a LoadMode to a printable string.  <a href="classLoad.html#a468fe42d0bf4cb9cc56bf13c77683857">More...</a><br /></td></tr>
 <tr class="separator:a468fe42d0bf4cb9cc56bf13c77683857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa2807ddb9ed8f93d9fa953d87e8aa97"><td class="memItemLeft" align="right" valign="top"><a id="aaa2807ddb9ed8f93d9fa953d87e8aa97" name="aaa2807ddb9ed8f93d9fa953d87e8aa97"></a>
-static LoadMode&#160;</td><td class="memItemRight" valign="bottom"><b>GetLoadModeOfName</b> (const std::string &amp;name)</td></tr>
+<tr class="memitem:aaa2807ddb9ed8f93d9fa953d87e8aa97"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#aaa2807ddb9ed8f93d9fa953d87e8aa97">GetLoadModeOfName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:aaa2807ddb9ed8f93d9fa953d87e8aa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a printable string to a LoadMode.  <a href="classLoad.html#aaa2807ddb9ed8f93d9fa953d87e8aa97">More...</a><br /></td></tr>
 <tr class="separator:aaa2807ddb9ed8f93d9fa953d87e8aa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:afffe1090ba6f65a9b92e88992a6fa069"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#afffe1090ba6f65a9b92e88992a6fa069">GetLoadVoltageActual</a> (size_t channel)=0</td></tr>
-<tr class="memdesc:afffe1090ba6f65a9b92e88992a6fa069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured voltage of the load.  <a href="classLoad.html#afffe1090ba6f65a9b92e88992a6fa069">More...</a><br /></td></tr>
+<tr class="memdesc:afffe1090ba6f65a9b92e88992a6fa069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured voltage of the load (uncached instantaneous measurement)  <a href="classLoad.html#afffe1090ba6f65a9b92e88992a6fa069">More...</a><br /></td></tr>
 <tr class="separator:afffe1090ba6f65a9b92e88992a6fa069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875aa9ae33a59aa888aaeb9ab5257b31"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoad.html#a875aa9ae33a59aa888aaeb9ab5257b31">GetLoadCurrentActual</a> (size_t channel)=0</td></tr>
-<tr class="memdesc:a875aa9ae33a59aa888aaeb9ab5257b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured current of the load.  <a href="classLoad.html#a875aa9ae33a59aa888aaeb9ab5257b31">More...</a><br /></td></tr>
+<tr class="memdesc:a875aa9ae33a59aa888aaeb9ab5257b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the measured current of the load (uncached instantaneous measurement)  <a href="classLoad.html#a875aa9ae33a59aa888aaeb9ab5257b31">More...</a><br /></td></tr>
 <tr class="separator:a875aa9ae33a59aa888aaeb9ab5257b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa75fa54df0eebd35b47c55d7918c9540"><td class="memItemLeft" align="right" valign="top"><a id="aa75fa54df0eebd35b47c55d7918c9540" name="aa75fa54df0eebd35b47c55d7918c9540"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
@@ -247,7 +248,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:aa75fa54df0eebd35b47c55d7918c9540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa993c8f65148179a60922ef7e436de38"><td class="memItemLeft" align="right" valign="top"><a id="aa993c8f65148179a60922ef7e436de38" name="aa993c8f65148179a60922ef7e436de38"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:aa993c8f65148179a60922ef7e436de38"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:aa993c8f65148179a60922ef7e436de38"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:aa993c8f65148179a60922ef7e436de38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad23b26dd41cd42ab750953897ba266d3"><td class="memItemLeft" align="right" valign="top"><a id="ad23b26dd41cd42ab750953897ba266d3" name="ad23b26dd41cd42ab750953897ba266d3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -279,8 +280,35 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 <tr class="separator:a9cd067fac1e95924c1bdd1e2968ae28e inherit pro_attribs_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A generic electronic load. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p >Base class for all electronic load drivers. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a0aaf9f059b9a5a002f4f2e5da5bf5576" name="a0aaf9f059b9a5a002f4f2e5da5bf5576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aaf9f059b9a5a002f4f2e5da5bf5576">&#9670;&nbsp;</a></span>LoadMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">Load::LoadMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operating modes for the load. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d" name="a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d"></a>MODE_CONSTANT_CURRENT&#160;</td><td class="fielddoc"><p >Draw a constant current regardless of supplied voltage. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0aaf9f059b9a5a002f4f2e5da5bf5576a83c07926ebac73a6ff08aec0e86ef61d" name="a0aaf9f059b9a5a002f4f2e5da5bf5576a83c07926ebac73a6ff08aec0e86ef61d"></a>MODE_CONSTANT_VOLTAGE&#160;</td><td class="fielddoc"><p >Draw as much current as needed for the input voltage to drop to the specified level. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0aaf9f059b9a5a002f4f2e5da5bf5576afa4927f61c9983a6e3266fd06eb86aac" name="a0aaf9f059b9a5a002f4f2e5da5bf5576afa4927f61c9983a6e3266fd06eb86aac"></a>MODE_CONSTANT_RESISTANCE&#160;</td><td class="fielddoc"><p >Emulate a fixed resistance. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0aaf9f059b9a5a002f4f2e5da5bf5576ac4d0096c8194daa90ae8c911a7431c08" name="a0aaf9f059b9a5a002f4f2e5da5bf5576ac4d0096c8194daa90ae8c911a7431c08"></a>MODE_CONSTANT_POWER&#160;</td><td class="fielddoc"><p >Draw a constant power regardless of supplied voltage. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae4f963552d7980693f5acb956ad1f942" name="ae4f963552d7980693f5acb956ad1f942"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4f963552d7980693f5acb956ad1f942">&#9670;&nbsp;</a></span>AcquireData()</h2>
 
@@ -367,6 +395,12 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Returns true if the load is enabled (sinking power) and false if disabled (no load) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#afafb0675d2e8be6aac64ce21f2eb7ad6">SiglentLoad</a>.</p>
 
@@ -396,7 +430,13 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </table>
 </div><div class="memdoc">
 
-<p>Get the measured current of the load. </p>
+<p>Get the measured current of the load (uncached instantaneous measurement) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#a1fac7d59389fe605cf546da11a418567">SiglentLoad</a>.</p>
 
@@ -427,6 +467,12 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Returns the index of the load's selected current range, as returned by <a class="el" href="classLoad.html#a60d90edf5df6b1a5d1624eae53748da0" title="Returns a sorted list of operating ranges for the load&#39;s current scale, in amps.">GetLoadCurrentRanges()</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#a066f073ac5bf80a5073b7746f0d7ee18">SiglentLoad</a>.</p>
 
@@ -457,7 +503,13 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Returns a sorted list of operating ranges for the load's current scale, in amps. </p>
-<p >For example, returning [1, 10] means the load supports one mode with 1A full scale range and one with 10A range. </p>
+<p >For example, returning [1, 10] means the load supports one mode with 1A full scale range and one with 10A range.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#a3a9309a348e74d368d4025c7ec130049">SiglentLoad</a>.</p>
 
@@ -473,7 +525,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual LoadMode Load::GetLoadMode </td>
+          <td class="memname">virtual <a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a> Load::GetLoadMode </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>channel</em></td><td>)</td>
@@ -488,8 +540,50 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Returns the operating mode of the load. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#ae0d5ecc5238c64601879d74e31ec6e30">SiglentLoad</a>.</p>
+
+</div>
+</div>
+<a id="aaa2807ddb9ed8f93d9fa953d87e8aa97" name="aaa2807ddb9ed8f93d9fa953d87e8aa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2807ddb9ed8f93d9fa953d87e8aa97">&#9670;&nbsp;</a></span>GetLoadModeOfName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">Load::LoadMode</a> Load::GetLoadModeOfName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a printable string to a LoadMode. </p>
+<p >If an invalid input is provided, returns MODE_CONSTANT_CURRENT.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the mode </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Enumerated equivalent ofname </dd></dl>
 
 </div>
 </div>
@@ -518,7 +612,13 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Gets the set point for the channel. </p>
-<p >Units vary depending on operating mode: amps (CC), volts (CV), ohms (CR), watts (CP). </p>
+<p >Units vary depending on operating mode: amps (CC), volts (CV), ohms (CR), watts (CP).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#ab7d7a59d3b651584502ac4f0e2b7cdc5">SiglentLoad</a>.</p>
 
@@ -548,7 +648,13 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </table>
 </div><div class="memdoc">
 
-<p>Get the measured voltage of the load. </p>
+<p>Get the measured voltage of the load (uncached instantaneous measurement) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#a2f9b80ce81eb3e54ced12f66847bae62">SiglentLoad</a>.</p>
 
@@ -579,6 +685,12 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Returns the index of the load's selected voltage range, as returned by <a class="el" href="classLoad.html#a685014d78a1854d67954243a33cf1923" title="Returns a sorted list of operating ranges for the load&#39;s voltage scale, in volts.">GetLoadVoltageRanges()</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#ac79ef4baee7a64b1e7203e02d0eee8dd">SiglentLoad</a>.</p>
 
@@ -609,9 +721,50 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Returns a sorted list of operating ranges for the load's voltage scale, in volts. </p>
-<p >For example, returning [10, 250] means the load supports one mode with 10V full scale range and one with 250V range. </p>
+<p >For example, returning [10, 250] means the load supports one mode with 10V full scale range and one with 250V range.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#aa73746408bc1a044e638ea348c58c2a6">SiglentLoad</a>.</p>
+
+</div>
+</div>
+<a id="a468fe42d0bf4cb9cc56bf13c77683857" name="a468fe42d0bf4cb9cc56bf13c77683857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a468fe42d0bf4cb9cc56bf13c77683857">&#9670;&nbsp;</a></span>GetNameOfLoadMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Load::GetNameOfLoadMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a LoadMode to a printable string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>Input mode </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Text equivalent of mode </dd></dl>
 
 </div>
 </div>
@@ -650,6 +803,13 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Turns the load on or off. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+    <tr><td class="paramname">active</td><td>True to turn the load on, false to turn it off </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#ae320d829fddc73d6fde67d73fac50376">SiglentLoad</a>.</p>
 
@@ -720,7 +880,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">LoadMode&#160;</td>
+          <td class="paramtype"><a class="el" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">LoadMode</a>&#160;</td>
           <td class="paramname"><em>mode</em>&#160;</td>
         </tr>
         <tr>
@@ -737,6 +897,13 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Sets the operating mode of the load. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Channel index </td></tr>
+    <tr><td class="paramname">mode</td><td>Operating mode </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#ac2dbbaea9df4746a3bbff0512076f741">SiglentLoad</a>.</p>
 
@@ -777,7 +944,14 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div><div class="memdoc">
 
 <p>Sets the set point for the channel. </p>
-<p >Units vary depending on operating mode: amps (CC), volts (CV), ohms (CR), watts (CP). </p>
+<p >Units vary depending on operating mode: amps (CC), volts (CV), ohms (CR), watts (CP).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query </td></tr>
+    <tr><td class="paramname">target</td><td>Desired operating current/voltage/resistance/power depending on the operating mode </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="classSiglentLoad.html#a5b99518f777cd04859f980cce8cf5487">SiglentLoad</a>.</p>
 
@@ -832,7 +1006,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="Load_8h_source.html">Load.h</a></li>
-<li>lib/scopehal/Load.cpp</li>
+<li>lib/scopehal/<a class="el" href="Load_8cpp.html">Load.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

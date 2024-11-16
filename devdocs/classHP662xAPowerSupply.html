@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -66,9 +66,8 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classHP662xAPowerSupply-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">HP662xAPowerSupply Class Reference</div></div>
+  <div class="headertitle"><div class="title">HP662xAPowerSupply Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__drivers.html">Instrument drivers</a> &raquo; <a class="el" href="group__psudrivers.html">Power supply drivers</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -108,8 +107,8 @@ Collaboration diagram for HP662xAPowerSupply:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4f70f4d775d4b720cb2b6ccdf6e77830"><td class="memItemLeft" align="right" valign="top"><a id="a4f70f4d775d4b720cb2b6ccdf6e77830" name="a4f70f4d775d4b720cb2b6ccdf6e77830"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>HP662xAPowerSupply</b> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memitem:a4f70f4d775d4b720cb2b6ccdf6e77830"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHP662xAPowerSupply.html#a4f70f4d775d4b720cb2b6ccdf6e77830">HP662xAPowerSupply</a> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memdesc:a4f70f4d775d4b720cb2b6ccdf6e77830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the driver.  <a href="classHP662xAPowerSupply.html#a4f70f4d775d4b720cb2b6ccdf6e77830">More...</a><br /></td></tr>
 <tr class="separator:a4f70f4d775d4b720cb2b6ccdf6e77830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad69d67c329e58209faa4aba8b63a2ce1"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHP662xAPowerSupply.html#ad69d67c329e58209faa4aba8b63a2ce1">GetInstrumentTypesForChannel</a> (size_t i) const override</td></tr>
 <tr class="memdesc:ad69d67c329e58209faa4aba8b63a2ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a bitfield describing the set of instrument types that a given channel supports.  <a href="classHP662xAPowerSupply.html#ad69d67c329e58209faa4aba8b63a2ce1">More...</a><br /></td></tr>
@@ -276,7 +275,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -312,6 +311,7 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDri
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad43c78a4f9be406fd73c1f0c7c9e31b9"><td class="memItemLeft" align="right" valign="top"><a id="ad43c78a4f9be406fd73c1f0c7c9e31b9" name="ad43c78a4f9be406fd73c1f0c7c9e31b9"></a>
 static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDriverNameInternal</b> ()</td></tr>
+<tr class="memdesc:ad43c78a4f9be406fd73c1f0c7c9e31b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the constant driver name "hp_66xxa". <br /></td></tr>
 <tr class="separator:ad43c78a4f9be406fd73c1f0c7c9e31b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classSCPIPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classSCPIPowerSupply')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a></td></tr>
 <tr class="memitem:a7cfd39803c4a57c1a9d72c20f68a0c52 inherit pub_static_methods_classSCPIPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a7cfd39803c4a57c1a9d72c20f68a0c52" name="a7cfd39803c4a57c1a9d72c20f68a0c52"></a>
@@ -348,7 +348,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a2514be1aa0ec30349b2a3ad1f73fcd48 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a9968ac1c2ce757b00021aa0dfc4d8b05" name="a9968ac1c2ce757b00021aa0dfc4d8b05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b35da06103790c7a3b8d799c2de772 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="aa5b35da06103790c7a3b8d799c2de772" name="aa5b35da06103790c7a3b8d799c2de772"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -359,11 +359,36 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguratio
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
 <tr class="separator:af24d249d09e7cb4a1afe73b7c7fbfa2d inherit pro_methods_classSCPIInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a5379e32058b05cbc5f336b02b00e57e9"><td class="memItemLeft" align="right" valign="top"><a id="a5379e32058b05cbc5f336b02b00e57e9" name="a5379e32058b05cbc5f336b02b00e57e9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_activeChannel</b></td></tr>
-<tr class="separator:a5379e32058b05cbc5f336b02b00e57e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classSCPIPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classSCPIPowerSupply')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a></td></tr>
+<tr class="memitem:aaf34047b93d0da926c6e9aa5011d9e91 inherit pub_types_classSCPIPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="aaf34047b93d0da926c6e9aa5011d9e91" name="aaf34047b93d0da926c6e9aa5011d9e91"></a>
+typedef std::shared_ptr&lt; <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a> &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><b>PowerCreateProcType</b>) (<a class="el" href="classSCPITransport.html">SCPITransport</a> *)</td></tr>
+<tr class="separator:aaf34047b93d0da926c6e9aa5011d9e91 inherit pub_types_classSCPIPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
+<tr class="memitem:ad2711efa3bcfa2e0f5d6e95fa2ee0ab1 inherit pub_types_classInstrument"><td class="memItemLeft" align="right" valign="top"><a id="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1" name="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>InstrumentTypes</b> { <br />
+&#160;&#160;<b>INST_OSCILLOSCOPE</b> = 0x01
+, <b>INST_DMM</b> = 0x02
+, <b>INST_PSU</b> = 0x04
+, <b>INST_FUNCTION</b> = 0x08
+, <br />
+&#160;&#160;<b>INST_RF_GEN</b> = 0x10
+, <b>INST_LOAD</b> = 0x20
+, <b>INST_BERT</b> = 0x40
+, <b>INST_MISC</b> = 0x80
+, <br />
+&#160;&#160;<b>INST_SWITCH_MATRIX</b> = 0x100
+<br />
+ }</td></tr>
+<tr class="separator:ad2711efa3bcfa2e0f5d6e95fa2ee0ab1 inherit pub_types_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
+<tr class="memitem:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#abd440c031656ca3947b23e899aacc299">m_nickname</a></td></tr>
+<tr class="memdesc:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional user-selected nickname of the instrument.  <a href="classInstrument.html#abd440c031656ca3947b23e899aacc299">More...</a><br /></td></tr>
+<tr class="separator:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_types_classSCPIPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classSCPIPowerSupply')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a></td></tr>
+<tr class="memitem:a083d8a2d184ee76a1f0651535ad820ac inherit pro_types_classSCPIPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a083d8a2d184ee76a1f0651535ad820ac" name="a083d8a2d184ee76a1f0651535ad820ac"></a>
+typedef std::map&lt; std::string, PowerCreateProcType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PowerCreateMapType</b></td></tr>
+<tr class="separator:a083d8a2d184ee76a1f0651535ad820ac inherit pro_types_classSCPIPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classInstrument')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
 <tr class="memitem:a4e1b87322f21d637206fbecc6c840756 inherit pro_attribs_classInstrument"><td class="memItemLeft" align="right" valign="top"><a id="a4e1b87322f21d637206fbecc6c840756" name="a4e1b87322f21d637206fbecc6c840756"></a>
 std::list&lt; sigc::slot&lt; void(YAML::Node &amp;, <a class="el" href="classIDTable.html">IDTable</a> &amp;)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_serializers</b></td></tr>
@@ -397,37 +422,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_serial</b></
 <tr class="memitem:af90b3e90fdf62f5d7c58b6cc94e50efc inherit pro_attribs_classSCPIDevice"><td class="memItemLeft" align="right" valign="top"><a id="af90b3e90fdf62f5d7c58b6cc94e50efc" name="af90b3e90fdf62f5d7c58b6cc94e50efc"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_fwVersion</b></td></tr>
 <tr class="separator:af90b3e90fdf62f5d7c58b6cc94e50efc inherit pro_attribs_classSCPIDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classSCPIPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classSCPIPowerSupply')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a></td></tr>
-<tr class="memitem:aaf34047b93d0da926c6e9aa5011d9e91 inherit pub_types_classSCPIPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="aaf34047b93d0da926c6e9aa5011d9e91" name="aaf34047b93d0da926c6e9aa5011d9e91"></a>
-typedef std::shared_ptr&lt; <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a> &gt;(*&#160;</td><td class="memItemRight" valign="bottom"><b>PowerCreateProcType</b>) (<a class="el" href="classSCPITransport.html">SCPITransport</a> *)</td></tr>
-<tr class="separator:aaf34047b93d0da926c6e9aa5011d9e91 inherit pub_types_classSCPIPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
-<tr class="memitem:ad2711efa3bcfa2e0f5d6e95fa2ee0ab1 inherit pub_types_classInstrument"><td class="memItemLeft" align="right" valign="top"><a id="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1" name="ad2711efa3bcfa2e0f5d6e95fa2ee0ab1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>InstrumentTypes</b> { <br />
-&#160;&#160;<b>INST_OSCILLOSCOPE</b> = 0x01
-, <b>INST_DMM</b> = 0x02
-, <b>INST_PSU</b> = 0x04
-, <b>INST_FUNCTION</b> = 0x08
-, <br />
-&#160;&#160;<b>INST_RF_GEN</b> = 0x10
-, <b>INST_LOAD</b> = 0x20
-, <b>INST_BERT</b> = 0x40
-, <b>INST_MISC</b> = 0x80
-, <br />
-&#160;&#160;<b>INST_SWITCH_MATRIX</b> = 0x100
-<br />
- }</td></tr>
-<tr class="separator:ad2711efa3bcfa2e0f5d6e95fa2ee0ab1 inherit pub_types_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classInstrument"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classInstrument')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classInstrument.html">Instrument</a></td></tr>
-<tr class="memitem:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#abd440c031656ca3947b23e899aacc299">m_nickname</a></td></tr>
-<tr class="memdesc:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional user-selected nickname of the instrument.  <a href="classInstrument.html#abd440c031656ca3947b23e899aacc299">More...</a><br /></td></tr>
-<tr class="separator:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_types_classSCPIPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classSCPIPowerSupply')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a></td></tr>
-<tr class="memitem:a083d8a2d184ee76a1f0651535ad820ac inherit pro_types_classSCPIPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a083d8a2d184ee76a1f0651535ad820ac" name="a083d8a2d184ee76a1f0651535ad820ac"></a>
-typedef std::map&lt; std::string, PowerCreateProcType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PowerCreateMapType</b></td></tr>
-<tr class="separator:a083d8a2d184ee76a1f0651535ad820ac inherit pro_types_classSCPIPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classSCPIPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classSCPIPowerSupply')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a></td></tr>
 <tr class="memitem:aca1ba249f2f193e25f8341f16a0c9bf1 inherit pro_static_attribs_classSCPIPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="aca1ba249f2f193e25f8341f16a0c9bf1" name="aca1ba249f2f193e25f8341f16a0c9bf1"></a>
 static PowerCreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_powercreateprocs</b></td></tr>
@@ -435,7 +429,34 @@ static PowerCreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A HP 662xA power supply. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a4f70f4d775d4b720cb2b6ccdf6e77830" name="a4f70f4d775d4b720cb2b6ccdf6e77830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f70f4d775d4b720cb2b6ccdf6e77830">&#9670;&nbsp;</a></span>HP662xAPowerSupply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HP662xAPowerSupply::HP662xAPowerSupply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSCPITransport.html">SCPITransport</a> *&#160;</td>
+          <td class="paramname"><em>transport</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the driver. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transport</td><td><a class="el" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints.">SCPITransport</a> pointing to the PSU </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad69d67c329e58209faa4aba8b63a2ce1" name="ad69d67c329e58209faa4aba8b63a2ce1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad69d67c329e58209faa4aba8b63a2ce1">&#9670;&nbsp;</a></span>GetInstrumentTypesForChannel()</h2>
 
@@ -970,7 +991,7 @@ static PowerCreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="HP662xAPowerSupply_8h_source.html">HP662xAPowerSupply.h</a></li>
-<li>lib/scopehal/HP662xAPowerSupply.cpp</li>
+<li>lib/scopehal/<a class="el" href="HP662xAPowerSupply_8cpp.html">HP662xAPowerSupply.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -67,7 +67,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classAlignedAllocator-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AlignedAllocator&lt; T, alignment &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">AlignedAllocator&lt; T, alignment &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -79,48 +79,56 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAlignedAllocator_1_1rebind.html">rebind</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebind to a different type of allocator.  <a href="structAlignedAllocator_1_1rebind.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ace173cbb585102f35337af6a2f0773d0"><td class="memItemLeft" align="right" valign="top"><a id="ace173cbb585102f35337af6a2f0773d0" name="ace173cbb585102f35337af6a2f0773d0"></a>
 typedef T *&#160;</td><td class="memItemRight" valign="bottom"><b>pointer</b></td></tr>
+<tr class="memdesc:ace173cbb585102f35337af6a2f0773d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the allocated type. <br /></td></tr>
 <tr class="separator:ace173cbb585102f35337af6a2f0773d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0023d9d0cd46d1436908ca3438b4253"><td class="memItemLeft" align="right" valign="top"><a id="aa0023d9d0cd46d1436908ca3438b4253" name="aa0023d9d0cd46d1436908ca3438b4253"></a>
 typedef const T *&#160;</td><td class="memItemRight" valign="bottom"><b>const_pointer</b></td></tr>
+<tr class="memdesc:aa0023d9d0cd46d1436908ca3438b4253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const pointer to the allocated type. <br /></td></tr>
 <tr class="separator:aa0023d9d0cd46d1436908ca3438b4253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7ea4f8ae44e6681548689059258f7ed"><td class="memItemLeft" align="right" valign="top"><a id="aa7ea4f8ae44e6681548689059258f7ed" name="aa7ea4f8ae44e6681548689059258f7ed"></a>
 typedef T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>reference</b></td></tr>
+<tr class="memdesc:aa7ea4f8ae44e6681548689059258f7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the allocated type. <br /></td></tr>
 <tr class="separator:aa7ea4f8ae44e6681548689059258f7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f9389d4b2f98606022504b1695945b7"><td class="memItemLeft" align="right" valign="top"><a id="a1f9389d4b2f98606022504b1695945b7" name="a1f9389d4b2f98606022504b1695945b7"></a>
 typedef const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>const_reference</b></td></tr>
+<tr class="memdesc:a1f9389d4b2f98606022504b1695945b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const reference to the allocated type. <br /></td></tr>
 <tr class="separator:a1f9389d4b2f98606022504b1695945b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8156c3bcb3f481eee1ed5744f1bee588"><td class="memItemLeft" align="right" valign="top"><a id="a8156c3bcb3f481eee1ed5744f1bee588" name="a8156c3bcb3f481eee1ed5744f1bee588"></a>
 typedef T&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b></td></tr>
+<tr class="memdesc:a8156c3bcb3f481eee1ed5744f1bee588"><td class="mdescLeft">&#160;</td><td class="mdescRight">The allocated type. <br /></td></tr>
 <tr class="separator:a8156c3bcb3f481eee1ed5744f1bee588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1888edf8723ac823a6955b7a55b120a5"><td class="memItemLeft" align="right" valign="top"><a id="a1888edf8723ac823a6955b7a55b120a5" name="a1888edf8723ac823a6955b7a55b120a5"></a>
 typedef size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size_type</b></td></tr>
+<tr class="memdesc:a1888edf8723ac823a6955b7a55b120a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the size of an allocated object. <br /></td></tr>
 <tr class="separator:a1888edf8723ac823a6955b7a55b120a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31ad61cf5c16d9cdc533b503111e3543"><td class="memItemLeft" align="right" valign="top"><a id="a31ad61cf5c16d9cdc533b503111e3543" name="a31ad61cf5c16d9cdc533b503111e3543"></a>
 typedef ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><b>difference_type</b></td></tr>
+<tr class="memdesc:a31ad61cf5c16d9cdc533b503111e3543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the difference between two allocated pointers. <br /></td></tr>
 <tr class="separator:a31ad61cf5c16d9cdc533b503111e3543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a53ee7d3d7a472c9614c598b058d97b01"><td class="memItemLeft" align="right" valign="top"><a id="a53ee7d3d7a472c9614c598b058d97b01" name="a53ee7d3d7a472c9614c598b058d97b01"></a>
-T *&#160;</td><td class="memItemRight" valign="bottom"><b>address</b> (T &amp;rhs)</td></tr>
+<tr class="memitem:a53ee7d3d7a472c9614c598b058d97b01"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#a53ee7d3d7a472c9614c598b058d97b01">address</a> (T &amp;rhs)</td></tr>
+<tr class="memdesc:a53ee7d3d7a472c9614c598b058d97b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the address of an object.  <a href="classAlignedAllocator.html#a53ee7d3d7a472c9614c598b058d97b01">More...</a><br /></td></tr>
 <tr class="separator:a53ee7d3d7a472c9614c598b058d97b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3885b2c9e6bc76f1583808d2fa7853e6"><td class="memItemLeft" align="right" valign="top"><a id="a3885b2c9e6bc76f1583808d2fa7853e6" name="a3885b2c9e6bc76f1583808d2fa7853e6"></a>
-const T *&#160;</td><td class="memItemRight" valign="bottom"><b>address</b> (T &amp;rhs) const</td></tr>
+<tr class="memitem:a3885b2c9e6bc76f1583808d2fa7853e6"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#a3885b2c9e6bc76f1583808d2fa7853e6">address</a> (T &amp;rhs) const</td></tr>
+<tr class="memdesc:a3885b2c9e6bc76f1583808d2fa7853e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the address of an object.  <a href="classAlignedAllocator.html#a3885b2c9e6bc76f1583808d2fa7853e6">More...</a><br /></td></tr>
 <tr class="separator:a3885b2c9e6bc76f1583808d2fa7853e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6133f9e9d3e7f3587bba7ee177811a2"><td class="memItemLeft" align="right" valign="top"><a id="ad6133f9e9d3e7f3587bba7ee177811a2" name="ad6133f9e9d3e7f3587bba7ee177811a2"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>max_size</b> () const</td></tr>
+<tr class="memitem:ad6133f9e9d3e7f3587bba7ee177811a2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#ad6133f9e9d3e7f3587bba7ee177811a2">max_size</a> () const</td></tr>
+<tr class="memdesc:ad6133f9e9d3e7f3587bba7ee177811a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the max possible allocation size the allocator supports.  <a href="classAlignedAllocator.html#ad6133f9e9d3e7f3587bba7ee177811a2">More...</a><br /></td></tr>
 <tr class="separator:ad6133f9e9d3e7f3587bba7ee177811a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bca013ca7e76cfd831ee0412a3c5690"><td class="memItemLeft" align="right" valign="top"><a id="a8bca013ca7e76cfd831ee0412a3c5690" name="a8bca013ca7e76cfd831ee0412a3c5690"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a> &amp;other) const</td></tr>
+<tr class="memitem:a8bca013ca7e76cfd831ee0412a3c5690"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#a8bca013ca7e76cfd831ee0412a3c5690">operator!=</a> (const <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a> &amp;other) const</td></tr>
+<tr class="memdesc:a8bca013ca7e76cfd831ee0412a3c5690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if two allocators are the same.  <a href="classAlignedAllocator.html#a8bca013ca7e76cfd831ee0412a3c5690">More...</a><br /></td></tr>
 <tr class="separator:a8bca013ca7e76cfd831ee0412a3c5690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f9f4d30d77673108508714a471e1819"><td class="memItemLeft" align="right" valign="top"><a id="a6f9f4d30d77673108508714a471e1819" name="a6f9f4d30d77673108508714a471e1819"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>construct</b> (T *const p, const T &amp;t) const</td></tr>
+<tr class="memitem:a6f9f4d30d77673108508714a471e1819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#a6f9f4d30d77673108508714a471e1819">construct</a> (T *const p, const T &amp;t) const</td></tr>
+<tr class="memdesc:a6f9f4d30d77673108508714a471e1819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct an object in-place given a reference one.  <a href="classAlignedAllocator.html#a6f9f4d30d77673108508714a471e1819">More...</a><br /></td></tr>
 <tr class="separator:a6f9f4d30d77673108508714a471e1819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4d449541ceb67f57b835051c452457f"><td class="memItemLeft" align="right" valign="top"><a id="aa4d449541ceb67f57b835051c452457f" name="aa4d449541ceb67f57b835051c452457f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>destroy</b> (T *const p) const</td></tr>
@@ -135,19 +143,19 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
 template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a99d45b93a0a0e7a229cc0c1b954f21f0"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>AlignedAllocator</b> (const <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; U, alignment &gt; &amp;)</td></tr>
 <tr class="separator:a99d45b93a0a0e7a229cc0c1b954f21f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6940f93c7db7cdcd6b6718ac5ae53701"><td class="memItemLeft" align="right" valign="top"><a id="a6940f93c7db7cdcd6b6718ac5ae53701" name="a6940f93c7db7cdcd6b6718ac5ae53701"></a>
-T *&#160;</td><td class="memItemRight" valign="bottom"><b>allocate</b> (size_t n) const</td></tr>
+<tr class="memitem:a6940f93c7db7cdcd6b6718ac5ae53701"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#a6940f93c7db7cdcd6b6718ac5ae53701">allocate</a> (size_t n) const</td></tr>
+<tr class="memdesc:a6940f93c7db7cdcd6b6718ac5ae53701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a block of memory.  <a href="classAlignedAllocator.html#a6940f93c7db7cdcd6b6718ac5ae53701">More...</a><br /></td></tr>
 <tr class="separator:a6940f93c7db7cdcd6b6718ac5ae53701"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53152b9a3768f73fea1f27b3d4daf3a5"><td class="memItemLeft" align="right" valign="top"><a id="a53152b9a3768f73fea1f27b3d4daf3a5" name="a53152b9a3768f73fea1f27b3d4daf3a5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>deallocate</b> (T *const p, const size_t) const</td></tr>
-<tr class="separator:a53152b9a3768f73fea1f27b3d4daf3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc23d6448000399f7243e61de5f2e55d"><td class="memItemLeft" align="right" valign="top"><a id="afc23d6448000399f7243e61de5f2e55d" name="afc23d6448000399f7243e61de5f2e55d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>deallocate</b> (T *const p) const</td></tr>
+<tr class="memitem:a3d104d0f6a92493bbcb9036512a7be93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#a3d104d0f6a92493bbcb9036512a7be93">deallocate</a> (T *const p, const size_t unused) const</td></tr>
+<tr class="memdesc:a3d104d0f6a92493bbcb9036512a7be93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a block of memory.  <a href="classAlignedAllocator.html#a3d104d0f6a92493bbcb9036512a7be93">More...</a><br /></td></tr>
+<tr class="separator:a3d104d0f6a92493bbcb9036512a7be93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc23d6448000399f7243e61de5f2e55d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#afc23d6448000399f7243e61de5f2e55d">deallocate</a> (T *const p) const</td></tr>
+<tr class="memdesc:afc23d6448000399f7243e61de5f2e55d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a single object.  <a href="classAlignedAllocator.html#afc23d6448000399f7243e61de5f2e55d">More...</a><br /></td></tr>
 <tr class="separator:afc23d6448000399f7243e61de5f2e55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79baa1b7cb8963c9e448a2a7ad7e0cc5"><td class="memTemplParams" colspan="2"><a id="a79baa1b7cb8963c9e448a2a7ad7e0cc5" name="a79baa1b7cb8963c9e448a2a7ad7e0cc5"></a>
-template&lt;typename U &gt; </td></tr>
-<tr class="memitem:a79baa1b7cb8963c9e448a2a7ad7e0cc5"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>allocate</b> (const size_t n, const U *const)</td></tr>
-<tr class="separator:a79baa1b7cb8963c9e448a2a7ad7e0cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe92f2ad2817d4df6d555ec58c80cbc"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a2fe92f2ad2817d4df6d555ec58c80cbc"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classAlignedAllocator.html#a2fe92f2ad2817d4df6d555ec58c80cbc">allocate</a> (const size_t n, const U *const hint)</td></tr>
+<tr class="memdesc:a2fe92f2ad2817d4df6d555ec58c80cbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an object.  <a href="classAlignedAllocator.html#a2fe92f2ad2817d4df6d555ec58c80cbc">More...</a><br /></td></tr>
+<tr class="separator:a2fe92f2ad2817d4df6d555ec58c80cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68a96a603741fc5496af8b774efb2cda"><td class="memItemLeft" align="right" valign="top"><a id="a68a96a603741fc5496af8b774efb2cda" name="a68a96a603741fc5496af8b774efb2cda"></a>
 <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a> &amp;)=delete</td></tr>
 <tr class="separator:a68a96a603741fc5496af8b774efb2cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,7 +164,363 @@ template&lt;typename U &gt; </td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T, size_t alignment&gt;<br />
 class AlignedAllocator&lt; T, alignment &gt;</div><p >Aligned memory allocator for STL containers. </p>
 <p >Based on <a href="https://devblogs.microsoft.com/cppblog/the-mallocator/">https://devblogs.microsoft.com/cppblog/the-mallocator/</a> </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a53ee7d3d7a472c9614c598b058d97b01" name="a53ee7d3d7a472c9614c598b058d97b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ee7d3d7a472c9614c598b058d97b01">&#9670;&nbsp;</a></span>address() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::address </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the address of an object. </p>
+<p >Overloaded in case somebody overloaded the unary operator&amp;() (which is pretty weird but the spec allows it)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The object to get the address of </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3885b2c9e6bc76f1583808d2fa7853e6" name="a3885b2c9e6bc76f1583808d2fa7853e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3885b2c9e6bc76f1583808d2fa7853e6">&#9670;&nbsp;</a></span>address() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T * <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::address </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the address of an object. </p>
+<p >Overloaded in case somebody overloaded the unary operator&amp;() (which is pretty weird but the spec allows it)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The object to get the address of </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2fe92f2ad2817d4df6d555ec58c80cbc" name="a2fe92f2ad2817d4df6d555ec58c80cbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe92f2ad2817d4df6d555ec58c80cbc">&#9670;&nbsp;</a></span>allocate() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::allocate </td>
+          <td>(</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const U *const&#160;</td>
+          <td class="paramname"><em>hint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allocate an object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Size in bytes </td></tr>
+    <tr><td class="paramname">hint</td><td>Ignored </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6940f93c7db7cdcd6b6718ac5ae53701" name="a6940f93c7db7cdcd6b6718ac5ae53701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6940f93c7db7cdcd6b6718ac5ae53701">&#9670;&nbsp;</a></span>allocate() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::allocate </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allocate a block of memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Size in bytes (internally rounded up to our alignment) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6f9f4d30d77673108508714a471e1819" name="a6f9f4d30d77673108508714a471e1819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f9f4d30d77673108508714a471e1819">&#9670;&nbsp;</a></span>construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::construct </td>
+          <td>(</td>
+          <td class="paramtype">T *const&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct an object in-place given a reference one. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>Destination object </td></tr>
+    <tr><td class="paramname">t</td><td>Source object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afc23d6448000399f7243e61de5f2e55d" name="afc23d6448000399f7243e61de5f2e55d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc23d6448000399f7243e61de5f2e55d">&#9670;&nbsp;</a></span>deallocate() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::deallocate </td>
+          <td>(</td>
+          <td class="paramtype">T *const&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Free a single object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>Object to free </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3d104d0f6a92493bbcb9036512a7be93" name="a3d104d0f6a92493bbcb9036512a7be93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d104d0f6a92493bbcb9036512a7be93">&#9670;&nbsp;</a></span>deallocate() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::deallocate </td>
+          <td>(</td>
+          <td class="paramtype">T *const&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>unused</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Free a block of memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>Block to free </td></tr>
+    <tr><td class="paramname">unused</td><td>Size of block (ignored) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad6133f9e9d3e7f3587bba7ee177811a2" name="ad6133f9e9d3e7f3587bba7ee177811a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6133f9e9d3e7f3587bba7ee177811a2">&#9670;&nbsp;</a></span>max_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::max_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the max possible allocation size the allocator supports. </p>
+<p >(Does not necessarily mean that we have enough RAM to do so, only enough address space) </p>
+
+</div>
+</div>
+<a id="a8bca013ca7e76cfd831ee0412a3c5690" name="a8bca013ca7e76cfd831ee0412a3c5690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bca013ca7e76cfd831ee0412a3c5690">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , size_t alignment&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classAlignedAllocator.html">AlignedAllocator</a>&lt; T, alignment &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if two allocators are the same. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The other object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/scopehal/<a class="el" href="AlignedAllocator_8h_source.html">AlignedAllocator.h</a></li>
 </ul>
 </div><!-- contents -->

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -114,11 +114,11 @@ $(function() {
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        RADIX_BINARY</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    };</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> SetCondition(Condition cond)</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> SetCondition(<a class="code hl_enumeration" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Condition</a> cond)</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    { m_parameters[m_conditionname].SetIntVal(cond); }</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    Condition GetCondition()</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    { <span class="keywordflow">return</span> (Condition) m_parameters[m_conditionname].GetIntVal(); }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_enumeration" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Condition</a> GetCondition()</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    { <span class="keywordflow">return</span> (<a class="code hl_enumeration" href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Condition</a>) m_parameters[m_conditionname].GetIntVal(); }</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> SetRadix(Radix rad)</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    { m_parameters[m_radixname].SetIntVal(rad); }</div>
@@ -149,7 +149,8 @@ $(function() {
 <div class="ttc" id="aclassSerialTrigger_html"><div class="ttname"><a href="classSerialTrigger.html">SerialTrigger</a></div><div class="ttdoc">Abstract base class for serial protocol triggers with pattern matching.</div><div class="ttdef"><b>Definition:</b> SerialTrigger.h:42</div></div>
 <div class="ttc" id="aclassSerialTrigger_html_a0555347f2a52da46d91e99716bcb5c82"><div class="ttname"><a href="classSerialTrigger.html#a0555347f2a52da46d91e99716bcb5c82">SerialTrigger::SetPatterns</a></div><div class="ttdeci">void SetPatterns(std::string p1, std::string p2, bool ignore_p2)</div><div class="ttdoc">Converts a pattern from ASCII ternary (0-1-x) to a more display-friendly format.</div><div class="ttdef"><b>Definition:</b> SerialTrigger.cpp:78</div></div>
 <div class="ttc" id="aclassSerialTrigger_html_a6148e5cff609a467820faf9b925b55cf"><div class="ttname"><a href="classSerialTrigger.html#a6148e5cff609a467820faf9b925b55cf">SerialTrigger::FormatPattern</a></div><div class="ttdeci">std::string FormatPattern(std::string str)</div><div class="ttdoc">Converts a pattern in the current radix back to ASCII ternary.</div><div class="ttdef"><b>Definition:</b> SerialTrigger.cpp:198</div></div>
-<div class="ttc" id="aclassTrigger_html"><div class="ttname"><a href="classTrigger.html">Trigger</a></div><div class="ttdoc">Abstract base class for oscilloscope / logic analyzer triggers.</div><div class="ttdef"><b>Definition:</b> Trigger.h:44</div></div>
+<div class="ttc" id="aclassTrigger_html"><div class="ttname"><a href="classTrigger.html">Trigger</a></div><div class="ttdoc">Abstract base class for oscilloscope / logic analyzer trigger inputs.</div><div class="ttdef"><b>Definition:</b> Trigger.h:46</div></div>
+<div class="ttc" id="aclassTrigger_html_ac6045a961a0f32675a678befffa4fda2"><div class="ttname"><a href="classTrigger.html#ac6045a961a0f32675a678befffa4fda2">Trigger::Condition</a></div><div class="ttdeci">Condition</div><div class="ttdoc">Conditions for triggers that perform logical comparisons of values.</div><div class="ttdef"><b>Definition:</b> Trigger.h:69</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

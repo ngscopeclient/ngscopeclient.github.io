@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -68,7 +68,7 @@ $(function() {
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classFilterGraphExecutor-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">FilterGraphExecutor Class Reference</div></div>
+  <div class="headertitle"><div class="title">FilterGraphExecutor Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__core.html">Core classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -89,6 +89,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>RunBlocking</b> (cons
 <tr class="memitem:a065036160c88c5953067659088f7d9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterGraphExecutor.html#a065036160c88c5953067659088f7d9b8">GetNextRunnableNode</a> ()</td></tr>
 <tr class="memdesc:a065036160c88c5953067659088f7d9b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next filter available to run, blocking if none are ready.  <a href="classFilterGraphExecutor.html#a065036160c88c5953067659088f7d9b8">More...</a><br /></td></tr>
 <tr class="separator:a065036160c88c5953067659088f7d9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465c14820e21c1dbe1fb1f74ff4798bb"><td class="memItemLeft" align="right" valign="top"><a id="a465c14820e21c1dbe1fb1f74ff4798bb" name="a465c14820e21c1dbe1fb1f74ff4798bb"></a>
+std::map&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *, int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRunTimes</b> ()</td></tr>
+<tr class="memdesc:a465c14820e21c1dbe1fb1f74ff4798bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the run times of the most recent filter graph evaluation. <br /></td></tr>
+<tr class="separator:a465c14820e21c1dbe1fb1f74ff4798bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -110,30 +114,39 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>ExecutorThread
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a79fe27403a5d6b309f68fd758ce12235"><td class="memItemLeft" align="right" valign="top"><a id="a79fe27403a5d6b309f68fd758ce12235" name="a79fe27403a5d6b309f68fd758ce12235"></a>
 std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>m_mutex</b></td></tr>
+<tr class="memdesc:a79fe27403a5d6b309f68fd758ce12235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for access to shared state. <br /></td></tr>
 <tr class="separator:a79fe27403a5d6b309f68fd758ce12235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a424ba9602f236b0c33d01643ccdc9b1d"><td class="memItemLeft" align="right" valign="top"><a id="a424ba9602f236b0c33d01643ccdc9b1d" name="a424ba9602f236b0c33d01643ccdc9b1d"></a>
 std::set&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_incompleteNodes</b></td></tr>
+<tr class="memdesc:a424ba9602f236b0c33d01643ccdc9b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nodes that have not yet been updated. <br /></td></tr>
 <tr class="separator:a424ba9602f236b0c33d01643ccdc9b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad66c9efd6449525321b9b6754ea75f77"><td class="memItemLeft" align="right" valign="top"><a id="ad66c9efd6449525321b9b6754ea75f77" name="ad66c9efd6449525321b9b6754ea75f77"></a>
 std::set&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_runnableNodes</b></td></tr>
+<tr class="memdesc:ad66c9efd6449525321b9b6754ea75f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nodes that have no dependencies and are eligible to run now. <br /></td></tr>
 <tr class="separator:ad66c9efd6449525321b9b6754ea75f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf98f5ad400ab3308058a19e68c400f"><td class="memItemLeft" align="right" valign="top"><a id="a6cf98f5ad400ab3308058a19e68c400f" name="a6cf98f5ad400ab3308058a19e68c400f"></a>
 std::set&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_runningNodes</b></td></tr>
+<tr class="memdesc:a6cf98f5ad400ab3308058a19e68c400f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nodes that are actively being run. <br /></td></tr>
 <tr class="separator:a6cf98f5ad400ab3308058a19e68c400f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f779d76ec664d74703b0e70293d9c9"><td class="memItemLeft" align="right" valign="top"><a id="a06f779d76ec664d74703b0e70293d9c9" name="a06f779d76ec664d74703b0e70293d9c9"></a>
 std::vector&lt; std::unique_ptr&lt; std::thread &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_threads</b></td></tr>
+<tr class="memdesc:a06f779d76ec664d74703b0e70293d9c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of thread contexts. <br /></td></tr>
 <tr class="separator:a06f779d76ec664d74703b0e70293d9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0593d4bddaed2c89cefab6cb7a3dccd"><td class="memItemLeft" align="right" valign="top"><a id="ae0593d4bddaed2c89cefab6cb7a3dccd" name="ae0593d4bddaed2c89cefab6cb7a3dccd"></a>
 std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><b>m_workerCvar</b></td></tr>
+<tr class="memdesc:ae0593d4bddaed2c89cefab6cb7a3dccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable for waking up worker threads when work arrives. <br /></td></tr>
 <tr class="separator:ae0593d4bddaed2c89cefab6cb7a3dccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a936c208228b57807b2a4a100031b4f0e"><td class="memItemLeft" align="right" valign="top"><a id="a936c208228b57807b2a4a100031b4f0e" name="a936c208228b57807b2a4a100031b4f0e"></a>
 std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>m_workerCvarMutex</b></td></tr>
+<tr class="memdesc:a936c208228b57807b2a4a100031b4f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for access to m_workerCvar. <br /></td></tr>
 <tr class="separator:a936c208228b57807b2a4a100031b4f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39e7d33060495c43fc37cc232a70e6d1"><td class="memItemLeft" align="right" valign="top"><a id="a39e7d33060495c43fc37cc232a70e6d1" name="a39e7d33060495c43fc37cc232a70e6d1"></a>
 std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><b>m_completionCvar</b></td></tr>
+<tr class="memdesc:a39e7d33060495c43fc37cc232a70e6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable for waking up main thread when work is complete. <br /></td></tr>
 <tr class="separator:a39e7d33060495c43fc37cc232a70e6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d488fc98a09c0ac30596ae25dc01ba"><td class="memItemLeft" align="right" valign="top"><a id="a75d488fc98a09c0ac30596ae25dc01ba" name="a75d488fc98a09c0ac30596ae25dc01ba"></a>
 std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>m_completionCvarMutex</b></td></tr>
+<tr class="memdesc:a75d488fc98a09c0ac30596ae25dc01ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for access to m_completionCvar. <br /></td></tr>
 <tr class="separator:a75d488fc98a09c0ac30596ae25dc01ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2ad3c02f012734d717837d567646281"><td class="memItemLeft" align="right" valign="top"><a id="ab2ad3c02f012734d717837d567646281" name="ab2ad3c02f012734d717837d567646281"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_allWorkersComplete</b></td></tr>
@@ -141,7 +154,20 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_allWorkersComplete<
 <tr class="separator:ab2ad3c02f012734d717837d567646281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89c7aa5f654374c2e4958ae460893c26"><td class="memItemLeft" align="right" valign="top"><a id="a89c7aa5f654374c2e4958ae460893c26" name="a89c7aa5f654374c2e4958ae460893c26"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_terminating</b></td></tr>
+<tr class="memdesc:a89c7aa5f654374c2e4958ae460893c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shutdown flag. <br /></td></tr>
 <tr class="separator:a89c7aa5f654374c2e4958ae460893c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4812cc5cffac1577c727c81b8f94ffb9"><td class="memItemLeft" align="right" valign="top"><a id="a4812cc5cffac1577c727c81b8f94ffb9" name="a4812cc5cffac1577c727c81b8f94ffb9"></a>
+std::map&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *, int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastExecutionTime</b></td></tr>
+<tr class="memdesc:a4812cc5cffac1577c727c81b8f94ffb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performance statistics from previous execution. <br /></td></tr>
+<tr class="separator:a4812cc5cffac1577c727c81b8f94ffb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f8176ee3ad9d131cb6bf5ad4d6baeb0"><td class="memItemLeft" align="right" valign="top"><a id="a0f8176ee3ad9d131cb6bf5ad4d6baeb0" name="a0f8176ee3ad9d131cb6bf5ad4d6baeb0"></a>
+std::map&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *, int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_currentExecutionTime</b></td></tr>
+<tr class="memdesc:a0f8176ee3ad9d131cb6bf5ad4d6baeb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performance statistics from current execution. <br /></td></tr>
+<tr class="separator:a0f8176ee3ad9d131cb6bf5ad4d6baeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0d8ba467ca5471c97498aa32cdaa3b"><td class="memItemLeft" align="right" valign="top"><a id="a3c0d8ba467ca5471c97498aa32cdaa3b" name="a3c0d8ba467ca5471c97498aa32cdaa3b"></a>
+std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>m_perfStatsMutex</b></td></tr>
+<tr class="memdesc:a3c0d8ba467ca5471c97498aa32cdaa3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for updating performance statistics. <br /></td></tr>
+<tr class="separator:a3c0d8ba467ca5471c97498aa32cdaa3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Execution manager / scheduler for the filter graph. </p>
@@ -196,7 +222,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_terminating</b></td
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="FilterGraphExecutor_8h_source.html">FilterGraphExecutor.h</a></li>
-<li>lib/scopehal/FilterGraphExecutor.cpp</li>
+<li>lib/scopehal/<a class="el" href="FilterGraphExecutor_8cpp.html">FilterGraphExecutor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,11 +1,12 @@
 <map id="Multimeter" name="Multimeter">
-<area shape="rect" id="node1" title="A multimeter." alt="" coords="273,169,367,196"/>
-<area shape="rect" id="node4" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="259,244,381,271"/>
-<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="273,95,367,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="224,5,416,47"/>
-<area shape="rect" id="node5" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="20,319,169,345"/>
-<area shape="rect" id="node7" href="$classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="194,319,446,345"/>
-<area shape="rect" id="node8" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="470,319,634,345"/>
-<area shape="rect" id="node6" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="5,393,184,420"/>
-<area shape="rect" id="node9" href="$classTektronixHSIOscilloscope.html" title="TektronixHSIOscilloscope." alt="" coords="459,393,645,420"/>
+<area shape="rect" id="node1" title="A multimeter." alt="" coords="387,81,481,108"/>
+<area shape="rect" id="node4" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="529,81,652,108"/>
+<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,81,339,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,74,197,115"/>
+<area shape="rect" id="node5" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="751,5,901,32"/>
+<area shape="rect" id="node7" href="$classOwonXDMMultimeter.html" title="Driver for Owon XDM multimeter." alt="" coords="745,56,907,83"/>
+<area shape="rect" id="node8" href="$classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="700,107,952,133"/>
+<area shape="rect" id="node9" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="744,157,908,184"/>
+<area shape="rect" id="node6" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1004,5,1183,32"/>
+<area shape="rect" id="node10" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1000,157,1187,184"/>
 </map>

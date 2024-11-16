@@ -1,3 +1,106 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structWindowFunctionArgs.html" title="Arguments to a window function for FFT processing." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node1" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="5,1568,128,1595"/>
+<area shape="rect" id="node2" href="$classDensityFunctionWaveform.html" title="Base class for waveforms such as eye patterns, spectrograms, and waterfalls which are conceptually a ..." alt="" coords="176,107,371,133"/>
+<area shape="rect" id="node7" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="190,1568,357,1595"/>
+<area shape="rect" id="node103" href="$classUniformWaveformBase.html" title="Base class for waveforms with data sampled at uniform intervals." alt="" coords="186,2263,361,2289"/>
+<area shape="rect" id="node3" href="$classConstellationWaveform.html" title="A constellation diagram." alt="" coords="478,5,654,32"/>
+<area shape="rect" id="node4" href="$classEyeWaveform.html" title="An eye&#45;pattern waveform." alt="" coords="509,56,623,83"/>
+<area shape="rect" id="node5" href="$classSpectrogramWaveform.html" title="Waveform object for a spectrogram." alt="" coords="479,107,653,133"/>
+<area shape="rect" id="node6" href="$classWaterfallWaveform.html" title=" " alt="" coords="491,157,641,184"/>
+<area shape="rect" id="node8" href="$classSparseWaveform.html" title=" " alt="" coords="431,208,701,235"/>
+<area shape="rect" id="node10" href="$classSparseWaveform.html" title=" " alt="" coords="470,259,662,285"/>
+<area shape="rect" id="node12" href="$classSparseWaveform.html" title=" " alt="" coords="445,309,687,336"/>
+<area shape="rect" id="node14" href="$classSparseWaveform.html" title=" " alt="" coords="438,360,694,387"/>
+<area shape="rect" id="node16" href="$classSparseWaveform.html" title=" " alt="" coords="459,411,673,453"/>
+<area shape="rect" id="node18" href="$classSparseWaveform.html" title=" " alt="" coords="451,477,681,518"/>
+<area shape="rect" id="node20" href="$classSparseWaveform.html" title=" " alt="" coords="443,543,689,569"/>
+<area shape="rect" id="node22" href="$classSparseWaveform.html" title=" " alt="" coords="460,594,672,635"/>
+<area shape="rect" id="node24" href="$classSparseWaveform.html" title=" " alt="" coords="449,660,683,687"/>
+<area shape="rect" id="node26" href="$classSparseWaveform.html" title=" " alt="" coords="448,711,684,737"/>
+<area shape="rect" id="node28" href="$classSparseWaveform.html" title=" " alt="" coords="445,761,687,788"/>
+<area shape="rect" id="node30" href="$classSparseWaveform.html" title=" " alt="" coords="452,813,680,854"/>
+<area shape="rect" id="node32" href="$classSparseWaveform.html" title=" " alt="" coords="440,878,692,919"/>
+<area shape="rect" id="node34" href="$classSparseWaveform.html" title=" " alt="" coords="455,943,677,985"/>
+<area shape="rect" id="node36" href="$classSparseWaveform.html" title=" " alt="" coords="457,1009,675,1036"/>
+<area shape="rect" id="node38" href="$classSparseWaveform.html" title=" " alt="" coords="451,1061,681,1102"/>
+<area shape="rect" id="node40" href="$classSparseWaveform.html" title=" " alt="" coords="464,1126,668,1167"/>
+<area shape="rect" id="node42" href="$classSparseWaveform.html" title=" " alt="" coords="425,1192,707,1219"/>
+<area shape="rect" id="node44" href="$classSparseWaveform.html" title=" " alt="" coords="456,1243,676,1285"/>
+<area shape="rect" id="node46" href="$classSparseWaveform.html" title=" " alt="" coords="454,1309,678,1350"/>
+<area shape="rect" id="node48" href="$classSparseWaveform.html" title=" " alt="" coords="449,1375,683,1401"/>
+<area shape="rect" id="node50" href="$classSparseWaveform.html" title=" " alt="" coords="459,1426,673,1467"/>
+<area shape="rect" id="node52" href="$classSparseWaveform.html" title=" " alt="" coords="445,1492,687,1519"/>
+<area shape="rect" id="node54" href="$classSparseWaveform.html" title=" " alt="" coords="427,1543,705,1569"/>
+<area shape="rect" id="node56" href="$classSparseWaveform.html" title=" " alt="" coords="447,1593,685,1620"/>
+<area shape="rect" id="node58" href="$classSparseWaveform.html" title=" " alt="" coords="441,1644,691,1671"/>
+<area shape="rect" id="node60" href="$classSparseWaveform.html" title=" " alt="" coords="455,1695,677,1737"/>
+<area shape="rect" id="node62" href="$classSparseWaveform.html" title=" " alt="" coords="431,1761,701,1788"/>
+<area shape="rect" id="node64" href="$classSparseWaveform.html" title=" " alt="" coords="445,1813,687,1854"/>
+<area shape="rect" id="node66" href="$classSparseWaveform.html" title=" " alt="" coords="461,1878,671,1919"/>
+<area shape="rect" id="node68" href="$classSparseWaveform.html" title=" " alt="" coords="424,1944,708,1971"/>
+<area shape="rect" id="node70" href="$classSparseWaveform.html" title=" " alt="" coords="463,1995,669,2037"/>
+<area shape="rect" id="node72" href="$classSparseWaveform.html" title=" " alt="" coords="454,2061,678,2102"/>
+<area shape="rect" id="node74" href="$classSparseWaveform.html" title=" " alt="" coords="447,2126,685,2167"/>
+<area shape="rect" id="node76" href="$classSparseWaveform.html" title=" " alt="" coords="435,2192,697,2219"/>
+<area shape="rect" id="node78" href="$classSparseWaveform.html" title=" " alt="" coords="435,2243,697,2269"/>
+<area shape="rect" id="node80" href="$classSparseWaveform.html" title=" " alt="" coords="435,2293,697,2320"/>
+<area shape="rect" id="node82" href="$classSparseWaveform.html" title=" " alt="" coords="464,2345,668,2386"/>
+<area shape="rect" id="node84" href="$classSparseWaveform.html" title=" " alt="" coords="449,2411,683,2437"/>
+<area shape="rect" id="node86" href="$classSparseWaveform.html" title=" " alt="" coords="419,2461,713,2488"/>
+<area shape="rect" id="node88" href="$classSparseWaveform.html" title=" " alt="" coords="444,2512,688,2539"/>
+<area shape="rect" id="node90" href="$classSparseWaveform.html" title=" " alt="" coords="447,2563,685,2589"/>
+<area shape="rect" id="node92" href="$classSparseWaveform.html" title=" " alt="" coords="441,2613,691,2640"/>
+<area shape="rect" id="node94" href="$classSparseWaveform.html" title=" " alt="" coords="429,2664,703,2691"/>
+<area shape="rect" id="node96" href="$classSparseWaveform.html" title=" " alt="" coords="427,2715,705,2741"/>
+<area shape="rect" id="node98" href="$classSparseWaveform.html" title=" " alt="" coords="453,2766,679,2807"/>
+<area shape="rect" id="node100" href="$classSparseWaveform.html" title=" " alt="" coords="445,2832,687,2859"/>
+<area shape="rect" id="node102" href="$classSparseWaveform.html" title="A waveform sampled at irregular intervals." alt="" coords="480,2883,652,2909"/>
+<area shape="rect" id="node9" href="$classADL5205Waveform.html" title=" " alt="" coords="812,208,960,235"/>
+<area shape="rect" id="node11" href="$classByteWaveform.html" title=" " alt="" coords="826,259,946,285"/>
+<area shape="rect" id="node13" href="$classCANWaveform.html" title="A waveform containing CAN bus packets." alt="" coords="827,309,945,336"/>
+<area shape="rect" id="node15" href="$classDPAuxWaveform.html" title=" " alt="" coords="819,360,953,387"/>
+<area shape="rect" id="node17" href="$classDPhyDataWaveform.html" title=" " alt="" coords="809,419,963,445"/>
+<area shape="rect" id="node19" href="$classDPhyEscapeModeWaveform.html" title=" " alt="" coords="783,484,989,511"/>
+<area shape="rect" id="node21" href="$classDPhySymbolWaveform.html" title=" " alt="" coords="799,543,973,569"/>
+<area shape="rect" id="node23" href="$classDSIFrameWaveform.html" title=" " alt="" coords="809,601,963,628"/>
+<area shape="rect" id="node25" href="$classDSIWaveform.html" title=" " alt="" coords="830,660,942,687"/>
+<area shape="rect" id="node27" href="$classDVIWaveform.html" title=" " alt="" coords="829,711,943,737"/>
+<area shape="rect" id="node29" href="$classESPIWaveform.html" title=" " alt="" coords="827,761,945,788"/>
+<area shape="rect" id="node31" href="$classEthernet100BaseT1LinkTrainingWaveform.html" title=" " alt="" coords="772,813,1000,854"/>
+<area shape="rect" id="node33" href="$classEthernet64b66bWaveform.html" title=" " alt="" coords="789,885,983,912"/>
+<area shape="rect" id="node35" href="$classEthernetAutonegotiationPageWaveform.html" title=" " alt="" coords="779,943,993,985"/>
+<area shape="rect" id="node37" href="$classEthernetAutonegotiationWaveform.html" title=" " alt="" coords="761,1009,1011,1036"/>
+<area shape="rect" id="node39" href="$classEthernetBaseXAutonegotiationWaveform.html" title=" " alt="" coords="775,1061,997,1102"/>
+<area shape="rect" id="node41" href="$classEthernetWaveform.html" title=" " alt="" coords="813,1133,959,1160"/>
+<area shape="rect" id="node43" href="$classHyperRAMWaveform.html" title=" " alt="" coords="807,1192,965,1219"/>
+<area shape="rect" id="node45" href="$classI2CEepromWaveform.html" title=" " alt="" coords="805,1251,967,1277"/>
+<area shape="rect" id="node47" href="$classI2CRegisterWaveform.html" title=" " alt="" coords="803,1316,969,1343"/>
+<area shape="rect" id="node49" href="$classI2CWaveform.html" title=" " alt="" coords="831,1375,941,1401"/>
+<area shape="rect" id="node51" href="$classIBM8b10bWaveform.html" title=" " alt="" coords="809,1433,963,1460"/>
+<area shape="rect" id="node53" href="$classIPv4Waveform.html" title=" " alt="" coords="827,1492,945,1519"/>
+<area shape="rect" id="node55" href="$classJ1939PDUWaveform.html" title=" " alt="" coords="809,1543,963,1569"/>
+<area shape="rect" id="node57" href="$classJtagWaveform.html" title=" " alt="" coords="829,1593,943,1620"/>
+<area shape="rect" id="node59" href="$classMDIOWaveform.html" title=" " alt="" coords="823,1644,949,1671"/>
+<area shape="rect" id="node61" href="$classMilStd1553Waveform.html" title=" " alt="" coords="805,1703,967,1729"/>
+<area shape="rect" id="node63" href="$classOneWireWaveform.html" title=" " alt="" coords="813,1761,959,1788"/>
+<area shape="rect" id="node65" href="$classPCIe128b130bWaveform.html" title=" " alt="" coords="795,1820,977,1847"/>
+<area shape="rect" id="node67" href="$classPCIeDataLinkWaveform.html" title=" " alt="" coords="797,1885,975,1912"/>
+<area shape="rect" id="node69" href="$classPCIeLTSSMWaveform.html" title=" " alt="" coords="805,1944,967,1971"/>
+<area shape="rect" id="node71" href="$classPCIeLinkTrainingWaveform.html" title=" " alt="" coords="787,2003,985,2029"/>
+<area shape="rect" id="node73" href="$classPCIeLogicalWaveform.html" title=" " alt="" coords="803,2068,969,2095"/>
+<area shape="rect" id="node75" href="$classPCIeTransportWaveform.html" title=" " alt="" coords="796,2133,976,2160"/>
+<area shape="rect" id="node77" href="$classSDCmdWaveform.html" title=" " alt="" coords="817,2192,955,2219"/>
+<area shape="rect" id="node79" href="$classSDDataWaveform.html" title=" " alt="" coords="817,2243,955,2269"/>
+<area shape="rect" id="node81" href="$classSDRAMWaveform.html" title=" " alt="" coords="817,2293,955,2320"/>
+<area shape="rect" id="node83" href="$classSPIFlashWaveform.html" title=" " alt="" coords="813,2352,959,2379"/>
+<area shape="rect" id="node85" href="$classSPIWaveform.html" title=" " alt="" coords="831,2411,941,2437"/>
+<area shape="rect" id="node87" href="$classSWDMemAPWaveform.html" title=" " alt="" coords="801,2461,971,2488"/>
+<area shape="rect" id="node89" href="$classSWDWaveform.html" title=" " alt="" coords="825,2512,947,2539"/>
+<area shape="rect" id="node91" href="$classTCPWaveform.html" title=" " alt="" coords="829,2563,943,2589"/>
+<area shape="rect" id="node93" href="$classTMDSWaveform.html" title=" " alt="" coords="822,2613,950,2640"/>
+<area shape="rect" id="node95" href="$classUSB2PCSWaveform.html" title=" " alt="" coords="811,2664,961,2691"/>
+<area shape="rect" id="node97" href="$classUSB2PMAWaveform.html" title=" " alt="" coords="809,2715,963,2741"/>
+<area shape="rect" id="node99" href="$classUSB2PacketWaveform.html" title=" " alt="" coords="802,2773,970,2800"/>
+<area shape="rect" id="node101" href="$classVICPWaveform.html" title=" " alt="" coords="826,2832,946,2859"/>
+<area shape="rect" id="node104" href="$classUniformWaveform.html" title="A waveform sampled at uniform intervals." alt="" coords="475,2933,657,2960"/>
 </map>

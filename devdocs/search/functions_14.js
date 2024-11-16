@@ -1,13 +1,18 @@
 var searchData=
 [
-  ['waitfortrigger_0',['WaitForTrigger',['../classOscilloscope.html#aa0b5eaf8f42a2a510f4394c3a3d2e906',1,'Oscilloscope']]],
-  ['waveformbase_1',['WaveformBase',['../classWaveformBase.html#a6476c59a4b80f4c2e026e7073ec42143',1,'WaveformBase::WaveformBase()'],['../classWaveformBase.html#ab1732e2304410901e917327c78712bf9',1,'WaveformBase::WaveformBase(const WaveformBase &amp;rhs)']]],
-  ['waveformpool_2',['WaveformPool',['../classWaveformPool.html#a38c77c7afde6b186b911819dbfcc12af',1,'WaveformPool']]],
-  ['windowanalyzermenu_3',['WindowAnalyzerMenu',['../classMainWindow.html#a7af5ddb15578c63dbeab855e023905d1',1,'MainWindow']]],
-  ['windowgeneratormenu_4',['WindowGeneratorMenu',['../classMainWindow.html#a489e52ba28f5bea0acff41eb2d5ab4a9',1,'MainWindow']]],
-  ['windowmenu_5',['WindowMenu',['../classMainWindow.html#a4687eaef985089ed8acd1d07692d5c86',1,'MainWindow']]],
-  ['windowmultimetermenu_6',['WindowMultimeterMenu',['../classMainWindow.html#ad40c1634091eca398fe0ce639b4da044',1,'MainWindow']]],
-  ['windowpsumenu_7',['WindowPSUMenu',['../classMainWindow.html#a3d36aff6cdc876d3bc4dc6185d2db208',1,'MainWindow']]],
-  ['windowtrigger_8',['WindowTrigger',['../classWindowTrigger.html#a9324a0ac0a6f4d79730f0eedd497cca6',1,'WindowTrigger']]],
-  ['wrapstring_9',['WrapString',['../classLogSink.html#a284e77703010ed9ab0e3e0f25d2c5d01',1,'LogSink']]]
+  ['validateshb_0',['ValidateSHB',['../classPcapngImportFilter.html#a7ea810afe2181247353c5d335897be8d',1,'PcapngImportFilter']]],
+  ['verifyallinputsok_1',['VerifyAllInputsOK',['../classFilter.html#aedeb7d26288ed13880b9ad7208e29df8',1,'Filter']]],
+  ['verifyallinputsokandsparseanalog_2',['VerifyAllInputsOKAndSparseAnalog',['../classFilter.html#aec38b98f62b31f5a7e8ffbb889f9610d',1,'Filter']]],
+  ['verifyallinputsokandsparsedigital_3',['VerifyAllInputsOKAndSparseDigital',['../classFilter.html#a782474524f0f19e7672e0e183c3ebce1',1,'Filter']]],
+  ['verifyallinputsokandsparseoruniformdigital_4',['VerifyAllInputsOKAndSparseOrUniformDigital',['../classFilter.html#a14ca00aebe097edc04792a1b030468ca',1,'Filter']]],
+  ['verifyallinputsokanduniformanalog_5',['VerifyAllInputsOKAndUniformAnalog',['../classFilter.html#adda93af116393add22bb7bb2e123299a',1,'Filter']]],
+  ['verifycrc5_6',['VerifyCRC5',['../classUSB2PacketDecoder.html#ac7d4eb842530da00d600c08e6b3ec218',1,'USB2PacketDecoder']]],
+  ['verifyinputok_7',['VerifyInputOK',['../classFilter.html#a2a45af10d8cfc03484b99ae6297aae8a',1,'Filter']]],
+  ['vicpsockettransport_8',['VICPSocketTransport',['../classVICPSocketTransport.html#aea6dc71b97a69f168c504049c54ff81e',1,'VICPSocketTransport']]],
+  ['viewmenu_9',['ViewMenu',['../classMainWindow.html#a4fc4455db15ce69baab512d49340cd43',1,'MainWindow']]],
+  ['vstrprintf_10',['vstrprintf',['../classLogSink.html#ada87b5d23447c47d3d9696129127a9da',1,'LogSink']]],
+  ['vulkancleanup_11',['VulkanCleanup',['../group__vksupport.html#ga5c1bc9f3a1584ecf517e6505fa1034bf',1,'VulkanCleanup():&#160;VulkanInit.cpp'],['../group__vksupport.html#ga5c1bc9f3a1584ecf517e6505fa1034bf',1,'VulkanCleanup():&#160;VulkanInit.cpp']]],
+  ['vulkanfftplan_12',['VulkanFFTPlan',['../classVulkanFFTPlan.html#a90999a41dd2d52f7cc683688380f7e1f',1,'VulkanFFTPlan']]],
+  ['vulkaninit_13',['VulkanInit',['../group__vksupport.html#ga109653c843e94439433135d42e49415a',1,'VulkanInit(bool skipGLFW=false):&#160;VulkanInit.cpp'],['../group__vksupport.html#ga109653c843e94439433135d42e49415a',1,'VulkanInit(bool skipGLFW):&#160;VulkanInit.cpp']]],
+  ['vulkanwindow_14',['VulkanWindow',['../classVulkanWindow.html#a45307eb09dc332ae17098e13812b1087',1,'VulkanWindow']]]
 ];

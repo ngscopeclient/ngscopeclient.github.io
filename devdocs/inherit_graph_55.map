@@ -1,3 +1,254 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classADL5205Symbol.html" title=" " alt="" coords="5,5,135,32"/>
+<area shape="rect" id="node1" href="$classActionProvider.html" title="Abstract base for objects (usually filters) which provide a series of actions a user can perform." alt="" coords="714,183,831,209"/>
+<area shape="rect" id="node2" href="$classConstellationFilter.html" title=" " alt="" coords="1005,157,1145,184"/>
+<area shape="rect" id="node3" href="$classExportFilter.html" title="Base class for filters providing file&#45;export functionality." alt="" coords="1027,56,1123,83"/>
+<area shape="rect" id="node7" href="$classMemoryFilter.html" title=" " alt="" coords="1021,259,1129,285"/>
+<area shape="rect" id="node8" href="$classPAMEdgeDetectorFilter.html" title=" " alt="" coords="989,309,1160,336"/>
+<area shape="rect" id="node9" href="$classPausableFilter.html" title="A filter which may be started and stopped." alt="" coords="1018,208,1131,235"/>
+<area shape="rect" id="node11" href="$classScalarStairstepFilter.html" title=" " alt="" coords="999,107,1151,133"/>
+<area shape="rect" id="node4" href="$classCSVExportFilter.html" title=" " alt="" coords="1311,107,1434,133"/>
+<area shape="rect" id="node5" href="$classPcapngExportFilter.html" title=" " alt="" coords="1301,5,1444,32"/>
+<area shape="rect" id="node6" href="$classTouchstoneExportFilter.html" title=" " alt="" coords="1288,56,1457,83"/>
+<area shape="rect" id="node10" href="$classTrendFilter.html" title=" " alt="" coords="1328,208,1417,235"/>
+<area shape="rect" id="node12" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,3799,132,3825"/>
+<area shape="rect" id="node13" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="180,3432,327,3459"/>
+<area shape="rect" id="node236" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="220,4052,287,4079"/>
+<area shape="rect" id="node14" href="$classBERTOutputChannel.html" title="A pattern generator channel of a BERT." alt="" coords="415,3280,569,3307"/>
+<area shape="rect" id="node15" href="$classDigitalIOChannel.html" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="426,3179,558,3205"/>
+<area shape="rect" id="node17" href="$classDigitalInputChannel.html" title="A digital input channel (GPIO, buffered mux path, etc)" alt="" coords="417,3331,567,3357"/>
+<area shape="rect" id="node19" href="$classDigitalOutputChannel.html" title="A digital output channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="411,3381,573,3408"/>
+<area shape="rect" id="node21" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="395,3483,589,3509"/>
+<area shape="rect" id="node22" href="$classLoadChannel.html" title="A single channel of an active load." alt="" coords="439,3533,545,3560"/>
+<area shape="rect" id="node23" href="$classMultimeterChannel.html" title="A single channel of a multimeter." alt="" coords="419,3584,565,3611"/>
+<area shape="rect" id="node24" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="413,3635,571,3661"/>
+<area shape="rect" id="node233" href="$classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="413,3685,571,3712"/>
+<area shape="rect" id="node234" href="$classRFSignalGeneratorChannel.html" title="A single channel of an RF signal generator." alt="" coords="393,3128,591,3155"/>
+<area shape="rect" id="node235" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="375,3229,609,3256"/>
+<area shape="rect" id="node16" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="657,3179,888,3205"/>
+<area shape="rect" id="node18" href="$classBufferedSwitchMatrixInputChannel.html" title="Declaration of BufferedSwitchMatrixInputChannel." alt="" coords="675,3301,871,3342"/>
+<area shape="rect" id="node20" href="$classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="669,3366,876,3407"/>
+<area shape="rect" id="node25" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="675,3685,870,3712"/>
+<area shape="rect" id="node26" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="701,3736,844,3763"/>
+<area shape="rect" id="node28" href="$classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="721,3787,824,3813"/>
+<area shape="rect" id="node29" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="706,3533,839,3560"/>
+<area shape="rect" id="node30" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="745,3584,800,3611"/>
+<area shape="rect" id="node231" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data in dB/degrees format." alt="" coords="697,3635,848,3661"/>
+<area shape="rect" id="node232" href="$classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="704,3483,841,3509"/>
+<area shape="rect" id="node27" href="$classBERTInputChannelWithDataCapture.html" title="Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode." alt="" coords="973,7131,1176,7173"/>
+<area shape="rect" id="node31" href="$classACCoupleFilter.html" title=" " alt="" coords="1016,1627,1133,1653"/>
+<area shape="rect" id="node32" href="$classACRMSMeasurement.html" title=" " alt="" coords="995,1677,1154,1704"/>
+<area shape="rect" id="node33" href="$classADL5205Decoder.html" title=" " alt="" coords="1007,1728,1142,1755"/>
+<area shape="rect" id="node34" href="$classAddFilter.html" title=" " alt="" coords="1035,1779,1114,1805"/>
+<area shape="rect" id="node35" href="$classAreaMeasurement.html" title=" " alt="" coords="1003,1829,1146,1856"/>
+<area shape="rect" id="node36" href="$classAutocorrelationFilter.html" title=" " alt="" coords="997,1880,1152,1907"/>
+<area shape="rect" id="node37" href="$classAverageFilter.html" title=" " alt="" coords="1021,1931,1129,1957"/>
+<area shape="rect" id="node38" href="$classBandwidthMeasurement.html" title=" " alt="" coords="984,1981,1165,2008"/>
+<area shape="rect" id="node39" href="$classBaseMeasurement.html" title=" " alt="" coords="1003,2032,1147,2059"/>
+<area shape="rect" id="node40" href="$classBurstWidthMeasurement.html" title=" " alt="" coords="983,2083,1167,2109"/>
+<area shape="rect" id="node41" href="$classBusHeatmapFilter.html" title=" " alt="" coords="1005,2133,1144,2160"/>
+<area shape="rect" id="node42" href="$classCANBitmaskFilter.html" title=" " alt="" coords="1007,2184,1143,2211"/>
+<area shape="rect" id="node43" href="$classClipFilter.html" title=" " alt="" coords="1035,2235,1114,2261"/>
+<area shape="rect" id="node44" href="$classClockRecoveryFilter.html" title=" " alt="" coords="999,2285,1150,2312"/>
+<area shape="rect" id="node45" href="$classConstantFilter.html" title=" " alt="" coords="1019,2336,1131,2363"/>
+<area shape="rect" id="node46" href="$classCouplerDeEmbedFilter.html" title=" " alt="" coords="991,2387,1158,2413"/>
+<area shape="rect" id="node47" href="$classCurrentShuntFilter.html" title=" " alt="" coords="1005,2437,1144,2464"/>
+<area shape="rect" id="node48" href="$classDCDMeasurement.html" title=" " alt="" coords="1004,2488,1145,2515"/>
+<area shape="rect" id="node49" href="$classDDJMeasurement.html" title=" " alt="" coords="1007,2539,1143,2565"/>
+<area shape="rect" id="node50" href="$classDPhyDataDecoder.html" title=" " alt="" coords="1004,2589,1145,2616"/>
+<area shape="rect" id="node51" href="$classDPhyHSClockRecoveryFilter.html" title="Extracts a clock from a MIPI D&#45;PHY clock+data stream which is gated to only show HS mode data." alt="" coords="973,2640,1176,2667"/>
+<area shape="rect" id="node52" href="$classDPhySymbolDecoder.html" title="Decoder for MIPI D&#45;PHY symbols." alt="" coords="995,2691,1154,2717"/>
+<area shape="rect" id="node53" href="$classDeEmbedFilter.html" title=" " alt="" coords="1016,2741,1133,2768"/>
+<area shape="rect" id="node56" href="$classDeskewFilter.html" title=" " alt="" coords="1022,2792,1127,2819"/>
+<area shape="rect" id="node57" href="$classDivideFilter.html" title=" " alt="" coords="1027,2843,1123,2869"/>
+<area shape="rect" id="node58" href="$classDownconvertFilter.html" title="Downconvert &#45; generates a local oscillator in two phases and mixes it with a signal." alt="" coords="1005,2893,1145,2920"/>
+<area shape="rect" id="node59" href="$classDownsampleFilter.html" title="Downsample &#45; low&#45;pass filter and decimate a signal." alt="" coords="1005,2944,1144,2971"/>
+<area shape="rect" id="node60" href="$classDramClockFilter.html" title=" " alt="" coords="1011,2995,1138,3021"/>
+<area shape="rect" id="node61" href="$classDramRefreshActivateMeasurement.html" title=" " alt="" coords="949,3045,1201,3072"/>
+<area shape="rect" id="node62" href="$classDramRowColumnLatencyMeasurement.html" title=" " alt="" coords="936,3096,1213,3123"/>
+<area shape="rect" id="node63" href="$classDutyCycleMeasurement.html" title=" " alt="" coords="985,3147,1164,3173"/>
+<area shape="rect" id="node64" href="$classEmphasisFilter.html" title=" " alt="" coords="1016,3197,1133,3224"/>
+<area shape="rect" id="node65" href="$classEmphasisRemovalFilter.html" title=" " alt="" coords="987,3248,1162,3275"/>
+<area shape="rect" id="node66" href="$classEnvelopeFilter.html" title=" " alt="" coords="1017,3299,1132,3325"/>
+<area shape="rect" id="node67" href="$classEthernet100BaseT1LinkTrainingDecoder.html" title=" " alt="" coords="961,3350,1189,3391"/>
+<area shape="rect" id="node68" href="$classEthernet64b66bDecoder.html" title=" " alt="" coords="985,3416,1164,3443"/>
+<area shape="rect" id="node69" href="$classEthernetAutonegotiationDecoder.html" title=" " alt="" coords="957,3467,1192,3493"/>
+<area shape="rect" id="node70" href="$classExponentialMovingAverageFilter.html" title=" " alt="" coords="974,3518,1175,3559"/>
+<area shape="rect" id="node71" href="$classEyeBitRateMeasurement.html" title=" " alt="" coords="983,3584,1167,3611"/>
+<area shape="rect" id="node72" href="$classEyeHeightMeasurement.html" title=" " alt="" coords="985,3635,1164,3661"/>
+<area shape="rect" id="node73" href="$classEyeJitterMeasurement.html" title=" " alt="" coords="991,3685,1158,3712"/>
+<area shape="rect" id="node74" href="$classEyePattern.html" title=" " alt="" coords="1028,3736,1121,3763"/>
+<area shape="rect" id="node75" href="$classEyePeriodMeasurement.html" title=" " alt="" coords="986,3787,1163,3813"/>
+<area shape="rect" id="node76" href="$classEyeWidthMeasurement.html" title=" " alt="" coords="987,3837,1162,3864"/>
+<area shape="rect" id="node77" href="$classFIRFilter.html" title="Performs an arbitrary FIR filter with tap delay equal to the sample rate." alt="" coords="1037,3888,1112,3915"/>
+<area shape="rect" id="node79" href="$classFSKDecoder.html" title=" " alt="" coords="1024,3939,1125,3965"/>
+<area shape="rect" id="node80" href="$classFallMeasurement.html" title=" " alt="" coords="1007,3989,1142,4016"/>
+<area shape="rect" id="node81" href="$classFrequencyMeasurement.html" title=" " alt="" coords="985,4040,1164,4067"/>
+<area shape="rect" id="node82" href="$classFullWidthHalfMax.html" title=" " alt="" coords="1005,4091,1144,4117"/>
+<area shape="rect" id="node83" href="$classGateFilter.html" title=" " alt="" coords="1032,4141,1117,4168"/>
+<area shape="rect" id="node84" href="$classGlitchRemovalFilter.html" title="Removes glitches shorter than a specified length from a sparse digital waveform." alt="" coords="999,4192,1150,4219"/>
+<area shape="rect" id="node85" href="$classGroupDelayFilter.html" title=" " alt="" coords="1009,4243,1140,4269"/>
+<area shape="rect" id="node86" href="$classHistogramFilter.html" title=" " alt="" coords="1013,4293,1136,4320"/>
+<area shape="rect" id="node87" href="$classHorizontalBathtub.html" title=" " alt="" coords="1005,4344,1145,4371"/>
+<area shape="rect" id="node88" href="$classHyperRAMDecoder.html" title=" " alt="" coords="1002,4395,1147,4421"/>
+<area shape="rect" id="node89" href="$classIBISDriverFilter.html" title=" " alt="" coords="1015,4445,1134,4472"/>
+<area shape="rect" id="node90" href="$classIBM8b10bDecoder.html" title=" " alt="" coords="1004,4496,1145,4523"/>
+<area shape="rect" id="node91" href="$classIPv4Decoder.html" title=" " alt="" coords="1023,4547,1127,4573"/>
+<area shape="rect" id="node92" href="$classIQDemuxFilter.html" title=" " alt="" coords="1017,4597,1132,4624"/>
+<area shape="rect" id="node93" href="$classIQSquelchFilter.html" title=" " alt="" coords="1015,4648,1134,4675"/>
+<area shape="rect" id="node94" href="$classISIMeasurement.html" title=" " alt="" coords="1011,4699,1139,4725"/>
+<area shape="rect" id="node95" href="$classImportFilter.html" title="Helper base class for filters that import a waveform from a file." alt="" coords="1026,4749,1123,4776"/>
+<area shape="rect" id="node103" href="$classInvertFilter.html" title=" " alt="" coords="1029,4800,1121,4827"/>
+<area shape="rect" id="node104" href="$classJ1939AnalogDecoder.html" title=" " alt="" coords="996,4851,1153,4877"/>
+<area shape="rect" id="node105" href="$classJ1939BitmaskDecoder.html" title=" " alt="" coords="991,4901,1158,4928"/>
+<area shape="rect" id="node106" href="$classJitterFilter.html" title=" " alt="" coords="1032,4952,1117,4979"/>
+<area shape="rect" id="node107" href="$classMagnitudeFilter.html" title=" " alt="" coords="1013,5003,1136,5029"/>
+<area shape="rect" id="node108" href="$classMaximumFilter.html" title=" " alt="" coords="1015,5053,1135,5080"/>
+<area shape="rect" id="node109" href="$classMinimumFilter.html" title=" " alt="" coords="1017,5104,1133,5131"/>
+<area shape="rect" id="node110" href="$classMovingAverageFilter.html" title=" " alt="" coords="997,5155,1153,5181"/>
+<area shape="rect" id="node111" href="$classMultiplyFilter.html" title=" " alt="" coords="1021,5205,1128,5232"/>
+<area shape="rect" id="node112" href="$classNCOFilter.html" title=" " alt="" coords="1033,5256,1116,5283"/>
+<area shape="rect" id="node113" href="$classNoiseFilter.html" title=" " alt="" coords="1029,5307,1120,5333"/>
+<area shape="rect" id="node114" href="$classOneWireDecoder.html" title=" " alt="" coords="1009,5357,1141,5384"/>
+<area shape="rect" id="node115" href="$classOvershootMeasurement.html" title=" " alt="" coords="985,5408,1164,5435"/>
+<area shape="rect" id="node116" href="$classPAM4DemodulatorFilter.html" title=" " alt="" coords="987,5459,1163,5485"/>
+<area shape="rect" id="node117" href="$classPCIe128b130bDecoder.html" title=" " alt="" coords="990,5509,1159,5536"/>
+<area shape="rect" id="node118" href="$classPCIeGen2LogicalDecoder.html" title="Decoder for PCIe gen 1/2 logical sub&#45;block." alt="" coords="982,5560,1167,5587"/>
+<area shape="rect" id="node120" href="$classPRBSCheckerFilter.html" title=" " alt="" coords="1005,5611,1145,5637"/>
+<area shape="rect" id="node121" href="$classPRBSGeneratorFilter.html" title=" " alt="" coords="998,5661,1151,5688"/>
+<area shape="rect" id="node122" href="$classPacketDecoder.html" title=" " alt="" coords="1015,5712,1134,5739"/>
+<area shape="rect" id="node164" href="$classParallelBus.html" title=" " alt="" coords="1027,5763,1122,5789"/>
+<area shape="rect" id="node165" href="$classPeakDetectionFilter.html" title="A filter that does peak detection." alt="" coords="1000,360,1149,387"/>
+<area shape="rect" id="node170" href="$classPeriodMeasurement.html" title=" " alt="" coords="998,5813,1151,5840"/>
+<area shape="rect" id="node171" href="$classPhaseMeasurement.html" title=" " alt="" coords="999,5864,1150,5891"/>
+<area shape="rect" id="node172" href="$classPhaseNonlinearityFilter.html" title=" " alt="" coords="988,5915,1161,5941"/>
+<area shape="rect" id="node173" href="$classPkPkMeasurement.html" title=" " alt="" coords="1003,5965,1147,5992"/>
+<area shape="rect" id="node174" href="$classPulseWidthMeasurement.html" title=" " alt="" coords="982,6016,1167,6043"/>
+<area shape="rect" id="node175" href="$classQSGMIIDecoder.html" title="Decoder for QSGMII." alt="" coords="1013,6067,1137,6093"/>
+<area shape="rect" id="node176" href="$classQuadratureDecoder.html" title="Decoder for quadrature encoder signals." alt="" coords="1000,6117,1149,6144"/>
+<area shape="rect" id="node177" href="$classRISFilter.html" title=" " alt="" coords="1037,6168,1112,6195"/>
+<area shape="rect" id="node178" href="$classRMSMeasurement.html" title=" " alt="" coords="1004,6219,1145,6245"/>
+<area shape="rect" id="node179" href="$classRiseMeasurement.html" title=" " alt="" coords="1005,6269,1145,6296"/>
+<area shape="rect" id="node180" href="$classRjBUjFilter.html" title=" " alt="" coords="1029,6320,1120,6347"/>
+<area shape="rect" id="node181" href="$classSDRAMDecoderBase.html" title=" " alt="" coords="997,6371,1153,6397"/>
+<area shape="rect" id="node184" href="$classSNRFilter.html" title=" " alt="" coords="1034,6421,1115,6448"/>
+<area shape="rect" id="node185" href="$classSPIDecoder.html" title=" " alt="" coords="1027,6472,1123,6499"/>
+<area shape="rect" id="node187" href="$classSParameterSourceFilter.html" title="A filter that outputs a set of S&#45;parameters." alt="" coords="987,6523,1162,6549"/>
+<area shape="rect" id="node193" href="$classSWDDecoder.html" title=" " alt="" coords="1021,6573,1128,6600"/>
+<area shape="rect" id="node194" href="$classSawtoothGeneratorFilter.html" title=" " alt="" coords="985,6624,1165,6651"/>
+<area shape="rect" id="node195" href="$classScalarPulseDelayFilter.html" title=" " alt="" coords="991,6675,1158,6701"/>
+<area shape="rect" id="node196" href="$classSetupHoldMeasurement.html" title="Setup / hold measurement." alt="" coords="985,6725,1164,6752"/>
+<area shape="rect" id="node197" href="$classSpectrogramFilter.html" title="Filter for displaying spectrogram of a real&#45;valued signal." alt="" coords="1006,6776,1143,6803"/>
+<area shape="rect" id="node199" href="$classSquelchFilter.html" title=" " alt="" coords="1022,6827,1127,6853"/>
+<area shape="rect" id="node200" href="$classStepGeneratorFilter.html" title=" " alt="" coords="1001,6877,1149,6904"/>
+<area shape="rect" id="node201" href="$classSubtractFilter.html" title=" " alt="" coords="1021,6928,1129,6955"/>
+<area shape="rect" id="node202" href="$classTCPDecoder.html" title=" " alt="" coords="1024,6979,1125,7005"/>
+<area shape="rect" id="node203" href="$classTDRFilter.html" title=" " alt="" coords="1034,7029,1115,7056"/>
+<area shape="rect" id="node204" href="$classTIEMeasurement.html" title=" " alt="" coords="1009,7080,1141,7107"/>
+<area shape="rect" id="node205" href="$classTMDSDecoder.html" title=" " alt="" coords="1017,411,1132,437"/>
+<area shape="rect" id="node206" href="$classTachometerFilter.html" title=" " alt="" coords="1009,461,1140,488"/>
+<area shape="rect" id="node207" href="$classTappedDelayLineFilter.html" title="Performs an 8&#45;tap FIR filter with a multi&#45;sample delay between taps." alt="" coords="992,512,1157,539"/>
+<area shape="rect" id="node208" href="$classThermalDiodeFilter.html" title=" " alt="" coords="1001,563,1148,589"/>
+<area shape="rect" id="node209" href="$classThresholdFilter.html" title=" " alt="" coords="1015,613,1134,640"/>
+<area shape="rect" id="node210" href="$classTimeOutsideLevelMeasurement.html" title=" " alt="" coords="960,664,1189,691"/>
+<area shape="rect" id="node211" href="$classToneGeneratorFilter.html" title=" " alt="" coords="1000,715,1149,741"/>
+<area shape="rect" id="node212" href="$classTopMeasurement.html" title=" " alt="" coords="1007,765,1142,792"/>
+<area shape="rect" id="node213" href="$classTwoPortShuntThroughFilter.html" title=" " alt="" coords="977,816,1172,843"/>
+<area shape="rect" id="node214" href="$classUSB2ActivityDecoder.html" title=" " alt="" coords="994,867,1155,893"/>
+<area shape="rect" id="node215" href="$classUSB2PCSDecoder.html" title=" " alt="" coords="1007,917,1143,944"/>
+<area shape="rect" id="node216" href="$classUSB2PMADecoder.html" title=" " alt="" coords="1005,968,1145,995"/>
+<area shape="rect" id="node217" href="$classUartClockRecoveryFilter.html" title=" " alt="" coords="985,1019,1164,1045"/>
+<area shape="rect" id="node218" href="$classUndershootMeasurement.html" title=" " alt="" coords="981,1069,1168,1096"/>
+<area shape="rect" id="node219" href="$classUnwrappedPhaseFilter.html" title=" " alt="" coords="991,1120,1158,1147"/>
+<area shape="rect" id="node220" href="$classUpsampleFilter.html" title=" " alt="" coords="1015,1171,1135,1197"/>
+<area shape="rect" id="node221" href="$classVectorFrequencyFilter.html" title=" " alt="" coords="993,1221,1156,1248"/>
+<area shape="rect" id="node222" href="$classVectorPhaseFilter.html" title=" " alt="" coords="1007,1272,1142,1299"/>
+<area shape="rect" id="node223" href="$classVerticalBathtub.html" title=" " alt="" coords="1013,1323,1136,1349"/>
+<area shape="rect" id="node224" href="$classWaterfall.html" title=" " alt="" coords="1033,1373,1116,1400"/>
+<area shape="rect" id="node225" href="$classWaveformGenerationFilter.html" title=" " alt="" coords="977,1424,1172,1451"/>
+<area shape="rect" id="node228" href="$classWindowFilter.html" title=" " alt="" coords="1021,1475,1128,1501"/>
+<area shape="rect" id="node229" href="$classWindowedAutocorrelationFilter.html" title=" " alt="" coords="963,1525,1186,1552"/>
+<area shape="rect" id="node230" href="$classXYSweepFilter.html" title=" " alt="" coords="1017,1576,1132,1603"/>
+<area shape="rect" id="node54" href="$classCTLEFilter.html" title=" " alt="" coords="1329,2716,1416,2743"/>
+<area shape="rect" id="node55" href="$classChannelEmulationFilter.html" title=" " alt="" coords="1286,2767,1459,2793"/>
+<area shape="rect" id="node78" href="$classEnhancedResolutionFilter.html" title=" " alt="" coords="1279,3888,1466,3915"/>
+<area shape="rect" id="node96" href="$classBINImportFilter.html" title=" " alt="" coords="1313,4699,1433,4725"/>
+<area shape="rect" id="node97" href="$classCSVImportFilter.html" title=" " alt="" coords="1311,4749,1434,4776"/>
+<area shape="rect" id="node98" href="$classComplexImportFilter.html" title=" " alt="" coords="1295,4800,1450,4827"/>
+<area shape="rect" id="node99" href="$classTRCImportFilter.html" title=" " alt="" coords="1311,4496,1434,4523"/>
+<area shape="rect" id="node100" href="$classVCDImportFilter.html" title=" " alt="" coords="1310,4547,1435,4573"/>
+<area shape="rect" id="node101" href="$classWAVImportFilter.html" title=" " alt="" coords="1309,4597,1436,4624"/>
+<area shape="rect" id="node102" href="$classWFMImportFilter.html" title=" " alt="" coords="1307,4648,1438,4675"/>
+<area shape="rect" id="node119" href="$classPCIeGen3LogicalDecoder.html" title="Decoder for PCIe gen 3/4/5 logical sub&#45;block." alt="" coords="1280,4851,1465,4877"/>
+<area shape="rect" id="node123" href="$classCANAnalyzerFilter.html" title=" " alt="" coords="1303,5509,1442,5536"/>
+<area shape="rect" id="node124" href="$classCANDecoder.html" title=" " alt="" coords="1321,5560,1425,5587"/>
+<area shape="rect" id="node125" href="$classCandumpImportFilter.html" title=" " alt="" coords="1293,5611,1452,5637"/>
+<area shape="rect" id="node126" href="$classDPAuxChannelDecoder.html" title=" " alt="" coords="1287,5661,1459,5688"/>
+<area shape="rect" id="node127" href="$classDPhyEscapeModeDecoder.html" title=" " alt="" coords="1277,5712,1469,5739"/>
+<area shape="rect" id="node128" href="$classDSIFrameDecoder.html" title=" " alt="" coords="1303,5763,1442,5789"/>
+<area shape="rect" id="node129" href="$classDSIPacketDecoder.html" title="Decodes MIPI DSI from a D&#45;PHY data stream." alt="" coords="1302,5813,1443,5840"/>
+<area shape="rect" id="node130" href="$classDVIDecoder.html" title=" " alt="" coords="1323,5864,1422,5891"/>
+<area shape="rect" id="node131" href="$classESPIDecoder.html" title="Decoder for Intel Enhanced Serial Peripheral Interface (eSPI)" alt="" coords="1321,5915,1425,5941"/>
+<area shape="rect" id="node132" href="$classEthernetAutonegotiationPageDecoder.html" title=" " alt="" coords="1266,5966,1479,6007"/>
+<area shape="rect" id="node133" href="$classEthernetBaseXAutonegotiationDecoder.html" title=" " alt="" coords="1261,6031,1484,6073"/>
+<area shape="rect" id="node134" href="$classEthernetProtocolDecoder.html" title=" " alt="" coords="1281,6097,1465,6124"/>
+<area shape="rect" id="node144" href="$classI2CDecoder.html" title=" " alt="" coords="1324,6148,1421,6175"/>
+<area shape="rect" id="node145" href="$classI2CEepromDecoder.html" title=" " alt="" coords="1299,6199,1446,6225"/>
+<area shape="rect" id="node146" href="$classI2CRegisterDecoder.html" title=" " alt="" coords="1297,6249,1448,6276"/>
+<area shape="rect" id="node147" href="$classJ1939PDUDecoder.html" title=" " alt="" coords="1303,6300,1443,6327"/>
+<area shape="rect" id="node148" href="$classJ1939SourceMatchFilter.html" title=" " alt="" coords="1285,6351,1460,6377"/>
+<area shape="rect" id="node149" href="$classJ1939TransportDecoder.html" title=" " alt="" coords="1286,6401,1459,6428"/>
+<area shape="rect" id="node150" href="$classJtagDecoder.html" title=" " alt="" coords="1322,6452,1423,6479"/>
+<area shape="rect" id="node151" href="$classMDIODecoder.html" title=" " alt="" coords="1317,6503,1429,6529"/>
+<area shape="rect" id="node152" href="$classMilStd1553Decoder.html" title=" " alt="" coords="1298,4901,1447,4928"/>
+<area shape="rect" id="node153" href="$classPCIeDataLinkDecoder.html" title="Decoder for PCIe data link layer." alt="" coords="1291,4952,1454,4979"/>
+<area shape="rect" id="node154" href="$classPCIeLinkTrainingDecoder.html" title="Decoder for PCIe gen 1/2 link training." alt="" coords="1281,5003,1465,5029"/>
+<area shape="rect" id="node155" href="$classPCIeTransportDecoder.html" title="Decoder for PCIe transport layer." alt="" coords="1289,5053,1456,5080"/>
+<area shape="rect" id="node156" href="$classPcapngImportFilter.html" title=" " alt="" coords="1301,5104,1445,5131"/>
+<area shape="rect" id="node157" href="$classSDCmdDecoder.html" title="Decodes the SD card command bus protocol." alt="" coords="1311,5155,1435,5181"/>
+<area shape="rect" id="node158" href="$classSDDataDecoder.html" title=" " alt="" coords="1310,5205,1435,5232"/>
+<area shape="rect" id="node159" href="$classSPIFlashDecoder.html" title=" " alt="" coords="1307,5256,1438,5283"/>
+<area shape="rect" id="node160" href="$classSWDMemAPDecoder.html" title=" " alt="" coords="1294,5307,1451,5333"/>
+<area shape="rect" id="node161" href="$classUARTDecoder.html" title=" " alt="" coords="1317,5357,1429,5384"/>
+<area shape="rect" id="node162" href="$classUSB2PacketDecoder.html" title=" " alt="" coords="1295,5408,1450,5435"/>
+<area shape="rect" id="node163" href="$classVICPDecoder.html" title=" " alt="" coords="1319,5459,1426,5485"/>
+<area shape="rect" id="node135" href="$classEthernet1000BaseXDecoder.html" title=" " alt="" coords="1540,6123,1744,6149"/>
+<area shape="rect" id="node137" href="$classEthernet100BaseT1Decoder.html" title=" " alt="" coords="1541,6173,1743,6200"/>
+<area shape="rect" id="node138" href="$classEthernet100BaseTXDecoder.html" title=" " alt="" coords="1540,6224,1744,6251"/>
+<area shape="rect" id="node139" href="$classEthernet10BaseTDecoder.html" title=" " alt="" coords="1549,6275,1735,6301"/>
+<area shape="rect" id="node140" href="$classEthernet10GBaseRDecoder.html" title=" " alt="" coords="1543,5920,1741,5947"/>
+<area shape="rect" id="node141" href="$classEthernetGMIIDecoder.html" title=" " alt="" coords="1561,5971,1723,5997"/>
+<area shape="rect" id="node142" href="$classEthernetRGMIIDecoder.html" title=" " alt="" coords="1557,6021,1727,6048"/>
+<area shape="rect" id="node143" href="$classEthernetRMIIDecoder.html" title=" " alt="" coords="1562,6072,1722,6099"/>
+<area shape="rect" id="node136" href="$classEthernetSGMIIDecoder.html" title=" " alt="" coords="1800,6123,1969,6149"/>
+<area shape="rect" id="node166" href="$classFFTFilter.html" title=" " alt="" coords="1333,309,1412,336"/>
+<area shape="rect" id="node168" href="$classPeakHoldFilter.html" title=" " alt="" coords="1315,360,1431,387"/>
+<area shape="rect" id="node169" href="$classPeaksFilter.html" title=" " alt="" coords="1326,411,1419,437"/>
+<area shape="rect" id="node167" href="$classJitterSpectrumFilter.html" title=" " alt="" coords="1569,309,1715,336"/>
+<area shape="rect" id="node182" href="$classDDR1Decoder.html" title=" " alt="" coords="1316,6553,1429,6580"/>
+<area shape="rect" id="node183" href="$classDDR3Decoder.html" title=" " alt="" coords="1316,6604,1429,6631"/>
+<area shape="rect" id="node186" href="$classQSPIDecoder.html" title=" " alt="" coords="1319,6655,1426,6681"/>
+<area shape="rect" id="node188" href="$classSParameterFilter.html" title="A filter that takes a set of S&#45;parameters as input and outputs another set of S&#45;parameters." alt="" coords="1307,6705,1438,6732"/>
+<area shape="rect" id="node192" href="$classTouchstoneImportFilter.html" title=" " alt="" coords="1287,6756,1458,6783"/>
+<area shape="rect" id="node189" href="$classReferencePlaneExtensionFilter.html" title=" " alt="" coords="1532,6655,1752,6681"/>
+<area shape="rect" id="node190" href="$classSParameterCascadeFilter.html" title=" " alt="" coords="1549,6705,1735,6732"/>
+<area shape="rect" id="node191" href="$classSParameterDeEmbedFilter.html" title="De&#45;embeds a known." alt="" coords="1545,6756,1739,6783"/>
+<area shape="rect" id="node198" href="$classComplexSpectrogramFilter.html" title=" " alt="" coords="1275,6807,1470,6833"/>
+<area shape="rect" id="node226" href="$classDigitalToNRZFilter.html" title=" " alt="" coords="1303,1399,1442,1425"/>
+<area shape="rect" id="node227" href="$classDigitalToPAM4Filter.html" title=" " alt="" coords="1299,1449,1447,1476"/>
+<area shape="rect" id="node237" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="445,3976,539,4003"/>
+<area shape="rect" id="node240" href="$classDCAEdgeTrigger.html" title="Simple edge trigger for Agilent DCA oscilloscopes." alt="" coords="429,4027,555,4053"/>
+<area shape="rect" id="node241" href="$classDropoutTrigger.html" title="Trigger when a signal stops toggling for some amount of time." alt="" coords="433,4077,551,4104"/>
+<area shape="rect" id="node242" href="$classEdgeTrigger.html" title="Simple edge trigger." alt="" coords="443,4128,541,4155"/>
+<area shape="rect" id="node245" href="$classNthEdgeBurstTrigger.html" title="Nth Edge Burst Trigger: triggers on a specific edge within a burst." alt="" coords="414,4179,570,4205"/>
+<area shape="rect" id="node246" href="$classSerialTrigger.html" title="Abstract base class for serial protocol triggers with pattern matching." alt="" coords="440,4229,544,4256"/>
+<area shape="rect" id="node248" href="$classTwoLevelTrigger.html" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="429,3888,555,3915"/>
+<area shape="rect" id="node238" href="$classCDR8B10BTrigger.html" title="A hardware 8B/10B pattern trigger." alt="" coords="704,3989,841,4016"/>
+<area shape="rect" id="node239" href="$classCDRNRZPatternTrigger.html" title="A hardware NRZ pattern trigger." alt="" coords="687,4040,858,4067"/>
+<area shape="rect" id="node243" href="$classGlitchTrigger.html" title="Trigger on a glitch meeting certain width criteria." alt="" coords="720,4103,825,4129"/>
+<area shape="rect" id="node244" href="$classPulseWidthTrigger.html" title="Trigger on a pulse meeting certain width criteria." alt="" coords="703,4153,843,4180"/>
+<area shape="rect" id="node247" href="$classUartTrigger.html" title="Trigger when a UART sees a certain data pattern." alt="" coords="725,4229,820,4256"/>
+<area shape="rect" id="node249" href="$classRuntTrigger.html" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="724,3837,821,3864"/>
+<area shape="rect" id="node250" href="$classSlewRateTrigger.html" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="709,3888,837,3915"/>
+<area shape="rect" id="node251" href="$classWindowTrigger.html" title="Window trigger &#45; detect when the signal leaves a specified range." alt="" coords="713,3939,832,3965"/>
+<area shape="rect" id="node252" href="$classPeakDetector.html" title=" " alt="" coords="437,3432,547,3459"/>
 </map>

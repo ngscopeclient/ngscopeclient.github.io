@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['transports_0',['Transports',['../group__transports.html',1,'']]],
-  ['triggers_1',['Triggers',['../group__triggers.html',1,'']]]
+  ['miscellaneous_20instrument_20drivers_0',['Miscellaneous instrument drivers',['../group__miscdrivers.html',1,'']]]
 ];

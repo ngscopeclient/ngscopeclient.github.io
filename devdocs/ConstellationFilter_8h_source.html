@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -220,7 +220,7 @@ $(function() {
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>};</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassActionProvider_html"><div class="ttname"><a href="classActionProvider.html">ActionProvider</a></div><div class="ttdoc">Abstract base for objects (usually filters) which provide a series of actions a user can perform.</div><div class="ttdef"><b>Definition:</b> ActionProvider.h:46</div></div>
+<div class="ttc" id="aclassActionProvider_html"><div class="ttname"><a href="classActionProvider.html">ActionProvider</a></div><div class="ttdoc">Abstract base for objects (usually filters) which provide a series of actions a user can perform.</div><div class="ttdef"><b>Definition:</b> ActionProvider.h:48</div></div>
 <div class="ttc" id="aclassConstellationFilter_html"><div class="ttname"><a href="classConstellationFilter.html">ConstellationFilter</a></div><div class="ttdef"><b>Definition:</b> ConstellationFilter.h:68</div></div>
 <div class="ttc" id="aclassConstellationFilter_html_a0845a71d1a9f3dc175505243bbecf3bd"><div class="ttname"><a href="classConstellationFilter.html#a0845a71d1a9f3dc175505243bbecf3bd">ConstellationFilter::PerformAction</a></div><div class="ttdeci">virtual bool PerformAction(const std::string &amp;id) override</div><div class="ttdoc">Perform a specific action.</div><div class="ttdef"><b>Definition:</b> ConstellationFilter.cpp:353</div></div>
 <div class="ttc" id="aclassConstellationFilter_html_a20370b5c8e606916492f7a53a63a1706"><div class="ttname"><a href="classConstellationFilter.html#a20370b5c8e606916492f7a53a63a1706">ConstellationFilter::ClearSweeps</a></div><div class="ttdeci">virtual void ClearSweeps() override</div><div class="ttdoc">Clears any integrated data from past triggers (e.g. eye patterns).</div><div class="ttdef"><b>Definition:</b> ConstellationFilter.cpp:121</div></div>
@@ -232,10 +232,10 @@ $(function() {
 <div class="ttc" id="aclassConstellationPoint_html_aa1ca2dd96738b7abb64d5b18a11eeae4"><div class="ttname"><a href="classConstellationPoint.html#aa1ca2dd96738b7abb64d5b18a11eeae4">ConstellationPoint::m_xnorm</a></div><div class="ttdeci">float m_xnorm</div><div class="ttdoc">Normalized X coordinate.</div><div class="ttdef"><b>Definition:</b> ConstellationFilter.h:59</div></div>
 <div class="ttc" id="aclassConstellationPoint_html_ada69127fe263ea0caff073f532544f39"><div class="ttname"><a href="classConstellationPoint.html#ada69127fe263ea0caff073f532544f39">ConstellationPoint::m_yval</a></div><div class="ttdeci">float m_yval</div><div class="ttdoc">Nominal Y coordinate.</div><div class="ttdef"><b>Definition:</b> ConstellationFilter.h:56</div></div>
 <div class="ttc" id="aclassConstellationWaveform_html"><div class="ttname"><a href="classConstellationWaveform.html">ConstellationWaveform</a></div><div class="ttdoc">A constellation diagram.</div><div class="ttdef"><b>Definition:</b> ConstellationWaveform.h:47</div></div>
-<div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filters and protocol decoders.</div><div class="ttdef"><b>Definition:</b> Filter.h:82</div></div>
-<div class="ttc" id="aclassFilter_html_a0d355f63472c697de0ec20b36657ed9c"><div class="ttname"><a href="classFilter.html#a0d355f63472c697de0ec20b36657ed9c">Filter::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> Filter.cpp:815</div></div>
+<div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filter graph blocks which are not physical instrument channels.</div><div class="ttdef"><b>Definition:</b> Filter.h:95</div></div>
+<div class="ttc" id="aclassFilter_html_a0d355f63472c697de0ec20b36657ed9c"><div class="ttname"><a href="classFilter.html#a0d355f63472c697de0ec20b36657ed9c">Filter::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> Filter.cpp:816</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a46ee4cce9a27c4c2c046195c11139d4a"><div class="ttname"><a href="classInstrumentChannel.html#a46ee4cce9a27c4c2c046195c11139d4a">InstrumentChannel::SetData</a></div><div class="ttdeci">void SetData(WaveformBase *pNew, size_t stream)</div><div class="ttdoc">Sets the waveform data for a given stream, replacing any previous waveform.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.cpp:139</div></div>
-<div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
+<div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

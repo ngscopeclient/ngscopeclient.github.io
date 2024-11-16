@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -109,7 +109,7 @@ $(function() {
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_class" href="classEyePattern.html">EyePattern</a>(<span class="keyword">const</span> std::string&amp; color);</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classEyePattern.html#a7e57e7308ed1cfe12285d0d56ecb807f">Refresh</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFilter.html#a0d355f63472c697de0ec20b36657ed9c">Refresh</a>(vk::raii::CommandBuffer&amp; cmdBuf, std::shared_ptr&lt;QueueHandle&gt; queue) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">static</span> std::string GetProtocolName();</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
@@ -153,8 +153,8 @@ $(function() {
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">size_t</span> GetHeight()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> m_height; }</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keyword">const</span> <a class="code hl_class" href="classEyeMask.html">EyeMask</a>&amp; GetMask()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> m_mask; }</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <a class="code hl_class" href="classEyeMask.html">EyeMask</a>&amp; GetMask()</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    { <span class="keywordflow">return</span> m_mask; }</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">enum</span> ClockPolarity</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    {</div>
@@ -249,17 +249,17 @@ $(function() {
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aEyeMask_8h_html"><div class="ttname"><a href="EyeMask_8h.html">EyeMask.h</a></div><div class="ttdoc">Declaration of EyeMask, EyeMaskPoint, and EyeMaskPolygon.</div></div>
-<div class="ttc" id="aclassEyeMask_html"><div class="ttname"><a href="classEyeMask.html">EyeMask</a></div><div class="ttdoc">A mask used for checking eye patterns.</div><div class="ttdef"><b>Definition:</b> EyeMask.h:74</div></div>
+<div class="ttc" id="aclassEyeMask_html"><div class="ttname"><a href="classEyeMask.html">EyeMask</a></div><div class="ttdoc">A mask used for checking eye patterns.</div><div class="ttdef"><b>Definition:</b> EyeMask.h:98</div></div>
 <div class="ttc" id="aclassEyePattern_html"><div class="ttname"><a href="classEyePattern.html">EyePattern</a></div><div class="ttdef"><b>Definition:</b> EyePattern.h:43</div></div>
-<div class="ttc" id="aclassEyePattern_html_a713e7ad46d05aa91d93dd566539e38cd"><div class="ttname"><a href="classEyePattern.html#a713e7ad46d05aa91d93dd566539e38cd">EyePattern::DoMaskTest</a></div><div class="ttdeci">void DoMaskTest(EyeWaveform *cap)</div><div class="ttdoc">Checks the current capture against the eye mask.</div><div class="ttdef"><b>Definition:</b> EyePattern.cpp:712</div></div>
-<div class="ttc" id="aclassEyePattern_html_a7e57e7308ed1cfe12285d0d56ecb807f"><div class="ttname"><a href="classEyePattern.html#a7e57e7308ed1cfe12285d0d56ecb807f">EyePattern::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> EyePattern.cpp:149</div></div>
-<div class="ttc" id="aclassEyePattern_html_a93ea22335146913c3f4d9be54a01b8cd"><div class="ttname"><a href="classEyePattern.html#a93ea22335146913c3f4d9be54a01b8cd">EyePattern::ClearSweeps</a></div><div class="ttdeci">virtual void ClearSweeps() override</div><div class="ttdoc">Clears any integrated data from past triggers (e.g. eye patterns).</div><div class="ttdef"><b>Definition:</b> EyePattern.cpp:144</div></div>
-<div class="ttc" id="aclassEyeWaveform_html"><div class="ttname"><a href="classEyeWaveform.html">EyeWaveform</a></div><div class="ttdef"><b>Definition:</b> EyeWaveform.h:42</div></div>
-<div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filters and protocol decoders.</div><div class="ttdef"><b>Definition:</b> Filter.h:82</div></div>
+<div class="ttc" id="aclassEyePattern_html_a713e7ad46d05aa91d93dd566539e38cd"><div class="ttname"><a href="classEyePattern.html#a713e7ad46d05aa91d93dd566539e38cd">EyePattern::DoMaskTest</a></div><div class="ttdeci">void DoMaskTest(EyeWaveform *cap)</div><div class="ttdoc">Checks the current capture against the eye mask.</div><div class="ttdef"><b>Definition:</b> EyePattern.cpp:694</div></div>
+<div class="ttc" id="aclassEyePattern_html_a93ea22335146913c3f4d9be54a01b8cd"><div class="ttname"><a href="classEyePattern.html#a93ea22335146913c3f4d9be54a01b8cd">EyePattern::ClearSweeps</a></div><div class="ttdeci">virtual void ClearSweeps() override</div><div class="ttdoc">Clears any integrated data from past triggers (e.g. eye patterns).</div><div class="ttdef"><b>Definition:</b> EyePattern.cpp:145</div></div>
+<div class="ttc" id="aclassEyeWaveform_html"><div class="ttname"><a href="classEyeWaveform.html">EyeWaveform</a></div><div class="ttdoc">An eye-pattern waveform.</div><div class="ttdef"><b>Definition:</b> EyeWaveform.h:58</div></div>
+<div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filter graph blocks which are not physical instrument channels.</div><div class="ttdef"><b>Definition:</b> Filter.h:95</div></div>
+<div class="ttc" id="aclassFilter_html_a0d355f63472c697de0ec20b36657ed9c"><div class="ttname"><a href="classFilter.html#a0d355f63472c697de0ec20b36657ed9c">Filter::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> Filter.cpp:816</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a46ee4cce9a27c4c2c046195c11139d4a"><div class="ttname"><a href="classInstrumentChannel.html#a46ee4cce9a27c4c2c046195c11139d4a">InstrumentChannel::SetData</a></div><div class="ttdeci">void SetData(WaveformBase *pNew, size_t stream)</div><div class="ttdoc">Sets the waveform data for a given stream, replacing any previous waveform.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.cpp:139</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:448</div></div>
-<div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:44</div></div>
-<div class="ttc" id="aclassUniformWaveform_html"><div class="ttname"><a href="classUniformWaveform.html">UniformWaveform</a></div><div class="ttdoc">A waveform sampled at uniform intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:359</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:460</div></div>
+<div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:46</div></div>
+<div class="ttc" id="aclassUniformWaveform_html"><div class="ttname"><a href="classUniformWaveform.html">UniformWaveform</a></div><div class="ttdoc">A waveform sampled at uniform intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:365</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

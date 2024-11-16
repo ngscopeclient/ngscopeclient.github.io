@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -67,11 +67,11 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classSCPINullTransport-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SCPINullTransport Class Reference</div></div>
+  <div class="headertitle"><div class="title">SCPINullTransport Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__transports.html">Transports</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Null <a class="el" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints.">SCPITransport</a> for simulated scopes (signal generator etc)  
+<p>Dummy <a class="el" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints.">SCPITransport</a> for demo scope etc.  
  <a href="classSCPINullTransport.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="SCPINullTransport_8h_source.html">SCPINullTransport.h</a>&gt;</code></p>
@@ -80,7 +80,7 @@ Inheritance diagram for SCPINullTransport:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSCPINullTransport__inherit__graph.png" border="0" usemap="#aSCPINullTransport_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSCPINullTransport_inherit__map" id="aSCPINullTransport_inherit__map">
-<area shape="rect" title="Null SCPITransport for simulated scopes (signal generator etc)" alt="" coords="5,80,144,107"/>
+<area shape="rect" title="Dummy SCPITransport for demo scope etc." alt="" coords="5,80,144,107"/>
 <area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="19,5,131,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -89,7 +89,7 @@ Collaboration diagram for SCPINullTransport:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSCPINullTransport__coll__graph.png" border="0" usemap="#aSCPINullTransport_coll__map" alt="Collaboration graph"/></div>
 <map name="aSCPINullTransport_coll__map" id="aSCPINullTransport_coll__map">
-<area shape="rect" title="Null SCPITransport for simulated scopes (signal generator etc)" alt="" coords="5,80,144,107"/>
+<area shape="rect" title="Dummy SCPITransport for demo scope etc." alt="" coords="5,80,144,107"/>
 <area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="19,5,131,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -103,10 +103,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a376aced08574503130f0985e82f507fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38018814f454b68a2c4eb5c1e7554b53"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSCPINullTransport.html#a38018814f454b68a2c4eb5c1e7554b53">SendCommand</a> (const std::string &amp;cmd) override</td></tr>
 <tr class="separator:a38018814f454b68a2c4eb5c1e7554b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe36820b250a6215d8d43bf95dcbee9"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSCPINullTransport.html#adfe36820b250a6215d8d43bf95dcbee9">ReadReply</a> (bool endOnSemicolon=true) override</td></tr>
-<tr class="separator:adfe36820b250a6215d8d43bf95dcbee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d9fb289bea1333ae9825dd700079a58"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSCPINullTransport.html#a1d9fb289bea1333ae9825dd700079a58">ReadRawData</a> (size_t len, unsigned char *buf) override</td></tr>
-<tr class="separator:a1d9fb289bea1333ae9825dd700079a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06dee8ee36223d49a478eee714d5632e"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSCPINullTransport.html#a06dee8ee36223d49a478eee714d5632e">ReadReply</a> (bool endOnSemicolon=true, std::function&lt; void(float)&gt; progress=nullptr) override</td></tr>
+<tr class="separator:a06dee8ee36223d49a478eee714d5632e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc6959b875da7b392539b52c0f147fb0"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSCPINullTransport.html#adc6959b875da7b392539b52c0f147fb0">ReadRawData</a> (size_t len, unsigned char *buf, std::function&lt; void(float)&gt; progress=nullptr) override</td></tr>
+<tr class="separator:adc6959b875da7b392539b52c0f147fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fba8c5bc5c7849cdc23dc5885464f03"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSCPINullTransport.html#a5fba8c5bc5c7849cdc23dc5885464f03">SendRawData</a> (size_t len, const unsigned char *buf) override</td></tr>
 <tr class="separator:a5fba8c5bc5c7849cdc23dc5885464f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f8ff16c933d08d3bffe0d3da1cf0971"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSCPINullTransport.html#a8f8ff16c933d08d3bffe0d3da1cf0971">IsCommandBatchingSupported</a> () override</td></tr>
@@ -150,12 +150,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>FlushRXBuffer
 <tr class="memitem:adc2b4c63ad6f0b59d6ba5e1dbf16ca4b inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="adc2b4c63ad6f0b59d6ba5e1dbf16ca4b" name="adc2b4c63ad6f0b59d6ba5e1dbf16ca4b"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>SendCommand</b> (const std::string &amp;cmd)=0</td></tr>
 <tr class="separator:adc2b4c63ad6f0b59d6ba5e1dbf16ca4b inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa57f931cf0fe859e03af2ff720be1572 inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="aa57f931cf0fe859e03af2ff720be1572" name="aa57f931cf0fe859e03af2ff720be1572"></a>
-virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>ReadReply</b> (bool endOnSemicolon=true)=0</td></tr>
-<tr class="separator:aa57f931cf0fe859e03af2ff720be1572 inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac21155f42d1a5bd970889c22b1139cdd inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="ac21155f42d1a5bd970889c22b1139cdd" name="ac21155f42d1a5bd970889c22b1139cdd"></a>
-virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>ReadRawData</b> (size_t len, unsigned char *buf)=0</td></tr>
-<tr class="separator:ac21155f42d1a5bd970889c22b1139cdd inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb91b384dae0f1dd6a87dd4dac811fd inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="abdb91b384dae0f1dd6a87dd4dac811fd" name="abdb91b384dae0f1dd6a87dd4dac811fd"></a>
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>ReadReply</b> (bool endOnSemicolon=true, std::function&lt; void(float)&gt; progress=nullptr)=0</td></tr>
+<tr class="separator:abdb91b384dae0f1dd6a87dd4dac811fd inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2259a55f788f0b09965433b5b6ec2cf inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="ab2259a55f788f0b09965433b5b6ec2cf" name="ab2259a55f788f0b09965433b5b6ec2cf"></a>
+virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>ReadRawData</b> (size_t len, unsigned char *buf, std::function&lt; void(float)&gt; progress=nullptr)=0</td></tr>
+<tr class="separator:ab2259a55f788f0b09965433b5b6ec2cf inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af897e26cd0dc494915a71b237415ca5e inherit pub_methods_classSCPITransport"><td class="memItemLeft" align="right" valign="top"><a id="af897e26cd0dc494915a71b237415ca5e" name="af897e26cd0dc494915a71b237415ca5e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendRawData</b> (size_t len, const unsigned char *buf)=0</td></tr>
 <tr class="separator:af897e26cd0dc494915a71b237415ca5e inherit pub_methods_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,7 +237,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <tr class="separator:a57c3ccdf01f6836864eda2cba0099bf2 inherit pro_static_attribs_classSCPITransport"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Null <a class="el" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints.">SCPITransport</a> for simulated scopes (signal generator etc) </p>
+<div class="textblock"><p >Dummy <a class="el" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints.">SCPITransport</a> for demo scope etc. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a376aced08574503130f0985e82f507fb" name="a376aced08574503130f0985e82f507fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a376aced08574503130f0985e82f507fb">&#9670;&nbsp;</a></span>GetConnectionString()</h2>
@@ -320,8 +320,8 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
-<a id="a1d9fb289bea1333ae9825dd700079a58" name="a1d9fb289bea1333ae9825dd700079a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d9fb289bea1333ae9825dd700079a58">&#9670;&nbsp;</a></span>ReadRawData()</h2>
+<a id="adc6959b875da7b392539b52c0f147fb0" name="adc6959b875da7b392539b52c0f147fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc6959b875da7b392539b52c0f147fb0">&#9670;&nbsp;</a></span>ReadRawData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +339,13 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>buf</em>&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -358,8 +364,8 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
-<a id="adfe36820b250a6215d8d43bf95dcbee9" name="adfe36820b250a6215d8d43bf95dcbee9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfe36820b250a6215d8d43bf95dcbee9">&#9670;&nbsp;</a></span>ReadReply()</h2>
+<a id="a06dee8ee36223d49a478eee714d5632e" name="a06dee8ee36223d49a478eee714d5632e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06dee8ee36223d49a478eee714d5632e">&#9670;&nbsp;</a></span>ReadReply()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,8 +377,18 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
           <td class="memname">string SCPINullTransport::ReadReply </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>endOnSemicolon</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>endOnSemicolon</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

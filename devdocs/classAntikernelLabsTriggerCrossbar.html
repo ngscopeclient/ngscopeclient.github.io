@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -68,7 +68,7 @@ $(function() {
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classAntikernelLabsTriggerCrossbar-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AntikernelLabsTriggerCrossbar Class Reference</div></div>
+  <div class="headertitle"><div class="title">AntikernelLabsTriggerCrossbar Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__drivers.html">Instrument drivers</a> &raquo; <a class="el" href="group__matrixdrivers.html">Switch matrix drivers</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -86,7 +86,7 @@ Inheritance diagram for AntikernelLabsTriggerCrossbar:</div>
 <area shape="rect" href="classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="170,169,226,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="177,95,270,121"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="23,169,146,196"/>
-<area shape="rect" href="classSwitchMatrix.html" title="A generic power supply." alt="" coords="330,244,437,271"/>
+<area shape="rect" href="classSwitchMatrix.html" title="Base class for switch matrixes." alt="" coords="330,244,437,271"/>
 <area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="250,169,354,196"/>
 <area shape="rect" title=" " alt="" coords="127,5,319,47"/>
 <area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="166,244,299,271"/>
@@ -98,27 +98,29 @@ Collaboration diagram for AntikernelLabsTriggerCrossbar:</div>
 <div class="dyncontent">
 <div class="center"><img src="classAntikernelLabsTriggerCrossbar__coll__graph.png" border="0" usemap="#aAntikernelLabsTriggerCrossbar_coll__map" alt="Collaboration graph"/></div>
 <map name="aAntikernelLabsTriggerCrossbar_coll__map" id="aAntikernelLabsTriggerCrossbar_coll__map">
-<area shape="rect" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="123,391,343,417"/>
-<area shape="rect" href="classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="108,315,193,341"/>
-<area shape="rect" href="classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="95,213,151,240"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="113,109,207,136"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="175,213,297,240"/>
-<area shape="rect" href="classSwitchMatrix.html" title="A generic power supply." alt="" coords="5,264,112,291"/>
-<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="321,213,425,240"/>
-<area shape="rect" title=" " alt="" coords="64,5,256,47"/>
-<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="217,315,351,341"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="544,109,640,136"/>
-<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="536,13,648,39"/>
-<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer triggers." alt="" coords="392,315,459,341"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="450,213,577,240"/>
-<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="314,109,433,136"/>
+<area shape="rect" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="1125,91,1345,117"/>
+<area shape="rect" href="classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="967,69,1052,96"/>
+<area shape="rect" href="classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="697,56,753,83"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="342,73,435,100"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="663,107,786,133"/>
+<area shape="rect" href="classSwitchMatrix.html" title="Base class for switch matrixes." alt="" coords="812,5,919,32"/>
+<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="673,175,777,201"/>
+<area shape="rect" title=" " alt="" coords="5,66,197,107"/>
+<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="943,120,1076,147"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="341,349,437,376"/>
+<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,349,157,376"/>
+<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="976,243,1043,269"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="661,248,788,275"/>
+<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="663,299,786,325"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="364,299,413,325"/>
+<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="329,205,448,232"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab151f38d69c7eca6d21959be92176117"><td class="memItemLeft" align="right" valign="top"><a id="ab151f38d69c7eca6d21959be92176117" name="ab151f38d69c7eca6d21959be92176117"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>AntikernelLabsTriggerCrossbar</b> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memitem:ab151f38d69c7eca6d21959be92176117"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#ab151f38d69c7eca6d21959be92176117">AntikernelLabsTriggerCrossbar</a> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memdesc:ab151f38d69c7eca6d21959be92176117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the driver.  <a href="classAntikernelLabsTriggerCrossbar.html#ab151f38d69c7eca6d21959be92176117">More...</a><br /></td></tr>
 <tr class="separator:ab151f38d69c7eca6d21959be92176117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad59ebc0f4dd7f04b19e1ed0d7af1fe09"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntikernelLabsTriggerCrossbar.html#ad59ebc0f4dd7f04b19e1ed0d7af1fe09">PostCtorInit</a> () override</td></tr>
 <tr class="memdesc:ad59ebc0f4dd7f04b19e1ed0d7af1fe09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does any initialization that can't happen during the constructor.  <a href="classAntikernelLabsTriggerCrossbar.html#ad59ebc0f4dd7f04b19e1ed0d7af1fe09">More...</a><br /></td></tr>
@@ -661,7 +663,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -1040,6 +1042,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>PopPendingDiag
 <tr class="memitem:a46f12c37b0e72aad478af4b5a86bbd27 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a46f12c37b0e72aad478af4b5a86bbd27" name="a46f12c37b0e72aad478af4b5a86bbd27"></a>
 std::map&lt; std::string, <a class="el" href="classFilterParameter.html">FilterParameter</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetDiagnosticsValues</b> ()</td></tr>
 <tr class="separator:a46f12c37b0e72aad478af4b5a86bbd27 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a20ad86898a2d2cedb03600a0590d3d98">FreeWaveformPools</a> ()</td></tr>
+<tr class="memdesc:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free all waveforms in our pool to reclaim memory.  <a href="classOscilloscope.html#a20ad86898a2d2cedb03600a0590d3d98">More...</a><br /></td></tr>
+<tr class="separator:a20ad86898a2d2cedb03600a0590d3d98 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefd97ec49ddf55d33d5c10074d95756c inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="aefd97ec49ddf55d33d5c10074d95756c" name="aefd97ec49ddf55d33d5c10074d95756c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>AddWaveformToAnalogPool</b> (<a class="el" href="classWaveformBase.html">WaveformBase</a> *w)</td></tr>
 <tr class="separator:aefd97ec49ddf55d33d5c10074d95756c inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1051,6 +1056,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>AddWaveformToDigitalP
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad8f22d65e0e5263541bd9873bcfd30b1"><td class="memItemLeft" align="right" valign="top"><a id="ad8f22d65e0e5263541bd9873bcfd30b1" name="ad8f22d65e0e5263541bd9873bcfd30b1"></a>
 static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDriverNameInternal</b> ()</td></tr>
+<tr class="memdesc:ad8f22d65e0e5263541bd9873bcfd30b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the constant driver name "akl.crossbar". <br /></td></tr>
 <tr class="separator:ad8f22d65e0e5263541bd9873bcfd30b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classSCPIBERT"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classSCPIBERT')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classSCPIBERT.html">SCPIBERT</a></td></tr>
 <tr class="memitem:a4fb663c0adce1ec54c0038dc2e3a45ef inherit pub_static_methods_classSCPIBERT"><td class="memItemLeft" align="right" valign="top"><a id="a4fb663c0adce1ec54c0038dc2e3a45ef" name="a4fb663c0adce1ec54c0038dc2e3a45ef"></a>
@@ -1114,7 +1120,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:ace16881d769aeebf1d33a86b38633438 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this <a class="el" href="classBERT.html" title="Base class for bit error rate tester drivers.">BERT</a>'s configuration to a YAML node.  <a href="classBERT.html#ace16881d769aeebf1d33a86b38633438">More...</a><br /></td></tr>
 <tr class="separator:ace16881d769aeebf1d33a86b38633438 inherit pro_methods_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a6febc886dd8beba2771fcc75ea55b3d6">DoLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classBERT.html#a6febc886dd8beba2771fcc75ea55b3d6">More...</a><br /></td></tr>
+<tr class="memdesc:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classBERT.html#a6febc886dd8beba2771fcc75ea55b3d6">More...</a><br /></td></tr>
 <tr class="separator:a6febc886dd8beba2771fcc75ea55b3d6 inherit pro_methods_classBERT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46eda7f8c6a07dcedd4dec2c11c21e62 inherit pro_methods_classBERT"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBERT.html#a46eda7f8c6a07dcedd4dec2c11c21e62">DoPreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
 <tr class="memdesc:a46eda7f8c6a07dcedd4dec2c11c21e62 inherit pro_methods_classBERT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate instrument and channel configuration from a save file.  <a href="classBERT.html#a46eda7f8c6a07dcedd4dec2c11c21e62">More...</a><br /></td></tr>
@@ -1130,20 +1136,31 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a7df49a44f616ddae56b3e517e8fd9a87 inherit pro_methods_classSwitchMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06010c70f318ca3ff280f1800b237ad1 inherit pro_methods_classSwitchMatrix"><td class="memItemLeft" align="right" valign="top"><a id="a06010c70f318ca3ff280f1800b237ad1" name="a06010c70f318ca3ff280f1800b237ad1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a06010c70f318ca3ff280f1800b237ad1 inherit pro_methods_classSwitchMatrix"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a06010c70f318ca3ff280f1800b237ad1 inherit pro_methods_classSwitchMatrix"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a06010c70f318ca3ff280f1800b237ad1 inherit pro_methods_classSwitchMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a389f4b95571603dbe84f1b27cb08a6fa inherit pro_methods_classSwitchMatrix"><td class="memItemLeft" align="right" valign="top"><a id="a389f4b95571603dbe84f1b27cb08a6fa" name="a389f4b95571603dbe84f1b27cb08a6fa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
 <tr class="memdesc:a389f4b95571603dbe84f1b27cb08a6fa inherit pro_methods_classSwitchMatrix"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a389f4b95571603dbe84f1b27cb08a6fa inherit pro_methods_classSwitchMatrix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
+<tr class="memitem:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="ac205c93314fa0d2a9f57f2755ef0d560" name="ac205c93314fa0d2a9f57f2755ef0d560"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ChannelsDownloadStarted</b> ()</td></tr>
+<tr class="memdesc:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers to reset all channels to "waiting to download" state. <br /></td></tr>
+<tr class="separator:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a4a4683dd262cc9f2fd6a045269358768">ChannelsDownloadStatusUpdate</a> (size_t ch, <a class="el" href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">InstrumentChannel::DownloadState</a> state, float progress)</td></tr>
+<tr class="memdesc:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers to set one channel's download status and update its download progress. Be aware that there is a measurement on ngscopeclient UI of the time spent between the download start and the progress of the last enabled channel. This measurement is used to decide whether to display a progress bar or not. This download speed evaluation method only works if enabled channels are download sequencially in increasing numeric order or if all channels are downloaded at the same speed.  <a href="classOscilloscope.html#a4a4683dd262cc9f2fd6a045269358768">More...</a><br /></td></tr>
+<tr class="separator:a4a4683dd262cc9f2fd6a045269358768 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a66e2ae698291b6bbc940e249bed29878" name="a66e2ae698291b6bbc940e249bed29878"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ChannelsDownloadFinished</b> ()</td></tr>
+<tr class="memdesc:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method called by drivers when waveform download is finished to reset all channels to "no download" state. <br /></td></tr>
+<tr class="separator:a66e2ae698291b6bbc940e249bed29878 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="af23079fed60bb306339952ced919205d" name="af23079fed60bb306339952ced919205d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfiguration</b> (YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;table)</td></tr>
 <tr class="memdesc:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this oscilloscope's configuration to a YAML node. <br /></td></tr>
 <tr class="separator:af23079fed60bb306339952ced919205d inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a0d2b2f14aa8a823d05a3ec34f4bae0a1" name="a0d2b2f14aa8a823d05a3ec34f4bae0a1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a0d2b2f14aa8a823d05a3ec34f4bae0a1 inherit pro_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d04f08d7241640e878a9554c478e09c inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a5d04f08d7241640e878a9554c478e09c" name="a5d04f08d7241640e878a9554c478e09c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -1408,7 +1425,34 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An AKL-TXB1 trigger crossbar. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab151f38d69c7eca6d21959be92176117" name="ab151f38d69c7eca6d21959be92176117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab151f38d69c7eca6d21959be92176117">&#9670;&nbsp;</a></span>AntikernelLabsTriggerCrossbar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AntikernelLabsTriggerCrossbar::AntikernelLabsTriggerCrossbar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSCPITransport.html">SCPITransport</a> *&#160;</td>
+          <td class="paramname"><em>transport</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the driver. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transport</td><td>SCPI transport connected to the crossbar </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6854cb2ab9cadcc140ee683e3b478eac" name="a6854cb2ab9cadcc140ee683e3b478eac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6854cb2ab9cadcc140ee683e3b478eac">&#9670;&nbsp;</a></span>AcquireData()</h2>
 
@@ -5263,7 +5307,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="AntikernelLabsTriggerCrossbar_8h_source.html">AntikernelLabsTriggerCrossbar.h</a></li>
-<li>lib/scopehal/AntikernelLabsTriggerCrossbar.cpp</li>
+<li>lib/scopehal/<a class="el" href="AntikernelLabsTriggerCrossbar_8cpp.html">AntikernelLabsTriggerCrossbar.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

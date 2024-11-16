@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -246,7 +246,7 @@ $(function() {
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    , <span class="keyword">public</span> <a class="code hl_class" href="classPeakDetector.html">PeakDetector</a></div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>{</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <a class="code hl_class" href="classPeakDetectionFilter.html">PeakDetectionFilter</a>(<span class="keyword">const</span> std::string&amp; color, Category cat);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <a class="code hl_class" href="classPeakDetectionFilter.html">PeakDetectionFilter</a>(<span class="keyword">const</span> std::string&amp; color, <a class="code hl_enumeration" href="classFilter.html#abe2a40b860f78489a3a423bdf3243c6c">Category</a> cat);</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classPeakDetectionFilter.html">~PeakDetectionFilter</a>();</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span><span class="keyword">protected</span>:</div>
@@ -266,12 +266,13 @@ $(function() {
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
-<div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filters and protocol decoders.</div><div class="ttdef"><b>Definition:</b> Filter.h:82</div></div>
-<div class="ttc" id="aclassFilter_html_a64a75819f3ddc502e548f71fcd31c6ff"><div class="ttname"><a href="classFilter.html#a64a75819f3ddc502e548f71fcd31c6ff">Filter::GetMinVoltage</a></div><div class="ttdeci">static float GetMinVoltage(SparseAnalogWaveform *s, UniformAnalogWaveform *u)</div><div class="ttdoc">Gets the lowest voltage of a waveform.</div><div class="ttdef"><b>Definition:</b> Filter.h:401</div></div>
+<div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filter graph blocks which are not physical instrument channels.</div><div class="ttdef"><b>Definition:</b> Filter.h:95</div></div>
+<div class="ttc" id="aclassFilter_html_a64a75819f3ddc502e548f71fcd31c6ff"><div class="ttname"><a href="classFilter.html#a64a75819f3ddc502e548f71fcd31c6ff">Filter::GetMinVoltage</a></div><div class="ttdeci">static float GetMinVoltage(SparseAnalogWaveform *s, UniformAnalogWaveform *u)</div><div class="ttdoc">Gets the lowest voltage of a waveform.</div><div class="ttdef"><b>Definition:</b> Filter.h:442</div></div>
+<div class="ttc" id="aclassFilter_html_abe2a40b860f78489a3a423bdf3243c6c"><div class="ttname"><a href="classFilter.html#abe2a40b860f78489a3a423bdf3243c6c">Filter::Category</a></div><div class="ttdeci">Category</div><div class="ttdoc">Category the filter should be displayed under in the GUI.</div><div class="ttdef"><b>Definition:</b> Filter.h:108</div></div>
 <div class="ttc" id="aclassPeakDetectionFilter_html"><div class="ttname"><a href="classPeakDetectionFilter.html">PeakDetectionFilter</a></div><div class="ttdoc">A filter that does peak detection.</div><div class="ttdef"><b>Definition:</b> PeakDetectionFilter.h:184</div></div>
 <div class="ttc" id="aclassPeakDetector_html"><div class="ttname"><a href="classPeakDetector.html">PeakDetector</a></div><div class="ttdef"><b>Definition:</b> PeakDetectionFilter.h:56</div></div>
 <div class="ttc" id="aclassPeak_html"><div class="ttname"><a href="classPeak.html">Peak</a></div><div class="ttdef"><b>Definition:</b> PeakDetectionFilter.h:39</div></div>
-<div class="ttc" id="agroup__datamodel_html_ga977048a82dd93c68f9a67c1670d30491"><div class="ttname"><a href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a></div><div class="ttdeci">int64_t GetOffsetScaled(T *wfm, size_t i)</div><div class="ttdoc">Returns the offset of a sample from the start of the waveform, in X axis units.</div><div class="ttdef"><b>Definition:</b> Waveform.h:680</div></div>
+<div class="ttc" id="agroup__datamodel_html_ga977048a82dd93c68f9a67c1670d30491"><div class="ttname"><a href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a></div><div class="ttdeci">int64_t GetOffsetScaled(T *wfm, size_t i)</div><div class="ttdoc">Returns the offset of a sample from the start of the waveform, in X axis units.</div><div class="ttdef"><b>Definition:</b> Waveform.h:702</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

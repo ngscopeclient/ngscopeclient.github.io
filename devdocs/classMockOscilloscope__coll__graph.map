@@ -1,12 +1,13 @@
 <map id="MockOscilloscope" name="MockOscilloscope">
-<area shape="rect" id="node1" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="286,379,425,405"/>
-<area shape="rect" id="node2" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="197,200,301,227"/>
-<area shape="rect" id="node5" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer triggers." alt="" coords="117,289,183,316"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="409,96,502,123"/>
-<area shape="rect" id="node9" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="402,200,549,227"/>
-<area shape="rect" id="node4" title=" " alt="" coords="359,5,551,47"/>
-<area shape="rect" id="node6" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,96,132,123"/>
-<area shape="rect" id="node7" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="156,96,275,123"/>
-<area shape="rect" id="node8" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="379,289,537,316"/>
-<area shape="rect" id="node10" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="579,96,628,123"/>
+<area shape="rect" id="node1" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="150,379,289,405"/>
+<area shape="rect" id="node2" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="183,200,287,227"/>
+<area shape="rect" id="node5" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="322,289,389,316"/>
+<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="225,96,318,123"/>
+<area shape="rect" id="node11" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="458,200,605,227"/>
+<area shape="rect" id="node4" title=" " alt="" coords="175,5,367,47"/>
+<area shape="rect" id="node6" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="561,96,688,123"/>
+<area shape="rect" id="node7" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="311,200,434,227"/>
+<area shape="rect" id="node8" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="436,96,485,123"/>
+<area shape="rect" id="node9" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="5,96,124,123"/>
+<area shape="rect" id="node10" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="430,289,587,316"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="src/ngscopeclient/ManageInstrumentsDialog.h" name="src/ngscopeclient/ManageInstrumentsDialog.h">
-<area shape="rect" id="node1" title="Declaration of ManageInstrumentsDialog." alt="" coords="2920,5,3111,47"/>
-<area shape="rect" id="node2" href="$MainWindow_8cpp.html" title="Implementation of MainWindow." alt="" coords="5,177,255,203"/>
-<area shape="rect" id="node3" href="$MainWindow_8h.html" title="Declaration of MainWindow." alt="" coords="2898,95,3133,121"/>
-<area shape="rect" id="node17" href="$ManageInstrumentsDialog_8cpp.html" title="Implementation of ManageInstrumentsDialog." alt="" coords="5988,169,6179,211"/>
+<area shape="rect" id="node1" title="Declaration of ManageInstrumentsDialog." alt="" coords="3167,5,3357,47"/>
+<area shape="rect" id="node2" href="$MainWindow_8cpp.html" title="Implementation of most of MainWindow." alt="" coords="5,177,255,203"/>
+<area shape="rect" id="node3" href="$MainWindow_8h.html" title="Declaration of MainWindow." alt="" coords="3145,95,3379,121"/>
+<area shape="rect" id="node18" href="$ManageInstrumentsDialog_8cpp.html" title="Implementation of ManageInstrumentsDialog." alt="" coords="6452,169,6643,211"/>
 <area shape="rect" id="node4" href="$AboutDialog_8cpp.html" title="Implementation of AboutDialog." alt="" coords="279,177,525,203"/>
 <area shape="rect" id="node5" href="$BERTInputChannelDialog_8cpp.html" title="Implementation of BERTInputChannelDialog." alt="" coords="549,169,756,211"/>
 <area shape="rect" id="node6" href="$CreateFilterBrowser_8cpp.html" title="Implementation of CreateFilterBrowser." alt="" coords="780,169,963,211"/>
@@ -15,17 +15,19 @@
 <area shape="rect" id="node13" href="$FilterPropertiesDialog_8cpp.html" title="Implementation of FilterPropertiesDialog." alt="" coords="2267,169,2438,211"/>
 <area shape="rect" id="node14" href="$HistoryDialog_8cpp.html" title="Implementation of HistoryDialog." alt="" coords="2462,169,2649,211"/>
 <area shape="rect" id="node15" href="$LogViewerDialog_8cpp.html" title="Implementation of LogViewerDialog." alt="" coords="2673,169,2880,211"/>
-<area shape="rect" id="node16" href="$MainWindow__Menus_8cpp.html" title="Implementation of MainWindow." alt="" coords="2904,169,3127,211"/>
-<area shape="rect" id="node18" href="$NFDFileBrowser_8cpp.html" title="Implementation of NFDFileBrowser." alt="" coords="3151,169,3341,211"/>
-<area shape="rect" id="node19" href="$NotesDialog_8cpp.html" title="Implementation of NotesDialog." alt="" coords="3365,177,3612,203"/>
-<area shape="rect" id="node20" href="$PersistenceSettingsDialog_8cpp.html" title="Implementation of PersistenceSettingsDialog." alt="" coords="3636,169,3851,211"/>
-<area shape="rect" id="node21" href="$ProtocolAnalyzerDialog_8cpp.html" title="Implementation of ProtocolAnalyzerDialog." alt="" coords="3875,169,4067,211"/>
-<area shape="rect" id="node22" href="$SCPIConsoleDialog_8cpp.html" title="Implementation of SCPIConsoleDialog." alt="" coords="4092,169,4312,211"/>
-<area shape="rect" id="node23" href="$ScopeDeskewWizard_8cpp.html" title="Implementation of ScopeDeskewWizard." alt="" coords="4337,169,4566,211"/>
-<area shape="rect" id="node24" href="$Session_8cpp.html" title="Implementation of Session." alt="" coords="4590,177,4806,203"/>
-<area shape="rect" id="node25" href="$StreamBrowserDialog_8cpp.html" title="Implementation of StreamBrowserDialog." alt="" coords="4830,169,5017,211"/>
-<area shape="rect" id="node26" href="$WaveformArea_8cpp.html" title="Implementation of WaveformArea." alt="" coords="5041,169,5248,211"/>
-<area shape="rect" id="node27" href="$WaveformGroup_8cpp.html" title="Implementation of WaveformGroup." alt="" coords="5272,169,5479,211"/>
-<area shape="rect" id="node28" href="$Workspace_8cpp.html" title="Implementation of Workspace." alt="" coords="5503,177,5741,203"/>
-<area shape="rect" id="node29" href="$main_8cpp.html" title="Program entry point." alt="" coords="5765,177,5964,203"/>
+<area shape="rect" id="node16" href="$MainWindow__Icons_8cpp.html" title="Implementation of MainWindow functions for loading icons." alt="" coords="2904,169,3127,211"/>
+<area shape="rect" id="node17" href="$MainWindow__Menus_8cpp.html" title="Implementation of MainWindow." alt="" coords="3151,169,3373,211"/>
+<area shape="rect" id="node19" href="$MemoryLeakerDialog_8cpp.html" title="Implementation of MemoryLeakerDialog." alt="" coords="3397,169,3591,211"/>
+<area shape="rect" id="node20" href="$NFDFileBrowser_8cpp.html" title="Implementation of NFDFileBrowser." alt="" coords="3615,169,3805,211"/>
+<area shape="rect" id="node21" href="$NotesDialog_8cpp.html" title="Implementation of NotesDialog." alt="" coords="3829,177,4076,203"/>
+<area shape="rect" id="node22" href="$PersistenceSettingsDialog_8cpp.html" title="Implementation of PersistenceSettingsDialog." alt="" coords="4100,169,4315,211"/>
+<area shape="rect" id="node23" href="$ProtocolAnalyzerDialog_8cpp.html" title="Implementation of ProtocolAnalyzerDialog." alt="" coords="4339,169,4531,211"/>
+<area shape="rect" id="node24" href="$SCPIConsoleDialog_8cpp.html" title="Implementation of SCPIConsoleDialog." alt="" coords="4556,169,4776,211"/>
+<area shape="rect" id="node25" href="$ScopeDeskewWizard_8cpp.html" title="Implementation of ScopeDeskewWizard." alt="" coords="4801,169,5030,211"/>
+<area shape="rect" id="node26" href="$Session_8cpp.html" title="Implementation of Session." alt="" coords="5054,177,5270,203"/>
+<area shape="rect" id="node27" href="$StreamBrowserDialog_8cpp.html" title="Implementation of StreamBrowserDialog." alt="" coords="5294,169,5481,211"/>
+<area shape="rect" id="node28" href="$WaveformArea_8cpp.html" title="Implementation of WaveformArea." alt="" coords="5505,169,5712,211"/>
+<area shape="rect" id="node29" href="$WaveformGroup_8cpp.html" title="Implementation of WaveformGroup." alt="" coords="5736,169,5943,211"/>
+<area shape="rect" id="node30" href="$Workspace_8cpp.html" title="Implementation of Workspace." alt="" coords="5967,177,6205,203"/>
+<area shape="rect" id="node31" href="$main_8cpp.html" title="Program entry point." alt="" coords="6229,177,6428,203"/>
 </map>

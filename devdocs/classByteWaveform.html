@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -119,6 +119,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a58e4604df92d56738130bde52614641f inherit pub_methods_classSparseWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseWaveform.html#a58e4604df92d56738130bde52614641f">Rename</a> (const std::string &amp;name=&quot;&quot;) override</td></tr>
 <tr class="memdesc:a58e4604df92d56738130bde52614641f inherit pub_methods_classSparseWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assings a human readable name to the waveform for debug purposes.  <a href="classSparseWaveform.html#a58e4604df92d56738130bde52614641f">More...</a><br /></td></tr>
 <tr class="separator:a58e4604df92d56738130bde52614641f inherit pub_methods_classSparseWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1787fb58487d13f5f2f274c20e0fcfc9 inherit pub_methods_classSparseWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseWaveform.html#a1787fb58487d13f5f2f274c20e0fcfc9">FreeGpuMemory</a> () override</td></tr>
+<tr class="memdesc:a1787fb58487d13f5f2f274c20e0fcfc9 inherit pub_methods_classSparseWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while.  <a href="classSparseWaveform.html#a1787fb58487d13f5f2f274c20e0fcfc9">More...</a><br /></td></tr>
+<tr class="separator:a1787fb58487d13f5f2f274c20e0fcfc9 inherit pub_methods_classSparseWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fe30e95c47e30274d95264256f0c18 inherit pub_methods_classSparseWaveform"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseWaveform.html#ae9fe30e95c47e30274d95264256f0c18">HasGpuBuffer</a> () override</td></tr>
+<tr class="memdesc:ae9fe30e95c47e30274d95264256f0c18 inherit pub_methods_classSparseWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have at least one buffer resident on the GPU.  <a href="classSparseWaveform.html#ae9fe30e95c47e30274d95264256f0c18">More...</a><br /></td></tr>
+<tr class="separator:ae9fe30e95c47e30274d95264256f0c18 inherit pub_methods_classSparseWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91936377012d6428ae703d3bd247891e inherit pub_methods_classSparseWaveform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseWaveform.html#a91936377012d6428ae703d3bd247891e">Resize</a> (size_t <a class="el" href="classSparseWaveform.html#a553f3c506e15b6dd8f6d27be1601e29d">size</a>) override</td></tr>
 <tr class="memdesc:a91936377012d6428ae703d3bd247891e inherit pub_methods_classSparseWaveform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reallocates buffers so the waveform contains the specified number of samples.  <a href="classSparseWaveform.html#a91936377012d6428ae703d3bd247891e">More...</a><br /></td></tr>
 <tr class="separator:a91936377012d6428ae703d3bd247891e inherit pub_methods_classSparseWaveform"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,6 +225,12 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> ()<
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>CacheColors</b> ()</td></tr>
 <tr class="memdesc:a3c844fc1bcfde92cc9b9baac8ebe91e4 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the cache of packed colors to avoid string parsing every frame. <br /></td></tr>
 <tr class="separator:a3c844fc1bcfde92cc9b9baac8ebe91e4 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">FreeGpuMemory</a> ()=0</td></tr>
+<tr class="memdesc:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free GPU-side memory if we are short on VRAM or do not anticipate using this waveform for a while.  <a href="classWaveformBase.html#a1bb69c3e0bd1319c9d67d46961c3e001">More...</a><br /></td></tr>
+<tr class="separator:a1bb69c3e0bd1319c9d67d46961c3e001 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">HasGpuBuffer</a> ()=0</td></tr>
+<tr class="memdesc:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have at least one buffer resident on the GPU.  <a href="classWaveformBase.html#a97b828b2f91d1d641019f0f84ee58873">More...</a><br /></td></tr>
+<tr class="separator:a97b828b2f91d1d641019f0f84ee58873 inherit pub_methods_classWaveformBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

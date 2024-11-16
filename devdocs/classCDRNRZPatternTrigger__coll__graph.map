@@ -1,10 +1,12 @@
 <map id="CDRNRZPatternTrigger" name="CDRNRZPatternTrigger">
-<area shape="rect" id="node1" title="A hardware NRZ pattern trigger." alt="" coords="524,276,695,303"/>
-<area shape="rect" id="node2" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="562,200,657,227"/>
-<area shape="rect" id="node3" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer triggers." alt="" coords="493,96,560,123"/>
-<area shape="rect" id="node5" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="279,200,383,227"/>
-<area shape="rect" id="node4" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="463,13,590,39"/>
-<area shape="rect" id="node6" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,96,148,123"/>
-<area shape="rect" id="node7" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node8" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="173,96,291,123"/>
+<area shape="rect" id="node1" title="A hardware NRZ pattern trigger." alt="" coords="524,379,695,405"/>
+<area shape="rect" id="node2" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="562,303,657,329"/>
+<area shape="rect" id="node3" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="493,199,560,225"/>
+<area shape="rect" id="node5" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="279,303,383,329"/>
+<area shape="rect" id="node4" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="415,102,542,129"/>
+<area shape="rect" id="node6" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,199,148,225"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,95,197,136"/>
+<area shape="rect" id="node8" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="173,199,291,225"/>
+<area shape="rect" id="node9" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="567,102,689,129"/>
+<area shape="rect" id="node10" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="603,5,653,32"/>
 </map>

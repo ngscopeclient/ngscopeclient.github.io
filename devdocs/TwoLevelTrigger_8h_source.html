@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="TwoLevelTrigger_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal v0.1                                                                                                     *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2021 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -98,37 +98,47 @@ $(function() {
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">***********************************************************************************************************************/</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#ifndef TwoLevelTrigger_h</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define TwoLevelTrigger_h</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classTwoLevelTrigger.html">   41</a></span><span class="keyword">class </span><a class="code hl_class" href="classTwoLevelTrigger.html">TwoLevelTrigger</a> : <span class="keyword">public</span> <a class="code hl_class" href="classTrigger.html">Trigger</a></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_class" href="classTwoLevelTrigger.html">TwoLevelTrigger</a>(<a class="code hl_class" href="classOscilloscope.html">Oscilloscope</a>* scope);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classTwoLevelTrigger.html">~TwoLevelTrigger</a>();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="comment">//Upper bound of range is the base class &quot;trigger level&quot;</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">float</span> GetUpperBound()</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    { <span class="keywordflow">return</span> GetLevel(); }</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> SetUpperBound(<span class="keywordtype">float</span> f)</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    { SetLevel(f); }</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">//Lower bound</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">float</span> GetLowerBound()</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    { <span class="keywordflow">return</span> m_parameters[m_lowername].GetFloatVal(); }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef TwoLevelTrigger_h</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define TwoLevelTrigger_h</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classTwoLevelTrigger.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classTwoLevelTrigger.html">TwoLevelTrigger</a> : <span class="keyword">public</span> <a class="code hl_class" href="classTrigger.html">Trigger</a></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_function" href="classTwoLevelTrigger.html#a6a2062b0608bb4b9a2f0f9d9c12d8cae">TwoLevelTrigger</a>(<a class="code hl_class" href="classOscilloscope.html">Oscilloscope</a>* scope);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classTwoLevelTrigger.html">~TwoLevelTrigger</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classTwoLevelTrigger.html#afe5cf56a6a7f653b3226cbfbe5e32768">   55</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classTwoLevelTrigger.html#afe5cf56a6a7f653b3226cbfbe5e32768">GetUpperBound</a>()</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    { <span class="keywordflow">return</span> <a class="code hl_function" href="classTrigger.html#aefd6266c721f2cb34bf8c6958a42a684">GetLevel</a>(); }</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> SetLowerBound(<span class="keywordtype">float</span> level)</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    { m_parameters[m_lowername].SetFloatVal(level); }</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::string m_lowername;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classTwoLevelTrigger.html#a253b79181bcffbe97bcd7a3821c0f3d1">   65</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classTwoLevelTrigger.html#a253b79181bcffbe97bcd7a3821c0f3d1">SetUpperBound</a>(<span class="keywordtype">float</span> level)</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    { <a class="code hl_function" href="classTrigger.html#ae232611940be1b6cbef260ce3d300d39">SetLevel</a>(level); }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classTwoLevelTrigger.html#a87eb3c3dc6830474f271d4442731c86d">   69</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="classTwoLevelTrigger.html#a87eb3c3dc6830474f271d4442731c86d">GetLowerBound</a>()</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="classTwoLevelTrigger.html#ab3ba2c48bd122918cb367c737846f8b7">m_lowerLevel</a>.<a class="code hl_function" href="classFilterParameter.html#abad3f431e0bb398025d7cb2dca4c29ca">GetFloatVal</a>(); }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="classTwoLevelTrigger.html#a8883d972c541c2dbeda720e661ccb5ed">   77</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classTwoLevelTrigger.html#a8883d972c541c2dbeda720e661ccb5ed">SetLowerBound</a>(<span class="keywordtype">float</span> level)</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    { <a class="code hl_variable" href="classTwoLevelTrigger.html#ab3ba2c48bd122918cb367c737846f8b7">m_lowerLevel</a>.<a class="code hl_function" href="classFilterParameter.html#a8a666387180c74320ad63c004b1a668a">SetFloatVal</a>(level); }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classTwoLevelTrigger.html#ab3ba2c48bd122918cb367c737846f8b7">   83</a></span>    <a class="code hl_class" href="classFilterParameter.html">FilterParameter</a>&amp; <a class="code hl_variable" href="classTwoLevelTrigger.html#ab3ba2c48bd122918cb367c737846f8b7">m_lowerLevel</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>};</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassFilterParameter_html"><div class="ttname"><a href="classFilterParameter.html">FilterParameter</a></div><div class="ttdoc">A parameter to a filter.</div><div class="ttdef"><b>Definition:</b> FilterParameter.h:86</div></div>
+<div class="ttc" id="aclassFilterParameter_html_a8a666387180c74320ad63c004b1a668a"><div class="ttname"><a href="classFilterParameter.html#a8a666387180c74320ad63c004b1a668a">FilterParameter::SetFloatVal</a></div><div class="ttdeci">void SetFloatVal(float f)</div><div class="ttdoc">Sets the parameter to a floating point value.</div><div class="ttdef"><b>Definition:</b> FilterParameter.cpp:323</div></div>
+<div class="ttc" id="aclassFilterParameter_html_abad3f431e0bb398025d7cb2dca4c29ca"><div class="ttname"><a href="classFilterParameter.html#abad3f431e0bb398025d7cb2dca4c29ca">FilterParameter::GetFloatVal</a></div><div class="ttdeci">float GetFloatVal() const</div><div class="ttdoc">Returns the value of the parameter interpreted as a floating point number.</div><div class="ttdef"><b>Definition:</b> FilterParameter.h:125</div></div>
 <div class="ttc" id="aclassOscilloscope_html"><div class="ttname"><a href="classOscilloscope.html">Oscilloscope</a></div><div class="ttdoc">Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer.</div><div class="ttdef"><b>Definition:</b> Oscilloscope.h:50</div></div>
-<div class="ttc" id="aclassTrigger_html"><div class="ttname"><a href="classTrigger.html">Trigger</a></div><div class="ttdoc">Abstract base class for oscilloscope / logic analyzer triggers.</div><div class="ttdef"><b>Definition:</b> Trigger.h:44</div></div>
-<div class="ttc" id="aclassTwoLevelTrigger_html"><div class="ttname"><a href="classTwoLevelTrigger.html">TwoLevelTrigger</a></div><div class="ttdoc">Base class for all triggers that have two thresholds rather than one.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.h:42</div></div>
+<div class="ttc" id="aclassTrigger_html"><div class="ttname"><a href="classTrigger.html">Trigger</a></div><div class="ttdoc">Abstract base class for oscilloscope / logic analyzer trigger inputs.</div><div class="ttdef"><b>Definition:</b> Trigger.h:46</div></div>
+<div class="ttc" id="aclassTrigger_html_ae232611940be1b6cbef260ce3d300d39"><div class="ttname"><a href="classTrigger.html#ae232611940be1b6cbef260ce3d300d39">Trigger::SetLevel</a></div><div class="ttdeci">void SetLevel(float level)</div><div class="ttdoc">Sets the trigger level.</div><div class="ttdef"><b>Definition:</b> Trigger.h:60</div></div>
+<div class="ttc" id="aclassTrigger_html_aefd6266c721f2cb34bf8c6958a42a684"><div class="ttname"><a href="classTrigger.html#aefd6266c721f2cb34bf8c6958a42a684">Trigger::GetLevel</a></div><div class="ttdeci">float GetLevel()</div><div class="ttdoc">Get the trigger level.</div><div class="ttdef"><b>Definition:</b> Trigger.h:52</div></div>
+<div class="ttc" id="aclassTwoLevelTrigger_html"><div class="ttname"><a href="classTwoLevelTrigger.html">TwoLevelTrigger</a></div><div class="ttdoc">Base class for all triggers that have two thresholds rather than one.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.h:45</div></div>
+<div class="ttc" id="aclassTwoLevelTrigger_html_a253b79181bcffbe97bcd7a3821c0f3d1"><div class="ttname"><a href="classTwoLevelTrigger.html#a253b79181bcffbe97bcd7a3821c0f3d1">TwoLevelTrigger::SetUpperBound</a></div><div class="ttdeci">void SetUpperBound(float level)</div><div class="ttdoc">Sets the upper trigger level.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.h:65</div></div>
+<div class="ttc" id="aclassTwoLevelTrigger_html_a6a2062b0608bb4b9a2f0f9d9c12d8cae"><div class="ttname"><a href="classTwoLevelTrigger.html#a6a2062b0608bb4b9a2f0f9d9c12d8cae">TwoLevelTrigger::TwoLevelTrigger</a></div><div class="ttdeci">TwoLevelTrigger(Oscilloscope *scope)</div><div class="ttdoc">Create a two-level trigger.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.cpp:50</div></div>
+<div class="ttc" id="aclassTwoLevelTrigger_html_a87eb3c3dc6830474f271d4442731c86d"><div class="ttname"><a href="classTwoLevelTrigger.html#a87eb3c3dc6830474f271d4442731c86d">TwoLevelTrigger::GetLowerBound</a></div><div class="ttdeci">float GetLowerBound()</div><div class="ttdoc">Gets the lower of the two trigger levels.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.h:69</div></div>
+<div class="ttc" id="aclassTwoLevelTrigger_html_a8883d972c541c2dbeda720e661ccb5ed"><div class="ttname"><a href="classTwoLevelTrigger.html#a8883d972c541c2dbeda720e661ccb5ed">TwoLevelTrigger::SetLowerBound</a></div><div class="ttdeci">void SetLowerBound(float level)</div><div class="ttdoc">Sets the lower trigger level.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.h:77</div></div>
+<div class="ttc" id="aclassTwoLevelTrigger_html_ab3ba2c48bd122918cb367c737846f8b7"><div class="ttname"><a href="classTwoLevelTrigger.html#ab3ba2c48bd122918cb367c737846f8b7">TwoLevelTrigger::m_lowerLevel</a></div><div class="ttdeci">FilterParameter &amp; m_lowerLevel</div><div class="ttdoc">Lower voltage threshold.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.h:83</div></div>
+<div class="ttc" id="aclassTwoLevelTrigger_html_afe5cf56a6a7f653b3226cbfbe5e32768"><div class="ttname"><a href="classTwoLevelTrigger.html#afe5cf56a6a7f653b3226cbfbe5e32768">TwoLevelTrigger::GetUpperBound</a></div><div class="ttdeci">float GetUpperBound()</div><div class="ttdoc">Gets the upper of the two trigger levels.</div><div class="ttdef"><b>Definition:</b> TwoLevelTrigger.h:55</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

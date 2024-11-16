@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -93,8 +93,8 @@ $(function() {
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_rateLimitingInterval</b> (defined in <a class="el" href="classSCPITransport.html">SCPITransport</a>)</td><td class="entry"><a class="el" href="classSCPITransport.html">SCPITransport</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>m_txQueue</b> (defined in <a class="el" href="classSCPITransport.html">SCPITransport</a>)</td><td class="entry"><a class="el" href="classSCPITransport.html">SCPITransport</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classSCPITransport.html#a384094f24b60e7c821839b1ceb17e539">RateLimitingWait</a>()</td><td class="entry"><a class="el" href="classSCPITransport.html">SCPITransport</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>ReadRawData</b>(size_t len, unsigned char *buf) override (defined in <a class="el" href="classSCPINullTransport.html">SCPINullTransport</a>)</td><td class="entry"><a class="el" href="classSCPINullTransport.html">SCPINullTransport</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>ReadReply</b>(bool endOnSemicolon=true) override (defined in <a class="el" href="classSCPINullTransport.html">SCPINullTransport</a>)</td><td class="entry"><a class="el" href="classSCPINullTransport.html">SCPINullTransport</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>ReadRawData</b>(size_t len, unsigned char *buf, std::function&lt; void(float)&gt; progress=nullptr) override (defined in <a class="el" href="classSCPINullTransport.html">SCPINullTransport</a>)</td><td class="entry"><a class="el" href="classSCPINullTransport.html">SCPINullTransport</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>ReadReply</b>(bool endOnSemicolon=true, std::function&lt; void(float)&gt; progress=nullptr) override (defined in <a class="el" href="classSCPINullTransport.html">SCPINullTransport</a>)</td><td class="entry"><a class="el" href="classSCPINullTransport.html">SCPINullTransport</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>SCPINullTransport</b>(const std::string &amp;args) (defined in <a class="el" href="classSCPINullTransport.html">SCPINullTransport</a>)</td><td class="entry"><a class="el" href="classSCPINullTransport.html">SCPINullTransport</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SCPITransport</b>() (defined in <a class="el" href="classSCPITransport.html">SCPITransport</a>)</td><td class="entry"><a class="el" href="classSCPITransport.html">SCPITransport</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>SendCommand</b>(const std::string &amp;cmd) override (defined in <a class="el" href="classSCPINullTransport.html">SCPINullTransport</a>)</td><td class="entry"><a class="el" href="classSCPINullTransport.html">SCPINullTransport</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -67,7 +67,7 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classGWInstekGPDX303SPowerSupply-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">GWInstekGPDX303SPowerSupply Class Reference</div></div>
+  <div class="headertitle"><div class="title">GWInstekGPDX303SPowerSupply Class Reference<div class="ingroups"><a class="el" href="group__libscopehal.html">Libscopehal (drivers and core base classes)</a> &raquo; <a class="el" href="group__drivers.html">Instrument drivers</a> &raquo; <a class="el" href="group__psudrivers.html">Power supply drivers</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -107,8 +107,8 @@ Collaboration diagram for GWInstekGPDX303SPowerSupply:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afbd59374869612df223871a5b52c81fc"><td class="memItemLeft" align="right" valign="top"><a id="afbd59374869612df223871a5b52c81fc" name="afbd59374869612df223871a5b52c81fc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>GWInstekGPDX303SPowerSupply</b> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memitem:afbd59374869612df223871a5b52c81fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGWInstekGPDX303SPowerSupply.html#afbd59374869612df223871a5b52c81fc">GWInstekGPDX303SPowerSupply</a> (<a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
+<tr class="memdesc:afbd59374869612df223871a5b52c81fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the driver.  <a href="classGWInstekGPDX303SPowerSupply.html#afbd59374869612df223871a5b52c81fc">More...</a><br /></td></tr>
 <tr class="separator:afbd59374869612df223871a5b52c81fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9c134debf3ed3fa1a2e44469ef10260"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGWInstekGPDX303SPowerSupply.html#af9c134debf3ed3fa1a2e44469ef10260">GetInstrumentTypesForChannel</a> (size_t i) const override</td></tr>
 <tr class="memdesc:af9c134debf3ed3fa1a2e44469ef10260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a bitfield describing the set of instrument types that a given channel supports.  <a href="classGWInstekGPDX303SPowerSupply.html#af9c134debf3ed3fa1a2e44469ef10260">More...</a><br /></td></tr>
@@ -260,7 +260,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ac9482bed513036b8771218916491f599">LoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
+<tr class="memdesc:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file.  <a href="classInstrument.html#ac9482bed513036b8771218916491f599">More...</a><br /></td></tr>
 <tr class="separator:ac9482bed513036b8771218916491f599 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">PreLoadConfiguration</a> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;warnings)</td></tr>
 <tr class="memdesc:a44f726f98045e2ea2b694718cdd1841c inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a limited subset of instrument configuration but do <em>not</em> apply it.  <a href="classInstrument.html#a44f726f98045e2ea2b694718cdd1841c">More...</a><br /></td></tr>
@@ -296,6 +296,7 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDri
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9a35a2cf1ffd0068ab1e0317bc4a33a"><td class="memItemLeft" align="right" valign="top"><a id="aa9a35a2cf1ffd0068ab1e0317bc4a33a" name="aa9a35a2cf1ffd0068ab1e0317bc4a33a"></a>
 static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDriverNameInternal</b> ()</td></tr>
+<tr class="memdesc:aa9a35a2cf1ffd0068ab1e0317bc4a33a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the constant driver name "gwinstek_gpdx303s". <br /></td></tr>
 <tr class="separator:aa9a35a2cf1ffd0068ab1e0317bc4a33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classSCPIPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classSCPIPowerSupply')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classSCPIPowerSupply.html">SCPIPowerSupply</a></td></tr>
 <tr class="memitem:a7cfd39803c4a57c1a9d72c20f68a0c52 inherit pub_static_methods_classSCPIPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a7cfd39803c4a57c1a9d72c20f68a0c52" name="a7cfd39803c4a57c1a9d72c20f68a0c52"></a>
@@ -312,6 +313,7 @@ static std::shared_ptr&lt; <a class="el" href="classSCPIPowerSupply.html">SCPIPo
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0b05f085b4de0228e2fd7a59f9e2ddf0"><td class="memItemLeft" align="right" valign="top"><a id="a0b05f085b4de0228e2fd7a59f9e2ddf0" name="a0b05f085b4de0228e2fd7a59f9e2ddf0"></a>
 std::bitset&lt; 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetStatusRegister</b> ()</td></tr>
+<tr class="memdesc:a0b05f085b4de0228e2fd7a59f9e2ddf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper method to return the status register as a set of bits. <br /></td></tr>
 <tr class="separator:a0b05f085b4de0228e2fd7a59f9e2ddf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classPowerSupply"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPowerSupply')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPowerSupply.html">PowerSupply</a></td></tr>
 <tr class="memitem:a2514be1aa0ec30349b2a3ad1f73fcd48 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a2514be1aa0ec30349b2a3ad1f73fcd48" name="a2514be1aa0ec30349b2a3ad1f73fcd48"></a>
@@ -320,7 +322,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DoSerializeConfigurat
 <tr class="separator:a2514be1aa0ec30349b2a3ad1f73fcd48 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="a9968ac1c2ce757b00021aa0dfc4d8b05" name="a9968ac1c2ce757b00021aa0dfc4d8b05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap)</td></tr>
-<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="A generic electronic load.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
+<tr class="memdesc:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> instrument and channel configuration from a save file. <br /></td></tr>
 <tr class="separator:a9968ac1c2ce757b00021aa0dfc4d8b05 inherit pro_methods_classPowerSupply"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b35da06103790c7a3b8d799c2de772 inherit pro_methods_classPowerSupply"><td class="memItemLeft" align="right" valign="top"><a id="aa5b35da06103790c7a3b8d799c2de772" name="aa5b35da06103790c7a3b8d799c2de772"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoPreLoadConfiguration</b> (int version, const YAML::Node &amp;node, <a class="el" href="classIDTable.html">IDTable</a> &amp;idmap, <a class="el" href="classConfigWarningList.html">ConfigWarningList</a> &amp;list)</td></tr>
@@ -401,7 +403,34 @@ static PowerCreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A GW Instek GPD-(X)303S power supply. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="afbd59374869612df223871a5b52c81fc" name="afbd59374869612df223871a5b52c81fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd59374869612df223871a5b52c81fc">&#9670;&nbsp;</a></span>GWInstekGPDX303SPowerSupply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GWInstekGPDX303SPowerSupply::GWInstekGPDX303SPowerSupply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSCPITransport.html">SCPITransport</a> *&#160;</td>
+          <td class="paramname"><em>transport</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the driver. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transport</td><td><a class="el" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints.">SCPITransport</a> pointing to the PSU </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="af9c134debf3ed3fa1a2e44469ef10260" name="af9c134debf3ed3fa1a2e44469ef10260"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9c134debf3ed3fa1a2e44469ef10260">&#9670;&nbsp;</a></span>GetInstrumentTypesForChannel()</h2>
 
@@ -741,7 +770,7 @@ static PowerCreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/scopehal/<a class="el" href="GWInstekGPDX303SPowerSupply_8h_source.html">GWInstekGPDX303SPowerSupply.h</a></li>
-<li>lib/scopehal/GWInstekGPDX303SPowerSupply.cpp</li>
+<li>lib/scopehal/<a class="el" href="GWInstekGPDX303SPowerSupply_8cpp.html">GWInstekGPDX303SPowerSupply.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,17 +1,19 @@
 var searchData=
 [
-  ['validateshb_0',['ValidateSHB',['../classPcapngImportFilter.html#a7ea810afe2181247353c5d335897be8d',1,'PcapngImportFilter']]],
-  ['verifyallinputsok_1',['VerifyAllInputsOK',['../classFilter.html#aedeb7d26288ed13880b9ad7208e29df8',1,'Filter']]],
-  ['verifyallinputsokandsparseanalog_2',['VerifyAllInputsOKAndSparseAnalog',['../classFilter.html#aec38b98f62b31f5a7e8ffbb889f9610d',1,'Filter']]],
-  ['verifyallinputsokandsparsedigital_3',['VerifyAllInputsOKAndSparseDigital',['../classFilter.html#a782474524f0f19e7672e0e183c3ebce1',1,'Filter']]],
-  ['verifyallinputsokandsparseoruniformdigital_4',['VerifyAllInputsOKAndSparseOrUniformDigital',['../classFilter.html#a14ca00aebe097edc04792a1b030468ca',1,'Filter']]],
-  ['verifyallinputsokanduniformanalog_5',['VerifyAllInputsOKAndUniformAnalog',['../classFilter.html#adda93af116393add22bb7bb2e123299a',1,'Filter']]],
-  ['verifycrc5_6',['VerifyCRC5',['../classUSB2PacketDecoder.html#ac7d4eb842530da00d600c08e6b3ec218',1,'USB2PacketDecoder']]],
-  ['verifyinputok_7',['VerifyInputOK',['../classFilter.html#a2a45af10d8cfc03484b99ae6297aae8a',1,'Filter']]],
-  ['viewmenu_8',['ViewMenu',['../classMainWindow.html#a4fc4455db15ce69baab512d49340cd43',1,'MainWindow']]],
-  ['vstrprintf_9',['vstrprintf',['../classLogSink.html#ada87b5d23447c47d3d9696129127a9da',1,'LogSink']]],
-  ['vulkancleanup_10',['VulkanCleanup',['../group__vksupport.html#ga5c1bc9f3a1584ecf517e6505fa1034bf',1,'VulkanCleanup():&#160;VulkanInit.cpp'],['../group__vksupport.html#ga5c1bc9f3a1584ecf517e6505fa1034bf',1,'VulkanCleanup():&#160;VulkanInit.cpp']]],
-  ['vulkanfftplan_11',['VulkanFFTPlan',['../classVulkanFFTPlan.html#a90999a41dd2d52f7cc683688380f7e1f',1,'VulkanFFTPlan']]],
-  ['vulkaninit_12',['VulkanInit',['../group__vksupport.html#ga109653c843e94439433135d42e49415a',1,'VulkanInit(bool skipGLFW=false):&#160;VulkanInit.cpp'],['../group__vksupport.html#ga109653c843e94439433135d42e49415a',1,'VulkanInit(bool skipGLFW):&#160;VulkanInit.cpp']]],
-  ['vulkanwindow_13',['VulkanWindow',['../classVulkanWindow.html#a45307eb09dc332ae17098e13812b1087',1,'VulkanWindow']]]
+  ['uart_0',['UART',['../classUART.html#a054aa54feaf07b6448790b19bd57134b',1,'UART::UART(const std::string &amp;devfile, int baud)'],['../classUART.html#a68e7e88d2a13f5da85f0fde1ef98515f',1,'UART::UART()']]],
+  ['uarttrigger_1',['UartTrigger',['../classUartTrigger.html#aea01b87add5db13fcdac1435a94db894',1,'UartTrigger']]],
+  ['uhdbridgesdr_2',['UHDBridgeSDR',['../classUHDBridgeSDR.html#a7f236dc04e9effcf5644060d81fc65f6',1,'UHDBridgeSDR']]],
+  ['uniformwaveform_3',['UniformWaveform',['../classUniformWaveform.html#a694f019c1b89a73a839d6d173b9c40c4',1,'UniformWaveform::UniformWaveform(const std::string &amp;name=&quot;&quot;)'],['../classUniformWaveform.html#a4d1ffe6e93d11b440101e247a77a79e6',1,'UniformWaveform::UniformWaveform(const SparseWaveform&lt; S &gt; &amp;rhs)']]],
+  ['uniformwaveformbase_4',['UniformWaveformBase',['../classUniformWaveformBase.html#a0772674d17d4163800ad59ddffebae8a',1,'UniformWaveformBase']]],
+  ['unitinputwithexplicitapply_5',['UnitInputWithExplicitApply',['../classDialog.html#a00c9bd1232bf4fd792d4626cd703569a',1,'Dialog']]],
+  ['unitinputwithimplicitapply_6',['UnitInputWithImplicitApply',['../classDialog.html#a1cf381f13bcab3167433df0631cdeef6',1,'Dialog::UnitInputWithImplicitApply(const std::string &amp;label, std::string &amp;currentValue, float &amp;committedValue, Unit unit)'],['../classDialog.html#a14f34d90f65250454bf2742220c89d7e',1,'Dialog::UnitInputWithImplicitApply(const std::string &amp;label, std::string &amp;currentValue, double &amp;committedValue, Unit unit)'],['../classDialog.html#ab9bdbb5aff0a87bc65c767cb16ba0afd',1,'Dialog::UnitInputWithImplicitApply(const std::string &amp;label, std::string &amp;currentValue, int64_t &amp;committedValue, Unit unit)']]],
+  ['unitselector_7',['UnitSelector',['../classFilterParameter.html#ac15a997b86cf8adef9732971e544b796',1,'FilterParameter']]],
+  ['update_8',['Update',['../classPacketManager.html#a2843a60f52bc620d98d150c5fbd401f7',1,'PacketManager::Update()'],['../classMultimeterChannel.html#ad34b94a623fadd2ba446b1119313d430',1,'MultimeterChannel::Update()']]],
+  ['updatefonts_9',['UpdateFonts',['../classFontManager.html#aea118f8ce98f819f08f94482643650e0',1,'FontManager::UpdateFonts()'],['../classMainWindow.html#a806317c8eacf64d7d597002cc0f2be00',1,'MainWindow::UpdateFonts()']]],
+  ['updateframebuffer_10',['UpdateFramebuffer',['../classVulkanWindow.html#a6fff7dcf941533b35c3ea6f3b58550d6',1,'VulkanWindow']]],
+  ['updatepacketmanagers_11',['UpdatePacketManagers',['../classSession.html#acbc8c40ebd3a6efafc0ed8a75f66dd7b',1,'Session']]],
+  ['updaterunnable_12',['UpdateRunnable',['../classFilterGraphExecutor.html#a4b6a24654f90d73edd629795c8e0f3b3',1,'FilterGraphExecutor']]],
+  ['updateselectiontolatest_13',['UpdateSelectionToLatest',['../classHistoryDialog.html#ae4e37e029c97f5efdff97585b7efbfc0',1,'HistoryDialog']]],
+  ['updatesize_14',['UpdateSize',['../classDisplayedChannel.html#a12c7bd7bcc2eb6b9e5dd508e9c364c11',1,'DisplayedChannel']]],
+  ['usedefaultname_15',['UseDefaultName',['../classFilter.html#a10a2d701a10220d38862553d9a1d681a',1,'Filter']]]
 ];

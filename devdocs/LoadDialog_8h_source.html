@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -117,7 +117,7 @@ $(function() {
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">int</span> m_currentRangeIndex;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::vector&lt;std::string&gt; m_currentRangeNames;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    Load::LoadMode m_mode;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_enumeration" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">Load::LoadMode</a> m_mode;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">float</span> m_committedSetPoint;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::string m_setPoint;</div>
@@ -126,7 +126,7 @@ $(function() {
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        : m_loadEnabled(<span class="keyword">false</span>)</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        , m_voltageRangeIndex(0)</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        , m_currentRangeIndex(0)</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        , m_mode(Load::MODE_CONSTANT_CURRENT)</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        , m_mode(<a class="code hl_enumvalue" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d">Load::MODE_CONSTANT_CURRENT</a>)</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        , m_committedSetPoint(0)</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        , m_chan(0)</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        , m_load(<span class="keyword">nullptr</span>)</div>
@@ -170,19 +170,19 @@ $(function() {
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <a class="code hl_class" href="classUnit.html">Unit</a> ohms(Unit::UNIT_OHMS);</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keywordflow">switch</span>(m_mode)</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        {</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            <span class="keywordflow">case</span> Load::MODE_CONSTANT_CURRENT:</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d">Load::MODE_CONSTANT_CURRENT</a>:</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                m_setPoint = amps.<a class="code hl_function" href="classUnit.html#ab0af7c36851b6a6001d7eb7e6083d3da">PrettyPrint</a>(m_committedSetPoint);</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            <span class="keywordflow">case</span> Load::MODE_CONSTANT_VOLTAGE:</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576a83c07926ebac73a6ff08aec0e86ef61d">Load::MODE_CONSTANT_VOLTAGE</a>:</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                m_setPoint = volts.<a class="code hl_function" href="classUnit.html#ab0af7c36851b6a6001d7eb7e6083d3da">PrettyPrint</a>(m_committedSetPoint);</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            <span class="keywordflow">case</span> Load::MODE_CONSTANT_POWER:</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576ac4d0096c8194daa90ae8c911a7431c08">Load::MODE_CONSTANT_POWER</a>:</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                m_setPoint = watts.<a class="code hl_function" href="classUnit.html#ab0af7c36851b6a6001d7eb7e6083d3da">PrettyPrint</a>(m_committedSetPoint);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>            <span class="keywordflow">case</span> Load::MODE_CONSTANT_RESISTANCE:</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576afa4927f61c9983a6e3266fd06eb86aac">Load::MODE_CONSTANT_RESISTANCE</a>:</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                m_setPoint = ohms.<a class="code hl_function" href="classUnit.html#ab0af7c36851b6a6001d7eb7e6083d3da">PrettyPrint</a>(m_committedSetPoint);</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
@@ -245,9 +245,14 @@ $(function() {
 <div class="ttc" id="aclassLoadDialog_html_aa7e4c99511a606b0924186d4aef08d4b"><div class="ttname"><a href="classLoadDialog.html#aa7e4c99511a606b0924186d4aef08d4b">LoadDialog::m_state</a></div><div class="ttdeci">std::shared_ptr&lt; LoadState &gt; m_state</div><div class="ttdoc">Current channel stats, live updated.</div><div class="ttdef"><b>Definition:</b> LoadDialog.h:168</div></div>
 <div class="ttc" id="aclassLoadDialog_html_ad2c8e73cbee63c0cd0384c97c8158ab8"><div class="ttname"><a href="classLoadDialog.html#ad2c8e73cbee63c0cd0384c97c8158ab8">LoadDialog::m_channelNames</a></div><div class="ttdeci">std::vector&lt; std::string &gt; m_channelNames</div><div class="ttdoc">Set of channel names.</div><div class="ttdef"><b>Definition:</b> LoadDialog.h:171</div></div>
 <div class="ttc" id="aclassLoadDialog_html_adb562e3fdce145cc14938cc36bda6c9a"><div class="ttname"><a href="classLoadDialog.html#adb562e3fdce145cc14938cc36bda6c9a">LoadDialog::m_channelUIState</a></div><div class="ttdeci">std::vector&lt; LoadChannelUIState &gt; m_channelUIState</div><div class="ttdoc">Channel state for the UI.</div><div class="ttdef"><b>Definition:</b> LoadDialog.h:177</div></div>
-<div class="ttc" id="aclassSession_html"><div class="ttname"><a href="classSession.html">Session</a></div><div class="ttdoc">A Session stores all of the instrument configuration and other state the user has open.</div><div class="ttdef"><b>Definition:</b> Session.h:91</div></div>
-<div class="ttc" id="aclassUnit_html"><div class="ttname"><a href="classUnit.html">Unit</a></div><div class="ttdoc">A unit of measurement, plus conversion to pretty-printed output.</div><div class="ttdef"><b>Definition:</b> Unit.h:54</div></div>
-<div class="ttc" id="aclassUnit_html_ab0af7c36851b6a6001d7eb7e6083d3da"><div class="ttname"><a href="classUnit.html#ab0af7c36851b6a6001d7eb7e6083d3da">Unit::PrettyPrint</a></div><div class="ttdeci">std::string PrettyPrint(double value, int sigfigs=-1, bool useDisplayLocale=true) const</div><div class="ttdoc">Prints a value with SI scaling factors.</div><div class="ttdef"><b>Definition:</b> Unit.cpp:549</div></div>
+<div class="ttc" id="aclassLoad_html_a0aaf9f059b9a5a002f4f2e5da5bf5576"><div class="ttname"><a href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576">Load::LoadMode</a></div><div class="ttdeci">LoadMode</div><div class="ttdoc">Operating modes for the load.</div><div class="ttdef"><b>Definition:</b> Load.h:62</div></div>
+<div class="ttc" id="aclassLoad_html_a0aaf9f059b9a5a002f4f2e5da5bf5576a83c07926ebac73a6ff08aec0e86ef61d"><div class="ttname"><a href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576a83c07926ebac73a6ff08aec0e86ef61d">Load::MODE_CONSTANT_VOLTAGE</a></div><div class="ttdeci">@ MODE_CONSTANT_VOLTAGE</div><div class="ttdoc">Draw as much current as needed for the input voltage to drop to the specified level.</div><div class="ttdef"><b>Definition:</b> Load.h:67</div></div>
+<div class="ttc" id="aclassLoad_html_a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d"><div class="ttname"><a href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576abf6b7cfa79fad0b95b860bdc4385eb8d">Load::MODE_CONSTANT_CURRENT</a></div><div class="ttdeci">@ MODE_CONSTANT_CURRENT</div><div class="ttdoc">Draw a constant current regardless of supplied voltage.</div><div class="ttdef"><b>Definition:</b> Load.h:64</div></div>
+<div class="ttc" id="aclassLoad_html_a0aaf9f059b9a5a002f4f2e5da5bf5576ac4d0096c8194daa90ae8c911a7431c08"><div class="ttname"><a href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576ac4d0096c8194daa90ae8c911a7431c08">Load::MODE_CONSTANT_POWER</a></div><div class="ttdeci">@ MODE_CONSTANT_POWER</div><div class="ttdoc">Draw a constant power regardless of supplied voltage.</div><div class="ttdef"><b>Definition:</b> Load.h:73</div></div>
+<div class="ttc" id="aclassLoad_html_a0aaf9f059b9a5a002f4f2e5da5bf5576afa4927f61c9983a6e3266fd06eb86aac"><div class="ttname"><a href="classLoad.html#a0aaf9f059b9a5a002f4f2e5da5bf5576afa4927f61c9983a6e3266fd06eb86aac">Load::MODE_CONSTANT_RESISTANCE</a></div><div class="ttdeci">@ MODE_CONSTANT_RESISTANCE</div><div class="ttdoc">Emulate a fixed resistance.</div><div class="ttdef"><b>Definition:</b> Load.h:70</div></div>
+<div class="ttc" id="aclassSession_html"><div class="ttname"><a href="classSession.html">Session</a></div><div class="ttdoc">A Session stores all of the instrument configuration and other state the user has open.</div><div class="ttdef"><b>Definition:</b> Session.h:95</div></div>
+<div class="ttc" id="aclassUnit_html"><div class="ttname"><a href="classUnit.html">Unit</a></div><div class="ttdoc">A unit of measurement, plus conversion to pretty-printed output.</div><div class="ttdef"><b>Definition:</b> Unit.h:57</div></div>
+<div class="ttc" id="aclassUnit_html_ab0af7c36851b6a6001d7eb7e6083d3da"><div class="ttname"><a href="classUnit.html#ab0af7c36851b6a6001d7eb7e6083d3da">Unit::PrettyPrint</a></div><div class="ttdeci">std::string PrettyPrint(double value, int sigfigs=-1, bool useDisplayLocale=true) const</div><div class="ttdoc">Prints a value with SI scaling factors.</div><div class="ttdef"><b>Definition:</b> Unit.cpp:587</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

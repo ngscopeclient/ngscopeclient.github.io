@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+3d208fe11</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
    </div>
   </td>
  </tr>
@@ -243,8 +243,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>pop_back</b> ()</td><
 <tr class="memitem:aa92643da744d1c68cbc59f98ee0b4bb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAcceleratorBuffer.html#aa92643da744d1c68cbc59f98ee0b4bb5">PrepareForGpuAccessNonblocking</a> (bool outputOnly, vk::raii::CommandBuffer &amp;cmdBuf)</td></tr>
 <tr class="memdesc:aa92643da744d1c68cbc59f98ee0b4bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares the buffer to be accessed from the GPU.  <a href="classAcceleratorBuffer.html#aa92643da744d1c68cbc59f98ee0b4bb5">More...</a><br /></td></tr>
 <tr class="separator:aa92643da744d1c68cbc59f98ee0b4bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08c8f7a8d428d13a9c15fc3cd532035"><td class="memItemLeft" align="right" valign="top"><a id="af08c8f7a8d428d13a9c15fc3cd532035" name="af08c8f7a8d428d13a9c15fc3cd532035"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetName</b> (std::string name)</td></tr>
+<tr class="memitem:abf99d2be1334deb323207e342d2a6190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAcceleratorBuffer.html#abf99d2be1334deb323207e342d2a6190">FreeGpuBuffer</a> (bool dataLossOK=false)</td></tr>
+<tr class="memdesc:abf99d2be1334deb323207e342d2a6190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free the GPU-side buffer and underlying physical memory.  <a href="classAcceleratorBuffer.html#abf99d2be1334deb323207e342d2a6190">More...</a><br /></td></tr>
+<tr class="separator:abf99d2be1334deb323207e342d2a6190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08c8f7a8d428d13a9c15fc3cd532035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAcceleratorBuffer.html#af08c8f7a8d428d13a9c15fc3cd532035">SetName</a> (std::string name)</td></tr>
+<tr class="memdesc:af08c8f7a8d428d13a9c15fc3cd532035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the debug name for this buffer.  <a href="classAcceleratorBuffer.html#af08c8f7a8d428d13a9c15fc3cd532035">More...</a><br /></td></tr>
 <tr class="separator:af08c8f7a8d428d13a9c15fc3cd532035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -291,10 +294,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CopyToGpu</b> ()</td>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>FreeCpuBuffer</b> ()</td></tr>
 <tr class="memdesc:aa8f2f7bab4ec4c135996eeab26108de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free the CPU-side buffer and underlying physical memory. <br /></td></tr>
 <tr class="separator:aa8f2f7bab4ec4c135996eeab26108de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad26a0f5be69ab73c92d800965a9a7881"><td class="memItemLeft" align="right" valign="top"><a id="ad26a0f5be69ab73c92d800965a9a7881" name="ad26a0f5be69ab73c92d800965a9a7881"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>FreeGpuBuffer</b> ()</td></tr>
-<tr class="memdesc:ad26a0f5be69ab73c92d800965a9a7881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free the GPU-side buffer and underlying physical memory. <br /></td></tr>
-<tr class="separator:ad26a0f5be69ab73c92d800965a9a7881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adafd452d50093101d6a02eeb783aadd1"><td class="memItemLeft" align="right" valign="top"><a id="adafd452d50093101d6a02eeb783aadd1" name="adafd452d50093101d6a02eeb783aadd1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>__attribute__</b> ((noinline)) void AllocateCpuBuffer(size_t size)</td></tr>
 <tr class="memdesc:adafd452d50093101d6a02eeb783aadd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a buffer for CPU access. <br /></td></tr>
@@ -450,6 +449,42 @@ template&lt;class T &gt; </div>
 
 <p>Copy the buffer contents from CPU to GPU without blocking on the CPU. </p>
 <p >Inserts a memory barrier to ensure that GPU-side access is synchronized. </p>
+
+</div>
+</div>
+<a id="abf99d2be1334deb323207e342d2a6190" name="abf99d2be1334deb323207e342d2a6190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf99d2be1334deb323207e342d2a6190">&#9670;&nbsp;</a></span>FreeGpuBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; T &gt;::FreeGpuBuffer </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>dataLossOK</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Free the GPU-side buffer and underlying physical memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataLossOK</td><td>True if we do not intend to use the contents of this buffer again (and thus it's OK to remove the only copy of the data) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -797,6 +832,43 @@ template&lt;class T &gt; </div>
 
 <p>Sets a hint to the buffer on how often we expect to use it on the GPU in the future. </p>
 <p >If reallocateImmediately is set, the buffer is reallocated with the specified settings to fit the current buffer size (shrinking to fit if needed) </p>
+
+</div>
+</div>
+<a id="af08c8f7a8d428d13a9c15fc3cd532035" name="af08c8f7a8d428d13a9c15fc3cd532035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08c8f7a8d428d13a9c15fc3cd532035">&#9670;&nbsp;</a></span>SetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; T &gt;::SetName </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the debug name for this buffer. </p>
+<p >The name can be queried by m_name in a debugger. If VK_EXT_debug_utils is active, the name will also be attached to the Vulkan object handle.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the buffer </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

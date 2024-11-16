@@ -22,5 +22,6 @@ var searchData=
   ['functiongenerator_19',['FunctionGenerator',['../classFunctionGenerator.html',1,'']]],
   ['functiongeneratorchannel_20',['FunctionGeneratorChannel',['../classFunctionGeneratorChannel.html',1,'']]],
   ['functiongeneratorchanneluistate_21',['FunctionGeneratorChannelUIState',['../classFunctionGeneratorChannelUIState.html',1,'']]],
-  ['functiongeneratordialog_22',['FunctionGeneratorDialog',['../classFunctionGeneratorDialog.html',1,'']]]
+  ['functiongeneratordialog_22',['FunctionGeneratorDialog',['../classFunctionGeneratorDialog.html',1,'']]],
+  ['functiongeneratorstate_23',['FunctionGeneratorState',['../classFunctionGeneratorState.html',1,'']]]
 ];
