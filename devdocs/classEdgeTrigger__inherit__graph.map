@@ -1,7 +1,8 @@
 <map id="EdgeTrigger" name="EdgeTrigger">
-<area shape="rect" id="node1" title="Simple edge trigger." alt="" coords="82,155,181,181"/>
-<area shape="rect" id="node4" href="$classGlitchTrigger.html" title="Trigger on a glitch meeting certain width criteria." alt="" coords="5,229,111,256"/>
-<area shape="rect" id="node5" href="$classPulseWidthTrigger.html" title="Trigger on a pulse meeting certain width criteria." alt="" coords="135,229,275,256"/>
-<area shape="rect" id="node2" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="98,80,165,107"/>
-<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="68,5,195,32"/>
+<area shape="rect" id="node1" title="Simple edge trigger." alt="" coords="82,229,181,256"/>
+<area shape="rect" id="node5" href="$classGlitchTrigger.html" title="Trigger on a glitch meeting certain width criteria." alt="" coords="5,304,111,331"/>
+<area shape="rect" id="node6" href="$classPulseWidthTrigger.html" title="Trigger on a pulse meeting certain width criteria." alt="" coords="135,304,275,331"/>
+<area shape="rect" id="node2" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="98,155,165,181"/>
+<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="68,80,195,107"/>
+<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="61,5,201,32"/>
 </map>

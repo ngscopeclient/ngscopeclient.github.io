@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -67,7 +67,6 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classUnit-members.html">List of all members</a>  </div>
@@ -172,12 +171,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (UnitT
 <a class="el" href="classUnit.html">Unit</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator/</b> (const <a class="el" href="classUnit.html">Unit</a> &amp;rhs)</td></tr>
 <tr class="memdesc:a770684ae174adb0d9fb2f1bf00802c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divides two units and calculates the resulting unit. <br /></td></tr>
 <tr class="separator:a770684ae174adb0d9fb2f1bf00802c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e428ba3db81f45a77e9bb2740f71e5e"><td class="memItemLeft" align="right" valign="top"><a id="a9e428ba3db81f45a77e9bb2740f71e5e" name="a9e428ba3db81f45a77e9bb2740f71e5e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsLogarithmic</b> ()</td></tr>
+<tr class="separator:a9e428ba3db81f45a77e9bb2740f71e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8352cdf5e5d535d2b3e45558c1edabb0"><td class="memItemLeft" align="right" valign="top"><a id="a8352cdf5e5d535d2b3e45558c1edabb0" name="a8352cdf5e5d535d2b3e45558c1edabb0"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetLocale</b> (const char *locale)</td></tr>
-<tr class="separator:a8352cdf5e5d535d2b3e45558c1edabb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a195258530fe21646f6aee9f3f38dac"><td class="memItemLeft" align="right" valign="top"><a id="a6a195258530fe21646f6aee9f3f38dac" name="a6a195258530fe21646f6aee9f3f38dac"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeLocales</b> ()</td></tr>
+<tr class="memdesc:a6a195258530fe21646f6aee9f3f38dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the locales for pretty-printing and file interchange. <br /></td></tr>
+<tr class="separator:a6a195258530fe21646f6aee9f3f38dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c4d827eddcbdcf0670deef527c0ef49"><td class="memItemLeft" align="right" valign="top"><a id="a2c4d827eddcbdcf0670deef527c0ef49" name="a2c4d827eddcbdcf0670deef527c0ef49"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPrintingLocale</b> ()</td></tr>
+<tr class="memdesc:a2c4d827eddcbdcf0670deef527c0ef49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current locale to the user's selected LC_NUMERIC for printing numbers for display. <br /></td></tr>
+<tr class="separator:a2c4d827eddcbdcf0670deef527c0ef49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d09cad48b93d14257d6bcc6c7e7c03f"><td class="memItemLeft" align="right" valign="top"><a id="a9d09cad48b93d14257d6bcc6c7e7c03f" name="a9d09cad48b93d14257d6bcc6c7e7c03f"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDefaultLocale</b> ()</td></tr>
+<tr class="memdesc:a9d09cad48b93d14257d6bcc6c7e7c03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current locale to "C" for interchange. <br /></td></tr>
+<tr class="separator:a9d09cad48b93d14257d6bcc6c7e7c03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -188,17 +199,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GetSIScalingFactor</b
 <tr class="memitem:a7d29930ca26adc89ea29408ac3d8f28a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUnit.html#a7d29930ca26adc89ea29408ac3d8f28a">GetUnitSuffix</a> (UnitType type, double num, double &amp;scaleFactor, std::string &amp;prefix, std::string &amp;numprefix, std::string &amp;suffix) const</td></tr>
 <tr class="memdesc:a7d29930ca26adc89ea29408ac3d8f28a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the suffix for a unit.  <a href="classUnit.html#a7d29930ca26adc89ea29408ac3d8f28a">More...</a><br /></td></tr>
 <tr class="separator:a7d29930ca26adc89ea29408ac3d8f28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2c4d827eddcbdcf0670deef527c0ef49"><td class="memItemLeft" align="right" valign="top"><a id="a2c4d827eddcbdcf0670deef527c0ef49" name="a2c4d827eddcbdcf0670deef527c0ef49"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPrintingLocale</b> ()</td></tr>
-<tr class="memdesc:a2c4d827eddcbdcf0670deef527c0ef49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current locale to the user's selected LC_NUMERIC for printing numbers for display. <br /></td></tr>
-<tr class="separator:a2c4d827eddcbdcf0670deef527c0ef49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d09cad48b93d14257d6bcc6c7e7c03f"><td class="memItemLeft" align="right" valign="top"><a id="a9d09cad48b93d14257d6bcc6c7e7c03f" name="a9d09cad48b93d14257d6bcc6c7e7c03f"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetDefaultLocale</b> ()</td></tr>
-<tr class="memdesc:a9d09cad48b93d14257d6bcc6c7e7c03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current locale to "C" for interchange. <br /></td></tr>
-<tr class="separator:a9d09cad48b93d14257d6bcc6c7e7c03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -216,6 +216,10 @@ static locale_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_locale</
 static locale_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_defaultLocale</b></td></tr>
 <tr class="memdesc:a94b3b3119cef4d62cf6bb09a6799b109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle to the "C" locale, used for interchange. <br /></td></tr>
 <tr class="separator:a94b3b3119cef4d62cf6bb09a6799b109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd42254061d23ec292eccd6f473e052"><td class="memItemLeft" align="right" valign="top"><a id="a5fd42254061d23ec292eccd6f473e052" name="a5fd42254061d23ec292eccd6f473e052"></a>
+static char&#160;</td><td class="memItemRight" valign="bottom"><b>m_decimalSeparator</b> = '.'</td></tr>
+<tr class="memdesc:a5fd42254061d23ec292eccd6f473e052"><td class="mdescLeft">&#160;</td><td class="mdescRight">The decimal separator for pretty-printing in the user's selected locale. <br /></td></tr>
+<tr class="separator:a5fd42254061d23ec292eccd6f473e052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A unit of measurement, plus conversion to pretty-printed output. </p>

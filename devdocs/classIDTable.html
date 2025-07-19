@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -79,8 +79,8 @@ Inheritance diagram for IDTable:</div>
 <div class="dyncontent">
 <div class="center"><img src="classIDTable__inherit__graph.png" border="0" usemap="#aIDTable_inherit__map" alt="Inheritance graph"/></div>
 <map name="aIDTable_inherit__map" id="aIDTable_inherit__map">
-<area shape="rect" title="Bidirectional table mapping integer IDs in scopesession files to object pointers." alt="" coords="39,95,109,121"/>
-<area shape="rect" href="classBijection.html" title=" " alt="" coords="5,5,143,47"/>
+<area shape="rect" title="Bidirectional table mapping integer IDs in scopesession files to object pointers." alt="" coords="63,95,134,121"/>
+<area shape="rect" href="classBijection.html" title=" " alt="" coords="5,5,192,47"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -88,22 +88,22 @@ Collaboration diagram for IDTable:</div>
 <div class="dyncontent">
 <div class="center"><img src="classIDTable__coll__graph.png" border="0" usemap="#aIDTable_coll__map" alt="Collaboration graph"/></div>
 <map name="aIDTable_coll__map" id="aIDTable_coll__map">
-<area shape="rect" title="Bidirectional table mapping integer IDs in scopesession files to object pointers." alt="" coords="39,95,109,121"/>
-<area shape="rect" href="classBijection.html" title=" " alt="" coords="5,5,143,47"/>
+<area shape="rect" title="Bidirectional table mapping integer IDs in scopesession files to object pointers." alt="" coords="63,95,134,121"/>
+<area shape="rect" href="classBijection.html" title=" " alt="" coords="5,5,192,47"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ee11439f77025f38ff598ec64a81020"><td class="memItemLeft" align="right" valign="top">uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#a5ee11439f77025f38ff598ec64a81020">emplace</a> (void *p)</td></tr>
-<tr class="memdesc:a5ee11439f77025f38ff598ec64a81020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a new object in the table.  <a href="classIDTable.html#a5ee11439f77025f38ff598ec64a81020">More...</a><br /></td></tr>
-<tr class="separator:a5ee11439f77025f38ff598ec64a81020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefe38af726230aab1298264b49bec5a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#aefe38af726230aab1298264b49bec5a3">emplace</a> (uintptr_t id, void *p)</td></tr>
-<tr class="memdesc:aefe38af726230aab1298264b49bec5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a new object in the table using a specific ID.  <a href="classIDTable.html#aefe38af726230aab1298264b49bec5a3">More...</a><br /></td></tr>
-<tr class="separator:aefe38af726230aab1298264b49bec5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83b40ddc38ed2c4561b4ead7a6f54b58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#a83b40ddc38ed2c4561b4ead7a6f54b58">HasID</a> (void *p)</td></tr>
-<tr class="memdesc:a83b40ddc38ed2c4561b4ead7a6f54b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if we have an object at a specific pointer.  <a href="classIDTable.html#a83b40ddc38ed2c4561b4ead7a6f54b58">More...</a><br /></td></tr>
-<tr class="separator:a83b40ddc38ed2c4561b4ead7a6f54b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a838b58596d660e23d21cdcea0faaaab8"><td class="memItemLeft" align="right" valign="top">uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#a838b58596d660e23d21cdcea0faaaab8">emplace</a> (<a class="el" href="classSerializableObject.html">SerializableObject</a> *p)</td></tr>
+<tr class="memdesc:a838b58596d660e23d21cdcea0faaaab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a new object in the table.  <a href="classIDTable.html#a838b58596d660e23d21cdcea0faaaab8">More...</a><br /></td></tr>
+<tr class="separator:a838b58596d660e23d21cdcea0faaaab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5164971d3be4f50b3cc4d8900ebf243"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#ae5164971d3be4f50b3cc4d8900ebf243">emplace</a> (uintptr_t id, <a class="el" href="classSerializableObject.html">SerializableObject</a> *p)</td></tr>
+<tr class="memdesc:ae5164971d3be4f50b3cc4d8900ebf243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a new object in the table using a specific ID.  <a href="classIDTable.html#ae5164971d3be4f50b3cc4d8900ebf243">More...</a><br /></td></tr>
+<tr class="separator:ae5164971d3be4f50b3cc4d8900ebf243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb2e4ec554b27404354e14a7fe415ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#aebb2e4ec554b27404354e14a7fe415ac">HasID</a> (<a class="el" href="classSerializableObject.html">SerializableObject</a> *p)</td></tr>
+<tr class="memdesc:aebb2e4ec554b27404354e14a7fe415ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if we have an object at a specific pointer.  <a href="classIDTable.html#aebb2e4ec554b27404354e14a7fe415ac">More...</a><br /></td></tr>
+<tr class="separator:aebb2e4ec554b27404354e14a7fe415ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa88f6fe887e424d1039c9e5e3c5d1451"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#aa88f6fe887e424d1039c9e5e3c5d1451">HasID</a> (uintptr_t id)</td></tr>
 <tr class="memdesc:aa88f6fe887e424d1039c9e5e3c5d1451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if we have an object with a specific ID.  <a href="classIDTable.html#aa88f6fe887e424d1039c9e5e3c5d1451">More...</a><br /></td></tr>
 <tr class="separator:aa88f6fe887e424d1039c9e5e3c5d1451"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,11 +111,23 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ReserveID</b> (uintptr_t id)</td></tr>
 <tr class="memdesc:a1e49bf27a24d80d6c0b908f9a1d4611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an ID as unavailable for use, without assigning an pointer to it. <br /></td></tr>
 <tr class="separator:a1e49bf27a24d80d6c0b908f9a1d4611b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a7a73fe4bbd79f3eb068386a59fc2c0"><td class="memItemLeft" align="right" valign="top"><a id="a6a7a73fe4bbd79f3eb068386a59fc2c0" name="a6a7a73fe4bbd79f3eb068386a59fc2c0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
-<tr class="memdesc:a6a7a73fe4bbd79f3eb068386a59fc2c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all entries from the table. <br /></td></tr>
-<tr class="separator:a6a7a73fe4bbd79f3eb068386a59fc2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classBijection"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classBijection')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classBijection.html">Bijection&lt; uintptr_t, void * &gt;</a></td></tr>
+<tr class="memitem:acf50f1a1f03ad38a5a3c9058a72afc35"><td class="memTemplParams" colspan="2"><a id="acf50f1a1f03ad38a5a3c9058a72afc35" name="acf50f1a1f03ad38a5a3c9058a72afc35"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:acf50f1a1f03ad38a5a3c9058a72afc35"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Lookup</b> (uintptr_t id)</td></tr>
+<tr class="memdesc:acf50f1a1f03ad38a5a3c9058a72afc35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type-safe object lookup. <br /></td></tr>
+<tr class="separator:acf50f1a1f03ad38a5a3c9058a72afc35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5e3d9d4ba3088dbc42f851cee9f0ec5"><td class="memItemLeft" align="right" valign="top"><a id="aa5e3d9d4ba3088dbc42f851cee9f0ec5" name="aa5e3d9d4ba3088dbc42f851cee9f0ec5"></a>
+<a class="el" href="classSerializableObject.html">SerializableObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (uintptr_t key)</td></tr>
+<tr class="memdesc:aa5e3d9d4ba3088dbc42f851cee9f0ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Legacy object lookup. <br /></td></tr>
+<tr class="separator:aa5e3d9d4ba3088dbc42f851cee9f0ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefa3230b44315527ae28ec538e38ffe8"><td class="memItemLeft" align="right" valign="top"><a id="aefa3230b44315527ae28ec538e38ffe8" name="aefa3230b44315527ae28ec538e38ffe8"></a>
+uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (<a class="el" href="classSerializableObject.html">SerializableObject</a> *key)</td></tr>
+<tr class="memdesc:aefa3230b44315527ae28ec538e38ffe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward lookup. <br /></td></tr>
+<tr class="separator:aefa3230b44315527ae28ec538e38ffe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86def075b992fe869ad65ea9a84f4140"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDTable.html#a86def075b992fe869ad65ea9a84f4140">clear</a> ()</td></tr>
+<tr class="memdesc:a86def075b992fe869ad65ea9a84f4140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all entries from the table.  <a href="classIDTable.html#a86def075b992fe869ad65ea9a84f4140">More...</a><br /></td></tr>
+<tr class="separator:a86def075b992fe869ad65ea9a84f4140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classBijection"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classBijection')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classBijection.html">Bijection&lt; uintptr_t, SerializableObject * &gt;</a></td></tr>
 <tr class="memitem:a1524c14e6305119455e8a04023538820 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="a1524c14e6305119455e8a04023538820" name="a1524c14e6305119455e8a04023538820"></a>
 forwardType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> ()</td></tr>
 <tr class="memdesc:a1524c14e6305119455e8a04023538820 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an iterator to the start of the forward map. <br /></td></tr>
@@ -124,33 +136,32 @@ forwardType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><
 forwardType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> ()</td></tr>
 <tr class="memdesc:aadfcec9d58990695ba9d023288bb0065 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an iterator to the end of the forward map. <br /></td></tr>
 <tr class="separator:aadfcec9d58990695ba9d023288bb0065 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7be0701371ec577018cc57fabb41ec91 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">emplace</a> (uintptr_t a, void * b)</td></tr>
+<tr class="memitem:a7be0701371ec577018cc57fabb41ec91 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">emplace</a> (uintptr_t a, <a class="el" href="classSerializableObject.html">SerializableObject</a> * b)</td></tr>
 <tr class="memdesc:a7be0701371ec577018cc57fabb41ec91 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new entry to the bijection.  <a href="classBijection.html#a7be0701371ec577018cc57fabb41ec91">More...</a><br /></td></tr>
 <tr class="separator:a7be0701371ec577018cc57fabb41ec91 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">const uintptr_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06">operator[]</a> (void * key)</td></tr>
+<tr class="memitem:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">const uintptr_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06">operator[]</a> (<a class="el" href="classSerializableObject.html">SerializableObject</a> * key)</td></tr>
 <tr class="memdesc:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up an object in the reverse direction.  <a href="classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06">More...</a><br /></td></tr>
 <tr class="separator:ab2d1afdd3a4b77d4c9d2e7f4f99e9d06 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b8eca26357ac965aaec87be3540d008 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">const void * &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a9b8eca26357ac965aaec87be3540d008">operator[]</a> (uintptr_t key)</td></tr>
+<tr class="memitem:a9b8eca26357ac965aaec87be3540d008 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classSerializableObject.html">SerializableObject</a> * &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a9b8eca26357ac965aaec87be3540d008">operator[]</a> (uintptr_t key)</td></tr>
 <tr class="memdesc:a9b8eca26357ac965aaec87be3540d008 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up an object in the forward direction.  <a href="classBijection.html#a9b8eca26357ac965aaec87be3540d008">More...</a><br /></td></tr>
 <tr class="separator:a9b8eca26357ac965aaec87be3540d008 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a5de41206dcb70041d8629a793849df inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7a5de41206dcb70041d8629a793849df">HasEntry</a> (uintptr_t key)</td></tr>
 <tr class="memdesc:a7a5de41206dcb70041d8629a793849df inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if an object is present in the forward mapping.  <a href="classBijection.html#a7a5de41206dcb70041d8629a793849df">More...</a><br /></td></tr>
 <tr class="separator:a7a5de41206dcb70041d8629a793849df inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab82cf68937e467b04929cc3438897173 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ab82cf68937e467b04929cc3438897173">HasEntry</a> (void * key)</td></tr>
+<tr class="memitem:ab82cf68937e467b04929cc3438897173 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ab82cf68937e467b04929cc3438897173">HasEntry</a> (<a class="el" href="classSerializableObject.html">SerializableObject</a> * key)</td></tr>
 <tr class="memdesc:ab82cf68937e467b04929cc3438897173 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if an object is present in the reverse mapping.  <a href="classBijection.html#ab82cf68937e467b04929cc3438897173">More...</a><br /></td></tr>
 <tr class="separator:ab82cf68937e467b04929cc3438897173 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a469d097047901d5b79731309036e1 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="ab7a469d097047901d5b79731309036e1" name="ab7a469d097047901d5b79731309036e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
-<tr class="memdesc:ab7a469d097047901d5b79731309036e1 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase all entries in the bijection. <br /></td></tr>
-<tr class="separator:ab7a469d097047901d5b79731309036e1 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd85182bd60130db1745178ced4ae1b6 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">clear</a> ()</td></tr>
+<tr class="memdesc:afd85182bd60130db1745178ced4ae1b6 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase all entries in the bijection.  <a href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">More...</a><br /></td></tr>
+<tr class="separator:afd85182bd60130db1745178ced4ae1b6 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d120f6599c0ccbe15d25523ca9ee786 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7d120f6599c0ccbe15d25523ca9ee786">erase</a> (uintptr_t key)</td></tr>
 <tr class="memdesc:a7d120f6599c0ccbe15d25523ca9ee786 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an entry given a forward key.  <a href="classBijection.html#a7d120f6599c0ccbe15d25523ca9ee786">More...</a><br /></td></tr>
 <tr class="separator:a7d120f6599c0ccbe15d25523ca9ee786 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac11fe24b803024e4faf06ac14fd21540 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ac11fe24b803024e4faf06ac14fd21540">erase</a> (void * key)</td></tr>
+<tr class="memitem:ac11fe24b803024e4faf06ac14fd21540 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ac11fe24b803024e4faf06ac14fd21540">erase</a> (<a class="el" href="classSerializableObject.html">SerializableObject</a> * key)</td></tr>
 <tr class="memdesc:ac11fe24b803024e4faf06ac14fd21540 inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an entry given a reverse key.  <a href="classBijection.html#ac11fe24b803024e4faf06ac14fd21540">More...</a><br /></td></tr>
 <tr class="separator:ac11fe24b803024e4faf06ac14fd21540 inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7a4d788e1d0949a59e766d4b253c5d inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="a1c7a4d788e1d0949a59e766d4b253c5d" name="a1c7a4d788e1d0949a59e766d4b253c5d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>replace</b> (void * oldval, void * newval)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>replace</b> (<a class="el" href="classSerializableObject.html">SerializableObject</a> * oldval, <a class="el" href="classSerializableObject.html">SerializableObject</a> * newval)</td></tr>
 <tr class="memdesc:a1c7a4d788e1d0949a59e766d4b253c5d inherit pub_methods_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces one value with another, keeping the keys identical. <br /></td></tr>
 <tr class="separator:a1c7a4d788e1d0949a59e766d4b253c5d inherit pub_methods_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb134ee46ca8e321c1485410f7ecb0b0 inherit pub_methods_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="afb134ee46ca8e321c1485410f7ecb0b0" name="afb134ee46ca8e321c1485410f7ecb0b0"></a>
@@ -164,7 +175,7 @@ Protected Attributes</h2></td></tr>
 uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_nextID</b></td></tr>
 <tr class="memdesc:ac5a5af93fb6d5eea91b77b7a2c3f2280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the next ID to be assigned. <br /></td></tr>
 <tr class="separator:ac5a5af93fb6d5eea91b77b7a2c3f2280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classBijection"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classBijection')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classBijection.html">Bijection&lt; uintptr_t, void * &gt;</a></td></tr>
+<tr class="inherit_header pro_attribs_classBijection"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classBijection')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classBijection.html">Bijection&lt; uintptr_t, SerializableObject * &gt;</a></td></tr>
 <tr class="memitem:a28aac016b6b70bd5562171bb8ad7a4a0 inherit pro_attribs_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="a28aac016b6b70bd5562171bb8ad7a4a0" name="a28aac016b6b70bd5562171bb8ad7a4a0"></a>
 <a class="el" href="classBijection.html#af4bc2a6ad6f8f3a607ff5f4477206ef9">forwardType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_forwardMap</b></td></tr>
 <tr class="memdesc:a28aac016b6b70bd5562171bb8ad7a4a0 inherit pro_attribs_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of object-to-object in the forward direction. <br /></td></tr>
@@ -176,13 +187,13 @@ uintptr_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_nextID</b></td
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classBijection"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classBijection')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classBijection.html">Bijection&lt; uintptr_t, void * &gt;</a></td></tr>
+<tr class="inherit_header pub_types_classBijection"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classBijection')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classBijection.html">Bijection&lt; uintptr_t, SerializableObject * &gt;</a></td></tr>
 <tr class="memitem:af4bc2a6ad6f8f3a607ff5f4477206ef9 inherit pub_types_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="af4bc2a6ad6f8f3a607ff5f4477206ef9" name="af4bc2a6ad6f8f3a607ff5f4477206ef9"></a>
-typedef std::map&lt; uintptr_t, void *, std::less&lt; uintptr_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forwardType</b></td></tr>
+typedef std::map&lt; uintptr_t, <a class="el" href="classSerializableObject.html">SerializableObject</a> *, std::less&lt; uintptr_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forwardType</b></td></tr>
 <tr class="memdesc:af4bc2a6ad6f8f3a607ff5f4477206ef9 inherit pub_types_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the forward map. <br /></td></tr>
 <tr class="separator:af4bc2a6ad6f8f3a607ff5f4477206ef9 inherit pub_types_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3216f124fcfe3134bad16b76d146ae74 inherit pub_types_classBijection"><td class="memItemLeft" align="right" valign="top"><a id="a3216f124fcfe3134bad16b76d146ae74" name="a3216f124fcfe3134bad16b76d146ae74"></a>
-typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>reverseType</b></td></tr>
+typedef std::map&lt; <a class="el" href="classSerializableObject.html">SerializableObject</a> *, uintptr_t, std::less&lt; <a class="el" href="classSerializableObject.html">SerializableObject</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>reverseType</b></td></tr>
 <tr class="memdesc:a3216f124fcfe3134bad16b76d146ae74 inherit pub_types_classBijection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the reverse map. <br /></td></tr>
 <tr class="separator:a3216f124fcfe3134bad16b76d146ae74 inherit pub_types_classBijection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -191,8 +202,72 @@ typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td
 <p >No type information is stored, the caller is responsible for knowing what type of object is being stored in the table.</p>
 <p >TODO: can we store RTTI info along with the objects to sanity check that we're using the right kind of object </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aefe38af726230aab1298264b49bec5a3" name="aefe38af726230aab1298264b49bec5a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefe38af726230aab1298264b49bec5a3">&#9670;&nbsp;</a></span>emplace() <span class="overload">[1/2]</span></h2>
+<a id="a86def075b992fe869ad65ea9a84f4140" name="a86def075b992fe869ad65ea9a84f4140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86def075b992fe869ad65ea9a84f4140">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void IDTable::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes all entries from the table. </p>
+
+<p>Reimplemented from <a class="el" href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">Bijection&lt; uintptr_t, SerializableObject * &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a838b58596d660e23d21cdcea0faaaab8" name="a838b58596d660e23d21cdcea0faaaab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a838b58596d660e23d21cdcea0faaaab8">&#9670;&nbsp;</a></span>emplace() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uintptr_t IDTable::emplace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSerializableObject.html">SerializableObject</a> *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store a new object in the table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>Pointer to the object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The ID of the object </dd></dl>
+
+</div>
+</div>
+<a id="ae5164971d3be4f50b3cc4d8900ebf243" name="ae5164971d3be4f50b3cc4d8900ebf243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5164971d3be4f50b3cc4d8900ebf243">&#9670;&nbsp;</a></span>emplace() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,7 +284,7 @@ typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="classSerializableObject.html">SerializableObject</a> *&#160;</td>
           <td class="paramname"><em>p</em>&#160;</td>
         </tr>
         <tr>
@@ -236,8 +311,8 @@ typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td
 
 </div>
 </div>
-<a id="a5ee11439f77025f38ff598ec64a81020" name="a5ee11439f77025f38ff598ec64a81020"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ee11439f77025f38ff598ec64a81020">&#9670;&nbsp;</a></span>emplace() <span class="overload">[2/2]</span></h2>
+<a id="aebb2e4ec554b27404354e14a7fe415ac" name="aebb2e4ec554b27404354e14a7fe415ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebb2e4ec554b27404354e14a7fe415ac">&#9670;&nbsp;</a></span>HasID() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,9 +321,9 @@ typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uintptr_t IDTable::emplace </td>
+          <td class="memname">bool IDTable::HasID </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="classSerializableObject.html">SerializableObject</a> *&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
@@ -260,19 +335,18 @@ typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td
 </table>
 </div><div class="memdoc">
 
-<p>Store a new object in the table. </p>
+<p>Checks if we have an object at a specific pointer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">p</td><td>Pointer to the object</td></tr>
+    <tr><td class="paramname">p</td><td>Pointer to the object </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The ID of the object </dd></dl>
 
 </div>
 </div>
 <a id="aa88f6fe887e424d1039c9e5e3c5d1451" name="aa88f6fe887e424d1039c9e5e3c5d1451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa88f6fe887e424d1039c9e5e3c5d1451">&#9670;&nbsp;</a></span>HasID() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa88f6fe887e424d1039c9e5e3c5d1451">&#9670;&nbsp;</a></span>HasID() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,40 +373,6 @@ typedef std::map&lt; void *, uintptr_t, std::less&lt; void * &gt; &gt;&#160;</td
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>ID of the object </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a83b40ddc38ed2c4561b4ead7a6f54b58" name="a83b40ddc38ed2c4561b4ead7a6f54b58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83b40ddc38ed2c4561b4ead7a6f54b58">&#9670;&nbsp;</a></span>HasID() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IDTable::HasID </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Checks if we have an object at a specific pointer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">p</td><td>Pointer to the object </td></tr>
   </table>
   </dd>
 </dl>

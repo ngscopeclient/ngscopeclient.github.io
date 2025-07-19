@@ -1,9 +1,10 @@
 <map id="ModbusInstrument" name="ModbusInstrument">
-<area shape="rect" id="node1" title="Base class for instruments using Modbus communication protocol." alt="" coords="205,261,349,288"/>
-<area shape="rect" id="node2" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="113,185,236,212"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="69,109,163,136"/>
+<area shape="rect" id="node1" title="Base class for instruments using Modbus communication protocol." alt="" coords="363,261,507,288"/>
+<area shape="rect" id="node2" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="305,185,428,212"/>
+<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,109,339,136"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node5" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="201,109,297,136"/>
-<area shape="rect" id="node6" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="221,13,333,39"/>
-<area shape="rect" id="node7" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="260,185,364,212"/>
+<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
+<area shape="rect" id="node6" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="380,109,476,136"/>
+<area shape="rect" id="node7" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="387,13,499,39"/>
+<area shape="rect" id="node8" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="452,185,556,212"/>
 </map>

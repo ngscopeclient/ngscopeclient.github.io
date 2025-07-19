@@ -23,9 +23,10 @@ var searchData=
   ['operator_20const_20zsocket_20_26_20',['operator const ZSOCKET &amp;',['../classSocket.html#a3c04d93f460c2357eb3dd9d801b4fbcd',1,'Socket']]],
   ['operator_21_3d_21',['operator!=',['../classAlignedAllocator.html#a8bca013ca7e76cfd831ee0412a3c5690',1,'AlignedAllocator']]],
   ['operator_2a_22',['operator*',['../classUnit.html#a5d7a75e315e791a7a773153b2083787e',1,'Unit']]],
-  ['operator_2f_23',['operator/',['../classUnit.html#a770684ae174adb0d9fb2f1bf00802c20',1,'Unit']]],
-  ['operator_3c_24',['operator&lt;',['../classMarker.html#a523854bdccd97b93e316f88db1a619c5',1,'Marker']]],
-  ['operator_3d_3d_25',['operator==',['../classCANSymbol.html#a35660a82edc46eb23e1e933a9d1dd0e6',1,'CANSymbol']]],
-  ['operator_5b_5d_26',['operator[]',['../classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06',1,'Bijection::operator[](T2 key)'],['../classBijection.html#a9b8eca26357ac965aaec87be3540d008',1,'Bijection::operator[](T1 key)']]],
-  ['outputporttooltip_27',['OutputPortTooltip',['../classFilterGraphEditor.html#a602da88ff850c3822c688e573a0a8e00',1,'FilterGraphEditor']]]
+  ['operator_2b_3d_23',['operator+=',['../classKahanSummation.html#a2ecc26e871cf79f0724931eb53028b3d',1,'KahanSummation']]],
+  ['operator_2f_24',['operator/',['../classUnit.html#a770684ae174adb0d9fb2f1bf00802c20',1,'Unit']]],
+  ['operator_3c_25',['operator&lt;',['../classMarker.html#a523854bdccd97b93e316f88db1a619c5',1,'Marker']]],
+  ['operator_3d_3d_26',['operator==',['../classCANSymbol.html#a35660a82edc46eb23e1e933a9d1dd0e6',1,'CANSymbol']]],
+  ['operator_5b_5d_27',['operator[]',['../classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06',1,'Bijection::operator[](T2 key)'],['../classBijection.html#a9b8eca26357ac965aaec87be3540d008',1,'Bijection::operator[](T1 key)'],['../classIDTable.html#aa5e3d9d4ba3088dbc42f851cee9f0ec5',1,'IDTable::operator[](uintptr_t key)'],['../classIDTable.html#aefa3230b44315527ae28ec538e38ffe8',1,'IDTable::operator[](SerializableObject *key)']]],
+  ['outputporttooltip_28',['OutputPortTooltip',['../classFilterGraphEditor.html#a602da88ff850c3822c688e573a0a8e00',1,'FilterGraphEditor']]]
 ];

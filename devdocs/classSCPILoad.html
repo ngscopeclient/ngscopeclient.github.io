@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -81,13 +81,14 @@ Inheritance diagram for SCPILoad:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSCPILoad__inherit__graph.png" border="0" usemap="#aSCPILoad_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSCPILoad_inherit__map" id="aSCPILoad_inherit__map">
-<area shape="rect" title="An SCPI&#45;based electronic load." alt="" coords="81,244,164,271"/>
-<area shape="rect" href="classSiglentLoad.html" title="Siglent electronic load." alt="" coords="73,319,172,345"/>
-<area shape="rect" href="classLoad.html" title="Base class for all electronic load drivers." alt="" coords="152,169,205,196"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="132,95,225,121"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="5,169,128,196"/>
-<area shape="rect" title=" " alt="" coords="83,5,275,47"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="12,95,108,121"/>
+<area shape="rect" title="An SCPI&#45;based electronic load." alt="" coords="100,244,183,271"/>
+<area shape="rect" href="classSiglentLoad.html" title="Siglent electronic load." alt="" coords="92,319,191,345"/>
+<area shape="rect" href="classLoad.html" title="Base class for all electronic load drivers." alt="" coords="171,169,224,196"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="151,95,244,121"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="24,169,147,196"/>
+<area shape="rect" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="31,95,127,121"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -95,12 +96,13 @@ Collaboration diagram for SCPILoad:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSCPILoad__coll__graph.png" border="0" usemap="#aSCPILoad_coll__map" alt="Collaboration graph"/></div>
 <map name="aSCPILoad_coll__map" id="aSCPILoad_coll__map">
-<area shape="rect" title="An SCPI&#45;based electronic load." alt="" coords="124,261,207,288"/>
-<area shape="rect" href="classLoad.html" title="Base class for all electronic load drivers." alt="" coords="196,185,249,212"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="176,109,269,136"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="49,185,172,212"/>
+<area shape="rect" title="An SCPI&#45;based electronic load." alt="" coords="139,261,221,288"/>
+<area shape="rect" href="classLoad.html" title="Base class for all electronic load drivers." alt="" coords="211,185,264,212"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="191,109,284,136"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="64,185,187,212"/>
 <area shape="rect" title=" " alt="" coords="141,5,333,47"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="28,109,124,136"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="358,13,498,39"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="43,109,139,136"/>
 <area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -257,6 +259,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memitem:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">AcquireData</a> ()=0</td></tr>
 <tr class="memdesc:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">More...</a><br /></td></tr>
 <tr class="separator:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">FlushConfigCache</a> ()</td></tr>
+<tr class="memdesc:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">More...</a><br /></td></tr>
+<tr class="separator:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual YAML::Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">SerializeConfiguration</a> (<a class="el" href="classIDTable.html">IDTable</a> &amp;table) const</td></tr>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>

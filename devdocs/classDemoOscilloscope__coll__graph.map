@@ -1,22 +1,23 @@
 <map id="DemoOscilloscope" name="DemoOscilloscope">
-<area shape="rect" id="node1" title="Simulated oscilloscope for demonstrations and testing." alt="" coords="1420,229,1563,256"/>
-<area shape="rect" id="node2" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="1135,43,1268,69"/>
-<area shape="rect" id="node3" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="743,77,847,104"/>
-<area shape="rect" id="node6" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="1168,144,1235,171"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="372,72,465,99"/>
-<area shape="rect" id="node11" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="733,9,856,36"/>
-<area shape="rect" id="node15" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="721,231,868,257"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,65,197,106"/>
-<area shape="rect" id="node7" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="355,231,482,257"/>
-<area shape="rect" id="node8" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="733,283,856,309"/>
-<area shape="rect" id="node9" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="394,296,443,323"/>
-<area shape="rect" id="node10" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="359,123,478,149"/>
-<area shape="rect" id="node12" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="371,7,467,33"/>
-<area shape="rect" id="node13" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,7,157,33"/>
-<area shape="rect" id="node14" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="1123,229,1280,256"/>
-<area shape="rect" id="node16" href="$classTestWaveformSource.html" title="Helper class for generating test waveforms." alt="" coords="1121,363,1281,389"/>
-<area shape="rect" id="node17" href="$classAcceleratorBuffer.html" title=" " alt="" coords="721,483,868,525"/>
-<area shape="rect" id="node18" href="$classAlignedAllocator.html" title=" " alt="" coords="329,483,508,525"/>
-<area shape="rect" id="node19" href="$classComputePipeline.html" title="Encapsulates a Vulkan compute pipeline and all necessary resources to use it." alt="" coords="728,337,861,364"/>
-<area shape="rect" id="node20" href="$classSParameters.html" title="A set of S&#45;parameters." alt="" coords="742,388,847,415"/>
+<area shape="rect" id="node1" title="Simulated oscilloscope for demonstrations and testing." alt="" coords="1439,264,1581,291"/>
+<area shape="rect" id="node2" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="1153,91,1287,117"/>
+<area shape="rect" id="node3" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="743,125,847,152"/>
+<area shape="rect" id="node7" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="1187,193,1253,220"/>
+<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="372,91,465,117"/>
+<area shape="rect" id="node12" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="733,40,856,67"/>
+<area shape="rect" id="node16" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="721,264,868,291"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,83,197,125"/>
+<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="31,153,171,180"/>
+<area shape="rect" id="node8" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="355,303,482,329"/>
+<area shape="rect" id="node9" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="733,213,856,240"/>
+<area shape="rect" id="node10" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="394,235,443,261"/>
+<area shape="rect" id="node11" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="359,168,478,195"/>
+<area shape="rect" id="node13" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="371,7,467,33"/>
+<area shape="rect" id="node14" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,7,157,33"/>
+<area shape="rect" id="node15" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="1141,264,1299,291"/>
+<area shape="rect" id="node17" href="$classTestWaveformSource.html" title="Helper class for generating test waveforms." alt="" coords="1140,488,1300,515"/>
+<area shape="rect" id="node18" href="$classAcceleratorBuffer.html" title=" " alt="" coords="721,422,868,463"/>
+<area shape="rect" id="node19" href="$classAlignedAllocator.html" title=" " alt="" coords="329,422,508,463"/>
+<area shape="rect" id="node20" href="$classComputePipeline.html" title="Encapsulates a Vulkan compute pipeline and all necessary resources to use it." alt="" coords="728,548,861,575"/>
+<area shape="rect" id="node21" href="$classSParameters.html" title="A set of S&#45;parameters." alt="" coords="742,599,847,625"/>
 </map>

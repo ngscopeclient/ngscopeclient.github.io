@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <html lang='en-US' xml:lang='en-US'> 
-<head><title>11 Transports</title> 
+<head><title>13 Transports</title> 
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
@@ -10,7 +10,7 @@
  <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='BERTDrivers.html'>next</a>] [<a href='FilterGraphEditor.html'>prev</a>] [<a href='FilterGraphEditor.html#tailFilterGraphEditor.html'>prev-tail</a>] [<a href='#tailTransports.html'>tail</a>] [<a href='ngscopeclient-manual.html#Transports.html'>up</a>] </p></div>
-   <h2 class='chapterHead' id='transports'><span class='titlemark'>Chapter 11</span><br /><a id='x13-8100011'></a>Transports</h2>
+   <h2 class='chapterHead' id='transports'><span class='titlemark'>Chapter 13</span><br /><a id='x15-9200013'></a>Transports</h2>
 <!-- l. 4 --><p class='noindent'>Libscopehal uses a “transport" object in order to pass commands and data to instruments, in order to
 decouple the specifics of LXI, USBTMC, etc. from individual instrument drivers. This section describes the
 supported transports and their usage and limitations.
@@ -18,57 +18,58 @@ supported transports and their usage and limitations.
 software/firmware quirks. For details on which transport(s) are usable with a particular instrument,
 consult the documentation for that device’s driver.
 </p>
-   <h3 class='sectionHead' id='gpib'><span class='titlemark'>11.1   </span> <a id='x13-8200011.1'></a>gpib</h3>
+   <h3 class='sectionHead' id='gpib'><span class='titlemark'>13.1   </span> <a id='x15-9300013.1'></a>gpib</h3>
 <!-- l. 14 --><p class='noindent'>SCPI over GPIB.
 </p><!-- l. 16 --><p class='indent'>   This transport takes up to four arguments: GPIB board index, primary address, secondary address,
 and timeout value. Only board index and primary address are required. We currently support using a
 single GPIB device per GPIB board (interface) in a ngscopeclient session. You cannot currently access
 multiple devices in the same or across instances. Better support for multiple instrument on a single board
 is planned.
-</p><!-- l. 21 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux, using the linux-gpib
-library.
+</p><!-- l. 21 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux, using the linux-gpib library.
+Since linux-gpib is licensed under GNU GPL, this driver is packaged separately and must be installed from
+<a class='url' href='https://github.com/ngscopeclient/scopehal-plugins-gpl'><span class='t1-zi4r-0-x-x-109'>https://github.com/ngscopeclient/scopehal-plugins-gpl</span></a>.
 </p><!-- l. 23 --><p class='indent'>   Example: </p><!-- l. 24 -->
-    <pre class='lstlisting' id='listing-32'><span class='label'><a id='x13-82001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:keysightdca:gpib:0:7</span></span></pre>
+    <pre class='lstlisting' id='listing-32'><span class='label'><a id='x15-93001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:keysightdca:gpib:0:7</span></span></pre>
     
 <!-- l. 28 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='lan'><span class='titlemark'>11.2   </span> <a id='x13-8300011.2'></a>lan</h3>
+   <h3 class='sectionHead' id='lan'><span class='titlemark'>13.2   </span> <a id='x15-9400013.2'></a>lan</h3>
 <!-- l. 30 --><p class='noindent'>SCPI over TCP with no further encapsulation.
 </p><!-- l. 32 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
 </p><!-- l. 34 --><p class='indent'>   If port number is not specified, uses TCP port 5025 (IANA assigned) by default. Note that Rigol
 oscilloscopes use the non-standard port 5555, not 5025, so the port number must always be specified when
 using a Rigol instrument.
 </p><!-- l. 37 --><p class='indent'>   Example: </p><!-- l. 38 -->
-    <pre class='lstlisting' id='listing-33'><span class='label'><a id='x13-83001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:rigol:lan:192.0.2.9:5555</span></span></pre>
+    <pre class='lstlisting' id='listing-33'><span class='label'><a id='x15-94001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:rigol:lan:192.0.2.9:5555</span></span></pre>
     
 <!-- l. 42 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='lxi'><span class='titlemark'>11.3   </span> <a id='x13-8400011.3'></a>lxi</h3>
+   <h3 class='sectionHead' id='lxi'><span class='titlemark'>13.3   </span> <a id='x15-9500013.3'></a>lxi</h3>
+                                                                                         
+                                                                                         
 <!-- l. 44 --><p class='noindent'>SCPI over LXI VXI-11.
-                                                                                         
-                                                                                         
 </p><!-- l. 46 --><p class='indent'>   Note that due to the remote procedure call paradigm used by LXI, it is not possible to batch
 multiple outstanding requests to an instrument when using this transport. Some instruments may
 experience reduced performance when using LXI as the transport. Drivers which require command
 batching may not be able to use LXI VXI-11 as the transport even if the instrument supports
 it.
 </p><!-- l. 51 --><p class='indent'>   Example: </p><!-- l. 52 -->
-    <pre class='lstlisting' id='listing-34'><span class='label'><a id='x13-84001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:tektronix:lxi:192.0.2.9</span></span></pre>
+    <pre class='lstlisting' id='listing-34'><span class='label'><a id='x15-95001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:tektronix:lxi:192.0.2.9</span></span></pre>
     
 <!-- l. 56 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='null'><span class='titlemark'>11.4   </span> <a id='x13-8500011.4'></a>null</h3>
+   <h3 class='sectionHead' id='null'><span class='titlemark'>13.4   </span> <a id='x15-9600013.4'></a>null</h3>
 <!-- l. 58 --><p class='noindent'>This transport does nothing, and is used as a placeholder for development simulations or non-SCPI
 instruments.
 </p><!-- l. 60 --><p class='indent'>   NOTE: Due to limitations of the current command line argument parsing code, an argument must be
 provided to all transports, including this one, when connecting via the command line. Since the argument
 is ignored, any non-empty string may be used.
 </p><!-- l. 64 --><p class='indent'>   Example: </p><!-- l. 65 -->
-    <pre class='lstlisting' id='listing-35'><span class='label'><a id='x13-85001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>sim:demo:null:blah</span></span></pre>
+    <pre class='lstlisting' id='listing-35'><span class='label'><a id='x15-96001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>sim:demo:null:blah</span></span></pre>
     
 <!-- l. 69 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='socketcan'><span class='titlemark'>11.5   </span> <a id='x13-8600011.5'></a>socketcan</h3>
+   <h3 class='sectionHead' id='socketcan'><span class='titlemark'>13.5   </span> <a id='x15-9700013.5'></a>socketcan</h3>
 <!-- l. 71 --><p class='noindent'>This transport provides a bridge for accessing the native Linux SocketCAN API from the scopehal driver
 layer. When paired with the “socketcan" oscilloscope driver and a suitable CAN peripheral, it allows
 ngscopeclient to be used as a CAN bus protocol analyzer. Since SocketCAN is a Linux-only API, this
@@ -76,56 +77,56 @@ transport is not available on other platforms.
 </p><!-- l. 75 --><p class='indent'>   This transport takes one argument: the device name (e.g. “can0")
 </p><!-- l. 77 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='twinlan'><span class='titlemark'>11.6   </span> <a id='x13-8700011.6'></a>twinlan</h3>
+   <h3 class='sectionHead' id='twinlan'><span class='titlemark'>13.6   </span> <a id='x15-9800013.6'></a>twinlan</h3>
 <!-- l. 79 --><p class='noindent'>This transport is used by some Antikernel Labs oscilloscopes, as well as most of the bridge servers used for
 interfacing libscopehal with USB oscilloscopes’ SDKs. It takes three arguments: hostname/IP and two port
 numbers.
 </p><!-- l. 82 --><p class='indent'>   It uses two TCP sockets on different ports. The first carries SCPI text (as in the “lan" transport), and
 the second is for binary waveform data.
+                                                                                         
+                                                                                         
 </p><!-- l. 85 --><p class='indent'>   If port numbers are not specified, the SCPI port defaults to the IANA standard of 5025, and the data
-                                                                                         
-                                                                                         
 port defaults to 5026. If the SCPI port but not the data port is specified, the data port defaults to the
 SCPI port plus one.
 </p><!-- l. 88 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='uart'><span class='titlemark'>11.7   </span> <a id='x13-8800011.7'></a>uart</h3>
+   <h3 class='sectionHead' id='uart'><span class='titlemark'>13.7   </span> <a id='x15-9900013.7'></a>uart</h3>
 <!-- l. 90 --><p class='noindent'>SCPI over RS-232 or USB-UART.
 </p><!-- l. 92 --><p class='indent'>   This transport takes 3 arguments: device path (required), baud rate (optional), and flags (optional). If
 baud rate is not specified, it defaults to 115200.
 </p><!-- l. 95 --><p class='indent'>   Example: </p><!-- l. 96 -->
-    <pre class='lstlisting' id='listing-36'><span class='label'><a id='x13-88001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:rigol:uart:/dev/ttyUSB0:115200</span></span></pre>
+    <pre class='lstlisting' id='listing-36'><span class='label'><a id='x15-99001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:rigol:uart:/dev/ttyUSB0:115200</span></span></pre>
     
 <!-- l. 100 --><p class='indent'>   Some devices, like the NanoVNA, need to activate the DTR line to communicate. This can be achieved
 by adding the DTR flag to the connection string.
 </p><!-- l. 102 --><p class='indent'>   Example: </p><!-- l. 103 -->
-    <pre class='lstlisting' id='listing-37'><span class='label'><a id='x13-88002r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>NanoVNA-F:nanovna:uart:COM6:115200:DTR</span></span></pre>
+    <pre class='lstlisting' id='listing-37'><span class='label'><a id='x15-99002r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>NanoVNA-F:nanovna:uart:COM6:115200:DTR</span></span></pre>
     
 <!-- l. 108 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='usbtmc'><span class='titlemark'>11.8   </span> <a id='x13-8900011.8'></a>usbtmc</h3>
+   <h3 class='sectionHead' id='usbtmc'><span class='titlemark'>13.8   </span> <a id='x15-10000013.8'></a>usbtmc</h3>
 <!-- l. 110 --><p class='noindent'>SCPI over USB Test &amp; Measurement Class protocol.
 </p><!-- l. 112 --><p class='indent'>   This transport takes two arguments: the path to the usbtmc kernel device object and the TMC transfer
 size (optional). As Workaround for Siglent SDS1x04x-E set size to 48.
 </p><!-- l. 114 --><p class='indent'>   NOTE: The current implementation of this driver only works on Linux. There is currently no support
 for USBTMC on Windows (<a href='https://github.com/ngscopeclient/scopehal/issues/301'>scopehal:301</a>)
 </p><!-- l. 117 --><p class='indent'>   Example: </p><!-- l. 118 -->
-    <pre class='lstlisting' id='listing-38'><span class='label'><a id='x13-89001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:siglent:usbtmc:/dev/usbtmc0:48</span></span></pre>
+    <pre class='lstlisting' id='listing-38'><span class='label'><a id='x15-100001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:siglent:usbtmc:/dev/usbtmc0:48</span></span></pre>
     
 <!-- l. 122 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='vicp'><span class='titlemark'>11.9   </span> <a id='x13-9000011.9'></a>vicp</h3>
+   <h3 class='sectionHead' id='vicp'><span class='titlemark'>13.9   </span> <a id='x15-10100013.9'></a>vicp</h3>
 <!-- l. 124 --><p class='noindent'>SCPI over Teledyne LeCroy Virtual Instrument Control Protocol.
 </p><!-- l. 126 --><p class='indent'>   This transport takes two arguments: hostname/IP and port number.
 </p><!-- l. 128 --><p class='indent'>   If port number is not specified, uses TCP port 1861 (IANA assigned) by default.
 </p><!-- l. 130 --><p class='indent'>   Example: </p><!-- l. 131 -->
                                                                                          
                                                                                          
-    <pre class='lstlisting' id='listing-39'><span class='label'><a id='x13-90001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:lecroy:vicp:192.0.2.9</span></span></pre>
+    <pre class='lstlisting' id='listing-39'><span class='label'><a id='x15-101001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>myscope:lecroy:vicp:192.0.2.9</span></span></pre>
     
 <!-- l. 135 --><p class='noindent'>
 </p>
-   <h3 class='sectionHead' id='hid'><span class='titlemark'>11.10   </span> <a id='x13-9100011.10'></a>hid</h3>
+   <h3 class='sectionHead' id='hid'><span class='titlemark'>13.10   </span> <a id='x15-10200013.10'></a>hid</h3>
 <!-- l. 137 --><p class='noindent'>This transport layer is usually used by binary drivers to communicate with Test &amp; Measurement equiment
 over USB.
 </p><!-- l. 139 --><p class='indent'>   This transport takes two arguments: vendor ID (hex) and product ID (hex).
@@ -133,7 +134,7 @@ over USB.
 instrument’s serial number is automatically pulled at first connection and stored in the connection
 string.
 </p><!-- l. 144 --><p class='indent'>   Example: </p><!-- l. 145 -->
-    <pre class='lstlisting' id='listing-40'><span class='label'><a id='x13-91001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>AlientekDP100:alientek_dp:hid:2e3c:af01</span></span></pre>
+    <pre class='lstlisting' id='listing-40'><span class='label'><a id='x15-102001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>ngscopeclient</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>AlientekDP100:alientek_dp:hid:2e3c:af01</span></span></pre>
     
                                                                                          
                                                                                          

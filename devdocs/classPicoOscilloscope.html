@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -89,7 +89,8 @@ Inheritance diagram for PicoOscilloscope:</div>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="157,95,251,121"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="5,169,128,196"/>
 <area shape="rect" href="classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="281,169,423,196"/>
-<area shape="rect" title=" " alt="" coords="108,5,300,47"/>
+<area shape="rect" title=" " alt="" coords="12,5,204,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="229,13,369,39"/>
 <area shape="rect" href="classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="212,244,383,271"/>
 <area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,95,115,121"/>
 </map>
@@ -99,25 +100,26 @@ Collaboration diagram for PicoOscilloscope:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPicoOscilloscope__coll__graph.png" border="0" usemap="#aPicoOscilloscope_coll__map" alt="Collaboration graph"/></div>
 <map name="aPicoOscilloscope_coll__map" id="aPicoOscilloscope_coll__map">
-<area shape="rect" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1508,139,1639,165"/>
-<area shape="rect" href="classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="1140,111,1337,137"/>
-<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="939,101,1072,128"/>
-<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="681,136,785,163"/>
-<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="972,204,1039,231"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="342,57,435,84"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="671,64,794,91"/>
-<area shape="rect" href="classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="661,5,804,32"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="932,304,1079,331"/>
-<area shape="rect" title=" " alt="" coords="5,46,197,87"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="669,283,796,309"/>
-<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="671,228,794,255"/>
-<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="364,307,413,333"/>
-<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="329,173,448,200"/>
-<area shape="rect" href="classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="920,35,1091,61"/>
-<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="341,111,437,137"/>
-<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,112,157,139"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="1160,249,1317,276"/>
-<area shape="rect" href="classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="1141,173,1336,200"/>
+<area shape="rect" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1592,75,1723,101"/>
+<area shape="rect" href="classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="1345,119,1543,145"/>
+<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="951,119,1084,145"/>
+<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="691,184,795,211"/>
+<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="984,241,1051,268"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="346,113,439,140"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="681,12,804,39"/>
+<area shape="rect" href="classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="671,64,814,91"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="669,116,816,143"/>
+<area shape="rect" title=" " alt="" coords="5,106,197,147"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="31,176,171,203"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="329,191,456,217"/>
+<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="681,317,804,344"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="368,296,417,323"/>
+<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="333,379,452,405"/>
+<area shape="rect" href="classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="932,5,1103,32"/>
+<area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="345,12,441,39"/>
+<area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,12,157,39"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="1145,63,1303,89"/>
+<area shape="rect" href="classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="1127,169,1321,196"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -547,9 +549,6 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDigitalLaneIndex
 <tr class="memitem:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a478873551c87802906643ac547189f3a">IDPing</a> ()=0</td></tr>
 <tr class="memdesc:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the instrument's identification string.  <a href="classOscilloscope.html#a478873551c87802906643ac547189f3a">More...</a><br /></td></tr>
 <tr class="separator:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a67474e9cc51aed6485db9e0932776ae2">FlushConfigCache</a> ()</td></tr>
-<tr class="memdesc:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classOscilloscope.html#a67474e9cc51aed6485db9e0932776ae2">More...</a><br /></td></tr>
-<tr class="separator:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#addd3343cde4fe8224e74c043619e44c9">IsOffline</a> ()</td></tr>
 <tr class="memdesc:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the instrument is currently online.  <a href="classOscilloscope.html#addd3343cde4fe8224e74c043619e44c9">More...</a><br /></td></tr>
 <tr class="separator:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -915,6 +914,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memitem:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">AcquireData</a> ()=0</td></tr>
 <tr class="memdesc:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">More...</a><br /></td></tr>
 <tr class="separator:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">FlushConfigCache</a> ()</td></tr>
+<tr class="memdesc:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">More...</a><br /></td></tr>
+<tr class="separator:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual YAML::Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">SerializeConfiguration</a> (<a class="el" href="classIDTable.html">IDTable</a> &amp;table) const</td></tr>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1592,7 +1594,7 @@ static GeneratorCreateMapType&#160;</td><td class="memItemRight" valign="bottom"
 <p >In scripted/ATE environments where nobody should be touching the instrument, flushing is typically not needed.</p>
 <p >The default implementation of this function does nothing since the base class provides no caching. If a derived class caches configuration, it should override this function to clear any cached data. </p>
 
-<p>Reimplemented from <a class="el" href="classOscilloscope.html#a67474e9cc51aed6485db9e0932776ae2">Oscilloscope</a>.</p>
+<p>Reimplemented from <a class="el" href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">Instrument</a>.</p>
 
 </div>
 </div>

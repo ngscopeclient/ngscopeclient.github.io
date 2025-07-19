@@ -1,3 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classSession.html" title="A Session stores all of the instrument configuration and other state the user has open." alt="" coords="5,5,77,32"/>
+<area shape="rect" id="node1" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,132,117,159"/>
+<area shape="rect" id="node2" href="$classSCPIHIDTransport.html" title="Transport for instruments attached via USB HID." alt="" coords="175,5,311,32"/>
+<area shape="rect" id="node3" href="$classSCPINullTransport.html" title="Dummy SCPITransport for demo scope etc." alt="" coords="174,56,313,83"/>
+<area shape="rect" id="node4" href="$classSCPISocketTransport.html" title="Transport that moves SCPI data over a single TCP socket with no framing." alt="" coords="166,107,321,133"/>
+<area shape="rect" id="node6" href="$classSCPITMCTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="173,157,314,184"/>
+<area shape="rect" id="node7" href="$classSCPIUARTTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="169,208,317,235"/>
+<area shape="rect" id="node8" href="$classVICPSocketTransport.html" title="A SCPI transport tunneled over LeCroy&#39;s Virtual Instrument Control Protocol." alt="" coords="165,259,321,285"/>
+<area shape="rect" id="node5" href="$classSCPITwinLanTransport.html" title="A SCPISocketTransport plus a second socket for waveform data." alt="" coords="369,107,533,133"/>
 </map>

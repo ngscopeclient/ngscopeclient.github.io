@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -88,7 +88,8 @@ Inheritance diagram for NanoVNA:</div>
 <area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="267,169,371,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="238,95,331,121"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="121,169,243,196"/>
-<area shape="rect" title=" " alt="" coords="189,5,381,47"/>
+<area shape="rect" title=" " alt="" coords="93,5,285,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="309,13,449,39"/>
 <area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="85,95,181,121"/>
 <area shape="rect" href="classCommandLineDriver.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="5,244,161,271"/>
 </map>
@@ -98,20 +99,21 @@ Collaboration diagram for NanoVNA:</div>
 <div class="dyncontent">
 <div class="center"><img src="classNanoVNA__coll__graph.png" border="0" usemap="#aNanoVNA_coll__map" alt="Collaboration graph"/></div>
 <map name="aNanoVNA_coll__map" id="aNanoVNA_coll__map">
-<area shape="rect" title="NanoVNA &#45; driver for talking to a NanoVNA using the NanoVNA 5 software." alt="" coords="1303,31,1387,57"/>
-<area shape="rect" href="classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="1175,56,1253,83"/>
-<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="992,56,1125,83"/>
-<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="673,124,777,151"/>
-<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="1025,191,1092,217"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="342,101,435,128"/>
-<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="663,56,786,83"/>
-<area shape="rect" title=" " alt="" coords="5,94,197,135"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="661,213,788,240"/>
-<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="663,264,786,291"/>
-<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="364,264,413,291"/>
-<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="329,155,448,181"/>
+<area shape="rect" title="NanoVNA &#45; driver for talking to a NanoVNA using the NanoVNA 5 software." alt="" coords="1299,31,1383,57"/>
+<area shape="rect" href="classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="1171,56,1249,83"/>
+<area shape="rect" href="classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="988,56,1121,83"/>
+<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="671,123,775,149"/>
+<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="1021,189,1088,216"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="342,105,435,132"/>
+<area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="661,56,784,83"/>
+<area shape="rect" title=" " alt="" coords="5,98,197,139"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="31,187,171,213"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="491,212,618,239"/>
+<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="661,263,784,289"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="364,263,413,289"/>
+<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="329,156,448,183"/>
 <area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="341,23,437,49"/>
-<area shape="rect" href="classCommandLineDriver.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="812,5,968,32"/>
+<area shape="rect" href="classCommandLineDriver.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="808,5,964,32"/>
 <area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,23,157,49"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -276,9 +278,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a478873551c87802906643ac547189f3a">IDPing</a> ()=0</td></tr>
 <tr class="memdesc:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the instrument's identification string.  <a href="classOscilloscope.html#a478873551c87802906643ac547189f3a">More...</a><br /></td></tr>
 <tr class="separator:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a67474e9cc51aed6485db9e0932776ae2">FlushConfigCache</a> ()</td></tr>
-<tr class="memdesc:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classOscilloscope.html#a67474e9cc51aed6485db9e0932776ae2">More...</a><br /></td></tr>
-<tr class="separator:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#addd3343cde4fe8224e74c043619e44c9">IsOffline</a> ()</td></tr>
 <tr class="memdesc:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the instrument is currently online.  <a href="classOscilloscope.html#addd3343cde4fe8224e74c043619e44c9">More...</a><br /></td></tr>
 <tr class="separator:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -644,6 +643,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memitem:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">AcquireData</a> ()=0</td></tr>
 <tr class="memdesc:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">More...</a><br /></td></tr>
 <tr class="separator:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">FlushConfigCache</a> ()</td></tr>
+<tr class="memdesc:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">More...</a><br /></td></tr>
+<tr class="separator:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual YAML::Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">SerializeConfiguration</a> (<a class="el" href="classIDTable.html">IDTable</a> &amp;table) const</td></tr>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>

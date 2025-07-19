@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -86,7 +86,8 @@ Inheritance diagram for SiglentPowerSupply:</div>
 <area shape="rect" href="classPowerSupply.html" title="A generic power supply." alt="" coords="213,169,319,196"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="185,95,278,121"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="66,169,189,196"/>
-<area shape="rect" title=" " alt="" coords="135,5,327,47"/>
+<area shape="rect" title=" " alt="" coords="39,5,231,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="256,13,396,39"/>
 <area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="30,95,126,121"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -98,9 +99,10 @@ Collaboration diagram for SiglentPowerSupply:</div>
 <area shape="rect" title="A Siglent SPD3303x power supply." alt="" coords="5,337,156,364"/>
 <area shape="rect" href="classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="103,261,237,288"/>
 <area shape="rect" href="classPowerSupply.html" title="A generic power supply." alt="" coords="249,185,355,212"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="239,109,333,136"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,109,341,136"/>
 <area shape="rect" href="classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="102,185,225,212"/>
 <area shape="rect" title=" " alt="" coords="190,5,382,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="407,13,547,39"/>
 <area shape="rect" href="classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="31,109,127,136"/>
 <area shape="rect" href="classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="23,13,135,39"/>
 </map>
@@ -263,6 +265,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memitem:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">AcquireData</a> ()=0</td></tr>
 <tr class="memdesc:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">More...</a><br /></td></tr>
 <tr class="separator:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">FlushConfigCache</a> ()</td></tr>
+<tr class="memdesc:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">More...</a><br /></td></tr>
+<tr class="separator:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual YAML::Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">SerializeConfiguration</a> (<a class="el" href="classIDTable.html">IDTable</a> &amp;table) const</td></tr>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>

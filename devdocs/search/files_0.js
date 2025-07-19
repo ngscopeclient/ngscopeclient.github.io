@@ -26,5 +26,7 @@ var searchData=
   ['aseqspectrometer_2ecpp_23',['AseqSpectrometer.cpp',['../AseqSpectrometer_8cpp.html',1,'']]],
   ['aseqspectrometer_2eh_24',['AseqSpectrometer.h',['../AseqSpectrometer_8h.html',1,'']]],
   ['autocorrelationfilter_2eh_25',['AutocorrelationFilter.h',['../AutocorrelationFilter_8h.html',1,'']]],
-  ['averagefilter_2eh_26',['AverageFilter.h',['../AverageFilter_8h.html',1,'']]]
+  ['averagefilter_2eh_26',['AverageFilter.h',['../AverageFilter_8h.html',1,'']]],
+  ['averager_2ecpp_27',['Averager.cpp',['../Averager_8cpp.html',1,'']]],
+  ['averager_2eh_28',['Averager.h',['../Averager_8h.html',1,'']]]
 ];

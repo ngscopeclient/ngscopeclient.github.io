@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -84,6 +84,17 @@ Inheritance diagram for PeakDetector:</div>
 <area shape="rect" href="classJitterSpectrumFilter.html" title=" " alt="" coords="5,229,152,256"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for PeakDetector:</div>
+<div class="dyncontent">
+<div class="center"><img src="classPeakDetector__coll__graph.png" border="0" usemap="#aPeakDetector_coll__map" alt="Collaboration graph"/></div>
+<map name="aPeakDetector_coll__map" id="aPeakDetector_coll__map">
+<area shape="rect" title=" " alt="" coords="122,228,233,255"/>
+<area shape="rect" href="classAcceleratorBuffer.html" title=" " alt="" coords="21,109,168,151"/>
+<area shape="rect" href="classAlignedAllocator.html" title=" " alt="" coords="5,5,184,47"/>
+<area shape="rect" href="classComputePipeline.html" title="Encapsulates a Vulkan compute pipeline and all necessary resources to use it." alt="" coords="192,117,325,143"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -106,22 +117,34 @@ template&lt;class T &gt; </td></tr>
 <tr class="memitem:a37f73862a4a712b6cadfa89505e96b67"><td class="memItemLeft" align="right" valign="top"><a id="a37f73862a4a712b6cadfa89505e96b67" name="a37f73862a4a712b6cadfa89505e96b67"></a>
 m_peaks&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:a37f73862a4a712b6cadfa89505e96b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cbf76e5531966304fd328562b2d5d9d"><td class="memItemLeft" align="right" valign="top"><a id="a5cbf76e5531966304fd328562b2d5d9d" name="a5cbf76e5531966304fd328562b2d5d9d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>for</b> (size_t i=0;i&lt;(size_t) max_peaks &amp;&amp;i&lt; peaks.size();i++) m_peaks.push_back(peaks[i])</td></tr>
-<tr class="separator:a5cbf76e5531966304fd328562b2d5d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d38df647f1c266cd566698dae0f845"><td class="memItemLeft" align="right" valign="top"><a id="ac9d38df647f1c266cd566698dae0f845" name="ac9d38df647f1c266cd566698dae0f845"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>for</b> (size_t i=0;i&lt;(size_t) max_peaks &amp;&amp;i&lt; peaks.size();i++)</td></tr>
+<tr class="separator:ac9d38df647f1c266cd566698dae0f845"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab7523f590db130f7499e7f46f59a16e9"><td class="memItemLeft" align="right" valign="top"><a id="ab7523f590db130f7499e7f46f59a16e9" name="ab7523f590db130f7499e7f46f59a16e9"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>max_peaks</b></td></tr>
 <tr class="separator:ab7523f590db130f7499e7f46f59a16e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0757bc8fbfb18731170f04048616921"><td class="memItemLeft" align="right" valign="top">int64_t float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeakDetector.html#ae0757bc8fbfb18731170f04048616921">search_hz</a></td></tr>
+<tr class="memitem:ae0757bc8fbfb18731170f04048616921"><td class="memItemLeft" align="right" valign="top"><a id="ae0757bc8fbfb18731170f04048616921" name="ae0757bc8fbfb18731170f04048616921"></a>
+int64_t float&#160;</td><td class="memItemRight" valign="bottom"><b>search_hz</b></td></tr>
 <tr class="separator:ae0757bc8fbfb18731170f04048616921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d9c63ee8963e7e0ebec281f4adf1198"><td class="memItemLeft" align="right" valign="top"><a id="a1d9c63ee8963e7e0ebec281f4adf1198" name="a1d9c63ee8963e7e0ebec281f4adf1198"></a>
+int64_t float bool&#160;</td><td class="memItemRight" valign="bottom"><b>yUnitIsDB</b></td></tr>
+<tr class="separator:a1d9c63ee8963e7e0ebec281f4adf1198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955d688291d2185810da01f4d08f3069"><td class="memItemLeft" align="right" valign="top"><a id="a955d688291d2185810da01f4d08f3069" name="a955d688291d2185810da01f4d08f3069"></a>
+int64_t float bool vk::raii::CommandBuffer &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>cmdBuf</b></td></tr>
+<tr class="separator:a955d688291d2185810da01f4d08f3069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3aef449cdd0fdf5f165a2b52962b7de"><td class="memItemLeft" align="right" valign="top">int64_t float bool vk::raii::CommandBuffer std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeakDetector.html#aa3aef449cdd0fdf5f165a2b52962b7de">queue</a></td></tr>
+<tr class="separator:aa3aef449cdd0fdf5f165a2b52962b7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af594eebdd854be8739b6590a1ff65457"><td class="memItemLeft" align="right" valign="top"><a id="af594eebdd854be8739b6590a1ff65457" name="af594eebdd854be8739b6590a1ff65457"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nouts</b> = cap-&gt;size()</td></tr>
 <tr class="separator:af594eebdd854be8739b6590a1ff65457"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5610ed4dcc53f8ead287fcb6676c0612"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeakDetector.html#a5610ed4dcc53f8ead287fcb6676c0612">else</a></td></tr>
 <tr class="separator:a5610ed4dcc53f8ead287fcb6676c0612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdfba1d2e29b91a339d35d8cf7048256"><td class="memItemLeft" align="right" valign="top"><a id="abdfba1d2e29b91a339d35d8cf7048256" name="abdfba1d2e29b91a339d35d8cf7048256"></a>
+std::vector&lt; <a class="el" href="classPeak.html">Peak</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>peaks</b></td></tr>
+<tr class="separator:abdfba1d2e29b91a339d35d8cf7048256"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d4989749940bda2cad333e9e1a88e39"><td class="memItemLeft" align="right" valign="top"><a id="a9d4989749940bda2cad333e9e1a88e39" name="a9d4989749940bda2cad333e9e1a88e39"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>binsize</b> = <a class="el" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, 1) - <a class="el" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, 0)</td></tr>
 <tr class="separator:a9d4989749940bda2cad333e9e1a88e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,9 +160,6 @@ int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>search_rad</b> = s
 <tr class="memitem:aa835b0230281a345af822293f0d47d10"><td class="memItemLeft" align="right" valign="top"><a id="aa835b0230281a345af822293f0d47d10" name="aa835b0230281a345af822293f0d47d10"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>baseline</b> = <a class="el" href="classFilter.html#a64a75819f3ddc502e548f71fcd31c6ff">Filter::GetMinVoltage</a>(cap)</td></tr>
 <tr class="separator:aa835b0230281a345af822293f0d47d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdfba1d2e29b91a339d35d8cf7048256"><td class="memItemLeft" align="right" valign="top"><a id="abdfba1d2e29b91a339d35d8cf7048256" name="abdfba1d2e29b91a339d35d8cf7048256"></a>
-std::vector&lt; <a class="el" href="classPeak.html">Peak</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>peaks</b></td></tr>
-<tr class="separator:abdfba1d2e29b91a339d35d8cf7048256"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeeda69fae95267720109d7497f29d34"><td class="memItemLeft" align="right" valign="top"><a id="aeeeda69fae95267720109d7497f29d34" name="aeeeda69fae95267720109d7497f29d34"></a>
 ssize_t&#160;</td><td class="memItemRight" valign="bottom"><b>nend</b> = nouts-1</td></tr>
 <tr class="separator:aeeeda69fae95267720109d7497f29d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,6 +172,15 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6791f278fde84f412b947d0396db6fea"><td class="memItemLeft" align="right" valign="top"><a id="a6791f278fde84f412b947d0396db6fea" name="a6791f278fde84f412b947d0396db6fea"></a>
 std::vector&lt; <a class="el" href="classPeak.html">Peak</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_peaks</b></td></tr>
 <tr class="separator:a6791f278fde84f412b947d0396db6fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f86978d0544fb3fe47db2495bd7741"><td class="memItemLeft" align="right" valign="top"><a id="ae3f86978d0544fb3fe47db2495bd7741" name="ae3f86978d0544fb3fe47db2495bd7741"></a>
+<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_filteredInput</b></td></tr>
+<tr class="separator:ae3f86978d0544fb3fe47db2495bd7741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab92d89f64d93cfecfdc9daa775429703"><td class="memItemLeft" align="right" valign="top"><a id="ab92d89f64d93cfecfdc9daa775429703" name="ab92d89f64d93cfecfdc9daa775429703"></a>
+<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_peakCoefficients</b></td></tr>
+<tr class="separator:ab92d89f64d93cfecfdc9daa775429703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcd9a783edbe1d7557966bffd7891d5"><td class="memItemLeft" align="right" valign="top"><a id="a6fcd9a783edbe1d7557966bffd7891d5" name="a6fcd9a783edbe1d7557966bffd7891d5"></a>
+<a class="el" href="classComputePipeline.html">ComputePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_peakFirComputePipeline</b></td></tr>
+<tr class="separator:a6fcd9a783edbe1d7557966bffd7891d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a5610ed4dcc53f8ead287fcb6676c0612" name="a5610ed4dcc53f8ead287fcb6676c0612"></a>
@@ -171,14 +200,14 @@ std::vector&lt; <a class="el" href="classPeak.html">Peak</a> &gt;&#160;</td><td 
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ae0757bc8fbfb18731170f04048616921" name="ae0757bc8fbfb18731170f04048616921"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0757bc8fbfb18731170f04048616921">&#9670;&nbsp;</a></span>search_hz</h2>
+<a id="aa3aef449cdd0fdf5f165a2b52962b7de" name="aa3aef449cdd0fdf5f165a2b52962b7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3aef449cdd0fdf5f165a2b52962b7de">&#9670;&nbsp;</a></span>queue</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int64_t float PeakDetector::search_hz</td>
+          <td class="memname">int64_t float bool vk::raii::CommandBuffer std::shared_ptr&lt;<a class="el" href="classQueueHandle.html">QueueHandle</a>&gt; PeakDetector::queue</td>
         </tr>
       </table>
 </div><div class="memdoc">

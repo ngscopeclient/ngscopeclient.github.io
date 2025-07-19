@@ -1,11 +1,12 @@
 <map id="ExportFilter" name="ExportFilter">
-<area shape="rect" id="node1" title="Base class for filters providing file&#45;export functionality." alt="" coords="176,304,272,331"/>
-<area shape="rect" id="node7" href="$classCSVExportFilter.html" title=" " alt="" coords="5,379,128,405"/>
-<area shape="rect" id="node8" href="$classPcapngExportFilter.html" title=" " alt="" coords="153,379,295,405"/>
-<area shape="rect" id="node9" href="$classTouchstoneExportFilter.html" title=" " alt="" coords="319,379,489,405"/>
-<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="142,229,197,256"/>
-<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="91,155,248,181"/>
-<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="96,80,243,107"/>
-<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="106,5,233,32"/>
-<area shape="rect" id="node6" href="$classActionProvider.html" title="Abstract base for objects (usually filters) which provide a series of actions a user can perform." alt="" coords="221,229,339,256"/>
+<area shape="rect" id="node1" title="Base class for filters providing file&#45;export functionality." alt="" coords="176,379,272,405"/>
+<area shape="rect" id="node8" href="$classCSVExportFilter.html" title=" " alt="" coords="5,453,128,480"/>
+<area shape="rect" id="node9" href="$classPcapngExportFilter.html" title=" " alt="" coords="153,453,295,480"/>
+<area shape="rect" id="node10" href="$classTouchstoneExportFilter.html" title=" " alt="" coords="319,453,489,480"/>
+<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="142,304,197,331"/>
+<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="91,229,248,256"/>
+<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="96,155,243,181"/>
+<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="106,80,233,107"/>
+<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="99,5,239,32"/>
+<area shape="rect" id="node7" href="$classActionProvider.html" title="Abstract base for objects (usually filters) which provide a series of actions a user can perform." alt="" coords="221,304,339,331"/>
 </map>

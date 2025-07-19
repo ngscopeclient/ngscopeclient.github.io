@@ -1,14 +1,15 @@
 <map id="SCPIMultimeter" name="SCPIMultimeter">
 <area shape="rect" id="node1" title="An SCPI&#45;based multimeter." alt="" coords="560,81,683,108"/>
-<area shape="rect" id="node7" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="782,5,931,32"/>
-<area shape="rect" id="node9" href="$classOwonXDMMultimeter.html" title="Driver for Owon XDM multimeter." alt="" coords="775,56,938,83"/>
-<area shape="rect" id="node10" href="$classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="731,107,983,133"/>
-<area shape="rect" id="node11" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="775,157,939,184"/>
+<area shape="rect" id="node8" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="782,5,931,32"/>
+<area shape="rect" id="node10" href="$classOwonXDMMultimeter.html" title="Driver for Owon XDM multimeter." alt="" coords="775,56,938,83"/>
+<area shape="rect" id="node11" href="$classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="731,107,983,133"/>
+<area shape="rect" id="node12" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="775,157,939,184"/>
 <area shape="rect" id="node2" href="$classMultimeter.html" title="A multimeter." alt="" coords="403,107,498,133"/>
 <area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,107,340,133"/>
-<area shape="rect" id="node5" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="389,56,512,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,99,197,141"/>
-<area shape="rect" id="node6" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,56,341,83"/>
-<area shape="rect" id="node8" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1035,5,1213,32"/>
-<area shape="rect" id="node12" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1031,157,1217,184"/>
+<area shape="rect" id="node6" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="389,56,512,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,70,197,111"/>
+<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="31,136,171,163"/>
+<area shape="rect" id="node7" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,56,341,83"/>
+<area shape="rect" id="node9" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1035,5,1213,32"/>
+<area shape="rect" id="node13" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1031,157,1217,184"/>
 </map>

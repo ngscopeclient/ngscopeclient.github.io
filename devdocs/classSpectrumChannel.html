@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -78,11 +78,12 @@ Inheritance diagram for SpectrumChannel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSpectrumChannel__inherit__graph.png" border="0" usemap="#aSpectrumChannel_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSpectrumChannel_inherit__map" id="aSpectrumChannel_inherit__map">
-<area shape="rect" title="A frequency domain oscilloscope channel." alt="" coords="94,229,231,256"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,155,163,181"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,80,157,107"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,5,147,32"/>
-<area shape="rect" href="classPeakDetector.html" title=" " alt="" coords="187,155,298,181"/>
+<area shape="rect" title="A frequency domain oscilloscope channel." alt="" coords="94,304,231,331"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,229,163,256"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,155,157,181"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,80,147,107"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="14,5,154,32"/>
+<area shape="rect" href="classPeakDetector.html" title=" " alt="" coords="187,229,298,256"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -90,14 +91,18 @@ Collaboration diagram for SpectrumChannel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSpectrumChannel__coll__graph.png" border="0" usemap="#aSpectrumChannel_coll__map" alt="Collaboration graph"/></div>
 <map name="aSpectrumChannel_coll__map" id="aSpectrumChannel_coll__map">
-<area shape="rect" title="A frequency domain oscilloscope channel." alt="" coords="197,337,335,364"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="109,261,266,288"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="114,185,261,212"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,96,132,123"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="157,96,250,123"/>
-<area shape="rect" title=" " alt="" coords="107,5,299,47"/>
-<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="289,96,339,123"/>
-<area shape="rect" href="classPeakDetector.html" title=" " alt="" coords="291,261,401,288"/>
+<area shape="rect" title="A frequency domain oscilloscope channel." alt="" coords="272,395,409,421"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="183,319,341,345"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="167,207,314,234"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,103,139,130"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="5,13,145,39"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="163,103,257,130"/>
+<area shape="rect" title=" " alt="" coords="170,5,362,47"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="296,103,345,130"/>
+<area shape="rect" href="classPeakDetector.html" title=" " alt="" coords="380,319,491,345"/>
+<area shape="rect" href="classAcceleratorBuffer.html" title=" " alt="" coords="362,200,509,241"/>
+<area shape="rect" href="classAlignedAllocator.html" title=" " alt="" coords="370,96,549,137"/>
+<area shape="rect" href="classComputePipeline.html" title="Encapsulates a Vulkan compute pipeline and all necessary resources to use it." alt="" coords="533,207,666,234"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -170,6 +175,9 @@ virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDeskew<
 <tr class="memitem:ab60731d859e5070fa87e9132759581e5 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="ab60731d859e5070fa87e9132759581e5" name="ab60731d859e5070fa87e9132759581e5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPhysicalChannel</b> ()</td></tr>
 <tr class="separator:ab60731d859e5070fa87e9132759581e5 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4828247f6438f688abb325a73d3f9c1 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="ae4828247f6438f688abb325a73d3f9c1" name="ae4828247f6438f688abb325a73d3f9c1"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInverted</b> (size_t stream)</td></tr>
+<tr class="separator:ae4828247f6438f688abb325a73d3f9c1 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7242ae60bc7707a0705543b01ef874a0 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="a7242ae60bc7707a0705543b01ef874a0" name="a7242ae60bc7707a0705543b01ef874a0"></a>
 virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetVoltageRange</b> (size_t stream)</td></tr>
 <tr class="separator:a7242ae60bc7707a0705543b01ef874a0 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -415,9 +423,9 @@ template&lt;class T &gt; </td></tr>
 <tr class="memitem:a37f73862a4a712b6cadfa89505e96b67 inherit pub_methods_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="a37f73862a4a712b6cadfa89505e96b67" name="a37f73862a4a712b6cadfa89505e96b67"></a>
 m_peaks&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:a37f73862a4a712b6cadfa89505e96b67 inherit pub_methods_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cbf76e5531966304fd328562b2d5d9d inherit pub_methods_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="a5cbf76e5531966304fd328562b2d5d9d" name="a5cbf76e5531966304fd328562b2d5d9d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>for</b> (size_t i=0;i&lt;(size_t) max_peaks &amp;&amp;i&lt; peaks.size();i++) m_peaks.push_back(peaks[i])</td></tr>
-<tr class="separator:a5cbf76e5531966304fd328562b2d5d9d inherit pub_methods_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d38df647f1c266cd566698dae0f845 inherit pub_methods_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="ac9d38df647f1c266cd566698dae0f845" name="ac9d38df647f1c266cd566698dae0f845"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>for</b> (size_t i=0;i&lt;(size_t) max_peaks &amp;&amp;i&lt; peaks.size();i++)</td></tr>
+<tr class="separator:ac9d38df647f1c266cd566698dae0f845 inherit pub_methods_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -485,13 +493,25 @@ enum <a class="el" href="classInstrumentChannel.html#a350e257b3a190aa2f5b1ba8bfb
 <tr class="memitem:ab7523f590db130f7499e7f46f59a16e9 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="ab7523f590db130f7499e7f46f59a16e9" name="ab7523f590db130f7499e7f46f59a16e9"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>max_peaks</b></td></tr>
 <tr class="separator:ab7523f590db130f7499e7f46f59a16e9 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0757bc8fbfb18731170f04048616921 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top">int64_t float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeakDetector.html#ae0757bc8fbfb18731170f04048616921">search_hz</a></td></tr>
+<tr class="memitem:ae0757bc8fbfb18731170f04048616921 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="ae0757bc8fbfb18731170f04048616921" name="ae0757bc8fbfb18731170f04048616921"></a>
+int64_t float&#160;</td><td class="memItemRight" valign="bottom"><b>search_hz</b></td></tr>
 <tr class="separator:ae0757bc8fbfb18731170f04048616921 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d9c63ee8963e7e0ebec281f4adf1198 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="a1d9c63ee8963e7e0ebec281f4adf1198" name="a1d9c63ee8963e7e0ebec281f4adf1198"></a>
+int64_t float bool&#160;</td><td class="memItemRight" valign="bottom"><b>yUnitIsDB</b></td></tr>
+<tr class="separator:a1d9c63ee8963e7e0ebec281f4adf1198 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955d688291d2185810da01f4d08f3069 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="a955d688291d2185810da01f4d08f3069" name="a955d688291d2185810da01f4d08f3069"></a>
+int64_t float bool vk::raii::CommandBuffer &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>cmdBuf</b></td></tr>
+<tr class="separator:a955d688291d2185810da01f4d08f3069 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3aef449cdd0fdf5f165a2b52962b7de inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top">int64_t float bool vk::raii::CommandBuffer std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeakDetector.html#aa3aef449cdd0fdf5f165a2b52962b7de">queue</a></td></tr>
+<tr class="separator:aa3aef449cdd0fdf5f165a2b52962b7de inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af594eebdd854be8739b6590a1ff65457 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="af594eebdd854be8739b6590a1ff65457" name="af594eebdd854be8739b6590a1ff65457"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>nouts</b> = cap-&gt;size()</td></tr>
 <tr class="separator:af594eebdd854be8739b6590a1ff65457 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5610ed4dcc53f8ead287fcb6676c0612 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeakDetector.html#a5610ed4dcc53f8ead287fcb6676c0612">else</a></td></tr>
 <tr class="separator:a5610ed4dcc53f8ead287fcb6676c0612 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdfba1d2e29b91a339d35d8cf7048256 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="abdfba1d2e29b91a339d35d8cf7048256" name="abdfba1d2e29b91a339d35d8cf7048256"></a>
+std::vector&lt; <a class="el" href="classPeak.html">Peak</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>peaks</b></td></tr>
+<tr class="separator:abdfba1d2e29b91a339d35d8cf7048256 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d4989749940bda2cad333e9e1a88e39 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="a9d4989749940bda2cad333e9e1a88e39" name="a9d4989749940bda2cad333e9e1a88e39"></a>
 int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>binsize</b> = <a class="el" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, 1) - <a class="el" href="group__datamodel.html#ga977048a82dd93c68f9a67c1670d30491">GetOffsetScaled</a>(cap, 0)</td></tr>
 <tr class="separator:a9d4989749940bda2cad333e9e1a88e39 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,9 +527,6 @@ int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>search_rad</b> = s
 <tr class="memitem:aa835b0230281a345af822293f0d47d10 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="aa835b0230281a345af822293f0d47d10" name="aa835b0230281a345af822293f0d47d10"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>baseline</b> = <a class="el" href="classFilter.html#a64a75819f3ddc502e548f71fcd31c6ff">Filter::GetMinVoltage</a>(cap)</td></tr>
 <tr class="separator:aa835b0230281a345af822293f0d47d10 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdfba1d2e29b91a339d35d8cf7048256 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="abdfba1d2e29b91a339d35d8cf7048256" name="abdfba1d2e29b91a339d35d8cf7048256"></a>
-std::vector&lt; <a class="el" href="classPeak.html">Peak</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>peaks</b></td></tr>
-<tr class="separator:abdfba1d2e29b91a339d35d8cf7048256 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeeda69fae95267720109d7497f29d34 inherit pub_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="aeeeda69fae95267720109d7497f29d34" name="aeeeda69fae95267720109d7497f29d34"></a>
 ssize_t&#160;</td><td class="memItemRight" valign="bottom"><b>nend</b> = nouts-1</td></tr>
 <tr class="separator:aeeeda69fae95267720109d7497f29d34 inherit pub_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,6 +630,15 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:a6791f278fde84f412b947d0396db6fea inherit pro_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="a6791f278fde84f412b947d0396db6fea" name="a6791f278fde84f412b947d0396db6fea"></a>
 std::vector&lt; <a class="el" href="classPeak.html">Peak</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_peaks</b></td></tr>
 <tr class="separator:a6791f278fde84f412b947d0396db6fea inherit pro_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f86978d0544fb3fe47db2495bd7741 inherit pro_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="ae3f86978d0544fb3fe47db2495bd7741" name="ae3f86978d0544fb3fe47db2495bd7741"></a>
+<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_filteredInput</b></td></tr>
+<tr class="separator:ae3f86978d0544fb3fe47db2495bd7741 inherit pro_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab92d89f64d93cfecfdc9daa775429703 inherit pro_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="ab92d89f64d93cfecfdc9daa775429703" name="ab92d89f64d93cfecfdc9daa775429703"></a>
+<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_peakCoefficients</b></td></tr>
+<tr class="separator:ab92d89f64d93cfecfdc9daa775429703 inherit pro_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcd9a783edbe1d7557966bffd7891d5 inherit pro_attribs_classPeakDetector"><td class="memItemLeft" align="right" valign="top"><a id="a6fcd9a783edbe1d7557966bffd7891d5" name="a6fcd9a783edbe1d7557966bffd7891d5"></a>
+<a class="el" href="classComputePipeline.html">ComputePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_peakFirComputePipeline</b></td></tr>
+<tr class="separator:a6fcd9a783edbe1d7557966bffd7891d5 inherit pro_attribs_classPeakDetector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A frequency domain oscilloscope channel. </p>

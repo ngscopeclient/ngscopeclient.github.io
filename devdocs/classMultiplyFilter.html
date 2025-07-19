@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -75,11 +75,12 @@ Inheritance diagram for MultiplyFilter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMultiplyFilter__inherit__graph.png" border="0" usemap="#aMultiplyFilter_inherit__map" alt="Inheritance graph"/></div>
 <map name="aMultiplyFilter_inherit__map" id="aMultiplyFilter_inherit__map">
-<area shape="rect" title=" " alt="" coords="31,304,137,331"/>
-<area shape="rect" href="classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="57,229,111,256"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,155,163,181"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,80,157,107"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,5,147,32"/>
+<area shape="rect" title=" " alt="" coords="31,379,137,405"/>
+<area shape="rect" href="classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="57,304,111,331"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,229,163,256"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,155,157,181"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,80,147,107"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="14,5,154,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -92,8 +93,9 @@ Collaboration diagram for MultiplyFilter:</div>
 <area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="1322,141,1479,168"/>
 <area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="1026,83,1173,109"/>
 <area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="717,5,844,32"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="370,9,510,36"/>
 <area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="734,56,827,83"/>
-<area shape="rect" title=" " alt="" coords="344,49,536,90"/>
+<area shape="rect" title=" " alt="" coords="344,65,536,106"/>
 <area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="756,107,805,133"/>
 <area shape="rect" href="classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="719,299,842,325"/>
 <area shape="rect" href="classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1016,225,1183,252"/>
@@ -257,6 +259,9 @@ samples&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td><
 <tr class="memitem:a7e9e01e132c5fde96151b092b3220cee inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a7e9e01e132c5fde96151b092b3220cee" name="a7e9e01e132c5fde96151b092b3220cee"></a>
 samples&#160;</td><td class="memItemRight" valign="bottom"><b>SetGpuAccessHint</b> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; S &gt;::HINT_NEVER)</td></tr>
 <tr class="separator:a7e9e01e132c5fde96151b092b3220cee inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc12a41fab9600cbd7434d2fc1024c1 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a2cc12a41fab9600cbd7434d2fc1024c1" name="a2cc12a41fab9600cbd7434d2fc1024c1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>if</b> (dynamic_cast&lt; <a class="el" href="classSparseWaveform.html">SparseDigitalWaveform</a> * &gt;(clock) !=nullptr) samples.Reserve(clock -&gt; size())</td></tr>
+<tr class="separator:a2cc12a41fab9600cbd7434d2fc1024c1 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15227a3cc576d6f3e485487a5c56c274 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a15227a3cc576d6f3e485487a5c56c274" name="a15227a3cc576d6f3e485487a5c56c274"></a>
 samples&#160;</td><td class="memItemRight" valign="bottom"><b>PrepareForCpuAccess</b> ()</td></tr>
 <tr class="separator:a15227a3cc576d6f3e485487a5c56c274 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -304,6 +309,9 @@ samples&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td><
 <tr class="memitem:a7e9e01e132c5fde96151b092b3220cee inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a7e9e01e132c5fde96151b092b3220cee" name="a7e9e01e132c5fde96151b092b3220cee"></a>
 samples&#160;</td><td class="memItemRight" valign="bottom"><b>SetGpuAccessHint</b> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; S &gt;::HINT_NEVER)</td></tr>
 <tr class="separator:a7e9e01e132c5fde96151b092b3220cee inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef70e312a460131f65cf2e9c52a5576 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a4ef70e312a460131f65cf2e9c52a5576" name="a4ef70e312a460131f65cf2e9c52a5576"></a>
+samples&#160;</td><td class="memItemRight" valign="bottom"><b>Reserve</b> (1 *1024 *1024)</td></tr>
+<tr class="separator:a4ef70e312a460131f65cf2e9c52a5576 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeadedf6eefe6f33b014a059ef66efa19 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="aeadedf6eefe6f33b014a059ef66efa19" name="aeadedf6eefe6f33b014a059ef66efa19"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>for</b> (size_t i=1;i&lt; len;i++)</td></tr>
 <tr class="separator:aeadedf6eefe6f33b014a059ef66efa19 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,6 +356,9 @@ samples&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td><
 <tr class="memitem:a7e9e01e132c5fde96151b092b3220cee inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a7e9e01e132c5fde96151b092b3220cee" name="a7e9e01e132c5fde96151b092b3220cee"></a>
 samples&#160;</td><td class="memItemRight" valign="bottom"><b>SetGpuAccessHint</b> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; S &gt;::HINT_NEVER)</td></tr>
 <tr class="separator:a7e9e01e132c5fde96151b092b3220cee inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef70e312a460131f65cf2e9c52a5576 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a4ef70e312a460131f65cf2e9c52a5576" name="a4ef70e312a460131f65cf2e9c52a5576"></a>
+samples&#160;</td><td class="memItemRight" valign="bottom"><b>Reserve</b> (1 *1024 *1024)</td></tr>
+<tr class="separator:a4ef70e312a460131f65cf2e9c52a5576 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeadedf6eefe6f33b014a059ef66efa19 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="aeadedf6eefe6f33b014a059ef66efa19" name="aeadedf6eefe6f33b014a059ef66efa19"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>for</b> (size_t i=1;i&lt; len;i++)</td></tr>
 <tr class="separator:aeadedf6eefe6f33b014a059ef66efa19 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -370,6 +381,9 @@ samples&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td><
 <tr class="memitem:ab4cd90a851c1768a300b34a65c7d35e3 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="ab4cd90a851c1768a300b34a65c7d35e3" name="ab4cd90a851c1768a300b34a65c7d35e3"></a>
 samples&#160;</td><td class="memItemRight" valign="bottom"><b>SetGpuAccessHint</b> (<a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt;::HINT_NEVER)</td></tr>
 <tr class="separator:ab4cd90a851c1768a300b34a65c7d35e3 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef70e312a460131f65cf2e9c52a5576 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a4ef70e312a460131f65cf2e9c52a5576" name="a4ef70e312a460131f65cf2e9c52a5576"></a>
+samples&#160;</td><td class="memItemRight" valign="bottom"><b>Reserve</b> (1 *1024 *1024)</td></tr>
+<tr class="separator:a4ef70e312a460131f65cf2e9c52a5576 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeadedf6eefe6f33b014a059ef66efa19 inherit pub_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="aeadedf6eefe6f33b014a059ef66efa19" name="aeadedf6eefe6f33b014a059ef66efa19"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>for</b> (size_t i=1;i&lt; len;i++)</td></tr>
 <tr class="separator:aeadedf6eefe6f33b014a059ef66efa19 inherit pub_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -468,6 +482,9 @@ virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDeskew<
 <tr class="memitem:ab60731d859e5070fa87e9132759581e5 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="ab60731d859e5070fa87e9132759581e5" name="ab60731d859e5070fa87e9132759581e5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPhysicalChannel</b> ()</td></tr>
 <tr class="separator:ab60731d859e5070fa87e9132759581e5 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4828247f6438f688abb325a73d3f9c1 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="ae4828247f6438f688abb325a73d3f9c1" name="ae4828247f6438f688abb325a73d3f9c1"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInverted</b> (size_t stream)</td></tr>
+<tr class="separator:ae4828247f6438f688abb325a73d3f9c1 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7242ae60bc7707a0705543b01ef874a0 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="a7242ae60bc7707a0705543b01ef874a0" name="a7242ae60bc7707a0705543b01ef874a0"></a>
 virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetVoltageRange</b> (size_t stream)</td></tr>
 <tr class="separator:a7242ae60bc7707a0705543b01ef874a0 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -804,14 +821,12 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>FindRisingEdge
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>FindRisingEdges</b> (<a class="el" href="classSparseWaveform.html">SparseAnalogWaveform</a> *data, float threshold, std::vector&lt; int64_t &gt; &amp;edges)</td></tr>
 <tr class="memdesc:a5bdab294d9d691f1beb82abfa95fbc9e inherit pub_static_methods_classFilter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find rising edges in a waveform, interpolating to sub-sample resolution as necessary. <br /></td></tr>
 <tr class="separator:a5bdab294d9d691f1beb82abfa95fbc9e inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a178d1a0ec8c5b3acde93466315d1a274 inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a178d1a0ec8c5b3acde93466315d1a274" name="a178d1a0ec8c5b3acde93466315d1a274"></a>
+<tr class="memitem:a461d377bee8bb6d3c4297c16c5556d1e inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a461d377bee8bb6d3c4297c16c5556d1e" name="a461d377bee8bb6d3c4297c16c5556d1e"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>FindZeroCrossings</b> (<a class="el" href="classSparseWaveform.html">SparseAnalogWaveform</a> *data, float threshold, std::vector&lt; int64_t &gt; &amp;edges)</td></tr>
-<tr class="memdesc:a178d1a0ec8c5b3acde93466315d1a274 inherit pub_static_methods_classFilter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find zero crossings in a waveform, interpolating as necessary. <br /></td></tr>
-<tr class="separator:a178d1a0ec8c5b3acde93466315d1a274 inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d3b78bff84d18f7345aa4dae3b6b0e3 inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a1d3b78bff84d18f7345aa4dae3b6b0e3" name="a1d3b78bff84d18f7345aa4dae3b6b0e3"></a>
+<tr class="separator:a461d377bee8bb6d3c4297c16c5556d1e inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54225454b144dd91886b4be5543c1276 inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a54225454b144dd91886b4be5543c1276" name="a54225454b144dd91886b4be5543c1276"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>FindZeroCrossings</b> (<a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *data, float threshold, std::vector&lt; int64_t &gt; &amp;edges)</td></tr>
-<tr class="memdesc:a1d3b78bff84d18f7345aa4dae3b6b0e3 inherit pub_static_methods_classFilter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find zero crossings in a waveform, interpolating as necessary. <br /></td></tr>
-<tr class="separator:a1d3b78bff84d18f7345aa4dae3b6b0e3 inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a54225454b144dd91886b4be5543c1276 inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba7578f61167731a4f686cd8625855ce inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="aba7578f61167731a4f686cd8625855ce" name="aba7578f61167731a4f686cd8625855ce"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>FindZeroCrossings</b> (<a class="el" href="classUniformWaveform.html">UniformDigitalWaveform</a> *data, std::vector&lt; int64_t &gt; &amp;edges)</td></tr>
 <tr class="separator:aba7578f61167731a4f686cd8625855ce inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -857,6 +872,13 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>FindZeroCrossi
 <tr class="memitem:aba52c5f4cf71104b0fe6a98dd7b20cf1 inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="aba52c5f4cf71104b0fe6a98dd7b20cf1" name="aba52c5f4cf71104b0fe6a98dd7b20cf1"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearAnalysisCache</b> ()</td></tr>
 <tr class="separator:aba52c5f4cf71104b0fe6a98dd7b20cf1 inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af796f9f71aad7f274ef07390a4205fc6 inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilter.html#af796f9f71aad7f274ef07390a4205fc6">CalculateFIRCoefficients</a> (float fa, float fb, float stopbandAtten, FIRFilterType type, <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; float &gt; &amp;coefficients)</td></tr>
+<tr class="memdesc:af796f9f71aad7f274ef07390a4205fc6 inherit pub_static_methods_classFilter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates FIR coefficients.  <a href="classFilter.html#af796f9f71aad7f274ef07390a4205fc6">More...</a><br /></td></tr>
+<tr class="separator:af796f9f71aad7f274ef07390a4205fc6 inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9173270dd01b140b362f1deb755e2b76 inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a9173270dd01b140b362f1deb755e2b76" name="a9173270dd01b140b362f1deb755e2b76"></a>
+static float&#160;</td><td class="memItemRight" valign="bottom"><b>Bessel</b> (float x)</td></tr>
+<tr class="memdesc:a9173270dd01b140b362f1deb755e2b76 inherit pub_static_methods_classFilter"><td class="mdescLeft">&#160;</td><td class="mdescRight">0th order Bessel function <br /></td></tr>
+<tr class="separator:a9173270dd01b140b362f1deb755e2b76 inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3313aaaffedaf457ca3d3bf6d54a6f52 inherit pub_static_methods_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a3313aaaffedaf457ca3d3bf6d54a6f52" name="a3313aaaffedaf457ca3d3bf6d54a6f52"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>DoAddDecoderClass</b> (const std::string &amp;name, CreateProcType proc)</td></tr>
 <tr class="separator:a3313aaaffedaf457ca3d3bf6d54a6f52 inherit pub_static_methods_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -991,6 +1013,12 @@ Additional Inherited Members</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:abe2a40b860f78489a3a423bdf3243c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Category the filter should be displayed under in the GUI.  <a href="classFilter.html#abe2a40b860f78489a3a423bdf3243c6c">More...</a><br /></td></tr>
 <tr class="separator:abe2a40b860f78489a3a423bdf3243c6c inherit pub_types_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd5d91ea0565808b1732c2138fd6ce57 inherit pub_types_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="abd5d91ea0565808b1732c2138fd6ce57" name="abd5d91ea0565808b1732c2138fd6ce57"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>FIRFilterType</b> { <b>FILTER_TYPE_LOWPASS</b>
+, <b>FILTER_TYPE_HIGHPASS</b>
+, <b>FILTER_TYPE_BANDPASS</b>
+, <b>FILTER_TYPE_NOTCH</b>
+ }</td></tr>
+<tr class="separator:abd5d91ea0565808b1732c2138fd6ce57 inherit pub_types_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bc3be51a730cec2788c194b3478f7a inherit pub_types_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="a37bc3be51a730cec2788c194b3478f7a" name="a37bc3be51a730cec2788c194b3478f7a"></a>
 typedef <a class="el" href="classFilter.html">Filter</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><b>CreateProcType</b>) (const std::string &amp;)</td></tr>
 <tr class="separator:a37bc3be51a730cec2788c194b3478f7a inherit pub_types_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1089,6 +1117,8 @@ R *&#160;</td><td class="memItemRight" valign="bottom"><b>clock</b></td></tr>
 <tr class="separator:ab3df0ebe52f9618babc7330b357489d2 inherit pub_attribs_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3909c01ebf4c8b1db42e392cac5f6424 inherit pub_attribs_classFilter"><td class="memItemLeft" align="right" valign="top">R <a class="el" href="classSparseWaveform.html">SparseWaveform</a>&lt; S &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilter.html#a3909c01ebf4c8b1db42e392cac5f6424">samples</a></td></tr>
 <tr class="separator:a3909c01ebf4c8b1db42e392cac5f6424 inherit pub_attribs_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d93a7ca80ae282c8e807e0fdfaad12f inherit pub_attribs_classFilter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilter.html#a3d93a7ca80ae282c8e807e0fdfaad12f">else</a></td></tr>
+<tr class="separator:a3d93a7ca80ae282c8e807e0fdfaad12f inherit pub_attribs_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaad413d62c056aa4138d84f9c966551e inherit pub_attribs_classFilter"><td class="memItemLeft" align="right" valign="top"><a id="aaad413d62c056aa4138d84f9c966551e" name="aaad413d62c056aa4138d84f9c966551e"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>len</b> = clock-&gt;size()</td></tr>
 <tr class="separator:aaad413d62c056aa4138d84f9c966551e inherit pub_attribs_classFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>

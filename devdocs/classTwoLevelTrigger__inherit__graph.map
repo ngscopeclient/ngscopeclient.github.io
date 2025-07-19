@@ -1,8 +1,9 @@
 <map id="TwoLevelTrigger" name="TwoLevelTrigger">
-<area shape="rect" id="node1" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="128,155,255,181"/>
-<area shape="rect" id="node4" href="$classRuntTrigger.html" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="5,229,103,256"/>
-<area shape="rect" id="node5" href="$classSlewRateTrigger.html" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="127,229,255,256"/>
-<area shape="rect" id="node6" href="$classWindowTrigger.html" title="Window trigger &#45; detect when the signal leaves a specified range." alt="" coords="280,229,399,256"/>
-<area shape="rect" id="node2" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="158,80,225,107"/>
-<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="128,5,255,32"/>
+<area shape="rect" id="node1" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="128,229,255,256"/>
+<area shape="rect" id="node5" href="$classRuntTrigger.html" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="5,304,103,331"/>
+<area shape="rect" id="node6" href="$classSlewRateTrigger.html" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="127,304,255,331"/>
+<area shape="rect" id="node7" href="$classWindowTrigger.html" title="Window trigger &#45; detect when the signal leaves a specified range." alt="" coords="280,304,399,331"/>
+<area shape="rect" id="node2" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="158,155,225,181"/>
+<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="128,80,255,107"/>
+<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="121,5,261,32"/>
 </map>

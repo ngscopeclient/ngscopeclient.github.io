@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,7 @@ $(function() {
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* ngscopeclient                                                                                                        *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2025 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -103,7 +103,7 @@ $(function() {
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">class </span><a class="code hl_class" href="classMainWindow.html">MainWindow</a>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classWorkspace.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="classWorkspace.html">Workspace</a></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classWorkspace.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="classWorkspace.html">Workspace</a> : <span class="keyword">public</span> <a class="code hl_class" href="classSerializableObject.html">SerializableObject</a></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_class" href="classWorkspace.html">Workspace</a>(<span class="keyword">const</span> YAML::Node&amp; node, <a class="code hl_class" href="classSession.html">Session</a>&amp; session, <a class="code hl_class" href="classMainWindow.html">MainWindow</a>* parent);</div>
@@ -134,7 +134,8 @@ $(function() {
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassMainWindow_html"><div class="ttname"><a href="classMainWindow.html">MainWindow</a></div><div class="ttdoc">Top level application window.</div><div class="ttdef"><b>Definition:</b> MainWindow.h:115</div></div>
+<div class="ttc" id="aclassMainWindow_html"><div class="ttname"><a href="classMainWindow.html">MainWindow</a></div><div class="ttdoc">Top level application window.</div><div class="ttdef"><b>Definition:</b> MainWindow.h:114</div></div>
+<div class="ttc" id="aclassSerializableObject_html"><div class="ttname"><a href="classSerializableObject.html">SerializableObject</a></div><div class="ttdef"><b>Definition:</b> SerializableObject.h:40</div></div>
 <div class="ttc" id="aclassSession_html"><div class="ttname"><a href="classSession.html">Session</a></div><div class="ttdoc">A Session stores all of the instrument configuration and other state the user has open.</div><div class="ttdef"><b>Definition:</b> Session.h:95</div></div>
 <div class="ttc" id="aclassWorkspace_html"><div class="ttname"><a href="classWorkspace.html">Workspace</a></div><div class="ttdef"><b>Definition:</b> Workspace.h:41</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classMilStd1553Symbol.html" title=" " alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node1" href="$classLogSink.html" title="Base class for all log sinks." alt="" coords="5,56,79,83"/>
+<area shape="rect" id="node2" href="$classFILELogSink.html" title="A log sink writing to a FILE* file handle." alt="" coords="127,5,227,32"/>
+<area shape="rect" id="node3" href="$classGuiLogSink.html" title="Log sink for displaying logs in the GUI." alt="" coords="129,56,224,83"/>
+<area shape="rect" id="node4" href="$classSTDLogSink.html" title="A log sink writing to stdout/stderr depending on severity." alt="" coords="127,107,226,133"/>
+<area shape="rect" id="node5" href="$classColoredSTDLogSink.html" title="A STDLogSink that colorizes &quot;warning&quot; or &quot;error&quot; keywords." alt="" coords="275,107,424,133"/>
 </map>

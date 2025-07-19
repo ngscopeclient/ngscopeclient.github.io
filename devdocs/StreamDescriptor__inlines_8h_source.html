@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -71,9 +71,9 @@ $(function() {
 <div class="contents">
 <a href="StreamDescriptor__inlines_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/***********************************************************************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal v0.1                                                                                                     *</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2023 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2025 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -175,22 +175,30 @@ $(function() {
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        schan-&gt;SetVoltageRange(v, m_stream);</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>}</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keyword">inline</span> <span class="keywordtype">void</span> StreamDescriptor::SetOffset(<span class="keywordtype">float</span> v)</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keyword">inline</span> <span class="keywordtype">bool</span> StreamDescriptor::IsInverted()</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>{</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keyword">auto</span> schan = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="classOscilloscopeChannel.html">OscilloscopeChannel</a>*<span class="keyword">&gt;</span>(m_channel);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordflow">if</span>(schan)</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        schan-&gt;SetOffset(v, m_stream);</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>}</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keyword">inline</span> <span class="keywordtype">float</span> StreamDescriptor::GetScalarValue()</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>{</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordflow">if</span>(m_channel == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        <span class="keywordflow">return</span> m_channel-&gt;<a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(m_stream);</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordflow">return</span> schan-&gt;IsInverted(m_stream);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>}</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keyword">inline</span> <span class="keywordtype">void</span> StreamDescriptor::SetOffset(<span class="keywordtype">float</span> v)</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>{</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keyword">auto</span> schan = <span class="keyword">dynamic_cast&lt;</span><a class="code hl_class" href="classOscilloscopeChannel.html">OscilloscopeChannel</a>*<span class="keyword">&gt;</span>(m_channel);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">if</span>(schan)</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        schan-&gt;SetOffset(v, m_stream);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>}</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keyword">inline</span> <span class="keywordtype">float</span> StreamDescriptor::GetScalarValue()</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>{</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordflow">if</span>(m_channel == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <span class="keywordflow">return</span> m_channel-&gt;<a class="code hl_function" href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">GetScalarValue</a>(m_stream);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>}</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a553a57c1de1efb782fa17e3ce7b5f6f3"><div class="ttname"><a href="classInstrumentChannel.html#a553a57c1de1efb782fa17e3ce7b5f6f3">InstrumentChannel::GetData</a></div><div class="ttdeci">WaveformBase * GetData(size_t stream)</div><div class="ttdoc">Get the contents of a data stream.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:184</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a572fc761d37acb293459fa5c19af0a7c"><div class="ttname"><a href="classInstrumentChannel.html#a572fc761d37acb293459fa5c19af0a7c">InstrumentChannel::GetYAxisUnits</a></div><div class="ttdeci">virtual Unit GetYAxisUnits(size_t stream)</div><div class="ttdoc">Returns the Y axis unit for a specified stream.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:140</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a67fab2d7362ce1fc7b4cd2bb6c5705dd"><div class="ttname"><a href="classInstrumentChannel.html#a67fab2d7362ce1fc7b4cd2bb6c5705dd">InstrumentChannel::GetScalarValue</a></div><div class="ttdeci">float GetScalarValue(size_t stream)</div><div class="ttdoc">Gets the value of a scalar data stream.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:200</div></div>

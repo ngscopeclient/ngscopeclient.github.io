@@ -1,12 +1,13 @@
 <map id="PeakDetectionFilter" name="PeakDetectionFilter">
-<area shape="rect" id="node1" title="A filter that does peak detection." alt="" coords="125,304,275,331"/>
-<area shape="rect" id="node7" href="$classFFTFilter.html" title=" " alt="" coords="39,379,118,405"/>
-<area shape="rect" id="node9" href="$classPeakHoldFilter.html" title=" " alt="" coords="142,379,258,405"/>
-<area shape="rect" id="node10" href="$classPeaksFilter.html" title=" " alt="" coords="283,379,376,405"/>
-<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="119,229,174,256"/>
-<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="68,155,225,181"/>
-<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="73,80,220,107"/>
-<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="83,5,210,32"/>
-<area shape="rect" id="node6" href="$classPeakDetector.html" title=" " alt="" coords="198,229,309,256"/>
-<area shape="rect" id="node8" href="$classJitterSpectrumFilter.html" title=" " alt="" coords="5,453,152,480"/>
+<area shape="rect" id="node1" title="A filter that does peak detection." alt="" coords="125,379,275,405"/>
+<area shape="rect" id="node8" href="$classFFTFilter.html" title=" " alt="" coords="39,453,118,480"/>
+<area shape="rect" id="node10" href="$classPeakHoldFilter.html" title=" " alt="" coords="142,453,258,480"/>
+<area shape="rect" id="node11" href="$classPeaksFilter.html" title=" " alt="" coords="283,453,376,480"/>
+<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="119,304,174,331"/>
+<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="68,229,225,256"/>
+<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="73,155,220,181"/>
+<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="83,80,210,107"/>
+<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="77,5,217,32"/>
+<area shape="rect" id="node7" href="$classPeakDetector.html" title=" " alt="" coords="198,304,309,331"/>
+<area shape="rect" id="node9" href="$classJitterSpectrumFilter.html" title=" " alt="" coords="5,528,152,555"/>
 </map>

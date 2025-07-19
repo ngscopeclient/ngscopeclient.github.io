@@ -1,9 +1,10 @@
 <map id="SCPIMultimeter" name="SCPIMultimeter">
-<area shape="rect" id="node1" title="An SCPI&#45;based multimeter." alt="" coords="103,261,225,288"/>
-<area shape="rect" id="node2" href="$classMultimeter.html" title="A multimeter." alt="" coords="185,185,279,212"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="185,109,279,136"/>
-<area shape="rect" id="node5" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="37,185,160,212"/>
+<area shape="rect" id="node1" title="An SCPI&#45;based multimeter." alt="" coords="108,261,231,288"/>
+<area shape="rect" id="node2" href="$classMultimeter.html" title="A multimeter." alt="" coords="190,185,285,212"/>
+<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="191,109,284,136"/>
+<area shape="rect" id="node6" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="43,185,165,212"/>
 <area shape="rect" id="node4" title=" " alt="" coords="141,5,333,47"/>
-<area shape="rect" id="node6" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,109,115,136"/>
-<area shape="rect" id="node7" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
+<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="358,13,498,39"/>
+<area shape="rect" id="node7" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="24,109,120,136"/>
+<area shape="rect" id="node8" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
 </map>

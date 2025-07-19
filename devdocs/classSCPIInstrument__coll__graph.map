@@ -1,7 +1,8 @@
 <map id="SCPIInstrument" name="SCPIInstrument">
-<area shape="rect" id="node1" title="An SCPI&#45;based oscilloscope." alt="" coords="113,185,236,212"/>
-<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="69,109,163,136"/>
+<area shape="rect" id="node1" title="An SCPI&#45;based oscilloscope." alt="" coords="305,185,428,212"/>
+<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,109,339,136"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node4" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="215,109,311,136"/>
-<area shape="rect" id="node5" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="221,13,333,39"/>
+<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
+<area shape="rect" id="node5" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="380,109,476,136"/>
+<area shape="rect" id="node6" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="387,13,499,39"/>
 </map>

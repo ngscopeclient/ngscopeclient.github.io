@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -81,11 +81,12 @@ Inheritance diagram for RFSignalGenerator:</div>
 <div class="dyncontent">
 <div class="center"><img src="classRFSignalGenerator__inherit__graph.png" border="0" usemap="#aRFSignalGenerator_inherit__map" alt="Inheritance graph"/></div>
 <map name="aRFSignalGenerator_inherit__map" id="aRFSignalGenerator_inherit__map">
-<area shape="rect" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="41,169,185,196"/>
-<area shape="rect" href="classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="26,244,199,271"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="66,95,159,121"/>
-<area shape="rect" title=" " alt="" coords="17,5,209,47"/>
-<area shape="rect" href="classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="5,319,220,345"/>
+<area shape="rect" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="124,169,268,196"/>
+<area shape="rect" href="classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="109,244,283,271"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,95,243,121"/>
+<area shape="rect" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
+<area shape="rect" href="classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="89,319,303,345"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -93,9 +94,10 @@ Collaboration diagram for RFSignalGenerator:</div>
 <div class="dyncontent">
 <div class="center"><img src="classRFSignalGenerator__coll__graph.png" border="0" usemap="#aRFSignalGenerator_coll__map" alt="Collaboration graph"/></div>
 <map name="aRFSignalGenerator_coll__map" id="aRFSignalGenerator_coll__map">
-<area shape="rect" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="29,169,173,196"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,95,148,121"/>
+<area shape="rect" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="124,169,268,196"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,95,243,121"/>
 <area shape="rect" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -307,6 +309,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memitem:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">AcquireData</a> ()=0</td></tr>
 <tr class="memdesc:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">More...</a><br /></td></tr>
 <tr class="separator:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">FlushConfigCache</a> ()</td></tr>
+<tr class="memdesc:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">More...</a><br /></td></tr>
+<tr class="separator:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual YAML::Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">SerializeConfiguration</a> (<a class="el" href="classIDTable.html">IDTable</a> &amp;table) const</td></tr>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>

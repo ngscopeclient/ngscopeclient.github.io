@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -80,11 +80,11 @@ Collaboration diagram for TestWaveformSource:</div>
 <div class="dyncontent">
 <div class="center"><img src="classTestWaveformSource__coll__graph.png" border="0" usemap="#aTestWaveformSource_coll__map" alt="Collaboration graph"/></div>
 <map name="aTestWaveformSource_coll__map" id="aTestWaveformSource_coll__map">
-<area shape="rect" title="Helper class for generating test waveforms." alt="" coords="236,272,396,299"/>
+<area shape="rect" title="Helper class for generating test waveforms." alt="" coords="236,287,396,313"/>
 <area shape="rect" href="classAcceleratorBuffer.html" title=" " alt="" coords="21,109,168,151"/>
 <area shape="rect" href="classAlignedAllocator.html" title=" " alt="" coords="5,5,184,47"/>
 <area shape="rect" href="classComputePipeline.html" title="Encapsulates a Vulkan compute pipeline and all necessary resources to use it." alt="" coords="249,117,383,143"/>
-<area shape="rect" href="classSParameters.html" title="A set of S&#45;parameters." alt="" coords="499,117,605,143"/>
+<area shape="rect" href="classSParameters.html" title="A set of S&#45;parameters." alt="" coords="518,117,623,143"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -99,18 +99,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba25a25c1b0008546e386523cf1325fc"><td class="memItemLeft" align="right" valign="top"><a id="aba25a25c1b0008546e386523cf1325fc" name="aba25a25c1b0008546e386523cf1325fc"></a>
 <a class="el" href="classTestWaveformSource.html">TestWaveformSource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classTestWaveformSource.html">TestWaveformSource</a> &amp;)=delete</td></tr>
 <tr class="separator:aba25a25c1b0008546e386523cf1325fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd7637cadcf6e8a9eac1b5de3b0f286"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#aabd7637cadcf6e8a9eac1b5de3b0f286">GenerateNoisySinewave</a> (float amplitude, float startphase, float period, int64_t sampleperiod, size_t depth, float noise_stdev=0.01, std::function&lt; void(float)&gt; downloadCallback=nullptr)</td></tr>
-<tr class="memdesc:aabd7637cadcf6e8a9eac1b5de3b0f286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a sinewave with AWGN added.  <a href="classTestWaveformSource.html#aabd7637cadcf6e8a9eac1b5de3b0f286">More...</a><br /></td></tr>
-<tr class="separator:aabd7637cadcf6e8a9eac1b5de3b0f286"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9f6c6bba042f8a1d4dc214ae1ee20fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#ac9f6c6bba042f8a1d4dc214ae1ee20fe">GenerateNoisySinewaveSum</a> (float amplitude, float startphase1, float startphase2, float period1, float period2, int64_t sampleperiod, size_t depth, float noise_stdev=0.01, std::function&lt; void(float)&gt; downloadCallback=nullptr)</td></tr>
-<tr class="memdesc:ac9f6c6bba042f8a1d4dc214ae1ee20fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a sum of two sinewaves with AWGN added.  <a href="classTestWaveformSource.html#ac9f6c6bba042f8a1d4dc214ae1ee20fe">More...</a><br /></td></tr>
-<tr class="separator:ac9f6c6bba042f8a1d4dc214ae1ee20fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd928f3c65eb0395a632ad112caeab28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#abd928f3c65eb0395a632ad112caeab28">GeneratePRBS31</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue, float amplitude, float period, int64_t sampleperiod, size_t depth, bool lpf=true, float noise_stdev=0.01, std::function&lt; void(float)&gt; downloadCallback=nullptr)</td></tr>
-<tr class="memdesc:abd928f3c65eb0395a632ad112caeab28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a PRBS-31 waveform through a lossy channel with AWGN.  <a href="classTestWaveformSource.html#abd928f3c65eb0395a632ad112caeab28">More...</a><br /></td></tr>
-<tr class="separator:abd928f3c65eb0395a632ad112caeab28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11f616f997199ad981124d67788ae044"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#a11f616f997199ad981124d67788ae044">Generate8b10b</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue, float amplitude, float period, int64_t sampleperiod, size_t depth, bool lpf=true, float noise_stdev=0.01, std::function&lt; void(float)&gt; downloadCallback=nullptr)</td></tr>
-<tr class="memdesc:a11f616f997199ad981124d67788ae044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a K28.5 D16.2 (1000base-X / SGMII idle) waveform through a lossy channel with AWGN.  <a href="classTestWaveformSource.html#a11f616f997199ad981124d67788ae044">More...</a><br /></td></tr>
-<tr class="separator:a11f616f997199ad981124d67788ae044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48cb79f95d43caadac4094f34e7772ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#a48cb79f95d43caadac4094f34e7772ca">GenerateNoisySinewave</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue, <a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *wfm, float amplitude, float startphase, float period, int64_t sampleperiod, size_t depth, float noise_stdev=0.01)</td></tr>
+<tr class="memdesc:a48cb79f95d43caadac4094f34e7772ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a sinewave with AWGN added.  <a href="classTestWaveformSource.html#a48cb79f95d43caadac4094f34e7772ca">More...</a><br /></td></tr>
+<tr class="separator:a48cb79f95d43caadac4094f34e7772ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d85b2e7d89618eeb71302d86b792df7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#a9d85b2e7d89618eeb71302d86b792df7">GenerateNoisySinewaveSum</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue, <a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *wfm, float amplitude, float startphase1, float startphase2, float period1, float period2, int64_t sampleperiod, size_t depth, float noise_stdev=0.01)</td></tr>
+<tr class="memdesc:a9d85b2e7d89618eeb71302d86b792df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a sum of two sinewaves with AWGN added.  <a href="classTestWaveformSource.html#a9d85b2e7d89618eeb71302d86b792df7">More...</a><br /></td></tr>
+<tr class="separator:a9d85b2e7d89618eeb71302d86b792df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75f6b411c2604692b8d243be4f11990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#aa75f6b411c2604692b8d243be4f11990">GeneratePRBS31</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue, <a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *wfm, float amplitude, float period, int64_t sampleperiod, size_t depth, bool lpf=true, float noise_stdev=0.01)</td></tr>
+<tr class="memdesc:aa75f6b411c2604692b8d243be4f11990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a PRBS-31 waveform through a lossy channel with AWGN.  <a href="classTestWaveformSource.html#aa75f6b411c2604692b8d243be4f11990">More...</a><br /></td></tr>
+<tr class="separator:aa75f6b411c2604692b8d243be4f11990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a6236f9644c90c3d66b06084531ddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#a54a6236f9644c90c3d66b06084531ddc">Generate8b10b</a> (vk::raii::CommandBuffer &amp;cmdBuf, std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; queue, <a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *wfm, float amplitude, float period, int64_t sampleperiod, size_t depth, bool lpf=true, float noise_stdev=0.01)</td></tr>
+<tr class="memdesc:a54a6236f9644c90c3d66b06084531ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a K28.5 D16.2 (1000base-X / SGMII idle) waveform through a lossy channel with AWGN.  <a href="classTestWaveformSource.html#a54a6236f9644c90c3d66b06084531ddc">More...</a><br /></td></tr>
+<tr class="separator:a54a6236f9644c90c3d66b06084531ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d16ce9b2534ca420a48ce77d57cccf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWaveformBase.html">WaveformBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTestWaveformSource.html#a0d16ce9b2534ca420a48ce77d57cccf8">GenerateStep</a> (float vlo, float vhi, int64_t sampleperiod, size_t depth)</td></tr>
 <tr class="memdesc:a0d16ce9b2534ca420a48ce77d57cccf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a step waveform.  <a href="classTestWaveformSource.html#a0d16ce9b2534ca420a48ce77d57cccf8">More...</a><br /></td></tr>
 <tr class="separator:a0d16ce9b2534ca420a48ce77d57cccf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +170,18 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedBinSize</b>
 <a class="el" href="classComputePipeline.html">ComputePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_channelEmulationComputePipeline</b></td></tr>
 <tr class="memdesc:a14c97e9d16e7894bb53b15ddd248fe13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pipeline for channel emulation. <br /></td></tr>
 <tr class="separator:a14c97e9d16e7894bb53b15ddd248fe13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8af6054907f963a7241787082ac76ecb"><td class="memItemLeft" align="right" valign="top"><a id="a8af6054907f963a7241787082ac76ecb" name="a8af6054907f963a7241787082ac76ecb"></a>
+<a class="el" href="classComputePipeline.html">ComputePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_noisySineComputePipeline</b></td></tr>
+<tr class="memdesc:a8af6054907f963a7241787082ac76ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pipeline for noisy sinewave generation. <br /></td></tr>
+<tr class="separator:a8af6054907f963a7241787082ac76ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc81872981dc4a06989dd3dab4b3a69"><td class="memItemLeft" align="right" valign="top"><a id="a5dc81872981dc4a06989dd3dab4b3a69" name="a5dc81872981dc4a06989dd3dab4b3a69"></a>
+<a class="el" href="classComputePipeline.html">ComputePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_noisySineSumComputePipeline</b></td></tr>
+<tr class="memdesc:a5dc81872981dc4a06989dd3dab4b3a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pipeline for noisy sinewave sum generation. <br /></td></tr>
+<tr class="separator:a5dc81872981dc4a06989dd3dab4b3a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a475cab3694cc26ae0907f33fb944bf9c"><td class="memItemLeft" align="right" valign="top"><a id="a475cab3694cc26ae0907f33fb944bf9c" name="a475cab3694cc26ae0907f33fb944bf9c"></a>
+<a class="el" href="classComputePipeline.html">ComputePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_degradeComputePipeline</b></td></tr>
+<tr class="memdesc:a475cab3694cc26ae0907f33fb944bf9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pipeline for DegradeSerialData. <br /></td></tr>
+<tr class="separator:a475cab3694cc26ae0907f33fb944bf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17fcef61448c1688eb63ca3f40674d0e"><td class="memItemLeft" align="right" valign="top"><a id="a17fcef61448c1688eb63ca3f40674d0e" name="a17fcef61448c1688eb63ca3f40674d0e"></a>
 <a class="el" href="classSParameters.html">SParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_sparams</b></td></tr>
 <tr class="memdesc:a17fcef61448c1688eb63ca3f40674d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">S-parameters of the channel. <br /></td></tr>
@@ -260,14 +272,14 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
 
 </div>
 </div>
-<a id="a11f616f997199ad981124d67788ae044" name="a11f616f997199ad981124d67788ae044"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11f616f997199ad981124d67788ae044">&#9670;&nbsp;</a></span>Generate8b10b()</h2>
+<a id="a54a6236f9644c90c3d66b06084531ddc" name="a54a6236f9644c90c3d66b06084531ddc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a6236f9644c90c3d66b06084531ddc">&#9670;&nbsp;</a></span>Generate8b10b()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classWaveformBase.html">WaveformBase</a> * TestWaveformSource::Generate8b10b </td>
+          <td class="memname">void TestWaveformSource::Generate8b10b </td>
           <td>(</td>
           <td class="paramtype">vk::raii::CommandBuffer &amp;&#160;</td>
           <td class="paramname"><em>cmdBuf</em>, </td>
@@ -277,6 +289,12 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
           <td></td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td>
           <td class="paramname"><em>queue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *&#160;</td>
+          <td class="paramname"><em>wfm</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -312,13 +330,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
-          <td class="paramname"><em>downloadCallback</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -346,15 +358,33 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
 
 </div>
 </div>
-<a id="aabd7637cadcf6e8a9eac1b5de3b0f286" name="aabd7637cadcf6e8a9eac1b5de3b0f286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabd7637cadcf6e8a9eac1b5de3b0f286">&#9670;&nbsp;</a></span>GenerateNoisySinewave()</h2>
+<a id="a48cb79f95d43caadac4094f34e7772ca" name="a48cb79f95d43caadac4094f34e7772ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48cb79f95d43caadac4094f34e7772ca">&#9670;&nbsp;</a></span>GenerateNoisySinewave()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classWaveformBase.html">WaveformBase</a> * TestWaveformSource::GenerateNoisySinewave </td>
+          <td class="memname">void TestWaveformSource::GenerateNoisySinewave </td>
           <td>(</td>
+          <td class="paramtype">vk::raii::CommandBuffer &amp;&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td>
+          <td class="paramname"><em>queue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *&#160;</td>
+          <td class="paramname"><em>wfm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>amplitude</em>, </td>
         </tr>
@@ -386,13 +416,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
-          <td class="paramname"><em>downloadCallback</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -405,28 +429,48 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
 <p>Generates a sinewave with AWGN added. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">cmdBuf</td><td>Vulkan command buffer to use </td></tr>
+    <tr><td class="paramname">queue</td><td>Vulkan queue to use </td></tr>
+    <tr><td class="paramname">wfm</td><td>Waveform to fill </td></tr>
     <tr><td class="paramname">amplitude</td><td>P-P amplitude of the waveform in volts </td></tr>
     <tr><td class="paramname">startphase</td><td>Starting phase in radians </td></tr>
     <tr><td class="paramname">period</td><td>Period of the sine, in femtoseconds </td></tr>
     <tr><td class="paramname">sampleperiod</td><td>Interval between samples, in femtoseconds </td></tr>
     <tr><td class="paramname">depth</td><td>Total number of samples to generate </td></tr>
     <tr><td class="paramname">noise_stdev</td><td>Standard deviation of the AWGN in volts </td></tr>
-    <tr><td class="paramname">downloadCallback</td><td>Callback for download progress </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ac9f6c6bba042f8a1d4dc214ae1ee20fe" name="ac9f6c6bba042f8a1d4dc214ae1ee20fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9f6c6bba042f8a1d4dc214ae1ee20fe">&#9670;&nbsp;</a></span>GenerateNoisySinewaveSum()</h2>
+<a id="a9d85b2e7d89618eeb71302d86b792df7" name="a9d85b2e7d89618eeb71302d86b792df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d85b2e7d89618eeb71302d86b792df7">&#9670;&nbsp;</a></span>GenerateNoisySinewaveSum()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classWaveformBase.html">WaveformBase</a> * TestWaveformSource::GenerateNoisySinewaveSum </td>
+          <td class="memname">void TestWaveformSource::GenerateNoisySinewaveSum </td>
           <td>(</td>
+          <td class="paramtype">vk::raii::CommandBuffer &amp;&#160;</td>
+          <td class="paramname"><em>cmdBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td>
+          <td class="paramname"><em>queue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *&#160;</td>
+          <td class="paramname"><em>wfm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>amplitude</em>, </td>
         </tr>
@@ -470,13 +514,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
-          <td class="paramname"><em>downloadCallback</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -489,6 +527,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
 <p>Generates a sum of two sinewaves with AWGN added. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">cmdBuf</td><td>Vulkan command buffer to use </td></tr>
+    <tr><td class="paramname">queue</td><td>Vulkan queue to use </td></tr>
+    <tr><td class="paramname">wfm</td><td>Waveform to fill </td></tr>
     <tr><td class="paramname">amplitude</td><td>P-P amplitude of the waveform in volts </td></tr>
     <tr><td class="paramname">startphase1</td><td>Starting phase of the first sine in radians </td></tr>
     <tr><td class="paramname">startphase2</td><td>Starting phase of the second sine in radians </td></tr>
@@ -497,21 +538,20 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
     <tr><td class="paramname">sampleperiod</td><td>Interval between samples, in femtoseconds </td></tr>
     <tr><td class="paramname">depth</td><td>Total number of samples to generate </td></tr>
     <tr><td class="paramname">noise_stdev</td><td>Standard deviation of the AWGN in volts </td></tr>
-    <tr><td class="paramname">downloadCallback</td><td>Callback for download progress </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="abd928f3c65eb0395a632ad112caeab28" name="abd928f3c65eb0395a632ad112caeab28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd928f3c65eb0395a632ad112caeab28">&#9670;&nbsp;</a></span>GeneratePRBS31()</h2>
+<a id="aa75f6b411c2604692b8d243be4f11990" name="aa75f6b411c2604692b8d243be4f11990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa75f6b411c2604692b8d243be4f11990">&#9670;&nbsp;</a></span>GeneratePRBS31()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classWaveformBase.html">WaveformBase</a> * TestWaveformSource::GeneratePRBS31 </td>
+          <td class="memname">void TestWaveformSource::GeneratePRBS31 </td>
           <td>(</td>
           <td class="paramtype">vk::raii::CommandBuffer &amp;&#160;</td>
           <td class="paramname"><em>cmdBuf</em>, </td>
@@ -521,6 +561,12 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
           <td></td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td>
           <td class="paramname"><em>queue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUniformWaveform.html">UniformAnalogWaveform</a> *&#160;</td>
+          <td class="paramname"><em>wfm</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -556,13 +602,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(float)&gt;&#160;</td>
-          <td class="paramname"><em>downloadCallback</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>noise_stdev</em> = <code>0.01</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -577,6 +617,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedRawSize</b>
   <table class="params">
     <tr><td class="paramname">cmdBuf</td><td>Vulkan command buffer to use for channel emulation </td></tr>
     <tr><td class="paramname">queue</td><td>Vulkan queue to use for channel emulation </td></tr>
+    <tr><td class="paramname">wfm</td><td>Waveform to fill </td></tr>
     <tr><td class="paramname">amplitude</td><td>P-P amplitude of the waveform in volts </td></tr>
     <tr><td class="paramname">period</td><td><a class="el" href="classUnit.html" title="A unit of measurement, plus conversion to pretty-printed output.">Unit</a> interval, in femtoseconds </td></tr>
     <tr><td class="paramname">sampleperiod</td><td>Interval between samples, in femtoseconds </td></tr>

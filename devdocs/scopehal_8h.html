@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -89,6 +89,7 @@ $(function() {
 <code>#include &lt;cinttypes&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
 <code>#include &lt;float.h&gt;</code><br />
+<code>#include &lt;shared_mutex&gt;</code><br />
 <code>#include &lt;sigc++/sigc++.h&gt;</code><br />
 <code>#include &lt;yaml-cpp/yaml.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="log_8h_source.html">../log/log.h</a>&quot;</code><br />
@@ -103,7 +104,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="SCPITransport_8h_source.html">SCPITransport.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="SCPISocketTransport_8h_source.html">SCPISocketTransport.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="SCPITwinLanTransport_8h_source.html">SCPITwinLanTransport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="SCPILinuxGPIBTransport_8h_source.html">SCPILinuxGPIBTransport.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="SCPILxiTransport_8h_source.html">SCPILxiTransport.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="SCPINullTransport_8h_source.html">SCPINullTransport.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="SCPIUARTTransport_8h_source.html">SCPIUARTTransport.h</a>&quot;</code><br />
@@ -170,6 +170,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFIRFilterArgs.html">FIRFilterArgs</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structConvertRawSamplesShaderArgs.html">ConvertRawSamplesShaderArgs</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompileTimeAssert_3_01true_01_4.html">CompileTimeAssert&lt; true &gt;</a></td></tr>
@@ -177,6 +179,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a4e25ba38a44ebe306393816ade326dff"><td class="memItemLeft" align="right" valign="top"><a id="a4e25ba38a44ebe306393816ade326dff" name="a4e25ba38a44ebe306393816ade326dff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>i64abs</b>(x)&#160;&#160;&#160;labs(x)</td></tr>
+<tr class="separator:a4e25ba38a44ebe306393816ade326dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11f9b6915c9443403f486fbb862d3a6e"><td class="memItemLeft" align="right" valign="top"><a id="a11f9b6915c9443403f486fbb862d3a6e" name="a11f9b6915c9443403f486fbb862d3a6e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>FS_PER_PICOSECOND</b>&#160;&#160;&#160;1e3</td></tr>
 <tr class="separator:a11f9b6915c9443403f486fbb862d3a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +203,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a946434e970acfa1709d7b796e54a75a8"><td class="memItemLeft" align="right" valign="top"><a id="a946434e970acfa1709d7b796e54a75a8" name="a946434e970acfa1709d7b796e54a75a8"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetComputeBlockCount</b> (size_t numGlobal, size_t blockSize)</td></tr>
+<tr class="separator:a946434e970acfa1709d7b796e54a75a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40c797de6b850456d8387f8d3517daf4"><td class="memItemLeft" align="right" valign="top"><a id="a40c797de6b850456d8387f8d3517daf4" name="a40c797de6b850456d8387f8d3517daf4"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>ConvertVectorSignalToScalar</b> (const std::vector&lt; bool &gt; &amp;bits)</td></tr>
 <tr class="separator:a40c797de6b850456d8387f8d3517daf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -286,9 +294,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>str_replace</b
 <tr class="memitem:a2e33c7e95b8ee1671b24ee44a1979de2"><td class="memItemLeft" align="right" valign="top"><a id="a2e33c7e95b8ee1671b24ee44a1979de2" name="a2e33c7e95b8ee1671b24ee44a1979de2"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>strtolower</b> (const std::string &amp;s)</td></tr>
 <tr class="separator:a2e33c7e95b8ee1671b24ee44a1979de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a946434e970acfa1709d7b796e54a75a8"><td class="memItemLeft" align="right" valign="top"><a id="a946434e970acfa1709d7b796e54a75a8" name="a946434e970acfa1709d7b796e54a75a8"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetComputeBlockCount</b> (size_t numGlobal, size_t blockSize)</td></tr>
-<tr class="separator:a946434e970acfa1709d7b796e54a75a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2501a6a3a7a1a4208b0e03c7b33247a3"><td class="memItemLeft" align="right" valign="top"><a id="a2501a6a3a7a1a4208b0e03c7b33247a3" name="a2501a6a3a7a1a4208b0e03c7b33247a3"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>ExpandPath</b> (const std::string &amp;in)</td></tr>
 <tr class="separator:a2501a6a3a7a1a4208b0e03c7b33247a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -312,14 +317,9 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><b>ScopehalGetVe
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac651e49d657c994eab7bb45f656df02f"><td class="memItemLeft" align="right" valign="top"><a id="ac651e49d657c994eab7bb45f656df02f" name="ac651e49d657c994eab7bb45f656df02f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_gpuFilterEnabled</b></td></tr>
-<tr class="memdesc:ac651e49d657c994eab7bb45f656df02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if filters can use GPU acceleration. <br /></td></tr>
+<tr class="memitem:ac651e49d657c994eab7bb45f656df02f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scopehal_8h.html#ac651e49d657c994eab7bb45f656df02f">g_gpuFilterEnabled</a></td></tr>
+<tr class="memdesc:ac651e49d657c994eab7bb45f656df02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if filters can use GPU acceleration.  <a href="scopehal_8h.html#ac651e49d657c994eab7bb45f656df02f">More...</a><br /></td></tr>
 <tr class="separator:ac651e49d657c994eab7bb45f656df02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a408e714cf7e625ed23da098ad12263f6"><td class="memItemLeft" align="right" valign="top"><a id="a408e714cf7e625ed23da098ad12263f6" name="a408e714cf7e625ed23da098ad12263f6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_gpuScopeDriverEnabled</b></td></tr>
-<tr class="memdesc:a408e714cf7e625ed23da098ad12263f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if scope drivers can use GPU acceleration. <br /></td></tr>
-<tr class="separator:a408e714cf7e625ed23da098ad12263f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabc02de1971874644efec59e1c9827a09"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_hasShaderFloat64</b></td></tr>
 <tr class="memdesc:gabc02de1971874644efec59e1c9827a09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the float64 type is available for use in shaders and SSBOs. <br /></td></tr>
@@ -405,11 +405,65 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>g_vkLocalMemoryHe
 <tr class="memitem:gaf19e835716764bd983d2ba65c6d451e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vksupport.html#gaf19e835716764bd983d2ba65c6d451e7">g_vulkanDeviceHasUnifiedMemory</a></td></tr>
 <tr class="memdesc:gaf19e835716764bd983d2ba65c6d451e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the Vulkan device is unified memory.  <a href="group__vksupport.html#gaf19e835716764bd983d2ba65c6d451e7">More...</a><br /></td></tr>
 <tr class="separator:gaf19e835716764bd983d2ba65c6d451e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3b3caa42198dc41a73b03f1792e6f2c"><td class="memItemLeft" align="right" valign="top">std::shared_mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scopehal_8h.html#af3b3caa42198dc41a73b03f1792e6f2c">g_vulkanActivityMutex</a></td></tr>
+<tr class="memdesc:af3b3caa42198dc41a73b03f1792e6f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for controlling access to background Vulkan activity.  <a href="scopehal_8h.html#af3b3caa42198dc41a73b03f1792e6f2c">More...</a><br /></td></tr>
+<tr class="separator:af3b3caa42198dc41a73b03f1792e6f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Main library include file. </p>
 <dl class="section author"><dt>Author</dt><dd>Andrew D. Zonenberg </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a id="ac651e49d657c994eab7bb45f656df02f" name="ac651e49d657c994eab7bb45f656df02f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac651e49d657c994eab7bb45f656df02f">&#9670;&nbsp;</a></span>g_gpuFilterEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool g_gpuFilterEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if filters can use GPU acceleration. </p>
+<p >Will be deprecated soon since Vulkan is now a mandatory core part of the application </p>
+
+</div>
+</div>
+<a id="af3b3caa42198dc41a73b03f1792e6f2c" name="af3b3caa42198dc41a73b03f1792e6f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3b3caa42198dc41a73b03f1792e6f2c">&#9670;&nbsp;</a></span>g_vulkanActivityMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_mutex g_vulkanActivityMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mutex for controlling access to background Vulkan activity. </p>
+<p >Arbitrarily many threads can own this mutex at once, but it must be held when calling vkDeviceWaitIdle. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4

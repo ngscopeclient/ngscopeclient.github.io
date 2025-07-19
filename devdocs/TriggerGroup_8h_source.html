@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,7 @@ $(function() {
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* ngscopeclient                                                                                                        *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2025 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -103,7 +103,7 @@ $(function() {
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;../../lib/scopehal/PausableFilter.h&quot;</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classTriggerGroup.html">   54</a></span><span class="keyword">class </span><a class="code hl_class" href="classTriggerGroup.html">TriggerGroup</a></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classTriggerGroup.html">   54</a></span><span class="keyword">class </span><a class="code hl_class" href="classTriggerGroup.html">TriggerGroup</a> : <span class="keyword">public</span> <a class="code hl_class" href="classSerializableObject.html">SerializableObject</a></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>{</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keyword">enum</span> TriggerType</div>
@@ -159,6 +159,7 @@ $(function() {
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassAddFilter_html"><div class="ttname"><a href="classAddFilter.html">AddFilter</a></div><div class="ttdef"><b>Definition:</b> AddFilter.h:41</div></div>
 <div class="ttc" id="aclassPausableFilter_html"><div class="ttname"><a href="classPausableFilter.html">PausableFilter</a></div><div class="ttdoc">A filter which may be started and stopped.</div><div class="ttdef"><b>Definition:</b> PausableFilter.h:46</div></div>
+<div class="ttc" id="aclassSerializableObject_html"><div class="ttname"><a href="classSerializableObject.html">SerializableObject</a></div><div class="ttdef"><b>Definition:</b> SerializableObject.h:40</div></div>
 <div class="ttc" id="aclassSession_html"><div class="ttname"><a href="classSession.html">Session</a></div><div class="ttdoc">A Session stores all of the instrument configuration and other state the user has open.</div><div class="ttdef"><b>Definition:</b> Session.h:95</div></div>
 <div class="ttc" id="aclassTriggerGroup_html"><div class="ttname"><a href="classTriggerGroup.html">TriggerGroup</a></div><div class="ttdoc">A trigger group is a set of oscilloscopes that all trigger in lock-step.</div><div class="ttdef"><b>Definition:</b> TriggerGroup.h:55</div></div>
 <div class="ttc" id="aclassTriggerGroup_html_a09732cfba9d9bddcea6557c770e586db"><div class="ttname"><a href="classTriggerGroup.html#a09732cfba9d9bddcea6557c770e586db">TriggerGroup::m_default</a></div><div class="ttdeci">bool m_default</div><div class="ttdoc">True if we should be activated when the start/stop toolbar button is clicked.</div><div class="ttdef"><b>Definition:</b> TriggerGroup.h:98</div></div>

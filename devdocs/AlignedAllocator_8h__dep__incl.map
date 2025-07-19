@@ -1,52 +1,52 @@
 <map id="lib/scopehal/AlignedAllocator.h" name="lib/scopehal/AlignedAllocator.h">
-<area shape="rect" id="node1" title="Declaration of AlignedAllocator." alt="" coords="5898,5,6121,32"/>
-<area shape="rect" id="node2" href="$AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="5857,80,6036,121"/>
-<area shape="rect" id="node47" href="$Waveform_8h.html" title="Declaration of WaveformBase, SparseWaveformBase, UniformWaveformBase." alt="" coords="5984,169,6168,196"/>
-<area shape="rect" id="node3" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="5039,341,5265,367"/>
-<area shape="rect" id="node4" href="$scopehal_8h.html" title="Main library include file." alt="" coords="4914,430,5089,457"/>
-<area shape="rect" id="node41" href="$VulkanFFTPlan_8h.html" title="Declaration of VulkanFFTPlan." alt="" coords="6765,251,6979,278"/>
-<area shape="rect" id="node5" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="6277,519,6504,546"/>
-<area shape="rect" id="node6" href="$AgilentOscilloscope_8cpp.html" title="Implementation of AgilentOscilloscope." alt="" coords="6528,519,6787,546"/>
-<area shape="rect" id="node7" href="$AlientekPowerSupply_8cpp.html" title="Implementation of AlientekPowerSupply." alt="" coords="6810,512,7009,553"/>
-<area shape="rect" id="node8" href="$AntikernelLabsOscilloscope_8cpp.html" title="Declaration of AntikernelLabsOscilloscope." alt="" coords="7032,512,7232,553"/>
-<area shape="rect" id="node9" href="$AntikernelLabsTriggerCrossbar_8cpp.html" title="Implementation of AntikernelLabsTriggerCrossbar." alt="" coords="7256,512,7456,553"/>
-<area shape="rect" id="node10" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="7481,512,7685,553"/>
-<area shape="rect" id="node11" href="$AseqSpectrometer_8cpp.html" title="Implementation of AseqSpectrometer." alt="" coords="7709,519,7960,546"/>
-<area shape="rect" id="node12" href="$BERT_8cpp.html" title="Implementation of BERT." alt="" coords="7984,519,8147,546"/>
-<area shape="rect" id="node13" href="$BERTInputChannel_8cpp.html" title="Implementation of BERTInputChannel." alt="" coords="5,519,256,546"/>
-<area shape="rect" id="node14" href="$BERTInputChannelWithDataCapture_8cpp.html" title="Implementation of BERTInputChannelWithDataCapture." alt="" coords="280,512,504,553"/>
-<area shape="rect" id="node15" href="$BERTOutputChannel_8cpp.html" title="Implementation of BERTOutputChannel." alt="" coords="529,519,791,546"/>
-<area shape="rect" id="node16" href="$BinaryDriver_8cpp.html" title="Helper class for binary drivers." alt="" coords="816,519,1029,546"/>
-<area shape="rect" id="node17" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="1054,519,1266,546"/>
-<area shape="rect" id="node18" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="1290,519,1537,546"/>
-<area shape="rect" id="node19" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="1561,512,1767,553"/>
-<area shape="rect" id="node20" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="1791,519,1995,546"/>
-<area shape="rect" id="node21" href="$CSVStreamInstrument_8cpp.html" title="Implementation of CSVStreamInstrument." alt="" coords="2020,519,2295,546"/>
-<area shape="rect" id="node22" href="$CommandLineDriver_8cpp.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="2319,512,2518,553"/>
-<area shape="rect" id="node23" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="2543,519,2785,546"/>
-<area shape="rect" id="node24" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="2810,512,3001,553"/>
-<area shape="rect" id="node25" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="3025,512,3236,553"/>
-<area shape="rect" id="node26" href="$DCAEdgeTrigger_8cpp.html" title="Implementation of DCAEdgeTrigger." alt="" coords="3259,519,3495,546"/>
-<area shape="rect" id="node27" href="$DSLabsOscilloscope_8cpp.html" title="Implementation of DSLabsOscilloscope." alt="" coords="3519,519,3780,546"/>
-<area shape="rect" id="node28" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="3805,519,4057,546"/>
-<area shape="rect" id="node29" href="$DemoPowerSupply_8cpp.html" title="Implementation of DemoPowerSupply." alt="" coords="4081,519,4333,546"/>
-<area shape="rect" id="node30" href="$DensityFunctionWaveform_8cpp.html" title="Implementation of DensityFunctionWaveform." alt="" coords="8423,512,8633,553"/>
-<area shape="rect" id="node31" href="$DigilentOscilloscope_8cpp.html" title="Implementation of DigilentOscilloscope." alt="" coords="4357,519,4621,546"/>
-<area shape="rect" id="node32" href="$DigitalIOChannel_8cpp.html" title="Implementation of DigitalIOChannel." alt="" coords="4646,519,4887,546"/>
-<area shape="rect" id="node33" href="$DigitalInputChannel_8cpp.html" title="Implementation of DigitalInputChannel." alt="" coords="4911,512,5091,553"/>
-<area shape="rect" id="node34" href="$DigitalOutputChannel_8cpp.html" title="Implementation of DigitalOutputChannel." alt="" coords="5115,512,5306,553"/>
-<area shape="rect" id="node35" href="$DropoutTrigger_8cpp.html" title="Implementation of DropoutTrigger." alt="" coords="5330,519,5558,546"/>
-<area shape="rect" id="node36" href="$EdgeTrigger_8cpp.html" title="Implementation of EdgeTrigger." alt="" coords="5583,519,5791,546"/>
-<area shape="rect" id="node37" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="5815,519,6006,546"/>
-<area shape="rect" id="node38" href="$EyeWaveform_8cpp.html" title="Implementation of EyeWaveform." alt="" coords="6030,519,6253,546"/>
-<area shape="rect" id="node39" href="$VulkanFFTPlan_8cpp.html" title="Implementation of VulkanFFTPlan." alt="" coords="8171,519,8399,546"/>
-<area shape="rect" id="node40" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="8657,519,8855,546"/>
-<area shape="rect" id="node42" href="$TestWaveformSource_8h.html" title="Declaration of TestWaveformSource." alt="" coords="6579,333,6778,375"/>
-<area shape="rect" id="node43" href="$ComplexSpectrogramFilter_8h.html" title="Declaration of ComplexSpectrogramFilter." alt="" coords="7040,423,7251,464"/>
-<area shape="rect" id="node44" href="$FFTFilter_8h.html" title="Declaration of FFTFilter." alt="" coords="6802,333,6942,375"/>
-<area shape="rect" id="node45" href="$SpectrogramFilter_8h.html" title="Declaration of SpectrogramFilter." alt="" coords="7069,333,7222,375"/>
-<area shape="rect" id="node46" href="$VulkanWindow_8cpp.html" title="Implementation of VulkanWindow." alt="" coords="6371,333,6555,375"/>
-<area shape="rect" id="node48" href="$DensityFunctionWaveform_8h.html" title="Declaration of DensityFunctionWaveform." alt="" coords="7098,244,7307,285"/>
-<area shape="rect" id="node49" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="5847,341,6067,367"/>
-<area shape="rect" id="node50" href="$Stream_8h.html" title="Declaration of Stream." alt="" coords="5876,251,6039,278"/>
+<area shape="rect" id="node1" title="Declaration of AlignedAllocator." alt="" coords="5854,5,6077,32"/>
+<area shape="rect" id="node2" href="$AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="5813,80,5992,121"/>
+<area shape="rect" id="node47" href="$Waveform_8h.html" title="Declaration of WaveformBase, SparseWaveformBase, UniformWaveformBase." alt="" coords="5940,169,6124,196"/>
+<area shape="rect" id="node3" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="4991,341,5217,367"/>
+<area shape="rect" id="node4" href="$scopehal_8h.html" title="Main library include file." alt="" coords="4866,430,5041,457"/>
+<area shape="rect" id="node41" href="$VulkanFFTPlan_8h.html" title="Declaration of VulkanFFTPlan." alt="" coords="6724,251,6937,278"/>
+<area shape="rect" id="node5" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="6217,519,6444,546"/>
+<area shape="rect" id="node6" href="$AgilentOscilloscope_8cpp.html" title="Implementation of AgilentOscilloscope." alt="" coords="6468,519,6727,546"/>
+<area shape="rect" id="node7" href="$AlientekPowerSupply_8cpp.html" title="Implementation of AlientekPowerSupply." alt="" coords="6750,512,6949,553"/>
+<area shape="rect" id="node8" href="$AntikernelLabsOscilloscope_8cpp.html" title="Declaration of AntikernelLabsOscilloscope." alt="" coords="6972,512,7172,553"/>
+<area shape="rect" id="node9" href="$AntikernelLabsTriggerCrossbar_8cpp.html" title="Implementation of AntikernelLabsTriggerCrossbar." alt="" coords="7196,512,7396,553"/>
+<area shape="rect" id="node10" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="7421,512,7625,553"/>
+<area shape="rect" id="node11" href="$AseqSpectrometer_8cpp.html" title="Implementation of AseqSpectrometer." alt="" coords="7649,519,7900,546"/>
+<area shape="rect" id="node12" href="$Averager_8cpp.html" title="Implementation of Averager." alt="" coords="7925,519,8115,546"/>
+<area shape="rect" id="node13" href="$BERT_8cpp.html" title="Implementation of BERT." alt="" coords="5,519,168,546"/>
+<area shape="rect" id="node14" href="$BERTInputChannel_8cpp.html" title="Implementation of BERTInputChannel." alt="" coords="192,519,443,546"/>
+<area shape="rect" id="node15" href="$BERTInputChannelWithDataCapture_8cpp.html" title="Implementation of BERTInputChannelWithDataCapture." alt="" coords="467,512,691,553"/>
+<area shape="rect" id="node16" href="$BERTOutputChannel_8cpp.html" title="Implementation of BERTOutputChannel." alt="" coords="715,519,978,546"/>
+<area shape="rect" id="node17" href="$BinaryDriver_8cpp.html" title="Helper class for binary drivers." alt="" coords="1003,519,1216,546"/>
+<area shape="rect" id="node18" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="1241,519,1453,546"/>
+<area shape="rect" id="node19" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="1477,519,1723,546"/>
+<area shape="rect" id="node20" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="1747,512,1954,553"/>
+<area shape="rect" id="node21" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="1978,519,2182,546"/>
+<area shape="rect" id="node22" href="$CSVStreamInstrument_8cpp.html" title="Implementation of CSVStreamInstrument." alt="" coords="2207,519,2481,546"/>
+<area shape="rect" id="node23" href="$CommandLineDriver_8cpp.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="2506,512,2705,553"/>
+<area shape="rect" id="node24" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="2729,519,2972,546"/>
+<area shape="rect" id="node25" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="2997,512,3187,553"/>
+<area shape="rect" id="node26" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="3212,512,3423,553"/>
+<area shape="rect" id="node27" href="$DCAEdgeTrigger_8cpp.html" title="Implementation of DCAEdgeTrigger." alt="" coords="3446,519,3682,546"/>
+<area shape="rect" id="node28" href="$DSLabsOscilloscope_8cpp.html" title="Implementation of DSLabsOscilloscope." alt="" coords="3705,519,3967,546"/>
+<area shape="rect" id="node29" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="3991,519,4243,546"/>
+<area shape="rect" id="node30" href="$DemoPowerSupply_8cpp.html" title="Implementation of DemoPowerSupply." alt="" coords="4267,519,4519,546"/>
+<area shape="rect" id="node31" href="$DensityFunctionWaveform_8cpp.html" title="Implementation of DensityFunctionWaveform." alt="" coords="8391,512,8601,553"/>
+<area shape="rect" id="node32" href="$DigilentOscilloscope_8cpp.html" title="Implementation of DigilentOscilloscope." alt="" coords="4544,519,4808,546"/>
+<area shape="rect" id="node33" href="$DigitalIOChannel_8cpp.html" title="Implementation of DigitalIOChannel." alt="" coords="4833,519,5074,546"/>
+<area shape="rect" id="node34" href="$DigitalInputChannel_8cpp.html" title="Implementation of DigitalInputChannel." alt="" coords="5098,512,5278,553"/>
+<area shape="rect" id="node35" href="$DigitalOutputChannel_8cpp.html" title="Implementation of DigitalOutputChannel." alt="" coords="5302,512,5493,553"/>
+<area shape="rect" id="node36" href="$DropoutTrigger_8cpp.html" title="Implementation of DropoutTrigger." alt="" coords="5517,519,5745,546"/>
+<area shape="rect" id="node37" href="$EdgeTrigger_8cpp.html" title="Implementation of EdgeTrigger." alt="" coords="5769,519,5977,546"/>
+<area shape="rect" id="node38" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="6002,519,6193,546"/>
+<area shape="rect" id="node39" href="$VulkanFFTPlan_8cpp.html" title="Implementation of VulkanFFTPlan." alt="" coords="8139,519,8367,546"/>
+<area shape="rect" id="node40" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="8625,519,8823,546"/>
+<area shape="rect" id="node42" href="$TestWaveformSource_8h.html" title="Declaration of TestWaveformSource." alt="" coords="6538,333,6737,375"/>
+<area shape="rect" id="node43" href="$ComplexSpectrogramFilter_8h.html" title="Declaration of ComplexSpectrogramFilter." alt="" coords="6999,423,7209,464"/>
+<area shape="rect" id="node44" href="$FFTFilter_8h.html" title="Declaration of FFTFilter." alt="" coords="6761,333,6901,375"/>
+<area shape="rect" id="node45" href="$SpectrogramFilter_8h.html" title="Declaration of SpectrogramFilter." alt="" coords="7027,333,7181,375"/>
+<area shape="rect" id="node46" href="$VulkanWindow_8cpp.html" title="Implementation of VulkanWindow." alt="" coords="6329,333,6513,375"/>
+<area shape="rect" id="node48" href="$DensityFunctionWaveform_8h.html" title="Declaration of DensityFunctionWaveform." alt="" coords="7057,244,7266,285"/>
+<area shape="rect" id="node49" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="5803,341,6023,367"/>
+<area shape="rect" id="node50" href="$Stream_8h.html" title="Declaration of Stream." alt="" coords="5832,251,5995,278"/>
 </map>

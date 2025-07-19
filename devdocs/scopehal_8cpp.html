@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -78,6 +78,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="scopehal_8h_source.html">scopehal.h</a>&quot;</code><br />
 <code>#include &quot;scopehal-version.h&quot;</code><br />
 <code>#include &lt;libgen.h&gt;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
 <code>#include &quot;<a class="el" href="AgilentOscilloscope_8h_source.html">AgilentOscilloscope.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AlientekPowerSupply_8h_source.html">AlientekPowerSupply.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="HP662xAPowerSupply_8h_source.html">HP662xAPowerSupply.h</a>&quot;</code><br />
@@ -99,6 +100,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="TektronixOscilloscope_8h_source.html">TektronixOscilloscope.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TektronixHSIOscilloscope_8h_source.html">TektronixHSIOscilloscope.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ThunderScopeOscilloscope_8h_source.html">ThunderScopeOscilloscope.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="HaasoscopePro_8h_source.html">HaasoscopePro.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TinySA_8h_source.html">TinySA.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="AntikernelLabsTriggerCrossbar_8h_source.html">AntikernelLabsTriggerCrossbar.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MultiLaneBERT_8h_source.html">MultiLaneBERT.h</a>&quot;</code><br />
@@ -107,6 +109,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="OwonXDMMultimeter_8h_source.html">OwonXDMMultimeter.h</a>&quot;</code><br />
 <code>#include &quot;RohdeSchwarzHMC8012Multimeter.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="OwonXDGFunctionGenerator_8h_source.html">OwonXDGFunctionGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="SiglentFunctionGenerator_8h_source.html">SiglentFunctionGenerator.h</a>&quot;</code><br />
 <code>#include &quot;RigolFunctionGenerator.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="GWInstekGPDX303SPowerSupply_8h_source.html">GWInstekGPDX303SPowerSupply.h</a>&quot;</code><br />
 <code>#include &quot;RigolDP8xxPowerSupply.h&quot;</code><br />
@@ -265,14 +268,9 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><b>ScopehalGetVe
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac651e49d657c994eab7bb45f656df02f"><td class="memItemLeft" align="right" valign="top"><a id="ac651e49d657c994eab7bb45f656df02f" name="ac651e49d657c994eab7bb45f656df02f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_gpuFilterEnabled</b> = false</td></tr>
-<tr class="memdesc:ac651e49d657c994eab7bb45f656df02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if filters can use GPU acceleration. <br /></td></tr>
+<tr class="memitem:ac651e49d657c994eab7bb45f656df02f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scopehal_8cpp.html#ac651e49d657c994eab7bb45f656df02f">g_gpuFilterEnabled</a> = false</td></tr>
+<tr class="memdesc:ac651e49d657c994eab7bb45f656df02f"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if filters can use GPU acceleration.  <a href="scopehal_8cpp.html#ac651e49d657c994eab7bb45f656df02f">More...</a><br /></td></tr>
 <tr class="separator:ac651e49d657c994eab7bb45f656df02f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a408e714cf7e625ed23da098ad12263f6"><td class="memItemLeft" align="right" valign="top"><a id="a408e714cf7e625ed23da098ad12263f6" name="a408e714cf7e625ed23da098ad12263f6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>g_gpuScopeDriverEnabled</b> = false</td></tr>
-<tr class="memdesc:a408e714cf7e625ed23da098ad12263f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if scope drivers can use GPU acceleration. <br /></td></tr>
-<tr class="separator:a408e714cf7e625ed23da098ad12263f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee5900f3214c9095b0839b14f1b24297"><td class="memItemLeft" align="right" valign="top"><a id="aee5900f3214c9095b0839b14f1b24297" name="aee5900f3214c9095b0839b14f1b24297"></a>
 vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>g_searchPaths</b></td></tr>
 <tr class="separator:aee5900f3214c9095b0839b14f1b24297"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,6 +278,9 @@ vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>g_s
 set&lt; <a class="el" href="AcceleratorBuffer_8h.html#a072b7e5ff273679e7ea11c3cbd234657">MemoryPressureHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>g_memoryPressureHandlers</b></td></tr>
 <tr class="memdesc:a319d2e80635b3f73c890b8cb04ce1072"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of handlers for low memory registered by various subsystems. <br /></td></tr>
 <tr class="separator:a319d2e80635b3f73c890b8cb04ce1072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87972c856dc1699423eb5488cf58b804"><td class="memItemLeft" align="right" valign="top">shared_mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scopehal_8cpp.html#a87972c856dc1699423eb5488cf58b804">g_vulkanActivityMutex</a></td></tr>
+<tr class="memdesc:a87972c856dc1699423eb5488cf58b804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for controlling access to background Vulkan activity.  <a href="scopehal_8cpp.html#a87972c856dc1699423eb5488cf58b804">More...</a><br /></td></tr>
+<tr class="separator:a87972c856dc1699423eb5488cf58b804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implementation of global functions. </p>
@@ -327,6 +328,41 @@ set&lt; <a class="el" href="AcceleratorBuffer_8h.html#a072b7e5ff273679e7ea11c3cb
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if memory was freed, false if no space could be freed </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ac651e49d657c994eab7bb45f656df02f" name="ac651e49d657c994eab7bb45f656df02f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac651e49d657c994eab7bb45f656df02f">&#9670;&nbsp;</a></span>g_gpuFilterEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool g_gpuFilterEnabled = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>True if filters can use GPU acceleration. </p>
+<p >Will be deprecated soon since Vulkan is now a mandatory core part of the application </p>
+
+</div>
+</div>
+<a id="a87972c856dc1699423eb5488cf58b804" name="a87972c856dc1699423eb5488cf58b804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87972c856dc1699423eb5488cf58b804">&#9670;&nbsp;</a></span>g_vulkanActivityMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">shared_mutex g_vulkanActivityMutex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mutex for controlling access to background Vulkan activity. </p>
+<p >Arbitrarily many threads can own this mutex at once, but it must be held when calling vkDeviceWaitIdle. </p>
 
 </div>
 </div>

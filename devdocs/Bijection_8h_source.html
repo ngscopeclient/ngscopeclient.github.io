@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -134,7 +134,7 @@ $(function() {
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classBijection.html#ab82cf68937e467b04929cc3438897173">  108</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classBijection.html#ab82cf68937e467b04929cc3438897173">HasEntry</a>(T2 key)</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">m_reverseMap</a>.find(key) != <a class="code hl_variable" href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">m_reverseMap</a>.end(); }</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="classBijection.html#ab7a469d097047901d5b79731309036e1">  112</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classBijection.html#ab7a469d097047901d5b79731309036e1">clear</a>()</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">  112</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">clear</a>()</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    {</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <a class="code hl_variable" href="classBijection.html#a28aac016b6b70bd5562171bb8ad7a4a0">m_forwardMap</a>.clear();</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <a class="code hl_variable" href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">m_reverseMap</a>.clear();</div>
@@ -184,12 +184,12 @@ $(function() {
 <div class="ttc" id="aclassBijection_html_a9b8eca26357ac965aaec87be3540d008"><div class="ttname"><a href="classBijection.html#a9b8eca26357ac965aaec87be3540d008">Bijection::operator[]</a></div><div class="ttdeci">const T2 &amp; operator[](T1 key)</div><div class="ttdoc">Looks up an object in the forward direction.</div><div class="ttdef"><b>Definition:</b> Bijection.h:92</div></div>
 <div class="ttc" id="aclassBijection_html_aadfcec9d58990695ba9d023288bb0065"><div class="ttname"><a href="classBijection.html#aadfcec9d58990695ba9d023288bb0065">Bijection::end</a></div><div class="ttdeci">forwardType::const_iterator end()</div><div class="ttdoc">Get an iterator to the end of the forward map.</div><div class="ttdef"><b>Definition:</b> Bijection.h:62</div></div>
 <div class="ttc" id="aclassBijection_html_ab2d1afdd3a4b77d4c9d2e7f4f99e9d06"><div class="ttname"><a href="classBijection.html#ab2d1afdd3a4b77d4c9d2e7f4f99e9d06">Bijection::operator[]</a></div><div class="ttdeci">const T1 &amp; operator[](T2 key)</div><div class="ttdoc">Looks up an object in the reverse direction.</div><div class="ttdef"><b>Definition:</b> Bijection.h:84</div></div>
-<div class="ttc" id="aclassBijection_html_ab7a469d097047901d5b79731309036e1"><div class="ttname"><a href="classBijection.html#ab7a469d097047901d5b79731309036e1">Bijection::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Erase all entries in the bijection.</div><div class="ttdef"><b>Definition:</b> Bijection.h:112</div></div>
 <div class="ttc" id="aclassBijection_html_ab82cf68937e467b04929cc3438897173"><div class="ttname"><a href="classBijection.html#ab82cf68937e467b04929cc3438897173">Bijection::HasEntry</a></div><div class="ttdeci">bool HasEntry(T2 key)</div><div class="ttdoc">Determines if an object is present in the reverse mapping.</div><div class="ttdef"><b>Definition:</b> Bijection.h:108</div></div>
 <div class="ttc" id="aclassBijection_html_ac11fe24b803024e4faf06ac14fd21540"><div class="ttname"><a href="classBijection.html#ac11fe24b803024e4faf06ac14fd21540">Bijection::erase</a></div><div class="ttdeci">void erase(T2 key)</div><div class="ttdoc">Erase an entry given a reverse key.</div><div class="ttdef"><b>Definition:</b> Bijection.h:135</div></div>
 <div class="ttc" id="aclassBijection_html_ae43e095a21ff32501999a025f7e1fb39"><div class="ttname"><a href="classBijection.html#ae43e095a21ff32501999a025f7e1fb39">Bijection::m_reverseMap</a></div><div class="ttdeci">reverseType m_reverseMap</div><div class="ttdoc">Map of object-to-object in the reverse direction.</div><div class="ttdef"><b>Definition:</b> Bijection.h:163</div></div>
 <div class="ttc" id="aclassBijection_html_af4bc2a6ad6f8f3a607ff5f4477206ef9"><div class="ttname"><a href="classBijection.html#af4bc2a6ad6f8f3a607ff5f4477206ef9">Bijection::forwardType</a></div><div class="ttdeci">std::map&lt; T1, T2, Compare1 &gt; forwardType</div><div class="ttdoc">Type of the forward map.</div><div class="ttdef"><b>Definition:</b> Bijection.h:52</div></div>
 <div class="ttc" id="aclassBijection_html_afb134ee46ca8e321c1485410f7ecb0b0"><div class="ttname"><a href="classBijection.html#afb134ee46ca8e321c1485410f7ecb0b0">Bijection::size</a></div><div class="ttdeci">size_t size()</div><div class="ttdoc">Return the number of entries in the bijection.</div><div class="ttdef"><b>Definition:</b> Bijection.h:154</div></div>
+<div class="ttc" id="aclassBijection_html_afd85182bd60130db1745178ced4ae1b6"><div class="ttname"><a href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">Bijection::clear</a></div><div class="ttdeci">virtual void clear()</div><div class="ttdoc">Erase all entries in the bijection.</div><div class="ttdef"><b>Definition:</b> Bijection.h:112</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

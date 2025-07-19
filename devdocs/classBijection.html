@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -112,10 +112,9 @@ forwardType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:ab82cf68937e467b04929cc3438897173"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#ab82cf68937e467b04929cc3438897173">HasEntry</a> (T2 key)</td></tr>
 <tr class="memdesc:ab82cf68937e467b04929cc3438897173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if an object is present in the reverse mapping.  <a href="classBijection.html#ab82cf68937e467b04929cc3438897173">More...</a><br /></td></tr>
 <tr class="separator:ab82cf68937e467b04929cc3438897173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a469d097047901d5b79731309036e1"><td class="memItemLeft" align="right" valign="top"><a id="ab7a469d097047901d5b79731309036e1" name="ab7a469d097047901d5b79731309036e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
-<tr class="memdesc:ab7a469d097047901d5b79731309036e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase all entries in the bijection. <br /></td></tr>
-<tr class="separator:ab7a469d097047901d5b79731309036e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd85182bd60130db1745178ced4ae1b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">clear</a> ()</td></tr>
+<tr class="memdesc:afd85182bd60130db1745178ced4ae1b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase all entries in the bijection.  <a href="classBijection.html#afd85182bd60130db1745178ced4ae1b6">More...</a><br /></td></tr>
+<tr class="separator:afd85182bd60130db1745178ced4ae1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d120f6599c0ccbe15d25523ca9ee786"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBijection.html#a7d120f6599c0ccbe15d25523ca9ee786">erase</a> (T1 key)</td></tr>
 <tr class="memdesc:a7d120f6599c0ccbe15d25523ca9ee786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase an entry given a forward key.  <a href="classBijection.html#a7d120f6599c0ccbe15d25523ca9ee786">More...</a><br /></td></tr>
 <tr class="separator:a7d120f6599c0ccbe15d25523ca9ee786"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,6 +146,37 @@ Protected Attributes</h2></td></tr>
 class Bijection&lt; T1, T2, Compare1, Compare2 &gt;</div><p >A strict one-to-one mapping from objects of type T1 to type T2 (which must be different types). </p>
 <p >Internally implemented as two synchronized std::map instances </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="afd85182bd60130db1745178ced4ae1b6" name="afd85182bd60130db1745178ced4ae1b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd85182bd60130db1745178ced4ae1b6">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 , typename Compare1  = std::less&lt;T1&gt;, typename Compare2  = std::less&lt;T2&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classBijection.html">Bijection</a>&lt; T1, T2, Compare1, Compare2 &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erase all entries in the bijection. </p>
+
+<p>Reimplemented in <a class="el" href="classIDTable.html#a86def075b992fe869ad65ea9a84f4140">IDTable</a>.</p>
+
+</div>
+</div>
 <a id="a7be0701371ec577018cc57fabb41ec91" name="a7be0701371ec577018cc57fabb41ec91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7be0701371ec577018cc57fabb41ec91">&#9670;&nbsp;</a></span>emplace()</h2>
 

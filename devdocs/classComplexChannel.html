@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -78,10 +78,11 @@ Inheritance diagram for ComplexChannel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classComplexChannel__inherit__graph.png" border="0" usemap="#aComplexChannel_inherit__map" alt="Inheritance graph"/></div>
 <map name="aComplexChannel_inherit__map" id="aComplexChannel_inherit__map">
-<area shape="rect" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="17,229,151,256"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,155,163,181"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,80,157,107"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,5,147,32"/>
+<area shape="rect" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="17,304,151,331"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,229,163,256"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,155,157,181"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,80,147,107"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="14,5,154,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -89,13 +90,14 @@ Collaboration diagram for ComplexChannel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classComplexChannel__coll__graph.png" border="0" usemap="#aComplexChannel_coll__map" alt="Collaboration graph"/></div>
 <map name="aComplexChannel_coll__map" id="aComplexChannel_coll__map">
-<area shape="rect" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="121,337,254,364"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="109,261,266,288"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="114,185,261,212"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="5,96,132,123"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="157,96,250,123"/>
-<area shape="rect" title=" " alt="" coords="107,5,299,47"/>
-<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="289,96,339,123"/>
+<area shape="rect" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="127,337,261,364"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="115,261,273,288"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="121,185,267,212"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,96,139,123"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="5,13,145,39"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="163,96,257,123"/>
+<area shape="rect" title=" " alt="" coords="170,5,362,47"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="296,96,345,123"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -104,6 +106,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae939337ad640f297a607248d868f908c"><td class="memItemLeft" align="right" valign="top"><a id="ae939337ad640f297a607248d868f908c" name="ae939337ad640f297a607248d868f908c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ComplexChannel</b> (<a class="el" href="classOscilloscope.html">Oscilloscope</a> *scope, const std::string &amp;hwname, const std::string &amp;color, <a class="el" href="classUnit.html">Unit</a> xunit=<a class="el" href="classUnit.html">Unit</a>(Unit::UNIT_FS), <a class="el" href="classUnit.html">Unit</a> yunit=<a class="el" href="classUnit.html">Unit</a>(Unit::UNIT_VOLTS), size_t index=0)</td></tr>
 <tr class="separator:ae939337ad640f297a607248d868f908c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25242cf6b1b1da69d8e78b64b7fdc7c5"><td class="memItemLeft" align="right" valign="top"><a id="a25242cf6b1b1da69d8e78b64b7fdc7c5" name="a25242cf6b1b1da69d8e78b64b7fdc7c5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateCenterFrequency</b> (float freq)</td></tr>
+<tr class="separator:a25242cf6b1b1da69d8e78b64b7fdc7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9de09bf5ca9bfa5748fef08519364f"><td class="memItemLeft" align="right" valign="top">virtual PhysicalConnector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComplexChannel.html#a8c9de09bf5ca9bfa5748fef08519364f">GetPhysicalConnector</a> () override</td></tr>
 <tr class="separator:a8c9de09bf5ca9bfa5748fef08519364f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classOscilloscopeChannel"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classOscilloscopeChannel')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classOscilloscopeChannel.html">OscilloscopeChannel</a></td></tr>
@@ -170,6 +175,9 @@ virtual int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetDeskew<
 <tr class="memitem:ab60731d859e5070fa87e9132759581e5 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="ab60731d859e5070fa87e9132759581e5" name="ab60731d859e5070fa87e9132759581e5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPhysicalChannel</b> ()</td></tr>
 <tr class="separator:ab60731d859e5070fa87e9132759581e5 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4828247f6438f688abb325a73d3f9c1 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="ae4828247f6438f688abb325a73d3f9c1" name="ae4828247f6438f688abb325a73d3f9c1"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInverted</b> (size_t stream)</td></tr>
+<tr class="separator:ae4828247f6438f688abb325a73d3f9c1 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7242ae60bc7707a0705543b01ef874a0 inherit pub_methods_classOscilloscopeChannel"><td class="memItemLeft" align="right" valign="top"><a id="a7242ae60bc7707a0705543b01ef874a0" name="a7242ae60bc7707a0705543b01ef874a0"></a>
 virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>GetVoltageRange</b> (size_t stream)</td></tr>
 <tr class="separator:a7242ae60bc7707a0705543b01ef874a0 inherit pub_methods_classOscilloscopeChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -554,7 +562,8 @@ sigc::signal&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An <a class="el" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope.">OscilloscopeChannel</a> storing complex-valued data. </p>
-<p >This is a helper class intended for instruments producing I/Q outputs which creates two analog waveform streams, called I and Q, as outputs. </p>
+<p >This is a helper class intended for instruments producing I/Q outputs which creates two analog waveform streams, called I and Q, as outputs.</p>
+<p >An additional scalar output "center" specifies the center frequency. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8c9de09bf5ca9bfa5748fef08519364f" name="a8c9de09bf5ca9bfa5748fef08519364f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c9de09bf5ca9bfa5748fef08519364f">&#9670;&nbsp;</a></span>GetPhysicalConnector()</h2>

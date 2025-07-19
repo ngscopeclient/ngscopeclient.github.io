@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,7 @@ $(function() {
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* libscopehal                                                                                                          *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg and contributors                                                         *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2025 Andrew D. Zonenberg and contributors                                                         *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -142,10 +142,11 @@ $(function() {
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> SetOffset(<span class="keywordtype">float</span> v);</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <a class="code hl_enumeration" href="classStream.html#a1ac9862db2a647a12b28c5c0a523a231">Stream::StreamType</a> <a class="code hl_function" href="classStreamDescriptor.html#a1520e060ce40aea1884eda3fffe60081">GetType</a>();</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">float</span> GetScalarValue();</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">bool</span> IsInverted();</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>};</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassInstrumentChannel_html"><div class="ttname"><a href="classInstrumentChannel.html">InstrumentChannel</a></div><div class="ttdoc">A single channel of an instrument.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:63</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_aab400202fbecf856b5d40ac20fb9b7af"><div class="ttname"><a href="classInstrumentChannel.html#aab400202fbecf856b5d40ac20fb9b7af">InstrumentChannel::GetStreamCount</a></div><div class="ttdeci">size_t GetStreamCount()</div><div class="ttdoc">Get the number of data streams.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:171</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:46</div></div>

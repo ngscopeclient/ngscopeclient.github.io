@@ -1,52 +1,52 @@
 <map id="lib/scopehal/OscilloscopeChannel.h" name="lib/scopehal/OscilloscopeChannel.h">
-<area shape="rect" id="node1" title="Declaration of OscilloscopeChannel." alt="" coords="6387,5,6574,47"/>
+<area shape="rect" id="node1" title="Declaration of OscilloscopeChannel." alt="" coords="6563,5,6750,47"/>
 <area shape="rect" id="node2" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="5,244,209,285"/>
 <area shape="rect" id="node3" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="233,251,485,278"/>
-<area shape="rect" id="node4" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="6407,95,6555,121"/>
-<area shape="rect" id="node9" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5679,169,5853,196"/>
-<area shape="rect" id="node43" href="$MockOscilloscope_8cpp.html" title="Implementation of MockOscilloscope." alt="" coords="10383,251,10631,278"/>
-<area shape="rect" id="node44" href="$Oscilloscope_8cpp.html" title="Implementation of Oscilloscope." alt="" coords="10655,251,10869,278"/>
-<area shape="rect" id="node45" href="$OscilloscopeChannel_8cpp.html" title="Implementation of OscilloscopeChannel." alt="" coords="10893,244,11079,285"/>
+<area shape="rect" id="node4" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="6583,95,6731,121"/>
+<area shape="rect" id="node9" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5885,169,6060,196"/>
+<area shape="rect" id="node43" href="$MockOscilloscope_8cpp.html" title="Implementation of MockOscilloscope." alt="" coords="10353,251,10601,278"/>
+<area shape="rect" id="node44" href="$Oscilloscope_8cpp.html" title="Implementation of Oscilloscope." alt="" coords="10625,251,10838,278"/>
+<area shape="rect" id="node45" href="$OscilloscopeChannel_8cpp.html" title="Implementation of OscilloscopeChannel." alt="" coords="10862,244,11049,285"/>
 <area shape="rect" id="node5" href="$Filter_8cpp.html" title="Implementation of Filter." alt="" coords="510,251,673,278"/>
 <area shape="rect" id="node6" href="$FilterParameter_8cpp.html" title="Implementation of FilterParameter." alt="" coords="697,251,928,278"/>
-<area shape="rect" id="node7" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="5390,169,5603,196"/>
+<area shape="rect" id="node7" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="5597,169,5810,196"/>
 <area shape="rect" id="node8" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="952,251,1151,278"/>
-<area shape="rect" id="node46" href="$PCIeGen2LogicalDecoder_8cpp.html" title="Implementation of PCIeGen2LogicalDecoder." alt="" coords="9319,244,9535,285"/>
-<area shape="rect" id="node47" href="$PCIeGen3LogicalDecoder_8cpp.html" title="Implementation of PCIeGen3LogicalDecoder." alt="" coords="9559,244,9775,285"/>
-<area shape="rect" id="node48" href="$PCIeLinkTrainingDecoder_8cpp.html" title="Implementation of PCIeLinkTrainingDecoder." alt="" coords="9800,244,10015,285"/>
-<area shape="rect" id="node49" href="$QSGMIIDecoder_8cpp.html" title="Implementation of QSGMIIDecoder." alt="" coords="10039,244,10194,285"/>
-<area shape="rect" id="node50" href="$scopeprotocols_8h.html" title="Main library include file." alt="" coords="10219,244,10359,285"/>
+<area shape="rect" id="node46" href="$PCIeGen2LogicalDecoder_8cpp.html" title="Implementation of PCIeGen2LogicalDecoder." alt="" coords="9289,244,9505,285"/>
+<area shape="rect" id="node47" href="$PCIeGen3LogicalDecoder_8cpp.html" title="Implementation of PCIeGen3LogicalDecoder." alt="" coords="9529,244,9745,285"/>
+<area shape="rect" id="node48" href="$PCIeLinkTrainingDecoder_8cpp.html" title="Implementation of PCIeLinkTrainingDecoder." alt="" coords="9769,244,9984,285"/>
+<area shape="rect" id="node49" href="$QSGMIIDecoder_8cpp.html" title="Implementation of QSGMIIDecoder." alt="" coords="10009,244,10163,285"/>
+<area shape="rect" id="node50" href="$scopeprotocols_8h.html" title="Main library include file." alt="" coords="10188,244,10328,285"/>
 <area shape="rect" id="node10" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="1175,251,1402,278"/>
 <area shape="rect" id="node11" href="$AgilentOscilloscope_8cpp.html" title="Implementation of AgilentOscilloscope." alt="" coords="1426,251,1685,278"/>
 <area shape="rect" id="node12" href="$AlientekPowerSupply_8cpp.html" title="Implementation of AlientekPowerSupply." alt="" coords="1708,244,1907,285"/>
 <area shape="rect" id="node13" href="$AntikernelLabsOscilloscope_8cpp.html" title="Declaration of AntikernelLabsOscilloscope." alt="" coords="1930,244,2130,285"/>
 <area shape="rect" id="node14" href="$AntikernelLabsTriggerCrossbar_8cpp.html" title="Implementation of AntikernelLabsTriggerCrossbar." alt="" coords="2154,244,2354,285"/>
 <area shape="rect" id="node15" href="$AseqSpectrometer_8cpp.html" title="Implementation of AseqSpectrometer." alt="" coords="2378,251,2629,278"/>
-<area shape="rect" id="node16" href="$BERT_8cpp.html" title="Implementation of BERT." alt="" coords="2653,251,2815,278"/>
-<area shape="rect" id="node17" href="$BERTInputChannel_8cpp.html" title="Implementation of BERTInputChannel." alt="" coords="2839,251,3090,278"/>
-<area shape="rect" id="node18" href="$BERTInputChannelWithDataCapture_8cpp.html" title="Implementation of BERTInputChannelWithDataCapture." alt="" coords="3114,244,3338,285"/>
-<area shape="rect" id="node19" href="$BERTOutputChannel_8cpp.html" title="Implementation of BERTOutputChannel." alt="" coords="3363,251,3625,278"/>
-<area shape="rect" id="node20" href="$BinaryDriver_8cpp.html" title="Helper class for binary drivers." alt="" coords="3650,251,3863,278"/>
-<area shape="rect" id="node21" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="3888,251,4100,278"/>
-<area shape="rect" id="node22" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="4124,251,4371,278"/>
-<area shape="rect" id="node23" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="4395,244,4601,285"/>
-<area shape="rect" id="node24" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="4625,251,4829,278"/>
-<area shape="rect" id="node25" href="$CSVStreamInstrument_8cpp.html" title="Implementation of CSVStreamInstrument." alt="" coords="4854,251,5129,278"/>
-<area shape="rect" id="node26" href="$CommandLineDriver_8cpp.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="5153,244,5352,285"/>
-<area shape="rect" id="node27" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="5377,251,5619,278"/>
-<area shape="rect" id="node28" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="5643,251,5870,278"/>
-<area shape="rect" id="node29" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="5895,244,6085,285"/>
-<area shape="rect" id="node30" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="6110,244,6321,285"/>
-<area shape="rect" id="node31" href="$DCAEdgeTrigger_8cpp.html" title="Implementation of DCAEdgeTrigger." alt="" coords="6344,251,6580,278"/>
-<area shape="rect" id="node32" href="$DSLabsOscilloscope_8cpp.html" title="Implementation of DSLabsOscilloscope." alt="" coords="6603,251,6865,278"/>
-<area shape="rect" id="node33" href="$DemoPowerSupply_8cpp.html" title="Implementation of DemoPowerSupply." alt="" coords="6889,251,7141,278"/>
-<area shape="rect" id="node34" href="$DensityFunctionWaveform_8cpp.html" title="Implementation of DensityFunctionWaveform." alt="" coords="7165,244,7375,285"/>
-<area shape="rect" id="node35" href="$DigilentOscilloscope_8cpp.html" title="Implementation of DigilentOscilloscope." alt="" coords="7399,251,7663,278"/>
-<area shape="rect" id="node36" href="$DigitalIOChannel_8cpp.html" title="Implementation of DigitalIOChannel." alt="" coords="7688,251,7929,278"/>
-<area shape="rect" id="node37" href="$DigitalInputChannel_8cpp.html" title="Implementation of DigitalInputChannel." alt="" coords="7953,244,8133,285"/>
-<area shape="rect" id="node38" href="$DigitalOutputChannel_8cpp.html" title="Implementation of DigitalOutputChannel." alt="" coords="8157,244,8348,285"/>
-<area shape="rect" id="node39" href="$DropoutTrigger_8cpp.html" title="Implementation of DropoutTrigger." alt="" coords="8372,251,8600,278"/>
-<area shape="rect" id="node40" href="$EdgeTrigger_8cpp.html" title="Implementation of EdgeTrigger." alt="" coords="8625,251,8833,278"/>
-<area shape="rect" id="node41" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="8857,251,9048,278"/>
-<area shape="rect" id="node42" href="$EyeWaveform_8cpp.html" title="Implementation of EyeWaveform." alt="" coords="9072,251,9295,278"/>
+<area shape="rect" id="node16" href="$Averager_8cpp.html" title="Implementation of Averager." alt="" coords="2653,251,2844,278"/>
+<area shape="rect" id="node17" href="$BERT_8cpp.html" title="Implementation of BERT." alt="" coords="2869,251,3031,278"/>
+<area shape="rect" id="node18" href="$BERTInputChannel_8cpp.html" title="Implementation of BERTInputChannel." alt="" coords="3055,251,3306,278"/>
+<area shape="rect" id="node19" href="$BERTInputChannelWithDataCapture_8cpp.html" title="Implementation of BERTInputChannelWithDataCapture." alt="" coords="3330,244,3554,285"/>
+<area shape="rect" id="node20" href="$BERTOutputChannel_8cpp.html" title="Implementation of BERTOutputChannel." alt="" coords="3579,251,3841,278"/>
+<area shape="rect" id="node21" href="$BinaryDriver_8cpp.html" title="Helper class for binary drivers." alt="" coords="3866,251,4079,278"/>
+<area shape="rect" id="node22" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="4104,251,4316,278"/>
+<area shape="rect" id="node23" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="4340,251,4587,278"/>
+<area shape="rect" id="node24" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="4611,244,4817,285"/>
+<area shape="rect" id="node25" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="4841,251,5045,278"/>
+<area shape="rect" id="node26" href="$CSVStreamInstrument_8cpp.html" title="Implementation of CSVStreamInstrument." alt="" coords="5070,251,5345,278"/>
+<area shape="rect" id="node27" href="$CommandLineDriver_8cpp.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="5369,244,5568,285"/>
+<area shape="rect" id="node28" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="5593,251,5835,278"/>
+<area shape="rect" id="node29" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="5859,251,6086,278"/>
+<area shape="rect" id="node30" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="6111,244,6301,285"/>
+<area shape="rect" id="node31" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="6326,244,6537,285"/>
+<area shape="rect" id="node32" href="$DCAEdgeTrigger_8cpp.html" title="Implementation of DCAEdgeTrigger." alt="" coords="6560,251,6796,278"/>
+<area shape="rect" id="node33" href="$DSLabsOscilloscope_8cpp.html" title="Implementation of DSLabsOscilloscope." alt="" coords="6819,251,7081,278"/>
+<area shape="rect" id="node34" href="$DemoPowerSupply_8cpp.html" title="Implementation of DemoPowerSupply." alt="" coords="7105,251,7357,278"/>
+<area shape="rect" id="node35" href="$DensityFunctionWaveform_8cpp.html" title="Implementation of DensityFunctionWaveform." alt="" coords="7381,244,7591,285"/>
+<area shape="rect" id="node36" href="$DigilentOscilloscope_8cpp.html" title="Implementation of DigilentOscilloscope." alt="" coords="7615,251,7879,278"/>
+<area shape="rect" id="node37" href="$DigitalIOChannel_8cpp.html" title="Implementation of DigitalIOChannel." alt="" coords="7904,251,8145,278"/>
+<area shape="rect" id="node38" href="$DigitalInputChannel_8cpp.html" title="Implementation of DigitalInputChannel." alt="" coords="8169,244,8349,285"/>
+<area shape="rect" id="node39" href="$DigitalOutputChannel_8cpp.html" title="Implementation of DigitalOutputChannel." alt="" coords="8373,244,8564,285"/>
+<area shape="rect" id="node40" href="$DropoutTrigger_8cpp.html" title="Implementation of DropoutTrigger." alt="" coords="8588,251,8816,278"/>
+<area shape="rect" id="node41" href="$EdgeTrigger_8cpp.html" title="Implementation of EdgeTrigger." alt="" coords="8841,251,9049,278"/>
+<area shape="rect" id="node42" href="$EyeMask_8cpp.html" title="Implementation of EyeMask." alt="" coords="9073,251,9264,278"/>
 </map>

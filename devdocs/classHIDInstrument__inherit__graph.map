@@ -1,9 +1,10 @@
 <map id="HIDInstrument" name="HIDInstrument">
-<area shape="rect" id="node1" title="Base class for instruments using USB HID communication protocol." alt="" coords="169,244,287,271"/>
-<area shape="rect" id="node7" href="$classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="148,319,308,345"/>
-<area shape="rect" id="node2" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="99,169,221,196"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,95,148,121"/>
+<area shape="rect" id="node1" title="Base class for instruments using USB HID communication protocol." alt="" coords="264,244,381,271"/>
+<area shape="rect" id="node8" href="$classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="243,319,403,345"/>
+<area shape="rect" id="node2" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="193,169,316,196"/>
+<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,95,243,121"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node5" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="172,95,268,121"/>
-<area shape="rect" id="node6" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="245,169,349,196"/>
+<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
+<area shape="rect" id="node6" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="267,95,363,121"/>
+<area shape="rect" id="node7" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="340,169,444,196"/>
 </map>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;0.1-dev+51fbda87c</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
    </div>
   </td>
  </tr>
@@ -81,10 +81,11 @@ Inheritance diagram for MockOscilloscope:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMockOscilloscope__inherit__graph.png" border="0" usemap="#aMockOscilloscope_inherit__map" alt="Inheritance graph"/></div>
 <map name="aMockOscilloscope_inherit__map" id="aMockOscilloscope_inherit__map">
-<area shape="rect" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="32,244,171,271"/>
-<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="49,169,153,196"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,95,148,121"/>
+<area shape="rect" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="127,244,265,271"/>
+<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="144,169,248,196"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,95,243,121"/>
 <area shape="rect" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -92,17 +93,18 @@ Collaboration diagram for MockOscilloscope:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMockOscilloscope__coll__graph.png" border="0" usemap="#aMockOscilloscope_coll__map" alt="Collaboration graph"/></div>
 <map name="aMockOscilloscope_coll__map" id="aMockOscilloscope_coll__map">
-<area shape="rect" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="150,379,289,405"/>
-<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="183,200,287,227"/>
-<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="322,289,389,316"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="225,96,318,123"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="458,200,605,227"/>
-<area shape="rect" title=" " alt="" coords="175,5,367,47"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="561,96,688,123"/>
-<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="311,200,434,227"/>
-<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="436,96,485,123"/>
-<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="5,96,124,123"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="430,289,587,316"/>
+<area shape="rect" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="1145,205,1284,232"/>
+<area shape="rect" href="classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="608,205,712,232"/>
+<area shape="rect" href="classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="895,115,961,141"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="263,129,357,156"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="587,63,733,89"/>
+<area shape="rect" title=" " alt="" coords="5,122,197,163"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="31,67,171,93"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="247,28,373,55"/>
+<area shape="rect" href="classFilterParameter.html" title="A parameter to a filter." alt="" coords="599,139,721,165"/>
+<area shape="rect" href="classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="285,79,335,105"/>
+<area shape="rect" href="classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="251,255,369,281"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="849,5,1007,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -267,9 +269,6 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDri
 <tr class="memitem:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a478873551c87802906643ac547189f3a">IDPing</a> ()=0</td></tr>
 <tr class="memdesc:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the instrument's identification string.  <a href="classOscilloscope.html#a478873551c87802906643ac547189f3a">More...</a><br /></td></tr>
 <tr class="separator:a478873551c87802906643ac547189f3a inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a67474e9cc51aed6485db9e0932776ae2">FlushConfigCache</a> ()</td></tr>
-<tr class="memdesc:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classOscilloscope.html#a67474e9cc51aed6485db9e0932776ae2">More...</a><br /></td></tr>
-<tr class="separator:a67474e9cc51aed6485db9e0932776ae2 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#addd3343cde4fe8224e74c043619e44c9">IsOffline</a> ()</td></tr>
 <tr class="memdesc:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the instrument is currently online.  <a href="classOscilloscope.html#addd3343cde4fe8224e74c043619e44c9">More...</a><br /></td></tr>
 <tr class="separator:addd3343cde4fe8224e74c043619e44c9 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -635,6 +634,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelCount</b>
 <tr class="memitem:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">AcquireData</a> ()=0</td></tr>
 <tr class="memdesc:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classInstrument.html#a529d5cb07a7d5ee74683eb36e0e0c6d3">More...</a><br /></td></tr>
 <tr class="separator:a529d5cb07a7d5ee74683eb36e0e0c6d3 inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">FlushConfigCache</a> ()</td></tr>
+<tr class="memdesc:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instruments are allowed to cache configuration settings to reduce round trip queries to the device.  <a href="classInstrument.html#a3a8ba6b62f3fffa2fef67fac97fbc72b">More...</a><br /></td></tr>
+<tr class="separator:a3a8ba6b62f3fffa2fef67fac97fbc72b inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memItemLeft" align="right" valign="top">virtual YAML::Node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">SerializeConfiguration</a> (<a class="el" href="classIDTable.html">IDTable</a> &amp;table) const</td></tr>
 <tr class="memdesc:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this instrument's configuration to a YAML node.  <a href="classInstrument.html#ab048d486cb70a251cc887bad1e3c0e6f">More...</a><br /></td></tr>
 <tr class="separator:ab048d486cb70a251cc887bad1e3c0e6f inherit pub_methods_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
