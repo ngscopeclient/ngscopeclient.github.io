@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -98,6 +98,9 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>SparseWaveformBase</b> ()</td></tr>
 <tr class="memdesc:a1e7381d30d92e840fd5ac76ea885b260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new empty sparse waveform. <br /></td></tr>
 <tr class="separator:a1e7381d30d92e840fd5ac76ea885b260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f73202d4b22f68e3299b5a8f1d11a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseWaveformBase.html#a10f73202d4b22f68e3299b5a8f1d11a3">SetCpuOnlyHint</a> ()</td></tr>
+<tr class="memdesc:a10f73202d4b22f68e3299b5a8f1d11a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to indicate this waveform will only be used on the CPU.  <a href="classSparseWaveformBase.html#a10f73202d4b22f68e3299b5a8f1d11a3">More...</a><br /></td></tr>
+<tr class="separator:a10f73202d4b22f68e3299b5a8f1d11a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadf9029b4e6b22295f19b404753d6d9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseWaveformBase.html#aadf9029b4e6b22295f19b404753d6d9b">CopyTimestamps</a> (const <a class="el" href="classSparseWaveformBase.html">SparseWaveformBase</a> *rhs)</td></tr>
 <tr class="memdesc:aadf9029b4e6b22295f19b404753d6d9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies offsets/durations from another waveform into this one.  <a href="classSparseWaveformBase.html#aadf9029b4e6b22295f19b404753d6d9b">More...</a><br /></td></tr>
 <tr class="separator:aadf9029b4e6b22295f19b404753d6d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,6 +327,35 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_cachedColorRevi
 <p>Indicates that this waveform's sample data and timestamps have been modified on the GPU and the CPU-side copy is no longer coherent. </p>
 
 <p>Implements <a class="el" href="classWaveformBase.html#ac9e2f599f4c65b6a0357dd2fd18b72c5">WaveformBase</a>.</p>
+
+</div>
+</div>
+<a id="a10f73202d4b22f68e3299b5a8f1d11a3" name="a10f73202d4b22f68e3299b5a8f1d11a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f73202d4b22f68e3299b5a8f1d11a3">&#9670;&nbsp;</a></span>SetCpuOnlyHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SparseWaveformBase::SetCpuOnlyHint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function to indicate this waveform will only be used on the CPU. </p>
+
+<p>Reimplemented in <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; S &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; ADL5205Symbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; char &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; CANSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; DPAuxSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; DPhyDataSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; DPhyEscapeModeSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; DPhySymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; DSIFrameSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; DSISymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; DVISymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; ESPISymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; Ethernet100BaseT1LinkTrainingSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; Ethernet64b66bSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; EthernetAutonegotiationPageSample &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; uint16_t &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; EthernetBaseXAutonegotiationSample &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; EthernetFrameSegment &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; HyperRAMSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; I2CEepromSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; I2CRegisterSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; I2CSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; IBM8b10bSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; IPv4Symbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; J1939PDUSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; JtagSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; MDIOSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; MilStd1553Symbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; OneWireSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; PCIe128b130bSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; PCIeDataLinkSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; PCIeLTSSMSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; PCIeLinkTrainingSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; PCIeLogicalSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; PCIeTransportSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; RGBLEDSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; SDCmdSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; SDDataSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; SDRAMSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; SPIFlashSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; SPISymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; SWDMemAPSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; SWDSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; TCPSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; TMDSSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; USB2PCSSymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; USB2PMASymbol &gt;</a>, <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; USB2PacketSymbol &gt;</a>, and <a class="el" href="classSparseWaveform.html#a264e0fa2f06abb29cc06caca405fc0b5">SparseWaveform&lt; VICPSymbol &gt;</a>.</p>
 
 </div>
 </div>

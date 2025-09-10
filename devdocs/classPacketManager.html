@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -124,9 +124,8 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="memdesc:a2843a60f52bc620d98d150c5fbd401f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle newly arrived waveform data (may be a change to parameters or a freshly arrived waveform) <br /></td></tr>
 <tr class="separator:a2843a60f52bc620d98d150c5fbd401f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5cda033ce20f719189f8f51460b25c9"><td class="memItemLeft" align="right" valign="top"><a id="ab5cda033ce20f719189f8f51460b25c9" name="ab5cda033ce20f719189f8f51460b25c9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveHistoryFrom</b> (<a class="el" href="classTimePoint.html">TimePoint</a> timestamp)</td></tr>
-<tr class="memdesc:ab5cda033ce20f719189f8f51460b25c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all history from the specified timestamp. <br /></td></tr>
+<tr class="memitem:ab5cda033ce20f719189f8f51460b25c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacketManager.html#ab5cda033ce20f719189f8f51460b25c9">RemoveHistoryFrom</a> (<a class="el" href="classTimePoint.html">TimePoint</a> timestamp)</td></tr>
+<tr class="memdesc:ab5cda033ce20f719189f8f51460b25c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all history from the specified timestamp.  <a href="classPacketManager.html#ab5cda033ce20f719189f8f51460b25c9">More...</a><br /></td></tr>
 <tr class="separator:ab5cda033ce20f719189f8f51460b25c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f7585ba7e906046fa1608ed5ea7bc26"><td class="memItemLeft" align="right" valign="top"><a id="a1f7585ba7e906046fa1608ed5ea7bc26" name="a1f7585ba7e906046fa1608ed5ea7bc26"></a>
 std::recursive_mutex &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMutex</b> ()</td></tr>
@@ -163,6 +162,10 @@ std::vector&lt; <a class="el" href="classRowData.html">RowData</a> &gt; &amp;&#1
 <tr class="memitem:a0a0ffbafbdfa515316aae7f60c05e91e"><td class="memItemLeft" align="right" valign="top"><a id="a0a0ffbafbdfa515316aae7f60c05e91e" name="a0a0ffbafbdfa515316aae7f60c05e91e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnMarkerChanged</b> ()</td></tr>
 <tr class="separator:a0a0ffbafbdfa515316aae7f60c05e91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b8e9fe7b94f2d1f82167a2672d6faa"><td class="memItemLeft" align="right" valign="top"><a id="a35b8e9fe7b94f2d1f82167a2672d6faa" name="a35b8e9fe7b94f2d1f82167a2672d6faa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RefreshIfPending</b> ()</td></tr>
+<tr class="memdesc:a35b8e9fe7b94f2d1f82167a2672d6faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refresh the list of pending packets. <br /></td></tr>
+<tr class="separator:a35b8e9fe7b94f2d1f82167a2672d6faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -220,10 +223,41 @@ std::vector&lt; <a class="el" href="classRowData.html">RowData</a> &gt;&#160;</t
 std::map&lt; <a class="el" href="classPacket.html">Packet</a> *, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastChildOpen</b></td></tr>
 <tr class="memdesc:a18662b26a4149969d18efa392d49d771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of packets to child-open flags from last frame. <br /></td></tr>
 <tr class="separator:a18662b26a4149969d18efa392d49d771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa609c9bf73b2845490db2326897dbf59"><td class="memItemLeft" align="right" valign="top"><a id="aa609c9bf73b2845490db2326897dbf59" name="aa609c9bf73b2845490db2326897dbf59"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_refreshPending</b></td></tr>
+<tr class="memdesc:aa609c9bf73b2845490db2326897dbf59"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if we have a refresh pending before we can render (i.e. pending deletion or similar) <br /></td></tr>
+<tr class="separator:aa609c9bf73b2845490db2326897dbf59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Keeps track of packetized data history from a single protocol analyzer filter. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab5cda033ce20f719189f8f51460b25c9" name="ab5cda033ce20f719189f8f51460b25c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5cda033ce20f719189f8f51460b25c9">&#9670;&nbsp;</a></span>RemoveHistoryFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PacketManager::RemoveHistoryFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTimePoint.html">TimePoint</a>&#160;</td>
+          <td class="paramname"><em>timestamp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes all history from the specified timestamp. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timestamp</td><td>Time to remove the history from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/ngscopeclient/<a class="el" href="PacketManager_8h_source.html">PacketManager.h</a></li>
 <li>src/ngscopeclient/<a class="el" href="PacketManager_8cpp.html">PacketManager.cpp</a></li>
 </ul>

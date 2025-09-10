@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -217,6 +217,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>AddAreaForStreamIfNot
 std::map&lt; uintptr_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetGraphEditorGroups</b> ()</td></tr>
 <tr class="memdesc:a2d3ec8c02963f57067f7bfd044bec7a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the groups we have configured for our graph editor. <br /></td></tr>
 <tr class="separator:a2d3ec8c02963f57067f7bfd044bec7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b1d0d6c4ccd65869efd1c5ef9c2544"><td class="memItemLeft" align="right" valign="top"><a id="a50b1d0d6c4ccd65869efd1c5ef9c2544" name="a50b1d0d6c4ccd65869efd1c5ef9c2544"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetStartupSession</b> (const std::string &amp;path)</td></tr>
+<tr class="separator:a50b1d0d6c4ccd65869efd1c5ef9c2544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae71eed0d1bd6baaa87bc65315eedb02"><td class="memItemLeft" align="right" valign="top"><a id="aae71eed0d1bd6baaa87bc65315eedb02" name="aae71eed0d1bd6baaa87bc65315eedb02"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>LoadUIConfiguration</b> (int version, const YAML::Node &amp;node)</td></tr>
 <tr class="separator:aae71eed0d1bd6baaa87bc65315eedb02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -441,6 +444,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadStatusBarIcons</b
 void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadWaveformShapeIcons</b> ()</td></tr>
 <tr class="memdesc:a7cced52fa27a21ba3af14d8b66625635"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLoad.html" title="Base class for all electronic load drivers.">Load</a> icons for wave shape preview. <br /></td></tr>
 <tr class="separator:a7cced52fa27a21ba3af14d8b66625635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5da31d3925e577188ef2ddae899d4f"><td class="memItemLeft" align="right" valign="top"><a id="a8c5da31d3925e577188ef2ddae899d4f" name="a8c5da31d3925e577188ef2ddae899d4f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadAppIcon</b> ()</td></tr>
+<tr class="separator:a8c5da31d3925e577188ef2ddae899d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9d226fee6ce61470db3437e48d9e9ad"><td class="memItemLeft" align="right" valign="top"><a id="ac9d226fee6ce61470db3437e48d9e9ad" name="ac9d226fee6ce61470db3437e48d9e9ad"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>NameNewWaveformGroup</b> ()</td></tr>
 <tr class="separator:ac9d226fee6ce61470db3437e48d9e9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -520,6 +526,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadRecentFileList</b
 <tr class="memitem:acffd858b75502bac38dbdda783db9c14"><td class="memItemLeft" align="right" valign="top"><a id="acffd858b75502bac38dbdda783db9c14" name="acffd858b75502bac38dbdda783db9c14"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveRecentFileList</b> ()</td></tr>
 <tr class="separator:acffd858b75502bac38dbdda783db9c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74eb57d3aac69006434474e2148cd201"><td class="memItemLeft" align="right" valign="top"><a id="a74eb57d3aac69006434474e2148cd201" name="a74eb57d3aac69006434474e2148cd201"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RenderReconnectPopup</b> ()</td></tr>
+<tr class="memdesc:a74eb57d3aac69006434474e2148cd201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Popup message when reconnecting to a session. <br /></td></tr>
+<tr class="separator:a74eb57d3aac69006434474e2148cd201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61355874f20a19fffedda18e9931b6d1"><td class="memItemLeft" align="right" valign="top"><a id="a61355874f20a19fffedda18e9931b6d1" name="a61355874f20a19fffedda18e9931b6d1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RenderErrorPopup</b> ()</td></tr>
 <tr class="memdesc:a61355874f20a19fffedda18e9931b6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Popup message when something big goes wrong. <br /></td></tr>
@@ -714,6 +724,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m_persistenceDecay</
 std::set&lt; std::pair&lt; <a class="el" href="classOscilloscopeChannel.html">OscilloscopeChannel</a> *, <a class="el" href="classWaveformArea.html">WaveformArea</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_pendingChannelDisplayRequests</b></td></tr>
 <tr class="memdesc:aadfafb948a10c0af292767ffc842ace6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pending requests to display a channel in a waveform area (from <a class="el" href="classMainWindow.html#a21d77bd35bd3c5a8c70f7ce4867c6823" title="Creates a filter optionally and adds all of its streams to the best waveform area.">CreateFilter()</a>) <br /></td></tr>
 <tr class="separator:aadfafb948a10c0af292767ffc842ace6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd05d03ca92cd4411ad81c483b8df517"><td class="memItemLeft" align="right" valign="top"><a id="acd05d03ca92cd4411ad81c483b8df517" name="acd05d03ca92cd4411ad81c483b8df517"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_startupSession</b></td></tr>
+<tr class="memdesc:acd05d03ca92cd4411ad81c483b8df517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pending request to open a session. <br /></td></tr>
+<tr class="separator:acd05d03ca92cd4411ad81c483b8df517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38ff3a099216a677e5566829ce6b8062"><td class="memItemLeft" align="right" valign="top"><a id="a38ff3a099216a677e5566829ce6b8062" name="a38ff3a099216a677e5566829ce6b8062"></a>
 <a class="el" href="classSession.html">Session</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_session</b></td></tr>
 <tr class="memdesc:a38ff3a099216a677e5566829ce6b8062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Our session object. <br /></td></tr>

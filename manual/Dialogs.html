@@ -50,61 +50,80 @@ access to the console.
 <a id='x8-52001r2'></a>
                                                                                          
                                                                                          
-<!-- l. 43 --><p class='noindent'><img alt='PIC' height='461' src='ng-images/dialog-logviewer.png' width='1027' />
+<!-- l. 43 --><p class='noindent'><img alt='PIC' height='434' src='ng-images/dialog-logviewer.png' width='1027' />
 </p>
 <figcaption class='caption'><span class='id'>Figure 6.2: </span><span class='content'>Log Viewer dialog</span></figcaption><!-- tex4ht:label?: x8-52001r2  -->
                                                                                          
                                                                                          
    </figure>
+<!-- l. 48 --><p class='indent'>   Expanding the “settings" panel allows log messages to be filtered to show more or less
+detail.
+</p><!-- l. 50 --><p class='indent'>   Additionally, if “trace" verbosity is selected, you can type class and/or function names using the
+<span class='t1-zi4r-0-x-x-109'>classname</span>, <span class='t1-zi4r-0-x-x-109'>classname::function</span>, or <span class='t1-zi4r-0-x-x-109'>::globalfunction </span>syntax in order to enable high-verbosity messages
+printed via <span class='t1-zi4r-0-x-x-109'>LogTrace()</span>.
+</p>
+   <figure class='figure' id='-log-viewer-dialog-with-tracing-active'> 
+
+                                                                                         
+                                                                                         
+<a id='x8-52002r3'></a>
+                                                                                         
+                                                                                         
+<!-- l. 56 --><p class='noindent'><img alt='PIC' height='453' src='ng-images/dialog-logviewer-trace.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 6.3: </span><span class='content'>Log Viewer dialog with tracing active</span></figcaption><!-- tex4ht:label?: x8-52002r3  -->
+                                                                                         
+                                                                                         
+   </figure>
    <h3 class='sectionHead' id='performance-metrics'><span class='titlemark'>6.3   </span> <a id='x8-530006.3'></a>Performance Metrics</h3>
-<!-- l. 53 --><p class='noindent'>The Performance Metrics dialog displays statistics on performance of rendering, waveform acquisition, and
+<!-- l. 66 --><p class='noindent'>The Performance Metrics dialog displays statistics on performance of rendering, waveform acquisition, and
 signal processing. This data is primarily intended for developers comparing before/after performance of
 optimizations and code changes.
-</p><!-- l. 57 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Window | Performance Metrics </span>menu.
+</p><!-- l. 70 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Window | Performance Metrics </span>menu.
 </p>
    <figure class='figure' id='-performance-metrics-dialog'> 
 
                                                                                          
                                                                                          
-<a id='x8-53001r3'></a>
+<a id='x8-53001r4'></a>
                                                                                          
                                                                                          
-<!-- l. 61 --><p class='noindent'><img alt='PIC' height='292' src='ng-images/dialog-perfmetrics.png' width='199' />
+<!-- l. 74 --><p class='noindent'><img alt='PIC' height='292' src='ng-images/dialog-perfmetrics.png' width='199' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.3: </span><span class='content'>Performance Metrics dialog</span></figcaption><!-- tex4ht:label?: x8-53001r3  -->
+<figcaption class='caption'><span class='id'>Figure 6.4: </span><span class='content'>Performance Metrics dialog</span></figcaption><!-- tex4ht:label?: x8-53001r4  -->
                                                                                          
                                                                                          
    </figure>
    <h4 class='subsectionHead' id='rendering'><span class='titlemark'>6.3.1   </span> <a id='x8-540006.3.1'></a>Rendering</h4>
-<!-- l. 68 --><p class='noindent'>Displays render loop framerate, monitor refresh rate, total time spent last frame in the rasterization and
+<!-- l. 81 --><p class='noindent'>Displays render loop framerate, monitor refresh rate, total time spent last frame in the rasterization and
 tone mapping shaders, and the number of vertices and indices drawn as Vulkan geometry. Note that
 waveforms are drawn by a compute shader and do not contribute towards the vertex/index totals, other
 than a single textured rectangle used for displaying the shader output.
-</p><!-- l. 73 --><p class='noindent'>
+</p><!-- l. 86 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead' id='filter-graph'><span class='titlemark'>6.3.2   </span> <a id='x8-550006.3.2'></a>Filter graph</h4>
-<!-- l. 74 --><p class='noindent'>Number of filter blocks in the current graph, and run time for the most recent evaluation of the filter
+<!-- l. 87 --><p class='noindent'>Number of filter blocks in the current graph, and run time for the most recent evaluation of the filter
 graph.
-</p><!-- l. 77 --><p class='noindent'>
+</p><!-- l. 90 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead' id='acquisition'><span class='titlemark'>6.3.3   </span> <a id='x8-560006.3.3'></a>Acquisition</h4>
-<!-- l. 79 --><p class='noindent'>Displays the acquisition rate, in waveforms per second. This data is collected using a rather simple
+<!-- l. 92 --><p class='noindent'>Displays the acquisition rate, in waveforms per second. This data is collected using a rather simple
 mechanism and may not be usefully accurate if multiple trigger groups are in use.
-</p><!-- l. 82 --><p class='indent'>   Additionally, this section displays the number of pending waveforms for each instrument
+</p><!-- l. 95 --><p class='indent'>   Additionally, this section displays the number of pending waveforms for each instrument
 (waveforms which have been acquired but not yet passed to the filter graph). This number should
 normally be flickering between zero and one if acquisition is active and zero otherwise; larger
 values indicate that the instrument is supplying data faster than ngscopeclient can process
 it.
-</p><!-- l. 87 --><p class='noindent'>
+</p><!-- l. 100 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead' id='memory'><span class='titlemark'>6.3.4   </span> <a id='x8-570006.3.4'></a>Memory</h4>
-<!-- l. 89 --><p class='noindent'>Displays the total amount of available pinned memory (CPU-side memory eligible to be shared with the
+<!-- l. 102 --><p class='noindent'>Displays the total amount of available pinned memory (CPU-side memory eligible to be shared with the
 GPU) and local memory (memory attached to the GPU), as well as the amount of each currently in
 use.
-</p><!-- l. 94 --><p class='noindent'>
+</p><!-- l. 107 --><p class='noindent'>
 </p>
    <h3 class='sectionHead' id='preferences'><span class='titlemark'>6.4   </span> <a id='x8-580006.4'></a>Preferences</h3>
-<!-- l. 97 --><p class='noindent'>The Preferences dialog allows you to configure various application settings which are not specific to a
+<!-- l. 110 --><p class='noindent'>The Preferences dialog allows you to configure various application settings which are not specific to a
 particular experimental setup. It can be found under the <span class='t1-zi4r-0-x-x-109'>Setup | Preferences </span>menu.
                                                                                          
                                                                                          
@@ -113,80 +132,85 @@ particular experimental setup. It can be found under the <span class='t1-zi4r-0-
 
                                                                                          
                                                                                          
-<a id='x8-58001r4'></a>
+<a id='x8-58001r5'></a>
                                                                                          
                                                                                          
-<!-- l. 102 --><p class='noindent'><img alt='PIC' height='177' src='ng-images/dialog-preferences.png' width='199' />
+<!-- l. 115 --><p class='noindent'><img alt='PIC' height='177' src='ng-images/dialog-preferences.png' width='199' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.4: </span><span class='content'>Preferences dialog</span></figcaption><!-- tex4ht:label?: x8-58001r4  -->
+<figcaption class='caption'><span class='id'>Figure 6.5: </span><span class='content'>Preferences dialog</span></figcaption><!-- tex4ht:label?: x8-58001r5  -->
                                                                                          
                                                                                          
    </figure>
    <h4 class='subsectionHead' id='appearance'><span class='titlemark'>6.4.1   </span> <a id='x8-590006.4.1'></a>Appearance</h4>
-<!-- l. 109 --><p class='noindent'>This section allows you to configure fonts, colors, and other display settings for the application.
-</p><!-- l. 113 --><p class='noindent'>
+<!-- l. 122 --><p class='noindent'>This section allows you to configure fonts, colors, and other display settings for the application.
+</p><!-- l. 126 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead' id='drivers'><span class='titlemark'>6.4.2   </span> <a id='x8-600006.4.2'></a>Drivers</h4>
-<!-- l. 115 --><p class='noindent'>This section allows you to configure default configurations for various instrument drivers.
-</p><!-- l. 117 --><p class='noindent'>
+<!-- l. 128 --><p class='noindent'>This section allows you to configure default configurations for various instrument drivers.
+</p><!-- l. 130 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead' id='general'><a id='x8-61000'></a>General</h5>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Headless scope default state</span>: When connecting to a headless oscilloscope (one without a front
      panel display), specify the set of channels which should be shown after connecting.</li></ul>
-<!-- l. 124 --><p class='noindent'>
+<!-- l. 137 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead' id='rigol-dho'><a id='x8-62000'></a>Rigol DHO</h5>
      <ul class='itemize1'>
-     <li class='itemize'><span class='ecti-1095'>Data Width  </span>(default  on):  Specifies  whether  to  use  8  bit  or  16  bit  transfer  format  when
+     <li class='itemize'><span class='ecti-1095'>Data Width </span>(default auto): Specifies whether to use 8 bit or 16 bit transfer format when
      downloading  samples  from  the  instrument,  or  automatically  decide  based  on  hardware
      configuration.</li></ul>
-<!-- l. 131 --><p class='noindent'>
+<!-- l. 144 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead' id='siglent-sds-hd'><a id='x8-63000'></a>Siglent SDS HD</h5>
                                                                                          
                                                                                          
      <ul class='itemize1'>
-     <li class='itemize'><span class='ecti-1095'>Data Width  </span>(default  on):  Specifies  whether  to  use  8  bit  or  16  bit  transfer  format  when
+     <li class='itemize'><span class='ecti-1095'>Data Width </span>(default auto): Specifies whether to use 8 bit or 16 bit transfer format when
      downloading  samples  from  the  instrument,  or  automatically  decide  based  on  hardware
      configuration.</li></ul>
-<!-- l. 138 --><p class='noindent'>
+<!-- l. 151 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead' id='teledyne-lecroy'><a id='x8-64000'></a>Teledyne LeCroy</h5>
      <ul class='itemize1'>
-     <li class='itemize'><span class='ecti-1095'>Force  16  bit  mode  </span>(default  on):  Always  use  16-bit  format  for  downloading  data  from
+     <li class='itemize'>
+     <!-- l. 154 --><p class='noindent'><span class='ecti-1095'>Force  16  bit  mode  </span>(default  on):  Always  use  16-bit  format  for  downloading  data  from
      the  instrument,  even  if  it  only  has  an  8-bit  ADC.  This  doubles  the  amount  of  network
      bandwidth  required  and  may  reduce  waveforms-per-second  performance,  but  provides
-     smoother waveforms since the instrument performs DSP flatness correction leading to &gt;256
-     possible output values in a given waveform.</li></ul>
-<!-- l. 147 --><p class='noindent'>
+     smoother waveforms.
+     </p><!-- l. 158 --><p class='noindent'>Note that Teledyne LeCroy scopes perform DSP flatness corrections between the ADC and
+     the data presented via the API, meaning that even if the hardware only has an 8-bit ADC,
+     downloading data with 16-bit precision will result in improved accuracy.
+</p>
+     </li></ul>
+<!-- l. 164 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead' id='files'><span class='titlemark'>6.4.3   </span> <a id='x8-650006.4.3'></a>Files</h4>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Max recent files</span>: Specify the number of files to display under the <span class='t1-zi4r-0-x-x-109'>File | Recent Files </span>menu.</li></ul>
-<!-- l. 153 --><p class='noindent'>
+<!-- l. 170 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead' id='miscellaneous'><span class='titlemark'>6.4.4   </span> <a id='x8-660006.4.4'></a>Miscellaneous</h4>
-<!-- l. 155 --><p class='noindent'>
+                                                                                         
+                                                                                         
+<!-- l. 172 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead' id='menus'><a id='x8-67000'></a>Menus</h5>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Recent instrument count</span>: Specify the number of recently used instruments to remember</li></ul>
-                                                                                         
-                                                                                         
-<!-- l. 161 --><p class='noindent'>
+<!-- l. 178 --><p class='noindent'>
 </p>
    <h4 class='subsectionHead' id='power'><span class='titlemark'>6.4.5   </span> <a id='x8-680006.4.5'></a>Power</h4>
-<!-- l. 163 --><p class='noindent'>
+<!-- l. 180 --><p class='noindent'>
 </p>
    <h5 class='subsubsectionHead' id='events'><a id='x8-69000'></a>Events</h5>
-<!-- l. 165 --><p class='noindent'>This section provides settings allowing power vs performance tradeoffs. The default settings are
+<!-- l. 182 --><p class='noindent'>This section provides settings allowing power vs performance tradeoffs. The default settings are
 appropriate for a desktop or laptop running on AC power; if running on a laptop with battery power you
 may wish to tune these to extend battery lifespan.
 </p>
      <ul class='itemize1'>
      <li class='itemize'>
-     <!-- l. 170 --><p class='noindent'><span class='ecti-1095'>Event loop mode</span>: Controls the operating mode for the main application event loop. </p>
+     <!-- l. 187 --><p class='noindent'><span class='ecti-1095'>Event loop mode</span>: Controls the operating mode for the main application event loop. </p>
           <ul class='itemize2'>
           <li class='itemize'>In Performance mode, run at the screen refresh rate. This allows for the highest possible
           waveform processing rate and the smoothest interactivity, but may waste energy if you
@@ -200,29 +224,29 @@ may wish to tune these to extend battery lifespan.
      </li>
      <li class='itemize'><span class='ecti-1095'>Polling timeout</span>: If the event loop is in Power mode, specifies the timeout before the event loop will
      run if there is no user input.</li></ul>
-<!-- l. 185 --><p class='noindent'>
+                                                                                         
+                                                                                         
+<!-- l. 202 --><p class='noindent'>
 </p>
    <h3 class='sectionHead' id='speed-bump'><span class='titlemark'>6.5   </span> <a id='x8-700006.5'></a>Speed Bump</h3>
-<!-- l. 188 --><p class='noindent'>The Speed Bump dialog is displayed when loading a session file online (reconnecting to and reconfiguring
+<!-- l. 205 --><p class='noindent'>The Speed Bump dialog is displayed when loading a session file online (reconnecting to and reconfiguring
 hardware), prior to committing changes to the instrument, if:
 </p>
-                                                                                         
-                                                                                         
      <ul class='itemize1'>
-     <li class='itemize'>The session file contains any user-created notes on the lab setup
+     <li class='itemize'>The session file contains any user-created notes on the lab setup, or
      </li>
      <li class='itemize'>Any of the instrument settings in the session file do not match the current configuration of
      the corresponding instrument, and the direction of the change has potential to cause damage
      to the instrument or DUT (increasing output voltage, removing input attenuation, etc).</li></ul>
-<!-- l. 198 --><p class='indent'>   This is intended as a safeguard to prevent damaging hardware by accidentally loading the wrong
+<!-- l. 215 --><p class='indent'>   This is intended as a safeguard to prevent damaging hardware by accidentally loading the wrong
 session file. It also provides an opportunity to confirm that you have re-created the original experimental
 setup exactly if you are switching a lab bench between multiple projects and using saved sessions to restore
 instrument state.
-</p><!-- l. 202 --><p class='indent'>   Pressing the Abort button cancels loading of the session without applying any of the potentially
+</p><!-- l. 219 --><p class='indent'>   Pressing the Abort button cancels loading of the session without applying any of the potentially
 dangerous changes. The instruments may be partially reconfigured in this state, as some changes (such as
-sample rate or memory depth configuration) are always safe to make and thus may execute prior to the
-warning being displayed.
-</p><!-- l. 206 --><p class='indent'>   Pressing the Proceed button allows ngscopeclient to proceed with loading the session and reconfiguring
+sample rate or memory depth configuration) are always safe to make and thus may have been applied prior
+to the warning being displayed.
+</p><!-- l. 223 --><p class='indent'>   Pressing the Proceed button allows ngscopeclient to proceed with loading the session and reconfiguring
 hardware. You must check the “I have reviewed the instrument configuration" box in order to enable the
 Proceed button.
 </p>
@@ -230,32 +254,12 @@ Proceed button.
 
                                                                                          
                                                                                          
-<a id='x8-70001r5'></a>
+<a id='x8-70001r6'></a>
                                                                                          
                                                                                          
-<!-- l. 211 --><p class='noindent'><img alt='PIC' height='673' src='ng-images/dialog-speedbump.png' width='1027' />
+<!-- l. 228 --><p class='noindent'><img alt='PIC' height='673' src='ng-images/dialog-speedbump.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.5: </span><span class='content'>Speed Bump dialog</span></figcaption><!-- tex4ht:label?: x8-70001r5  -->
-                                                                                         
-                                                                                         
-   </figure>
-   <h3 class='sectionHead' id='timebase'><span class='titlemark'>6.6   </span> <a id='x8-710006.6'></a>Timebase</h3>
-<!-- l. 221 --><p class='noindent'>The Timebase dialog allows you to configure sample rate and record length for oscilloscopes. It also
-provides control over functionally similar “what to look at" settings for other instruments, such as center
-frequency and span for spectrum analyzers or sweep range and point count for vector network
-analyzers.
-</p><!-- l. 225 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Setup | Timebase </span>menu.
-</p>
-   <figure class='figure' id='-timebase-dialog'> 
-
-                                                                                         
-                                                                                         
-<a id='x8-71001r6'></a>
-                                                                                         
-                                                                                         
-<!-- l. 229 --><p class='noindent'><img alt='PIC' height='80' src='ng-images/dialog-timebase.png' width='199' />
-</p>
-<figcaption class='caption'><span class='id'>Figure 6.6: </span><span class='content'>Timebase dialog</span></figcaption><!-- tex4ht:label?: x8-71001r6  -->
+<figcaption class='caption'><span class='id'>Figure 6.6: </span><span class='content'>Speed Bump dialog</span></figcaption><!-- tex4ht:label?: x8-70001r6  -->
                                                                                          
                                                                                          
    </figure>

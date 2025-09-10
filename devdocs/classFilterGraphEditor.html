@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -64,6 +64,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -150,6 +151,39 @@ const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Ge
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetTitleAndID</b> ()</td></tr>
 <tr class="separator:ae6ac6cb726edc5ebc289c6d20384dd60 inherit pub_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a6f306444f4ee67d44482f3245c21bbe2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterGraphEditor.html#a6f306444f4ee67d44482f3245c21bbe2">IsBackEdge</a> (<a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *src, <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *dst)</td></tr>
+<tr class="memdesc:a6f306444f4ee67d44482f3245c21bbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if a proposed edge in the filter graph is a back edge (one whose creation would lead to a cycle)  <a href="classFilterGraphEditor.html#a6f306444f4ee67d44482f3245c21bbe2">More...</a><br /></td></tr>
+<tr class="separator:a6f306444f4ee67d44482f3245c21bbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classDialog"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classDialog')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classDialog.html">Dialog</a></td></tr>
+<tr class="memitem:ab4967ac1086a84d9c6cec7c5633d3de1 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="ab4967ac1086a84d9c6cec7c5633d3de1" name="ab4967ac1086a84d9c6cec7c5633d3de1"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Combo</b> (const std::string &amp;label, const std::vector&lt; std::string &gt; &amp;items, int &amp;selection)</td></tr>
+<tr class="memdesc:ab4967ac1086a84d9c6cec7c5633d3de1 inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a combo box from a vector&lt;string&gt; <br /></td></tr>
+<tr class="separator:ab4967ac1086a84d9c6cec7c5633d3de1 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf381f13bcab3167433df0631cdeef6 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialog.html#a1cf381f13bcab3167433df0631cdeef6">UnitInputWithImplicitApply</a> (const std::string &amp;label, std::string &amp;currentValue, float &amp;committedValue, <a class="el" href="classUnit.html">Unit</a> unit)</td></tr>
+<tr class="memdesc:a1cf381f13bcab3167433df0631cdeef6 inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input box for a floating point value with an associated unit.  <a href="classDialog.html#a1cf381f13bcab3167433df0631cdeef6">More...</a><br /></td></tr>
+<tr class="separator:a1cf381f13bcab3167433df0631cdeef6 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14f34d90f65250454bf2742220c89d7e inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialog.html#a14f34d90f65250454bf2742220c89d7e">UnitInputWithImplicitApply</a> (const std::string &amp;label, std::string &amp;currentValue, double &amp;committedValue, <a class="el" href="classUnit.html">Unit</a> unit)</td></tr>
+<tr class="memdesc:a14f34d90f65250454bf2742220c89d7e inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input box for a double precision floating point value with an associated unit.  <a href="classDialog.html#a14f34d90f65250454bf2742220c89d7e">More...</a><br /></td></tr>
+<tr class="separator:a14f34d90f65250454bf2742220c89d7e inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9bdbb5aff0a87bc65c767cb16ba0afd inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialog.html#ab9bdbb5aff0a87bc65c767cb16ba0afd">UnitInputWithImplicitApply</a> (const std::string &amp;label, std::string &amp;currentValue, int64_t &amp;committedValue, <a class="el" href="classUnit.html">Unit</a> unit)</td></tr>
+<tr class="memdesc:ab9bdbb5aff0a87bc65c767cb16ba0afd inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input box for an integer value with an associated unit.  <a href="classDialog.html#ab9bdbb5aff0a87bc65c767cb16ba0afd">More...</a><br /></td></tr>
+<tr class="separator:ab9bdbb5aff0a87bc65c767cb16ba0afd inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ffa1a12778ba0bf0bf63ddbdae82c9 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="a05ffa1a12778ba0bf0bf63ddbdae82c9" name="a05ffa1a12778ba0bf0bf63ddbdae82c9"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>TextInputWithImplicitApply</b> (const std::string &amp;label, std::string &amp;currentValue, std::string &amp;committedValue)</td></tr>
+<tr class="separator:a05ffa1a12778ba0bf0bf63ddbdae82c9 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32982d92a91b8d5327ebc792e63f4b63 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="a32982d92a91b8d5327ebc792e63f4b63" name="a32982d92a91b8d5327ebc792e63f4b63"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Tooltip</b> (const std::string &amp;str, bool allowDisabled=false)</td></tr>
+<tr class="memdesc:a32982d92a91b8d5327ebc792e63f4b63 inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper based on imgui demo for displaying tooltip text over the previously rendered widget. <br /></td></tr>
+<tr class="separator:a32982d92a91b8d5327ebc792e63f4b63 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f34dde9a0519994fd215a1069163043 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="a3f34dde9a0519994fd215a1069163043" name="a3f34dde9a0519994fd215a1069163043"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>HelpMarker</b> (const std::string &amp;str)</td></tr>
+<tr class="separator:a3f34dde9a0519994fd215a1069163043 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd37889f76e7df2c254b6905a5c1ceb4 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="afd37889f76e7df2c254b6905a5c1ceb4" name="afd37889f76e7df2c254b6905a5c1ceb4"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>HelpMarker</b> (const std::string &amp;header, const std::vector&lt; std::string &gt; &amp;bullets)</td></tr>
+<tr class="separator:afd37889f76e7df2c254b6905a5c1ceb4 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2e5b8a2879e22f8f3d9ab4be377e5d93"><td class="memItemLeft" align="right" valign="top"><a id="a2e5b8a2879e22f8f3d9ab4be377e5d93" name="a2e5b8a2879e22f8f3d9ab4be377e5d93"></a>
@@ -215,9 +249,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>HandleBackgroundConte
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoAddMenu</b> ()</td></tr>
 <tr class="memdesc:a82c9ba78db9e45f893325788bc4e53d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement the add menu. <br /></td></tr>
 <tr class="separator:a82c9ba78db9e45f893325788bc4e53d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f306444f4ee67d44482f3245c21bbe2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFilterGraphEditor.html#a6f306444f4ee67d44482f3245c21bbe2">IsBackEdge</a> (<a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *src, <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> *dst)</td></tr>
-<tr class="memdesc:a6f306444f4ee67d44482f3245c21bbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if a proposed edge in the filter graph is a back edge (one whose creation would lead to a cycle)  <a href="classFilterGraphEditor.html#a6f306444f4ee67d44482f3245c21bbe2">More...</a><br /></td></tr>
-<tr class="separator:a6f306444f4ee67d44482f3245c21bbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec797813c547d78167a38ac90b174c94"><td class="memItemLeft" align="right" valign="top"><a id="aec797813c547d78167a38ac90b174c94" name="aec797813c547d78167a38ac90b174c94"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>HandleOverlaps</b> ()</td></tr>
 <tr class="memdesc:aec797813c547d78167a38ac90b174c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find nodes that are intersecting, and apply forces to resolve collisions. <br /></td></tr>
@@ -405,36 +436,6 @@ Friends</h2></td></tr>
 <tr class="memitem:a2fce35da81d94db8144cb72ac4e4b2e8"><td class="memItemLeft" align="right" valign="top"><a id="a2fce35da81d94db8144cb72ac4e4b2e8" name="a2fce35da81d94db8144cb72ac4e4b2e8"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>FilterGraphGroup</b></td></tr>
 <tr class="separator:a2fce35da81d94db8144cb72ac4e4b2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classDialog"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classDialog')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classDialog.html">Dialog</a></td></tr>
-<tr class="memitem:ab4967ac1086a84d9c6cec7c5633d3de1 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="ab4967ac1086a84d9c6cec7c5633d3de1" name="ab4967ac1086a84d9c6cec7c5633d3de1"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Combo</b> (const std::string &amp;label, const std::vector&lt; std::string &gt; &amp;items, int &amp;selection)</td></tr>
-<tr class="memdesc:ab4967ac1086a84d9c6cec7c5633d3de1 inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a combo box from a vector&lt;string&gt; <br /></td></tr>
-<tr class="separator:ab4967ac1086a84d9c6cec7c5633d3de1 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cf381f13bcab3167433df0631cdeef6 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialog.html#a1cf381f13bcab3167433df0631cdeef6">UnitInputWithImplicitApply</a> (const std::string &amp;label, std::string &amp;currentValue, float &amp;committedValue, <a class="el" href="classUnit.html">Unit</a> unit)</td></tr>
-<tr class="memdesc:a1cf381f13bcab3167433df0631cdeef6 inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input box for a floating point value with an associated unit.  <a href="classDialog.html#a1cf381f13bcab3167433df0631cdeef6">More...</a><br /></td></tr>
-<tr class="separator:a1cf381f13bcab3167433df0631cdeef6 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14f34d90f65250454bf2742220c89d7e inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialog.html#a14f34d90f65250454bf2742220c89d7e">UnitInputWithImplicitApply</a> (const std::string &amp;label, std::string &amp;currentValue, double &amp;committedValue, <a class="el" href="classUnit.html">Unit</a> unit)</td></tr>
-<tr class="memdesc:a14f34d90f65250454bf2742220c89d7e inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input box for a double precision floating point value with an associated unit.  <a href="classDialog.html#a14f34d90f65250454bf2742220c89d7e">More...</a><br /></td></tr>
-<tr class="separator:a14f34d90f65250454bf2742220c89d7e inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9bdbb5aff0a87bc65c767cb16ba0afd inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDialog.html#ab9bdbb5aff0a87bc65c767cb16ba0afd">UnitInputWithImplicitApply</a> (const std::string &amp;label, std::string &amp;currentValue, int64_t &amp;committedValue, <a class="el" href="classUnit.html">Unit</a> unit)</td></tr>
-<tr class="memdesc:ab9bdbb5aff0a87bc65c767cb16ba0afd inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input box for an integer value with an associated unit.  <a href="classDialog.html#ab9bdbb5aff0a87bc65c767cb16ba0afd">More...</a><br /></td></tr>
-<tr class="separator:ab9bdbb5aff0a87bc65c767cb16ba0afd inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ffa1a12778ba0bf0bf63ddbdae82c9 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="a05ffa1a12778ba0bf0bf63ddbdae82c9" name="a05ffa1a12778ba0bf0bf63ddbdae82c9"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>TextInputWithImplicitApply</b> (const std::string &amp;label, std::string &amp;currentValue, std::string &amp;committedValue)</td></tr>
-<tr class="separator:a05ffa1a12778ba0bf0bf63ddbdae82c9 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32982d92a91b8d5327ebc792e63f4b63 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="a32982d92a91b8d5327ebc792e63f4b63" name="a32982d92a91b8d5327ebc792e63f4b63"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Tooltip</b> (const std::string &amp;str, bool allowDisabled=false)</td></tr>
-<tr class="memdesc:a32982d92a91b8d5327ebc792e63f4b63 inherit pub_static_methods_classDialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper based on imgui demo for displaying tooltip text over the previously rendered widget. <br /></td></tr>
-<tr class="separator:a32982d92a91b8d5327ebc792e63f4b63 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f34dde9a0519994fd215a1069163043 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="a3f34dde9a0519994fd215a1069163043" name="a3f34dde9a0519994fd215a1069163043"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>HelpMarker</b> (const std::string &amp;str)</td></tr>
-<tr class="separator:a3f34dde9a0519994fd215a1069163043 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd37889f76e7df2c254b6905a5c1ceb4 inherit pub_static_methods_classDialog"><td class="memItemLeft" align="right" valign="top"><a id="afd37889f76e7df2c254b6905a5c1ceb4" name="afd37889f76e7df2c254b6905a5c1ceb4"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>HelpMarker</b> (const std::string &amp;header, const std::vector&lt; std::string &gt; &amp;bullets)</td></tr>
-<tr class="separator:afd37889f76e7df2c254b6905a5c1ceb4 inherit pub_static_methods_classDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0ed010182da1245eedb6e6a8d0564e9f" name="a0ed010182da1245eedb6e6a8d0564e9f"></a>
@@ -653,7 +654,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>HelpMarker</b>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

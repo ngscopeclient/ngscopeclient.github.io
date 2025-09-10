@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -101,61 +101,69 @@ $(function() {
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#ifndef ClockRecoveryFilter_h</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define ClockRecoveryFilter_h</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classClockRecoveryFilter.html">   38</a></span><span class="keyword">class </span><a class="code hl_class" href="classClockRecoveryFilter.html">ClockRecoveryFilter</a> : <span class="keyword">public</span> <a class="code hl_class" href="classFilter.html">Filter</a></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_class" href="classClockRecoveryFilter.html">ClockRecoveryFilter</a>(<span class="keyword">const</span> std::string&amp; color);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classClockRecoveryFilter.html">~ClockRecoveryFilter</a>();</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFilter.html#a0d355f63472c697de0ec20b36657ed9c">Refresh</a>(vk::raii::CommandBuffer&amp; cmdBuf, std::shared_ptr&lt;QueueHandle&gt; queue) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">virtual</span> DataLocation <a class="code hl_function" href="classClockRecoveryFilter.html#abba466ec168917fb40cef2e6ceea2156">GetInputLocation</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">static</span> std::string GetProtocolName();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;../scopehal/LevelCrossingDetector.h&quot;</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classClockRecoveryFilter.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="classClockRecoveryFilter.html">ClockRecoveryFilter</a> : <span class="keyword">public</span> <a class="code hl_class" href="classFilter.html">Filter</a></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_class" href="classClockRecoveryFilter.html">ClockRecoveryFilter</a>(<span class="keyword">const</span> std::string&amp; color);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classClockRecoveryFilter.html">~ClockRecoveryFilter</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classFilter.html#a0d355f63472c697de0ec20b36657ed9c">Refresh</a>(vk::raii::CommandBuffer&amp; cmdBuf, std::shared_ptr&lt;QueueHandle&gt; queue) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">virtual</span> DataLocation <a class="code hl_function" href="classClockRecoveryFilter.html#abba466ec168917fb40cef2e6ceea2156">GetInputLocation</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> ValidateChannel(<span class="keywordtype">size_t</span> i, <a class="code hl_class" href="classStreamDescriptor.html">StreamDescriptor</a> stream) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">static</span> std::string GetProtocolName();</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    PROTOCOL_DECODER_INITPROC(<a class="code hl_class" href="classClockRecoveryFilter.html">ClockRecoveryFilter</a>)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> ValidateChannel(<span class="keywordtype">size_t</span> i, <a class="code hl_class" href="classStreamDescriptor.html">StreamDescriptor</a> stream) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classClockRecoveryFilter.html#a874e46613c91f6b183229a67488a4530">FillSquarewaveGeneric</a>(<a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classClockRecoveryFilter.html#aea07a03511bb4937076f8c9a613087aa">InnerLoopWithGating</a>(</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap,</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        std::vector&lt;int64_t&gt;&amp; edges,</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        int64_t tend,</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        int64_t initialPeriod,</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        int64_t halfPeriod,</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        int64_t fnyquist,</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <a class="code hl_class" href="classWaveformBase.html">WaveformBase</a>* gate,</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>* sgate,</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <a class="code hl_class" href="classUniformWaveform.html">UniformDigitalWaveform</a>* ugate);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> InnerLoopWithNoGating(</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap,</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        std::vector&lt;int64_t&gt;&amp; edges,</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        int64_t tend,</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        int64_t initialPeriod,</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        int64_t halfPeriod,</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        int64_t fnyquist);</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#ifdef __x86_64__</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> FillSquarewaveAVX2(<a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap);</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    PROTOCOL_DECODER_INITPROC(<a class="code hl_class" href="classClockRecoveryFilter.html">ClockRecoveryFilter</a>)</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classClockRecoveryFilter.html#a874e46613c91f6b183229a67488a4530">FillSquarewaveGeneric</a>(<a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classClockRecoveryFilter.html#a500c6c61346fa3c614c01284374fa67b">InnerLoopWithGating</a>(</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap,</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <a class="code hl_class" href="classAcceleratorBuffer.html">AcceleratorBuffer&lt;int64_t&gt;</a>&amp; edges,</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">size_t</span> nedges,</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        int64_t tend,</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        int64_t initialPeriod,</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        int64_t halfPeriod,</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        int64_t fnyquist,</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <a class="code hl_class" href="classWaveformBase.html">WaveformBase</a>* gate,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>* sgate,</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <a class="code hl_class" href="classUniformWaveform.html">UniformDigitalWaveform</a>* ugate);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">void</span> InnerLoopWithNoGating(</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap,</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <a class="code hl_class" href="classAcceleratorBuffer.html">AcceleratorBuffer&lt;int64_t&gt;</a>&amp; edges,</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <span class="keywordtype">size_t</span> nedges,</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        int64_t tend,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        int64_t initialPeriod,</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        int64_t halfPeriod,</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        int64_t fnyquist);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    std::string m_baudname;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    std::string m_threshname;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>};</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#ifdef __x86_64__</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> FillSquarewaveAVX2(<a class="code hl_class" href="classSparseWaveform.html">SparseDigitalWaveform</a>&amp; cap);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassClockRecoveryFilter_html"><div class="ttname"><a href="classClockRecoveryFilter.html">ClockRecoveryFilter</a></div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.h:39</div></div>
-<div class="ttc" id="aclassClockRecoveryFilter_html_a874e46613c91f6b183229a67488a4530"><div class="ttname"><a href="classClockRecoveryFilter.html#a874e46613c91f6b183229a67488a4530">ClockRecoveryFilter::FillSquarewaveGeneric</a></div><div class="ttdeci">void FillSquarewaveGeneric(SparseDigitalWaveform &amp;cap)</div><div class="ttdoc">Fills a waveform with a squarewave.</div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.cpp:210</div></div>
-<div class="ttc" id="aclassClockRecoveryFilter_html_abba466ec168917fb40cef2e6ceea2156"><div class="ttname"><a href="classClockRecoveryFilter.html#abba466ec168917fb40cef2e6ceea2156">ClockRecoveryFilter::GetInputLocation</a></div><div class="ttdeci">virtual DataLocation GetInputLocation() override</div><div class="ttdoc">Gets the desired location of the nodes's input data.</div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.cpp:558</div></div>
-<div class="ttc" id="aclassClockRecoveryFilter_html_aea07a03511bb4937076f8c9a613087aa"><div class="ttname"><a href="classClockRecoveryFilter.html#aea07a03511bb4937076f8c9a613087aa">ClockRecoveryFilter::InnerLoopWithGating</a></div><div class="ttdeci">void InnerLoopWithGating(SparseDigitalWaveform &amp;cap, std::vector&lt; int64_t &gt; &amp;edges, int64_t tend, int64_t initialPeriod, int64_t halfPeriod, int64_t fnyquist, WaveformBase *gate, SparseDigitalWaveform *sgate, UniformDigitalWaveform *ugate)</div><div class="ttdoc">Main PLL inner loop supporting an external gate/squelch signal.</div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.cpp:226</div></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    std::string m_baudname;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    std::string m_threshname;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <a class="code hl_class" href="classLevelCrossingDetector.html">LevelCrossingDetector</a> m_detector;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassAcceleratorBuffer_html"><div class="ttname"><a href="classAcceleratorBuffer.html">AcceleratorBuffer&lt; int64_t &gt;</a></div></div>
+<div class="ttc" id="aclassClockRecoveryFilter_html"><div class="ttname"><a href="classClockRecoveryFilter.html">ClockRecoveryFilter</a></div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.h:41</div></div>
+<div class="ttc" id="aclassClockRecoveryFilter_html_a500c6c61346fa3c614c01284374fa67b"><div class="ttname"><a href="classClockRecoveryFilter.html#a500c6c61346fa3c614c01284374fa67b">ClockRecoveryFilter::InnerLoopWithGating</a></div><div class="ttdeci">void InnerLoopWithGating(SparseDigitalWaveform &amp;cap, AcceleratorBuffer&lt; int64_t &gt; &amp;edges, size_t nedges, int64_t tend, int64_t initialPeriod, int64_t halfPeriod, int64_t fnyquist, WaveformBase *gate, SparseDigitalWaveform *sgate, UniformDigitalWaveform *ugate)</div><div class="ttdoc">Main PLL inner loop supporting an external gate/squelch signal.</div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.cpp:242</div></div>
+<div class="ttc" id="aclassClockRecoveryFilter_html_a874e46613c91f6b183229a67488a4530"><div class="ttname"><a href="classClockRecoveryFilter.html#a874e46613c91f6b183229a67488a4530">ClockRecoveryFilter::FillSquarewaveGeneric</a></div><div class="ttdeci">void FillSquarewaveGeneric(SparseDigitalWaveform &amp;cap)</div><div class="ttdoc">Fills a waveform with a squarewave.</div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.cpp:226</div></div>
+<div class="ttc" id="aclassClockRecoveryFilter_html_abba466ec168917fb40cef2e6ceea2156"><div class="ttname"><a href="classClockRecoveryFilter.html#abba466ec168917fb40cef2e6ceea2156">ClockRecoveryFilter::GetInputLocation</a></div><div class="ttdeci">virtual DataLocation GetInputLocation() override</div><div class="ttdoc">Gets the desired location of the nodes's input data.</div><div class="ttdef"><b>Definition:</b> ClockRecoveryFilter.cpp:586</div></div>
 <div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filter graph blocks which are not physical instrument channels.</div><div class="ttdef"><b>Definition:</b> Filter.h:95</div></div>
 <div class="ttc" id="aclassFilter_html_a0d355f63472c697de0ec20b36657ed9c"><div class="ttname"><a href="classFilter.html#a0d355f63472c697de0ec20b36657ed9c">Filter::Refresh</a></div><div class="ttdeci">virtual void Refresh() override</div><div class="ttdoc">Evaluates a filter graph node.</div><div class="ttdef"><b>Definition:</b> Filter.cpp:823</div></div>
-<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:469</div></div>
+<div class="ttc" id="aclassLevelCrossingDetector_html"><div class="ttname"><a href="classLevelCrossingDetector.html">LevelCrossingDetector</a></div><div class="ttdoc">Helper for GPU accelerated level-crossing searches.</div><div class="ttdef"><b>Definition:</b> LevelCrossingDetector.h:64</div></div>
+<div class="ttc" id="aclassSparseWaveform_html"><div class="ttname"><a href="classSparseWaveform.html">SparseWaveform</a></div><div class="ttdoc">A waveform sampled at irregular intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:481</div></div>
 <div class="ttc" id="aclassStreamDescriptor_html"><div class="ttname"><a href="classStreamDescriptor.html">StreamDescriptor</a></div><div class="ttdoc">Descriptor for a single stream coming off a channel.</div><div class="ttdef"><b>Definition:</b> StreamDescriptor.h:46</div></div>
-<div class="ttc" id="aclassUniformWaveform_html"><div class="ttname"><a href="classUniformWaveform.html">UniformWaveform</a></div><div class="ttdoc">A waveform sampled at uniform intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:371</div></div>
+<div class="ttc" id="aclassUniformWaveform_html"><div class="ttname"><a href="classUniformWaveform.html">UniformWaveform</a></div><div class="ttdoc">A waveform sampled at uniform intervals.</div><div class="ttdef"><b>Definition:</b> Waveform.h:383</div></div>
 <div class="ttc" id="aclassWaveformBase_html"><div class="ttname"><a href="classWaveformBase.html">WaveformBase</a></div><div class="ttdoc">Base class for all Waveform specializations.</div><div class="ttdef"><b>Definition:</b> Waveform.h:59</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

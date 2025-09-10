@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -129,7 +129,14 @@ $(function() {
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    std::map&lt;FontDescription, ImFont*&gt; m_fonts;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>ImVec2 <a class="code hl_function" href="FontManager_8h.html#ae7ba46d7eab30e1e61851de5496a9b41">CalcTextSizeForFont</a>(</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    FontWithSize font,</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* text,</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">bool</span> hide_text_after_double_hash = <span class="keyword">false</span>,</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">float</span> wrap_width = -1.0f);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aFontManager_8h_html_ae7ba46d7eab30e1e61851de5496a9b41"><div class="ttname"><a href="FontManager_8h.html#ae7ba46d7eab30e1e61851de5496a9b41">CalcTextSizeForFont</a></div><div class="ttdeci">ImVec2 CalcTextSizeForFont(FontWithSize font, const char *text, bool hide_text_after_double_hash=false, float wrap_width=-1.0f)</div><div class="ttdoc">Wrapper around ImGui::CalcTextSize that uses an explicit font.</div><div class="ttdef"><b>Definition:</b> FontManager.cpp:143</div></div>
 <div class="ttc" id="aclassFontManager_html"><div class="ttname"><a href="classFontManager.html">FontManager</a></div><div class="ttdef"><b>Definition:</b> FontManager.h:49</div></div>
 <div class="ttc" id="aclassFontManager_html_a073af8774be850c2d5cf46f607e758ea"><div class="ttname"><a href="classFontManager.html#a073af8774be850c2d5cf46f607e758ea">FontManager::AddFontDescriptions</a></div><div class="ttdeci">void AddFontDescriptions(PreferenceCategory &amp;cat, std::set&lt; FontDescription &gt; &amp;fonts)</div><div class="ttdoc">Get the font descriptions for each preference category.</div><div class="ttdef"><b>Definition:</b> FontManager.cpp:119</div></div>
 <div class="ttc" id="aclassFontManager_html_a64e9ed09fb0f3b2d6369e7c11b4137c3"><div class="ttname"><a href="classFontManager.html#a64e9ed09fb0f3b2d6369e7c11b4137c3">FontManager::UpdateFonts</a></div><div class="ttdeci">bool UpdateFonts(PreferenceCategory &amp;root)</div><div class="ttdoc">Check for changes to our fonts and, if any are found, reload.</div><div class="ttdef"><b>Definition:</b> FontManager.cpp:55</div></div>

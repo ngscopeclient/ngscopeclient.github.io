@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -64,6 +64,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classTextureManager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">TextureManager Class Reference</div></div>
@@ -83,6 +84,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67e8173c8ef34205693f22d21f748b63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextureManager.html#a67e8173c8ef34205693f22d21f748b63">LoadTexture</a> (const std::string &amp;name, const std::string &amp;path)</td></tr>
 <tr class="memdesc:a67e8173c8ef34205693f22d21f748b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a texture from a file into a named resource.  <a href="classTextureManager.html#a67e8173c8ef34205693f22d21f748b63">More...</a><br /></td></tr>
 <tr class="separator:a67e8173c8ef34205693f22d21f748b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75f874dfa3209666a2cb7b4f59a0870b"><td class="memItemLeft" align="right" valign="top"><a id="a75f874dfa3209666a2cb7b4f59a0870b" name="a75f874dfa3209666a2cb7b4f59a0870b"></a>
+GLFWimage&#160;</td><td class="memItemRight" valign="bottom"><b>LoadPNGToGLFWImage</b> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:a75f874dfa3209666a2cb7b4f59a0870b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a PNG to a GLFWimage. <br /></td></tr>
+<tr class="separator:a75f874dfa3209666a2cb7b4f59a0870b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1eb73b3456149f224e7e305ccd0bdd9"><td class="memItemLeft" align="right" valign="top"><a id="ae1eb73b3456149f224e7e305ccd0bdd9" name="ae1eb73b3456149f224e7e305ccd0bdd9"></a>
 ImTextureID&#160;</td><td class="memItemRight" valign="bottom"><b>GetTexture</b> (const std::string &amp;name)</td></tr>
 <tr class="separator:ae1eb73b3456149f224e7e305ccd0bdd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -104,6 +109,13 @@ std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &
 <tr class="memitem:a89f673b4ad673aa0437ab54256a464d7"><td class="memItemLeft" align="right" valign="top"><a id="a89f673b4ad673aa0437ab54256a464d7" name="a89f673b4ad673aa0437ab54256a464d7"></a>
 vk::ImageView&#160;</td><td class="memItemRight" valign="bottom"><b>GetView</b> (const std::string &amp;name)</td></tr>
 <tr class="separator:a89f673b4ad673aa0437ab54256a464d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2bfb2041887c1bce522382b63b940730"><td class="memItemLeft" align="right" valign="top"><a id="a2bfb2041887c1bce522382b63b940730" name="a2bfb2041887c1bce522382b63b940730"></a>
+png_structp&#160;</td><td class="memItemRight" valign="bottom"><b>LoadPNG</b> (const std::string &amp;path, size_t &amp;width, size_t &amp;height, FILE *&amp;fp, png_infop &amp;info, png_infop &amp;end)</td></tr>
+<tr class="memdesc:a2bfb2041887c1bce522382b63b940730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to initialize libpng and get header info. <br /></td></tr>
+<tr class="separator:a2bfb2041887c1bce522382b63b940730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>

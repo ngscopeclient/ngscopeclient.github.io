@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1-rc2-104-g9ad1a6932</span>
    </div>
   </td>
  </tr>
@@ -165,6 +165,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aab1af29a5ace7ff23e82e10e0834bb4d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#aab1af29a5ace7ff23e82e10e0834bb4d">SetChannelCoupling</a> (size_t i, OscilloscopeChannel::CouplingType type) override</td></tr>
 <tr class="memdesc:aab1af29a5ace7ff23e82e10e0834bb4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the coupling used for an input channel.  <a href="classThunderScopeOscilloscope.html#aab1af29a5ace7ff23e82e10e0834bb4d">More...</a><br /></td></tr>
 <tr class="separator:aab1af29a5ace7ff23e82e10e0834bb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fde761340b3950e998e118f8d80d31"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#ae6fde761340b3950e998e118f8d80d31">EnableChannel</a> (size_t i) override</td></tr>
+<tr class="memdesc:ae6fde761340b3950e998e118f8d80d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn a channel on, given the index.  <a href="classThunderScopeOscilloscope.html#ae6fde761340b3950e998e118f8d80d31">More...</a><br /></td></tr>
+<tr class="separator:ae6fde761340b3950e998e118f8d80d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7c6a893cf3f7b18ab947ae33ec3c79e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classOscilloscope.html#ad09fcd978ab27714d1208aa4c2b4a03b">Oscilloscope::TriggerMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#ad7c6a893cf3f7b18ab947ae33ec3c79e">PollTrigger</a> () override</td></tr>
 <tr class="memdesc:ad7c6a893cf3f7b18ab947ae33ec3c79e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the curent trigger status.  <a href="classThunderScopeOscilloscope.html#ad7c6a893cf3f7b18ab947ae33ec3c79e">More...</a><br /></td></tr>
 <tr class="separator:ad7c6a893cf3f7b18ab947ae33ec3c79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +203,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac085bf237b31109f2796d33d9092c496"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#ac085bf237b31109f2796d33d9092c496">SetInterleaving</a> (bool combine) override</td></tr>
 <tr class="memdesc:ac085bf237b31109f2796d33d9092c496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the scope to combine channels.  <a href="classThunderScopeOscilloscope.html#ac085bf237b31109f2796d33d9092c496">More...</a><br /></td></tr>
 <tr class="separator:ac085bf237b31109f2796d33d9092c496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a7245dba45251f86f5f0ea7a0e21137"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a5a7245dba45251f86f5f0ea7a0e21137">CanInterleave</a> () override</td></tr>
+<tr class="memdesc:a5a7245dba45251f86f5f0ea7a0e21137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have no interleave conflicts, false if we have conflicts.  <a href="classThunderScopeOscilloscope.html#a5a7245dba45251f86f5f0ea7a0e21137">More...</a><br /></td></tr>
+<tr class="separator:a5a7245dba45251f86f5f0ea7a0e21137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d54e2626ac8104313ff80ce341d770a"><td class="memItemLeft" align="right" valign="top"><a id="a2d54e2626ac8104313ff80ce341d770a" name="a2d54e2626ac8104313ff80ce341d770a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OSCILLOSCOPE_INITPROC</b> (<a class="el" href="classThunderScopeOscilloscope.html">ThunderScopeOscilloscope</a>)</td></tr>
 <tr class="separator:a2d54e2626ac8104313ff80ce341d770a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -735,6 +741,9 @@ Protected Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetPerCaptureDiagnostics</b> ()</td></tr>
 <tr class="memdesc:a5d86092764d90576332a44ed1e3bbbee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset performance counters at the start of a capture. <br /></td></tr>
 <tr class="separator:a5d86092764d90576332a44ed1e3bbbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a704936bd4f8e3e283e54afd81aa8d585"><td class="memItemLeft" align="right" valign="top"><a id="a704936bd4f8e3e283e54afd81aa8d585" name="a704936bd4f8e3e283e54afd81aa8d585"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RefreshSampleRate</b> ()</td></tr>
+<tr class="separator:a704936bd4f8e3e283e54afd81aa8d585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d335ad86adf0a62b5ab3a6be06b10a2"><td class="memItemLeft" align="right" valign="top"><a id="a9d335ad86adf0a62b5ab3a6be06b10a2" name="a9d335ad86adf0a62b5ab3a6be06b10a2"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelColor</b> (size_t i)</td></tr>
 <tr class="memdesc:a9d335ad86adf0a62b5ab3a6be06b10a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color the channels based on our standard color sequence (blue-red-green-yellow) <br /></td></tr>
@@ -1099,6 +1108,71 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <p>The default implementation always returns true. </p>
 
 <p>Reimplemented from <a class="el" href="classOscilloscope.html#a3f40b16198c3eda04ada54ef68fb5711">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a5a7245dba45251f86f5f0ea7a0e21137" name="a5a7245dba45251f86f5f0ea7a0e21137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7245dba45251f86f5f0ea7a0e21137">&#9670;&nbsp;</a></span>CanInterleave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ThunderScopeOscilloscope::CanInterleave </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if we have no interleave conflicts, false if we have conflicts. </p>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#aaba382a36563bd0d91430e58482e9022">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="ae6fde761340b3950e998e118f8d80d31" name="ae6fde761340b3950e998e118f8d80d31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6fde761340b3950e998e118f8d80d31">&#9670;&nbsp;</a></span>EnableChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderScopeOscilloscope::EnableChannel </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Turn a channel on, given the index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>Zero-based index of channel </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#a71413e458e59e215a677562942c291dc">RemoteBridgeOscilloscope</a>.</p>
 
 </div>
 </div>

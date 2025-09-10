@@ -1,52 +1,52 @@
 <map id="src/ngscopeclient/AddInstrumentDialog.cpp" name="src/ngscopeclient/AddInstrumentDialog.cpp">
-<area shape="rect" id="node1" title="Implementation of AddInstrumentDialog." alt="" coords="1049,5,1283,47"/>
-<area shape="rect" id="node2" href="$ngscopeclient_8h_source.html" title=" " alt="" coords="1904,169,2028,196"/>
-<area shape="rect" id="node19" href="$AddInstrumentDialog_8h.html" title="Declaration of AddInstrumentDialog." alt="" coords="1019,95,1191,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="1404,251,1571,278"/>
-<area shape="rect" id="node4" title=" " alt="" coords="1595,251,1707,278"/>
-<area shape="rect" id="node5" title=" " alt="" coords="1364,497,1435,524"/>
-<area shape="rect" id="node6" title=" " alt="" coords="1782,251,1958,278"/>
-<area shape="rect" id="node7" title=" " alt="" coords="1982,244,2142,285"/>
-<area shape="rect" id="node8" title=" " alt="" coords="2166,244,2326,285"/>
-<area shape="rect" id="node9" href="$ImGuiDisabler_8h_source.html" title=" " alt="" coords="2351,251,2477,278"/>
-<area shape="rect" id="node10" title=" " alt="" coords="2502,251,2569,278"/>
-<area shape="rect" id="node11" href="$BERTState_8h.html" title="Declaration of BERTState." alt="" coords="2593,251,2696,278"/>
-<area shape="rect" id="node12" href="$PowerSupplyState_8h.html" title="Declaration of PowerSupplyState." alt="" coords="2721,251,2873,278"/>
-<area shape="rect" id="node13" href="$FunctionGeneratorState_8h.html" title="Declaration of FunctionGeneratorState." alt="" coords="2897,251,3085,278"/>
-<area shape="rect" id="node14" href="$MultimeterState_8h.html" title="Declaration of MultimeterState." alt="" coords="3109,251,3249,278"/>
-<area shape="rect" id="node15" href="$LoadState_8h.html" title="Declaration of LoadState." alt="" coords="1186,251,1285,278"/>
-<area shape="rect" id="node16" href="$GuiLogSink_8h.html" title="Declaration of GuiLogSink." alt="" coords="587,251,694,278"/>
-<area shape="rect" id="node18" href="$Event_8h_source.html" title=" " alt="" coords="1309,251,1380,278"/>
-<area shape="rect" id="node17" href="$Marker_8h.html" title="Declaration of Marker." alt="" coords="328,341,407,367"/>
-<area shape="rect" id="node20" href="$Dialog_8h.html" title="Declaration of Dialog." alt="" coords="1067,169,1143,196"/>
-<area shape="rect" id="node22" href="$Session_8h.html" title="Declaration of Session." alt="" coords="445,169,529,196"/>
-<area shape="rect" id="node21" title=" " alt="" coords="1047,251,1162,278"/>
-<area shape="rect" id="node23" title=" " alt="" coords="412,251,563,278"/>
-<area shape="rect" id="node24" href="$HistoryManager_8h.html" title="Declaration of HistoryManager." alt="" coords="198,251,337,278"/>
-<area shape="rect" id="node25" href="$PacketManager_8h.html" title="Declaration of PacketManager." alt="" coords="39,251,173,278"/>
-<area shape="rect" id="node35" href="$PreferenceManager_8h.html" title="Stores and manages preference values." alt="" coords="719,251,880,278"/>
-<area shape="rect" id="node48" href="$TriggerGroup_8h.html" title="Declaration of TriggerGroup." alt="" coords="904,251,1023,278"/>
-<area shape="rect" id="node26" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="5,333,140,375"/>
-<area shape="rect" id="node34" href="$TextureManager_8h.html" title="Declaration of TextureManager." alt="" coords="165,341,303,367"/>
-<area shape="rect" id="node27" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="62,423,129,449"/>
-<area shape="rect" id="node28" href="$OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="11,497,180,524"/>
-<area shape="rect" id="node30" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="247,497,386,524"/>
-<area shape="rect" id="node29" href="$InstrumentChannel_8h.html" title="Declaration of InstrumentChannel." alt="" coords="16,572,175,599"/>
-<area shape="rect" id="node31" href="$FilterParameter_8h.html" title="Declaration of FilterParameter." alt="" coords="249,572,384,599"/>
-<area shape="rect" id="node32" href="$Waveform_8h.html" title="Declaration of WaveformBase, SparseWaveformBase, UniformWaveformBase." alt="" coords="440,572,543,599"/>
-<area shape="rect" id="node33" title=" " alt="" coords="1244,647,1307,673"/>
-<area shape="rect" id="node36" title=" " alt="" coords="578,572,629,599"/>
-<area shape="rect" id="node37" title=" " alt="" coords="482,497,541,524"/>
-<area shape="rect" id="node38" href="$PreferenceTree_8h.html" title="Data structure modeling a hierachical property tree." alt="" coords="749,341,879,367"/>
-<area shape="rect" id="node39" href="$Preference_8h.html" title="Basic preference class and auxilliary types." alt="" coords="913,423,1017,449"/>
-<area shape="rect" id="node47" title=" " alt="" coords="748,423,880,449"/>
-<area shape="rect" id="node40" title=" " alt="" coords="709,497,794,524"/>
-<area shape="rect" id="node41" title=" " alt="" coords="819,497,911,524"/>
-<area shape="rect" id="node42" title=" " alt="" coords="935,497,995,524"/>
-<area shape="rect" id="node43" title=" " alt="" coords="1019,497,1086,524"/>
-<area shape="rect" id="node44" title=" " alt="" coords="1110,497,1153,524"/>
-<area shape="rect" id="node45" href="$Unit_8h.html" title="Declaration of Unit." alt="" coords="1177,497,1238,524"/>
-<area shape="rect" id="node46" href="$FontManager_8h.html" title="Declaration of FontManager." alt="" coords="565,497,684,524"/>
-<area shape="rect" id="node49" href="$PausableFilter_8h.html" title="Declaration of PausableFilter." alt="" coords="1415,333,1544,375"/>
-<area shape="rect" id="node50" href="$ActionProvider_8h.html" title="Declaration of ActionProvider." alt="" coords="1415,423,1544,449"/>
+<area shape="rect" id="node1" title="Implementation of AddInstrumentDialog." alt="" coords="1591,5,1826,47"/>
+<area shape="rect" id="node2" href="$ngscopeclient_8h_source.html" title=" " alt="" coords="1129,169,1253,196"/>
+<area shape="rect" id="node19" href="$AddInstrumentDialog_8h.html" title="Declaration of AddInstrumentDialog." alt="" coords="2196,95,2368,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,251,172,278"/>
+<area shape="rect" id="node4" title=" " alt="" coords="197,251,309,278"/>
+<area shape="rect" id="node5" title=" " alt="" coords="2828,497,2899,524"/>
+<area shape="rect" id="node6" title=" " alt="" coords="383,251,559,278"/>
+<area shape="rect" id="node7" title=" " alt="" coords="583,244,743,285"/>
+<area shape="rect" id="node8" title=" " alt="" coords="767,244,927,285"/>
+<area shape="rect" id="node9" href="$ImGuiDisabler_8h_source.html" title=" " alt="" coords="952,251,1079,278"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1103,251,1170,278"/>
+<area shape="rect" id="node11" href="$BERTState_8h.html" title="Declaration of BERTState." alt="" coords="1195,251,1297,278"/>
+<area shape="rect" id="node12" href="$PowerSupplyState_8h.html" title="Declaration of PowerSupplyState." alt="" coords="1322,251,1474,278"/>
+<area shape="rect" id="node13" href="$FunctionGeneratorState_8h.html" title="Declaration of FunctionGeneratorState." alt="" coords="1499,251,1687,278"/>
+<area shape="rect" id="node14" href="$MultimeterState_8h.html" title="Declaration of MultimeterState." alt="" coords="1711,251,1851,278"/>
+<area shape="rect" id="node15" href="$LoadState_8h.html" title="Declaration of LoadState." alt="" coords="1875,251,1974,278"/>
+<area shape="rect" id="node16" href="$GuiLogSink_8h.html" title="Declaration of GuiLogSink." alt="" coords="1998,251,2105,278"/>
+<area shape="rect" id="node18" href="$Event_8h_source.html" title=" " alt="" coords="2129,251,2200,278"/>
+<area shape="rect" id="node17" href="$Marker_8h.html" title="Declaration of Marker." alt="" coords="2365,341,2444,367"/>
+<area shape="rect" id="node20" href="$Dialog_8h.html" title="Declaration of Dialog." alt="" coords="2244,169,2320,196"/>
+<area shape="rect" id="node22" href="$Session_8h.html" title="Declaration of Session." alt="" coords="2617,169,2701,196"/>
+<area shape="rect" id="node21" title=" " alt="" coords="2225,251,2339,278"/>
+<area shape="rect" id="node23" title=" " alt="" coords="2415,251,2565,278"/>
+<area shape="rect" id="node24" href="$HistoryManager_8h.html" title="Declaration of HistoryManager." alt="" coords="2590,251,2729,278"/>
+<area shape="rect" id="node25" href="$PacketManager_8h.html" title="Declaration of PacketManager." alt="" coords="2753,251,2888,278"/>
+<area shape="rect" id="node34" href="$PreferenceManager_8h.html" title="Stores and manages preference values." alt="" coords="2912,251,3073,278"/>
+<area shape="rect" id="node48" href="$TriggerGroup_8h.html" title="Declaration of TriggerGroup." alt="" coords="3180,251,3299,278"/>
+<area shape="rect" id="node26" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="2496,333,2631,375"/>
+<area shape="rect" id="node32" href="$TextureManager_8h.html" title="Declaration of TextureManager." alt="" coords="2710,341,2849,367"/>
+<area shape="rect" id="node27" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="242,423,309,449"/>
+<area shape="rect" id="node28" href="$OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="101,497,271,524"/>
+<area shape="rect" id="node30" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="295,497,434,524"/>
+<area shape="rect" id="node29" href="$InstrumentChannel_8h.html" title="Declaration of InstrumentChannel." alt="" coords="107,572,265,599"/>
+<area shape="rect" id="node31" href="$FilterParameter_8h.html" title="Declaration of FilterParameter." alt="" coords="297,572,432,599"/>
+<area shape="rect" id="node33" title=" " alt="" coords="2750,423,2809,449"/>
+<area shape="rect" id="node35" title=" " alt="" coords="3322,572,3373,599"/>
+<area shape="rect" id="node36" title=" " alt="" coords="2974,497,3033,524"/>
+<area shape="rect" id="node37" href="$PreferenceTree_8h.html" title="Data structure modeling a hierachical property tree." alt="" coords="3030,341,3161,367"/>
+<area shape="rect" id="node38" title=" " alt="" coords="3057,497,3120,524"/>
+<area shape="rect" id="node39" href="$Preference_8h.html" title="Basic preference class and auxilliary types." alt="" coords="3135,423,3239,449"/>
+<area shape="rect" id="node47" title=" " alt="" coords="3264,423,3396,449"/>
+<area shape="rect" id="node40" title=" " alt="" coords="3145,497,3230,524"/>
+<area shape="rect" id="node41" title=" " alt="" coords="3255,497,3347,524"/>
+<area shape="rect" id="node42" title=" " alt="" coords="3371,497,3431,524"/>
+<area shape="rect" id="node43" title=" " alt="" coords="3455,497,3522,524"/>
+<area shape="rect" id="node44" title=" " alt="" coords="3546,497,3589,524"/>
+<area shape="rect" id="node45" href="$Unit_8h.html" title="Declaration of Unit." alt="" coords="3613,497,3674,524"/>
+<area shape="rect" id="node46" href="$FontManager_8h.html" title="Declaration of FontManager." alt="" coords="3699,497,3817,524"/>
+<area shape="rect" id="node49" href="$PausableFilter_8h.html" title="Declaration of PausableFilter." alt="" coords="3339,333,3468,375"/>
+<area shape="rect" id="node50" href="$ActionProvider_8h.html" title="Declaration of ActionProvider." alt="" coords="3420,423,3549,449"/>
 </map>

@@ -84,10 +84,10 @@ and both time and voltage scales are defined in terms of these divisions. While 
 DSOs do allow math functions, protocol decodes, zooms, and so on, this archaic concept has
 remained.
 </p><!-- l. 76 --><p class='indent'>   In ngscopeclient, the acquisition record length is completely decoupled from the X axis scale of the
-viewport, and there is no concept of a “zoom" waveform or measuring time in “divisions". Arbitrarily
-many views of a channel may be created, and each may be scaled and zoomed independently.
-Acquisition record length and duration are controlled separately, from the timebase properties
-dialog.
+viewport, and there is no concept of a “zoom" waveform or measuring time in “divisions". Arbitrarily many
+views of a channel may be created, and each may be scaled and zoomed independently. Acquisition
+record length and duration are controlled separately, under instrument properties in the stream
+browser.
 </p><!-- l. 81 --><p class='indent'>   Similarly, vertical scale for waveforms is defined in terms of full-scale range, a far more intuitive and
 useful metric than arbitrary “divisions". While horizontal grid lines are still displayed in waveform views
 for convenience, their number, spacing, and locations may change. Tall plots will have more scale divisions
@@ -170,14 +170,15 @@ time.
 </p><!-- l. 152 --><p class='indent'>   The .scopesession file format is intended to be strictly upward compatibile; any potential crashes or
 parsing errors when opening older datasets in a newer version are due to bugs and should be reported as
 such.
-</p><!-- l. 155 --><p class='indent'>   There is no expectation of downward compatibility. Note that filters may occasionally change port or
-parameter configurations during refactoring, which may require some manual reconfiguration of older
-sessions in order to work properly.
-</p><!-- l. 159 --><p class='noindent'>
+</p><!-- l. 155 --><p class='indent'>   There is no expectation of downward compatibility (sessions from a newer ngscopeclient version are
+very likely to not work in older versions).
+</p><!-- l. 158 --><p class='indent'>   Note that filters may occasionally change port or parameter configurations during refactoring, which
+may require some manual reconfiguration of older sessions in order to work properly.
+</p><!-- l. 161 --><p class='noindent'>
 </p>
    <h3 class='sectionHead' id='revision-history'><span class='titlemark'>1.5   </span> <a id='x3-100001.5'></a>Revision History</h3>
      <ul class='itemize1'>
-     <li class='itemize'>July 18, 2025: [in progress] Initial draft</li></ul>
+     <li class='itemize'>September 10, 2025: [in progress] Initial draft</li></ul>
                                                                                          
                                                                                          
 <div class='footnotes'><a id='x3-8002x1.3.3'></a>
