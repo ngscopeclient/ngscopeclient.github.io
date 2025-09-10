@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Streamline hardware test
+# ![ngscopeclient logo](/images/logo.png) Streamline hardware test
 
 * Drag and drop to create complex, GPU-accelerated analysis pipelines in the [filter graph editor](/grapheditor)
 * [Open source](https://www.github.com/ngscopeclient/scopehal-apps) toolchain supporting Windows, Linux, and MacOS
