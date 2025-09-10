@@ -9,7 +9,7 @@
 
 {% seo %}
     {% include head-custom.html %}
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
   </head>
 
   <body>
@@ -21,7 +21,7 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-          <h1 id="project_title"><img src='images/logo.png' width='64' height='64'/>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1 id="project_title"><img src='images/logo.png' width='64' height='64' style-'text-shadow: none'/>{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
