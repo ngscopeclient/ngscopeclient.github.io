@@ -9,17 +9,12 @@ layout: default
 * Easily extensible to support any T&M instrument with a SCPI interface or native API
 * Combine [multiple instruments](/multiscope) into a unified test platform
 * Automate production test with the [C++ API](/devdocs)
+* Analyze [complex protocols](/protocol-analysis) such as Ethernet and PCIe
 
 <figure>
 <img src="images/ngscopeclient-intro.png" alt="Filter graph example screenshot"/>
 <figcaption style='font-style:italic'>Using ngscopeclient to do protocol decoding and signal integrity analysis of a 5 Gbps QSGMII link</figcaption>
 </figure>
-
-# Features
-
-* [Filter graph editor](/grapheditor)
-* [Multi-scope support](/multiscope)
-* [Protocol analysis](/protocol-analysis)
 
 # Download
 
