@@ -16,9 +16,13 @@ layout: default
 <figcaption style='font-style:italic'>Using ngscopeclient to do protocol decoding and signal integrity analysis of a 5 Gbps QSGMII link</figcaption>
 </figure>
 
+# News
+
+* 2025-09-11: [Version 0.1 released](/news/2025-09-11-v0p1-release.html)
+
 # Download
 
-Downloads of prebuilt binaries are not yet available.
+The latest binary release can be found [on GitHub](https://github.com/ngscopeclient/scopehal-apps/releases/)
 
 For build and installation instructions, please refer to the "Getting Started" chapter of the User Manual:
 
