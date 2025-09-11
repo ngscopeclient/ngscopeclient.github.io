@@ -7,7 +7,7 @@ layout: default
 * Drag and drop to create complex, GPU-accelerated analysis pipelines in the [filter graph editor](/grapheditor)
 * [Open source](https://www.github.com/ngscopeclient/scopehal-apps) toolchain supporting Windows, Linux, and MacOS
 * Easily extensible to support any T&M instrument with a SCPI interface or native API
-* Combine multiple instruments into a unified test platform
+* Combine [multiple instruments](/multiscope) into a unified test platform
 * Automate production test with the [C++ API](/devdocs)
 
 <figure>
