@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1.1</span>
    </div>
   </td>
  </tr>
@@ -65,6 +65,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classThunderScopeOscilloscope-members.html">List of all members</a>  </div>
@@ -174,12 +175,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa111c493631d17e9c51a37d7bd4c7ced"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#aa111c493631d17e9c51a37d7bd4c7ced">AcquireData</a> () override</td></tr>
 <tr class="memdesc:aa111c493631d17e9c51a37d7bd4c7ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pull data from the instrument.  <a href="classThunderScopeOscilloscope.html#aa111c493631d17e9c51a37d7bd4c7ced">More...</a><br /></td></tr>
 <tr class="separator:aa111c493631d17e9c51a37d7bd4c7ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80eda921a3ad32670a0786c0bbb028c8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a80eda921a3ad32670a0786c0bbb028c8">PushEdgeTrigger</a> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig) override</td></tr>
+<tr class="memdesc:a80eda921a3ad32670a0786c0bbb028c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument.  <a href="classThunderScopeOscilloscope.html#a80eda921a3ad32670a0786c0bbb028c8">More...</a><br /></td></tr>
+<tr class="separator:a80eda921a3ad32670a0786c0bbb028c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8610e6bdbd2d010527e2cbb070421c1d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a8610e6bdbd2d010527e2cbb070421c1d">Start</a> () override</td></tr>
 <tr class="memdesc:a8610e6bdbd2d010527e2cbb070421c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the instrument in continuous trigger mode.  <a href="classThunderScopeOscilloscope.html#a8610e6bdbd2d010527e2cbb070421c1d">More...</a><br /></td></tr>
 <tr class="separator:a8610e6bdbd2d010527e2cbb070421c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f35ff0c0d583424a655b85a7826aa12"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a4f35ff0c0d583424a655b85a7826aa12">StartSingleTrigger</a> () override</td></tr>
 <tr class="memdesc:a4f35ff0c0d583424a655b85a7826aa12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arms the trigger for a single acquistion.  <a href="classThunderScopeOscilloscope.html#a4f35ff0c0d583424a655b85a7826aa12">More...</a><br /></td></tr>
 <tr class="separator:a4f35ff0c0d583424a655b85a7826aa12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b6e973b1e3319ec3885787683db3ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#ac9b6e973b1e3319ec3885787683db3ae">Stop</a> () override</td></tr>
+<tr class="memdesc:ac9b6e973b1e3319ec3885787683db3ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops triggering.  <a href="classThunderScopeOscilloscope.html#ac9b6e973b1e3319ec3885787683db3ae">More...</a><br /></td></tr>
+<tr class="separator:ac9b6e973b1e3319ec3885787683db3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadfecdbf9938a42253bbd18ea708e068"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#aadfecdbf9938a42253bbd18ea708e068">ForceTrigger</a> () override</td></tr>
 <tr class="memdesc:aadfecdbf9938a42253bbd18ea708e068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces a single acquisition as soon as possible.  <a href="classThunderScopeOscilloscope.html#aadfecdbf9938a42253bbd18ea708e068">More...</a><br /></td></tr>
 <tr class="separator:aadfecdbf9938a42253bbd18ea708e068"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,6 +213,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a7245dba45251f86f5f0ea7a0e21137"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a5a7245dba45251f86f5f0ea7a0e21137">CanInterleave</a> () override</td></tr>
 <tr class="memdesc:a5a7245dba45251f86f5f0ea7a0e21137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have no interleave conflicts, false if we have conflicts.  <a href="classThunderScopeOscilloscope.html#a5a7245dba45251f86f5f0ea7a0e21137">More...</a><br /></td></tr>
 <tr class="separator:a5a7245dba45251f86f5f0ea7a0e21137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e555caaf25662bc51cf65754f987bb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a10e555caaf25662bc51cf65754f987bb">HasInterleavingControls</a> () override</td></tr>
+<tr class="memdesc:a10e555caaf25662bc51cf65754f987bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the scope has a user controllavble interleaving feature, false if not.  <a href="classThunderScopeOscilloscope.html#a10e555caaf25662bc51cf65754f987bb">More...</a><br /></td></tr>
+<tr class="separator:a10e555caaf25662bc51cf65754f987bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fce3b042a4b228280d3b43391b2faa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#ab5fce3b042a4b228280d3b43391b2faa">SetSampleDepth</a> (uint64_t depth) override</td></tr>
+<tr class="memdesc:ab5fce3b042a4b228280d3b43391b2faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the sample depth of the scope.  <a href="classThunderScopeOscilloscope.html#ab5fce3b042a4b228280d3b43391b2faa">More...</a><br /></td></tr>
+<tr class="separator:ab5fce3b042a4b228280d3b43391b2faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1d178df531e75e11e4a795554dc1f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#aad1d178df531e75e11e4a795554dc1f2">SetSampleRate</a> (uint64_t rate) override</td></tr>
+<tr class="memdesc:aad1d178df531e75e11e4a795554dc1f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the sample rate of the scope, in Hz.  <a href="classThunderScopeOscilloscope.html#aad1d178df531e75e11e4a795554dc1f2">More...</a><br /></td></tr>
+<tr class="separator:aad1d178df531e75e11e4a795554dc1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4497e965ee5a08b3a9bda5a6a2ffeb48"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a4497e965ee5a08b3a9bda5a6a2ffeb48">IsADCModeConfigurable</a> () override</td></tr>
+<tr class="memdesc:a4497e965ee5a08b3a9bda5a6a2ffeb48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ADC is configurable, false if it can only run in one mode.  <a href="classThunderScopeOscilloscope.html#a4497e965ee5a08b3a9bda5a6a2ffeb48">More...</a><br /></td></tr>
+<tr class="separator:a4497e965ee5a08b3a9bda5a6a2ffeb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe1e0891572716e3a47162a6b7faab64"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#afe1e0891572716e3a47162a6b7faab64">GetADCModeNames</a> (size_t channel) override</td></tr>
+<tr class="memdesc:afe1e0891572716e3a47162a6b7faab64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the names of the ADC modes for the bank a given channel is located in.  <a href="classThunderScopeOscilloscope.html#afe1e0891572716e3a47162a6b7faab64">More...</a><br /></td></tr>
+<tr class="separator:afe1e0891572716e3a47162a6b7faab64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c84bbe008f55b8419448c0dc5ffbf2f"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a1c84bbe008f55b8419448c0dc5ffbf2f">GetADCMode</a> (size_t channel) override</td></tr>
+<tr class="memdesc:a1c84bbe008f55b8419448c0dc5ffbf2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ADC mode for a channel.  <a href="classThunderScopeOscilloscope.html#a1c84bbe008f55b8419448c0dc5ffbf2f">More...</a><br /></td></tr>
+<tr class="separator:a1c84bbe008f55b8419448c0dc5ffbf2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245cce15c6a3e4438b907e1ef2218b9f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a245cce15c6a3e4438b907e1ef2218b9f">SetADCMode</a> (size_t channel, size_t mode) override</td></tr>
+<tr class="memdesc:a245cce15c6a3e4438b907e1ef2218b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ADC mode for a channel.  <a href="classThunderScopeOscilloscope.html#a245cce15c6a3e4438b907e1ef2218b9f">More...</a><br /></td></tr>
+<tr class="separator:a245cce15c6a3e4438b907e1ef2218b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d54e2626ac8104313ff80ce341d770a"><td class="memItemLeft" align="right" valign="top"><a id="a2d54e2626ac8104313ff80ce341d770a" name="a2d54e2626ac8104313ff80ce341d770a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OSCILLOSCOPE_INITPROC</b> (<a class="el" href="classThunderScopeOscilloscope.html">ThunderScopeOscilloscope</a>)</td></tr>
 <tr class="separator:a2d54e2626ac8104313ff80ce341d770a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -459,6 +487,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#ab4c48f7f2ac0165d7b0f0a8dc46d19b7">SetInterleaving</a> (bool combine)=0</td></tr>
 <tr class="memdesc:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the scope to combine channels.  <a href="classOscilloscope.html#ab4c48f7f2ac0165d7b0f0a8dc46d19b7">More...</a><br /></td></tr>
 <tr class="separator:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a6afe83c7eaa9135036103a2d71c69e90">HasInterleavingControls</a> ()</td></tr>
+<tr class="memdesc:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the scope has a user controllavble interleaving feature, false if not.  <a href="classOscilloscope.html#a6afe83c7eaa9135036103a2d71c69e90">More...</a><br /></td></tr>
+<tr class="separator:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#aaba382a36563bd0d91430e58482e9022">CanInterleave</a> ()</td></tr>
 <tr class="memdesc:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have no interleave conflicts, false if we have conflicts.  <a href="classOscilloscope.html#aaba382a36563bd0d91430e58482e9022">More...</a><br /></td></tr>
 <tr class="separator:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -510,6 +541,10 @@ virtual std::set&lt; <a class="el" href="classOscilloscope.html#a116076a558768bc
 <tr class="memitem:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual AnalogBank&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#aee263c45fea64034699969dfef561c0e">GetAnalogBank</a> (size_t channel)</td></tr>
 <tr class="memdesc:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the bank containing a given channel.  <a href="classOscilloscope.html#aee263c45fea64034699969dfef561c0e">More...</a><br /></td></tr>
 <tr class="separator:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a43ba727cea721bacde1c9a7ef805eae1" name="a43ba727cea721bacde1c9a7ef805eae1"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsADCModePerChannel</b> ()</td></tr>
+<tr class="memdesc:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ADC is a per-channel setting, false if global for the entire instrument. <br /></td></tr>
+<tr class="separator:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a1e99997011c5ee3b3ae53a01b8f0a935">IsADCModeConfigurable</a> ()</td></tr>
 <tr class="memdesc:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ADC is configurable, false if it can only run in one mode.  <a href="classOscilloscope.html#a1e99997011c5ee3b3ae53a01b8f0a935">More...</a><br /></td></tr>
 <tr class="separator:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -735,6 +770,21 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>EnumDrivers</b
 static std::shared_ptr&lt; <a class="el" href="classOscilloscope.html">Oscilloscope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateOscilloscope</b> (std::string driver, <a class="el" href="classSCPITransport.html">SCPITransport</a> *transport)</td></tr>
 <tr class="separator:a89169204f0d780f93192586fafbaa801 inherit pub_static_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a85ef3fd3a4060227136745a282497383"><td class="memItemLeft" align="right" valign="top"><a id="a85ef3fd3a4060227136745a282497383" name="a85ef3fd3a4060227136745a282497383"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a85ef3fd3a4060227136745a282497383">ADCMode</a> { <b>MODE_8BIT</b>
+, <b>MODE_12BIT</b>
+ }</td></tr>
+<tr class="memdesc:a85ef3fd3a4060227136745a282497383"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC modes. <br /></td></tr>
+<tr class="separator:a85ef3fd3a4060227136745a282497383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_types_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
+<tr class="memitem:a0cc1c4723c810cb81e72c130e6347f58 inherit pro_types_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a0cc1c4723c810cb81e72c130e6347f58" name="a0cc1c4723c810cb81e72c130e6347f58"></a>
+typedef std::map&lt; <a class="el" href="classStreamDescriptor.html">StreamDescriptor</a>, <a class="el" href="classWaveformBase.html">WaveformBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SequenceSet</b></td></tr>
+<tr class="separator:a0cc1c4723c810cb81e72c130e6347f58 inherit pro_types_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219f25feae7b7956de0ff8c17e3040e8 inherit pro_types_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a219f25feae7b7956de0ff8c17e3040e8" name="a219f25feae7b7956de0ff8c17e3040e8"></a>
+typedef std::map&lt; std::string, CreateProcType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateMapType</b></td></tr>
+<tr class="separator:a219f25feae7b7956de0ff8c17e3040e8 inherit pro_types_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5d86092764d90576332a44ed1e3bbbee"><td class="memItemLeft" align="right" valign="top"><a id="a5d86092764d90576332a44ed1e3bbbee" name="a5d86092764d90576332a44ed1e3bbbee"></a>
@@ -744,15 +794,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetPerCaptureDiagno
 <tr class="memitem:a704936bd4f8e3e283e54afd81aa8d585"><td class="memItemLeft" align="right" valign="top"><a id="a704936bd4f8e3e283e54afd81aa8d585" name="a704936bd4f8e3e283e54afd81aa8d585"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RefreshSampleRate</b> ()</td></tr>
 <tr class="separator:a704936bd4f8e3e283e54afd81aa8d585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a451c7c753ba5bfb30dc0e418dc6e6c04"><td class="memItemLeft" align="right" valign="top"><a id="a451c7c753ba5bfb30dc0e418dc6e6c04" name="a451c7c753ba5bfb30dc0e418dc6e6c04"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>DoAcquireData</b> (bool keep)</td></tr>
+<tr class="separator:a451c7c753ba5bfb30dc0e418dc6e6c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d335ad86adf0a62b5ab3a6be06b10a2"><td class="memItemLeft" align="right" valign="top"><a id="a9d335ad86adf0a62b5ab3a6be06b10a2" name="a9d335ad86adf0a62b5ab3a6be06b10a2"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelColor</b> (size_t i)</td></tr>
 <tr class="memdesc:a9d335ad86adf0a62b5ab3a6be06b10a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color the channels based on our standard color sequence (blue-red-green-yellow) <br /></td></tr>
 <tr class="separator:a9d335ad86adf0a62b5ab3a6be06b10a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classRemoteBridgeOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classRemoteBridgeOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classRemoteBridgeOscilloscope.html">RemoteBridgeOscilloscope</a></td></tr>
-<tr class="memitem:aa745ecd5131af53801fe6769b83cf6d2 inherit pro_methods_classRemoteBridgeOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="aa745ecd5131af53801fe6769b83cf6d2" name="aa745ecd5131af53801fe6769b83cf6d2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushEdgeTrigger</b> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig)</td></tr>
-<tr class="memdesc:aa745ecd5131af53801fe6769b83cf6d2 inherit pro_methods_classRemoteBridgeOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument. <br /></td></tr>
-<tr class="separator:aa745ecd5131af53801fe6769b83cf6d2 inherit pro_methods_classRemoteBridgeOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa745ecd5131af53801fe6769b83cf6d2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRemoteBridgeOscilloscope.html#aa745ecd5131af53801fe6769b83cf6d2">PushEdgeTrigger</a> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig)</td></tr>
+<tr class="memdesc:aa745ecd5131af53801fe6769b83cf6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument.  <a href="classRemoteBridgeOscilloscope.html#aa745ecd5131af53801fe6769b83cf6d2">More...</a><br /></td></tr>
+<tr class="separator:aa745ecd5131af53801fe6769b83cf6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
 <tr class="memitem:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="ac205c93314fa0d2a9f57f2755ef0d560" name="ac205c93314fa0d2a9f57f2755ef0d560"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ChannelsDownloadStarted</b> ()</td></tr>
@@ -841,10 +892,14 @@ std::unique_ptr&lt; vk::raii::CommandPool &gt;&#160;</td><td class="memItemRight
 std::unique_ptr&lt; vk::raii::CommandBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_cmdBuf</b></td></tr>
 <tr class="memdesc:a4a77f543366afdb84500b94b4ae2ed87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command buffer for sample conversion. <br /></td></tr>
 <tr class="separator:a4a77f543366afdb84500b94b4ae2ed87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae462ad708374315ecd6561eb5040efe4"><td class="memItemLeft" align="right" valign="top"><a id="ae462ad708374315ecd6561eb5040efe4" name="ae462ad708374315ecd6561eb5040efe4"></a>
-std::unique_ptr&lt; <a class="el" href="classComputePipeline.html">ComputePipeline</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_conversionPipeline</b></td></tr>
-<tr class="memdesc:ae462ad708374315ecd6561eb5040efe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pipeline for converting raw ADC codes to float32 samples. <br /></td></tr>
-<tr class="separator:ae462ad708374315ecd6561eb5040efe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bf8a60302a58dd0471238a536f43a2"><td class="memItemLeft" align="right" valign="top"><a id="a25bf8a60302a58dd0471238a536f43a2" name="a25bf8a60302a58dd0471238a536f43a2"></a>
+std::unique_ptr&lt; <a class="el" href="classComputePipeline.html">ComputePipeline</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_conversion8BitPipeline</b></td></tr>
+<tr class="memdesc:a25bf8a60302a58dd0471238a536f43a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pipeline for converting raw ADC codes to float32 samples. <br /></td></tr>
+<tr class="separator:a25bf8a60302a58dd0471238a536f43a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c55e3731892af4403268e76af366ba0"><td class="memItemLeft" align="right" valign="top"><a id="a5c55e3731892af4403268e76af366ba0" name="a5c55e3731892af4403268e76af366ba0"></a>
+std::unique_ptr&lt; <a class="el" href="classComputePipeline.html">ComputePipeline</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_conversion16BitPipeline</b></td></tr>
+<tr class="memdesc:a5c55e3731892af4403268e76af366ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pipeline for converting raw ADC codes to float32 samples. <br /></td></tr>
+<tr class="separator:a5c55e3731892af4403268e76af366ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea32c4da1acaf77bc9fb3807585b8fe9"><td class="memItemLeft" align="right" valign="top"><a id="aea32c4da1acaf77bc9fb3807585b8fe9" name="aea32c4da1acaf77bc9fb3807585b8fe9"></a>
 <a class="el" href="classAcceleratorBuffer.html">AcceleratorBuffer</a>&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_clippingBuffer</b></td></tr>
 <tr class="memdesc:aea32c4da1acaf77bc9fb3807585b8fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer for storing channel clip state. <br /></td></tr>
@@ -853,6 +908,17 @@ std::unique_ptr&lt; <a class="el" href="classComputePipeline.html">ComputePipeli
 std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bandwidthLimits</b></td></tr>
 <tr class="memdesc:ada9132937d079bd4b81b2d8085302a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bandwidth limiters. <br /></td></tr>
 <tr class="separator:ada9132937d079bd4b81b2d8085302a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfdc730c5eae5b8e782ef4c56a62985"><td class="memItemLeft" align="right" valign="top"><a id="a2dfdc730c5eae5b8e782ef4c56a62985" name="a2dfdc730c5eae5b8e782ef4c56a62985"></a>
+enum <a class="el" href="classThunderScopeOscilloscope.html#a85ef3fd3a4060227136745a282497383">ThunderScopeOscilloscope::ADCMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_adcMode</b></td></tr>
+<tr class="separator:a2dfdc730c5eae5b8e782ef4c56a62985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9d8549282767bc386483cd2f2c3ef8"><td class="memItemLeft" align="right" valign="top"><a id="a2e9d8549282767bc386483cd2f2c3ef8" name="a2e9d8549282767bc386483cd2f2c3ef8"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastSeq</b></td></tr>
+<tr class="memdesc:a2e9d8549282767bc386483cd2f2c3ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Most recently received sequence number. <br /></td></tr>
+<tr class="separator:a2e9d8549282767bc386483cd2f2c3ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1b331592c3e87f60d1f9e3ccc9a636"><td class="memItemLeft" align="right" valign="top"><a id="a9f1b331592c3e87f60d1f9e3ccc9a636" name="a9f1b331592c3e87f60d1f9e3ccc9a636"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>m_dropUntilSeq</b></td></tr>
+<tr class="memdesc:a9f1b331592c3e87f60d1f9e3ccc9a636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sequence number to drop until (if we get stale data after stopping the trigger) <br /></td></tr>
+<tr class="separator:a9f1b331592c3e87f60d1f9e3ccc9a636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classRemoteBridgeOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classRemoteBridgeOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classRemoteBridgeOscilloscope.html">RemoteBridgeOscilloscope</a></td></tr>
 <tr class="memitem:add35505438886c121c9a505778891a68 inherit pro_attribs_classRemoteBridgeOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="add35505438886c121c9a505778891a68" name="add35505438886c121c9a505778891a68"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_triggerArmed</b></td></tr>
@@ -1000,13 +1066,6 @@ typedef std::shared_ptr&lt; <a class="el" href="classOscilloscope.html">Oscillos
 <tr class="memitem:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInstrument.html#abd440c031656ca3947b23e899aacc299">m_nickname</a></td></tr>
 <tr class="memdesc:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional user-selected nickname of the instrument.  <a href="classInstrument.html#abd440c031656ca3947b23e899aacc299">More...</a><br /></td></tr>
 <tr class="separator:abd440c031656ca3947b23e899aacc299 inherit pub_attribs_classInstrument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_types_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
-<tr class="memitem:a0cc1c4723c810cb81e72c130e6347f58 inherit pro_types_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a0cc1c4723c810cb81e72c130e6347f58" name="a0cc1c4723c810cb81e72c130e6347f58"></a>
-typedef std::map&lt; <a class="el" href="classStreamDescriptor.html">StreamDescriptor</a>, <a class="el" href="classWaveformBase.html">WaveformBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SequenceSet</b></td></tr>
-<tr class="separator:a0cc1c4723c810cb81e72c130e6347f58 inherit pro_types_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a219f25feae7b7956de0ff8c17e3040e8 inherit pro_types_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a219f25feae7b7956de0ff8c17e3040e8" name="a219f25feae7b7956de0ff8c17e3040e8"></a>
-typedef std::map&lt; std::string, CreateProcType &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CreateMapType</b></td></tr>
-<tr class="separator:a219f25feae7b7956de0ff8c17e3040e8 inherit pro_types_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_attribs_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
 <tr class="memitem:aa65cfd8b3ad3f3a78cd2ab6981739dd9 inherit pro_static_attribs_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="aa65cfd8b3ad3f3a78cd2ab6981739dd9" name="aa65cfd8b3ad3f3a78cd2ab6981739dd9"></a>
 static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_createprocs</b></td></tr>
@@ -1236,6 +1295,73 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <p >Note that <a class="el" href="classThunderScopeOscilloscope.html#ad7c6a893cf3f7b18ab947ae33ec3c79e" title="Checks the curent trigger status.">PollTrigger()</a> may not return 'triggered' immediately, due to command processing latency. </p>
 
 <p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#aae1795e9b5e3a0223a0f483a987df0ec">RemoteBridgeOscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a1c84bbe008f55b8419448c0dc5ffbf2f" name="a1c84bbe008f55b8419448c0dc5ffbf2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c84bbe008f55b8419448c0dc5ffbf2f">&#9670;&nbsp;</a></span>GetADCMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ThunderScopeOscilloscope::GetADCMode </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the ADC mode for a channel. </p>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#a8cc691ee42ba8b05fd59c0e2d9b20076">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="afe1e0891572716e3a47162a6b7faab64" name="afe1e0891572716e3a47162a6b7faab64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe1e0891572716e3a47162a6b7faab64">&#9670;&nbsp;</a></span>GetADCModeNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; string &gt; ThunderScopeOscilloscope::GetADCModeNames </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the names of the ADC modes for the bank a given channel is located in. </p>
+<p >ADC mode names are usually descriptive, like "12 bit, 640 Msps max" or "8 bit, 1 Gsps max"; but some instruments may use more generic</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index of the channel to query modes for </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#a8ed14ca0ec99a152886419f7768e7be7">Oscilloscope</a>.</p>
 
 </div>
 </div>
@@ -1624,6 +1750,64 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
+<a id="a10e555caaf25662bc51cf65754f987bb" name="a10e555caaf25662bc51cf65754f987bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10e555caaf25662bc51cf65754f987bb">&#9670;&nbsp;</a></span>HasInterleavingControls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ThunderScopeOscilloscope::HasInterleavingControls </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the scope has a user controllavble interleaving feature, false if not. </p>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#a6afe83c7eaa9135036103a2d71c69e90">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a4497e965ee5a08b3a9bda5a6a2ffeb48" name="a4497e965ee5a08b3a9bda5a6a2ffeb48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4497e965ee5a08b3a9bda5a6a2ffeb48">&#9670;&nbsp;</a></span>IsADCModeConfigurable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ThunderScopeOscilloscope::IsADCModeConfigurable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the ADC is configurable, false if it can only run in one mode. </p>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#a1e99997011c5ee3b3ae53a01b8f0a935">Oscilloscope</a>.</p>
+
+</div>
+</div>
 <a id="a37c5db2308c0ff3191b3b1d1c5b503f9" name="a37c5db2308c0ff3191b3b1d1c5b503f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37c5db2308c0ff3191b3b1d1c5b503f9">&#9670;&nbsp;</a></span>IsInterleaving()</h2>
 
@@ -1679,6 +1863,76 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <p>Checks the curent trigger status. </p>
 
 <p>Implements <a class="el" href="classOscilloscope.html#ae277756bf78f7ca0fff79998cc7813c2">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a80eda921a3ad32670a0786c0bbb028c8" name="a80eda921a3ad32670a0786c0bbb028c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80eda921a3ad32670a0786c0bbb028c8">&#9670;&nbsp;</a></span>PushEdgeTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderScopeOscilloscope::PushEdgeTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *&#160;</td>
+          <td class="paramname"><em>trig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes settings for an edge trigger to the instrument. </p>
+
+<p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#aa745ecd5131af53801fe6769b83cf6d2">RemoteBridgeOscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a245cce15c6a3e4438b907e1ef2218b9f" name="a245cce15c6a3e4438b907e1ef2218b9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a245cce15c6a3e4438b907e1ef2218b9f">&#9670;&nbsp;</a></span>SetADCMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderScopeOscilloscope::SetADCMode </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the ADC mode for a channel. </p>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#a2c4abac8194c951dd445d263131c67d0">Oscilloscope</a>.</p>
 
 </div>
 </div>
@@ -1854,6 +2108,66 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
+<a id="ab5fce3b042a4b228280d3b43391b2faa" name="ab5fce3b042a4b228280d3b43391b2faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5fce3b042a4b228280d3b43391b2faa">&#9670;&nbsp;</a></span>SetSampleDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderScopeOscilloscope::SetSampleDepth </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>depth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the sample depth of the scope. </p>
+
+<p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#a31c0b936c9f04437261777f30818e0c1">RemoteBridgeOscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="aad1d178df531e75e11e4a795554dc1f2" name="aad1d178df531e75e11e4a795554dc1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad1d178df531e75e11e4a795554dc1f2">&#9670;&nbsp;</a></span>SetSampleRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderScopeOscilloscope::SetSampleRate </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the sample rate of the scope, in Hz. </p>
+
+<p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#a516dca3f090aff89c6eef3c4ce34bb08">RemoteBridgeOscilloscope</a>.</p>
+
+</div>
+</div>
 <a id="a8610e6bdbd2d010527e2cbb070421c1d" name="a8610e6bdbd2d010527e2cbb070421c1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8610e6bdbd2d010527e2cbb070421c1d">&#9670;&nbsp;</a></span>Start()</h2>
 
@@ -1910,6 +2224,35 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <p>Arms the trigger for a single acquistion. </p>
 
 <p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#ad577628c7f2783fe1bdcb1b1611eabd4">RemoteBridgeOscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="ac9b6e973b1e3319ec3885787683db3ae" name="ac9b6e973b1e3319ec3885787683db3ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b6e973b1e3319ec3885787683db3ae">&#9670;&nbsp;</a></span>Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderScopeOscilloscope::Stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops triggering. </p>
+
+<p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#a535522998360908e77461a0e8eb9a937">RemoteBridgeOscilloscope</a>.</p>
 
 </div>
 </div>

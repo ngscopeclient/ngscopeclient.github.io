@@ -104,7 +104,7 @@ similar, various steps differ among platform and distro.
 </p>
      <h5 class='subsubsectionHead' id='debian'><a id='x5-26000'></a>Debian</h5>
      <!-- l. 88 --><p class='noindent'>Basic requirements: </p><!-- l. 89 -->
-         <pre class='lstlisting' id='listing-1'><span class='label'><a id='x5-26001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>sudo</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>apt-get </span><span class='t1-zi4r-0-'>install </span><span class='t1-zi4r-0-'>build-essential </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>libgtk-3-dev </span><span class='t1-zi4r-0-'>libsigc++-2.0-dev </span><span class='t1-zi4r-0-'>libyaml-cpp-dev </span><span class='t1-zi4r-0-'>catch2 </span><span class='t1-zi4r-0-'>libglfw3-dev </span><span class='t1-zi4r-0-'>curl </span><span class='t1-zi4r-0-'>xzip </span><span class='t1-zi4r-0-'>libhidapi-dev</span></span></pre>
+         <pre class='lstlisting' id='listing-1'><span class='label'><a id='x5-26001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>sudo</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>apt-get </span><span class='t1-zi4r-0-'>install </span><span class='t1-zi4r-0-'>build-essential </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>libgtk-3-dev </span><span class='t1-zi4r-0-'>libsigc++-2.0-dev </span><span class='t1-zi4r-0-'>libyaml-cpp-dev </span><span class='t1-zi4r-0-'>catch2 </span><span class='t1-zi4r-0-'>libglfw3-dev </span><span class='t1-zi4r-0-'>curl </span><span class='t1-zi4r-0-'>xzip </span><span class='t1-zi4r-0-'>libhidapi-dev </span><span class='t1-zi4r-0-'>lsb-release </span><span class='t1-zi4r-0-'>dpkg-dev </span><span class='t1-zi4r-0-'>file</span></span></pre>
          
      <!-- l. 93 --><p class='noindent'>On Debian bookworm and later, you can use system-provided Vulkan packages. Skip this if you
      choose to use the upstream Vulkan SDK instead: </p><!-- l. 94 -->
@@ -123,7 +123,7 @@ similar, various steps differ among platform and distro.
 </p>
      <h5 class='subsubsectionHead' id='ubuntu'><a id='x5-27000'></a>Ubuntu</h5>
      <!-- l. 110 --><p class='noindent'>Basic requirements: </p><!-- l. 111 -->
-         <pre class='lstlisting' id='listing-5'><span class='label'><a id='x5-27001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>sudo</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>apt </span><span class='t1-zi4r-0-'>install </span><span class='t1-zi4r-0-'>build-essential </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>libgtk-3-dev </span><span class='t1-zi4r-0-'>libsigc++-2.0-dev </span><span class='t1-zi4r-0-'>libyaml-cpp-dev </span><span class='t1-zi4r-0-'>catch2 </span><span class='t1-zi4r-0-'>libglfw3-dev </span><span class='t1-zi4r-0-'>curl </span><span class='t1-zi4r-0-'>xzip </span><span class='t1-zi4r-0-'>libhidapi-dev</span></span></pre>
+         <pre class='lstlisting' id='listing-5'><span class='label'><a id='x5-27001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>sudo</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>apt </span><span class='t1-zi4r-0-'>install </span><span class='t1-zi4r-0-'>build-essential </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>libgtk-3-dev </span><span class='t1-zi4r-0-'>libsigc++-2.0-dev </span><span class='t1-zi4r-0-'>libyaml-cpp-dev </span><span class='t1-zi4r-0-'>catch2 </span><span class='t1-zi4r-0-'>libglfw3-dev </span><span class='t1-zi4r-0-'>curl </span><span class='t1-zi4r-0-'>xzip </span><span class='t1-zi4r-0-'>libhidapi-dev </span><span class='t1-zi4r-0-'>lsb-release</span></span></pre>
          
      <!-- l. 115 --><p class='noindent'>On Ubuntu 22.10 and earlier (including 20.04 and 22.04), you will need to use the Vulkan SDK.
      Instructions for installing this are in a later step. On Ubuntu 23.04 and later, you can instead use
@@ -141,7 +141,7 @@ similar, various steps differ among platform and distro.
 </p>
      <h5 class='subsubsectionHead' id='fedora'><a id='x5-28000'></a>Fedora</h5>
      <!-- l. 135 --><p class='noindent'>Basic requirements: </p><!-- l. 136 -->
-         <pre class='lstlisting' id='listing-9'><span class='label'><a id='x5-28001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>sudo</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>dnf </span><span class='t1-zi4r-0-'>install </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>gcc </span><span class='t1-zi4r-0-'>g++ </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>make </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>gtk3-devel </span><span class='t1-zi4r-0-'>libsigc++30-devel </span><span class='t1-zi4r-0-'>yaml-cpp-devel </span><span class='t1-zi4r-0-'>catch-devel </span><span class='t1-zi4r-0-'>glfw-devel </span><span class='t1-zi4r-0-'>hidapi-devel</span></span></pre>
+         <pre class='lstlisting' id='listing-9'><span class='label'><a id='x5-28001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>sudo</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>dnf </span><span class='t1-zi4r-0-'>install </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>gcc </span><span class='t1-zi4r-0-'>g++ </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>make </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>gtk3-devel </span><span class='t1-zi4r-0-'>libsigc++30-devel </span><span class='t1-zi4r-0-'>yaml-cpp-devel </span><span class='t1-zi4r-0-'>catch-devel </span><span class='t1-zi4r-0-'>glfw-devel </span><span class='t1-zi4r-0-'>hidapi-devel </span><span class='t1-zi4r-0-'>lsb-release</span></span></pre>
          
      <!-- l. 140 --><p class='noindent'>System-provided Vulkan packages. Skip these if you choose to use the Vulkan SDK instead:
      </p><!-- l. 141 -->
@@ -161,7 +161,7 @@ similar, various steps differ among platform and distro.
      <h5 class='subsubsectionHead' id='alpine-linux'><a id='x5-29000'></a>Alpine Linux</h5>
      <!-- l. 157 --><p class='noindent'>As Alpine Linux uses musl libc, you will need to use system-provided Vulkan packages, and not the
      Vulkan SDK. </p><!-- l. 158 -->
-         <pre class='lstlisting' id='listing-13'><span class='label'><a id='x5-29001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>apk</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>add </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>gcc </span><span class='t1-zi4r-0-'>g++ </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>make </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>gtk+3.0-dev </span><span class='t1-zi4r-0-'>libsigc++-dev </span><span class='t1-zi4r-0-'>yaml-cpp-dev </span><span class='t1-zi4r-0-'>catch2-3 </span><span class='t1-zi4r-0-'>vulkan-loader-dev </span><span class='t1-zi4r-0-'>glslang-dev </span><span class='t1-zi4r-0-'>glslang-static </span><span class='t1-zi4r-0-'>glfw-dev </span><span class='t1-zi4r-0-'>shaderc-dev </span><span class='t1-zi4r-0-'>spirv-tools-dev </span><span class='t1-zi4r-0-'>libhidapi-dev</span></span></pre>
+         <pre class='lstlisting' id='listing-13'><span class='label'><a id='x5-29001r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>apk</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>add </span><span class='t1-zi4r-0-'>git </span><span class='t1-zi4r-0-'>gcc </span><span class='t1-zi4r-0-'>g++ </span><span class='t1-zi4r-0-'>cmake </span><span class='t1-zi4r-0-'>make </span><span class='t1-zi4r-0-'>pkgconf </span><span class='t1-zi4r-0-'>gtk+3.0-dev </span><span class='t1-zi4r-0-'>libsigc++-dev </span><span class='t1-zi4r-0-'>yaml-cpp-dev </span><span class='t1-zi4r-0-'>catch2-3 </span><span class='t1-zi4r-0-'>vulkan-loader-dev </span><span class='t1-zi4r-0-'>glslang-dev </span><span class='t1-zi4r-0-'>glslang-static </span><span class='t1-zi4r-0-'>glfw-dev </span><span class='t1-zi4r-0-'>shaderc-dev </span><span class='t1-zi4r-0-'>spirv-tools-dev </span><span class='t1-zi4r-0-'>libhidapi-dev </span><span class='t1-zi4r-0-'>lsb-release-minimal</span></span></pre>
          
      <!-- l. 162 --><p class='noindent'>If you are using an older stable release (such as CentOS 7), you may need to install some
      dependencies from source.
@@ -277,8 +277,8 @@ application, the project might be run outside of MSYS2.
          <pre class='lstlisting' id='listing-25'><span class='label'><a id='x5-32007r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>pacman</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>-S </span><span class='t1-zi4r-0-'>mingw-w64-ucrt-x86_64-vulkan-headers </span><span class='t1-zi4r-0-'>mingw-w64-ucrt-x86_64-vulkan-loader </span><span class='t1-zi4r-0-'>mingw-w64-ucrt-x86_64-shaderc </span><span class='t1-zi4r-0-'>mingw-w64-ucrt-x86_64-glslang </span><span class='t1-zi4r-0-'>mingw-w64-ucrt-x86_64-spirv-tools</span></span></pre>
          
      </dd><dt class='enumerate'>
-   5. </dt><dd class='enumerate'>Install FFTS: <!-- l. 296 -->
-         <pre class='lstlisting' id='listing-26'><span class='label'><a id='x5-32009r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>pacman</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>-S </span><span class='t1-zi4r-0-'>mingw-w64-ucrt-x86_64-ffts</span></span></pre>
+   5. </dt><dd class='enumerate'>Install FFTW (required for a few unit tests): <!-- l. 296 -->
+         <pre class='lstlisting' id='listing-26'><span class='label'><a id='x5-32009r1'></a></span><span style='color:#000000'><span class='t1-zi4r-0-'>pacman</span></span><span style='color:#000000'> <span class='t1-zi4r-0-'>-S </span><span class='t1-zi4r-0-'>mingw-w64-ucrt-x86_64-fftw</span></span></pre>
          
      </dd><dt class='enumerate'>
    6. </dt><dd class='enumerate'>Check out the code
@@ -354,9 +354,17 @@ work, you can: </p>
                                                                                          
                                                                                          
    </figure>
-   <h4 class='subsectionHead' id='console-verbosity-arguments'><span class='titlemark'>3.5.1   </span> <a id='x5-340003.5.1'></a>Console verbosity arguments</h4>
-<!-- l. 441 --><p class='noindent'>ngscopeclient takes standard liblogtools arguments for controlling console debug verbosity.
-</p><!-- l. 443 --><p class='indent'>   If no verbosity level is specified, the default is “notice" (3). (We suggest using <span class='t1-zi4r-0-x-x-109'>--debug </span>for routine use
+   <h4 class='subsectionHead' id='general-arguments'><span class='titlemark'>3.5.1   </span> <a id='x5-340003.5.1'></a>General arguments</h4>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>--version</span><br class='newline' />Print the application version and exit.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>--help</span>, <span class='t1-zi4r-0-x-x-109'>-h</span><br class='newline' />Print a brief description of the available command line arguments and exit.
+</li></ul>
+<!-- l. 450 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='console-verbosity-arguments'><span class='titlemark'>3.5.2   </span> <a id='x5-350003.5.2'></a>Console verbosity arguments</h4>
+<!-- l. 452 --><p class='noindent'>ngscopeclient takes standard liblogtools arguments for controlling console debug verbosity.
+</p><!-- l. 454 --><p class='indent'>   If no verbosity level is specified, the default is “notice" (3). (We suggest using <span class='t1-zi4r-0-x-x-109'>--debug </span>for routine use
 until the v1.0 release to aid in troubleshooting.)
 </p>
      <ul class='itemize1'>
@@ -378,8 +386,6 @@ until the v1.0 release to aid in troubleshooting.)
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>--verbose</span><br class='newline' />Sets the verbosity level to “verbose" (4).
 </li></ul>
-                                                                                         
-                                                                                         
                                                                                          
                                                                                          
                                                                                          

@@ -1,38 +1,39 @@
 <map id="Oscilloscope" name="Oscilloscope">
-<area shape="rect" id="node1" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="387,335,491,361"/>
-<area shape="rect" id="node5" href="$classAntikernelLogicAnalyzer.html" title="Driver for Antikernel Labs FPGA logic analyzer core (WIP)" alt="" coords="539,284,717,311"/>
-<area shape="rect" id="node6" href="$classMockOscilloscope.html" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="559,335,697,361"/>
-<area shape="rect" id="node7" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="561,385,695,412"/>
-<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,335,339,361"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,298,197,339"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="31,364,171,391"/>
+<area shape="rect" id="node1" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="387,360,491,387"/>
+<area shape="rect" id="node5" href="$classAntikernelLogicAnalyzer.html" title="Driver for Antikernel Labs FPGA logic analyzer core (WIP)" alt="" coords="539,309,717,336"/>
+<area shape="rect" id="node6" href="$classMockOscilloscope.html" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="559,360,697,387"/>
+<area shape="rect" id="node7" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="561,411,695,437"/>
+<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,360,339,387"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,323,197,365"/>
+<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="31,389,171,416"/>
 <area shape="rect" id="node8" href="$classAgilentOscilloscope.html" title="Driver for Agilent (and some Keysight) oscilloscopes." alt="" coords="800,5,951,32"/>
 <area shape="rect" id="node9" href="$classAntikernelLabsOscilloscope.html" title="Driver for experimental scopes, probably not useful to most people." alt="" coords="775,56,975,83"/>
 <area shape="rect" id="node10" href="$classAntikernelLabsTriggerCrossbar.html" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="765,107,985,133"/>
 <area shape="rect" id="node11" href="$classDemoOscilloscope.html" title="Simulated oscilloscope for demonstrations and testing." alt="" coords="804,157,947,184"/>
 <area shape="rect" id="node12" href="$classKeysightDCA.html" title=" " alt="" coords="822,208,929,235"/>
 <area shape="rect" id="node13" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="801,259,950,285"/>
-<area shape="rect" id="node15" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="797,309,953,336"/>
-<area shape="rect" id="node16" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="777,360,974,387"/>
-<area shape="rect" id="node23" href="$classRigolOscilloscope.html" title=" " alt="" coords="807,411,944,437"/>
-<area shape="rect" id="node24" href="$classRohdeSchwarzOscilloscope.html" title=" " alt="" coords="776,461,975,488"/>
-<area shape="rect" id="node25" href="$classSCPISA.html" title="Generic representation of a Spectrum Analyzer." alt="" coords="841,563,910,589"/>
-<area shape="rect" id="node27" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="836,512,915,539"/>
-<area shape="rect" id="node28" href="$classSCPISpectrometer.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="806,613,945,640"/>
-<area shape="rect" id="node30" href="$classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="836,664,915,691"/>
-<area shape="rect" id="node34" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="786,715,965,741"/>
-<area shape="rect" id="node35" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="793,791,957,817"/>
-<area shape="rect" id="node14" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1042,208,1221,235"/>
-<area shape="rect" id="node17" href="$classDSLabsOscilloscope.html" title="DSLabsOscilloscope &#45; driver for talking to the scopehal&#45;dslabs&#45;bridge daemons." alt="" coords="1055,259,1207,285"/>
-<area shape="rect" id="node18" href="$classDigilentOscilloscope.html" title="DigilentOscilloscope &#45; driver for talking to the scopehal&#45;waveforms&#45;bridge daemon (wfmserver)" alt="" coords="1054,309,1209,336"/>
-<area shape="rect" id="node19" href="$classHaasoscopePro.html" title="Driver for talking to the HaasoscopePro oscilloscope." alt="" coords="1070,360,1193,387"/>
-<area shape="rect" id="node20" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1066,411,1197,437"/>
-<area shape="rect" id="node21" href="$classThunderScopeOscilloscope.html" title="Driver for talking to the TS.NET server controlling a ThunderScope." alt="" coords="1033,461,1229,488"/>
-<area shape="rect" id="node22" href="$classUHDBridgeSDR.html" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1071,512,1192,539"/>
-<area shape="rect" id="node26" href="$classTinySA.html" title="Driver for TinySA and TinySA Ultra Spectrum Analizers." alt="" coords="1098,563,1165,589"/>
-<area shape="rect" id="node29" href="$classAseqSpectrometer.html" title="Driver for Aseq Instruments LR1/HR1 spectrometers via the scopehal&#45;aseq&#45;bridge server." alt="" coords="1060,613,1203,640"/>
-<area shape="rect" id="node31" href="$classCopperMountainVNA.html" title="Driver for Copper Mountain VNAs." alt="" coords="1053,664,1210,691"/>
-<area shape="rect" id="node32" href="$classNanoVNA.html" title="NanoVNA &#45; driver for talking to a NanoVNA using the NanoVNA 5 software." alt="" coords="1089,715,1173,741"/>
-<area shape="rect" id="node33" href="$classPicoVNA.html" title="PicoVNA &#45; driver for talking to a PicoVNA using the PicoVNA 5 software." alt="" coords="1093,765,1170,792"/>
-<area shape="rect" id="node36" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1038,816,1225,843"/>
+<area shape="rect" id="node15" href="$classMagnovaOscilloscope.html" title=" " alt="" coords="793,309,957,336"/>
+<area shape="rect" id="node16" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="797,360,953,387"/>
+<area shape="rect" id="node17" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="777,411,974,437"/>
+<area shape="rect" id="node24" href="$classRigolOscilloscope.html" title=" " alt="" coords="807,461,944,488"/>
+<area shape="rect" id="node25" href="$classRohdeSchwarzOscilloscope.html" title=" " alt="" coords="776,512,975,539"/>
+<area shape="rect" id="node26" href="$classSCPISA.html" title="Generic representation of a Spectrum Analyzer." alt="" coords="841,613,910,640"/>
+<area shape="rect" id="node28" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="836,563,915,589"/>
+<area shape="rect" id="node29" href="$classSCPISpectrometer.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="806,664,945,691"/>
+<area shape="rect" id="node31" href="$classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="836,715,915,741"/>
+<area shape="rect" id="node35" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="786,765,965,792"/>
+<area shape="rect" id="node36" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="793,841,957,868"/>
+<area shape="rect" id="node14" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1042,259,1221,285"/>
+<area shape="rect" id="node18" href="$classDSLabsOscilloscope.html" title="DSLabsOscilloscope &#45; driver for talking to the scopehal&#45;dslabs&#45;bridge daemons." alt="" coords="1055,309,1207,336"/>
+<area shape="rect" id="node19" href="$classDigilentOscilloscope.html" title="DigilentOscilloscope &#45; driver for talking to the scopehal&#45;waveforms&#45;bridge daemon (wfmserver)" alt="" coords="1054,360,1209,387"/>
+<area shape="rect" id="node20" href="$classHaasoscopePro.html" title="Driver for talking to the HaasoscopePro oscilloscope." alt="" coords="1070,411,1193,437"/>
+<area shape="rect" id="node21" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1066,461,1197,488"/>
+<area shape="rect" id="node22" href="$classThunderScopeOscilloscope.html" title="Driver for talking to the TS.NET server controlling a ThunderScope." alt="" coords="1033,512,1229,539"/>
+<area shape="rect" id="node23" href="$classUHDBridgeSDR.html" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1071,563,1192,589"/>
+<area shape="rect" id="node27" href="$classTinySA.html" title="Driver for TinySA and TinySA Ultra Spectrum Analizers." alt="" coords="1098,613,1165,640"/>
+<area shape="rect" id="node30" href="$classAseqSpectrometer.html" title="Driver for Aseq Instruments LR1/HR1 spectrometers via the scopehal&#45;aseq&#45;bridge server." alt="" coords="1060,664,1203,691"/>
+<area shape="rect" id="node32" href="$classCopperMountainVNA.html" title="Driver for Copper Mountain VNAs." alt="" coords="1053,715,1210,741"/>
+<area shape="rect" id="node33" href="$classNanoVNA.html" title="NanoVNA &#45; driver for talking to a NanoVNA using the NanoVNA 5 software." alt="" coords="1089,765,1173,792"/>
+<area shape="rect" id="node34" href="$classPicoVNA.html" title="PicoVNA &#45; driver for talking to a PicoVNA using the PicoVNA 5 software." alt="" coords="1093,816,1170,843"/>
+<area shape="rect" id="node37" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1038,867,1225,893"/>
 </map>

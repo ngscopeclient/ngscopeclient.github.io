@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['instrumentbadge_0',['InstrumentBadge',['../classStreamBrowserDialog.html#a2d2a37dd4510535b697100f215955777',1,'StreamBrowserDialog']]]
+  ['header_5fops_0',['HEADER_OPS',['../classVICPSocketTransport.html#aaea12b5a4e34bb0f55e6594c1b96e00a',1,'VICPSocketTransport']]]
 ];

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1.1</span>
    </div>
   </td>
  </tr>
@@ -414,10 +414,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_setupNotes</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:acbc8c40ebd3a6efafc0ed8a75f66dd7b"><td class="memItemLeft" align="right" valign="top"><a id="acbc8c40ebd3a6efafc0ed8a75f66dd7b" name="acbc8c40ebd3a6efafc0ed8a75f66dd7b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdatePacketManagers</b> (const std::set&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> * &gt; &amp;nodes)</td></tr>
-<tr class="memdesc:acbc8c40ebd3a6efafc0ed8a75f66dd7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update all of the packet managers when new data arrives. <br /></td></tr>
-<tr class="separator:acbc8c40ebd3a6efafc0ed8a75f66dd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1bef05d374a2ca678e1962cbb6c90ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#ae1bef05d374a2ca678e1962cbb6c90ac">UpdatePacketManagers</a> (const std::set&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> * &gt; &amp;nodes, bool nodesListIsComplete)</td></tr>
+<tr class="memdesc:ae1bef05d374a2ca678e1962cbb6c90ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update all of the packet managers when new data arrives.  <a href="classSession.html#ae1bef05d374a2ca678e1962cbb6c90ac">More...</a><br /></td></tr>
+<tr class="separator:ae1bef05d374a2ca678e1962cbb6c90ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2ad6a4772083091b8879fca8303e369"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#af2ad6a4772083091b8879fca8303e369">GetRegisteredTypeOfDriver</a> (const std::string &amp;drivername)</td></tr>
 <tr class="memdesc:af2ad6a4772083091b8879fca8303e369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an exhaustive search of the driver list to see which type this instrument is.  <a href="classSession.html#af2ad6a4772083091b8879fca8303e369">More...</a><br /></td></tr>
 <tr class="separator:af2ad6a4772083091b8879fca8303e369"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1214,6 +1213,51 @@ std::map&lt; std::string, std::vector&lt; std::string &gt; &gt;&#160;</td><td cl
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">all</td><td>If true, stop all groups in the sesison. If false, only stop groups with the "default" flag set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae1bef05d374a2ca678e1962cbb6c90ac" name="ae1bef05d374a2ca678e1962cbb6c90ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1bef05d374a2ca678e1962cbb6c90ac">&#9670;&nbsp;</a></span>UpdatePacketManagers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Session::UpdatePacketManagers </td>
+          <td>(</td>
+          <td class="paramtype">const std::set&lt; <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>nodesListIsComplete</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update all of the packet managers when new data arrives. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nodes</td><td>Set of filters to update </td></tr>
+    <tr><td class="paramname">nodesListIsComplete</td><td>True - nodes is all-inclusive. This means any manager not corresponding to one of these can be deleted False - nodes is a subset of the whole graph and we may have managers elsewhere </td></tr>
   </table>
   </dd>
 </dl>

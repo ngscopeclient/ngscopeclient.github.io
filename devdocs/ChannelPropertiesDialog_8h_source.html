@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1.1</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,7 @@ $(function() {
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* ngscopeclient                                                                                                        *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*                                                                                                                      *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2024 Andrew D. Zonenberg                                                                          *</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* Copyright (c) 2012-2025 Andrew D. Zonenberg                                                                          *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* All rights reserved.                                                                                                 *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*                                                                                                                      *</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">* Redistribution and use in source and binary forms, with or without modification, are permitted provided that the     *</span></div>
@@ -106,7 +106,7 @@ $(function() {
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classChannelPropertiesDialog.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="classChannelPropertiesDialog.html">ChannelPropertiesDialog</a> : <span class="keyword">public</span> <a class="code hl_class" href="classBaseChannelPropertiesDialog.html">BaseChannelPropertiesDialog</a></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_class" href="classChannelPropertiesDialog.html">ChannelPropertiesDialog</a>(<a class="code hl_class" href="classInstrumentChannel.html">InstrumentChannel</a>* chan, <span class="keywordtype">bool</span> graphEditorMode = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_class" href="classChannelPropertiesDialog.html">ChannelPropertiesDialog</a>(<a class="code hl_class" href="classInstrumentChannel.html">InstrumentChannel</a>* chan, <a class="code hl_class" href="classMainWindow.html">MainWindow</a>* parent, <span class="keywordtype">bool</span> graphEditorMode = <span class="keyword">false</span>);</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classChannelPropertiesDialog.html">~ChannelPropertiesDialog</a>();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classChannelPropertiesDialog.html#a5e7c08211b50e8fd3b2b7423087a1d8d">DoRender</a>();</div>
@@ -162,11 +162,12 @@ $(function() {
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aBaseChannelPropertiesDialog_8h_html"><div class="ttname"><a href="BaseChannelPropertiesDialog_8h.html">BaseChannelPropertiesDialog.h</a></div><div class="ttdoc">Declaration of BaseChannelPropertiesDialog.</div></div>
-<div class="ttc" id="aclassBaseChannelPropertiesDialog_html"><div class="ttname"><a href="classBaseChannelPropertiesDialog.html">BaseChannelPropertiesDialog</a></div><div class="ttdef"><b>Definition:</b> BaseChannelPropertiesDialog.h:41</div></div>
+<div class="ttc" id="aclassBaseChannelPropertiesDialog_html"><div class="ttname"><a href="classBaseChannelPropertiesDialog.html">BaseChannelPropertiesDialog</a></div><div class="ttdef"><b>Definition:</b> BaseChannelPropertiesDialog.h:42</div></div>
 <div class="ttc" id="aclassChannelPropertiesDialog_html"><div class="ttname"><a href="classChannelPropertiesDialog.html">ChannelPropertiesDialog</a></div><div class="ttdef"><b>Definition:</b> ChannelPropertiesDialog.h:41</div></div>
-<div class="ttc" id="aclassChannelPropertiesDialog_html_a005dedbc800c05a2957238e8c3387ae0"><div class="ttname"><a href="classChannelPropertiesDialog.html#a005dedbc800c05a2957238e8c3387ae0">ChannelPropertiesDialog::RefreshInputSettings</a></div><div class="ttdeci">void RefreshInputSettings(Oscilloscope *scope, size_t nchan)</div><div class="ttdoc">Update input configuration values.</div><div class="ttdef"><b>Definition:</b> ChannelPropertiesDialog.cpp:116</div></div>
-<div class="ttc" id="aclassChannelPropertiesDialog_html_a5e7c08211b50e8fd3b2b7423087a1d8d"><div class="ttname"><a href="classChannelPropertiesDialog.html#a5e7c08211b50e8fd3b2b7423087a1d8d">ChannelPropertiesDialog::DoRender</a></div><div class="ttdeci">virtual bool DoRender()</div><div class="ttdoc">Renders the dialog and handles UI events.</div><div class="ttdef"><b>Definition:</b> ChannelPropertiesDialog.cpp:229</div></div>
+<div class="ttc" id="aclassChannelPropertiesDialog_html_a005dedbc800c05a2957238e8c3387ae0"><div class="ttname"><a href="classChannelPropertiesDialog.html#a005dedbc800c05a2957238e8c3387ae0">ChannelPropertiesDialog::RefreshInputSettings</a></div><div class="ttdeci">void RefreshInputSettings(Oscilloscope *scope, size_t nchan)</div><div class="ttdoc">Update input configuration values.</div><div class="ttdef"><b>Definition:</b> ChannelPropertiesDialog.cpp:117</div></div>
+<div class="ttc" id="aclassChannelPropertiesDialog_html_a5e7c08211b50e8fd3b2b7423087a1d8d"><div class="ttname"><a href="classChannelPropertiesDialog.html#a5e7c08211b50e8fd3b2b7423087a1d8d">ChannelPropertiesDialog::DoRender</a></div><div class="ttdeci">virtual bool DoRender()</div><div class="ttdoc">Renders the dialog and handles UI events.</div><div class="ttdef"><b>Definition:</b> ChannelPropertiesDialog.cpp:230</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html"><div class="ttname"><a href="classInstrumentChannel.html">InstrumentChannel</a></div><div class="ttdoc">A single channel of an instrument.</div><div class="ttdef"><b>Definition:</b> InstrumentChannel.h:63</div></div>
+<div class="ttc" id="aclassMainWindow_html"><div class="ttname"><a href="classMainWindow.html">MainWindow</a></div><div class="ttdoc">Top level application window.</div><div class="ttdef"><b>Definition:</b> MainWindow.h:115</div></div>
 <div class="ttc" id="aclassOscilloscope_html"><div class="ttname"><a href="classOscilloscope.html">Oscilloscope</a></div><div class="ttdoc">Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer.</div><div class="ttdef"><b>Definition:</b> Oscilloscope.h:50</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

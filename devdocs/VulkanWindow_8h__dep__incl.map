@@ -1,34 +1,35 @@
 <map id="src/ngscopeclient/VulkanWindow.h" name="src/ngscopeclient/VulkanWindow.h">
-<area shape="rect" id="node1" title="Declaration of VulkanWindow." alt="" coords="3286,5,3470,47"/>
-<area shape="rect" id="node2" href="$MainWindow_8h.html" title="Declaration of MainWindow." alt="" coords="3145,102,3379,129"/>
-<area shape="rect" id="node32" href="$VulkanWindow_8cpp.html" title="Implementation of VulkanWindow." alt="" coords="3403,95,3587,136"/>
+<area shape="rect" id="node1" title="Declaration of VulkanWindow." alt="" coords="3379,5,3563,47"/>
+<area shape="rect" id="node2" href="$MainWindow_8h.html" title="Declaration of MainWindow." alt="" coords="3238,102,3473,129"/>
+<area shape="rect" id="node33" href="$VulkanWindow_8cpp.html" title="Implementation of VulkanWindow." alt="" coords="3497,95,3681,136"/>
 <area shape="rect" id="node3" href="$AboutDialog_8cpp.html" title="Implementation of AboutDialog." alt="" coords="5,191,252,218"/>
 <area shape="rect" id="node4" href="$BERTInputChannelDialog_8cpp.html" title="Implementation of BERTInputChannelDialog." alt="" coords="276,184,483,225"/>
-<area shape="rect" id="node5" href="$CreateFilterBrowser_8cpp.html" title="Implementation of CreateFilterBrowser." alt="" coords="507,184,689,225"/>
-<area shape="rect" id="node6" href="$DigitalIOChannelDialog_8cpp.html" title="Implementation of DigitalIOChannelDialog." alt="" coords="713,184,896,225"/>
-<area shape="rect" id="node7" href="$DigitalInputChannelDialog_8cpp.html" title="Implementation of DigitalInputChannelDialog." alt="" coords="920,184,1103,225"/>
-<area shape="rect" id="node8" href="$DigitalOutputChannelDialog_8cpp.html" title="Implementation of DigitalOutputChannelDialog." alt="" coords="1127,184,1315,225"/>
-<area shape="rect" id="node9" href="$FileBrowser_8cpp.html" title="Implementation of FileBrowser." alt="" coords="1339,191,1580,218"/>
-<area shape="rect" id="node10" href="$FilterGraphEditor_8cpp.html" title="Implementation of FilterGraphEditor." alt="" coords="1605,184,1775,225"/>
-<area shape="rect" id="node11" href="$FilterGraphWorkspace_8cpp.html" title="Implementation of FilterGraphWorkspace." alt="" coords="1799,184,1970,225"/>
-<area shape="rect" id="node12" href="$FilterPropertiesDialog_8cpp.html" title="Implementation of FilterPropertiesDialog." alt="" coords="1994,184,2165,225"/>
-<area shape="rect" id="node13" href="$HistoryDialog_8cpp.html" title="Implementation of HistoryDialog." alt="" coords="2189,184,2375,225"/>
-<area shape="rect" id="node14" href="$LogViewerDialog_8cpp.html" title="Implementation of LogViewerDialog." alt="" coords="2400,184,2607,225"/>
-<area shape="rect" id="node15" href="$MainWindow_8cpp.html" title="Implementation of most of MainWindow." alt="" coords="2631,191,2880,218"/>
-<area shape="rect" id="node16" href="$MainWindow__Icons_8cpp.html" title="Implementation of MainWindow functions for loading icons." alt="" coords="2904,184,3127,225"/>
-<area shape="rect" id="node17" href="$MainWindow__Menus_8cpp.html" title="Implementation of MainWindow." alt="" coords="3151,184,3373,225"/>
-<area shape="rect" id="node18" href="$ManageInstrumentsDialog_8cpp.html" title="Implementation of ManageInstrumentsDialog." alt="" coords="3397,184,3588,225"/>
-<area shape="rect" id="node19" href="$MemoryLeakerDialog_8cpp.html" title="Implementation of MemoryLeakerDialog." alt="" coords="3612,184,3805,225"/>
-<area shape="rect" id="node20" href="$NFDFileBrowser_8cpp.html" title="Implementation of NFDFileBrowser." alt="" coords="3830,184,4019,225"/>
-<area shape="rect" id="node21" href="$NotesDialog_8cpp.html" title="Implementation of NotesDialog." alt="" coords="4044,191,4291,218"/>
-<area shape="rect" id="node22" href="$PersistenceSettingsDialog_8cpp.html" title="Implementation of PersistenceSettingsDialog." alt="" coords="4315,184,4529,225"/>
-<area shape="rect" id="node23" href="$ProtocolAnalyzerDialog_8cpp.html" title="Implementation of ProtocolAnalyzerDialog." alt="" coords="4554,184,4746,225"/>
-<area shape="rect" id="node24" href="$SCPIConsoleDialog_8cpp.html" title="Implementation of SCPIConsoleDialog." alt="" coords="4771,184,4991,225"/>
-<area shape="rect" id="node25" href="$ScopeDeskewWizard_8cpp.html" title="Implementation of ScopeDeskewWizard." alt="" coords="5015,184,5245,225"/>
-<area shape="rect" id="node26" href="$Session_8cpp.html" title="Implementation of Session." alt="" coords="5269,191,5485,218"/>
-<area shape="rect" id="node27" href="$StreamBrowserDialog_8cpp.html" title="Implementation of StreamBrowserDialog." alt="" coords="5509,184,5695,225"/>
-<area shape="rect" id="node28" href="$WaveformArea_8cpp.html" title="Implementation of WaveformArea." alt="" coords="5720,184,5927,225"/>
-<area shape="rect" id="node29" href="$WaveformGroup_8cpp.html" title="Implementation of WaveformGroup." alt="" coords="5951,184,6157,225"/>
-<area shape="rect" id="node30" href="$Workspace_8cpp.html" title="Implementation of Workspace." alt="" coords="6181,191,6420,218"/>
-<area shape="rect" id="node31" href="$main_8cpp.html" title="Program entry point." alt="" coords="6444,191,6643,218"/>
+<area shape="rect" id="node5" href="$ChannelPropertiesDialog_8cpp.html" title="Implementation of ChannelPropertiesDialog." alt="" coords="507,184,699,225"/>
+<area shape="rect" id="node6" href="$CreateFilterBrowser_8cpp.html" title="Implementation of CreateFilterBrowser." alt="" coords="724,184,907,225"/>
+<area shape="rect" id="node7" href="$DigitalIOChannelDialog_8cpp.html" title="Implementation of DigitalIOChannelDialog." alt="" coords="931,184,1113,225"/>
+<area shape="rect" id="node8" href="$DigitalInputChannelDialog_8cpp.html" title="Implementation of DigitalInputChannelDialog." alt="" coords="1137,184,1320,225"/>
+<area shape="rect" id="node9" href="$DigitalOutputChannelDialog_8cpp.html" title="Implementation of DigitalOutputChannelDialog." alt="" coords="1344,184,1532,225"/>
+<area shape="rect" id="node10" href="$FileBrowser_8cpp.html" title="Implementation of FileBrowser." alt="" coords="1556,191,1797,218"/>
+<area shape="rect" id="node11" href="$FilterGraphEditor_8cpp.html" title="Implementation of FilterGraphEditor." alt="" coords="1822,184,1993,225"/>
+<area shape="rect" id="node12" href="$FilterGraphWorkspace_8cpp.html" title="Implementation of FilterGraphWorkspace." alt="" coords="2017,184,2187,225"/>
+<area shape="rect" id="node13" href="$FilterPropertiesDialog_8cpp.html" title="Implementation of FilterPropertiesDialog." alt="" coords="2211,184,2382,225"/>
+<area shape="rect" id="node14" href="$HistoryDialog_8cpp.html" title="Implementation of HistoryDialog." alt="" coords="2406,184,2593,225"/>
+<area shape="rect" id="node15" href="$LogViewerDialog_8cpp.html" title="Implementation of LogViewerDialog." alt="" coords="2617,184,2824,225"/>
+<area shape="rect" id="node16" href="$MainWindow_8cpp.html" title="Implementation of most of MainWindow." alt="" coords="2848,191,3097,218"/>
+<area shape="rect" id="node17" href="$MainWindow__Icons_8cpp.html" title="Implementation of MainWindow functions for loading icons." alt="" coords="3121,184,3344,225"/>
+<area shape="rect" id="node18" href="$MainWindow__Menus_8cpp.html" title="Implementation of MainWindow." alt="" coords="3368,184,3591,225"/>
+<area shape="rect" id="node19" href="$ManageInstrumentsDialog_8cpp.html" title="Implementation of ManageInstrumentsDialog." alt="" coords="3615,184,3805,225"/>
+<area shape="rect" id="node20" href="$MemoryLeakerDialog_8cpp.html" title="Implementation of MemoryLeakerDialog." alt="" coords="3829,184,4023,225"/>
+<area shape="rect" id="node21" href="$NFDFileBrowser_8cpp.html" title="Implementation of NFDFileBrowser." alt="" coords="4047,184,4237,225"/>
+<area shape="rect" id="node22" href="$NotesDialog_8cpp.html" title="Implementation of NotesDialog." alt="" coords="4261,191,4508,218"/>
+<area shape="rect" id="node23" href="$PersistenceSettingsDialog_8cpp.html" title="Implementation of PersistenceSettingsDialog." alt="" coords="4532,184,4747,225"/>
+<area shape="rect" id="node24" href="$ProtocolAnalyzerDialog_8cpp.html" title="Implementation of ProtocolAnalyzerDialog." alt="" coords="4771,184,4963,225"/>
+<area shape="rect" id="node25" href="$SCPIConsoleDialog_8cpp.html" title="Implementation of SCPIConsoleDialog." alt="" coords="4988,184,5208,225"/>
+<area shape="rect" id="node26" href="$ScopeDeskewWizard_8cpp.html" title="Implementation of ScopeDeskewWizard." alt="" coords="5233,184,5462,225"/>
+<area shape="rect" id="node27" href="$Session_8cpp.html" title="Implementation of Session." alt="" coords="5486,191,5702,218"/>
+<area shape="rect" id="node28" href="$StreamBrowserDialog_8cpp.html" title="Implementation of StreamBrowserDialog." alt="" coords="5726,184,5913,225"/>
+<area shape="rect" id="node29" href="$WaveformArea_8cpp.html" title="Implementation of WaveformArea." alt="" coords="5937,184,6144,225"/>
+<area shape="rect" id="node30" href="$WaveformGroup_8cpp.html" title="Implementation of WaveformGroup." alt="" coords="6168,184,6375,225"/>
+<area shape="rect" id="node31" href="$Workspace_8cpp.html" title="Implementation of Workspace." alt="" coords="6399,191,6637,218"/>
+<area shape="rect" id="node32" href="$main_8cpp.html" title="Program entry point." alt="" coords="6661,191,6860,218"/>
 </map>

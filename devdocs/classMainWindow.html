@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1.1</span>
    </div>
   </td>
  </tr>
@@ -239,13 +239,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>AddToRecentInstrument
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ShowErrorPopup</b> (const std::string &amp;title, const std::string &amp;msg)</td></tr>
 <tr class="memdesc:a9db9a717252aee28ff4deb40e35f5efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens the error popup. <br /></td></tr>
 <tr class="separator:a9db9a717252aee28ff4deb40e35f5efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab795b2d81f5abf3d949652270d3411b"><td class="memItemLeft" align="right" valign="top"><a id="aab795b2d81f5abf3d949652270d3411b" name="aab795b2d81f5abf3d949652270d3411b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetStyle</b> ()</td></tr>
+<tr class="separator:aab795b2d81f5abf3d949652270d3411b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a692678e2c5676b51d1e29bedd8f35569"><td class="memItemLeft" align="right" valign="top"><a id="a692678e2c5676b51d1e29bedd8f35569" name="a692678e2c5676b51d1e29bedd8f35569"></a>
 FontWithSize&#160;</td><td class="memItemRight" valign="bottom"><b>GetFontPref</b> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:a692678e2c5676b51d1e29bedd8f35569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a font, given the name of a preference setting. <br /></td></tr>
 <tr class="separator:a692678e2c5676b51d1e29bedd8f35569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ebc3376c7e1ebad0b89c8b27a892be5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7ebc3376c7e1ebad0b89c8b27a892be5">GetFontScale</a> ()</td></tr>
-<tr class="memdesc:a7ebc3376c7e1ebad0b89c8b27a892be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get scaling factor for fonts being drawn with ImDrawList.  <a href="classMainWindow.html#a7ebc3376c7e1ebad0b89c8b27a892be5">More...</a><br /></td></tr>
-<tr class="separator:a7ebc3376c7e1ebad0b89c8b27a892be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a818a7f1ab2853b14a1f2dd865c5755ac"><td class="memItemLeft" align="right" valign="top"><a id="a818a7f1ab2853b14a1f2dd865c5755ac" name="a818a7f1ab2853b14a1f2dd865c5755ac"></a>
 ImU32&#160;</td><td class="memItemRight" valign="bottom"><b>GetColorPref</b> (const std::string &amp;name)</td></tr>
 <tr class="separator:a818a7f1ab2853b14a1f2dd865c5755ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,6 +263,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetIconForFilt
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetIconForWaveformShape</b> (<a class="el" href="classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907">FunctionGenerator::WaveShape</a> shape)</td></tr>
 <tr class="memdesc:a4ef8ffb3add39d436966a1a496240bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the icon to use for a given wave shape. <br /></td></tr>
 <tr class="separator:a4ef8ffb3add39d436966a1a496240bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a695da75349a8d20a8e81ec2a5a98fe29"><td class="memItemLeft" align="right" valign="top"><a id="a695da75349a8d20a8e81ec2a5a98fe29" name="a695da75349a8d20a8e81ec2a5a98fe29"></a>
+ImGui::MarkdownConfig&#160;</td><td class="memItemRight" valign="bottom"><b>GetMarkdownConfig</b> ()</td></tr>
+<tr class="separator:a695da75349a8d20a8e81ec2a5a98fe29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae52af20a700245c35cf742a82f2b27cf"><td class="memItemLeft" align="right" valign="top"><a id="ae52af20a700245c35cf742a82f2b27cf" name="ae52af20a700245c35cf742a82f2b27cf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>AddStatusHelp</b> (const std::string &amp;icon, const std::string &amp;text)</td></tr>
 <tr class="separator:ae52af20a700245c35cf742a82f2b27cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -306,10 +309,10 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>OnMemoryPressu
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
-<tr class="memitem:a0ee5fdf298d8f30b5e29418348ecaacf"><td class="memItemLeft" align="right" valign="top"><a id="a0ee5fdf298d8f30b5e29418348ecaacf" name="a0ee5fdf298d8f30b5e29418348ecaacf"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>BROWSE_OPEN_SESSION</b>
+<tr class="memitem:ac34d67abcc0525f07bdd73d2c2eba051"><td class="memItemLeft" align="right" valign="top"><a id="ac34d67abcc0525f07bdd73d2c2eba051" name="ac34d67abcc0525f07bdd73d2c2eba051"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>BROWSE_OPEN_SESSION</b>
 , <b>BROWSE_SAVE_SESSION</b>
  }</td></tr>
-<tr class="separator:a0ee5fdf298d8f30b5e29418348ecaacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ac34d67abcc0525f07bdd73d2c2eba051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -736,9 +739,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_startupSessi
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_sessionClosing</b></td></tr>
 <tr class="memdesc:adc9a3f461c74c8f93fc58d1662615c91"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if a close-session request came in this frame. <br /></td></tr>
 <tr class="separator:adc9a3f461c74c8f93fc58d1662615c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad042061f33fff1c9ca02d4adf68d6099"><td class="memItemLeft" align="right" valign="top"><a id="ad042061f33fff1c9ca02d4adf68d6099" name="ad042061f33fff1c9ca02d4adf68d6099"></a>
+<tr class="memitem:a0912fa3ed87abc5b2d1c8fc9c9ade13f"><td class="memItemLeft" align="right" valign="top"><a id="a0912fa3ed87abc5b2d1c8fc9c9ade13f" name="a0912fa3ed87abc5b2d1c8fc9c9ade13f"></a>
 enum MainWindow:: { ... } &#160;</td><td class="memItemRight" valign="bottom"><b>m_fileBrowserMode</b></td></tr>
-<tr class="separator:ad042061f33fff1c9ca02d4adf68d6099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a0912fa3ed87abc5b2d1c8fc9c9ade13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d3de8b1152e7935b230f98637385018"><td class="memItemLeft" align="right" valign="top"><a id="a4d3de8b1152e7935b230f98637385018" name="a4d3de8b1152e7935b230f98637385018"></a>
 std::shared_ptr&lt; <a class="el" href="classFileBrowser.html">FileBrowser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_fileBrowser</b></td></tr>
 <tr class="memdesc:a4d3de8b1152e7935b230f98637385018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Browser for pending file loads. <br /></td></tr>
@@ -1068,34 +1071,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_title</b></t
 
 <p>Given a stream and optionally a <a class="el" href="classWaveformArea.html" title="A WaveformArea is a plot that displays one or more OscilloscopeChannel&#39;s worth of data.">WaveformArea</a>, adds the stream to some area. </p>
 <p >The provided area is considered first; if it's not a good fit then another area is selected. If no compatible area can be found, a new one is created. </p>
-
-</div>
-</div>
-<a id="a7ebc3376c7e1ebad0b89c8b27a892be5" name="a7ebc3376c7e1ebad0b89c8b27a892be5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ebc3376c7e1ebad0b89c8b27a892be5">&#9670;&nbsp;</a></span>GetFontScale()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MainWindow::GetFontScale </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get scaling factor for fonts being drawn with ImDrawList. </p>
-<p >For now, normalize everything to a nominal size 13 default font </p>
 
 </div>
 </div>

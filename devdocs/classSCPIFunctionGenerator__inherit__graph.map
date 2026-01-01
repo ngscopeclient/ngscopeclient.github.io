@@ -1,20 +1,21 @@
 <map id="SCPIFunctionGenerator" name="SCPIFunctionGenerator">
-<area shape="rect" id="node1" title="An SCPI&#45;based function generator." alt="" coords="580,208,751,235"/>
+<area shape="rect" id="node1" title="An SCPI&#45;based function generator." alt="" coords="580,233,751,260"/>
 <area shape="rect" id="node8" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="831,5,981,32"/>
-<area shape="rect" id="node10" href="$classOwonXDGFunctionGenerator.html" title="Owon XDG Function Generator series driver class." alt="" coords="802,56,1010,83"/>
-<area shape="rect" id="node11" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="841,107,971,133"/>
-<area shape="rect" id="node12" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="828,157,984,184"/>
-<area shape="rect" id="node13" href="$classRigolFunctionGenerator.html" title=" " alt="" coords="819,208,993,235"/>
-<area shape="rect" id="node14" href="$classSiglentFunctionGenerator.html" title="A Siglent SDG function generator." alt="" coords="813,259,999,285"/>
-<area shape="rect" id="node15" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="817,309,995,336"/>
-<area shape="rect" id="node16" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="799,360,1013,387"/>
-<area shape="rect" id="node17" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="824,411,988,437"/>
-<area shape="rect" id="node2" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="389,233,532,260"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,233,340,260"/>
-<area shape="rect" id="node6" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="399,183,522,209"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,197,197,238"/>
-<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="31,263,171,289"/>
-<area shape="rect" id="node7" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,183,341,209"/>
+<area shape="rect" id="node10" href="$classMagnovaOscilloscope.html" title=" " alt="" coords="824,56,988,83"/>
+<area shape="rect" id="node11" href="$classOwonXDGFunctionGenerator.html" title="Owon XDG Function Generator series driver class." alt="" coords="802,107,1010,133"/>
+<area shape="rect" id="node12" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="841,157,971,184"/>
+<area shape="rect" id="node13" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="828,208,984,235"/>
+<area shape="rect" id="node14" href="$classRigolFunctionGenerator.html" title=" " alt="" coords="819,259,993,285"/>
+<area shape="rect" id="node15" href="$classSiglentFunctionGenerator.html" title="A Siglent SDG function generator." alt="" coords="813,309,999,336"/>
+<area shape="rect" id="node16" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="817,360,995,387"/>
+<area shape="rect" id="node17" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="799,411,1013,437"/>
+<area shape="rect" id="node18" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="824,461,988,488"/>
+<area shape="rect" id="node2" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="389,259,532,285"/>
+<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,259,340,285"/>
+<area shape="rect" id="node6" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="399,208,522,235"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,222,197,263"/>
+<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="31,288,171,315"/>
+<area shape="rect" id="node7" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,208,341,235"/>
 <area shape="rect" id="node9" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1065,5,1244,32"/>
-<area shape="rect" id="node18" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1061,411,1248,437"/>
+<area shape="rect" id="node19" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1061,461,1248,488"/>
 </map>

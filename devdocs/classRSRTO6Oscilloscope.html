@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1.1</span>
    </div>
   </td>
  </tr>
@@ -501,6 +501,9 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#ab4c48f7f2ac0165d7b0f0a8dc46d19b7">SetInterleaving</a> (bool combine)=0</td></tr>
 <tr class="memdesc:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the scope to combine channels.  <a href="classOscilloscope.html#ab4c48f7f2ac0165d7b0f0a8dc46d19b7">More...</a><br /></td></tr>
 <tr class="separator:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a6afe83c7eaa9135036103a2d71c69e90">HasInterleavingControls</a> ()</td></tr>
+<tr class="memdesc:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the scope has a user controllavble interleaving feature, false if not.  <a href="classOscilloscope.html#a6afe83c7eaa9135036103a2d71c69e90">More...</a><br /></td></tr>
+<tr class="separator:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#aaba382a36563bd0d91430e58482e9022">CanInterleave</a> ()</td></tr>
 <tr class="memdesc:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have no interleave conflicts, false if we have conflicts.  <a href="classOscilloscope.html#aaba382a36563bd0d91430e58482e9022">More...</a><br /></td></tr>
 <tr class="separator:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -552,6 +555,10 @@ virtual std::set&lt; <a class="el" href="classOscilloscope.html#a116076a558768bc
 <tr class="memitem:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual AnalogBank&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#aee263c45fea64034699969dfef561c0e">GetAnalogBank</a> (size_t channel)</td></tr>
 <tr class="memdesc:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the bank containing a given channel.  <a href="classOscilloscope.html#aee263c45fea64034699969dfef561c0e">More...</a><br /></td></tr>
 <tr class="separator:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a43ba727cea721bacde1c9a7ef805eae1" name="a43ba727cea721bacde1c9a7ef805eae1"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsADCModePerChannel</b> ()</td></tr>
+<tr class="memdesc:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ADC is a per-channel setting, false if global for the entire instrument. <br /></td></tr>
+<tr class="separator:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a1e99997011c5ee3b3ae53a01b8f0a935">IsADCModeConfigurable</a> ()</td></tr>
 <tr class="memdesc:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ADC is configurable, false if it can only run in one mode.  <a href="classOscilloscope.html#a1e99997011c5ee3b3ae53a01b8f0a935">More...</a><br /></td></tr>
 <tr class="separator:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1.1</span>
    </div>
   </td>
  </tr>
@@ -79,11 +79,11 @@ Inheritance diagram for PowerSupply:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPowerSupply__inherit__graph.png" border="0" usemap="#aPowerSupply_inherit__map" alt="Inheritance graph"/></div>
 <map name="aPowerSupply_inherit__map" id="aPowerSupply_inherit__map">
-<area shape="rect" title="A generic power supply." alt="" coords="387,208,493,235"/>
-<area shape="rect" href="classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="541,208,676,235"/>
-<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,208,339,235"/>
-<area shape="rect" title=" " alt="" coords="5,171,197,213"/>
-<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="31,237,171,264"/>
+<area shape="rect" title="A generic power supply." alt="" coords="387,233,493,260"/>
+<area shape="rect" href="classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="541,233,676,260"/>
+<area shape="rect" href="classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,233,339,260"/>
+<area shape="rect" title=" " alt="" coords="5,197,197,238"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="31,263,171,289"/>
 <area shape="rect" href="classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="763,5,923,32"/>
 <area shape="rect" href="classDemoPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="771,56,916,83"/>
 <area shape="rect" href="classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="724,107,963,133"/>
@@ -93,6 +93,7 @@ Inheritance diagram for PowerSupply:</div>
 <area shape="rect" href="classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="753,309,934,336"/>
 <area shape="rect" href="classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="733,361,953,402"/>
 <area shape="rect" href="classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="768,427,919,453"/>
+<area shape="rect" href="classSinilinkPowerSupply.html" title="Implementation for Sinilink PSUs such as XY&#45;S3580, XY6020L." alt="" coords="766,477,921,504"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -470,7 +471,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 <p>Determines if the power supply supports switching individual output channels. </p>
 <p >If this function returns false, GetPowerChannelActive() will always return true, and SetPowerChannelActive() is a no-op. </p>
 
-<p>Reimplemented in <a class="el" href="classAlientekPowerSupply.html#a11d9221d128a0a9829b2f0057d1265fb">AlientekPowerSupply</a>, <a class="el" href="classDemoPowerSupply.html#ad9eaf4a6180b4888d5a5b9a8188429f9">DemoPowerSupply</a>, <a class="el" href="classHP662xAPowerSupply.html#af98e61f5399c9d347375876d7e8ce5c2">HP662xAPowerSupply</a>, <a class="el" href="classKuaiquPowerSupply.html#a67b70c4328874661d5b0206ab5287c49">KuaiquPowerSupply</a>, <a class="el" href="classRidenPowerSupply.html#afa4cd5843b82bc9ca90525957a3a874d">RidenPowerSupply</a>, <a class="el" href="classRigolDP8xxPowerSupply.html#a9b8788aa33301fac1b397b35e05b175b">RigolDP8xxPowerSupply</a>, <a class="el" href="classRohdeSchwarzHMC804xPowerSupply.html#a746a007e226273e1bb258ca94cf3a094">RohdeSchwarzHMC804xPowerSupply</a>, and <a class="el" href="classSiglentPowerSupply.html#af4ec41baebc300419f0a26340d69fadf">SiglentPowerSupply</a>.</p>
+<p>Reimplemented in <a class="el" href="classAlientekPowerSupply.html#a11d9221d128a0a9829b2f0057d1265fb">AlientekPowerSupply</a>, <a class="el" href="classDemoPowerSupply.html#ad9eaf4a6180b4888d5a5b9a8188429f9">DemoPowerSupply</a>, <a class="el" href="classHP662xAPowerSupply.html#af98e61f5399c9d347375876d7e8ce5c2">HP662xAPowerSupply</a>, <a class="el" href="classKuaiquPowerSupply.html#a67b70c4328874661d5b0206ab5287c49">KuaiquPowerSupply</a>, <a class="el" href="classRidenPowerSupply.html#afa4cd5843b82bc9ca90525957a3a874d">RidenPowerSupply</a>, <a class="el" href="classRigolDP8xxPowerSupply.html#a9b8788aa33301fac1b397b35e05b175b">RigolDP8xxPowerSupply</a>, <a class="el" href="classRohdeSchwarzHMC804xPowerSupply.html#a746a007e226273e1bb258ca94cf3a094">RohdeSchwarzHMC804xPowerSupply</a>, <a class="el" href="classSiglentPowerSupply.html#af4ec41baebc300419f0a26340d69fadf">SiglentPowerSupply</a>, and <a class="el" href="classSinilinkPowerSupply.html#a52f91077c1cf4456d658b0517835ef36">SinilinkPowerSupply</a>.</p>
 
 </div>
 </div>
@@ -591,7 +592,7 @@ std::vector&lt; <a class="el" href="classInstrumentChannel.html">InstrumentChann
 <p>Determines if the power supply supports voltage/current control for the given channel. </p>
 <p >If this function returns false, GetPowerVoltage* and GetPowerCurrent* will always return zero, and SetPowerCurrent*, and SetPowerVoltage* are no-ops. </p>
 
-<p>Reimplemented in <a class="el" href="classAlientekPowerSupply.html#a95a8d7b5d3069ab61e29203926ca8c23">AlientekPowerSupply</a>, <a class="el" href="classKuaiquPowerSupply.html#a30062049492374fb2cb13ade326dd50c">KuaiquPowerSupply</a>, <a class="el" href="classRidenPowerSupply.html#a82b99608f1c4d13018862bbbb8a7dbff">RidenPowerSupply</a>, and <a class="el" href="classSiglentPowerSupply.html#a60adffaed870804bb8ac95a172ed4846">SiglentPowerSupply</a>.</p>
+<p>Reimplemented in <a class="el" href="classAlientekPowerSupply.html#a95a8d7b5d3069ab61e29203926ca8c23">AlientekPowerSupply</a>, <a class="el" href="classKuaiquPowerSupply.html#a30062049492374fb2cb13ade326dd50c">KuaiquPowerSupply</a>, <a class="el" href="classRidenPowerSupply.html#a82b99608f1c4d13018862bbbb8a7dbff">RidenPowerSupply</a>, <a class="el" href="classSiglentPowerSupply.html#a60adffaed870804bb8ac95a172ed4846">SiglentPowerSupply</a>, and <a class="el" href="classSinilinkPowerSupply.html#aa85df98f5cc78426538d235497d24267">SinilinkPowerSupply</a>.</p>
 
 </div>
 </div>

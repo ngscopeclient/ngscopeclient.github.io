@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.1.1</span>
    </div>
   </td>
  </tr>
@@ -369,6 +369,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#ab4c48f7f2ac0165d7b0f0a8dc46d19b7">SetInterleaving</a> (bool combine)=0</td></tr>
 <tr class="memdesc:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the scope to combine channels.  <a href="classOscilloscope.html#ab4c48f7f2ac0165d7b0f0a8dc46d19b7">More...</a><br /></td></tr>
 <tr class="separator:ab4c48f7f2ac0165d7b0f0a8dc46d19b7 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a6afe83c7eaa9135036103a2d71c69e90">HasInterleavingControls</a> ()</td></tr>
+<tr class="memdesc:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the scope has a user controllavble interleaving feature, false if not.  <a href="classOscilloscope.html#a6afe83c7eaa9135036103a2d71c69e90">More...</a><br /></td></tr>
+<tr class="separator:a6afe83c7eaa9135036103a2d71c69e90 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#aaba382a36563bd0d91430e58482e9022">CanInterleave</a> ()</td></tr>
 <tr class="memdesc:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if we have no interleave conflicts, false if we have conflicts.  <a href="classOscilloscope.html#aaba382a36563bd0d91430e58482e9022">More...</a><br /></td></tr>
 <tr class="separator:aaba382a36563bd0d91430e58482e9022 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -420,6 +423,10 @@ virtual std::set&lt; <a class="el" href="classOscilloscope.html#a116076a558768bc
 <tr class="memitem:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual AnalogBank&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#aee263c45fea64034699969dfef561c0e">GetAnalogBank</a> (size_t channel)</td></tr>
 <tr class="memdesc:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the bank containing a given channel.  <a href="classOscilloscope.html#aee263c45fea64034699969dfef561c0e">More...</a><br /></td></tr>
 <tr class="separator:aee263c45fea64034699969dfef561c0e inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="a43ba727cea721bacde1c9a7ef805eae1" name="a43ba727cea721bacde1c9a7ef805eae1"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsADCModePerChannel</b> ()</td></tr>
+<tr class="memdesc:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ADC is a per-channel setting, false if global for the entire instrument. <br /></td></tr>
+<tr class="separator:a43ba727cea721bacde1c9a7ef805eae1 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a1e99997011c5ee3b3ae53a01b8f0a935">IsADCModeConfigurable</a> ()</td></tr>
 <tr class="memdesc:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the ADC is configurable, false if it can only run in one mode.  <a href="classOscilloscope.html#a1e99997011c5ee3b3ae53a01b8f0a935">More...</a><br /></td></tr>
 <tr class="separator:a1e99997011c5ee3b3ae53a01b8f0a935 inherit pub_methods_classOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -606,9 +613,8 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDri
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa745ecd5131af53801fe6769b83cf6d2"><td class="memItemLeft" align="right" valign="top"><a id="aa745ecd5131af53801fe6769b83cf6d2" name="aa745ecd5131af53801fe6769b83cf6d2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PushEdgeTrigger</b> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig)</td></tr>
-<tr class="memdesc:aa745ecd5131af53801fe6769b83cf6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument. <br /></td></tr>
+<tr class="memitem:aa745ecd5131af53801fe6769b83cf6d2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRemoteBridgeOscilloscope.html#aa745ecd5131af53801fe6769b83cf6d2">PushEdgeTrigger</a> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *trig)</td></tr>
+<tr class="memdesc:aa745ecd5131af53801fe6769b83cf6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument.  <a href="classRemoteBridgeOscilloscope.html#aa745ecd5131af53801fe6769b83cf6d2">More...</a><br /></td></tr>
 <tr class="separator:aa745ecd5131af53801fe6769b83cf6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classOscilloscope"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classOscilloscope')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classOscilloscope.html">Oscilloscope</a></td></tr>
 <tr class="memitem:ac205c93314fa0d2a9f57f2755ef0d560 inherit pro_methods_classOscilloscope"><td class="memItemLeft" align="right" valign="top"><a id="ac205c93314fa0d2a9f57f2755ef0d560" name="ac205c93314fa0d2a9f57f2755ef0d560"></a>
@@ -1308,6 +1314,36 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 </div>
 </div>
+<a id="aa745ecd5131af53801fe6769b83cf6d2" name="aa745ecd5131af53801fe6769b83cf6d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa745ecd5131af53801fe6769b83cf6d2">&#9670;&nbsp;</a></span>PushEdgeTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoteBridgeOscilloscope::PushEdgeTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *&#160;</td>
+          <td class="paramname"><em>trig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes settings for an edge trigger to the instrument. </p>
+
+<p>Reimplemented in <a class="el" href="classThunderScopeOscilloscope.html#a80eda921a3ad32670a0786c0bbb028c8">ThunderScopeOscilloscope</a>.</p>
+
+</div>
+</div>
 <a id="a1fd75e2c04b5e771d4ac66b7ad1dd671" name="a1fd75e2c04b5e771d4ac66b7ad1dd671"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fd75e2c04b5e771d4ac66b7ad1dd671">&#9670;&nbsp;</a></span>PushTrigger()</h2>
 
@@ -1529,7 +1565,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 <p>Implements <a class="el" href="classOscilloscope.html#a65bfb2a5d7fc7b271196f5800d6c7a9c">Oscilloscope</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classPicoOscilloscope.html#aaecd8da052f4b2eda46712b8610edc81">PicoOscilloscope</a>.</p>
+<p>Reimplemented in <a class="el" href="classPicoOscilloscope.html#aaecd8da052f4b2eda46712b8610edc81">PicoOscilloscope</a>, and <a class="el" href="classThunderScopeOscilloscope.html#ab5fce3b042a4b228280d3b43391b2faa">ThunderScopeOscilloscope</a>.</p>
 
 </div>
 </div>
@@ -1561,7 +1597,7 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 
 <p>Implements <a class="el" href="classOscilloscope.html#a66d54893d1c8c8f303c000ef64b42f15">Oscilloscope</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classPicoOscilloscope.html#a7121de4c841d8fb4702e263e48adc0fc">PicoOscilloscope</a>, and <a class="el" href="classUHDBridgeSDR.html#a8cd84e900e3fe26acb3738b565084b67">UHDBridgeSDR</a>.</p>
+<p>Reimplemented in <a class="el" href="classPicoOscilloscope.html#a7121de4c841d8fb4702e263e48adc0fc">PicoOscilloscope</a>, <a class="el" href="classThunderScopeOscilloscope.html#aad1d178df531e75e11e4a795554dc1f2">ThunderScopeOscilloscope</a>, and <a class="el" href="classUHDBridgeSDR.html#a8cd84e900e3fe26acb3738b565084b67">UHDBridgeSDR</a>.</p>
 
 </div>
 </div>
@@ -1692,6 +1728,8 @@ static CreateMapType&#160;</td><td class="memItemRight" valign="bottom"><b>m_cre
 <p>Stops triggering. </p>
 
 <p>Implements <a class="el" href="classOscilloscope.html#aa565ae090dfbe8a88f5f1a460c975a2e">Oscilloscope</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classThunderScopeOscilloscope.html#ac9b6e973b1e3319ec3885787683db3ae">ThunderScopeOscilloscope</a>.</p>
 
 </div>
 </div>

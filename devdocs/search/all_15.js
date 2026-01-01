@@ -30,7 +30,7 @@ var searchData=
   ['update_27',['Update',['../classPacketManager.html#a2843a60f52bc620d98d150c5fbd401f7',1,'PacketManager::Update()'],['../classMultimeterChannel.html#ad34b94a623fadd2ba446b1119313d430',1,'MultimeterChannel::Update()']]],
   ['updatefonts_28',['UpdateFonts',['../classFontManager.html#a64e9ed09fb0f3b2d6369e7c11b4137c3',1,'FontManager::UpdateFonts()'],['../classMainWindow.html#a806317c8eacf64d7d597002cc0f2be00',1,'MainWindow::UpdateFonts()']]],
   ['updateframebuffer_29',['UpdateFramebuffer',['../classVulkanWindow.html#a6fff7dcf941533b35c3ea6f3b58550d6',1,'VulkanWindow']]],
-  ['updatepacketmanagers_30',['UpdatePacketManagers',['../classSession.html#acbc8c40ebd3a6efafc0ed8a75f66dd7b',1,'Session']]],
+  ['updatepacketmanagers_30',['UpdatePacketManagers',['../classSession.html#ae1bef05d374a2ca678e1962cbb6c90ac',1,'Session']]],
   ['updaterunnable_31',['UpdateRunnable',['../classFilterGraphExecutor.html#a4b6a24654f90d73edd629795c8e0f3b3',1,'FilterGraphExecutor']]],
   ['updateselectiontolatest_32',['UpdateSelectionToLatest',['../classHistoryDialog.html#ae4e37e029c97f5efdff97585b7efbfc0',1,'HistoryDialog']]],
   ['updatesize_33',['UpdateSize',['../classDisplayedChannel.html#a12c7bd7bcc2eb6b9e5dd508e9c364c11',1,'DisplayedChannel']]],
