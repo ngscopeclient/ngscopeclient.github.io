@@ -31,6 +31,10 @@ limitations. (Many benchtop scopes, even relatively high end ones, are not well 
 
 * LR1 UV-VIS-NIR spectrometer via [bridge server](https://github.com/ngscopeclient/scopehal-aseq-bridge)
 
+# Batronix
+
+* Magnova
+
 # Copper Mountain
 
 * All instruments using S2VNA/S4VNA software (including S5180B)
@@ -54,7 +58,7 @@ We've received reports that recent DSLogic updates have broken this. Nobody is c
 
 # EEVengers
 
-* Thunderscope
+* ThunderScope
 
 # Eric Kaashoek
 
@@ -146,6 +150,10 @@ We've received reports that recent DSLogic updates have broken this. Nobody is c
 * SDS7000A
 * SPD3303X / X-E series power supply
 * SSG5000X / X-V series RF/vector signal generator
+
+# SiniLink
+
+* XYS3580
 
 # Tektronix
 

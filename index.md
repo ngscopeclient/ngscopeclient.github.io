@@ -18,6 +18,7 @@ layout: default
 
 # News
 
+* 2025-12-31: [Version 0.1.1 released](/news/2025-12-31-v0p1p1-release.html)
 * 2025-09-11: [Version 0.1 released](/news/2025-09-11-v0p1-release.html)
 
 # Download
