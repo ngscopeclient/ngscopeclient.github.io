@@ -1,25 +1,60 @@
 <map id="LeCroyFWPOscilloscope" name="LeCroyFWPOscilloscope">
-<area shape="rect" id="node1" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1569,197,1748,224"/>
-<area shape="rect" id="node2" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="1305,164,1455,191"/>
-<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="963,164,1096,191"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="691,199,795,225"/>
-<area shape="rect" id="node8" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="996,251,1063,277"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="346,133,439,160"/>
-<area shape="rect" id="node13" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="681,64,804,91"/>
-<area shape="rect" id="node17" href="$classMultimeter.html" title="A multimeter." alt="" coords="695,5,790,32"/>
-<area shape="rect" id="node19" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="671,124,814,151"/>
-<area shape="rect" id="node21" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="669,389,816,416"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,126,197,167"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="31,196,171,223"/>
-<area shape="rect" id="node9" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="329,295,456,321"/>
-<area shape="rect" id="node10" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="681,339,804,365"/>
-<area shape="rect" id="node11" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="368,373,417,400"/>
-<area shape="rect" id="node12" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="333,244,452,271"/>
-<area shape="rect" id="node16" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="968,31,1091,57"/>
-<area shape="rect" id="node18" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="944,113,1115,140"/>
-<area shape="rect" id="node14" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="345,16,441,43"/>
-<area shape="rect" id="node15" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,16,157,43"/>
-<area shape="rect" id="node20" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="951,392,1108,419"/>
-<area shape="rect" id="node22" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="932,315,1127,341"/>
-<area shape="rect" id="node23" href="$classSocket.html" title="Class representing a network socket." alt="" coords="1347,215,1413,241"/>
+<area shape="rect" id="Node000001" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1600,189,1779,214"/>
+<area shape="rect" id="Node000002" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="1336,157,1485,182"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1499,177,1600,188,1600,194,1499,182"/>
+<area shape="rect" id="Node000003" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="993,254,1127,279"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1140,254,1224,237,1311,208,1335,192,1366,180,1368,184,1337,197,1313,213,1225,242,1141,259"/>
+<area shape="rect" id="Node000004" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="691,397,795,422"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="784,388,1029,277,1032,282,786,393"/>
+<area shape="rect" id="Node000009" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="1027,363,1093,389"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="809,418,872,423,938,419,989,404,1032,386,1034,391,991,409,939,424,872,429,808,424"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="346,125,439,150"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="429,154,481,177,506,184,528,186,569,186,608,190,627,199,647,215,657,228,663,241,665,265,664,291,672,319,700,362,729,394,725,398,696,365,667,321,659,291,659,265,658,242,653,231,643,219,624,204,606,195,569,191,528,192,505,189,479,183,427,159"/>
+<area shape="rect" id="Node000014" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="681,71,804,97"/>
+<area shape="poly" id="edge16_Node000014_Node000005" title=" " alt="" coords="452,122,480,117,681,89,681,94,480,123,453,128"/>
+<area shape="rect" id="Node000018" href="$classMultimeter.html" title="A multimeter." alt="" coords="695,130,790,155"/>
+<area shape="poly" id="edge21_Node000018_Node000005" title=" " alt="" coords="453,134,645,136,695,138,695,143,645,141,453,140"/>
+<area shape="rect" id="Node000020" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="671,14,814,39"/>
+<area shape="poly" id="edge25_Node000020_Node000005" title=" " alt="" coords="425,115,479,88,578,57,670,36,672,41,580,62,481,93,427,120"/>
+<area shape="rect" id="Node000022" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="669,205,816,230"/>
+<area shape="poly" id="edge30_Node000022_Node000005" title=" " alt="" coords="453,148,480,153,563,166,646,181,710,202,708,207,645,187,563,171,480,159,452,153"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,117,197,157"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="211,135,346,135,346,140,211,140"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="31,186,171,211"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="175,181,345,144,346,150,176,186"/>
+<area shape="rect" id="Node000010" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="329,270,456,295"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="160,213,348,267,347,272,159,218"/>
+<area shape="rect" id="Node000008" href="$classHzClock.html" title="Clock that measures rate at which it is called; windowed average." alt="" coords="355,445,430,470"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="444,450,645,425,690,417,691,423,646,431,444,455"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="1014,385,939,395,795,408,795,403,938,389,1013,380"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="470,291,1027,369,1026,374,470,296"/>
+<area shape="poly" id="edge29_Node000022_Node000010" title=" " alt="" coords="469,266,673,227,674,233,470,271"/>
+<area shape="rect" id="Node000011" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="681,282,804,307"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="817,308,939,337,1027,363,1025,368,938,343,816,313"/>
+<area shape="rect" id="Node000012" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="368,221,417,246"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="432,237,681,281,680,287,431,243"/>
+<area shape="poly" id="edge31_Node000022_Node000012" title=" " alt="" coords="431,229,669,218,669,223,432,234"/>
+<area shape="rect" id="Node000013" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="333,395,452,421"/>
+<area shape="poly" id="edge14_Node000004_Node000013" title=" " alt="" coords="466,406,690,406,690,412,466,411"/>
+<area shape="poly" id="edge15_Node000003_Node000014" title=" " alt="" coords="790,100,817,115,860,149,890,181,919,211,964,240,994,252,992,257,961,245,916,215,886,184,857,153,815,120,788,105"/>
+<area shape="rect" id="Node000017" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="999,93,1121,118"/>
+<area shape="poly" id="edge22_Node000017_Node000014" title=" " alt="" coords="818,86,999,99,998,104,818,92"/>
+<area shape="rect" id="Node000019" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="975,38,1145,63"/>
+<area shape="poly" id="edge26_Node000019_Node000014" title=" " alt="" coords="817,74,974,57,974,62,818,79"/>
+<area shape="rect" id="Node000015" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="345,7,441,33"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="455,28,682,70,681,76,454,34"/>
+<area shape="rect" id="Node000016" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,7,157,33"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="171,17,344,17,344,23,171,23"/>
+<area shape="poly" id="edge19_Node000002_Node000017" title=" " alt="" coords="1135,101,1221,106,1313,121,1354,136,1389,154,1387,159,1352,141,1311,127,1221,111,1135,107"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="803,133,998,110,999,115,804,138"/>
+<area shape="poly" id="edge23_Node000002_Node000019" title=" " alt="" coords="1160,56,1236,70,1313,95,1362,124,1398,154,1394,158,1358,128,1311,100,1235,75,1159,61"/>
+<area shape="poly" id="edge24_Node000019_Node000020" title=" " alt="" coords="828,27,939,33,974,37,974,42,938,39,828,32"/>
+<area shape="rect" id="Node000021" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="981,155,1139,181"/>
+<area shape="poly" id="edge27_Node000002_Node000021" title=" " alt="" coords="1152,166,1335,166,1335,172,1152,171"/>
+<area shape="poly" id="edge28_Node000021_Node000022" title=" " alt="" coords="829,201,981,177,982,183,830,207"/>
+<area shape="rect" id="Node000023" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="963,205,1157,230"/>
+<area shape="poly" id="edge33_Node000023_Node000022" title=" " alt="" coords="830,215,962,215,962,220,830,220"/>
+<area shape="poly" id="edge32_Node000002_Node000023" title=" " alt="" coords="1171,205,1312,187,1351,179,1352,185,1312,192,1171,210"/>
+<area shape="rect" id="Node000024" href="$classSocket.html" title="Class representing a network socket." alt="" coords="1378,206,1443,231"/>
+<area shape="poly" id="edge34_Node000001_Node000024" title=" " alt="" coords="1457,214,1576,208,1600,206,1600,212,1576,213,1457,220"/>
 </map>

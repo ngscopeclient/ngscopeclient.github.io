@@ -1,9 +1,15 @@
 <map id="BERT" name="BERT">
-<area shape="rect" id="node1" title="Base class for bit error rate tester drivers." alt="" coords="185,169,241,196"/>
-<area shape="rect" id="node5" href="$classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="170,244,255,271"/>
-<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="166,95,259,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="22,5,214,47"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="239,13,379,39"/>
-<area shape="rect" id="node6" href="$classAntikernelLabsTriggerCrossbar.html" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="5,319,225,345"/>
-<area shape="rect" id="node7" href="$classMultiLaneBERT.html" title="A MultiLANE BERT accessed via scopehal&#45;mlbert&#45;bridge." alt="" coords="250,319,370,345"/>
+<area shape="rect" id="Node000001" title="Base class for bit error rate tester drivers." alt="" coords="185,167,241,192"/>
+<area shape="rect" id="Node000005" href="$classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="170,240,255,265"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="215,206,215,240,210,240,210,206"/>
+<area shape="rect" id="Node000002" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="166,93,259,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,132,215,167,210,167,210,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,5,214,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,52,200,91,197,95,150,56"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="239,13,379,38"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="286,49,229,95,225,91,282,45"/>
+<area shape="rect" id="Node000006" href="$classAntikernelLabsTriggerCrossbar.html" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="5,313,225,339"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="187,276,133,315,130,311,184,271"/>
+<area shape="rect" id="Node000007" href="$classMultiLaneBERT.html" title="A MultiLANE BERT accessed via scopehal&#45;mlbert&#45;bridge." alt="" coords="250,313,370,339"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="241,271,296,311,293,315,238,276"/>
 </map>

@@ -7,10 +7,10 @@
 <link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
 <meta content='ngscopeclient-manual.tex' name='src' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
+<script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='History.html'>next</a>] [<a href='WaveformGroups.html'>prev</a>] [<a href='WaveformGroups.html#tailWaveformGroups.html'>prev-tail</a>] [<a href='#tailWaveformViews.html'>tail</a>] [<a href='ngscopeclient-manual.html#WaveformViews.html'>up</a>] </p></div>
-   <h2 class='chapterHead' id='waveform-views'><span class='titlemark'>Chapter 9</span><br /><a id='x11-770009'></a>Waveform Views</h2>
+   <h2 class='chapterHead' id='waveform-views'><span class='titlemark'>Chapter 9</span><br /><a id='x11-930009'></a>Waveform Views</h2>
 <!-- l. 3 --><p class='noindent'>A waveform view is a single 2D plot area within a waveform group.
 </p><!-- l. 5 --><p class='indent'>   Arbitrarily many channels of waveform or protocol data may be displayed within a single view, however
 all analog channels within a single view share the same Y axis unit, gain, and offset. Digital channels and
@@ -18,13 +18,14 @@ protocol decodes can be overlaid on analog waveforms or displayed in their own d
 views.
 </p><!-- l. 9 --><p class='indent'>   2D density plots, such as eye patterns, spectrograms, and waterfall plots, cannot share a waveform view
 with any other channel.
+   
 </p>
-   <h3 class='sectionHead' id='navigation'><span class='titlemark'>9.1   </span> <a id='x11-780009.1'></a>Navigation</h3>
+   <h3 class='sectionHead' id='navigation'><span class='titlemark'>9.1   </span> <a id='x11-940009.1'></a>Navigation</h3>
 <!-- l. 14 --><p class='noindent'>Scrolling with the mouse wheel adjusts the horizontal scale of the current waveform group, zooming in or
 out centered on the position of the mouse cursor.
-</p><!-- l. 22 --><p class='noindent'>
+   
 </p>
-   <h3 class='sectionHead' id='plot-area'><span class='titlemark'>9.2   </span> <a id='x11-790009.2'></a>Plot Area</h3>
+   <h3 class='sectionHead' id='plot-area'><span class='titlemark'>9.2   </span> <a id='x11-950009.2'></a>Plot Area</h3>
 <!-- l. 24 --><p class='noindent'>The plot area shows the waveform being displayed. The horizontal grid lines line up with the voltage
 scale markings on the Y axis. If the plot area includes Y=0, the grid line for zero is slightly
 brighter.
@@ -32,20 +33,21 @@ brighter.
 various points in the graph may be seen as lighter or darker areas. This is referred to as “intensity
 grading".
 </p>
-   <figure class='figure' id='-intensitygraded-waveform'> 
+   <figure class='figure' id='x11-95001r1'><span id='intensitygraded-waveform'></span> 
 
                                                                                          
                                                                                          
-<a id='x11-79001r1'></a>
+
                                                                                          
                                                                                          
 <!-- l. 32 --><p class='noindent'><img alt='PIC' height='497' src='ng-images/graded-waveform.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 9.1: </span><span class='content'>Intensity-graded waveform</span></figcaption><!-- tex4ht:label?: x11-79001r1  -->
+<figcaption class='caption'><span class='id'>Figure 9.1: </span><span class='content'>Intensity-graded waveform</span></figcaption><!-- tex4ht:label?: x11-95001r1  -->
                                                                                          
                                                                                          
    </figure>
-   <h3 class='sectionHead' id='y-axis-scale'><span class='titlemark'>9.3   </span> <a id='x11-800009.3'></a>Y Axis Scale</h3>
+   
+   <h3 class='sectionHead' id='y-axis-scale'><span class='titlemark'>9.3   </span> <a id='x11-960009.3'></a>Y Axis Scale</h3>
 <!-- l. 39 --><p class='noindent'>Each waveform view has its own Y axis scale, which is locked to the ADC range of the instrument.
 </p><!-- l. 41 --><p class='indent'>   Channel gain may be configured by scrolling with the mouse wheel, and offset may be adjusted by
 dragging the scale with the left mouse button. Pressing the middle mouse button on the Y axis will
@@ -55,20 +57,21 @@ margin.
 trigger source. Click on the arrow and drag up or down to select the trigger level. Some trigger types, such
 as window triggers, have two arrows for upper and lower levels.
 </p>
-   <figure class='figure' id='-waveform-view-showing-trigger-arrow-on-y-axis'> 
+   <figure class='figure' id='x11-96001r2'><span id='waveform-view-showing-trigger-arrow-on-y-axis'></span> 
 
                                                                                          
                                                                                          
-<a id='x11-80001r2'></a>
+
                                                                                          
                                                                                          
 <!-- l. 51 --><p class='noindent'><img alt='PIC' height='85' src='ng-images/y-axis.png' width='325' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 9.2: </span><span class='content'>Waveform view showing trigger arrow on Y axis</span></figcaption><!-- tex4ht:label?: x11-80001r2  -->
+<figcaption class='caption'><span class='id'>Figure 9.2: </span><span class='content'>Waveform view showing trigger arrow on Y axis</span></figcaption><!-- tex4ht:label?: x11-96001r2  -->
                                                                                          
                                                                                          
    </figure>
-   <h3 class='sectionHead' id='channel-label'><span class='titlemark'>9.4   </span> <a id='x11-810009.4'></a>Channel Label</h3>
+   
+   <h3 class='sectionHead' id='channel-label'><span class='titlemark'>9.4   </span> <a id='x11-970009.4'></a>Channel Label</h3>
 <!-- l. 58 --><p class='noindent'>The top left corner of each waveform view contains a legend with a label for each channel being displayed
 in the view.
 </p><!-- l. 60 --><p class='indent'>   Mousing over the channel name displays a tooltip (Fig. 9.3) with some helpful information about the
@@ -76,16 +79,16 @@ waveform. The exact information displayed in the tooltip depends on the type of 
 example analog waveforms display sample rate and record length while eye patterns display the number of
 integrated UIs.
 </p>
-   <figure class='figure' id='-example-tooltip-on-channel-label'> 
+   <figure class='figure' id='x11-97001r3'><span id='example-tooltip-on-channel-label'></span> 
 
                                                                                          
                                                                                          
-<a id='x11-81001r3'></a>
+
                                                                                          
                                                                                          
 <!-- l. 66 --><p class='noindent'><img alt='PIC' height='85' src='ng-images/channel-tooltip.png' width='192' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 9.3: </span><span class='content'>Example tooltip on channel label</span></figcaption><!-- tex4ht:label?: x11-81001r3  -->
+<figcaption class='caption'><span class='id'>Figure 9.3: </span><span class='content'>Example tooltip on channel label</span></figcaption><!-- tex4ht:label?: x11-97001r3  -->
                                                                                          
                                                                                          
    </figure>
@@ -98,16 +101,16 @@ waveform.
 </p><!-- l. 77 --><p class='indent'>   Double-clicking the label opens the channel properties dialog (Fig. 9.4). As with all dialogs in
 ngscopeclient, the properties dialog may be left in the default floating state or docked.
 </p>
-   <figure class='figure' id='-example-of-properties-dialogs-for-three-different-channels'> 
+   <figure class='figure' id='x11-97002r4'><span id='example-of-properties-dialogs-for-three-different-channels'></span> 
 
                                                                                          
                                                                                          
-<a id='x11-81002r4'></a>
+
                                                                                          
                                                                                          
 <!-- l. 82 --><p class='noindent'><img alt='PIC' height='142' src='ng-images/channel-properties1.png' width='138' /> <img alt='PIC' height='142' src='ng-images/channel-properties2.png' width='123' /> <img alt='PIC' height='142' src='ng-images/channel-properties3.png' width='125' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 9.4: </span><span class='content'>Example of properties dialogs for three different channels</span></figcaption><!-- tex4ht:label?: x11-81002r4  -->
+<figcaption class='caption'><span class='id'>Figure 9.4: </span><span class='content'>Example of properties dialogs for three different channels</span></figcaption><!-- tex4ht:label?: x11-97002r4  -->
                                                                                          
                                                                                          
    </figure>
@@ -122,100 +125,123 @@ settings.
 </p><!-- l. 96 --><p class='indent'>   Right clicking on the label opens a context menu. The context menu allows setting of persistence mode,
 deleting the waveform, and creating new filter blocks or protocol decodes with the selected waveform as an
 input.
+   
 </p>
-   <h3 class='sectionHead' id='cursors-and-markers'><span class='titlemark'>9.5   </span> <a id='x11-820009.5'></a>Cursors and Markers</h3>
+   <h3 class='sectionHead' id='cursors-and-markers'><span class='titlemark'>9.5   </span> <a id='x11-980009.5'></a>Cursors and Markers</h3>
 <!-- l. 102 --><p class='noindent'>Cursors are movable annotations which can be used to temporarily mark points of interest in a waveform
 and examine data values. Markers are similar to cursors but intended for long-term marking of specific
 points in a single acquisition and do not provide readout functionality.
-</p><!-- l. 106 --><p class='noindent'>
+   
 </p>
-   <h4 class='subsectionHead' id='vertical-cursors'><span class='titlemark'>9.5.1   </span> <a id='x11-830009.5.1'></a>Vertical Cursors</h4>
-<!-- l. 108 --><p class='noindent'>A vertical cursor describes a point in time <span class='ecti-1095'>relative to the start of the acquisition</span>. When new waveforms
+   <h4 class='subsectionHead' id='horizontal-cursors'><span class='titlemark'>9.5.1   </span> <a id='x11-990009.5.1'></a>Horizontal Cursors</h4>
+<!-- l. 108 --><p class='noindent'>A horizontal cursor describes a position (usually voltage) on the Y axis. As of this writing, there is no
+readout functionality; horizontal cursors are purely for visual/display purposes.
+</p><!-- l. 110 --><p class='indent'>   Horizontal cursors are attached to a waveform view; any number of views may have independent
+horizontal cursors at a given time.
+</p>
+   <figure class='figure' id='x11-99001r5'><span id='single-and-double-horizontal-cursors'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 114 --><p class='noindent'><img alt='PIC' height='602' src='ng-images/horizontal-cursors.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 9.5: </span><span class='content'>Single and double horizontal cursors</span></figcaption><!-- tex4ht:label?: x11-99001r5  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='vertical-cursors'><span class='titlemark'>9.5.2   </span> <a id='x11-1000009.5.2'></a>Vertical Cursors</h4>
+<!-- l. 121 --><p class='noindent'>A vertical cursor describes a point in time <span class='ecti-1095'>relative to the start of the acquisition</span>. When new waveforms
 are acquired, the cursor remains at the same offset in the new waveform. When the view is
 panned horizontally, the cursor scrolls with the waveform and remains at the same point in the
 waveform.
-</p><!-- l. 112 --><p class='indent'>   To add a vertical cursor (Fig. 9.5), right click in the view and select a single or double cursor from the
+</p><!-- l. 125 --><p class='indent'>   To add a vertical cursor (Fig. 9.6), right click in the view and select a single or double cursor from the
 <span class='t1-zi4r-0-x-x-109'>Cursors | X Axis </span>menu.
-</p><!-- l. 115 --><p class='indent'>   Vertical cursors are attached to a waveform group and will span all views within the group. Multiple
+</p><!-- l. 128 --><p class='indent'>   Vertical cursors are attached to a waveform group and will span all views within the group. Multiple
 groups may have independent vertical cursors active simultaneously.
 </p>
-   <figure class='figure' id='-single-vertical-cursor'> 
+   <figure class='figure' id='x11-100001r6'><span id='single-vertical-cursor'></span> 
 
                                                                                          
                                                                                          
-<a id='x11-83001r5'></a>
-                                                                                         
-                                                                                         
-<!-- l. 120 --><p class='noindent'><img alt='PIC' height='598' src='ng-images/vertical-cursor.png' width='1027' />
-</p>
-<figcaption class='caption'><span class='id'>Figure 9.5: </span><span class='content'>Single vertical cursor</span></figcaption><!-- tex4ht:label?: x11-83001r5  -->
-                                                                                         
-                                                                                         
-   </figure>
-   <figure class='figure' id='-double-vertical-cursor'> 
 
                                                                                          
                                                                                          
-<a id='x11-83002r6'></a>
-                                                                                         
-                                                                                         
-<!-- l. 127 --><p class='noindent'><img alt='PIC' height='598' src='ng-images/vertical-cursor-x2.png' width='1027' />
+<!-- l. 133 --><p class='noindent'><img alt='PIC' height='602' src='ng-images/vertical-cursor.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 9.6: </span><span class='content'>Double vertical cursor</span></figcaption><!-- tex4ht:label?: x11-83002r6  -->
+<figcaption class='caption'><span class='id'>Figure 9.6: </span><span class='content'>Single vertical cursor</span></figcaption><!-- tex4ht:label?: x11-100001r6  -->
                                                                                          
                                                                                          
    </figure>
-<!-- l. 132 --><p class='indent'>   To place a single cursor, click on the waveform at the desired location. To place double cursors, click at
+   <figure class='figure' id='x11-100002r7'><span id='double-vertical-cursor'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 140 --><p class='noindent'><img alt='PIC' height='602' src='ng-images/vertical-cursor-x2.png' width='1027' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 9.7: </span><span class='content'>Double vertical cursor</span></figcaption><!-- tex4ht:label?: x11-100002r7  -->
+                                                                                         
+                                                                                         
+   </figure>
+<!-- l. 145 --><p class='indent'>   To place a single cursor, click on the waveform at the desired location. To place double cursors, click at
 the starting location to place the first cursor then drag to the ending location and release the mouse to
 place the second cursor. Once placed, either cursor can be moved by clicking on it and dragging to the new
 location.
-</p><!-- l. 139 --><p class='indent'>   In the timeline each cursor will display its X-axis position. If both cursors are active, the delta between
+</p><!-- l. 152 --><p class='indent'>   In the timeline each cursor will display its X-axis position. If both cursors are active, the delta between
 them is shown. If the X axis uses time units, the frequency with period equal to the cursor spacing is also
 shown.
-</p><!-- l. 142 --><p class='indent'>   When a cursor is active, a dockable pop-up dialog appears displaying the value of each waveform in the
-group at the cursor location. If two cursors are active, both values as well as the difference between them is
-shown (Fig. 9.6)
+</p><!-- l. 155 --><p class='indent'>   When a cursor is active, a dockable pop-up dialog appears displaying the value of each waveform
+(including analog, digital, and protocol channels) in the group at the cursor location. If two
+cursors are active, both values as well as the difference between them (if analog) is shown (Fig.
+9.7)
+   
 </p>
-   <h4 class='subsectionHead' id='markers'><span class='titlemark'>9.5.2   </span> <a id='x11-840009.5.2'></a>Markers</h4>
-<!-- l. 158 --><p class='noindent'>A marker is a named location in <span class='ecti-1095'>absolute </span>time intended for marking specific events (such as protocol
+   <h4 class='subsectionHead' id='markers'><span class='titlemark'>9.5.3   </span> <a id='x11-1010009.5.3'></a>Markers</h4>
+<!-- l. 171 --><p class='noindent'>A marker is a named location in <span class='ecti-1095'>absolute </span>time intended for marking specific events (such as protocol
 packets or glitches) which may need to be re-examined in the future. When new waveforms are acquired,
 the marker remains attached to the same point in the old waveform and will disappear from view until the
-old waveform is re-loaded from the history window. In Fig. 9.7, two of the three markers are visible while
-the third is in a different waveform.
-</p><!-- l. 163 --><p class='indent'>   Unlike vertical cursors, which are local to a single waveform group, cursors are global and will appear
+old waveform is re-loaded from the history window. In Fig. 9.8, three of the four markers are visible while
+the fourth is in a different waveform.
+</p><!-- l. 176 --><p class='indent'>   Unlike vertical cursors, which are local to a single waveform group, cursors are global and will appear
 at the same timestamp in all waveform groups. This allows an event of interest to be examined in detail in
 one view, while a different view provides a global overview of the entire acquisition or examines another
-event (Fig. 9.8).
-</p><!-- l. 168 --><p class='indent'>   Creating a marker automatically pins the active waveform so it will not be removed from history as
+event (Fig. 9.9).
+</p><!-- l. 181 --><p class='indent'>   Creating a marker automatically pins the active waveform so it will not be removed from history as
 new data is acquired. The waveform cannot be un-pinned unless all markers are deleted first, or the
 waveform itself is manually deleted.
-</p><!-- l. 172 --><p class='indent'>   Newly created markers will have default numeric names such as M1, M2, etc. This name can be
+</p><!-- l. 185 --><p class='indent'>   Newly created markers will have default numeric names such as M1, M2, etc. This name can be
 changed from the history window.
 </p>
-   <figure class='figure' id='-session-with-three-markers-two-on-the-currently-displayed-waveform-and-one-on-a-future-waveform'> 
+   <figure class='figure' id='x11-101001r8'><span id='session-with-four-markers-three-on-the-currently-displayed-waveform-and-one-on-a-future-waveform'></span> 
 
                                                                                          
                                                                                          
-<a id='x11-84001r7'></a>
+
                                                                                          
                                                                                          
-<!-- l. 177 --><p class='noindent'><img alt='PIC' height='656' src='ng-images/markers.png' width='1027' />
+<!-- l. 190 --><p class='noindent'><img alt='PIC' height='562' src='ng-images/markers.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 9.7: </span><span class='content'>Session with three markers, two on the currently displayed waveform and one on a future
-waveform</span></figcaption><!-- tex4ht:label?: x11-84001r7  -->
+<figcaption class='caption'><span class='id'>Figure 9.8: </span><span class='content'>Session with four markers, three on the currently displayed waveform and one on a
+future waveform</span></figcaption><!-- tex4ht:label?: x11-101001r8  -->
                                                                                          
                                                                                          
    </figure>
-   <figure class='figure' id='-a-single-marker-seen-at-multiple-time-scales-in-different-views'> 
+   <figure class='figure' id='x11-101002r9'><span id='a-single-marker-seen-at-multiple-time-scales-in-different-views'></span> 
 
                                                                                          
                                                                                          
-<a id='x11-84002r8'></a>
+
                                                                                          
                                                                                          
-<!-- l. 184 --><p class='noindent'><img alt='PIC' height='656' src='ng-images/marker-multiview.png' width='1027' />
+<!-- l. 197 --><p class='noindent'><img alt='PIC' height='562' src='ng-images/marker-multiview.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 9.8: </span><span class='content'>A single marker seen at multiple time scales in different views</span></figcaption><!-- tex4ht:label?: x11-84002r8  -->
+<figcaption class='caption'><span class='id'>Figure 9.9: </span><span class='content'>A single marker seen at multiple time scales in different views</span></figcaption><!-- tex4ht:label?: x11-101002r9  -->
                                                                                          
                                                                                          
    </figure>

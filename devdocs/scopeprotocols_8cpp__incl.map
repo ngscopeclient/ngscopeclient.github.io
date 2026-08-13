@@ -1,52 +1,105 @@
 <map id="lib/scopeprotocols/scopeprotocols.cpp" name="lib/scopeprotocols/scopeprotocols.cpp">
-<area shape="rect" id="node1" title="Scope protocol initialization." alt="" coords="3903,5,4053,47"/>
-<area shape="rect" id="node2" href="$scopeprotocols_8h.html" title="Main library include file." alt="" coords="3912,95,4044,121"/>
-<area shape="rect" id="node3" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5,169,172,196"/>
-<area shape="rect" id="node4" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="117,244,183,271"/>
-<area shape="rect" id="node5" href="$ACCoupleFilter_8h.html" title="Declaration of ACCoupleFilter." alt="" coords="248,169,377,196"/>
-<area shape="rect" id="node6" href="$AddFilter_8h.html" title="Declaration of AddFilter." alt="" coords="402,169,493,196"/>
-<area shape="rect" id="node7" href="$ACRMSMeasurement_8h.html" title="Declaration of ACRMSMeasurement." alt="" coords="517,169,687,196"/>
-<area shape="rect" id="node8" href="$ADL5205Decoder_8h.html" title="Declaration of ADL5205Decoder." alt="" coords="711,169,858,196"/>
-<area shape="rect" id="node9" href="$AreaMeasurement_8h.html" title="Declaration of AreaMeasurement." alt="" coords="882,169,1037,196"/>
-<area shape="rect" id="node10" href="$AverageFilter_8h.html" title="Declaration of AverageFilter." alt="" coords="1061,169,1181,196"/>
-<area shape="rect" id="node11" href="$AutocorrelationFilter_8h.html" title="Declaration of AutocorrelationFilter." alt="" coords="1205,169,1372,196"/>
-<area shape="rect" id="node12" href="$BandwidthMeasurement_8h.html" title="Declaration of BandwidthMeasurement." alt="" coords="1396,169,1589,196"/>
-<area shape="rect" id="node13" href="$BaseMeasurement_8h.html" title="Declaration of BaseMeasurement." alt="" coords="1613,169,1769,196"/>
-<area shape="rect" id="node14" href="$BINImportFilter_8h.html" title="Declaration of BINImportFilter." alt="" coords="1793,169,1925,196"/>
-<area shape="rect" id="node15" href="$BurstWidthMeasurement_8h.html" title="Declaration of BurstWidthMeasurement." alt="" coords="1949,169,2145,196"/>
-<area shape="rect" id="node16" href="$BusHeatmapFilter_8h.html" title="Declaration of BusHeatmapFilter." alt="" coords="2169,169,2320,196"/>
-<area shape="rect" id="node17" href="$CANAnalyzerFilter_8h.html" title="Declaration of CANAnalyzerFilter." alt="" coords="2344,169,2495,196"/>
-<area shape="rect" id="node18" href="$CANBitmaskFilter_8h.html" title="Declaration of CANBitmaskFilter." alt="" coords="2519,169,2667,196"/>
-<area shape="rect" id="node19" href="$CANDecoder_8h.html" title="Declaration of CANDecoder." alt="" coords="2691,169,2807,196"/>
-<area shape="rect" id="node20" href="$CandumpImportFilter_8h.html" title="Declaration of CandumpImportFilter." alt="" coords="2831,169,3002,196"/>
-<area shape="rect" id="node21" href="$ChannelEmulationFilter_8h.html" title="Declaration of ChannelEmulationFilter." alt="" coords="3027,169,3212,196"/>
-<area shape="rect" id="node22" href="$DeEmbedFilter_8h.html" title="Declaration of DeEmbedFilter." alt="" coords="3772,244,3901,271"/>
-<area shape="rect" id="node23" href="$ClipFilter_8h.html" title="Declaration of ClipFilter." alt="" coords="3287,169,3378,196"/>
-<area shape="rect" id="node24" href="$ClockRecoveryFilter_8h.html" title="Declaration of ClockRecoveryFilter." alt="" coords="3402,169,3565,196"/>
-<area shape="rect" id="node25" href="$ComplexImportFilter_8h.html" title="Declaration of ComplexImportFilter." alt="" coords="3589,169,3756,196"/>
-<area shape="rect" id="node26" href="$ComplexSpectrogramFilter_8h.html" title="Declaration of ComplexSpectrogramFilter." alt="" coords="3780,169,3987,196"/>
-<area shape="rect" id="node27" href="$ConstantFilter_8h.html" title="Declaration of ConstantFilter." alt="" coords="4011,169,4135,196"/>
-<area shape="rect" id="node28" href="$ConstellationFilter_8h.html" title="Declaration of ConstellationFilter." alt="" coords="4159,169,4311,196"/>
-<area shape="rect" id="node29" href="$CouplerDeEmbedFilter_8h.html" title="Declaration of CouplerDeEmbedFilter." alt="" coords="4335,169,4514,196"/>
-<area shape="rect" id="node30" href="$CSVExportFilter_8h.html" title="Declaration of CSVExportFilter." alt="" coords="4539,169,4673,196"/>
-<area shape="rect" id="node31" href="$CSVImportFilter_8h.html" title="Declaration of CSVImportFilter." alt="" coords="4697,169,4832,196"/>
-<area shape="rect" id="node32" href="$CTLEFilter_8h.html" title="Declaration of CTLEFilter." alt="" coords="4857,169,4955,196"/>
-<area shape="rect" id="node33" href="$CurrentShuntFilter_8h.html" title="Declaration of CurrentShuntFilter." alt="" coords="4980,169,5131,196"/>
-<area shape="rect" id="node34" href="$DCDMeasurement_8h.html" title="Declaration of DCDMeasurement." alt="" coords="5155,169,5308,196"/>
-<area shape="rect" id="node35" href="$DDJMeasurement_8h.html" title="Declaration of DDJMeasurement." alt="" coords="5332,169,5480,196"/>
-<area shape="rect" id="node36" href="$DDR1Decoder_8h.html" title="Declaration of DDR1Decoder." alt="" coords="5505,169,5630,196"/>
-<area shape="rect" id="node37" href="$DDR3Decoder_8h.html" title="Declaration of DDR3Decoder." alt="" coords="5654,169,5779,196"/>
-<area shape="rect" id="node38" href="$DeskewFilter_8h.html" title="Declaration of DeskewFilter." alt="" coords="5803,169,5921,196"/>
-<area shape="rect" id="node39" href="$DigitalToPAM4Filter_8h.html" title="Declaration of DigitalToPAM4Filter." alt="" coords="5945,169,6105,196"/>
-<area shape="rect" id="node40" href="$DigitalToNRZFilter_8h.html" title="Declaration of DigitalToNRZFilter." alt="" coords="6129,169,6280,196"/>
-<area shape="rect" id="node41" href="$DivideFilter_8h.html" title="Declaration of DivideFilter." alt="" coords="6304,169,6412,196"/>
-<area shape="rect" id="node42" href="$DownconvertFilter_8h.html" title="Declaration of DownconvertFilter." alt="" coords="6437,169,6589,196"/>
-<area shape="rect" id="node43" href="$DownsampleFilter_8h.html" title="Declaration of DownsampleFilter." alt="" coords="6613,169,6764,196"/>
-<area shape="rect" id="node44" href="$DPAuxChannelDecoder_8h.html" title="Declaration of DPAuxChannelDecoder." alt="" coords="6789,169,6973,196"/>
-<area shape="rect" id="node45" href="$DPhyDataDecoder_8h.html" title="Declaration of DPhyDataDecoder." alt="" coords="6997,169,7151,196"/>
-<area shape="rect" id="node46" href="$DPhyEscapeModeDecoder_8h.html" title="Declaration of DPhyEscapeModeDecoder." alt="" coords="7175,169,7379,196"/>
-<area shape="rect" id="node47" href="$DPhyHSClockRecoveryFilter_8h.html" title="Declaration of DPhyHSClockRecoveryFilter." alt="" coords="7403,169,7617,196"/>
-<area shape="rect" id="node48" href="$DPhySymbolDecoder_8h.html" title="Declaration of DPhySymbolDecoder." alt="" coords="7642,169,7813,196"/>
-<area shape="rect" id="node49" href="$DramClockFilter_8h.html" title="Declaration of DramClockFilter." alt="" coords="7837,169,7975,196"/>
-<area shape="rect" id="node50" href="$DramRefreshActivateMeasurement_8h.html" title="Declaration of DramRefreshActivateMeasurement." alt="" coords="7999,169,8263,196"/>
+<area shape="rect" id="Node000001" title="Scope protocol initialization." alt="" coords="3841,5,3992,45"/>
+<area shape="rect" id="Node000002" href="$scopeprotocols_8h.html" title="Main library include file." alt="" coords="3851,93,3983,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3919,46,3919,79,3914,79,3914,46"/>
+<area shape="rect" id="Node000003" href="$scopehal_8h.html" title="Main library include file." alt="" coords="5,167,172,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="3850,110,3200,113,2139,123,1019,140,547,153,191,169,186,170,185,164,191,164,547,148,1019,135,2139,117,3200,108,3850,105"/>
+<area shape="rect" id="Node000129" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="117,240,183,265"/>
+<area shape="poly" id="edge4_Node000002_Node000129" title=" " alt="" coords="3851,110,1892,127,768,145,396,156,285,163,236,169,215,181,197,196,167,230,163,227,193,193,212,177,234,164,285,157,395,151,768,140,1892,122,3850,105"/>
+<area shape="rect" id="Node000140" href="$ACCoupleFilter_8h.html" title="Declaration of ACCoupleFilter." alt="" coords="248,167,377,192"/>
+<area shape="poly" id="edge5_Node000002_Node000140" title=" " alt="" coords="3851,110,3236,111,2240,118,1699,125,1183,136,734,150,391,169,391,164,734,145,1183,130,1699,120,2239,113,3236,106,3851,105"/>
+<area shape="rect" id="Node000142" href="$ACRMSMeasurement_8h.html" title="Declaration of ACRMSMeasurement." alt="" coords="402,167,573,192"/>
+<area shape="poly" id="edge6_Node000002_Node000142" title=" " alt="" coords="3851,110,3267,114,2327,124,1333,141,910,154,587,169,586,164,910,149,1333,136,2327,118,3267,109,3851,105"/>
+<area shape="rect" id="Node000144" href="$AddFilter_8h.html" title="Declaration of AddFilter." alt="" coords="597,167,687,192"/>
+<area shape="poly" id="edge7_Node000002_Node000144" title=" " alt="" coords="3851,111,2260,128,1295,146,929,157,701,170,701,164,929,152,1295,141,2260,123,3851,105"/>
+<area shape="rect" id="Node000145" href="$ADL5205Decoder_8h.html" title="Declaration of ADL5205Decoder." alt="" coords="711,167,858,192"/>
+<area shape="poly" id="edge8_Node000002_Node000145" title=" " alt="" coords="3850,110,3311,114,2454,123,1550,141,1166,154,872,169,871,164,1166,148,1550,136,2454,118,3311,108,3850,105"/>
+<area shape="rect" id="Node000146" href="$APBDecoder_8h.html" title="Declaration of APBDecoder." alt="" coords="882,167,997,192"/>
+<area shape="poly" id="edge9_Node000002_Node000146" title=" " alt="" coords="3850,110,3333,112,2516,120,1656,138,1291,152,1011,169,1010,164,1290,146,1656,133,2516,115,3333,107,3850,105"/>
+<area shape="rect" id="Node000148" href="$AreaMeasurement_8h.html" title="Declaration of AreaMeasurement." alt="" coords="1021,167,1175,192"/>
+<area shape="poly" id="edge10_Node000002_Node000148" title=" " alt="" coords="3851,110,2598,126,1794,144,1452,155,1189,169,1189,164,1452,150,1794,138,2598,121,3851,105"/>
+<area shape="rect" id="Node000149" href="$AverageFilter_8h.html" title="Declaration of AverageFilter." alt="" coords="1199,167,1319,192"/>
+<area shape="poly" id="edge11_Node000002_Node000149" title=" " alt="" coords="3850,110,3385,114,2662,123,1904,141,1581,154,1333,169,1333,164,1581,148,1903,136,2662,118,3385,109,3850,105"/>
+<area shape="rect" id="Node000150" href="$AutocorrelationFilter_8h.html" title="Declaration of AutocorrelationFilter." alt="" coords="1344,167,1511,192"/>
+<area shape="poly" id="edge12_Node000002_Node000150" title=" " alt="" coords="3850,111,2748,129,2050,146,1753,157,1524,169,1524,164,1753,152,2050,141,2748,123,3850,105"/>
+<area shape="rect" id="Node000151" href="$BandwidthMeasurement_8h.html" title="Declaration of BandwidthMeasurement." alt="" coords="1535,167,1728,192"/>
+<area shape="poly" id="edge13_Node000002_Node000151" title=" " alt="" coords="3850,110,3527,112,3012,119,2389,137,2063,151,1742,169,1742,164,2063,146,2388,132,3012,114,3527,106,3850,105"/>
+<area shape="rect" id="Node000152" href="$BaseMeasurement_8h.html" title="Declaration of BaseMeasurement." alt="" coords="1752,167,1908,192"/>
+<area shape="poly" id="edge14_Node000002_Node000152" title=" " alt="" coords="3851,110,3551,110,3079,117,2511,135,2214,150,1922,169,1922,164,2214,144,2511,130,3079,112,3551,105,3851,104"/>
+<area shape="rect" id="Node000153" href="$BINImportFilter_8h.html" title="Declaration of BINImportFilter." alt="" coords="1932,167,2064,192"/>
+<area shape="poly" id="edge15_Node000002_Node000153" title=" " alt="" coords="3850,109,3572,109,3138,116,2617,134,2345,149,2078,169,2077,164,2345,144,2617,128,3137,110,3572,104,3850,104"/>
+<area shape="rect" id="Node000154" href="$BurstWidthMeasurement_8h.html" title="Declaration of BurstWidthMeasurement." alt="" coords="2088,167,2284,192"/>
+<area shape="poly" id="edge16_Node000002_Node000154" title=" " alt="" coords="3851,111,3221,125,2768,143,2298,169,2298,164,2767,137,3221,120,3850,106"/>
+<area shape="rect" id="Node000155" href="$BusHeatmapFilter_8h.html" title="Declaration of BusHeatmapFilter." alt="" coords="2308,167,2459,192"/>
+<area shape="poly" id="edge17_Node000002_Node000155" title=" " alt="" coords="3851,111,3625,114,3288,124,2887,141,2473,169,2472,164,2887,136,3287,118,3625,109,3851,105"/>
+<area shape="rect" id="Node000157" href="$CANAnalyzerFilter_8h.html" title="Declaration of CANAnalyzerFilter." alt="" coords="2483,167,2633,192"/>
+<area shape="poly" id="edge18_Node000002_Node000157" title=" " alt="" coords="3851,111,3355,126,3007,143,2647,169,2647,164,3006,138,3354,121,3851,106"/>
+<area shape="rect" id="Node000158" href="$CANBitmaskFilter_8h.html" title="Declaration of CANBitmaskFilter." alt="" coords="2657,167,2805,192"/>
+<area shape="poly" id="edge19_Node000002_Node000158" title=" " alt="" coords="3850,112,3421,129,3125,145,2820,169,2819,164,3125,140,3421,123,3850,106"/>
+<area shape="rect" id="Node000159" href="$CANDecoder_8h.html" title="Declaration of CANDecoder." alt="" coords="2829,167,2945,192"/>
+<area shape="poly" id="edge20_Node000002_Node000159" title=" " alt="" coords="3850,112,3476,128,3222,145,2959,169,2959,164,3221,140,3476,123,3850,107"/>
+<area shape="rect" id="Node000160" href="$CandumpImportFilter_8h.html" title="Declaration of CandumpImportFilter." alt="" coords="2970,167,3141,192"/>
+<area shape="poly" id="edge21_Node000002_Node000160" title=" " alt="" coords="3850,114,3553,135,3154,169,3154,164,3553,130,3850,109"/>
+<area shape="rect" id="Node000161" href="$ChannelEmulationFilter_8h.html" title="Declaration of ChannelEmulationFilter." alt="" coords="3165,167,3351,192"/>
+<area shape="poly" id="edge22_Node000002_Node000161" title=" " alt="" coords="3851,117,3365,169,3364,164,3850,112"/>
+<area shape="rect" id="Node000162" href="$DeEmbedFilter_8h.html" title="Declaration of DeEmbedFilter." alt="" coords="3911,240,4040,265"/>
+<area shape="poly" id="edge41_Node000002_Node000162" title=" " alt="" coords="3851,111,3711,116,3554,129,3487,140,3437,154,3421,162,3412,171,3410,180,3416,190,3439,202,3483,212,3612,229,3764,240,3897,246,3896,251,3763,245,3612,234,3482,218,3437,207,3412,194,3405,181,3407,168,3418,158,3435,149,3486,135,3553,124,3711,111,3850,106"/>
+<area shape="rect" id="Node000167" href="$ClipFilter_8h.html" title="Declaration of ClipFilter." alt="" coords="3426,167,3517,192"/>
+<area shape="poly" id="edge24_Node000002_Node000167" title=" " alt="" coords="3851,119,3531,169,3530,164,3850,114"/>
+<area shape="rect" id="Node000168" href="$ClockRecoveryFilter_8h.html" title="Declaration of ClockRecoveryFilter." alt="" coords="3541,167,3703,192"/>
+<area shape="poly" id="edge25_Node000002_Node000168" title=" " alt="" coords="3870,121,3683,166,3682,161,3869,116"/>
+<area shape="rect" id="Node000169" href="$ComplexImportFilter_8h.html" title="Declaration of ComplexImportFilter." alt="" coords="3728,167,3895,192"/>
+<area shape="poly" id="edge26_Node000002_Node000169" title=" " alt="" coords="3901,121,3841,161,3838,157,3898,116"/>
+<area shape="rect" id="Node000170" href="$ComplexSpectrogramFilter_8h.html" title="Declaration of ComplexSpectrogramFilter." alt="" coords="3919,167,4125,192"/>
+<area shape="poly" id="edge27_Node000002_Node000170" title=" " alt="" coords="3935,116,3995,157,3992,161,3932,121"/>
+<area shape="rect" id="Node000172" href="$ConstantFilter_8h.html" title="Declaration of ConstantFilter." alt="" coords="4149,167,4273,192"/>
+<area shape="poly" id="edge28_Node000002_Node000172" title=" " alt="" coords="3965,116,4151,161,4150,166,3963,121"/>
+<area shape="rect" id="Node000173" href="$ConstellationFilter_8h.html" title="Declaration of ConstellationFilter." alt="" coords="4298,167,4450,192"/>
+<area shape="poly" id="edge29_Node000002_Node000173" title=" " alt="" coords="3983,115,4288,162,4287,167,3982,120"/>
+<area shape="rect" id="Node000177" href="$CouplerDeEmbedFilter_8h.html" title="Declaration of CouplerDeEmbedFilter." alt="" coords="4474,167,4653,192"/>
+<area shape="poly" id="edge30_Node000002_Node000177" title=" " alt="" coords="3983,112,4461,164,4460,169,3983,117"/>
+<area shape="rect" id="Node000178" href="$CSVExportFilter_8h.html" title="Declaration of CSVExportFilter." alt="" coords="4677,167,4812,192"/>
+<area shape="poly" id="edge32_Node000002_Node000178" title=" " alt="" coords="3983,109,4274,129,4664,164,4663,169,4274,134,3983,114"/>
+<area shape="rect" id="Node000180" href="$CSVImportFilter_8h.html" title="Declaration of CSVImportFilter." alt="" coords="4836,167,4971,192"/>
+<area shape="poly" id="edge33_Node000002_Node000180" title=" " alt="" coords="3983,107,4337,125,4576,142,4822,164,4822,169,4576,147,4337,131,3983,113"/>
+<area shape="rect" id="Node000181" href="$CTLEFilter_8h.html" title="Declaration of CTLEFilter." alt="" coords="4995,167,5094,192"/>
+<area shape="poly" id="edge34_Node000002_Node000181" title=" " alt="" coords="3983,105,4155,109,4400,119,4686,136,4982,164,4981,169,4686,141,4400,124,4155,115,3983,111"/>
+<area shape="rect" id="Node000182" href="$CurrentShuntFilter_8h.html" title="Declaration of CurrentShuntFilter." alt="" coords="5119,167,5269,192"/>
+<area shape="poly" id="edge36_Node000002_Node000182" title=" " alt="" coords="3983,106,4448,122,4771,139,5105,164,5104,169,4771,145,4447,128,3983,111"/>
+<area shape="rect" id="Node000183" href="$DCDMeasurement_8h.html" title="Declaration of DCDMeasurement." alt="" coords="5293,167,5447,192"/>
+<area shape="poly" id="edge37_Node000002_Node000183" title=" " alt="" coords="3983,106,4515,120,4891,137,5280,164,5280,169,4891,142,4515,125,3983,111"/>
+<area shape="rect" id="Node000184" href="$DDJMeasurement_8h.html" title="Declaration of DDJMeasurement." alt="" coords="5471,167,5619,192"/>
+<area shape="poly" id="edge38_Node000002_Node000184" title=" " alt="" coords="3983,105,4222,108,4583,117,5012,134,5457,164,5456,169,5012,140,4583,122,4221,113,3983,110"/>
+<area shape="rect" id="Node000185" href="$DDR1Decoder_8h.html" title="Declaration of DDR1Decoder." alt="" coords="5643,167,5769,192"/>
+<area shape="poly" id="edge39_Node000002_Node000185" title=" " alt="" coords="3983,104,4245,105,4649,111,5131,129,5382,144,5630,164,5630,169,5382,150,5131,135,4648,117,4245,110,3983,110"/>
+<area shape="rect" id="Node000187" href="$DDR3Decoder_8h.html" title="Declaration of DDR3Decoder." alt="" coords="5793,167,5918,192"/>
+<area shape="poly" id="edge40_Node000002_Node000187" title=" " alt="" coords="3983,106,4843,124,5376,141,5603,152,5779,164,5779,169,5603,157,5376,147,4843,129,3983,111"/>
+<area shape="rect" id="Node000188" href="$DeskewFilter_8h.html" title="Declaration of DeskewFilter." alt="" coords="5942,167,6059,192"/>
+<area shape="poly" id="edge42_Node000002_Node000188" title=" " alt="" coords="3983,105,4911,122,5490,140,5737,151,5928,164,5928,169,5737,156,5490,145,4911,127,3983,111"/>
+<area shape="rect" id="Node000189" href="$DigitalConstantFilter_8h.html" title="Declaration of DigitalConstantFilter." alt="" coords="6083,167,6249,192"/>
+<area shape="poly" id="edge43_Node000002_Node000189" title=" " alt="" coords="3983,104,4303,105,4813,111,5430,129,5752,144,6069,164,6069,169,5752,149,5430,134,4813,116,4303,110,3983,110"/>
+<area shape="rect" id="Node000190" href="$DigitalToAnalogFilter_8h.html" title="Declaration of DigitalToAnalogFilter." alt="" coords="6274,167,6442,192"/>
+<area shape="poly" id="edge44_Node000002_Node000190" title=" " alt="" coords="3983,104,4328,104,4884,109,5560,127,5913,143,6261,164,6260,169,5912,148,5559,133,4884,115,4328,109,3983,109"/>
+<area shape="rect" id="Node000191" href="$DigitalToPAM4Filter_8h.html" title="Declaration of DigitalToPAM4Filter." alt="" coords="6466,167,6626,192"/>
+<area shape="poly" id="edge45_Node000002_Node000191" title=" " alt="" coords="3983,105,5150,122,5893,140,6209,151,6453,164,6452,169,6209,156,5893,145,5150,127,3983,111"/>
+<area shape="rect" id="Node000193" href="$DigitalToNRZFilter_8h.html" title="Declaration of DigitalToNRZFilter." alt="" coords="6651,167,6801,192"/>
+<area shape="poly" id="edge46_Node000002_Node000193" title=" " alt="" coords="3983,105,5233,120,6034,138,6375,150,6637,164,6636,169,6375,155,6034,143,5233,126,3983,110"/>
+<area shape="rect" id="Node000194" href="$DivideFilter_8h.html" title="Declaration of DivideFilter." alt="" coords="6825,167,6933,192"/>
+<area shape="poly" id="edge47_Node000002_Node000194" title=" " alt="" coords="3983,105,4498,106,5312,114,5751,121,6169,131,6533,146,6812,164,6812,169,6533,151,6168,137,5751,126,5312,119,4498,112,3983,110"/>
+<area shape="rect" id="Node000195" href="$DownconvertFilter_8h.html" title="Declaration of DownconvertFilter." alt="" coords="6958,167,7110,192"/>
+<area shape="poly" id="edge48_Node000002_Node000195" title=" " alt="" coords="3983,105,4519,109,5371,118,6269,136,6651,149,6944,164,6944,169,6651,154,6269,141,5371,124,4519,114,3983,110"/>
+<area shape="rect" id="Node000196" href="$DownsampleFilter_8h.html" title="Declaration of DownsampleFilter." alt="" coords="7135,167,7285,192"/>
+<area shape="poly" id="edge49_Node000002_Node000196" title=" " alt="" coords="3983,105,4546,108,5450,117,6404,135,6810,148,7121,164,7120,169,6810,153,6404,140,5450,123,4546,113,3983,110"/>
+<area shape="rect" id="Node000197" href="$DPAuxChannelDecoder_8h.html" title="Declaration of DPAuxChannelDecoder." alt="" coords="7310,167,7494,192"/>
+<area shape="poly" id="edge50_Node000002_Node000197" title=" " alt="" coords="3983,105,4575,109,5529,119,6539,137,6968,149,7296,164,7296,169,6968,155,6538,142,5529,125,4575,114,3983,110"/>
+<area shape="rect" id="Node000198" href="$DisplayPortMainLinkDecoder_8h.html" title="Declaration of DisplayPortMainLinkDecoder." alt="" coords="7519,167,7741,192"/>
+<area shape="poly" id="edge51_Node000002_Node000198" title=" " alt="" coords="3983,105,5621,121,6697,139,7155,150,7505,164,7505,169,7155,156,6697,144,5621,126,3983,110"/>
+<area shape="rect" id="Node000200" href="$DPhyDataDecoder_8h.html" title="Declaration of DPhyDataDecoder." alt="" coords="7765,167,7919,192"/>
+<area shape="poly" id="edge52_Node000002_Node000200" title=" " alt="" coords="3983,105,4645,106,5732,113,6323,121,6887,131,7378,145,7752,164,7752,169,7378,151,6887,137,6323,126,5732,119,4645,111,3983,110"/>
+<area shape="rect" id="Node000201" href="$DPhyEscapeModeDecoder_8h.html" title="Declaration of DPhyEscapeModeDecoder." alt="" coords="7943,167,8147,192"/>
+<area shape="poly" id="edge53_Node000002_Node000201" title=" " alt="" coords="3983,105,4672,108,5811,117,7022,135,7537,148,7929,164,7929,169,7536,153,7021,141,5811,123,4672,114,3983,110"/>
+<area shape="poly" id="edge3_Node000003_Node000129" title=" " alt="" coords="101,191,133,228,129,231,97,194"/>
+<area shape="poly" id="edge23_Node000161_Node000162" title=" " alt="" coords="3351,187,3370,189,3897,241,3897,246,3370,195,3351,193"/>
+<area shape="poly" id="edge31_Node000177_Node000162" title=" " alt="" coords="4474,194,4054,245,4053,239,4473,189"/>
+<area shape="poly" id="edge35_Node000181_Node000162" title=" " alt="" coords="4996,193,4984,195,4717,221,4454,238,4054,253,4054,247,4453,233,4717,216,4983,189,4995,188"/>
 </map>

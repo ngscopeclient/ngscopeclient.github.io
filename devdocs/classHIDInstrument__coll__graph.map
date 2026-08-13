@@ -1,10 +1,17 @@
 <map id="HIDInstrument" name="HIDInstrument">
-<area shape="rect" id="node1" title="Base class for instruments using USB HID communication protocol." alt="" coords="376,261,493,288"/>
-<area shape="rect" id="node2" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="305,185,428,212"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,109,339,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
-<area shape="rect" id="node6" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="380,109,476,136"/>
-<area shape="rect" id="node7" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="387,13,499,39"/>
-<area shape="rect" id="node8" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="452,185,556,212"/>
+<area shape="rect" id="Node000001" title="Base class for instruments using USB HID communication protocol." alt="" coords="376,257,493,283"/>
+<area shape="rect" id="Node000002" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="305,183,428,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,217,426,255,422,259,385,220"/>
+<area shape="rect" id="Node000003" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,108,339,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="316,141,356,180,353,184,312,145"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="153,49,270,106,267,110,151,54"/>
+<area shape="rect" id="Node000005" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,38"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="295,52,295,108,289,108,289,52"/>
+<area shape="rect" id="Node000006" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="380,108,476,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="411,146,379,184,375,181,407,142"/>
+<area shape="rect" id="Node000007" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="387,13,499,38"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="441,52,432,108,427,107,436,51"/>
+<area shape="rect" id="Node000008" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="452,183,556,208"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="485,220,448,259,444,255,481,217"/>
 </map>

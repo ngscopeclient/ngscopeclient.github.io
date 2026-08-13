@@ -1,51 +1,99 @@
 <map id="FlowGraphNode" name="FlowGraphNode">
-<area shape="rect" id="node1" title="Abstract base class for a node in the signal flow graph." alt="" coords="193,504,320,531"/>
-<area shape="rect" id="node3" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="368,284,515,311"/>
-<area shape="rect" id="node33" href="$classSinkNode.html" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="399,504,483,531"/>
-<area shape="rect" id="node34" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="408,697,475,724"/>
-<area shape="rect" id="node2" href="$classSerializableObject.html" title=" " alt="" coords="5,504,145,531"/>
-<area shape="rect" id="node4" href="$classBERTOutputChannel.html" title="A pattern generator channel of a BERT." alt="" coords="603,5,757,32"/>
-<area shape="rect" id="node5" href="$classDigitalIOChannel.html" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="614,56,746,83"/>
-<area shape="rect" id="node7" href="$classDigitalInputChannel.html" title="A digital input channel (GPIO, buffered mux path, etc)" alt="" coords="605,107,755,133"/>
-<area shape="rect" id="node9" href="$classDigitalOutputChannel.html" title="A digital output channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="599,157,761,184"/>
-<area shape="rect" id="node11" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="583,208,777,235"/>
-<area shape="rect" id="node12" href="$classLoadChannel.html" title="A single channel of an active load." alt="" coords="627,259,733,285"/>
-<area shape="rect" id="node13" href="$classMultimeterChannel.html" title="A single channel of a multimeter." alt="" coords="607,309,753,336"/>
-<area shape="rect" id="node14" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="601,360,759,387"/>
-<area shape="rect" id="node30" href="$classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="601,411,759,437"/>
-<area shape="rect" id="node31" href="$classRFSignalGeneratorChannel.html" title="A single channel of an RF signal generator." alt="" coords="581,461,779,488"/>
-<area shape="rect" id="node32" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="563,512,797,539"/>
-<area shape="rect" id="node6" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="845,33,1076,60"/>
-<area shape="rect" id="node8" href="$classBufferedSwitchMatrixInputChannel.html" title="Declaration of BufferedSwitchMatrixInputChannel." alt="" coords="863,85,1059,126"/>
-<area shape="rect" id="node10" href="$classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="857,150,1064,191"/>
-<area shape="rect" id="node15" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="863,216,1058,243"/>
-<area shape="rect" id="node16" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="889,267,1032,293"/>
-<area shape="rect" id="node18" href="$classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="909,317,1012,344"/>
-<area shape="rect" id="node19" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="894,368,1027,395"/>
-<area shape="rect" id="node20" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="933,419,988,445"/>
-<area shape="rect" id="node28" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data in dB/degrees format." alt="" coords="885,469,1036,496"/>
-<area shape="rect" id="node29" href="$classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="892,520,1029,547"/>
-<area shape="rect" id="node17" href="$classBERTInputChannelWithDataCapture.html" title="Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode." alt="" coords="1124,226,1327,267"/>
-<area shape="rect" id="node21" href="$classACCoupleFilter.html" title=" " alt="" coords="1167,292,1284,319"/>
-<area shape="rect" id="node22" href="$classACRMSMeasurement.html" title=" " alt="" coords="1146,343,1305,369"/>
-<area shape="rect" id="node23" href="$classADL5205Decoder.html" title=" " alt="" coords="1158,393,1293,420"/>
-<area shape="rect" id="node24" href="$classAddFilter.html" title=" " alt="" coords="1186,444,1265,471"/>
-<area shape="rect" id="node25" href="$classAreaMeasurement.html" title=" " alt="" coords="1154,495,1297,521"/>
-<area shape="rect" id="node26" href="$classAutocorrelationFilter.html" title=" " alt="" coords="1148,545,1303,572"/>
-<area shape="rect" id="node27" href="$classAverageFilter.html" title=" " alt="" coords="1171,596,1279,623"/>
-<area shape="rect" id="node35" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="633,571,727,597"/>
-<area shape="rect" id="node38" href="$classDCAEdgeTrigger.html" title="Simple edge trigger for Agilent DCA oscilloscopes." alt="" coords="617,621,743,648"/>
-<area shape="rect" id="node39" href="$classDropoutTrigger.html" title="Trigger when a signal stops toggling for some amount of time." alt="" coords="621,672,739,699"/>
-<area shape="rect" id="node40" href="$classEdgeTrigger.html" title="Simple edge trigger." alt="" coords="631,723,729,749"/>
-<area shape="rect" id="node43" href="$classNthEdgeBurstTrigger.html" title="Nth Edge Burst Trigger: triggers on a specific edge within a burst." alt="" coords="602,773,758,800"/>
-<area shape="rect" id="node44" href="$classSerialTrigger.html" title="Abstract base class for serial protocol triggers with pattern matching." alt="" coords="628,824,732,851"/>
-<area shape="rect" id="node46" href="$classTwoLevelTrigger.html" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="617,893,743,920"/>
-<area shape="rect" id="node36" href="$classCDR8B10BTrigger.html" title="A hardware 8B/10B pattern trigger." alt="" coords="892,571,1029,597"/>
-<area shape="rect" id="node37" href="$classCDRNRZPatternTrigger.html" title="A hardware NRZ pattern trigger." alt="" coords="875,621,1046,648"/>
-<area shape="rect" id="node41" href="$classGlitchTrigger.html" title="Trigger on a glitch meeting certain width criteria." alt="" coords="908,684,1013,711"/>
-<area shape="rect" id="node42" href="$classPulseWidthTrigger.html" title="Trigger on a pulse meeting certain width criteria." alt="" coords="891,735,1031,761"/>
-<area shape="rect" id="node45" href="$classUartTrigger.html" title="Trigger when a UART sees a certain data pattern." alt="" coords="913,811,1008,837"/>
-<area shape="rect" id="node47" href="$classRuntTrigger.html" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="912,861,1009,888"/>
-<area shape="rect" id="node48" href="$classSlewRateTrigger.html" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="897,912,1025,939"/>
-<area shape="rect" id="node49" href="$classWindowTrigger.html" title="Window trigger &#45; detect when the signal leaves a specified range." alt="" coords="901,963,1020,989"/>
+<area shape="rect" id="Node000001" title="Abstract base class for a node in the signal flow graph." alt="" coords="193,771,320,796"/>
+<area shape="rect" id="Node000003" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="368,351,515,376"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,757,432,375,437,377,272,759"/>
+<area shape="rect" id="Node000245" href="$classSinkNode.html" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="399,771,483,796"/>
+<area shape="poly" id="edge27_Node000001_Node000245" title=" " alt="" coords="334,781,399,781,399,786,334,786"/>
+<area shape="rect" id="Node000252" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="408,1164,475,1189"/>
+<area shape="poly" id="edge33_Node000001_Node000252" title=" " alt="" coords="272,808,437,1163,432,1165,267,810"/>
+<area shape="rect" id="Node000002" href="$classSerializableObject.html" title=" " alt="" coords="5,771,145,796"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,781,193,781,193,786,159,786"/>
+<area shape="rect" id="Node000004" href="$classBERTOutputChannel.html" title="A pattern generator channel of a BERT." alt="" coords="603,5,757,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="442,336,449,275,469,195,484,152,504,111,530,73,561,40,580,28,602,20,604,25,583,32,564,44,534,76,509,114,489,154,474,196,455,276,447,337"/>
+<area shape="rect" id="Node000005" href="$classDigitalIOChannel.html" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="614,55,746,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="444,337,454,284,476,217,491,182,510,148,533,116,561,89,586,75,613,67,614,72,588,80,564,93,537,120,515,151,496,184,481,219,460,285,449,338"/>
+<area shape="rect" id="Node000007" href="$classDigitalInputChannel.html" title="A digital input channel (GPIO, buffered mux path, etc)" alt="" coords="605,104,755,129"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="447,336,460,292,483,238,516,184,537,160,561,138,582,127,604,119,605,125,584,132,564,143,541,163,521,187,488,241,465,294,452,338"/>
+<area shape="rect" id="Node000009" href="$classDigitalOutputChannel.html" title="A digital output channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="599,153,761,179"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="450,337,467,302,491,262,522,221,561,188,597,172,599,177,564,192,526,225,495,265,472,305,455,339"/>
+<area shape="rect" id="Node000011" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="583,203,777,228"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="457,338,500,286,529,259,561,237,588,226,590,231,564,242,532,263,504,290,461,341"/>
+<area shape="rect" id="Node000012" href="$classLoadChannel.html" title="A single channel of an active load." alt="" coords="627,252,733,277"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="469,340,512,313,562,288,625,270,627,275,564,292,514,317,472,345"/>
+<area shape="rect" id="Node000013" href="$classMultimeterChannel.html" title="A single channel of a multimeter." alt="" coords="607,301,753,327"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="516,345,617,324,618,329,517,350"/>
+<area shape="rect" id="Node000014" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="601,351,759,376"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="528,361,601,361,601,366,528,366"/>
+<area shape="rect" id="Node000239" href="$classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="601,400,759,425"/>
+<area shape="poly" id="edge21_Node000003_Node000239" title=" " alt="" coords="516,376,563,386,617,397,616,402,562,391,515,381"/>
+<area shape="rect" id="Node000240" href="$classRFSignalGeneratorChannel.html" title="A single channel of an RF signal generator." alt="" coords="581,449,779,475"/>
+<area shape="poly" id="edge22_Node000003_Node000240" title=" " alt="" coords="472,382,514,410,564,436,599,447,598,452,562,440,511,415,469,387"/>
+<area shape="rect" id="Node000241" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="563,499,797,524"/>
+<area shape="poly" id="edge23_Node000003_Node000241" title=" " alt="" coords="461,386,504,437,532,463,564,485,590,496,588,501,561,490,529,467,500,441,457,389"/>
+<area shape="rect" id="Node000242" href="$classVIOInputChannel.html" title="A multi&#45;bit GPIO channel." alt="" coords="615,548,745,573"/>
+<area shape="poly" id="edge24_Node000003_Node000242" title=" " alt="" coords="455,388,472,422,495,462,526,502,564,534,589,546,615,554,614,559,587,551,561,539,522,505,491,465,467,424,450,390"/>
+<area shape="rect" id="Node000243" href="$classVIOOutputChannel.html" title="A multi&#45;bit GPIO channel." alt="" coords="609,597,751,623"/>
+<area shape="poly" id="edge25_Node000003_Node000243" title=" " alt="" coords="452,389,465,433,488,486,521,539,541,563,564,584,585,596,609,603,607,608,583,601,561,588,537,567,516,543,483,488,460,434,447,391"/>
+<area shape="rect" id="Node000244" href="$classVectorGPIOChannel.html" title="A multi&#45;bit GPIO interface that is exposed as a single channel with many streams." alt="" coords="605,647,755,672"/>
+<area shape="poly" id="edge26_Node000003_Node000244" title=" " alt="" coords="449,389,460,441,481,508,496,543,515,576,537,607,564,633,584,645,606,652,604,658,582,650,561,637,533,610,510,579,491,545,476,510,454,443,444,390"/>
+<area shape="rect" id="Node000006" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="845,40,1076,65"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="760,61,845,56,845,61,760,66"/>
+<area shape="rect" id="Node000008" href="$classBufferedSwitchMatrixInputChannel.html" title="Declaration of BufferedSwitchMatrixInputChannel." alt="" coords="863,90,1059,130"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="769,112,862,110,862,115,769,117"/>
+<area shape="rect" id="Node000010" href="$classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="857,154,1064,194"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="775,166,857,168,857,174,775,171"/>
+<area shape="rect" id="Node000015" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="863,219,1058,244"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="770,350,796,337,812,318,819,297,826,275,844,255,867,242,870,246,847,259,831,278,824,299,817,321,799,341,773,355"/>
+<area shape="rect" id="Node000016" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="889,268,1032,293"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="771,346,796,337,820,321,844,304,888,289,890,294,847,308,823,325,799,342,773,351"/>
+<area shape="rect" id="Node000018" href="$classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="909,317,1012,343"/>
+<area shape="poly" id="edge16_Node000014_Node000018" title=" " alt="" coords="772,350,909,333,909,339,773,355"/>
+<area shape="rect" id="Node000019" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="894,367,1027,392"/>
+<area shape="poly" id="edge17_Node000014_Node000019" title=" " alt="" coords="773,366,894,373,893,378,772,371"/>
+<area shape="rect" id="Node000020" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="933,416,988,441"/>
+<area shape="poly" id="edge18_Node000014_Node000020" title=" " alt="" coords="759,376,798,386,846,402,934,421,933,427,845,407,797,391,758,382"/>
+<area shape="rect" id="Node000237" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data in dB/degrees format." alt="" coords="885,465,1036,491"/>
+<area shape="poly" id="edge19_Node000014_Node000237" title=" " alt="" coords="773,374,799,386,815,403,824,420,831,437,847,452,886,468,884,473,844,456,827,440,819,423,811,406,796,391,771,379"/>
+<area shape="rect" id="Node000238" href="$classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="892,515,1029,540"/>
+<area shape="poly" id="edge20_Node000014_Node000238" title=" " alt="" coords="773,372,799,387,812,401,819,416,824,446,828,475,835,488,847,501,868,514,893,522,891,527,866,519,844,505,831,491,823,476,819,446,814,417,808,404,796,391,771,376"/>
+<area shape="rect" id="Node000246" href="$classBaseChannelPropertiesDialog.html" title=" " alt="" coords="573,696,787,721"/>
+<area shape="poly" id="edge28_Node000245_Node000246" title=" " alt="" coords="482,762,562,731,610,719,611,724,563,737,483,767"/>
+<area shape="rect" id="Node000249" href="$classMeasurementsDialog.html" title=" " alt="" coords="599,745,761,771"/>
+<area shape="poly" id="edge30_Node000245_Node000249" title=" " alt="" coords="497,775,599,764,599,769,497,780"/>
+<area shape="rect" id="Node000250" href="$classProtocolAnalyzerDialog.html" title="UI for the history system." alt="" coords="593,795,767,820"/>
+<area shape="poly" id="edge31_Node000245_Node000250" title=" " alt="" coords="497,786,593,796,592,801,497,792"/>
+<area shape="rect" id="Node000251" href="$classWaveformArea.html" title="A WaveformArea is a plot that displays one or more OscilloscopeChannel&#39;s worth of data." alt="" coords="620,844,740,869"/>
+<area shape="poly" id="edge32_Node000245_Node000251" title=" " alt="" coords="483,799,563,830,620,844,619,849,562,835,482,804"/>
+<area shape="rect" id="Node000247" href="$classChannelPropertiesDialog.html" title=" " alt="" coords="869,696,1052,721"/>
+<area shape="poly" id="edge29_Node000246_Node000247" title=" " alt="" coords="802,706,869,706,869,711,802,711"/>
+<area shape="rect" id="Node000253" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="633,893,727,919"/>
+<area shape="poly" id="edge34_Node000252_Node000253" title=" " alt="" coords="445,1150,458,1102,480,1042,514,981,535,953,561,929,595,912,632,904,633,909,597,917,564,934,539,957,518,984,485,1044,463,1103,450,1151"/>
+<area shape="rect" id="Node000256" href="$classDCAEdgeTrigger.html" title="Simple edge trigger for Agilent DCA oscilloscopes." alt="" coords="617,943,743,968"/>
+<area shape="poly" id="edge37_Node000252_Node000256" title=" " alt="" coords="448,1150,464,1111,487,1065,520,1018,561,978,587,965,616,957,617,962,589,970,564,983,524,1021,492,1067,469,1114,453,1152"/>
+<area shape="rect" id="Node000257" href="$classDropoutTrigger.html" title="Trigger when a signal stops toggling for some amount of time." alt="" coords="621,992,739,1017"/>
+<area shape="poly" id="edge38_Node000252_Node000257" title=" " alt="" coords="454,1150,496,1088,526,1055,561,1028,590,1015,620,1007,621,1012,592,1020,564,1032,530,1059,500,1091,458,1153"/>
+<area shape="rect" id="Node000258" href="$classEdgeTrigger.html" title="Simple edge trigger." alt="" coords="631,1041,729,1067"/>
+<area shape="poly" id="edge39_Node000252_Node000258" title=" " alt="" coords="463,1152,506,1113,533,1093,562,1077,595,1064,630,1057,631,1062,597,1070,564,1082,536,1098,509,1117,466,1156"/>
+<area shape="rect" id="Node000261" href="$classLineTrigger.html" title="trigger uses the waveform of the power supply&#39;s alternating line voltage" alt="" coords="633,1091,727,1116"/>
+<area shape="poly" id="edge40_Node000252_Node000261" title=" " alt="" coords="483,1156,562,1126,632,1109,633,1114,563,1131,484,1161"/>
+<area shape="rect" id="Node000262" href="$classNthEdgeBurstTrigger.html" title="Nth Edge Burst Trigger: triggers on a specific edge within a burst." alt="" coords="602,1140,758,1165"/>
+<area shape="poly" id="edge41_Node000252_Node000262" title=" " alt="" coords="488,1169,601,1158,602,1163,489,1175"/>
+<area shape="rect" id="Node000263" href="$classRSRTB2kRiseTimeTrigger.html" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="587,1189,773,1215"/>
+<area shape="poly" id="edge42_Node000252_Node000263" title=" " alt="" coords="489,1179,587,1189,586,1195,488,1184"/>
+<area shape="rect" id="Node000264" href="$classRSRTB2kRuntTrigger.html" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="602,1239,758,1264"/>
+<area shape="poly" id="edge43_Node000252_Node000264" title=" " alt="" coords="482,1193,563,1225,607,1236,606,1241,562,1230,480,1198"/>
+<area shape="rect" id="Node000265" href="$classRSRTB2kTimeoutTrigger.html" title="Trigger when a signal stops toggling for some amount of time." alt="" coords="591,1288,769,1313"/>
+<area shape="poly" id="edge44_Node000252_Node000265" title=" " alt="" coords="465,1198,508,1238,535,1258,564,1274,594,1285,592,1290,562,1279,532,1262,505,1242,462,1202"/>
+<area shape="rect" id="Node000266" href="$classRSRTB2kVideoTrigger.html" title="Video or TV trigger is used to analyze analog baseband video signals." alt="" coords="599,1337,761,1363"/>
+<area shape="poly" id="edge45_Node000252_Node000266" title=" " alt="" coords="458,1200,499,1263,529,1296,564,1324,600,1339,597,1343,561,1328,525,1300,495,1267,453,1203"/>
+<area shape="rect" id="Node000267" href="$classRSRTB2kWidthTrigger.html" title="Trigger on a pulse meeting certain width criteria." alt="" coords="598,1387,762,1412"/>
+<area shape="poly" id="edge46_Node000252_Node000267" title=" " alt="" coords="453,1201,468,1240,491,1287,523,1334,543,1355,564,1373,599,1389,597,1394,561,1378,539,1359,519,1338,487,1290,463,1242,448,1203"/>
+<area shape="rect" id="Node000268" href="$classSerialTrigger.html" title="Abstract base class for serial protocol triggers with pattern matching." alt="" coords="628,1436,732,1461"/>
+<area shape="poly" id="edge47_Node000252_Node000268" title=" " alt="" coords="450,1202,462,1250,484,1310,517,1372,539,1399,564,1422,595,1438,628,1445,627,1451,593,1443,561,1427,535,1403,513,1374,479,1312,457,1252,445,1203"/>
+<area shape="rect" id="Node000270" href="$classTwoLevelTrigger.html" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="617,1485,743,1511"/>
+<area shape="poly" id="edge48_Node000252_Node000270" title=" " alt="" coords="448,1203,457,1260,477,1333,492,1371,512,1409,535,1443,564,1472,589,1486,617,1494,616,1499,587,1491,561,1476,531,1446,507,1411,487,1374,472,1335,452,1261,443,1204"/>
+<area shape="rect" id="Node000254" href="$classCDR8B10BTrigger.html" title="A hardware 8B/10B pattern trigger." alt="" coords="892,869,1029,895"/>
+<area shape="poly" id="edge35_Node000253_Node000254" title=" " alt="" coords="741,898,892,885,892,890,742,903"/>
+<area shape="rect" id="Node000255" href="$classCDRNRZPatternTrigger.html" title="A hardware NRZ pattern trigger." alt="" coords="875,919,1046,944"/>
+<area shape="poly" id="edge36_Node000253_Node000255" title=" " alt="" coords="742,909,875,921,875,926,741,914"/>
 </map>

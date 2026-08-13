@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['miscellaneous_20instrument_20drivers_0',['Miscellaneous instrument drivers',['../group__miscdrivers.html',1,'']]]
+  ['instrument_20drivers_0',['instrument drivers',['../group__drivers.html',1,'Instrument drivers'],['../group__miscdrivers.html',1,'Miscellaneous instrument drivers']]]
 ];

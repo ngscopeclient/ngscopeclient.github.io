@@ -1,13 +1,27 @@
 <map id="OneWireWaveform" name="OneWireWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="1655,110,1801,137"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="1336,110,1605,137"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1041,77,1208,103"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="727,15,849,42"/>
-<area shape="rect" id="node5" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,5,506,47"/>
-<area shape="rect" id="node6" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node7" href="$classAcceleratorBuffer.html" title=" " alt="" coords="715,69,861,111"/>
-<area shape="rect" id="node8" href="$classAlignedAllocator.html" title=" " alt="" coords="344,71,521,112"/>
-<area shape="rect" id="node9" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1051,135,1198,176"/>
-<area shape="rect" id="node10" href="$classAlignedAllocator.html" title=" " alt="" coords="688,135,888,176"/>
-<area shape="rect" id="node11" href="$classOneWireSymbol.html" title=" " alt="" coords="725,201,851,227"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1457,169,1604,194"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="1139,169,1408,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1422,179,1457,179,1457,184,1422,184"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="923,127,1089,153"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1102,152,1191,166,1190,171,1102,157"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="672,127,795,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="809,137,923,137,923,143,809,143"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,120,505,160"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="519,137,672,137,672,143,519,143"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="21,90,189,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="204,106,335,119,359,122,358,128,334,124,203,111"/>
+<area shape="rect" id="Node000008" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,49,505,89"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="203,88,229,85,358,73,359,78,230,91,204,93"/>
+<area shape="rect" id="Node000010" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,196,505,236"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="203,113,270,129,336,152,360,170,398,194,395,198,357,174,333,157,268,134,202,118"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="13,145,198,185"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="211,154,358,143,359,148,212,160"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="519,75,695,93,899,119,937,125,936,130,898,124,694,98,519,80"/>
+<area shape="rect" id="Node000009" href="$classAlignedAllocator.html" title=" " alt="" coords="17,5,194,45"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="208,36,359,57,358,62,207,42"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="519,210,1139,184,1139,190,519,215"/>
+<area shape="rect" id="Node000011" href="$classAlignedAllocator.html" title=" " alt="" coords="5,260,205,300"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="219,259,334,237,358,232,359,237,335,243,220,265"/>
+<area shape="rect" id="Node000012" href="$classOneWireSymbol.html" title=" " alt="" coords="42,210,169,235"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="182,218,359,215,359,220,182,224"/>
 </map>

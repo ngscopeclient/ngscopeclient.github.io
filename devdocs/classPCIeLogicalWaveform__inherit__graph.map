@@ -1,6 +1,9 @@
 <map id="PCIeLogicalWaveform" name="PCIeLogicalWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="35,244,200,271"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="5,155,229,196"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="34,80,201,107"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="56,5,179,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="35,240,200,265"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="5,152,229,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,206,120,240,115,240,115,206"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="34,79,201,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,118,120,152,115,152,115,118"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="56,5,179,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="120,44,120,79,115,79,115,44"/>
 </map>

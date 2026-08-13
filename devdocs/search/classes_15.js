@@ -1,16 +1,21 @@
 var searchData=
 [
   ['vcdimportfilter_0',['VCDImportFilter',['../classVCDImportFilter.html',1,'']]],
-  ['vectorfrequencyfilter_1',['VectorFrequencyFilter',['../classVectorFrequencyFilter.html',1,'']]],
-  ['vectorphasefilter_2',['VectorPhaseFilter',['../classVectorPhaseFilter.html',1,'']]],
-  ['verticalbathtub_3',['VerticalBathtub',['../classVerticalBathtub.html',1,'']]],
-  ['vicpdecoder_4',['VICPDecoder',['../classVICPDecoder.html',1,'']]],
-  ['vicpsockettransport_5',['VICPSocketTransport',['../classVICPSocketTransport.html',1,'']]],
-  ['vicpsymbol_6',['VICPSymbol',['../classVICPSymbol.html',1,'']]],
-  ['vicpwaveform_7',['VICPWaveform',['../classVICPWaveform.html',1,'']]],
-  ['videoscanlinepacket_8',['VideoScanlinePacket',['../classVideoScanlinePacket.html',1,'']]],
-  ['vtcurves_9',['VTCurves',['../classVTCurves.html',1,'']]],
-  ['vtpoint_10',['VTPoint',['../classVTPoint.html',1,'']]],
-  ['vulkanfftplan_11',['VulkanFFTPlan',['../classVulkanFFTPlan.html',1,'']]],
-  ['vulkanwindow_12',['VulkanWindow',['../classVulkanWindow.html',1,'']]]
+  ['vectorfrequencyconstants_1',['VectorFrequencyConstants',['../classVectorFrequencyConstants.html',1,'']]],
+  ['vectorfrequencyfilter_2',['VectorFrequencyFilter',['../classVectorFrequencyFilter.html',1,'']]],
+  ['vectorgpiochannel_3',['VectorGPIOChannel',['../classVectorGPIOChannel.html',1,'']]],
+  ['vectorphaseconstants_4',['VectorPhaseConstants',['../classVectorPhaseConstants.html',1,'']]],
+  ['vectorphasefilter_5',['VectorPhaseFilter',['../classVectorPhaseFilter.html',1,'']]],
+  ['verticalbathtub_6',['VerticalBathtub',['../classVerticalBathtub.html',1,'']]],
+  ['vicpdecoder_7',['VICPDecoder',['../classVICPDecoder.html',1,'']]],
+  ['vicpsockettransport_8',['VICPSocketTransport',['../classVICPSocketTransport.html',1,'']]],
+  ['vicpsymbol_9',['VICPSymbol',['../classVICPSymbol.html',1,'']]],
+  ['vicpwaveform_10',['VICPWaveform',['../classVICPWaveform.html',1,'']]],
+  ['videoscanlinepacket_11',['VideoScanlinePacket',['../classVideoScanlinePacket.html',1,'']]],
+  ['vioinputchannel_12',['VIOInputChannel',['../classVIOInputChannel.html',1,'']]],
+  ['viooutputchannel_13',['VIOOutputChannel',['../classVIOOutputChannel.html',1,'']]],
+  ['vtcurves_14',['VTCurves',['../classVTCurves.html',1,'']]],
+  ['vtpoint_15',['VTPoint',['../classVTPoint.html',1,'']]],
+  ['vulkanfftplan_16',['VulkanFFTPlan',['../classVulkanFFTPlan.html',1,'']]],
+  ['vulkanwindow_17',['VulkanWindow',['../classVulkanWindow.html',1,'']]]
 ];

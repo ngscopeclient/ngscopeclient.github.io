@@ -1,18 +1,39 @@
 <map id="UHDBridgeSDR" name="UHDBridgeSDR">
-<area shape="rect" id="node1" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1329,33,1451,60"/>
-<area shape="rect" id="node2" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="1083,9,1280,36"/>
-<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="900,33,1033,60"/>
-<area shape="rect" id="node16" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="1142,60,1221,87"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="671,84,775,111"/>
-<area shape="rect" id="node8" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="933,151,1000,177"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="342,72,435,99"/>
-<area shape="rect" id="node13" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="661,16,784,43"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,65,197,106"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="31,152,171,179"/>
-<area shape="rect" id="node9" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="491,173,618,200"/>
-<area shape="rect" id="node10" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="661,224,784,251"/>
-<area shape="rect" id="node11" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="364,224,413,251"/>
-<area shape="rect" id="node12" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="329,123,448,149"/>
-<area shape="rect" id="node14" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="341,7,437,33"/>
-<area shape="rect" id="node15" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,7,157,33"/>
+<area shape="rect" id="Node000001" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1360,65,1481,90"/>
+<area shape="rect" id="Node000002" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="1113,42,1311,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1324,64,1360,68,1359,73,1324,70"/>
+<area shape="rect" id="Node000003" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="931,65,1064,90"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1077,66,1113,62,1113,68,1078,72"/>
+<area shape="rect" id="Node000017" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="1173,91,1251,117"/>
+<area shape="poly" id="edge20_Node000017_Node000003" title=" " alt="" coords="1078,85,1173,97,1172,102,1077,90"/>
+<area shape="rect" id="Node000004" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="671,123,775,149"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="788,118,807,113,931,87,932,93,809,119,789,123"/>
+<area shape="rect" id="Node000009" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="964,190,1031,215"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="789,140,847,149,907,163,971,187,969,192,906,168,846,154,788,145"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="342,71,435,97"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="449,82,539,88,638,103,693,121,692,126,637,108,538,93,449,87"/>
+<area shape="rect" id="Node000014" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="661,41,784,66"/>
+<area shape="poly" id="edge16_Node000014_Node000005" title=" " alt="" coords="449,72,472,69,661,54,661,59,472,75,449,77"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,64,197,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="211,81,342,81,342,87,211,87"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="31,174,171,199"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="150,167,351,94,353,99,152,172"/>
+<area shape="rect" id="Node000010" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="491,218,618,243"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="186,192,492,222,491,227,185,197"/>
+<area shape="rect" id="Node000008" href="$classHzClock.html" title="Clock that measures rate at which it is called; windowed average." alt="" coords="351,170,426,195"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="439,177,531,168,637,153,672,146,673,151,638,159,532,173,440,182"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="950,204,882,198,807,183,772,168,743,151,745,147,775,163,809,177,883,193,951,199"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="632,223,964,202,964,207,632,228"/>
+<area shape="rect" id="Node000011" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="661,277,784,302"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="797,298,852,298,879,294,906,286,931,271,954,252,985,214,989,217,957,256,934,275,908,290,881,299,852,303,797,304"/>
+<area shape="rect" id="Node000012" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="364,277,413,302"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="427,287,661,287,661,292,427,292"/>
+<area shape="rect" id="Node000013" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="329,121,448,146"/>
+<area shape="poly" id="edge14_Node000004_Node000013" title=" " alt="" coords="462,132,472,132,670,133,670,139,472,137,462,137"/>
+<area shape="poly" id="edge15_Node000003_Node000014" title=" " alt="" coords="798,57,931,69,930,74,797,62"/>
+<area shape="rect" id="Node000015" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="341,7,437,33"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="450,23,661,45,660,50,450,29"/>
+<area shape="rect" id="Node000016" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="45,7,157,33"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="171,17,341,17,341,23,171,23"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="1265,95,1359,82,1360,88,1265,100"/>
 </map>

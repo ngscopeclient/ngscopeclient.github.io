@@ -1,0 +1,26 @@
+<map id="RSRTB2kRiseTimeTrigger" name="RSRTB2kRiseTimeTrigger">
+<area shape="rect" id="Node000001" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="601,420,788,445"/>
+<area shape="rect" id="Node000002" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="557,271,624,297"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="613,305,662,365,692,419,687,421,658,368,609,308"/>
+<area shape="rect" id="Node000005" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="249,420,353,445"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="594,311,588,355,578,379,563,398,548,407,526,415,472,425,354,434,353,428,471,420,525,410,545,403,560,394,574,376,583,354,589,310"/>
+<area shape="rect" id="Node000003" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="441,108,567,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="519,144,587,270,582,272,514,147"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="349,13,489,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="440,46,495,106,491,110,436,50"/>
+<area shape="rect" id="Node000006" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="55,108,148,133"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="368,44,141,110,140,105,366,39"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="366,423,417,413,467,394,483,381,497,365,576,295,579,299,501,369,486,385,469,398,418,418,367,429"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="101,147,98,235,103,289,116,342,130,372,155,394,177,406,201,415,250,425,249,430,200,420,175,411,152,398,126,375,111,344,97,290,92,235,95,147"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="104,59,104,108,99,108,99,59"/>
+<area shape="rect" id="Node000008" href="$classHzClock.html" title="Clock that measures rate at which it is called; windowed average." alt="" coords="125,271,200,297"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="160,310,158,353,163,375,174,394,190,408,208,418,250,428,248,433,206,423,187,413,170,398,158,377,153,354,155,310"/>
+<area shape="rect" id="Node000009" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="242,271,361,297"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="304,311,304,420,299,420,299,311"/>
+<area shape="rect" id="Node000010" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="600,108,723,133"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="687,142,696,156,707,194,713,233,715,310,708,376,700,420,695,419,703,376,710,310,708,233,702,195,691,158,683,145"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="614,142,597,159,586,188,583,219,590,271,585,272,578,219,581,187,592,156,610,138"/>
+<area shape="rect" id="Node000011" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="637,13,686,38"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="664,52,664,108,659,108,659,52"/>
+</map>

@@ -6,5 +6,6 @@ var searchData=
   ['queuehandle_3',['QueueHandle',['../classQueueHandle.html',1,'']]],
   ['queueinfo_4',['QueueInfo',['../structQueueManager_1_1QueueInfo.html',1,'QueueManager']]],
   ['queuelock_5',['QueueLock',['../classQueueLock.html',1,'']]],
-  ['queuemanager_6',['QueueManager',['../classQueueManager.html',1,'']]]
+  ['queuemanager_6',['QueueManager',['../classQueueManager.html',1,'']]],
+  ['queuewrapper_7',['QueueWrapper',['../classQueueWrapper.html',1,'']]]
 ];

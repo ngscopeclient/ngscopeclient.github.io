@@ -1,13 +1,27 @@
 <map id="SWDMemAPWaveform" name="SWDMemAPWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="1692,110,1863,137"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="1348,110,1643,137"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1051,77,1218,103"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="731,15,853,42"/>
-<area shape="rect" id="node5" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,5,506,47"/>
-<area shape="rect" id="node6" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node7" href="$classAcceleratorBuffer.html" title=" " alt="" coords="719,69,865,111"/>
-<area shape="rect" id="node8" href="$classAlignedAllocator.html" title=" " alt="" coords="344,71,521,112"/>
-<area shape="rect" id="node9" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1049,135,1220,176"/>
-<area shape="rect" id="node10" href="$classAlignedAllocator.html" title=" " alt="" coords="688,135,896,176"/>
-<area shape="rect" id="node11" href="$classSWDMemAPSymbol.html" title=" " alt="" coords="716,201,868,227"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1515,169,1685,194"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="1171,169,1465,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1479,179,1514,179,1514,184,1479,184"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="955,127,1121,153"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1135,152,1232,166,1231,171,1134,157"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="704,127,827,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="841,137,955,137,955,143,841,143"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="379,120,525,160"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="539,137,704,137,704,143,539,143"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="25,90,193,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="208,106,343,119,379,124,378,129,342,124,207,111"/>
+<area shape="rect" id="Node000008" href="$classAcceleratorBuffer.html" title=" " alt="" coords="379,49,525,89"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="207,89,237,85,378,72,379,78,238,91,207,94"/>
+<area shape="rect" id="Node000010" href="$classAcceleratorBuffer.html" title=" " alt="" coords="367,196,537,236"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="208,113,276,128,344,152,368,170,411,194,408,198,365,174,341,157,274,133,207,118"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="17,145,202,185"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="216,155,378,143,379,148,216,160"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="539,74,720,93,931,119,969,125,968,130,930,124,719,98,539,80"/>
+<area shape="rect" id="Node000009" href="$classAlignedAllocator.html" title=" " alt="" coords="21,5,198,45"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="212,36,379,57,378,63,211,41"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="551,209,1170,185,1171,190,552,215"/>
+<area shape="rect" id="Node000011" href="$classAlignedAllocator.html" title=" " alt="" coords="5,260,213,300"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="227,258,342,237,366,233,367,238,343,243,228,264"/>
+<area shape="rect" id="Node000012" href="$classSWDMemAPSymbol.html" title=" " alt="" coords="33,210,185,235"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="199,218,366,215,366,220,199,224"/>
 </map>

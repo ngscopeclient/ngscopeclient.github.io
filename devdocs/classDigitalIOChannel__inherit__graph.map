@@ -1,7 +1,11 @@
 <map id="DigitalIOChannel" name="DigitalIOChannel">
-<area shape="rect" id="node1" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="55,229,187,256"/>
-<area shape="rect" id="node5" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="5,304,236,331"/>
-<area shape="rect" id="node2" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="47,155,194,181"/>
-<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="57,80,184,107"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="51,5,191,32"/>
+<area shape="rect" id="Node000001" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="55,225,187,251"/>
+<area shape="rect" id="Node000005" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="5,299,236,324"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="123,264,123,299,118,299,118,264"/>
+<area shape="rect" id="Node000002" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="47,152,194,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,191,123,225,118,225,118,191"/>
+<area shape="rect" id="Node000003" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="57,79,184,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,118,123,152,118,152,118,118"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="51,5,191,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,44,123,79,118,79,118,44"/>
 </map>

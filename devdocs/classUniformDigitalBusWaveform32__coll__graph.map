@@ -1,0 +1,16 @@
+<map id="UniformDigitalBusWaveform32" name="UniformDigitalBusWaveform32">
+<area shape="rect" id="Node000001" title="A multi&#45;bit (up to 32 bits) digital waveform sampled at uniform rate." alt="" coords="71,448,297,473"/>
+<area shape="rect" id="Node000002" href="$classUniformWaveform.html" title=" " alt="" coords="71,373,297,399"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,413,187,448,181,448,181,413"/>
+<area shape="rect" id="Node000003" href="$classUniformWaveformBase.html" title="Base class for waveforms with data sampled at uniform intervals." alt="" coords="206,299,381,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="266,334,203,375,200,371,263,330"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="212,211,335,236"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="282,249,293,298,288,299,277,250"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="116,108,263,148"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="191,162,187,373,182,373,186,162"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="218,157,265,209,261,212,214,160"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="5,13,173,38"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="112,46,172,106,169,110,108,50"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="198,5,383,45"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="264,57,210,110,206,106,260,53"/>
+</map>

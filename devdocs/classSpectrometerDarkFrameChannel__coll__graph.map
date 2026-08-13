@@ -1,9 +1,16 @@
 <map id="SpectrometerDarkFrameChannel" name="SpectrometerDarkFrameChannel">
-<area shape="rect" id="node1" title="A dark frame input for a spectrometer." alt="" coords="77,261,311,288"/>
-<area shape="rect" id="node2" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="121,185,267,212"/>
-<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,96,139,123"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="5,13,145,39"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="163,96,257,123"/>
-<area shape="rect" id="node6" title=" " alt="" coords="170,5,362,47"/>
-<area shape="rect" id="node7" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="296,96,345,123"/>
+<area shape="rect" id="Node000001" title="A dark frame input for a spectrometer." alt="" coords="77,257,311,283"/>
+<area shape="rect" id="Node000002" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="121,183,267,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,222,197,257,191,257,191,222"/>
+<area shape="rect" id="Node000003" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,95,139,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,126,179,180,176,185,101,130"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="5,13,145,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="78,52,78,95,73,95,73,52"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="163,95,257,120"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="108,43,192,92,189,97,105,47"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="201,133,198,144,196,182,190,182,193,144,196,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="170,5,362,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="247,58,220,96,216,93,243,55"/>
+<area shape="rect" id="Node000007" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="296,95,345,120"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="313,134,293,161,271,175,247,185,244,180,268,170,290,157,309,131"/>
 </map>

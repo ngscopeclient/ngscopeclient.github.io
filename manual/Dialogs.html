@@ -7,52 +7,54 @@
 <link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
 <meta content='ngscopeclient-manual.tex' name='src' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
+<script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WorkspacesandWindowManagement.html'>next</a>] [<a href='MainWindow.html'>prev</a>] [<a href='MainWindow.html#tailMainWindow.html'>prev-tail</a>] [<a href='#tailDialogs.html'>tail</a>] [<a href='ngscopeclient-manual.html#Dialogs.html'>up</a>] </p></div>
-   <h2 class='chapterHead' id='dialogs'><span class='titlemark'>Chapter 6</span><br /><a id='x8-510006'></a>Dialogs</h2>
-   <h3 class='sectionHead' id='lab-notes'><span class='titlemark'>6.1   </span> <a id='x8-520006.1'></a>Lab Notes</h3>
+   <h2 class='chapterHead' id='dialogs'><span class='titlemark'>Chapter 6</span><br /><a id='x8-640006'></a>Dialogs</h2>
+   
+   <h3 class='sectionHead' id='lab-notes'><span class='titlemark'>6.1   </span> <a id='x8-650006.1'></a>Lab Notes</h3>
 <!-- l. 9 --><p class='noindent'>The Lab Notes dialog allows you to take notes on your experimental setup. It contains two tabs: “setup
 notes" and "general notes".
 </p><!-- l. 12 --><p class='indent'>   The contents of the Setup Notes tab are displayed on the <a href='#speed-bump'>Speed Bump</a> dialog when loading a session
 file. The General Notes are only displayed within the Lab Notes dialog and are intended purely as a place
 for recording interesting observations made during the experiment.
-</p><!-- l. 16 --><p class='indent'>   Minimal Markdown syntax (headings and bullets) is currently
-supported.<span class='footnote-mark'><a href='#fn1x7' id='fn1x7-bk'><sup class='textsuperscript'>1</sup></a></span><a id='x8-52001f1'></a>
+</p><!-- l. 16 --><p class='indent'>   Minimal Markdown syntax (headings, bullets, and bold font) is currently
+supported.<span class='footnote-mark'><a href='#fn1x7' id='fn1x7-bk'><sup class='textsuperscript'>1</sup></a></span><a id='x8-65001f1'></a>
 </p><!-- l. 20 --><p class='indent'>   Lab notes are saved as Markdown files in the data directory for the session and can be opened in any
 text editor or Markdown viewer. Note that they are overwritten each time the session is saved, so you
 should not modify them using an external tool while the session is open in ngscopeclient or your changes
 may be lost.
 </p>
-   <figure class='figure' id='-lab-notes-dialog'> 
+   <figure class='figure' id='x8-65003r1'><span id='lab-notes-dialog'></span> 
 
                                                                                          
                                                                                          
-<a id='x8-52003r1'></a>
+
                                                                                          
                                                                                          
 <!-- l. 26 --><p class='noindent'><img alt='PIC' height='621' src='ng-images/dialog-labnotes.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.1: </span><span class='content'>Lab notes dialog</span></figcaption><!-- tex4ht:label?: x8-52003r1  -->
+<figcaption class='caption'><span class='id'>Figure 6.1: </span><span class='content'>Lab notes dialog</span></figcaption><!-- tex4ht:label?: x8-65003r1  -->
                                                                                          
                                                                                          
    </figure>
-   <h3 class='sectionHead' id='log-viewer'><span class='titlemark'>6.2   </span> <a id='x8-530006.2'></a>Log Viewer</h3>
+   
+   <h3 class='sectionHead' id='log-viewer'><span class='titlemark'>6.2   </span> <a id='x8-660006.2'></a>Log Viewer</h3>
 <!-- l. 36 --><p class='noindent'>The Log Viewer dialog provides an alternate way to view log messages sent to stdout / stderr, which may
 be useful for debugging if the application was launched from a desktop icon or similar and there is no
 access to the console.
-</p><!-- l. 39 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Window | Log Viewer </span>menu.
+</p><!-- l. 39 --><p class='indent'>   It can be opened from the <span class='t1-zi4r-0-x-x-109'>Window | Log Viewer </span>menu.
 </p>
-   <figure class='figure' id='-log-viewer-dialog'> 
+   <figure class='figure' id='x8-66001r2'><span id='log-viewer-dialog'></span> 
 
                                                                                          
                                                                                          
-<a id='x8-53001r2'></a>
+
                                                                                          
                                                                                          
 <!-- l. 43 --><p class='noindent'><img alt='PIC' height='434' src='ng-images/dialog-logviewer.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.2: </span><span class='content'>Log Viewer dialog</span></figcaption><!-- tex4ht:label?: x8-53001r2  -->
+<figcaption class='caption'><span class='id'>Figure 6.2: </span><span class='content'>Log Viewer dialog</span></figcaption><!-- tex4ht:label?: x8-66001r2  -->
                                                                                          
                                                                                          
    </figure>
@@ -62,155 +64,266 @@ detail.
 <span class='t1-zi4r-0-x-x-109'>classname</span>, <span class='t1-zi4r-0-x-x-109'>classname::function</span>, or <span class='t1-zi4r-0-x-x-109'>::globalfunction </span>syntax in order to enable high-verbosity messages
 printed via <span class='t1-zi4r-0-x-x-109'>LogTrace()</span>.
 </p>
-   <figure class='figure' id='-log-viewer-dialog-with-tracing-active'> 
+   <figure class='figure' id='x8-66002r3'><span id='log-viewer-dialog-with-tracing-active'></span> 
 
                                                                                          
                                                                                          
-<a id='x8-53002r3'></a>
+
                                                                                          
                                                                                          
 <!-- l. 56 --><p class='noindent'><img alt='PIC' height='453' src='ng-images/dialog-logviewer-trace.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.3: </span><span class='content'>Log Viewer dialog with tracing active</span></figcaption><!-- tex4ht:label?: x8-53002r3  -->
+<figcaption class='caption'><span class='id'>Figure 6.3: </span><span class='content'>Log Viewer dialog with tracing active</span></figcaption><!-- tex4ht:label?: x8-66002r3  -->
                                                                                          
                                                                                          
    </figure>
-   <h3 class='sectionHead' id='performance-metrics'><span class='titlemark'>6.3   </span> <a id='x8-540006.3'></a>Performance Metrics</h3>
-<!-- l. 66 --><p class='noindent'>The Performance Metrics dialog displays statistics on performance of rendering, waveform acquisition, and
-signal processing. This data is primarily intended for developers comparing before/after performance of
-optimizations and code changes.
-</p><!-- l. 70 --><p class='indent'>   It can be found under the <span class='t1-zi4r-0-x-x-109'>Window | Performance Metrics </span>menu.
+   
+   <h3 class='sectionHead' id='measurements'><span class='titlemark'>6.3   </span> <a id='x8-670006.3'></a>Measurements</h3>
+<!-- l. 66 --><p class='noindent'>The Measurements dialog displays scalar values, either produced by filter graph blocks or directly
+measured by e.g. a multimeter channel.
+</p><!-- l. 69 --><p class='indent'>   It can be opened from the <span class='t1-zi4r-0-x-x-109'>Window | Measurements </span>menu.
 </p>
-   <figure class='figure' id='-performance-metrics-dialog'> 
+   <figure class='figure' id='x8-67001r4'><span id='measurements-dialog'></span> 
 
                                                                                          
                                                                                          
-<a id='x8-54001r4'></a>
+
                                                                                          
                                                                                          
-<!-- l. 74 --><p class='noindent'><img alt='PIC' height='292' src='ng-images/dialog-perfmetrics.png' width='199' />
+<!-- l. 73 --><p class='noindent'><img alt='PIC' height='538' src='ng-images/dialog-measurements.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.4: </span><span class='content'>Performance Metrics dialog</span></figcaption><!-- tex4ht:label?: x8-54001r4  -->
+<figcaption class='caption'><span class='id'>Figure 6.4: </span><span class='content'>Measurements dialog</span></figcaption><!-- tex4ht:label?: x8-67001r4  -->
                                                                                          
                                                                                          
    </figure>
-   <h4 class='subsectionHead' id='rendering'><span class='titlemark'>6.3.1   </span> <a id='x8-550006.3.1'></a>Rendering</h4>
-<!-- l. 81 --><p class='noindent'>Displays render loop framerate, monitor refresh rate, total time spent last frame in the rasterization and
+<!-- l. 78 --><p class='indent'>   To remove a measurement, right click the channel name and select “delete" from the context
+menu.
+</p><!-- l. 80 --><p class='indent'>   To add a measurement, drag the stream from the stream browser to a row in the measurements dialog.
+Measurements can also be reordered by dragging and dropping.
+</p><!-- l. 83 --><p class='indent'>   Digital vector values can be displayed as decimal, hex, or binary. To change base, right click the
+channel name and select the desired format from the context menu.
+   
+</p>
+   <h3 class='sectionHead' id='performance-metrics'><span class='titlemark'>6.4   </span> <a id='x8-680006.4'></a>Performance Metrics</h3>
+<!-- l. 91 --><p class='noindent'>The Performance Metrics dialog displays statistics on performance of rendering, waveform acquisition, and
+signal processing. The exact set of statistics displayed can vary depending on available Vulkan extensions,
+discrete vs integrated graphics, etc. This data is primarily intended for developers comparing before/after
+performance of optimizations and code changes.
+</p><!-- l. 96 --><p class='indent'>   It can be opened from the <span class='t1-zi4r-0-x-x-109'>Debug | Performance Metrics </span>menu.
+</p>
+   <figure class='figure' id='x8-68001r5'><span id='performance-metrics-dialog'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 100 --><p class='noindent'><img alt='PIC' height='292' src='ng-images/dialog-perfmetrics.png' width='199' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 6.5: </span><span class='content'>Performance Metrics dialog</span></figcaption><!-- tex4ht:label?: x8-68001r5  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='rendering'><span class='titlemark'>6.4.1   </span> <a id='x8-690006.4.1'></a>Rendering</h4>
+<!-- l. 107 --><p class='noindent'>Displays render loop framerate, monitor refresh rate, total time spent last frame in the rasterization and
 tone mapping shaders, and the number of vertices and indices drawn as Vulkan geometry. Note that
 waveforms are drawn by a compute shader and do not contribute towards the vertex/index totals, other
 than a single textured rectangle used for displaying the shader output.
-</p><!-- l. 86 --><p class='noindent'>
+   
 </p>
-   <h4 class='subsectionHead' id='filter-graph'><span class='titlemark'>6.3.2   </span> <a id='x8-560006.3.2'></a>Filter graph</h4>
-<!-- l. 87 --><p class='noindent'>Number of filter blocks in the current graph, and run time for the most recent evaluation of the filter
+   <h4 class='subsectionHead' id='filter-graph'><span class='titlemark'>6.4.2   </span> <a id='x8-700006.4.2'></a>Filter graph</h4>
+<!-- l. 113 --><p class='noindent'>Number of filter blocks in the current graph, and run time for the most recent evaluation of the filter
 graph.
-</p><!-- l. 90 --><p class='noindent'>
+   
 </p>
-   <h4 class='subsectionHead' id='acquisition'><span class='titlemark'>6.3.3   </span> <a id='x8-570006.3.3'></a>Acquisition</h4>
-<!-- l. 92 --><p class='noindent'>Displays the acquisition rate, in waveforms per second. This data is collected using a rather simple
-mechanism and may not be usefully accurate if multiple trigger groups are in use.
-</p><!-- l. 95 --><p class='indent'>   Additionally, this section displays the number of pending waveforms for each instrument
+   <h4 class='subsectionHead' id='acquisition'><span class='titlemark'>6.4.3   </span> <a id='x8-710006.4.3'></a>Acquisition</h4>
+<!-- l. 118 --><p class='noindent'>Displays the acquisition rate, in waveforms per second, for the entire session as well as for each instrument
+within the session if multiple trigger groups are active.
+</p><!-- l. 121 --><p class='indent'>   Additionally, this section displays the number of pending waveforms for each instrument
 (waveforms which have been acquired but not yet passed to the filter graph). This number should
 normally be flickering between zero and one if acquisition is active and zero otherwise; larger
 values indicate that the instrument is supplying data faster than ngscopeclient can process
 it.
-</p><!-- l. 100 --><p class='noindent'>
+   
 </p>
-   <h4 class='subsectionHead' id='memory'><span class='titlemark'>6.3.4   </span> <a id='x8-580006.3.4'></a>Memory</h4>
-<!-- l. 102 --><p class='noindent'>Displays the total amount of available pinned memory (CPU-side memory eligible to be shared with the
+   <h4 class='subsectionHead' id='memory'><span class='titlemark'>6.4.4   </span> <a id='x8-720006.4.4'></a>Memory</h4>
+<!-- l. 128 --><p class='noindent'>Displays the total amount of available pinned memory (CPU-side memory eligible to be shared with the
 GPU) and local memory (memory attached to the GPU), as well as the amount of each currently in
 use.
-</p><!-- l. 107 --><p class='noindent'>
+   
 </p>
-   <h3 class='sectionHead' id='preferences'><span class='titlemark'>6.4   </span> <a id='x8-590006.4'></a>Preferences</h3>
-<!-- l. 110 --><p class='noindent'>The Preferences dialog allows you to configure various application settings which are not specific to a
+   <h3 class='sectionHead' id='preferences'><span class='titlemark'>6.5   </span> <a id='x8-730006.5'></a>Preferences</h3>
+<!-- l. 136 --><p class='noindent'>The Preferences dialog allows you to configure various application settings which are not specific to a
+                                                                                         
+                                                                                         
 particular experimental setup. It can be found under the <span class='t1-zi4r-0-x-x-109'>Setup | Preferences </span>menu.
-                                                                                         
-                                                                                         
 </p>
-   <figure class='figure' id='-preferences-dialog'> 
+   <figure class='figure' id='x8-73001r6'><span id='preferences-dialog'></span> 
 
                                                                                          
                                                                                          
-<a id='x8-59001r5'></a>
+
                                                                                          
                                                                                          
-<!-- l. 115 --><p class='noindent'><img alt='PIC' height='177' src='ng-images/dialog-preferences.png' width='199' />
+<!-- l. 141 --><p class='noindent'><img alt='PIC' height='177' src='ng-images/dialog-preferences.png' width='199' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.5: </span><span class='content'>Preferences dialog</span></figcaption><!-- tex4ht:label?: x8-59001r5  -->
+<figcaption class='caption'><span class='id'>Figure 6.6: </span><span class='content'>Preferences dialog</span></figcaption><!-- tex4ht:label?: x8-73001r6  -->
                                                                                          
                                                                                          
    </figure>
-   <h4 class='subsectionHead' id='appearance'><span class='titlemark'>6.4.1   </span> <a id='x8-600006.4.1'></a>Appearance</h4>
-<!-- l. 122 --><p class='noindent'>This section allows you to configure fonts, colors, and other display settings for the application.
-</p><!-- l. 126 --><p class='noindent'>
+   
+   <h4 class='subsectionHead' id='appearance'><span class='titlemark'>6.5.1   </span> <a id='x8-740006.5.1'></a>Appearance</h4>
+<!-- l. 148 --><p class='noindent'>This section allows you to configure fonts, colors, and other display settings for the application.
+   
 </p>
-   <h4 class='subsectionHead' id='drivers'><span class='titlemark'>6.4.2   </span> <a id='x8-610006.4.2'></a>Drivers</h4>
-<!-- l. 128 --><p class='noindent'>This section allows you to configure default configurations for various instrument drivers.
-</p><!-- l. 130 --><p class='noindent'>
+   <h5 class='subsubsectionHead' id='stream-browser'><a id='x8-75000'></a>Stream Browser</h5>
+<!-- l. 153 --><p class='noindent'><span class='underline'><span class='ecbx-1095'>Numeric value display</span></span>
+</p><!-- l. 155 --><p class='indent'>   Numeric value display in Stream Browser can take one of the following values: </p>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='ecti-1095'>Console font</span>: use the font defined for console.
+     </li>
+     <li class='itemize'><span class='ecti-1095'>7 segment</span>: use 7 segment style display.
+     </li>
+     <li class='itemize'><span class='ecti-1095'>Default font</span>: use the application default font.</li></ul>
+   <figure class='figure' id='x8-75001r7'><span id='segment'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 164 --><p class='noindent'><img alt='PIC' height='167' src='ng-images/dialog-preferences-numeric-display-7seg.png' width='469' />
 </p>
-   <h5 class='subsubsectionHead' id='general'><a id='x8-62000'></a>General</h5>
+<figcaption class='caption'><span class='id'>Figure 6.7: </span><span class='content'>7 Segment</span></figcaption><!-- tex4ht:label?: x8-75001r7  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <figure class='figure' id='x8-75002r8'><span id='console-font'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 171 --><p class='noindent'><img alt='PIC' height='166' src='ng-images/dialog-preferences-numeric-display-console.png' width='469' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 6.8: </span><span class='content'>Console font</span></figcaption><!-- tex4ht:label?: x8-75002r8  -->
+                                                                                         
+                                                                                         
+   </figure>
+<!-- l. 176 --><p class='indent'>   <span class='underline'><span class='ecbx-1095'>Show block border</span></span>
+</p><!-- l. 178 --><p class='indent'>   When ticked, adds a visual border around stream browser blocks (e.g. channel properties)
+</p>
+   <figure class='figure' id='x8-75003r9'><span id='with-block-border'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 182 --><p class='noindent'><img alt='PIC' height='202' src='ng-images/dialog-preferences-block-border.png' width='469' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 6.9: </span><span class='content'>With block border</span></figcaption><!-- tex4ht:label?: x8-75003r9  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <figure class='figure' id='x8-75004r10'><span id='without-block-border'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 189 --><p class='noindent'><img alt='PIC' height='183' src='ng-images/dialog-preferences-no-block-border.png' width='469' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 6.10: </span><span class='content'>Without block border</span></figcaption><!-- tex4ht:label?: x8-75004r10  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h5 class='subsubsectionHead' id='windowing'><a id='x8-76000'></a>Windowing</h5>
+<!-- l. 197 --><p class='noindent'><span class='underline'><span class='ecbx-1095'>Window startup mode</span></span>
+</p><!-- l. 199 --><p class='indent'>   Window startup mode can be set to one of the following values: </p>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='ecti-1095'>Windowed</span>: the application is started in a fixed 1280x720 window.
+     </li>
+     <li class='itemize'><span class='ecti-1095'>Maximized</span>: the window is maximized on the main screen.
+     </li>
+     <li class='itemize'><span class='ecti-1095'>Last State</span>: the window is restored at the last position and size.</li></ul>
+   <figure class='figure' id='x8-76001r11'><span id='startup-configuration'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 208 --><p class='noindent'><img alt='PIC' height='131' src='ng-images/dialog-preferences-window-startup.png' width='284' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 6.11: </span><span class='content'>Startup configuration</span></figcaption><!-- tex4ht:label?: x8-76001r11  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='drivers'><span class='titlemark'>6.5.2   </span> <a id='x8-770006.5.2'></a>Drivers</h4>
+<!-- l. 217 --><p class='noindent'>This section allows you to configure default configurations for various instrument drivers.
+   
+</p>
+   <h5 class='subsubsectionHead' id='general'><a id='x8-78000'></a>General</h5>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Headless scope default state</span>: When connecting to a headless oscilloscope (one without a front
      panel display), specify the set of channels which should be shown after connecting.</li></ul>
-<!-- l. 137 --><p class='noindent'>
-</p>
-   <h5 class='subsubsectionHead' id='rigol-dho'><a id='x8-63000'></a>Rigol DHO</h5>
+   
+   <h5 class='subsubsectionHead' id='rigol-dho'><a id='x8-79000'></a>Rigol DHO</h5>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Data Width </span>(default auto): Specifies whether to use 8 bit or 16 bit transfer format when
      downloading  samples  from  the  instrument,  or  automatically  decide  based  on  hardware
      configuration.</li></ul>
-<!-- l. 144 --><p class='noindent'>
-</p>
-   <h5 class='subsubsectionHead' id='siglent-sds-hd'><a id='x8-64000'></a>Siglent SDS HD</h5>
-                                                                                         
-                                                                                         
+   
+   <h5 class='subsubsectionHead' id='siglent-sds-hd'><a id='x8-80000'></a>Siglent SDS HD</h5>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Data Width </span>(default auto): Specifies whether to use 8 bit or 16 bit transfer format when
      downloading  samples  from  the  instrument,  or  automatically  decide  based  on  hardware
      configuration.</li></ul>
-<!-- l. 151 --><p class='noindent'>
-</p>
-   <h5 class='subsubsectionHead' id='teledyne-lecroy'><a id='x8-65000'></a>Teledyne LeCroy</h5>
+   
+                                                                                         
+                                                                                         
+   <h5 class='subsubsectionHead' id='teledyne-lecroy'><a id='x8-81000'></a>Teledyne LeCroy</h5>
      <ul class='itemize1'>
      <li class='itemize'>
-     <!-- l. 154 --><p class='noindent'><span class='ecti-1095'>Force  16  bit  mode  </span>(default  on):  Always  use  16-bit  format  for  downloading  data  from
+     <!-- l. 243 --><p class='noindent'><span class='ecti-1095'>Force  16  bit  mode  </span>(default  on):  Always  use  16-bit  format  for  downloading  data  from
      the  instrument,  even  if  it  only  has  an  8-bit  ADC.  This  doubles  the  amount  of  network
      bandwidth  required  and  may  reduce  waveforms-per-second  performance,  but  provides
      smoother waveforms.
-     </p><!-- l. 158 --><p class='noindent'>Note that Teledyne LeCroy scopes perform DSP flatness corrections between the ADC and
-     the data presented via the API, meaning that even if the hardware only has an 8-bit ADC,
-     downloading data with 16-bit precision will result in improved accuracy.
+     </p><!-- l. 247 --><p class='noindent'>Note that Teledyne LeCroy scopes perform DSP flatness corrections in firmware between the
+     ADC and the data presented via the API, meaning that even if the hardware only has an
+     8-bit ADC (non HD models), downloading data with 16-bit precision will result in improved
+     waveform quality.
 </p>
      </li></ul>
-<!-- l. 164 --><p class='noindent'>
-</p>
-   <h4 class='subsectionHead' id='files'><span class='titlemark'>6.4.3   </span> <a id='x8-660006.4.3'></a>Files</h4>
+   
+   <h4 class='subsectionHead' id='files'><span class='titlemark'>6.5.3   </span> <a id='x8-820006.5.3'></a>Files</h4>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Max recent files</span>: Specify the number of files to display under the <span class='t1-zi4r-0-x-x-109'>File | Recent Files </span>menu.</li></ul>
-<!-- l. 170 --><p class='noindent'>
-</p>
-   <h4 class='subsectionHead' id='miscellaneous'><span class='titlemark'>6.4.4   </span> <a id='x8-670006.4.4'></a>Miscellaneous</h4>
-                                                                                         
-                                                                                         
-<!-- l. 172 --><p class='noindent'>
-</p>
-   <h5 class='subsubsectionHead' id='menus'><a id='x8-68000'></a>Menus</h5>
+   
+   <h4 class='subsectionHead' id='miscellaneous'><span class='titlemark'>6.5.4   </span> <a id='x8-830006.5.4'></a>Miscellaneous</h4>
+   
+   <h5 class='subsubsectionHead' id='menus'><a id='x8-84000'></a>Menus</h5>
      <ul class='itemize1'>
      <li class='itemize'><span class='ecti-1095'>Recent instrument count</span>: Specify the number of recently used instruments to remember</li></ul>
-<!-- l. 178 --><p class='noindent'>
-</p>
-   <h4 class='subsectionHead' id='power'><span class='titlemark'>6.4.5   </span> <a id='x8-690006.4.5'></a>Power</h4>
-<!-- l. 180 --><p class='noindent'>
-</p>
-   <h5 class='subsubsectionHead' id='events'><a id='x8-70000'></a>Events</h5>
-<!-- l. 182 --><p class='noindent'>This section provides settings allowing power vs performance tradeoffs. The default settings are
+   
+   <h4 class='subsectionHead' id='power'><span class='titlemark'>6.5.5   </span> <a id='x8-850006.5.5'></a>Power</h4>
+   
+                                                                                         
+                                                                                         
+   <h5 class='subsubsectionHead' id='events'><a id='x8-86000'></a>Events</h5>
+<!-- l. 271 --><p class='noindent'>This section provides settings allowing power vs performance tradeoffs. The default settings are
 appropriate for a desktop or laptop running on AC power; if running on a laptop with battery power you
 may wish to tune these to extend battery lifespan.
 </p>
      <ul class='itemize1'>
      <li class='itemize'>
-     <!-- l. 187 --><p class='noindent'><span class='ecti-1095'>Event loop mode</span>: Controls the operating mode for the main application event loop. </p>
+     <!-- l. 276 --><p class='noindent'><span class='ecti-1095'>Event loop mode</span>: Controls the operating mode for the main application event loop. </p>
           <ul class='itemize2'>
           <li class='itemize'>In Performance mode, run at the screen refresh rate. This allows for the highest possible
           waveform processing rate and the smoothest interactivity, but may waste energy if you
@@ -224,12 +337,9 @@ may wish to tune these to extend battery lifespan.
      </li>
      <li class='itemize'><span class='ecti-1095'>Polling timeout</span>: If the event loop is in Power mode, specifies the timeout before the event loop will
      run if there is no user input.</li></ul>
-                                                                                         
-                                                                                         
-<!-- l. 202 --><p class='noindent'>
-</p>
-   <h3 class='sectionHead' id='speed-bump'><span class='titlemark'>6.5   </span> <a id='x8-710006.5'></a>Speed Bump</h3>
-<!-- l. 205 --><p class='noindent'>The Speed Bump dialog is displayed when loading a session file online (reconnecting to and reconfiguring
+   
+   <h3 class='sectionHead' id='speed-bump'><span class='titlemark'>6.6   </span> <a id='x8-870006.6'></a>Speed Bump</h3>
+<!-- l. 294 --><p class='noindent'>The Speed Bump dialog is displayed when loading a session file online (reconnecting to and reconfiguring
 hardware), prior to committing changes to the instrument, if:
 </p>
      <ul class='itemize1'>
@@ -238,28 +348,30 @@ hardware), prior to committing changes to the instrument, if:
      <li class='itemize'>Any of the instrument settings in the session file do not match the current configuration of
      the corresponding instrument, and the direction of the change has potential to cause damage
      to the instrument or DUT (increasing output voltage, removing input attenuation, etc).</li></ul>
-<!-- l. 215 --><p class='indent'>   This is intended as a safeguard to prevent damaging hardware by accidentally loading the wrong
+                                                                                         
+                                                                                         
+<!-- l. 304 --><p class='indent'>   This is intended as a safeguard to prevent damaging hardware by accidentally loading the wrong
 session file. It also provides an opportunity to confirm that you have re-created the original experimental
 setup exactly if you are switching a lab bench between multiple projects and using saved sessions to restore
 instrument state.
-</p><!-- l. 219 --><p class='indent'>   Pressing the Abort button cancels loading of the session without applying any of the potentially
+</p><!-- l. 308 --><p class='indent'>   Pressing the Abort button cancels loading of the session without applying any of the potentially
 dangerous changes. The instruments may be partially reconfigured in this state, as some changes (such as
 sample rate or memory depth configuration) are always safe to make and thus may have been applied prior
 to the warning being displayed.
-</p><!-- l. 223 --><p class='indent'>   Pressing the Proceed button allows ngscopeclient to proceed with loading the session and reconfiguring
+</p><!-- l. 312 --><p class='indent'>   Pressing the Proceed button allows ngscopeclient to proceed with loading the session and reconfiguring
 hardware. You must check the “I have reviewed the instrument configuration" box in order to enable the
 Proceed button.
 </p>
-   <figure class='figure' id='-speed-bump-dialog'> 
+   <figure class='figure' id='x8-87001r12'><span id='speed-bump-dialog'></span> 
 
                                                                                          
                                                                                          
-<a id='x8-71001r6'></a>
+
                                                                                          
                                                                                          
-<!-- l. 228 --><p class='noindent'><img alt='PIC' height='673' src='ng-images/dialog-speedbump.png' width='1027' />
+<!-- l. 317 --><p class='noindent'><img alt='PIC' height='673' src='ng-images/dialog-speedbump.png' width='1027' />
 </p>
-<figcaption class='caption'><span class='id'>Figure 6.6: </span><span class='content'>Speed Bump dialog</span></figcaption><!-- tex4ht:label?: x8-71001r6  -->
+<figcaption class='caption'><span class='id'>Figure 6.12: </span><span class='content'>Speed Bump dialog</span></figcaption><!-- tex4ht:label?: x8-87001r12  -->
                                                                                          
                                                                                          
    </figure>
@@ -271,9 +383,9 @@ Proceed button.
                                                                                          
                                                                                          
                                                                                          
-   <div class='footnotes'><a id='x8-52002x6.1'></a>
+   <div class='footnotes'><a id='x8-65002x6.1'></a>
 <!-- l. 18 --><p class='indent'>     <span class='footnote-mark'><a href='#fn1x7-bk' id='fn1x7'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-0900'>Images and links are supported by the Markdown renderer library but the integration to properly use them is not yet
-</span><span class='ecrm-0900'>finished; tables are not supported but this will likely be added in the future.</span></p>                                                    </div>
+finished; tables are not supported but this will likely be added in the future.</span></p>                                                    </div>
 <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='WorkspacesandWindowManagement.html'>next</a>] [<a href='MainWindow.html'>prev</a>] [<a href='MainWindow.html#tailMainWindow.html'>prev-tail</a>] [<a href='Dialogs.html'>front</a>] [<a href='ngscopeclient-manual.html#Dialogs.html'>up</a>] </p></div>
 <!-- l. 1 --><p class='indent'>   <a id='tailDialogs.html'></a>  </p> 
 </body> 

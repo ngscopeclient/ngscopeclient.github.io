@@ -1,0 +1,15 @@
+<map id="AntikernelLabsGPIO" name="AntikernelLabsGPIO">
+<area shape="rect" id="Node000001" title="A miscellaneous instrument which provides access to an Antikernel Labs GPIO bridge." alt="" coords="179,313,330,339"/>
+<area shape="rect" id="Node000002" href="$classSCPIMiscInstrument.html" title="An SCPI&#45;based miscellaneous instrument." alt="" coords="179,240,331,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,279,257,313,252,313,252,279"/>
+<area shape="rect" id="Node000003" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="193,167,316,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,206,257,240,252,240,252,206"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,93,243,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="216,128,247,165,243,168,212,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="137,52,184,91,180,95,133,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="269,49,212,95,209,91,266,45"/>
+<area shape="rect" id="Node000007" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="267,93,363,119"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="298,131,266,168,262,165,294,128"/>
+</map>

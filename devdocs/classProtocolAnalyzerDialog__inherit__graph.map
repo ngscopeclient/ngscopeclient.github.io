@@ -1,4 +1,11 @@
 <map id="ProtocolAnalyzerDialog" name="ProtocolAnalyzerDialog">
-<area shape="rect" id="node1" title="UI for the history system." alt="" coords="5,80,180,107"/>
-<area shape="rect" id="node2" href="$classDialog.html" title="Generic dialog box or other popup window." alt="" coords="61,5,125,32"/>
+<area shape="rect" id="Node000001" title="UI for the history system." alt="" coords="5,225,180,251"/>
+<area shape="rect" id="Node000002" href="$classDialog.html" title="Generic dialog box or other popup window." alt="" coords="11,152,75,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,187,87,224,82,227,57,190"/>
+<area shape="rect" id="Node000003" href="$classSinkNode.html" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="100,152,184,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,190,103,227,98,224,124,187"/>
+<area shape="rect" id="Node000004" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="79,79,205,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="145,118,145,152,139,152,139,118"/>
+<area shape="rect" id="Node000005" href="$classSerializableObject.html" title=" " alt="" coords="72,5,212,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="145,44,145,79,139,79,139,44"/>
 </map>

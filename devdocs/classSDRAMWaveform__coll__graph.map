@@ -1,13 +1,27 @@
 <map id="SDRAMWaveform" name="SDRAMWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="1692,110,1831,137"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="1381,110,1643,137"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1087,77,1253,103"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="749,15,872,42"/>
-<area shape="rect" id="node5" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,5,506,47"/>
-<area shape="rect" id="node6" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node7" href="$classAcceleratorBuffer.html" title=" " alt="" coords="737,69,884,111"/>
-<area shape="rect" id="node8" href="$classAlignedAllocator.html" title=" " alt="" coords="344,71,521,112"/>
-<area shape="rect" id="node9" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1097,135,1243,176"/>
-<area shape="rect" id="node10" href="$classAlignedAllocator.html" title=" " alt="" coords="688,135,933,176"/>
-<area shape="rect" id="node11" href="$classSDRAMSymbol.html" title=" " alt="" coords="751,201,870,227"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1495,169,1633,194"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="1184,169,1445,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1459,179,1495,179,1495,184,1459,184"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="968,127,1135,153"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1146,152,1233,166,1233,171,1146,157"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="717,127,840,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="854,137,968,137,968,143,854,143"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="404,120,551,160"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="564,137,717,137,717,143,564,143"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="44,90,212,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="226,105,380,119,404,122,403,128,380,124,225,110"/>
+<area shape="rect" id="Node000008" href="$classAcceleratorBuffer.html" title=" " alt="" coords="404,49,551,89"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="226,90,274,85,404,73,404,79,275,91,226,95"/>
+<area shape="rect" id="Node000010" href="$classAcceleratorBuffer.html" title=" " alt="" coords="404,196,551,236"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="226,110,303,126,381,152,394,160,406,170,443,194,441,198,402,174,391,165,379,157,302,131,225,116"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="35,145,221,185"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="234,155,404,143,404,148,234,160"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="565,75,740,93,944,119,982,125,981,130,944,124,739,98,564,80"/>
+<area shape="rect" id="Node000009" href="$classAlignedAllocator.html" title=" " alt="" coords="39,5,217,45"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="231,36,404,58,403,63,230,41"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="565,210,1184,184,1184,189,565,215"/>
+<area shape="rect" id="Node000011" href="$classAlignedAllocator.html" title=" " alt="" coords="5,260,251,300"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="263,257,379,236,403,231,404,236,381,241,264,262"/>
+<area shape="rect" id="Node000012" href="$classSDRAMSymbol.html" title=" " alt="" coords="69,210,187,235"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="201,219,404,215,404,220,201,224"/>
 </map>

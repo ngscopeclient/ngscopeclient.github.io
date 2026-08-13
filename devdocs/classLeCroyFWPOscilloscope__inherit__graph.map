@@ -1,15 +1,32 @@
 <map id="LeCroyFWPOscilloscope" name="LeCroyFWPOscilloscope">
-<area shape="rect" id="node1" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="165,393,344,420"/>
-<area shape="rect" id="node2" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="180,319,329,345"/>
-<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="36,244,169,271"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="5,169,109,196"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="273,95,367,121"/>
-<area shape="rect" id="node8" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="133,169,256,196"/>
-<area shape="rect" id="node11" href="$classMultimeter.html" title="A multimeter." alt="" coords="281,169,375,196"/>
-<area shape="rect" id="node13" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="399,169,542,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="128,5,320,47"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="345,13,485,39"/>
-<area shape="rect" id="node10" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="193,244,316,271"/>
-<area shape="rect" id="node12" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="340,244,511,271"/>
-<area shape="rect" id="node9" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="147,95,243,121"/>
+<area shape="rect" id="Node000001" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="165,387,344,412"/>
+<area shape="rect" id="Node000002" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="180,313,329,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,352,257,387,252,387,252,352"/>
+<area shape="rect" id="Node000003" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="36,240,169,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,269,231,311,229,316,138,273"/>
+<area shape="rect" id="Node000004" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="5,167,109,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,202,98,238,93,241,70,205"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="273,93,367,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="265,125,101,169,99,164,264,120"/>
+<area shape="rect" id="Node000008" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="133,167,256,192"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="289,128,216,169,214,164,287,123"/>
+<area shape="rect" id="Node000011" href="$classMultimeter.html" title="A multimeter." alt="" coords="281,167,375,192"/>
+<area shape="poly" id="edge12_Node000011_Node000005" title=" " alt="" coords="325,132,329,166,324,167,320,133"/>
+<area shape="rect" id="Node000013" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="399,167,542,192"/>
+<area shape="poly" id="edge16_Node000013_Node000005" title=" " alt="" coords="358,122,447,164,445,169,355,127"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="128,5,320,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="259,52,307,91,304,95,256,56"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="345,13,485,38"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="392,49,336,95,332,91,388,45"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="171,202,119,242,116,238,168,198"/>
+<area shape="rect" id="Node000010" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="193,240,316,265"/>
+<area shape="poly" id="edge13_Node000010_Node000008" title=" " alt="" coords="215,201,247,238,243,242,211,204"/>
+<area shape="rect" id="Node000012" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="340,240,511,265"/>
+<area shape="poly" id="edge17_Node000012_Node000008" title=" " alt="" coords="246,194,389,237,387,242,244,199"/>
+<area shape="rect" id="Node000009" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="147,93,243,119"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="197,132,197,167,192,167,192,132"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="257,279,257,313,252,313,252,279"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="308,204,268,242,265,238,304,200"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="386,273,284,316,282,311,384,268"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="458,205,435,241,430,238,454,202"/>
 </map>

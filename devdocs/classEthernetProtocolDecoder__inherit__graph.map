@@ -1,18 +1,33 @@
 <map id="EthernetProtocolDecoder" name="EthernetProtocolDecoder">
-<area shape="rect" id="node1" title=" " alt="" coords="1037,183,1221,209"/>
-<area shape="rect" id="node8" href="$classEthernet1000BaseXDecoder.html" title=" " alt="" coords="1269,5,1473,32"/>
-<area shape="rect" id="node10" href="$classEthernet100BaseT1Decoder.html" title=" " alt="" coords="1270,56,1473,83"/>
-<area shape="rect" id="node11" href="$classEthernet100BaseTXDecoder.html" title=" " alt="" coords="1269,107,1473,133"/>
-<area shape="rect" id="node12" href="$classEthernet10BaseTDecoder.html" title=" " alt="" coords="1278,157,1465,184"/>
-<area shape="rect" id="node13" href="$classEthernet10GBaseRDecoder.html" title=" " alt="" coords="1272,208,1471,235"/>
-<area shape="rect" id="node14" href="$classEthernetGMIIDecoder.html" title=" " alt="" coords="1291,259,1452,285"/>
-<area shape="rect" id="node15" href="$classEthernetRGMIIDecoder.html" title=" " alt="" coords="1286,309,1457,336"/>
-<area shape="rect" id="node16" href="$classEthernetRMIIDecoder.html" title=" " alt="" coords="1291,360,1451,387"/>
-<area shape="rect" id="node2" href="$classPacketDecoder.html" title=" " alt="" coords="871,183,989,209"/>
-<area shape="rect" id="node3" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="768,183,823,209"/>
-<area shape="rect" id="node4" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="563,183,720,209"/>
-<area shape="rect" id="node5" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="368,183,515,209"/>
-<area shape="rect" id="node6" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="193,183,320,209"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="5,183,145,209"/>
-<area shape="rect" id="node9" href="$classEthernetSGMIIDecoder.html" title=" " alt="" coords="1521,5,1691,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1037,179,1221,204"/>
+<area shape="rect" id="Node000008" href="$classEthernet1000BaseXDecoder.html" title=" " alt="" coords="1269,5,1473,31"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1145,165,1194,103,1229,69,1268,41,1297,28,1299,33,1271,46,1232,73,1198,106,1149,169"/>
+<area shape="rect" id="Node000010" href="$classEthernet100BaseT1Decoder.html" title=" " alt="" coords="1270,55,1473,80"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1153,168,1204,128,1268,90,1303,78,1305,83,1270,95,1207,133,1157,172"/>
+<area shape="rect" id="Node000011" href="$classEthernet100BaseTXDecoder.html" title=" " alt="" coords="1269,104,1473,129"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1176,171,1269,139,1315,127,1316,132,1270,145,1177,176"/>
+<area shape="rect" id="Node000012" href="$classEthernet10BaseTDecoder.html" title=" " alt="" coords="1278,153,1465,179"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1235,178,1277,173,1278,178,1235,183"/>
+<area shape="rect" id="Node000013" href="$classEthernet10GBaseRDecoder.html" title=" " alt="" coords="1272,203,1471,228"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1235,199,1272,203,1271,208,1235,204"/>
+<area shape="rect" id="Node000014" href="$classEthernetGMIIDecoder.html" title=" " alt="" coords="1291,252,1452,277"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1177,206,1270,238,1312,249,1311,254,1269,243,1175,211"/>
+<area shape="rect" id="Node000015" href="$classEthernetRGMIIDecoder.html" title=" " alt="" coords="1286,301,1457,327"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1157,211,1207,250,1270,288,1302,299,1300,304,1268,292,1204,255,1153,215"/>
+<area shape="rect" id="Node000016" href="$classEthernetRMIIDecoder.html" title=" " alt="" coords="1291,351,1451,376"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="1149,214,1198,276,1232,309,1271,337,1296,348,1294,353,1268,342,1229,314,1194,280,1145,217"/>
+<area shape="rect" id="Node000002" href="$classPacketDecoder.html" title=" " alt="" coords="871,179,989,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1003,189,1037,189,1037,194,1003,194"/>
+<area shape="rect" id="Node000003" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="768,179,823,204"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="836,189,870,189,870,194,836,194"/>
+<area shape="rect" id="Node000004" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="563,179,720,204"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="734,189,768,189,768,194,734,194"/>
+<area shape="rect" id="Node000005" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="368,179,515,204"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="529,189,562,189,562,194,529,194"/>
+<area shape="rect" id="Node000006" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="193,179,320,204"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="334,189,367,189,367,194,334,194"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="5,179,145,204"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="159,189,193,189,193,194,159,194"/>
+<area shape="rect" id="Node000009" href="$classEthernetSGMIIDecoder.html" title=" " alt="" coords="1521,5,1691,31"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1487,15,1521,15,1521,21,1487,21"/>
 </map>

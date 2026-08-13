@@ -1,11 +1,21 @@
 <map id="MultiLaneBERT" name="MultiLaneBERT">
-<area shape="rect" id="node1" title="A MultiLANE BERT accessed via scopehal&#45;mlbert&#45;bridge." alt="" coords="8,337,128,364"/>
-<area shape="rect" id="node2" href="$classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="108,261,193,288"/>
-<area shape="rect" id="node3" href="$classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="236,185,292,212"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="212,109,305,136"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="89,185,212,212"/>
-<area shape="rect" id="node5" title=" " alt="" coords="159,5,351,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="375,13,515,39"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="13,109,109,136"/>
-<area shape="rect" id="node9" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
+<area shape="rect" id="Node000001" title="A MultiLANE BERT accessed via scopehal&#45;mlbert&#45;bridge." alt="" coords="8,332,128,357"/>
+<area shape="rect" id="Node000002" href="$classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="108,257,193,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,294,83,334,80,330,125,290"/>
+<area shape="rect" id="Node000003" href="$classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="236,183,292,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="236,218,170,259,167,255,233,213"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="212,108,305,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="263,147,266,182,260,183,258,147"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="89,183,212,208"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="231,143,169,185,166,180,228,139"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="159,5,351,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="259,59,261,108,255,108,253,59"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="375,13,515,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="411,47,283,110,281,105,409,42"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="153,222,153,257,148,257,148,222"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="13,108,109,133"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="65,147,70,332,65,332,59,148"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="88,140,138,180,134,184,85,144"/>
+<area shape="rect" id="Node000009" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,38"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="64,52,64,108,59,108,59,52"/>
 </map>

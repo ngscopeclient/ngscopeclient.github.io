@@ -1,37 +1,73 @@
 <map id="Dialog" name="Dialog">
-<area shape="rect" id="node1" title="Generic dialog box or other popup window." alt="" coords="5,613,69,640"/>
-<area shape="rect" id="node2" href="$classAboutDialog.html" title=" " alt="" coords="163,5,266,32"/>
-<area shape="rect" id="node3" href="$classAddInstrumentDialog.html" title=" " alt="" coords="135,56,295,83"/>
-<area shape="rect" id="node4" href="$classBERTDialog.html" title=" " alt="" coords="165,107,264,133"/>
-<area shape="rect" id="node5" href="$classCreateFilterBrowser.html" title=" " alt="" coords="139,157,290,184"/>
-<area shape="rect" id="node6" href="$classEmbeddableDialog.html" title=" " alt="" coords="142,208,287,235"/>
-<area shape="rect" id="node16" href="$classFilterGraphEditor.html" title=" " alt="" coords="149,259,280,285"/>
-<area shape="rect" id="node17" href="$classFunctionGeneratorDialog.html" title=" " alt="" coords="123,309,307,336"/>
-<area shape="rect" id="node18" href="$classHistoryDialog.html" title="UI for the history system." alt="" coords="159,360,270,387"/>
-<area shape="rect" id="node19" href="$classLoadDialog.html" title=" " alt="" coords="167,411,262,437"/>
-<area shape="rect" id="node20" href="$classLogViewerDialog.html" title=" " alt="" coords="149,461,281,488"/>
-<area shape="rect" id="node21" href="$classManageInstrumentsDialog.html" title=" " alt="" coords="117,512,312,539"/>
-<area shape="rect" id="node22" href="$classMeasurementsDialog.html" title=" " alt="" coords="134,563,295,589"/>
-<area shape="rect" id="node23" href="$classMemoryLeakerDialog.html" title="Debug tool for temporarily eating a lot of memory." alt="" coords="134,613,295,640"/>
-<area shape="rect" id="node24" href="$classMetricsDialog.html" title=" " alt="" coords="159,664,271,691"/>
-<area shape="rect" id="node25" href="$classMultimeterDialog.html" title=" " alt="" coords="147,715,283,741"/>
-<area shape="rect" id="node26" href="$classNotesDialog.html" title=" " alt="" coords="163,765,266,792"/>
-<area shape="rect" id="node27" href="$classPersistenceSettingsDialog.html" title=" " alt="" coords="119,816,311,843"/>
-<area shape="rect" id="node28" href="$classPowerSupplyDialog.html" title=" " alt="" coords="141,867,289,893"/>
-<area shape="rect" id="node29" href="$classPreferenceDialog.html" title=" " alt="" coords="147,917,282,944"/>
-<area shape="rect" id="node30" href="$classProtocolAnalyzerDialog.html" title="UI for the history system." alt="" coords="127,968,302,995"/>
-<area shape="rect" id="node31" href="$classRFGeneratorDialog.html" title=" " alt="" coords="141,1019,288,1045"/>
-<area shape="rect" id="node32" href="$classSCPIConsoleDialog.html" title="SCPI console for debugging drivers." alt="" coords="142,1069,287,1096"/>
-<area shape="rect" id="node33" href="$classScopeDeskewWizard.html" title=" " alt="" coords="136,1120,293,1147"/>
-<area shape="rect" id="node34" href="$classStreamBrowserDialog.html" title=" " alt="" coords="133,1171,297,1197"/>
-<area shape="rect" id="node35" href="$classTriggerPropertiesDialog.html" title=" " alt="" coords="127,1221,302,1248"/>
-<area shape="rect" id="node7" href="$classBERTInputChannelDialog.html" title=" " alt="" coords="375,56,559,83"/>
-<area shape="rect" id="node8" href="$classBERTOutputChannelDialog.html" title=" " alt="" coords="370,107,565,133"/>
-<area shape="rect" id="node9" href="$classBaseChannelPropertiesDialog.html" title=" " alt="" coords="360,157,575,184"/>
-<area shape="rect" id="node12" href="$classDigitalIOChannelDialog.html" title=" " alt="" coords="380,208,555,235"/>
-<area shape="rect" id="node13" href="$classDigitalInputChannelDialog.html" title=" " alt="" coords="371,259,564,285"/>
-<area shape="rect" id="node14" href="$classDigitalOutputChannelDialog.html" title=" " alt="" coords="365,309,569,336"/>
-<area shape="rect" id="node15" href="$classEmbeddedTriggerPropertiesDialog.html" title="Wrapper around TriggerPropertiesPage for rendering as an EmbeddableDialog." alt="" coords="366,361,569,402"/>
-<area shape="rect" id="node10" href="$classChannelPropertiesDialog.html" title=" " alt="" coords="623,157,805,184"/>
-<area shape="rect" id="node11" href="$classFilterPropertiesDialog.html" title=" " alt="" coords="853,157,1016,184"/>
+<area shape="rect" id="Node000001" title="Generic dialog box or other popup window." alt="" coords="5,623,69,648"/>
+<area shape="rect" id="Node000002" href="$classAboutDialog.html" title=" " alt="" coords="163,5,266,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="36,609,37,488,46,318,56,231,70,151,90,86,102,60,115,40,137,25,162,17,164,22,139,29,119,44,106,63,95,88,75,153,61,232,52,319,42,488,41,609"/>
+<area shape="rect" id="Node000003" href="$classAddInstrumentDialog.html" title=" " alt="" coords="135,55,295,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="36,609,39,498,49,342,59,263,73,191,91,131,103,107,115,89,133,76,136,81,119,93,107,110,96,133,78,192,65,264,55,343,44,498,41,609"/>
+<area shape="rect" id="Node000004" href="$classBERTDialog.html" title=" " alt="" coords="165,104,264,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="37,608,41,506,53,366,63,294,76,229,93,176,115,139,138,123,165,115,166,121,140,128,119,142,98,178,81,231,68,295,58,366,46,506,42,609"/>
+<area shape="rect" id="Node000005" href="$classCreateFilterBrowser.html" title=" " alt="" coords="139,153,290,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="37,609,43,516,56,390,66,326,79,269,95,221,115,188,138,173,141,177,119,192,100,223,84,270,71,327,61,391,48,516,42,609"/>
+<area shape="rect" id="Node000006" href="$classEmbeddableDialog.html" title=" " alt="" coords="142,203,287,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="38,609,45,525,59,414,82,308,97,266,115,237,140,221,143,226,119,241,102,269,87,309,64,415,50,525,43,609"/>
+<area shape="rect" id="Node000016" href="$classFilterGraphEditor.html" title=" " alt="" coords="149,252,280,277"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="38,609,47,534,62,438,85,347,99,311,115,287,131,275,148,268,150,273,133,280,119,290,104,314,90,349,68,439,52,535,44,609"/>
+<area shape="rect" id="Node000017" href="$classFilterGraphErrorWindow.html" title=" " alt="" coords="127,301,303,327"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="40,609,50,544,66,463,88,387,101,357,115,336,131,325,134,329,119,340,106,359,93,388,71,464,55,545,45,610"/>
+<area shape="rect" id="Node000018" href="$classHardwareFlagsDialog.html" title=" " alt="" coords="133,351,296,376"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="37,609,41,561,53,501,77,440,94,412,116,387,134,374,137,378,119,391,98,415,81,442,58,503,46,562,42,609"/>
+<area shape="rect" id="Node000019" href="$classHistoryDialog.html" title="UI for the history system." alt="" coords="159,400,270,425"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="39,608,46,570,60,524,82,476,98,455,116,436,136,423,158,415,160,420,138,428,119,440,102,458,87,479,65,525,51,571,44,609"/>
+<area shape="rect" id="Node000020" href="$classLoadDialog.html" title=" " alt="" coords="167,449,262,475"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="43,608,68,546,89,513,116,485,140,472,166,464,168,469,142,476,119,489,93,517,73,549,48,610"/>
+<area shape="rect" id="Node000021" href="$classLogViewerDialog.html" title=" " alt="" coords="149,499,281,524"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="50,609,77,571,95,551,116,534,147,520,150,525,119,539,99,555,81,574,54,612"/>
+<area shape="rect" id="Node000022" href="$classManageInstrumentsDialog.html" title=" " alt="" coords="117,548,312,573"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="66,612,116,584,153,571,154,576,118,588,68,617"/>
+<area shape="rect" id="Node000023" href="$classMeasurementsDialog.html" title=" " alt="" coords="134,597,295,623"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="83,626,133,619,134,624,83,632"/>
+<area shape="rect" id="Node000024" href="$classMemoryDialog.html" title=" " alt="" coords="155,647,274,672"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="83,639,156,649,155,654,83,644"/>
+<area shape="rect" id="Node000025" href="$classMemoryLeakerDialog.html" title="Debug tool for temporarily eating a lot of memory." alt="" coords="134,696,295,721"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="68,654,118,682,151,693,150,698,116,687,66,659"/>
+<area shape="rect" id="Node000026" href="$classMetricsDialog.html" title=" " alt="" coords="159,745,271,771"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="54,659,81,697,99,716,119,732,138,742,159,748,158,753,136,746,116,736,95,720,77,700,50,662"/>
+<area shape="rect" id="Node000027" href="$classNotesDialog.html" title=" " alt="" coords="163,795,266,820"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="48,660,73,722,93,754,119,781,140,793,164,800,162,805,138,798,116,785,89,757,68,724,43,662"/>
+<area shape="rect" id="Node000028" href="$classPowerSupplyDialog.html" title=" " alt="" coords="141,844,289,869"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="44,661,51,700,65,745,87,792,102,812,119,831,142,844,139,849,116,835,98,816,82,794,60,747,46,701,39,662"/>
+<area shape="rect" id="Node000029" href="$classPreferenceDialog.html" title=" " alt="" coords="147,893,282,919"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="42,662,46,709,58,768,81,829,98,856,119,880,148,896,146,901,116,884,94,859,76,831,53,769,41,710,36,662"/>
+<area shape="rect" id="Node000030" href="$classProtocolAnalyzerDialog.html" title="UI for the history system." alt="" coords="127,943,302,968"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="45,661,55,725,71,806,93,881,106,910,119,929,134,940,131,945,115,933,101,913,88,883,66,807,50,726,40,662"/>
+<area shape="rect" id="Node000031" href="$classRFGeneratorDialog.html" title=" " alt="" coords="141,992,288,1017"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="44,661,52,735,68,831,90,921,104,956,119,979,142,994,139,998,115,983,99,958,85,923,63,832,47,736,38,662"/>
+<area shape="rect" id="Node000032" href="$classSCPIConsoleDialog.html" title="SCPI console for debugging drivers." alt="" coords="142,1041,287,1067"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="43,661,50,745,64,855,87,960,102,1001,119,1028,143,1044,140,1048,115,1032,97,1003,82,962,59,856,45,746,38,662"/>
+<area shape="rect" id="Node000033" href="$classScopeDeskewWizard.html" title=" " alt="" coords="136,1091,293,1116"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="42,661,48,754,61,879,71,942,84,999,100,1046,119,1078,138,1091,134,1095,115,1081,95,1048,79,1001,66,943,56,880,43,755,37,662"/>
+<area shape="rect" id="Node000034" href="$classStreamBrowserDialog.html" title=" " alt="" coords="133,1140,297,1165"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="42,662,46,764,58,904,68,975,81,1039,98,1091,119,1127,134,1138,131,1143,115,1130,93,1094,76,1040,63,975,53,904,41,764,37,662"/>
+<area shape="rect" id="Node000035" href="$classTriggerPropertiesDialog.html" title=" " alt="" coords="127,1189,302,1215"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="41,662,44,773,55,928,65,1006,78,1078,96,1137,107,1159,119,1176,133,1187,130,1191,115,1180,103,1162,92,1139,73,1079,59,1007,50,928,39,774,36,662"/>
+<area shape="rect" id="Node000036" href="$classTutorialWizard.html" title=" " alt="" coords="157,1239,272,1264"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="41,662,42,782,52,951,61,1038,75,1117,95,1182,106,1207,119,1225,137,1239,158,1246,156,1251,134,1243,115,1229,102,1209,90,1184,70,1118,56,1039,46,952,37,782,36,662"/>
+<area shape="rect" id="Node000007" href="$classBERTInputChannelDialog.html" title=" " alt="" coords="375,55,559,80"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="299,196,310,188,321,177,328,165,333,140,339,114,346,101,358,89,377,78,380,83,362,93,351,105,344,116,338,141,333,167,325,180,314,192,301,200"/>
+<area shape="rect" id="Node000008" href="$classBERTOutputChannelDialog.html" title=" " alt="" coords="370,104,565,129"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="295,195,311,188,325,176,334,164,343,151,359,138,385,127,387,132,361,143,347,154,338,167,329,180,313,192,298,200"/>
+<area shape="rect" id="Node000009" href="$classBaseChannelPropertiesDialog.html" title=" " alt="" coords="360,153,575,179"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="293,197,401,176,402,181,294,203"/>
+<area shape="rect" id="Node000012" href="$classDigitalIOChannelDialog.html" title=" " alt="" coords="380,203,555,228"/>
+<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="301,213,380,213,380,218,301,218"/>
+<area shape="rect" id="Node000013" href="$classDigitalInputChannelDialog.html" title=" " alt="" coords="371,252,564,277"/>
+<area shape="poly" id="edge12_Node000006_Node000013" title=" " alt="" coords="294,228,402,249,401,255,293,233"/>
+<area shape="rect" id="Node000014" href="$classDigitalOutputChannelDialog.html" title=" " alt="" coords="365,301,569,327"/>
+<area shape="poly" id="edge13_Node000006_Node000014" title=" " alt="" coords="300,231,313,237,329,250,338,263,347,275,361,286,390,299,388,304,359,291,343,279,334,266,325,253,311,242,298,235"/>
+<area shape="rect" id="Node000015" href="$classEmbeddedTriggerPropertiesDialog.html" title="Wrapper around TriggerPropertiesPage for rendering as an EmbeddableDialog." alt="" coords="366,351,569,391"/>
+<area shape="poly" id="edge14_Node000006_Node000015" title=" " alt="" coords="301,229,314,237,326,249,333,262,339,288,345,313,351,324,362,336,381,349,378,353,358,340,347,327,340,314,334,289,328,264,321,253,310,241,299,234"/>
+<area shape="rect" id="Node000010" href="$classChannelPropertiesDialog.html" title=" " alt="" coords="623,153,805,179"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="588,163,622,163,622,169,588,169"/>
+<area shape="rect" id="Node000011" href="$classFilterPropertiesDialog.html" title=" " alt="" coords="853,153,1016,179"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="820,163,853,163,853,169,820,169"/>
 </map>

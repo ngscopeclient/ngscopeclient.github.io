@@ -1,16 +1,30 @@
 <map id="RemoteBridgeOscilloscope" name="RemoteBridgeOscilloscope">
-<area shape="rect" id="node1" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="741,132,939,159"/>
-<area shape="rect" id="node9" href="$classDSLabsOscilloscope.html" title="DSLabsOscilloscope &#45; driver for talking to the scopehal&#45;dslabs&#45;bridge daemons." alt="" coords="1009,5,1161,32"/>
-<area shape="rect" id="node10" href="$classDigilentOscilloscope.html" title="DigilentOscilloscope &#45; driver for talking to the scopehal&#45;waveforms&#45;bridge daemon (wfmserver)" alt="" coords="1007,56,1162,83"/>
-<area shape="rect" id="node11" href="$classHaasoscopePro.html" title="Driver for talking to the HaasoscopePro oscilloscope." alt="" coords="1023,107,1146,133"/>
-<area shape="rect" id="node12" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1019,157,1150,184"/>
-<area shape="rect" id="node13" href="$classThunderScopeOscilloscope.html" title="Driver for talking to the TS.NET server controlling a ThunderScope." alt="" coords="987,208,1183,235"/>
-<area shape="rect" id="node14" href="$classUHDBridgeSDR.html" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1024,259,1145,285"/>
-<area shape="rect" id="node2" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="560,132,693,159"/>
-<area shape="rect" id="node3" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="399,157,503,184"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,157,340,184"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="389,107,512,133"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,121,197,162"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="31,187,171,213"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,107,341,133"/>
+<area shape="rect" id="Node000001" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="741,129,939,155"/>
+<area shape="rect" id="Node000009" href="$classDSLabsOscilloscope.html" title="DSLabsOscilloscope &#45; driver for talking to the scopehal&#45;dslabs&#45;bridge daemons." alt="" coords="1009,5,1161,31"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="865,119,918,78,986,40,1017,28,1019,33,988,44,921,83,868,123"/>
+<area shape="rect" id="Node000010" href="$classDigilentOscilloscope.html" title="DigilentOscilloscope &#45; driver for talking to the scopehal&#45;waveforms&#45;bridge daemon (wfmserver)" alt="" coords="1007,55,1162,80"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="887,122,986,89,1028,77,1029,83,987,94,889,127"/>
+<area shape="rect" id="Node000011" href="$classHaasoscopePro.html" title="Driver for talking to the HaasoscopePro oscilloscope." alt="" coords="1023,104,1146,129"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="952,128,1023,120,1023,126,952,133"/>
+<area shape="rect" id="Node000012" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1019,153,1150,179"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="952,150,1019,157,1019,162,952,156"/>
+<area shape="rect" id="Node000013" href="$classThunderScopeOscilloscope.html" title="Driver for talking to the TS.NET server controlling a ThunderScope." alt="" coords="987,203,1183,228"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="890,157,987,189,1029,200,1028,205,986,194,888,162"/>
+<area shape="rect" id="Node000014" href="$classUHDBridgeSDR.html" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1024,252,1145,277"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="868,161,921,201,988,238,1025,251,1023,256,986,243,919,205,865,166"/>
+<area shape="rect" id="Node000002" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="560,129,693,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="707,139,741,139,741,145,707,145"/>
+<area shape="rect" id="Node000003" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="399,153,503,179"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="516,154,559,148,560,154,517,160"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="247,153,340,179"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="354,163,398,163,398,169,354,169"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="389,104,512,129"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="347,147,408,127,410,132,348,152"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,117,197,157"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="212,151,247,156,246,162,211,156"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="31,181,171,207"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="185,179,246,170,247,175,186,184"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="526,125,560,130,560,135,525,130"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="245,104,341,129"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="355,114,389,114,389,119,355,119"/>
 </map>

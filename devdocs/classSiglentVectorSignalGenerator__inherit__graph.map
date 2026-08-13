@@ -1,12 +1,24 @@
 <map id="SiglentVectorSignalGenerator" name="SiglentVectorSignalGenerator">
-<area shape="rect" id="node1" title="Siglent vector signal generators." alt="" coords="121,319,335,345"/>
-<area shape="rect" id="node2" href="$classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="44,244,217,271"/>
-<area shape="rect" id="node3" href="$classRFSignalGenerator.html" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="152,169,296,196"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="177,95,271,121"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="5,169,128,196"/>
-<area shape="rect" id="node10" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="321,169,463,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="32,5,224,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="249,13,389,39"/>
-<area shape="rect" id="node9" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="241,244,412,271"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,95,115,121"/>
+<area shape="rect" id="Node000001" title="Siglent vector signal generators." alt="" coords="121,313,335,339"/>
+<area shape="rect" id="Node000002" href="$classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="44,240,217,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,271,214,311,211,315,156,276"/>
+<area shape="rect" id="Node000003" href="$classRFSignalGenerator.html" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="152,167,296,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,202,148,242,144,238,197,198"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="177,93,271,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="227,132,227,167,221,167,221,132"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="5,167,128,192"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="187,127,93,169,91,164,185,122"/>
+<area shape="rect" id="Node000010" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="321,167,463,192"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="265,122,366,164,363,169,262,126"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="32,5,224,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="163,52,211,91,208,95,160,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="249,13,389,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="296,49,240,95,236,91,292,45"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="88,201,122,238,118,242,84,204"/>
+<area shape="rect" id="Node000009" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="241,240,412,265"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="122,193,285,237,284,242,121,198"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,93,115,119"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="69,132,69,167,64,167,64,132"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="302,275,246,315,243,311,298,271"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="374,204,339,242,335,238,370,201"/>
 </map>

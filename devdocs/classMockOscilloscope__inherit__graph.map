@@ -1,7 +1,18 @@
 <map id="MockOscilloscope" name="MockOscilloscope">
-<area shape="rect" id="node1" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="127,244,265,271"/>
-<area shape="rect" id="node2" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="144,169,248,196"/>
-<area shape="rect" id="node3" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,95,243,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
+<area shape="rect" id="Node000001" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="69,313,208,339"/>
+<area shape="rect" id="Node000002" href="$classMockInstrument.html" title="Base class for simulated instruments." alt="" coords="5,240,133,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,273,129,311,126,315,88,277"/>
+<area shape="rect" id="Node000003" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="13,167,136,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,206,73,240,68,240,70,206"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="157,93,251,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="172,128,97,169,95,164,170,123"/>
+<area shape="rect" id="Node000008" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="157,240,261,265"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="208,133,212,240,206,240,202,133"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="13,5,205,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="145,52,192,91,188,95,141,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="230,13,370,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="277,49,220,95,217,91,274,45"/>
+<area shape="rect" id="Node000007" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="27,93,123,119"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="77,132,77,167,72,167,72,132"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="190,277,152,315,148,311,186,273"/>
 </map>

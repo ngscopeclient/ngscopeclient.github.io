@@ -7,20 +7,20 @@
 <link href='ngscopeclient-manual.css' rel='stylesheet' type='text/css' /> 
 <meta content='ngscopeclient-manual.tex' name='src' /> 
 <script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
- <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
+<script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
 </head><body>
    <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='Dialogs.html'>next</a>] [<a href='Tutorials.html'>prev</a>] [<a href='Tutorials.html#tailTutorials.html'>prev-tail</a>] [<a href='#tailMainWindow.html'>tail</a>] [<a href='ngscopeclient-manual.html#MainWindow.html'>up</a>] </p></div>
-   <h2 class='chapterHead' id='main-window'><span class='titlemark'>Chapter 5</span><br /><a id='x7-420005'></a>Main Window</h2>
+   <h2 class='chapterHead' id='main-window'><span class='titlemark'>Chapter 5</span><br /><a id='x7-470005'></a>Main Window</h2>
 <!-- l. 3 --><p class='noindent'>The only fixed UI elements in ngscopeclient are the main menu and toolbar at the top of the window. All
 remaining space may be filled with waveform plots, properties dialogs, protocol analyzers, and other
 dockable windows as required for a given experimental setup. This flexibility allows almost the entire
 screen to be dedicated to waveform views, or more space allocated to controls and protocol
 decodes.
+   
 </p>
-   <h3 class='sectionHead' id='menu'><span class='titlemark'>5.1   </span> <a id='x7-430005.1'></a>Menu</h3>
-<!-- l. 11 --><p class='noindent'>
-</p>
-   <h4 class='subsectionHead' id='file'><span class='titlemark'>5.1.1   </span> <a id='x7-440005.1.1'></a>File</h4>
+   <h3 class='sectionHead' id='menu'><span class='titlemark'>5.1   </span> <a id='x7-480005.1'></a>Menu</h3>
+   
+   <h4 class='subsectionHead' id='file'><span class='titlemark'>5.1.1   </span> <a id='x7-490005.1.1'></a>File</h4>
 <!-- l. 13 --><p class='noindent'>This menu contains commands for saving and loading session files.
 </p>
      <ul class='itemize1'>
@@ -38,9 +38,9 @@ decodes.
      </p><!-- l. 31 --><p class='noindent'>A session consists of a YAML file called <span class='ecti-1095'>filename</span>.scopesession containing instrument and UI
      configuration, as well as a directory called <span class='ecti-1095'>filename</span>_data which contains waveform metadata
      and sample values for all enabled instrument channels, including history.
+                                                                                         
+                                                                                         
      </p><!-- l. 35 --><p class='noindent'>Note that both the .scopesession and the _data directory must be copied if moving the session
-                                                                                         
-                                                                                         
      to a new location in order to preserve waveform data. If you only wish to restore the filter
      graph and UI configuration without waveform content, the _data directory is not required.
      </p></li>
@@ -48,26 +48,21 @@ decodes.
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Close</span><br class='newline' />Close the current session without exiting ngscopeclient.
      </li>
-     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Quit</span><br class='newline' />Exits the application
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Exit</span><br class='newline' />Exits the application
 </li></ul>
-<!-- l. 51 --><p class='noindent'>
-</p>
-   <h4 class='subsectionHead' id='view'><span class='titlemark'>5.1.2   </span> <a id='x7-450005.1.2'></a>View</h4>
+   
+   <h4 class='subsectionHead' id='view'><span class='titlemark'>5.1.2   </span> <a id='x7-500005.1.2'></a>View</h4>
      <ul class='itemize1'>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Fullscreen</span><br class='newline' />Toggles full-screen mode
-     </li>
-     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Persistence Setup</span><br class='newline' />Opens the Persistence Setup dialog, allowing you to control the decay coefficient for persistence
-     maps.
 </li></ul>
-<!-- l. 64 --><p class='noindent'>
+   
+   <h4 class='subsectionHead' id='add'><span class='titlemark'>5.1.3   </span> <a id='x7-510005.1.3'></a>Add</h4>
+<!-- l. 63 --><p class='noindent'>This menu allows new waveforms views or instrument connections to be created.
 </p>
-   <h4 class='subsectionHead' id='add'><span class='titlemark'>5.1.3   </span> <a id='x7-460005.1.3'></a>Add</h4>
-<!-- l. 66 --><p class='noindent'>This menu allows new waveforms views or instrument connections to be created.
-</p>
-                                                                                         
-                                                                                         
      <ul class='itemize1'>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>BERT</span><br class='newline' />Connect to a new, or recently used, bit error rate tester
+                                                                                         
+                                                                                         
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Function Generator</span><br class='newline' />Connect to a new, or recently used, function generator
      </li>
@@ -86,10 +81,10 @@ decodes.
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>SDR</span><br class='newline' />Connect to a new, or recently used, software-defined radio
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Spectrometer</span><br class='newline' />Connect to a new, or recently used, optical spectrometer
-                                                                                         
-                                                                                         
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>VNA</span><br class='newline' />Connect to a new, or recently used, vector network analyzer
+                                                                                         
+                                                                                         
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Channels</span><br class='newline' />Displays a list of filters and instrument channels which can be opened in a new waveform view
      </li>
@@ -98,31 +93,24 @@ decodes.
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Import</span><br class='newline' />Allows waveforms to be loaded from external data files in various interchange formats
 </li></ul>
-<!-- l. 115 --><p class='noindent'>
-</p>
-   <h4 class='subsectionHead' id='setup'><span class='titlemark'>5.1.4   </span> <a id='x7-470005.1.4'></a>Setup</h4>
+   
+   <h4 class='subsectionHead' id='setup'><span class='titlemark'>5.1.4   </span> <a id='x7-520005.1.4'></a>Setup</h4>
      <ul class='itemize1'>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Manage Instruments...</span><br class='newline' />Opens the Manage Instruments dialog, which allows control over synchronization, deskewing,
      and cross-triggering of multiple instruments.
-     </li>
-     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Timebase...</span><br class='newline' />Opens  the  Timebase  Properties  dialog,  allowing  sample  rate  and  memory  depth  of  each
-     connected instrument to be adjusted.
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Trigger...</span><br class='newline' />Opens the Trigger dialog, allowing configuration of trigger settings.
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Preferences...</span><br class='newline' />Opens the <a href='Dialogs.html#preferences'>Preferences</a> dialog.
 </li></ul>
-<!-- l. 154 --><p class='noindent'>
+   
+   <h4 class='subsectionHead' id='window'><span class='titlemark'>5.1.5   </span> <a id='x7-530005.1.5'></a>Window</h4>
+<!-- l. 131 --><p class='noindent'>This menu provides access to various utility windows.
 </p>
-   <h4 class='subsectionHead' id='window'><span class='titlemark'>5.1.5   </span> <a id='x7-480005.1.5'></a>Window</h4>
-<!-- l. 156 --><p class='noindent'>This menu provides access to various utility windows.
-</p>
+                                                                                         
+                                                                                         
      <ul class='itemize1'>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Analyzer</span><br class='newline' />Opens protocol analyzer dialogs for active protocol decodes
-     </li>
-     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Generator</span><br class='newline' />Opens the properties dialog for a currently connected function generator
-     </li>
-     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Multimeter</span><br class='newline' />Opens the properties dialog for a currently connected multimeter
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Power Supply</span><br class='newline' />Opens the properties dialog for a currently connected power supply
      </li>
@@ -136,10 +124,6 @@ decodes.
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Measurements</span><br class='newline' />Opens  the  Measurements  window,  displaying  scalar-valued  measurements  coming  from
      instrument channels or filter blocks.
      </li>
-     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Performance Metrics</span><br class='newline' />Opens the Performance Metrics window, which provides access to debug information which
-     can  be  helpful  when  debugging  slow  application  performance,  optimizing  the  code,  or
-     benchmarking instruments.
-     </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>History</span><br class='newline' />Opens the History dialog (see Chapter 10), which allows access to a rolling buffer of recently
      acquired waveforms.
      </li>
@@ -151,18 +135,15 @@ decodes.
      </li>
      <li class='itemize'><span class='t1-zi4r-0-x-x-109'>New Workspace</span><br class='newline' />Create a new workspace to organize other windows in.
 </li></ul>
-<!-- l. 207 --><p class='noindent'>
-</p>
-   <h4 class='subsectionHead' id='debug'><span class='titlemark'>5.1.6   </span> <a id='x7-490005.1.6'></a>Debug</h4>
-<!-- l. 209 --><p class='noindent'>Provides access to GUI toolkit test dialogs and other features intended only for developers.
+   
+   <h4 class='subsectionHead' id='debug'><span class='titlemark'>5.1.6   </span> <a id='x7-540005.1.6'></a>Debug</h4>
+<!-- l. 174 --><p class='noindent'>Provides access to various features intended only for developers.
 </p>
      <ul class='itemize1'>
      <li class='itemize'>
-                                                                                         
-                                                                                         
-     <!-- l. 213 --><p class='noindent'><span class='t1-zi4r-0-x-x-109'>SCPI Console</span><br class='newline' />Opens a console window allowing you to send raw SCPI commands to a currently connected
+     <!-- l. 178 --><p class='noindent'><span class='t1-zi4r-0-x-x-109'>SCPI Console</span><br class='newline' />Opens a console window allowing you to send raw SCPI commands to a currently connected
      instrument.
-     </p><!-- l. 216 --><p class='noindent'>This is a low level debug tool primarily intended for use by driver developers. The console
+     </p><!-- l. 181 --><p class='noindent'>This is a low level debug tool primarily intended for use by driver developers. The console
      is interlocked with background threads polling the instrument, so that replies to commands
      typed in the console will not be mixed with replies which the instrument driver is expecting
      to its own commands. However, commands sent in the console will bypass any caching in the
@@ -170,29 +151,260 @@ decodes.
      inconsistent.
      </p></li>
      <li class='itemize'>
-     <!-- l. 222 --><p class='noindent'><span class='t1-zi4r-0-x-x-109'>ImGui Demo</span><br class='newline' />
-     </p><!-- l. 224 --><p class='noindent'>Launches a GUI library demo window allowing you to test out various widgets and features
+     <!-- l. 187 --><p class='noindent'><span class='t1-zi4r-0-x-x-109'>ImGui Demo</span><br class='newline' />
+     </p><!-- l. 189 --><p class='noindent'>Launches a GUI library demo window allowing you to test out various widgets and features
      </p></li>
      <li class='itemize'>
-     <!-- l. 226 --><p class='noindent'><span class='t1-zi4r-0-x-x-109'>Memory Leaker</span><br class='newline' />
-     </p><!-- l. 228 --><p class='noindent'>Allows you to allocate a large block of memory (up to 4GB per dialog instance, but multiple
-     dialogs may be spawned) in order to induce video or system memory pressure.
+     <!-- l. 191 --><p class='noindent'><span class='t1-zi4r-0-x-x-109'>Memory Leaker</span><br class='newline' />
+     </p><!-- l. 193 --><p class='noindent'>Allows you to allocate a large block of memory (up to 4GB or the Vulkan allocation limit
+     per dialog instance, but multiple dialogs may be spawned) in order to test video or system
+     memory pressure.
+     </p></li>
+     <li class='itemize'>
+     <!-- l. 196 --><p class='noindent'><span class='t1-zi4r-0-x-x-109'>Hardware Flags</span><br class='newline' />Opens the Hardware Flags dialog, which allows you to override automatic detection of CPU
+     and GPU feature flags. This is mostly intended to allow testing of fallback code (by disabling
+     a code path that your hardware supports, pretending your CPU or GPU is less capable than
+     it is in reality).
+     </p><!-- l. 199 --><p class='noindent'>NOTE: This is a low level interface with no validation. If you enable a feature that was
+     not automatically enabled, ngscopeclient is very likely to crash with an illegal-instruction
+     exception (GPU-side equivalent) at an unpredictable time in the future when a filter or driver
+     attempts to use the unavailable functionality.
+                                                                                         
+                                                                                         
+     </p></li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Performance Metrics</span><br class='newline' />Opens the Performance Metrics window, which provides access to debug information which
+     can  be  helpful  when  debugging  slow  application  performance,  optimizing  the  code,  or
+     benchmarking instruments.
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Memory Analysis</span><br class='newline' />Opens  the  Memory  Analysis  window,  which  display  a  list  of  all  Vulkan  memory  buffers
+     allocated via the AcceleratorBuffer class (buffers internally allocated by third-party libraries
+     such as Dear ImGui or vkFFT are not shown, but anything allocated within ngscopeclient
+     / libscopehal / libscopeprotocols should be displayed), their data type, allocation size, and
+     actual consumed size. Lines are color coded in yellow or red to highlight particularly inefficient
+     usage of memory (capacity grossly exceeds size).
+</li></ul>
+   
+   <h4 class='subsectionHead' id='help'><span class='titlemark'>5.1.7   </span> <a id='x7-550005.1.7'></a>Help</h4>
+     <ul class='itemize1'>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>Tutorial</span><br class='newline' />Launches the tutorial wizard to help you learn the basics of the application
+     </li>
+     <li class='itemize'><span class='t1-zi4r-0-x-x-109'>About</span><br class='newline' />Displays program version and copyright information
+</li></ul>
+   
+   <h3 class='sectionHead' id='toolbar'><span class='titlemark'>5.2   </span> <a id='x7-560005.2'></a>Toolbar</h3>
+<!-- l. 227 --><p class='noindent'>The toolbar contains buttons and controls for the most frequently used actions.
 </p>
-     </li></ul>
-<!-- l. 235 --><p class='noindent'>
+   <figure class='figure' id='x7-56001r1'><span id='ngscopeclient-toolbar'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 231 --><p class='noindent'><img alt='PIC' height='16' src='ng-images/toolbar.png' width='455' />
 </p>
-   <h4 class='subsectionHead' id='help'><span class='titlemark'>5.1.7   </span> <a id='x7-500005.1.7'></a>Help</h4>
-<!-- l. 237 --><p class='noindent'><span class='ecbx-1095'>About</span>: Displays program version and copyright information
+<figcaption class='caption'><span class='id'>Figure 5.1: </span><span class='content'>ngscopeclient toolbar</span></figcaption><!-- tex4ht:label?: x7-56001r1  -->
                                                                                          
                                                                                          
-                                                                                         
-                                                                                         
-                                                                                         
-                                                                                         
-                                                                                         
-                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='capture-buttons'><span class='titlemark'>5.2.1   </span> <a id='x7-570005.2.1'></a>Capture buttons</h4>
+<!-- l. 238 --><p class='noindent'>The capture button group (Fig. 5.2) contains five buttons. From left to right these are “arm normal
+trigger", “arm auto trigger", “arm one-shot trigger", “immediate/forced trigger", and “stop
+trigger".
+</p><!-- l. 241 --><p class='indent'>   Note that the “normal" and “auto" trigger mode still uses one-shot capture
+internally so that all waveform data can be downloaded before the next trigger event
+<span class='footnote-mark'><a href='#fn1x6' id='fn1x6-bk'><sup class='textsuperscript'>1</sup></a></span><a id='x7-57001f1'></a>, so it
+is normal to see the scope rapidly switching back and forth between single-shot and stopped
+mode.
 </p>
-   <!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='Dialogs.html'>next</a>] [<a href='Tutorials.html'>prev</a>] [<a href='Tutorials.html#tailTutorials.html'>prev-tail</a>] [<a href='MainWindow.html'>front</a>] [<a href='ngscopeclient-manual.html#MainWindow.html'>up</a>] </p></div>
+   <figure class='figure' id='x7-57003r2'><span id='capture-control-buttons'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 247 --><p class='noindent'><img alt='PIC' height='28' src='ng-images/toolbar-capturegroup.png' width='151' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.2: </span><span class='content'>Capture control buttons</span></figcaption><!-- tex4ht:label?: x7-57003r2  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='history'><span class='titlemark'>5.2.2   </span> <a id='x7-580005.2.2'></a>History</h4>
+<!-- l. 254 --><p class='noindent'>The history button (Fig. 5.3) toggles display of the <a href='History.html#history1'>waveform history view</a>.
+</p>
+   <figure class='figure' id='x7-58001r3'><span id='history-button'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 258 --><p class='noindent'><img alt='PIC' height='28' src='ng-images/toolbar-history.png' width='28' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.3: </span><span class='content'>History button</span></figcaption><!-- tex4ht:label?: x7-58001r3  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='refresh-settings'><span class='titlemark'>5.2.3   </span> <a id='x7-590005.2.3'></a>Refresh Settings</h4>
+<!-- l. 266 --><p class='noindent'>In order to improve performance, ngscopeclient caches many instrument settings locally rather than
+constantly querying the instrument for the current timebase, trigger configuration, etc. If settings are
+changed via the instrument front panel while ngscopeclient is running, ngscopeclient may not be aware of
+these changes.
+</p><!-- l. 270 --><p class='indent'>   The Refresh Settings button (Fig. 5.4) clears all cached instrument configuration and updates
+ngscopeclient with the current instrument settings. For most “headless" instruments, such as Pico
+Technology devices or the ThunderScope, this button has no effect.
+</p>
+   <figure class='figure' id='x7-59001r4'><span id='refresh-settings-button'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 276 --><p class='noindent'><img alt='PIC' height='28' src='ng-images/toolbar-refresh.png' width='28' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.4: </span><span class='content'>Refresh Settings button</span></figcaption><!-- tex4ht:label?: x7-59001r4  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='clear-sweeps'><span class='titlemark'>5.2.4   </span> <a id='x7-600005.2.4'></a>Clear Sweeps</h4>
+<!-- l. 284 --><p class='noindent'>The Clear Sweeps button (Fig. 5.5) clears all persistence waveforms, accumulated eye pattern / waterfall
+data, and any other data that filter grap blocks persist across multiple waveforms. Waveform data, both
+history and the currently displayed waveforms, are not deleted.
+</p>
+   <figure class='figure' id='x7-60001r5'><span id='clear-sweeps-button'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 290 --><p class='noindent'><img alt='PIC' height='28' src='ng-images/toolbar-clear.png' width='28' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.5: </span><span class='content'>Clear Sweeps button</span></figcaption><!-- tex4ht:label?: x7-60001r5  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='fullscreen'><span class='titlemark'>5.2.5   </span> <a id='x7-610005.2.5'></a>Fullscreen</h4>
+<!-- l. 298 --><p class='noindent'>The Fullscreen button (Fig. 5.6) toggles ngscopeclient between normal and full-screen mode.
+</p>
+   <figure class='figure' id='x7-61001r6'><span id='fullscreen-button'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 302 --><p class='noindent'><img alt='PIC' height='28' src='ng-images/toolbar-fullscreen.png' width='28' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.6: </span><span class='content'>Fullscreen button</span></figcaption><!-- tex4ht:label?: x7-61001r6  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='intensity-slider'><span class='titlemark'>5.2.6   </span> <a id='x7-620005.2.6'></a>Intensity slider</h4>
+<!-- l. 310 --><p class='noindent'>The opacity slider (Fig. 5.7) controls the alpha/opacity used to display intensity-graded waveforms. At the
+leftmost position, waveforms are invisible. At the rightmost position, waveforms are fully opaque with no
+intensity grading other than that provided by antialiasing (Fig. 5.9). Experiment to find what setting gives
+the most useful visualization for your data (Fig. 5.8).
+</p>
+   <figure class='figure' id='x7-62001r7'><span id='trace-opacity-slider'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 315 --><p class='noindent'><img alt='PIC' height='28' src='ng-images/opacity-slider.png' width='269' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.7: </span><span class='content'>Trace opacity slider</span></figcaption><!-- tex4ht:label?: x7-62001r7  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <figure class='figure' id='x7-62002r8'><span id='intensity-graded-waveform'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 322 --><p class='noindent'><img alt='PIC' height='134' src='ng-images/intensity1.png' width='284' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.8: </span><span class='content'>Intensity graded waveform</span></figcaption><!-- tex4ht:label?: x7-62002r8  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <figure class='figure' id='x7-62003r9'><span id='same-waveform-with-opacity-turned-up-to-losing-fine-details'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 329 --><p class='noindent'><img alt='PIC' height='126' src='ng-images/intensity2.png' width='284' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.9: </span><span class='content'>Same waveform with opacity turned up to 100%, losing fine details</span></figcaption><!-- tex4ht:label?: x7-62003r9  -->
+                                                                                         
+                                                                                         
+   </figure>
+   
+   <h4 class='subsectionHead' id='persistence-slider'><span class='titlemark'>5.2.7   </span> <a id='x7-630005.2.7'></a>Persistence slider</h4>
+<!-- l. 336 --><p class='noindent'>The persistence slider (Fig. 5.10) controls the decay rate for persistence-mode waveform display. At the
+far-left position (default) there is no persistence, and only the data from the most recent trigger event is
+visible. At the far right position, waveforms persist forever (until the clear-sweeps button is clicked or the
+display is scrolled/zoomed).
+</p><!-- l. 339 --><p class='indent'>   Persistence is applied to all analog and digital waveforms by default, but can be turned off for any
+individual waveform by right clicking the channel name in the plot and unchecking the “persistence" menu
+item. Digital buses and protocol decodes do not support persistence, and will always only show the most
+recent waveform state.
+</p>
+   <figure class='figure' id='x7-63001r10'><span id='waveform-persistence-slider'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 343 --><p class='noindent'><img alt='PIC' height='28' src='ng-images/persistence-slider.png' width='319' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.10: </span><span class='content'>Waveform persistence slider</span></figcaption><!-- tex4ht:label?: x7-63001r10  -->
+                                                                                         
+                                                                                         
+   </figure>
+   <figure class='figure' id='x7-63002r11'><span id='example-waveform-display-with-persistence-active'></span> 
+
+                                                                                         
+                                                                                         
+
+                                                                                         
+                                                                                         
+<!-- l. 351 --><p class='noindent'><img alt='PIC' height='75' src='ng-images/persistence.png' width='284' />
+</p>
+<figcaption class='caption'><span class='id'>Figure 5.11: </span><span class='content'>Example waveform display with persistence active</span></figcaption><!-- tex4ht:label?: x7-63002r11  -->
+                                                                                         
+                                                                                         
+   </figure>
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+                                                                                         
+   <div class='footnotes'><a id='x7-57002x5.2.1'></a>
+<!-- l. 242 --><p class='indent'>     <span class='footnote-mark'><a href='#fn1x6-bk' id='fn1x6'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-0900'>The repeating-trigger mode on almost all benchtop oscilloscopes is not interlocked with data transfer,
+meaning that attempting to download waveform data when the trigger is active will likely lead to corruption or
+desynchronization in which the data from one channel is from a later trigger event than a channel downloaded
+previously. Halting the trigger during waveform transfer avoids this issue, although refresh rate is reduced
+somewhat.</span></p>                                                                                                                                           </div>
+<!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='Dialogs.html'>next</a>] [<a href='Tutorials.html'>prev</a>] [<a href='Tutorials.html#tailTutorials.html'>prev-tail</a>] [<a href='MainWindow.html'>front</a>] [<a href='ngscopeclient-manual.html#MainWindow.html'>up</a>] </p></div>
 <!-- l. 1 --><p class='indent'>   <a id='tailMainWindow.html'></a>   </p> 
 </body> 
 </html>

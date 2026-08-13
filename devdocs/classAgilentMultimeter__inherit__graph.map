@@ -1,0 +1,18 @@
+<map id="AgilentMultimeter" name="AgilentMultimeter">
+<area shape="rect" id="Node000001" title="Driver for Agilent 34401A." alt="" coords="69,313,209,339"/>
+<area shape="rect" id="Node000002" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="77,240,200,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,279,141,313,136,313,136,279"/>
+<area shape="rect" id="Node000003" href="$classMultimeter.html" title="A multimeter." alt="" coords="158,167,253,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,204,151,242,148,238,183,201"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="151,93,244,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="203,132,207,166,201,167,198,133"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="11,167,133,192"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="167,128,94,169,91,164,164,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="137,52,185,91,181,95,133,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="269,49,213,95,210,91,266,45"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="94,201,130,238,126,242,91,204"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="24,93,120,119"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="75,132,75,167,69,167,69,132"/>
+</map>

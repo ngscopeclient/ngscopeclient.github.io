@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['power_20supply_20drivers_0',['Power supply drivers',['../group__psudrivers.html',1,'']]]
+  ['ngscopeclient_20gui_0',['Ngscopeclient (GUI)',['../group__ngscopeclient.html',1,'']]]
 ];

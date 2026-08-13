@@ -1,7 +1,11 @@
 <map id="CDRNRZPatternTrigger" name="CDRNRZPatternTrigger">
-<area shape="rect" id="node1" title="A hardware NRZ pattern trigger." alt="" coords="5,304,176,331"/>
-<area shape="rect" id="node2" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="43,229,138,256"/>
-<area shape="rect" id="node3" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="57,155,124,181"/>
-<area shape="rect" id="node4" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="27,80,154,107"/>
-<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="21,5,161,32"/>
+<area shape="rect" id="Node000001" title="A hardware NRZ pattern trigger." alt="" coords="5,299,176,324"/>
+<area shape="rect" id="Node000002" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="43,225,138,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,264,93,299,88,299,88,264"/>
+<area shape="rect" id="Node000003" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="57,152,124,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,191,93,225,88,225,88,191"/>
+<area shape="rect" id="Node000004" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="27,79,154,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="93,118,93,152,88,152,88,118"/>
+<area shape="rect" id="Node000005" href="$classSerializableObject.html" title=" " alt="" coords="21,5,161,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="93,44,93,79,88,79,88,44"/>
 </map>

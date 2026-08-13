@@ -1,10 +1,17 @@
 <map id="WaveformGenerationFilter" name="WaveformGenerationFilter">
-<area shape="rect" id="node1" title=" " alt="" coords="61,379,256,405"/>
-<area shape="rect" id="node7" href="$classDigitalToNRZFilter.html" title=" " alt="" coords="5,453,144,480"/>
-<area shape="rect" id="node8" href="$classDigitalToPAM4Filter.html" title=" " alt="" coords="169,453,317,480"/>
-<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="131,304,186,331"/>
-<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="80,229,237,256"/>
-<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="85,155,232,181"/>
-<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="95,80,222,107"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="89,5,229,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,372,256,397"/>
+<area shape="rect" id="Node000007" href="$classDigitalToNRZFilter.html" title=" " alt="" coords="5,445,144,471"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="136,408,90,447,87,443,133,404"/>
+<area shape="rect" id="Node000008" href="$classDigitalToPAM4Filter.html" title=" " alt="" coords="169,445,317,471"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="184,404,231,443,227,447,181,408"/>
+<area shape="rect" id="Node000002" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="131,299,186,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,338,161,372,156,372,156,338"/>
+<area shape="rect" id="Node000003" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="80,225,237,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="161,264,161,299,156,299,156,264"/>
+<area shape="rect" id="Node000004" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="85,152,232,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="161,191,161,225,156,225,156,191"/>
+<area shape="rect" id="Node000005" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="95,79,222,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="161,118,161,152,156,152,156,118"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="89,5,229,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="161,44,161,79,156,79,156,44"/>
 </map>

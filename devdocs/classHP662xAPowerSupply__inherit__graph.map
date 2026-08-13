@@ -1,10 +1,19 @@
 <map id="HP662xAPowerSupply" name="HP662xAPowerSupply">
-<area shape="rect" id="node1" title="A HP 662xA power supply." alt="" coords="5,319,171,345"/>
-<area shape="rect" id="node2" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="74,244,209,271"/>
-<area shape="rect" id="node3" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="220,169,327,196"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="192,95,285,121"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="73,169,196,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="47,5,239,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="263,13,403,39"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="37,95,133,121"/>
+<area shape="rect" id="Node000001" title="A HP 662xA power supply." alt="" coords="5,313,171,339"/>
+<area shape="rect" id="Node000002" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="74,240,209,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,278,99,315,95,312,122,275"/>
+<area shape="rect" id="Node000003" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="220,167,327,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,201,164,242,162,237,239,196"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="192,93,285,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="253,130,270,165,265,168,248,132"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="73,167,196,192"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="212,129,153,169,150,164,209,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="47,5,239,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="178,52,226,91,223,95,175,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="263,13,403,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="310,49,254,95,251,91,307,45"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="140,206,143,240,138,240,134,206"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="37,93,133,119"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="76,132,64,167,61,209,65,265,74,291,84,312,79,314,69,293,60,266,55,209,59,166,71,130"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="103,129,129,165,124,168,99,132"/>
 </map>

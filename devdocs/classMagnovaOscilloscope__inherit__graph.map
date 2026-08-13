@@ -1,12 +1,24 @@
 <map id="MagnovaOscilloscope" name="MagnovaOscilloscope">
-<area shape="rect" id="node1" title=" " alt="" coords="127,319,291,345"/>
-<area shape="rect" id="node2" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="55,244,188,271"/>
-<area shape="rect" id="node3" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="152,169,256,196"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="157,95,251,121"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="5,169,128,196"/>
-<area shape="rect" id="node10" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="281,169,423,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="12,5,204,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="229,13,369,39"/>
-<area shape="rect" id="node9" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="212,244,383,271"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,95,115,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="127,313,291,339"/>
+<area shape="rect" id="Node000002" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="55,240,188,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,272,197,311,193,315,144,276"/>
+<area shape="rect" id="Node000003" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="152,167,256,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,203,137,242,133,238,179,199"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="157,93,251,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,132,207,167,201,167,201,132"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="5,167,128,192"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="171,127,90,169,88,164,169,122"/>
+<area shape="rect" id="Node000010" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="281,167,423,192"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="241,122,329,164,327,169,239,127"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="12,5,204,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="143,52,191,91,188,95,140,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="229,13,369,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="276,49,220,95,216,91,272,45"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="86,201,115,238,110,242,82,205"/>
+<area shape="rect" id="Node000009" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="212,240,383,265"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="118,194,261,237,259,242,116,199"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,93,115,119"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="69,132,69,167,64,167,64,132"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="274,276,225,315,222,311,271,272"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="337,205,308,242,304,238,333,201"/>
 </map>

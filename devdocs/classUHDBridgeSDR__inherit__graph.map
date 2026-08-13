@@ -1,12 +1,23 @@
 <map id="UHDBridgeSDR" name="UHDBridgeSDR">
-<area shape="rect" id="node1" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="125,393,246,420"/>
-<area shape="rect" id="node2" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="5,319,203,345"/>
-<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="119,244,252,271"/>
-<area shape="rect" id="node10" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="227,319,306,345"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="203,169,307,196"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="199,95,292,121"/>
-<area shape="rect" id="node8" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="56,169,179,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="53,5,245,47"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="270,13,410,39"/>
-<area shape="rect" id="node9" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="69,95,165,121"/>
+<area shape="rect" id="Node000001" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="125,387,246,412"/>
+<area shape="rect" id="Node000002" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="5,313,203,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,346,174,384,170,388,126,350"/>
+<area shape="rect" id="Node000003" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="119,240,252,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="164,276,119,315,116,311,160,272"/>
+<area shape="rect" id="Node000010" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="227,313,306,339"/>
+<area shape="poly" id="edge11_Node000010_Node000003" title=" " alt="" coords="210,272,255,311,252,315,207,276"/>
+<area shape="rect" id="Node000004" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="203,167,307,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,204,198,242,195,238,232,200"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="199,93,292,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="251,132,256,166,251,167,246,133"/>
+<area shape="rect" id="Node000008" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="56,167,179,192"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="214,128,140,169,137,164,211,123"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="53,5,245,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="185,52,233,91,229,95,181,56"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="270,13,410,38"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="317,49,261,95,258,91,314,45"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="140,200,176,238,172,242,136,204"/>
+<area shape="rect" id="Node000009" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="69,93,165,119"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="120,132,120,167,115,167,115,132"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="245,350,200,388,197,384,242,346"/>
 </map>

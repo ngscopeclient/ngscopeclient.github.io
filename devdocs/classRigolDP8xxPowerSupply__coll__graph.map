@@ -1,11 +1,21 @@
 <map id="RigolDP8xxPowerSupply" name="RigolDP8xxPowerSupply">
-<area shape="rect" id="node1" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="5,337,187,364"/>
-<area shape="rect" id="node2" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="118,261,253,288"/>
-<area shape="rect" id="node3" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="264,185,371,212"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="263,109,356,136"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="117,185,240,212"/>
-<area shape="rect" id="node5" title=" " alt="" coords="205,5,397,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="422,13,562,39"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="47,109,143,136"/>
-<area shape="rect" id="node9" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="39,13,151,39"/>
+<area shape="rect" id="Node000001" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="5,332,187,357"/>
+<area shape="rect" id="Node000002" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="118,257,253,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,294,112,334,109,329,159,289"/>
+<area shape="rect" id="Node000003" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="264,183,371,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="285,217,208,259,205,255,283,212"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="263,108,356,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="315,147,319,182,313,183,309,147"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="117,183,240,208"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="278,142,201,185,198,180,275,138"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="205,5,397,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="307,59,311,107,306,108,301,59"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="422,13,562,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="459,47,333,110,331,105,456,42"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="184,222,187,257,182,257,178,222"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="47,108,143,133"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="97,147,99,332,93,332,92,147"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="120,141,167,180,163,184,117,145"/>
+<area shape="rect" id="Node000009" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="39,13,151,38"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="97,52,97,108,92,108,92,52"/>
 </map>

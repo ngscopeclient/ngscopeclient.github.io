@@ -1,7 +1,17 @@
 <map id="BaseChannelPropertiesDialog" name="BaseChannelPropertiesDialog">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,220,181"/>
-<area shape="rect" id="node4" href="$classChannelPropertiesDialog.html" title=" " alt="" coords="21,229,204,256"/>
-<area shape="rect" id="node2" href="$classEmbeddableDialog.html" title=" " alt="" coords="40,80,185,107"/>
-<area shape="rect" id="node3" href="$classDialog.html" title="Generic dialog box or other popup window." alt="" coords="81,5,145,32"/>
-<area shape="rect" id="node5" href="$classFilterPropertiesDialog.html" title=" " alt="" coords="31,304,194,331"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="40,225,255,251"/>
+<area shape="rect" id="Node000007" href="$classChannelPropertiesDialog.html" title=" " alt="" coords="56,299,239,324"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="150,264,150,299,145,299,145,264"/>
+<area shape="rect" id="Node000002" href="$classEmbeddableDialog.html" title=" " alt="" coords="5,152,151,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,185,138,223,134,227,97,189"/>
+<area shape="rect" id="Node000003" href="$classDialog.html" title="Generic dialog box or other popup window." alt="" coords="46,79,110,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="81,118,81,152,75,152,75,118"/>
+<area shape="rect" id="Node000004" href="$classSinkNode.html" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="175,152,259,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="198,189,160,227,157,223,194,185"/>
+<area shape="rect" id="Node000005" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="153,79,280,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="219,118,219,152,214,152,214,118"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="147,5,287,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="219,44,219,79,214,79,214,44"/>
+<area shape="rect" id="Node000008" href="$classFilterPropertiesDialog.html" title=" " alt="" coords="66,372,229,397"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="150,338,150,372,145,372,145,338"/>
 </map>

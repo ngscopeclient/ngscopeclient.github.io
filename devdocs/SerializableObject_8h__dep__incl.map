@@ -1,52 +1,115 @@
 <map id="lib/scopehal/SerializableObject.h" name="lib/scopehal/SerializableObject.h">
-<area shape="rect" id="node1" title="Declaration of SerializableObject." alt="" coords="4686,5,4866,47"/>
-<area shape="rect" id="node2" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="4439,95,4659,121"/>
-<area shape="rect" id="node49" href="$IDTable_8h.html" title="Declaration of IDTable class." alt="" coords="4694,95,4858,121"/>
-<area shape="rect" id="node50" href="$Instrument_8h.html" title="Declaration of Instrument." alt="" coords="4813,169,5000,196"/>
-<area shape="rect" id="node3" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="945,169,1093,196"/>
-<area shape="rect" id="node8" href="$scopehal_8h.html" title="Main library include file." alt="" coords="4630,244,4805,271"/>
-<area shape="rect" id="node48" href="$Trigger_8h.html" title="Declaration of Trigger." alt="" coords="4577,169,4738,196"/>
-<area shape="rect" id="node4" href="$Filter_8cpp.html" title="Implementation of Filter." alt="" coords="827,326,989,353"/>
-<area shape="rect" id="node5" href="$FilterParameter_8cpp.html" title="Implementation of FilterParameter." alt="" coords="349,326,579,353"/>
-<area shape="rect" id="node6" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="717,244,931,271"/>
-<area shape="rect" id="node7" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="603,326,802,353"/>
-<area shape="rect" id="node43" href="$PCIeGen2LogicalDecoder_8cpp.html" title="Implementation of PCIeGen2LogicalDecoder." alt="" coords="1013,319,1229,360"/>
-<area shape="rect" id="node44" href="$PCIeGen3LogicalDecoder_8cpp.html" title="Implementation of PCIeGen3LogicalDecoder." alt="" coords="1253,319,1469,360"/>
-<area shape="rect" id="node45" href="$PCIeLinkTrainingDecoder_8cpp.html" title="Implementation of PCIeLinkTrainingDecoder." alt="" coords="9665,319,9879,360"/>
-<area shape="rect" id="node46" href="$QSGMIIDecoder_8cpp.html" title="Implementation of QSGMIIDecoder." alt="" coords="5,319,160,360"/>
-<area shape="rect" id="node47" href="$scopeprotocols_8h.html" title="Main library include file." alt="" coords="185,319,325,360"/>
-<area shape="rect" id="node9" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="7280,326,7507,353"/>
-<area shape="rect" id="node10" href="$AgilentOscilloscope_8cpp.html" title="Implementation of AgilentOscilloscope." alt="" coords="7531,326,7789,353"/>
-<area shape="rect" id="node11" href="$AlientekPowerSupply_8cpp.html" title="Implementation of AlientekPowerSupply." alt="" coords="7813,319,8011,360"/>
-<area shape="rect" id="node12" href="$AntikernelLabsOscilloscope_8cpp.html" title="Declaration of AntikernelLabsOscilloscope." alt="" coords="8035,319,8235,360"/>
-<area shape="rect" id="node13" href="$AntikernelLabsTriggerCrossbar_8cpp.html" title="Implementation of AntikernelLabsTriggerCrossbar." alt="" coords="8259,319,8459,360"/>
-<area shape="rect" id="node14" href="$AntikernelLogicAnalyzer_8cpp.html" title="Implementation of AntikernelLogicAnalyzer." alt="" coords="8483,319,8687,360"/>
-<area shape="rect" id="node15" href="$AseqSpectrometer_8cpp.html" title="Implementation of AseqSpectrometer." alt="" coords="8712,326,8963,353"/>
-<area shape="rect" id="node16" href="$Averager_8cpp.html" title="Implementation of Averager." alt="" coords="8987,326,9178,353"/>
-<area shape="rect" id="node17" href="$BERT_8cpp.html" title="Implementation of BERT." alt="" coords="9203,326,9365,353"/>
-<area shape="rect" id="node18" href="$BERTInputChannel_8cpp.html" title="Implementation of BERTInputChannel." alt="" coords="9389,326,9640,353"/>
-<area shape="rect" id="node19" href="$BERTInputChannelWithDataCapture_8cpp.html" title="Implementation of BERTInputChannelWithDataCapture." alt="" coords="1493,319,1717,360"/>
-<area shape="rect" id="node20" href="$BERTOutputChannel_8cpp.html" title="Implementation of BERTOutputChannel." alt="" coords="1742,326,2005,353"/>
-<area shape="rect" id="node21" href="$BinaryDriver_8cpp.html" title="Helper class for binary drivers." alt="" coords="2029,326,2243,353"/>
-<area shape="rect" id="node22" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="2267,326,2479,353"/>
-<area shape="rect" id="node23" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="2503,326,2750,353"/>
-<area shape="rect" id="node24" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="2774,319,2981,360"/>
-<area shape="rect" id="node25" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="3005,326,3209,353"/>
-<area shape="rect" id="node26" href="$CSVStreamInstrument_8cpp.html" title="Implementation of CSVStreamInstrument." alt="" coords="3233,326,3508,353"/>
-<area shape="rect" id="node27" href="$CommandLineDriver_8cpp.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="3533,319,3731,360"/>
-<area shape="rect" id="node28" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="3756,326,3999,353"/>
-<area shape="rect" id="node29" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="4023,326,4249,353"/>
-<area shape="rect" id="node30" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="4274,319,4465,360"/>
-<area shape="rect" id="node31" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="4489,319,4700,360"/>
-<area shape="rect" id="node32" href="$DCAEdgeTrigger_8cpp.html" title="Implementation of DCAEdgeTrigger." alt="" coords="4723,326,4959,353"/>
-<area shape="rect" id="node33" href="$DSLabsOscilloscope_8cpp.html" title="Implementation of DSLabsOscilloscope." alt="" coords="4983,326,5244,353"/>
-<area shape="rect" id="node34" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="5269,326,5521,353"/>
-<area shape="rect" id="node35" href="$DemoPowerSupply_8cpp.html" title="Implementation of DemoPowerSupply." alt="" coords="5545,326,5797,353"/>
-<area shape="rect" id="node36" href="$DensityFunctionWaveform_8cpp.html" title="Implementation of DensityFunctionWaveform." alt="" coords="5821,319,6030,360"/>
-<area shape="rect" id="node37" href="$DigilentOscilloscope_8cpp.html" title="Implementation of DigilentOscilloscope." alt="" coords="6055,326,6319,353"/>
-<area shape="rect" id="node38" href="$DigitalIOChannel_8cpp.html" title="Implementation of DigitalIOChannel." alt="" coords="6343,326,6585,353"/>
-<area shape="rect" id="node39" href="$DigitalInputChannel_8cpp.html" title="Implementation of DigitalInputChannel." alt="" coords="6609,319,6789,360"/>
-<area shape="rect" id="node40" href="$DigitalOutputChannel_8cpp.html" title="Implementation of DigitalOutputChannel." alt="" coords="6813,319,7003,360"/>
-<area shape="rect" id="node41" href="$DropoutTrigger_8cpp.html" title="Implementation of DropoutTrigger." alt="" coords="7027,326,7255,353"/>
-<area shape="rect" id="node42" href="$Instrument_8cpp.html" title="Implementation of Instrument." alt="" coords="9904,326,10107,353"/>
+<area shape="rect" id="Node000001" title="Declaration of SerializableObject." alt="" coords="4782,5,4962,45"/>
+<area shape="rect" id="Node000002" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="4535,93,4755,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4805,52,4680,96,4678,91,4804,47"/>
+<area shape="rect" id="Node000261" href="$IDTable_8h.html" title="Declaration of IDTable class." alt="" coords="4790,93,4954,119"/>
+<area shape="poly" id="edge59_Node000001_Node000261" title=" " alt="" coords="4875,59,4875,93,4869,93,4869,59"/>
+<area shape="rect" id="Node000262" href="$Instrument_8h.html" title="Declaration of Instrument." alt="" coords="4909,167,5096,192"/>
+<area shape="poly" id="edge61_Node000001_Node000262" title=" " alt="" coords="4920,51,4945,69,4967,92,4990,131,5002,166,4997,167,4985,133,4963,95,4942,73,4917,55"/>
+<area shape="rect" id="Node000003" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="945,167,1093,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="4522,112,1093,179,1093,174,4522,107"/>
+<area shape="rect" id="Node000124" href="$scopehal_8h.html" title="Main library include file." alt="" coords="4726,240,4901,265"/>
+<area shape="poly" id="edge58_Node000002_Node000124" title=" " alt="" coords="4646,133,4649,163,4654,177,4662,190,4679,207,4699,220,4744,237,4742,242,4697,225,4676,211,4658,194,4649,180,4644,164,4641,133"/>
+<area shape="rect" id="Node000260" href="$Trigger_8h.html" title="Declaration of Trigger." alt="" coords="4673,167,4834,192"/>
+<area shape="poly" id="edge56_Node000002_Node000260" title=" " alt="" coords="4675,124,4737,164,4734,169,4673,128"/>
+<area shape="rect" id="Node000004" href="$Filter_8cpp.html" title="Implementation of Filter." alt="" coords="827,321,989,346"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1015,207,1005,236,989,267,959,299,928,323,925,318,955,295,984,264,1000,234,1010,205"/>
+<area shape="rect" id="Node000005" href="$FilterParameter_8cpp.html" title="Implementation of FilterParameter." alt="" coords="349,321,579,346"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="931,196,823,215,706,243,584,284,491,323,489,318,583,279,705,237,822,210,930,190"/>
+<area shape="rect" id="Node000006" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="717,240,931,265"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="976,199,857,242,855,237,974,194"/>
+<area shape="rect" id="Node000123" href="$Waveform_8cpp.html" title="Implementation of WaveformBase." alt="" coords="603,321,802,346"/>
+<area shape="poly" id="edge6_Node000003_Node000123" title=" " alt="" coords="1006,205,979,238,944,268,910,283,862,298,758,323,757,318,860,293,908,278,941,263,976,234,1002,202"/>
+<area shape="poly" id="edge7_Node000003_Node000124" title=" " alt="" coords="1106,180,4726,247,4726,252,1106,185"/>
+<area shape="rect" id="Node000249" href="$PCIeGen2LogicalDecoder_8cpp.html" title="Implementation of PCIeGen2LogicalDecoder." alt="" coords="1013,313,1229,353"/>
+<area shape="poly" id="edge51_Node000003_Node000249" title=" " alt="" coords="1036,202,1111,312,1106,315,1032,205"/>
+<area shape="rect" id="Node000250" href="$PCIeGen3LogicalDecoder_8cpp.html" title="Implementation of PCIeGen3LogicalDecoder." alt="" coords="1253,313,1469,353"/>
+<area shape="poly" id="edge52_Node000003_Node000250" title=" " alt="" coords="1058,195,1320,311,1317,316,1056,200"/>
+<area shape="rect" id="Node000047" href="$PCIeLinkTrainingDecoder_8cpp.html" title="Implementation of PCIeLinkTrainingDecoder." alt="" coords="9710,313,9925,353"/>
+<area shape="poly" id="edge53_Node000003_Node000047" title=" " alt="" coords="1107,179,4912,237,7305,260,8801,281,9361,295,9698,311,9710,312,9709,317,9697,316,9361,300,8801,287,7305,265,4912,243,1107,185"/>
+<area shape="rect" id="Node000251" href="$QSGMIIDecoder_8cpp.html" title="Implementation of QSGMIIDecoder." alt="" coords="5,313,160,353"/>
+<area shape="poly" id="edge54_Node000003_Node000251" title=" " alt="" coords="931,191,737,211,510,243,320,279,159,316,158,311,319,274,509,237,737,206,930,186"/>
+<area shape="rect" id="Node000008" href="$scopeprotocols_8h.html" title="Main library include file." alt="" coords="185,313,325,353"/>
+<area shape="poly" id="edge55_Node000003_Node000008" title=" " alt="" coords="932,194,788,215,627,243,463,280,323,316,321,311,461,275,626,237,788,209,931,189"/>
+<area shape="poly" id="edge42_Node000124_Node000004" title=" " alt="" coords="4712,257,3947,262,2786,272,1661,290,1246,302,1002,316,957,323,956,318,1001,311,1246,297,1661,285,2786,267,3947,257,4712,252"/>
+<area shape="poly" id="edge43_Node000124_Node000005" title=" " alt="" coords="4712,257,2584,275,1328,293,864,304,591,316,530,323,529,318,590,311,864,299,1328,288,2584,270,4712,252"/>
+<area shape="poly" id="edge45_Node000124_Node000123" title=" " alt="" coords="4712,257,2694,274,1510,292,1073,303,815,316,761,323,760,318,814,311,1072,298,1510,287,2694,269,4712,252"/>
+<area shape="rect" id="Node000125" href="$ActionProvider_8cpp.html" title="Implementation of ActionProvider." alt="" coords="7287,321,7513,346"/>
+<area shape="poly" id="edge8_Node000124_Node000125" title=" " alt="" coords="4915,252,5388,257,6070,267,6765,285,7055,297,7275,311,7334,318,7334,323,7274,316,7055,302,6765,290,6070,273,5388,262,4915,257"/>
+<area shape="rect" id="Node000126" href="$AgilentMultimeter_8cpp.html" title="Agilent 34401A multimeter driver." alt="" coords="7538,321,7787,346"/>
+<area shape="poly" id="edge9_Node000124_Node000126" title=" " alt="" coords="4914,252,5429,257,6184,267,6957,285,7281,296,7526,311,7591,318,7590,323,7525,316,7281,302,6957,290,6184,272,5429,262,4914,257"/>
+<area shape="rect" id="Node000127" href="$AgilentOscilloscope_8cpp.html" title="Implementation of AgilentOscilloscope." alt="" coords="7811,321,8069,346"/>
+<area shape="poly" id="edge10_Node000124_Node000127" title=" " alt="" coords="4915,252,5476,256,6310,266,7169,283,7528,296,7800,311,7867,318,7866,323,7800,316,7528,301,7169,288,6310,271,5476,261,4915,257"/>
+<area shape="rect" id="Node000128" href="$AlientekPowerSupply_8cpp.html" title="Implementation of AlientekPowerSupply." alt="" coords="8093,313,8291,353"/>
+<area shape="poly" id="edge11_Node000124_Node000128" title=" " alt="" coords="4914,251,5522,252,6439,258,6926,266,7385,276,7782,291,8082,311,8093,312,8092,317,8081,316,7782,296,7385,282,6926,271,6439,264,5522,257,4914,256"/>
+<area shape="rect" id="Node000129" href="$AntikernelLabsGPIO_8cpp.html" title="Implementation of AntikernelLabsGPIO." alt="" coords="8315,313,8515,353"/>
+<area shape="poly" id="edge12_Node000124_Node000129" title=" " alt="" coords="4914,251,5559,251,6540,257,7063,264,7556,275,7983,290,8304,311,8315,312,8314,317,8304,316,7982,295,7556,280,7063,269,6540,262,5559,256,4914,256"/>
+<area shape="rect" id="Node000130" href="$AntikernelLabsILA_8cpp.html" title="Implementation of AntikernelLabsILA." alt="" coords="8539,313,8739,353"/>
+<area shape="poly" id="edge13_Node000124_Node000130" title=" " alt="" coords="4914,251,5594,250,6641,255,7199,262,7727,273,8183,289,8527,311,8539,312,8538,317,8526,316,8183,294,7727,278,7199,267,6641,261,5594,255,4914,256"/>
+<area shape="rect" id="Node000131" href="$AntikernelLabsSerdesILA8b10b_8cpp.html" title="Implementation of AntikernelLabsSerdesILA8b10b." alt="" coords="8763,313,8963,353"/>
+<area shape="poly" id="edge14_Node000124_Node000131" title=" " alt="" coords="4914,252,6902,269,8067,287,8497,298,8751,311,8763,312,8762,317,8750,316,8497,303,8067,292,6902,275,4914,257"/>
+<area shape="rect" id="Node000132" href="$AntikernelLabsTriggerCrossbar_8cpp.html" title="Implementation of AntikernelLabsTriggerCrossbar." alt="" coords="8987,313,9187,353"/>
+<area shape="poly" id="edge15_Node000124_Node000132" title=" " alt="" coords="4915,252,7013,268,8249,286,8706,298,8975,311,8987,312,8986,317,8974,316,8705,303,8249,292,7013,274,4915,257"/>
+<area shape="rect" id="Node000133" href="$AntikernelLabsVIO_8cpp.html" title="Implementation of AntikernelLabsVIO." alt="" coords="9211,313,9411,353"/>
+<area shape="poly" id="edge16_Node000124_Node000133" title=" " alt="" coords="4915,252,5782,257,7123,268,8431,285,8914,297,9199,311,9211,312,9210,317,9198,316,8914,302,8431,291,7123,273,5782,262,4915,257"/>
+<area shape="rect" id="Node000134" href="$AseqSpectrometer_8cpp.html" title="Implementation of AseqSpectrometer." alt="" coords="9435,321,9685,346"/>
+<area shape="poly" id="edge17_Node000124_Node000134" title=" " alt="" coords="4914,252,7232,270,8612,288,9122,298,9423,311,9489,318,9489,323,9422,316,9122,304,8612,293,7232,275,4914,257"/>
+<area shape="rect" id="Node000135" href="$Averager_8cpp.html" title="Implementation of Averager." alt="" coords="1494,321,1685,346"/>
+<area shape="poly" id="edge18_Node000124_Node000135" title=" " alt="" coords="4712,257,4130,258,3257,264,2794,272,2358,282,1982,297,1698,316,1646,323,1645,318,1697,311,1981,292,2358,277,2794,266,3257,259,4130,252,4712,251"/>
+<area shape="rect" id="Node000136" href="$BERT_8cpp.html" title="Implementation of BERT." alt="" coords="1709,321,1872,346"/>
+<area shape="poly" id="edge19_Node000124_Node000136" title=" " alt="" coords="4712,256,4161,256,3342,263,2909,270,2502,280,2150,296,1884,316,1840,323,1839,318,1884,311,2149,290,2501,275,2909,264,3342,257,4161,251,4712,251"/>
+<area shape="rect" id="Node000137" href="$BERTInputChannel_8cpp.html" title="Implementation of BERTInputChannel." alt="" coords="1896,321,2147,346"/>
+<area shape="poly" id="edge20_Node000124_Node000137" title=" " alt="" coords="4712,257,4206,262,3468,273,2713,290,2398,302,2159,316,2094,323,2093,318,2158,311,2397,297,2713,285,3468,268,4206,257,4712,252"/>
+<area shape="rect" id="Node000138" href="$BERTInputChannelWithDataCapture_8cpp.html" title="Implementation of BERTInputChannelWithDataCapture." alt="" coords="2171,313,2395,353"/>
+<area shape="poly" id="edge21_Node000124_Node000138" title=" " alt="" coords="4712,257,4249,262,3582,273,2904,290,2621,302,2407,316,2395,317,2395,312,2406,311,2621,297,2904,285,3582,268,4249,257,4712,252"/>
+<area shape="rect" id="Node000139" href="$BERTOutputChannel_8cpp.html" title="Implementation of BERTOutputChannel." alt="" coords="2419,321,2682,346"/>
+<area shape="poly" id="edge22_Node000124_Node000139" title=" " alt="" coords="4712,256,4377,256,3880,263,3294,281,2991,296,2695,316,2627,323,2627,318,2694,311,2991,291,3294,275,3879,257,4377,251,4712,251"/>
+<area shape="rect" id="Node000140" href="$BinaryDriver_8cpp.html" title="Helper class for binary drivers." alt="" coords="2707,321,2920,346"/>
+<area shape="poly" id="edge23_Node000124_Node000140" title=" " alt="" coords="4712,258,3827,277,3310,294,3095,304,2932,316,2876,323,2876,318,2932,311,3095,299,3310,288,3826,271,4712,253"/>
+<area shape="rect" id="Node000141" href="$CANChannel_8cpp.html" title="Implementation of CANChannel, CANSymbol, and CANWaveform." alt="" coords="2945,321,3157,346"/>
+<area shape="poly" id="edge24_Node000124_Node000141" title=" " alt="" coords="4712,256,4444,257,4062,265,3619,283,3391,297,3168,316,3114,323,3113,318,3168,311,3391,292,3619,277,4062,259,4444,252,4712,251"/>
+<area shape="rect" id="Node000142" href="$CDR8B10BTrigger_8cpp.html" title="Implementation of CDR8B10BTrigger." alt="" coords="3181,321,3427,346"/>
+<area shape="poly" id="edge25_Node000124_Node000142" title=" " alt="" coords="4712,258,4484,262,4168,272,3806,289,3439,316,3377,323,3376,318,3438,311,3806,284,4168,267,4484,257,4712,252"/>
+<area shape="rect" id="Node000143" href="$CDRNRZPatternTrigger_8cpp.html" title="Implementation of CDRNRZPatternTrigger." alt="" coords="3451,313,3658,353"/>
+<area shape="poly" id="edge26_Node000124_Node000143" title=" " alt="" coords="4713,258,4260,273,3966,290,3670,316,3659,317,3658,312,3669,311,3966,285,4260,268,4712,253"/>
+<area shape="rect" id="Node000144" href="$CDRTrigger_8cpp.html" title="Implementation of CDRTrigger." alt="" coords="3682,321,3886,346"/>
+<area shape="poly" id="edge27_Node000124_Node000144" title=" " alt="" coords="4712,260,4353,278,4126,294,3899,316,3847,323,3847,318,3898,311,4126,289,4352,273,4712,255"/>
+<area shape="rect" id="Node000145" href="$CSVStreamInstrument_8cpp.html" title="Implementation of CSVStreamInstrument." alt="" coords="3911,321,4185,346"/>
+<area shape="poly" id="edge28_Node000124_Node000145" title=" " alt="" coords="4712,266,4198,316,4136,323,4135,318,4197,311,4712,260"/>
+<area shape="rect" id="Node000146" href="$CommandLineDriver_8cpp.html" title="Helper class for command line drivers." alt="" coords="4210,313,4409,353"/>
+<area shape="poly" id="edge29_Node000124_Node000146" title=" " alt="" coords="4723,270,4422,316,4409,318,4408,313,4421,311,4722,265"/>
+<area shape="rect" id="Node000147" href="$ComputePipeline_8cpp.html" title="Implementation of ComputePipeline." alt="" coords="4433,321,4676,346"/>
+<area shape="poly" id="edge30_Node000124_Node000147" title=" " alt="" coords="4763,272,4593,323,4592,318,4762,267"/>
+<area shape="rect" id="Node000148" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="4700,321,4927,346"/>
+<area shape="poly" id="edge31_Node000124_Node000148" title=" " alt="" coords="4808,279,4809,320,4804,321,4802,279"/>
+<area shape="rect" id="Node000149" href="$ConstellationWaveform_8cpp.html" title="Implementation of ConstellationWaveform." alt="" coords="4951,313,5142,353"/>
+<area shape="poly" id="edge33_Node000124_Node000149" title=" " alt="" coords="4861,267,4991,311,4990,316,4860,272"/>
+<area shape="rect" id="Node000150" href="$CopperMountainVNA_8cpp.html" title="Implementation of CopperMountainVNA." alt="" coords="5167,313,5377,353"/>
+<area shape="poly" id="edge34_Node000124_Node000150" title=" " alt="" coords="4894,265,5167,311,5166,317,4893,270"/>
+<area shape="rect" id="Node000151" href="$DCAEdgeTrigger_8cpp.html" title="Implementation of DCAEdgeTrigger." alt="" coords="5401,321,5637,346"/>
+<area shape="poly" id="edge35_Node000124_Node000151" title=" " alt="" coords="4914,260,5133,282,5390,311,5444,318,5443,323,5389,316,5132,287,4914,266"/>
+<area shape="rect" id="Node000152" href="$DSLabsOscilloscope_8cpp.html" title="Implementation of DSLabsOscilloscope." alt="" coords="5660,321,5921,346"/>
+<area shape="poly" id="edge36_Node000124_Node000152" title=" " alt="" coords="4914,257,5242,277,5650,311,5711,318,5711,323,5649,316,5241,282,4914,262"/>
+<area shape="rect" id="Node000153" href="$DemoOscilloscope_8cpp.html" title="Implementation of DemoOscilloscope." alt="" coords="5946,321,6198,346"/>
+<area shape="poly" id="edge37_Node000124_Node000153" title=" " alt="" coords="4915,254,5357,271,5644,288,5934,311,5996,318,5996,323,5933,316,5644,293,5357,277,4915,259"/>
+<area shape="rect" id="Node000154" href="$DemoPowerSupply_8cpp.html" title="Implementation of DemoPowerSupply." alt="" coords="6222,321,6474,346"/>
+<area shape="poly" id="edge38_Node000124_Node000154" title=" " alt="" coords="4914,252,5146,257,5467,267,5836,284,6211,311,6274,318,6274,323,6210,316,5836,289,5467,272,5146,262,4914,258"/>
+<area shape="rect" id="Node000155" href="$DensityFunctionWaveform_8cpp.html" title="Implementation of DensityFunctionWaveform." alt="" coords="6498,313,6707,353"/>
+<area shape="poly" id="edge39_Node000124_Node000155" title=" " alt="" coords="4914,251,5186,251,5576,258,6027,277,6259,291,6487,311,6498,312,6497,317,6486,316,6259,297,6027,282,5575,264,5186,257,4914,256"/>
+<area shape="rect" id="Node000156" href="$DigilentOscilloscope_8cpp.html" title="Implementation of DigilentOscilloscope." alt="" coords="6732,321,6996,346"/>
+<area shape="poly" id="edge40_Node000124_Node000156" title=" " alt="" coords="4914,251,5220,252,5666,260,6188,278,6457,292,6720,311,6787,318,6787,323,6720,316,6456,298,6187,283,5666,265,5220,258,4914,256"/>
+<area shape="rect" id="Node000157" href="$DigitalIOChannel_8cpp.html" title="Implementation of DigitalIOChannel." alt="" coords="7021,321,7262,346"/>
+<area shape="poly" id="edge41_Node000124_Node000157" title=" " alt="" coords="4915,253,5946,270,6559,288,6814,298,7008,311,7071,318,7071,323,7008,316,6814,304,6558,293,5946,276,4914,258"/>
+<area shape="rect" id="Node000175" href="$Instrument_8cpp.html" title="Implementation of Instrument." alt="" coords="9949,321,10152,346"/>
+<area shape="poly" id="edge44_Node000124_Node000175" title=" " alt="" coords="4915,252,5911,255,7485,265,9029,283,9601,295,9803,303,9938,311,9992,318,9992,323,9937,316,9803,308,9601,301,9029,288,7485,270,5911,261,4915,257"/>
+<area shape="poly" id="edge46_Node000124_Node000249" title=" " alt="" coords="4712,256,4055,257,3050,263,2514,271,2008,281,1571,296,1242,316,1230,317,1230,312,1241,311,1571,291,2008,276,2514,265,3050,258,4055,252,4712,251"/>
+<area shape="poly" id="edge47_Node000124_Node000250" title=" " alt="" coords="4712,257,4094,258,3159,265,2662,273,2192,283,1787,297,1482,316,1470,317,1470,312,1481,311,1787,292,2192,278,2661,267,3159,260,4094,253,4712,251"/>
+<area shape="poly" id="edge48_Node000124_Node000047" title=" " alt="" coords="4914,252,5869,256,7367,267,8835,284,9378,296,9698,311,9710,312,9709,317,9697,316,9377,302,8835,290,7367,272,5869,262,4914,257"/>
+<area shape="poly" id="edge49_Node000124_Node000251" title=" " alt="" coords="4712,257,3800,259,2378,268,1645,275,988,285,475,299,293,307,172,316,161,317,160,312,172,311,292,302,474,294,988,280,1645,270,2378,262,3800,254,4712,251"/>
+<area shape="poly" id="edge50_Node000124_Node000008" title=" " alt="" coords="4712,257,3829,259,2458,266,1753,274,1121,284,627,298,452,306,336,316,325,318,325,312,336,311,452,301,627,293,1121,279,1753,268,2458,261,3829,253,4712,251"/>
+<area shape="poly" id="edge32_Node000148_Node000124" title=" " alt="" coords="4819,307,4817,266,4823,265,4824,307"/>
+<area shape="poly" id="edge57_Node000260_Node000124" title=" " alt="" coords="4774,201,4806,238,4802,242,4770,204"/>
+<area shape="poly" id="edge60_Node000261_Node000124" title=" " alt="" coords="4868,133,4848,193,4823,241,4818,239,4843,191,4863,131"/>
+<area shape="poly" id="edge63_Node000262_Node000124" title=" " alt="" coords="4960,199,4845,242,4843,237,4959,194"/>
+<area shape="poly" id="edge62_Node000262_Node000175" title=" " alt="" coords="5110,179,5991,188,7390,211,8143,229,8856,251,9473,278,9728,294,9938,311,9991,318,9991,323,9937,316,9728,299,9473,283,8856,256,8143,234,7390,217,5991,194,5110,184"/>
 </map>

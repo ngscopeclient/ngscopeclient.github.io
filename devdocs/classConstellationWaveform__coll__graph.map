@@ -1,9 +1,23 @@
 <map id="ConstellationWaveform" name="ConstellationWaveform">
-<area shape="rect" id="node1" title="A constellation diagram." alt="" coords="99,393,275,420"/>
-<area shape="rect" id="node2" href="$classDensityFunctionWaveform.html" title="Base class for waveforms such as eye patterns, spectrograms, and waterfalls which are conceptually a ..." alt="" coords="90,317,285,344"/>
-<area shape="rect" id="node3" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="47,221,170,247"/>
-<area shape="rect" id="node4" href="$classAcceleratorBuffer.html" title=" " alt="" coords="25,109,171,151"/>
-<area shape="rect" id="node5" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node6" href="$classAcceleratorBuffer.html" title=" " alt="" coords="207,213,354,255"/>
-<area shape="rect" id="node7" href="$classAlignedAllocator.html" title=" " alt="" coords="195,109,374,151"/>
+<area shape="rect" id="Node000001" title="A constellation diagram." alt="" coords="1169,181,1345,206"/>
+<area shape="rect" id="Node000002" href="$classDensityFunctionWaveform.html" title="Base class for waveforms such as eye patterns, spectrograms, and waterfalls which are conceptually a ..." alt="" coords="925,139,1120,165"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1109,164,1185,178,1184,183,1108,170"/>
+<area shape="rect" id="Node000003" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="657,139,780,165"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="794,149,925,149,925,155,794,155"/>
+<area shape="rect" id="Node000004" href="$classAcceleratorBuffer.html" title=" " alt="" coords="344,132,491,172"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="504,149,657,149,657,155,504,155"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="14,154,182,179"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="196,160,344,153,344,158,196,165"/>
+<area shape="rect" id="Node000007" href="$classAcceleratorBuffer.html" title=" " alt="" coords="344,68,491,108"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="169,148,319,112,344,106,345,111,321,117,170,154"/>
+<area shape="rect" id="Node000009" href="$classAcceleratorBuffer.html" title=" " alt="" coords="344,196,491,236"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="195,179,344,202,343,207,194,184"/>
+<area shape="rect" id="Node000006" href="$classAlignedAllocator.html" title=" " alt="" coords="5,69,191,109"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="205,107,344,135,343,140,204,113"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="505,92,688,108,902,131,944,137,944,142,901,136,687,113,504,97"/>
+<area shape="rect" id="Node000008" href="$classAlignedAllocator.html" title=" " alt="" coords="9,5,187,45"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="202,43,344,71,343,76,201,48"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="504,211,1169,193,1169,198,504,216"/>
+<area shape="rect" id="Node000010" href="$classAlignedAllocator.html" title=" " alt="" coords="9,215,187,255"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="201,235,320,231,344,228,344,233,320,236,201,240"/>
 </map>

@@ -1,12 +1,23 @@
 <map id="AlientekPowerSupply" name="AlientekPowerSupply">
-<area shape="rect" id="node1" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="115,319,275,345"/>
-<area shape="rect" id="node2" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="203,244,338,271"/>
-<area shape="rect" id="node3" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="280,169,387,196"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="276,95,369,121"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="133,169,256,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="131,5,323,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="347,13,487,39"/>
-<area shape="rect" id="node9" href="$classHIDInstrument.html" title="Base class for instruments using USB HID communication protocol." alt="" coords="61,244,179,271"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="147,95,243,121"/>
-<area shape="rect" id="node10" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="5,169,109,196"/>
+<area shape="rect" id="Node000001" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="115,313,275,339"/>
+<area shape="rect" id="Node000002" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="203,240,338,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,277,209,315,205,311,247,273"/>
+<area shape="rect" id="Node000003" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="280,167,387,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="316,204,283,242,279,238,312,201"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="276,93,369,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="329,132,334,166,329,167,324,133"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="133,167,256,192"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="291,128,217,169,214,164,289,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="131,5,323,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="262,52,310,91,307,95,259,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="347,13,487,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="394,49,338,95,335,91,391,45"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="219,199,260,238,256,242,215,203"/>
+<area shape="rect" id="Node000009" href="$classHIDInstrument.html" title="Base class for instruments using USB HID communication protocol." alt="" coords="61,240,179,265"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="175,203,134,242,130,238,171,199"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="147,93,243,119"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="197,132,197,167,192,167,192,132"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="144,273,184,311,181,315,140,277"/>
+<area shape="rect" id="Node000010" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="5,167,109,192"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="79,201,112,238,108,242,75,204"/>
 </map>

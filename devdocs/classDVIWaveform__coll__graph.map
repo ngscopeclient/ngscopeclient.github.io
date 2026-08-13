@@ -1,13 +1,27 @@
 <map id="DVIWaveform" name="DVIWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="1641,110,1755,137"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="1356,110,1592,137"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1061,77,1228,103"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="737,15,859,42"/>
-<area shape="rect" id="node5" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,5,506,47"/>
-<area shape="rect" id="node6" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node7" href="$classAcceleratorBuffer.html" title=" " alt="" coords="725,69,871,111"/>
-<area shape="rect" id="node8" href="$classAlignedAllocator.html" title=" " alt="" coords="344,71,521,112"/>
-<area shape="rect" id="node9" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1071,135,1218,176"/>
-<area shape="rect" id="node10" href="$classAlignedAllocator.html" title=" " alt="" coords="688,135,908,176"/>
-<area shape="rect" id="node11" href="$classDVISymbol.html" title=" " alt="" coords="751,201,845,227"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1444,169,1557,194"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="1159,169,1395,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1409,179,1444,179,1444,184,1409,184"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="943,127,1109,153"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1117,152,1199,166,1199,171,1116,158"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="692,127,815,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="829,137,943,137,943,143,829,143"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="379,120,525,160"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="539,137,692,137,692,143,539,143"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="31,90,199,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="214,105,355,119,379,122,378,128,354,124,213,110"/>
+<area shape="rect" id="Node000008" href="$classAcceleratorBuffer.html" title=" " alt="" coords="379,49,525,89"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="212,89,249,85,378,73,379,78,250,91,213,94"/>
+<area shape="rect" id="Node000010" href="$classAcceleratorBuffer.html" title=" " alt="" coords="379,196,525,236"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="214,112,285,127,356,152,369,160,380,170,418,194,415,198,377,174,366,165,354,157,283,133,213,117"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="23,145,208,185"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="222,155,378,143,378,148,222,160"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="539,75,715,93,919,119,957,125,956,130,918,124,714,98,539,80"/>
+<area shape="rect" id="Node000009" href="$classAlignedAllocator.html" title=" " alt="" coords="27,5,204,45"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="218,36,378,57,378,62,218,41"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="539,210,1159,184,1159,189,539,215"/>
+<area shape="rect" id="Node000011" href="$classAlignedAllocator.html" title=" " alt="" coords="5,260,225,300"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="238,258,354,236,378,231,379,236,355,241,239,263"/>
+<area shape="rect" id="Node000012" href="$classDVISymbol.html" title=" " alt="" coords="68,210,163,235"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="176,219,378,215,378,220,176,224"/>
 </map>

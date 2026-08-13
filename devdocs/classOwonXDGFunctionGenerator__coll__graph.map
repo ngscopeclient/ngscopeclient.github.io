@@ -1,11 +1,20 @@
 <map id="OwonXDGFunctionGenerator" name="OwonXDGFunctionGenerator">
-<area shape="rect" id="node1" title="Owon XDG Function Generator series driver class." alt="" coords="53,337,261,364"/>
-<area shape="rect" id="node2" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="72,261,243,288"/>
-<area shape="rect" id="node3" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="166,185,309,212"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="191,109,284,136"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="19,185,141,212"/>
-<area shape="rect" id="node5" title=" " alt="" coords="141,5,333,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="358,13,498,39"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,109,115,136"/>
-<area shape="rect" id="node9" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,39"/>
+<area shape="rect" id="Node000001" title="Owon XDG Function Generator series driver class." alt="" coords="53,332,261,357"/>
+<area shape="rect" id="Node000002" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="72,257,243,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,297,160,332,155,332,155,297"/>
+<area shape="rect" id="Node000003" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="166,183,309,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,219,172,259,169,255,213,215"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="191,108,284,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="240,148,240,182,235,182,235,148"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="19,183,141,208"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="201,141,106,185,104,180,199,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="141,5,333,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="240,59,240,108,235,108,235,59"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="358,13,498,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="394,46,262,110,260,105,391,42"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="104,216,146,255,143,259,101,220"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="19,108,115,133"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="74,147,80,182,75,183,69,148"/>
+<area shape="rect" id="Node000009" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,13,117,38"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="65,52,69,108,63,108,60,52"/>
 </map>

@@ -1,6 +1,10 @@
 <map id="SCPITwinLanTransport" name="SCPITwinLanTransport">
-<area shape="rect" id="node1" title="A SCPISocketTransport plus a second socket for waveform data." alt="" coords="63,171,227,197"/>
-<area shape="rect" id="node2" href="$classSCPISocketTransport.html" title="Transport that moves SCPI data over a single TCP socket with no framing." alt="" coords="5,95,160,121"/>
-<area shape="rect" id="node3" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="21,5,133,32"/>
-<area shape="rect" id="node4" href="$classSocket.html" title="Class representing a network socket." alt="" coords="166,5,231,32"/>
+<area shape="rect" id="Node000001" title="A SCPISocketTransport plus a second socket for waveform data." alt="" coords="63,168,227,193"/>
+<area shape="rect" id="Node000002" href="$classSCPISocketTransport.html" title="Transport that moves SCPI data over a single TCP socket with no framing." alt="" coords="5,93,160,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,128,137,166,133,169,100,131"/>
+<area shape="rect" id="Node000003" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="21,5,133,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,44,85,93,79,93,76,45"/>
+<area shape="rect" id="Node000004" href="$classSocket.html" title="Class representing a network socket." alt="" coords="166,5,231,31"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="197,45,192,70,173,126,154,169,149,166,168,124,187,69,192,44"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="155,38,124,57,106,76,92,95,88,91,102,72,121,53,152,34"/>
 </map>

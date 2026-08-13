@@ -1,34 +1,75 @@
 <map id="src/ngscopeclient/FilterGraphEditor.h" name="src/ngscopeclient/FilterGraphEditor.h">
-<area shape="rect" id="node1" title="Declaration of FilterGraphEditor." alt="" coords="395,5,565,47"/>
-<area shape="rect" id="node2" href="$FilterGraphEditor_8cpp.html" title="Implementation of FilterGraphEditor." alt="" coords="5,169,176,211"/>
-<area shape="rect" id="node3" href="$FilterGraphWorkspace_8cpp.html" title="Implementation of FilterGraphWorkspace." alt="" coords="200,169,371,211"/>
-<area shape="rect" id="node4" href="$FilterPropertiesDialog_8cpp.html" title="Implementation of FilterPropertiesDialog." alt="" coords="395,169,565,211"/>
-<area shape="rect" id="node5" href="$MainWindow_8h.html" title="Declaration of MainWindow." alt="" coords="3129,95,3364,121"/>
-<area shape="rect" id="node18" href="$MainWindow__Menus_8cpp.html" title="Implementation of MainWindow." alt="" coords="6638,169,6861,211"/>
-<area shape="rect" id="node6" href="$AboutDialog_8cpp.html" title="Implementation of AboutDialog." alt="" coords="3859,177,4106,203"/>
-<area shape="rect" id="node7" href="$BERTInputChannelDialog_8cpp.html" title="Implementation of BERTInputChannelDialog." alt="" coords="4130,169,4337,211"/>
-<area shape="rect" id="node8" href="$ChannelPropertiesDialog_8cpp.html" title="Implementation of ChannelPropertiesDialog." alt="" coords="4361,169,4553,211"/>
-<area shape="rect" id="node9" href="$CreateFilterBrowser_8cpp.html" title="Implementation of CreateFilterBrowser." alt="" coords="4578,169,4761,211"/>
-<area shape="rect" id="node10" href="$DigitalIOChannelDialog_8cpp.html" title="Implementation of DigitalIOChannelDialog." alt="" coords="4785,169,4967,211"/>
-<area shape="rect" id="node11" href="$DigitalInputChannelDialog_8cpp.html" title="Implementation of DigitalInputChannelDialog." alt="" coords="4991,169,5174,211"/>
-<area shape="rect" id="node12" href="$DigitalOutputChannelDialog_8cpp.html" title="Implementation of DigitalOutputChannelDialog." alt="" coords="5198,169,5386,211"/>
-<area shape="rect" id="node13" href="$FileBrowser_8cpp.html" title="Implementation of FileBrowser." alt="" coords="5410,177,5651,203"/>
-<area shape="rect" id="node14" href="$HistoryDialog_8cpp.html" title="Implementation of HistoryDialog." alt="" coords="5676,169,5863,211"/>
-<area shape="rect" id="node15" href="$LogViewerDialog_8cpp.html" title="Implementation of LogViewerDialog." alt="" coords="5887,169,6094,211"/>
-<area shape="rect" id="node16" href="$MainWindow_8cpp.html" title="Implementation of most of MainWindow." alt="" coords="6118,177,6367,203"/>
-<area shape="rect" id="node17" href="$MainWindow__Icons_8cpp.html" title="Implementation of MainWindow functions for loading icons." alt="" coords="6391,169,6614,211"/>
-<area shape="rect" id="node19" href="$ManageInstrumentsDialog_8cpp.html" title="Implementation of ManageInstrumentsDialog." alt="" coords="590,169,781,211"/>
-<area shape="rect" id="node20" href="$MemoryLeakerDialog_8cpp.html" title="Implementation of MemoryLeakerDialog." alt="" coords="805,169,998,211"/>
-<area shape="rect" id="node21" href="$NFDFileBrowser_8cpp.html" title="Implementation of NFDFileBrowser." alt="" coords="1023,169,1212,211"/>
-<area shape="rect" id="node22" href="$NotesDialog_8cpp.html" title="Implementation of NotesDialog." alt="" coords="1237,177,1483,203"/>
-<area shape="rect" id="node23" href="$PersistenceSettingsDialog_8cpp.html" title="Implementation of PersistenceSettingsDialog." alt="" coords="1507,169,1722,211"/>
-<area shape="rect" id="node24" href="$ProtocolAnalyzerDialog_8cpp.html" title="Implementation of ProtocolAnalyzerDialog." alt="" coords="1747,169,1939,211"/>
-<area shape="rect" id="node25" href="$SCPIConsoleDialog_8cpp.html" title="Implementation of SCPIConsoleDialog." alt="" coords="1963,169,2183,211"/>
-<area shape="rect" id="node26" href="$ScopeDeskewWizard_8cpp.html" title="Implementation of ScopeDeskewWizard." alt="" coords="2208,169,2437,211"/>
-<area shape="rect" id="node27" href="$Session_8cpp.html" title="Implementation of Session." alt="" coords="2461,177,2677,203"/>
-<area shape="rect" id="node28" href="$StreamBrowserDialog_8cpp.html" title="Implementation of StreamBrowserDialog." alt="" coords="2701,169,2888,211"/>
-<area shape="rect" id="node29" href="$WaveformArea_8cpp.html" title="Implementation of WaveformArea." alt="" coords="2913,169,3119,211"/>
-<area shape="rect" id="node30" href="$WaveformGroup_8cpp.html" title="Implementation of WaveformGroup." alt="" coords="3143,169,3350,211"/>
-<area shape="rect" id="node31" href="$Workspace_8cpp.html" title="Implementation of Workspace." alt="" coords="3374,177,3613,203"/>
-<area shape="rect" id="node32" href="$main_8cpp.html" title="Program entry point." alt="" coords="3637,177,3835,203"/>
+<area shape="rect" id="Node000001" title="Declaration of FilterGraphEditor." alt="" coords="395,5,565,45"/>
+<area shape="rect" id="Node000002" href="$FilterGraphEditor_8cpp.html" title="Implementation of FilterGraphEditor." alt="" coords="5,167,176,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,53,138,169,136,164,421,48"/>
+<area shape="rect" id="Node000003" href="$FilterGraphWorkspace_8cpp.html" title="Implementation of FilterGraphWorkspace." alt="" coords="200,167,371,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="448,56,310,169,307,164,445,52"/>
+<area shape="rect" id="Node000004" href="$FilterPropertiesDialog_8cpp.html" title="Implementation of FilterPropertiesDialog." alt="" coords="395,167,565,207"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="483,59,483,167,477,167,477,59"/>
+<area shape="rect" id="Node000005" href="$MainWindow_8h.html" title="Declaration of MainWindow." alt="" coords="3497,93,3732,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="579,26,3497,99,3497,104,579,32"/>
+<area shape="rect" id="Node000020" href="$MainWindow__Menus_8cpp.html" title="Implementation of MainWindow." alt="" coords="7319,167,7542,207"/>
+<area shape="poly" id="edge38_Node000001_Node000020" title=" " alt="" coords="579,24,1745,30,3698,50,4762,68,5774,92,6650,124,7012,143,7308,164,7319,165,7319,170,7308,169,7011,148,6650,129,5774,97,4762,73,3698,55,1745,36,579,30"/>
+<area shape="poly" id="edge15_Node000005_Node000002" title=" " alt="" coords="3483,111,1740,129,760,146,401,157,188,169,176,171,176,165,188,164,401,152,760,141,1739,124,3483,106"/>
+<area shape="poly" id="edge16_Node000005_Node000003" title=" " alt="" coords="3483,109,2864,109,1967,115,1496,122,1053,133,671,148,383,169,371,171,370,165,382,164,671,143,1053,127,1496,116,1967,109,2864,104,3483,104"/>
+<area shape="poly" id="edge17_Node000005_Node000004" title=" " alt="" coords="3483,110,2897,110,2057,116,1617,124,1203,134,847,149,578,169,566,171,565,165,577,164,847,144,1203,129,1617,118,2057,111,2897,105,3483,104"/>
+<area shape="rect" id="Node000006" href="$AboutDialog_8cpp.html" title="Implementation of AboutDialog." alt="" coords="4569,174,4815,199"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="3746,110,4111,129,4333,144,4556,164,4617,171,4616,177,4556,169,4333,150,4111,134,3746,115"/>
+<area shape="rect" id="Node000007" href="$AddInstrumentDialog_8cpp.html" title="Implementation of AddInstrumentDialog." alt="" coords="4839,167,5073,207"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="3746,107,4223,123,4524,140,4827,164,4839,165,4838,171,4826,169,4523,145,4222,129,3746,112"/>
+<area shape="rect" id="Node000008" href="$BERTInputChannelDialog_8cpp.html" title="Implementation of BERTInputChannelDialog." alt="" coords="5098,167,5305,207"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="3746,105,3994,108,4327,116,4705,134,4897,147,5086,164,5098,165,5097,171,5085,169,4897,153,4704,139,4327,122,3994,113,3746,110"/>
+<area shape="rect" id="Node000009" href="$ChannelPropertiesDialog_8cpp.html" title="Implementation of ChannelPropertiesDialog." alt="" coords="5329,167,5521,207"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="3746,107,4546,126,4991,143,5176,153,5316,164,5329,165,5329,171,5316,169,5175,158,4991,148,4546,132,3746,112"/>
+<area shape="rect" id="Node000010" href="$CreateFilterBrowser_8cpp.html" title="Implementation of CreateFilterBrowser." alt="" coords="5546,167,5729,207"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="3746,106,4649,123,5160,140,5372,151,5534,164,5546,165,5545,171,5533,169,5372,157,5160,146,4649,129,3746,112"/>
+<area shape="rect" id="Node000011" href="$Dialog_8cpp.html" title="Implementation of Dialog." alt="" coords="5753,174,5961,199"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="3746,106,4748,123,5321,140,5560,151,5742,164,5796,171,5796,177,5741,169,5560,157,5321,145,4748,128,3746,111"/>
+<area shape="rect" id="Node000012" href="$DigitalIOChannelDialog_8cpp.html" title="Implementation of DigitalIOChannelDialog." alt="" coords="5986,167,6169,207"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="3746,105,4214,109,4857,119,5501,136,5770,149,5974,164,5986,165,5985,171,5973,169,5770,154,5501,142,4857,124,4213,115,3746,111"/>
+<area shape="rect" id="Node000013" href="$DigitalInputChannelDialog_8cpp.html" title="Implementation of DigitalInputChannelDialog." alt="" coords="6193,167,6375,207"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="3746,105,4250,108,4954,117,5662,134,5958,148,6182,164,6193,165,6192,171,6181,169,5957,153,5662,140,4954,122,4250,113,3746,110"/>
+<area shape="rect" id="Node000014" href="$DigitalOutputChannelDialog_8cpp.html" title="Implementation of DigitalOutputChannelDialog." alt="" coords="6399,167,6587,207"/>
+<area shape="poly" id="edge13_Node000005_Node000014" title=" " alt="" coords="3746,105,4286,107,5050,115,5822,133,6144,147,6388,164,6400,165,6399,171,6388,169,6144,152,5822,138,5050,121,4286,112,3746,110"/>
+<area shape="rect" id="Node000015" href="$FileBrowser_8cpp.html" title="Implementation of FileBrowser." alt="" coords="6611,174,6853,199"/>
+<area shape="poly" id="edge14_Node000005_Node000015" title=" " alt="" coords="3746,105,4323,109,5148,118,5985,136,6335,148,6600,164,6663,171,6663,177,6600,169,6335,154,5985,141,5148,124,4323,114,3746,110"/>
+<area shape="rect" id="Node000016" href="$HistoryDialog_8cpp.html" title="Implementation of HistoryDialog." alt="" coords="6877,167,7064,207"/>
+<area shape="poly" id="edge18_Node000005_Node000016" title=" " alt="" coords="3746,104,4369,105,5271,111,5745,118,6191,129,6575,144,6866,164,6877,165,6877,171,6865,169,6575,149,6190,134,5745,124,5271,117,4369,110,3746,110"/>
+<area shape="rect" id="Node000017" href="$LogViewerDialog_8cpp.html" title="Implementation of LogViewerDialog." alt="" coords="7089,167,7295,207"/>
+<area shape="poly" id="edge19_Node000005_Node000017" title=" " alt="" coords="3746,106,5507,126,6497,143,6861,153,7076,164,7089,165,7088,171,7076,169,6861,159,6497,148,5507,131,3746,111"/>
+<area shape="rect" id="Node000018" href="$MainWindow_8cpp.html" title="Implementation of most of MainWindow." alt="" coords="590,174,839,199"/>
+<area shape="poly" id="edge20_Node000005_Node000018" title=" " alt="" coords="3484,111,2945,116,2185,126,1415,143,1094,155,851,169,786,177,786,171,850,164,1094,150,1415,138,2184,120,2945,110,3484,105"/>
+<area shape="rect" id="Node000019" href="$MainWindow__Icons_8cpp.html" title="Implementation of MainWindow functions for loading icons." alt="" coords="863,167,1086,207"/>
+<area shape="poly" id="edge21_Node000005_Node000019" title=" " alt="" coords="3484,111,2988,116,2299,126,1606,143,1317,155,1098,169,1086,170,1086,165,1097,164,1316,150,1605,138,2299,121,2988,110,3484,106"/>
+<area shape="poly" id="edge22_Node000005_Node000020" title=" " alt="" coords="3746,106,5623,125,6686,143,7077,153,7308,164,7319,165,7319,170,7308,169,7077,158,6686,148,5623,131,3746,111"/>
+<area shape="rect" id="Node000021" href="$ManageInstrumentsDialog_8cpp.html" title="Implementation of ManageInstrumentsDialog." alt="" coords="1110,167,1301,207"/>
+<area shape="poly" id="edge23_Node000005_Node000021" title=" " alt="" coords="3484,111,3026,115,2399,125,1772,143,1510,155,1312,169,1301,171,1301,165,1312,164,1510,149,1772,137,2399,120,3026,110,3484,105"/>
+<area shape="rect" id="Node000022" href="$MemoryDialog_8cpp.html" title="Implementation of MemoryDialog." alt="" coords="1325,167,1518,207"/>
+<area shape="poly" id="edge24_Node000005_Node000022" title=" " alt="" coords="3483,111,3065,117,2501,128,1940,145,1707,156,1530,169,1519,171,1518,165,1529,164,1706,151,1940,139,2501,122,3065,111,3483,106"/>
+<area shape="rect" id="Node000023" href="$MemoryLeakerDialog_8cpp.html" title="Implementation of MemoryLeakerDialog." alt="" coords="1542,167,1735,207"/>
+<area shape="poly" id="edge25_Node000005_Node000023" title=" " alt="" coords="3483,112,2605,130,2110,147,1905,157,1748,169,1736,171,1735,165,1748,164,1904,152,2110,141,2605,125,3483,106"/>
+<area shape="rect" id="Node000024" href="$NFDFileBrowser_8cpp.html" title="Implementation of NFDFileBrowser." alt="" coords="1760,167,1949,207"/>
+<area shape="poly" id="edge26_Node000005_Node000024" title=" " alt="" coords="3483,112,2706,132,2276,148,2098,158,1962,169,1950,171,1949,165,1961,164,2097,153,2276,143,2706,126,3483,107"/>
+<area shape="rect" id="Node000025" href="$NotesDialog_8cpp.html" title="Implementation of NotesDialog." alt="" coords="1974,174,2221,199"/>
+<area shape="poly" id="edge27_Node000005_Node000025" title=" " alt="" coords="3484,112,3249,116,2938,126,2588,143,2234,169,2171,177,2170,171,2233,164,2587,138,2938,121,3249,111,3483,106"/>
+<area shape="rect" id="Node000026" href="$ProtocolAnalyzerDialog_8cpp.html" title="Implementation of ProtocolAnalyzerDialog." alt="" coords="2245,167,2437,207"/>
+<area shape="poly" id="edge28_Node000005_Node000026" title=" " alt="" coords="3483,112,3283,116,3025,126,2738,143,2450,169,2438,171,2437,165,2449,164,2738,138,3025,121,3283,111,3483,106"/>
+<area shape="rect" id="Node000027" href="$SCPIConsoleDialog_8cpp.html" title="Implementation of SCPIConsoleDialog." alt="" coords="2462,167,2682,207"/>
+<area shape="poly" id="edge29_Node000005_Node000027" title=" " alt="" coords="3484,115,3127,134,2911,149,2695,169,2683,171,2682,165,2694,164,2911,144,3127,128,3483,110"/>
+<area shape="rect" id="Node000028" href="$ScopeDeskewWizard_8cpp.html" title="Implementation of ScopeDeskewWizard." alt="" coords="2707,167,2936,207"/>
+<area shape="poly" id="edge30_Node000005_Node000028" title=" " alt="" coords="3484,119,3235,140,2948,169,2937,171,2936,165,2948,164,3235,135,3483,114"/>
+<area shape="rect" id="Node000029" href="$Session_8cpp.html" title="Implementation of Session." alt="" coords="2960,174,3176,199"/>
+<area shape="poly" id="edge31_Node000005_Node000029" title=" " alt="" coords="3517,123,3188,169,3140,177,3139,171,3188,164,3516,118"/>
+<area shape="rect" id="Node000030" href="$StreamBrowserDialog_8cpp.html" title="Implementation of StreamBrowserDialog." alt="" coords="3200,167,3387,207"/>
+<area shape="poly" id="edge32_Node000005_Node000030" title=" " alt="" coords="3555,125,3371,169,3370,164,3554,119"/>
+<area shape="rect" id="Node000031" href="$TutorialWizard_8cpp.html" title="Implementation of TutorialWizard." alt="" coords="3411,167,3597,207"/>
+<area shape="poly" id="edge33_Node000005_Node000031" title=" " alt="" coords="3589,129,3532,169,3529,164,3586,124"/>
+<area shape="rect" id="Node000032" href="$WaveformArea_8cpp.html" title="Implementation of WaveformArea." alt="" coords="3622,167,3829,207"/>
+<area shape="poly" id="edge34_Node000005_Node000032" title=" " alt="" coords="3644,124,3700,164,3697,169,3641,129"/>
+<area shape="rect" id="Node000033" href="$WaveformGroup_8cpp.html" title="Implementation of WaveformGroup." alt="" coords="3853,167,4059,207"/>
+<area shape="poly" id="edge35_Node000005_Node000033" title=" " alt="" coords="3678,119,3875,164,3873,169,3677,124"/>
+<area shape="rect" id="Node000034" href="$Workspace_8cpp.html" title="Implementation of Workspace." alt="" coords="4083,174,4322,199"/>
+<area shape="poly" id="edge36_Node000005_Node000034" title=" " alt="" coords="3718,118,4071,164,4124,171,4123,177,4070,169,3717,123"/>
+<area shape="rect" id="Node000035" href="$main_8cpp.html" title="Program entry point." alt="" coords="4346,174,4545,199"/>
+<area shape="poly" id="edge37_Node000005_Node000035" title=" " alt="" coords="3746,112,4018,132,4334,164,4383,171,4382,177,4333,169,4017,137,3746,118"/>
 </map>

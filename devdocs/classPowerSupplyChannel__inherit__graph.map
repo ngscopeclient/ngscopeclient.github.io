@@ -1,6 +1,9 @@
 <map id="PowerSupplyChannel" name="PowerSupplyChannel">
-<area shape="rect" id="node1" title="A single channel of a power supply." alt="" coords="5,229,164,256"/>
-<area shape="rect" id="node2" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,155,158,181"/>
-<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,80,148,107"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="15,5,155,32"/>
+<area shape="rect" id="Node000001" title="A single channel of a power supply." alt="" coords="5,225,164,251"/>
+<area shape="rect" id="Node000002" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,152,158,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,191,87,225,82,225,82,191"/>
+<area shape="rect" id="Node000003" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,79,148,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,118,87,152,82,152,82,118"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="15,5,155,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,44,87,79,82,79,82,44"/>
 </map>

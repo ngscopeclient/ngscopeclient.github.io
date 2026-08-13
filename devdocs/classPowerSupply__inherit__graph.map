@@ -1,17 +1,33 @@
 <map id="PowerSupply" name="PowerSupply">
-<area shape="rect" id="node1" title="A generic power supply." alt="" coords="387,233,493,260"/>
-<area shape="rect" id="node5" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="541,233,676,260"/>
-<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,233,339,260"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,197,197,238"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="31,263,171,289"/>
-<area shape="rect" id="node6" href="$classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="763,5,923,32"/>
-<area shape="rect" id="node7" href="$classDemoPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="771,56,916,83"/>
-<area shape="rect" id="node8" href="$classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="724,107,963,133"/>
-<area shape="rect" id="node9" href="$classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="761,157,926,184"/>
-<area shape="rect" id="node10" href="$classKuaiquPowerSupply.html" title="A KUAIQU power supply." alt="" coords="768,208,919,235"/>
-<area shape="rect" id="node11" href="$classRidenPowerSupply.html" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="772,259,915,285"/>
-<area shape="rect" id="node12" href="$classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="753,309,934,336"/>
-<area shape="rect" id="node13" href="$classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="733,361,953,402"/>
-<area shape="rect" id="node14" href="$classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="768,427,919,453"/>
-<area shape="rect" id="node15" href="$classSinilinkPowerSupply.html" title="Implementation for Sinilink PSUs such as XY&#45;S3580, XY6020L." alt="" coords="766,477,921,504"/>
+<area shape="rect" id="Node000001" title="A generic power supply." alt="" coords="387,252,493,277"/>
+<area shape="rect" id="Node000005" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="541,252,676,277"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="507,262,541,262,541,267,507,267"/>
+<area shape="rect" id="Node000002" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="245,252,339,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="352,262,387,262,387,267,352,267"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,215,197,255"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,250,246,255,245,260,211,255"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="31,280,171,305"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="185,278,245,269,246,274,185,283"/>
+<area shape="rect" id="Node000006" href="$classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="763,5,923,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="613,237,626,194,647,140,679,86,699,61,722,40,741,29,762,21,764,26,744,34,726,44,703,65,683,89,652,142,631,195,618,239"/>
+<area shape="rect" id="Node000007" href="$classDemoPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="771,55,916,80"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="617,238,632,204,655,163,685,123,722,89,745,77,770,70,771,75,747,82,726,94,689,126,659,166,637,206,622,240"/>
+<area shape="rect" id="Node000008" href="$classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="724,104,963,129"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="623,239,664,187,691,160,723,138,749,127,751,132,725,143,695,165,668,191,627,242"/>
+<area shape="rect" id="Node000009" href="$classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="761,153,926,179"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="635,241,675,213,723,188,759,176,761,181,725,192,678,218,638,245"/>
+<area shape="rect" id="Node000010" href="$classKuaiquPowerSupply.html" title="A KUAIQU power supply." alt="" coords="768,203,919,228"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="679,246,723,237,778,225,779,231,725,242,680,252"/>
+<area shape="rect" id="Node000011" href="$classMockPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="773,252,914,277"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="690,262,772,262,772,267,690,267"/>
+<area shape="rect" id="Node000012" href="$classRidenPowerSupply.html" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="772,301,915,327"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="684,278,783,299,781,304,683,283"/>
+<area shape="rect" id="Node000013" href="$classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="753,351,934,376"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="638,284,678,312,725,337,760,348,758,353,723,342,675,316,635,288"/>
+<area shape="rect" id="Node000014" href="$classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="733,401,953,441"/>
+<area shape="poly" id="edge13_Node000005_Node000014" title=" " alt="" coords="628,287,668,338,695,364,725,386,749,398,747,403,723,391,692,368,664,341,624,290"/>
+<area shape="rect" id="Node000015" href="$classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="768,465,919,491"/>
+<area shape="poly" id="edge14_Node000005_Node000015" title=" " alt="" coords="621,289,635,326,657,370,687,414,726,451,746,462,768,469,767,474,744,467,722,455,683,418,653,373,630,328,616,291"/>
+<area shape="rect" id="Node000016" href="$classSinilinkPowerSupply.html" title="Implementation for Sinilink PSUs such as XY&#45;S3580, XY6020L." alt="" coords="766,515,921,540"/>
+<area shape="poly" id="edge15_Node000005_Node000016" title=" " alt="" coords="617,290,629,337,649,394,681,453,702,479,726,501,745,513,767,520,765,525,743,517,722,505,698,482,677,456,644,396,624,338,612,292"/>
 </map>

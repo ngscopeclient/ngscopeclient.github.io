@@ -1,9 +1,18 @@
 <map id="UniformWaveform&lt; S &gt;" name="UniformWaveform&lt; S &gt;">
-<area shape="rect" id="node1" title="A waveform sampled at uniform intervals." alt="" coords="106,407,287,433"/>
-<area shape="rect" id="node2" href="$classUniformWaveformBase.html" title="Base class for waveforms with data sampled at uniform intervals." alt="" coords="11,317,185,344"/>
-<area shape="rect" id="node3" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="37,221,159,247"/>
-<area shape="rect" id="node4" href="$classAcceleratorBuffer.html" title=" " alt="" coords="25,109,171,151"/>
-<area shape="rect" id="node5" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node6" href="$classAcceleratorBuffer.html" title=" " alt="" coords="209,317,384,344"/>
-<area shape="rect" id="node7" href="$classAlignedAllocator.html" title=" " alt="" coords="219,213,375,255"/>
+<area shape="rect" id="Node000001" title="A waveform sampled at uniform intervals." alt="" coords="237,373,418,399"/>
+<area shape="rect" id="Node000002" href="$classUniformWaveformBase.html" title="Base class for waveforms with data sampled at uniform intervals." alt="" coords="176,299,351,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,333,319,371,315,375,281,337"/>
+<area shape="rect" id="Node000003" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="193,211,315,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,250,265,298,259,298,254,250"/>
+<area shape="rect" id="Node000004" href="$classAcceleratorBuffer.html" title=" " alt="" coords="143,108,290,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="232,160,252,209,247,211,227,162"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="215,13,383,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="283,50,234,110,230,106,279,47"/>
+<area shape="rect" id="Node000007" href="$classAcceleratorBuffer.html" title=" " alt="" coords="315,115,489,141"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="323,46,392,113,388,117,319,50"/>
+<area shape="rect" id="Node000006" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,45"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="121,55,145,82,180,106,177,110,142,86,117,59"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="402,154,391,232,381,279,366,325,352,352,338,375,334,372,348,350,361,323,375,277,386,231,397,154"/>
+<area shape="rect" id="Node000008" href="$classAlignedAllocator.html" title=" " alt="" coords="408,5,564,45"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="464,57,414,117,410,113,460,54"/>
 </map>

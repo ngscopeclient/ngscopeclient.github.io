@@ -1,5 +1,7 @@
 <map id="SinkNode" name="SinkNode">
-<area shape="rect" id="node1" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="33,155,117,181"/>
-<area shape="rect" id="node2" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,80,139,107"/>
-<area shape="rect" id="node3" href="$classSerializableObject.html" title=" " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="Node000001" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="33,152,117,177"/>
+<area shape="rect" id="Node000002" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,79,139,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,118,78,152,73,152,73,118"/>
+<area shape="rect" id="Node000003" href="$classSerializableObject.html" title=" " alt="" coords="5,5,145,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,44,78,79,73,79,73,44"/>
 </map>

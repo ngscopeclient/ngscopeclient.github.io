@@ -1,14 +1,36 @@
 <map id="lib/scopehal/AcceleratorBuffer.h" name="lib/scopehal/AcceleratorBuffer.h">
-<area shape="rect" id="node1" title="Declaration of AcceleratorBuffer." alt="" coords="308,5,487,47"/>
-<area shape="rect" id="node2" href="$AlignedAllocator_8h.html" title="Declaration of AlignedAllocator." alt="" coords="23,95,164,121"/>
-<area shape="rect" id="node3" href="$QueueManager_8h.html" title="Declaration of QueueManager and QueueHandle." alt="" coords="188,95,321,121"/>
-<area shape="rect" id="node10" title=" " alt="" coords="346,95,449,121"/>
-<area shape="rect" id="node11" title=" " alt="" coords="473,95,548,121"/>
-<area shape="rect" id="node12" title=" " alt="" coords="573,95,665,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,169,56,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="80,169,157,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="181,169,245,196"/>
-<area shape="rect" id="node7" title=" " alt="" coords="270,169,325,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="349,169,411,196"/>
-<area shape="rect" id="node9" title=" " alt="" coords="436,169,607,196"/>
+<area shape="rect" id="Node000001" title="Declaration of AcceleratorBuffer." alt="" coords="392,5,571,45"/>
+<area shape="rect" id="Node000002" href="$AlignedAllocator_8h.html" title="Declaration of AlignedAllocator." alt="" coords="107,93,248,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,48,236,92,234,87,408,43"/>
+<area shape="rect" id="Node000003" href="$QueueManager_8h.html" title="Declaration of QueueManager and QueueHandle." alt="" coords="272,93,405,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="448,48,373,89,370,84,446,43"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="430,93,533,119"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="484,46,484,79,479,79,479,46"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="557,93,632,119"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="510,43,568,83,565,87,507,48"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="657,93,749,119"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="535,43,658,86,656,91,533,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,240,56,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="299,121,237,141,169,169,109,202,59,234,56,230,107,197,167,164,235,136,297,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="80,240,157,265"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="304,121,255,141,204,169,168,199,138,231,135,227,164,196,201,164,253,136,302,116"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="181,240,245,265"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="288,121,249,139,232,152,218,168,212,182,209,197,210,226,205,227,204,196,207,180,214,165,228,148,246,134,286,116"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="270,240,325,265"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="349,118,366,152,369,173,365,193,350,216,330,234,327,230,346,212,360,191,364,172,360,153,345,120"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="349,240,411,265"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="353,117,372,138,387,166,391,197,389,226,383,226,386,197,381,168,367,141,349,121"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="436,240,607,265"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="355,117,497,229,494,233,352,121"/>
+<area shape="rect" id="Node000010" href="$QueueWrapper_8h.html" title="Declaration of QueueWrapper." alt="" coords="631,240,761,265"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="368,116,656,232,654,237,366,121"/>
+<area shape="rect" id="Node000011" href="$QueueHandle_8h.html" title="Vulkan queue management." alt="" coords="228,167,351,192"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="333,121,307,157,303,154,328,117"/>
+<area shape="poly" id="edge11_Node000011_Node000004" title=" " alt="" coords="246,195,70,242,69,237,244,189"/>
+<area shape="poly" id="edge12_Node000011_Node000005" title=" " alt="" coords="263,194,160,237,158,232,261,190"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="279,194,238,232,234,229,275,190"/>
+<area shape="poly" id="edge14_Node000011_Node000007" title=" " alt="" coords="293,192,297,226,292,227,288,193"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="306,190,356,229,353,233,302,194"/>
+<area shape="poly" id="edge16_Node000011_Node000009" title=" " alt="" coords="327,189,472,233,470,239,326,195"/>
+<area shape="poly" id="edge17_Node000011_Node000010" title=" " alt="" coords="352,189,618,235,617,240,351,194"/>
 </map>

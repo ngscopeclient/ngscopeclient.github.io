@@ -1,13 +1,27 @@
 <map id="EthernetBaseXAutonegotiationWaveform" name="EthernetBaseXAutonegotiationWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="1731,103,1953,144"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="1451,103,1681,144"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1126,77,1293,103"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="754,15,877,42"/>
-<area shape="rect" id="node5" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,5,506,47"/>
-<area shape="rect" id="node6" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node7" href="$classAcceleratorBuffer.html" title=" " alt="" coords="742,69,889,111"/>
-<area shape="rect" id="node8" href="$classAlignedAllocator.html" title=" " alt="" coords="344,71,521,112"/>
-<area shape="rect" id="node9" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1096,127,1323,183"/>
-<area shape="rect" id="node10" href="$classAlignedAllocator.html" title=" " alt="" coords="688,135,943,176"/>
-<area shape="rect" id="node11" href="$classEthernetBaseXAutonegotiationSample.html" title=" " alt="" coords="704,200,927,241"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1553,164,1776,204"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="1273,164,1504,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1518,181,1553,181,1553,187,1518,187"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1057,126,1224,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1225,151,1279,161,1278,167,1224,156"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="807,126,929,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="943,136,1057,136,1057,141,943,141"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="453,119,600,159"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="614,136,806,136,806,141,614,141"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="49,90,217,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="231,106,390,119,453,126,453,131,389,124,230,111"/>
+<area shape="rect" id="Node000008" href="$classAcceleratorBuffer.html" title=" " alt="" coords="453,49,600,89"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="230,90,284,85,453,72,453,77,284,91,231,96"/>
+<area shape="rect" id="Node000010" href="$classAcceleratorBuffer.html" title=" " alt="" coords="413,195,640,250"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="231,111,310,126,390,152,415,168,463,193,460,198,412,173,388,157,309,132,230,116"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="40,145,225,185"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="239,155,453,141,453,146,240,161"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="614,73,807,91,1034,117,1072,123,1071,129,1033,123,806,96,614,79"/>
+<area shape="rect" id="Node000009" href="$classAlignedAllocator.html" title=" " alt="" coords="44,5,221,45"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="235,34,454,59,453,64,234,39"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="654,214,1273,186,1273,192,654,220"/>
+<area shape="rect" id="Node000011" href="$classAlignedAllocator.html" title=" " alt="" coords="5,273,260,313"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="258,268,413,240,414,246,259,274"/>
+<area shape="rect" id="Node000012" href="$classEthernetBaseXAutonegotiationSample.html" title=" " alt="" coords="21,209,244,249"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="258,225,413,222,413,227,258,230"/>
 </map>

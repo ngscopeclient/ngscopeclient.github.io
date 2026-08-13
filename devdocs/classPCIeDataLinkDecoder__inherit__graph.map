@@ -1,9 +1,15 @@
 <map id="PCIeDataLinkDecoder" name="PCIeDataLinkDecoder">
-<area shape="rect" id="node1" title="Decoder for PCIe data link layer." alt="" coords="5,453,168,480"/>
-<area shape="rect" id="node2" href="$classPacketDecoder.html" title=" " alt="" coords="27,379,146,405"/>
-<area shape="rect" id="node3" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="59,304,114,331"/>
-<area shape="rect" id="node4" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="8,229,165,256"/>
-<area shape="rect" id="node5" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="13,155,160,181"/>
-<area shape="rect" id="node6" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="23,80,150,107"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="17,5,157,32"/>
+<area shape="rect" id="Node000001" title="Decoder for PCIe data link layer." alt="" coords="5,445,168,471"/>
+<area shape="rect" id="Node000002" href="$classPacketDecoder.html" title=" " alt="" coords="27,372,146,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,411,89,445,84,445,84,411"/>
+<area shape="rect" id="Node000003" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="59,299,114,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,338,89,372,84,372,84,338"/>
+<area shape="rect" id="Node000004" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="8,225,165,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,264,89,299,84,299,84,264"/>
+<area shape="rect" id="Node000005" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="13,152,160,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="89,191,89,225,84,225,84,191"/>
+<area shape="rect" id="Node000006" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="23,79,150,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="89,118,89,152,84,152,84,118"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="17,5,157,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="89,44,89,79,84,79,84,44"/>
 </map>

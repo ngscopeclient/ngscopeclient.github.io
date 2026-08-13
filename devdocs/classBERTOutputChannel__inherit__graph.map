@@ -1,6 +1,9 @@
 <map id="BERTOutputChannel" name="BERTOutputChannel">
-<area shape="rect" id="node1" title="A pattern generator channel of a BERT." alt="" coords="5,229,159,256"/>
-<area shape="rect" id="node2" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="9,155,155,181"/>
-<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="19,80,145,107"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="12,5,152,32"/>
+<area shape="rect" id="Node000001" title="A pattern generator channel of a BERT." alt="" coords="5,225,159,251"/>
+<area shape="rect" id="Node000002" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="9,152,155,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,191,85,225,79,225,79,191"/>
+<area shape="rect" id="Node000003" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="19,79,145,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,118,85,152,79,152,79,118"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="12,5,152,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,44,85,79,79,79,79,44"/>
 </map>

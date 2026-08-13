@@ -1,7 +1,11 @@
 <map id="RuntTrigger" name="RuntTrigger">
-<area shape="rect" id="node1" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="27,304,124,331"/>
-<area shape="rect" id="node2" href="$classTwoLevelTrigger.html" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="12,229,139,256"/>
-<area shape="rect" id="node3" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="42,155,109,181"/>
-<area shape="rect" id="node4" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,80,139,107"/>
-<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="Node000001" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="27,299,124,324"/>
+<area shape="rect" id="Node000002" href="$classTwoLevelTrigger.html" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="12,225,139,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,264,78,299,73,299,73,264"/>
+<area shape="rect" id="Node000003" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="42,152,109,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,191,78,225,73,225,73,191"/>
+<area shape="rect" id="Node000004" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,79,139,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="78,118,78,152,73,152,73,118"/>
+<area shape="rect" id="Node000005" href="$classSerializableObject.html" title=" " alt="" coords="5,5,145,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="78,44,78,79,73,79,73,44"/>
 </map>

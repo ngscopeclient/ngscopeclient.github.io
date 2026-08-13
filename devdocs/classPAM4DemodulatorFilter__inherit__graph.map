@@ -1,8 +1,13 @@
 <map id="PAM4DemodulatorFilter" name="PAM4DemodulatorFilter">
-<area shape="rect" id="node1" title=" " alt="" coords="5,379,181,405"/>
-<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="66,304,121,331"/>
-<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="15,229,172,256"/>
-<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="20,155,167,181"/>
-<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="30,80,157,107"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="23,5,163,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,372,181,397"/>
+<area shape="rect" id="Node000002" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="66,299,121,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,338,96,372,91,372,91,338"/>
+<area shape="rect" id="Node000003" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="15,225,172,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,264,96,299,91,299,91,264"/>
+<area shape="rect" id="Node000004" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="20,152,167,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,191,96,225,91,225,91,191"/>
+<area shape="rect" id="Node000005" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="30,79,157,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="96,118,96,152,91,152,91,118"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="23,5,163,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="96,44,96,79,91,79,91,44"/>
 </map>

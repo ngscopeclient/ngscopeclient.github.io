@@ -1,9 +1,15 @@
 <map id="FIRFilter" name="FIRFilter">
-<area shape="rect" id="node1" title="Performs an arbitrary FIR filter with tap delay equal to the sample rate." alt="" coords="61,379,136,405"/>
-<area shape="rect" id="node7" href="$classEnhancedResolutionFilter.html" title=" " alt="" coords="5,453,192,480"/>
-<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="71,304,126,331"/>
-<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="20,229,177,256"/>
-<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="25,155,172,181"/>
-<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="35,80,162,107"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="29,5,169,32"/>
+<area shape="rect" id="Node000001" title="Performs an arbitrary FIR filter with tap delay equal to the sample rate." alt="" coords="61,372,136,397"/>
+<area shape="rect" id="Node000007" href="$classEnhancedResolutionFilter.html" title=" " alt="" coords="5,445,192,471"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="101,411,101,445,96,445,96,411"/>
+<area shape="rect" id="Node000002" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="71,299,126,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,338,101,372,96,372,96,338"/>
+<area shape="rect" id="Node000003" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="20,225,177,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,264,101,299,96,299,96,264"/>
+<area shape="rect" id="Node000004" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="25,152,172,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,191,101,225,96,225,96,191"/>
+<area shape="rect" id="Node000005" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="35,79,162,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="101,118,101,152,96,152,96,118"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="29,5,169,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="101,44,101,79,96,79,96,44"/>
 </map>

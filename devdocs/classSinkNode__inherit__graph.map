@@ -1,5 +1,19 @@
 <map id="SinkNode" name="SinkNode">
-<area shape="rect" id="node1" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="33,155,117,181"/>
-<area shape="rect" id="node2" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="12,80,139,107"/>
-<area shape="rect" id="node3" href="$classSerializableObject.html" title=" " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="Node000001" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="379,152,463,177"/>
+<area shape="rect" id="Node000004" href="$classBaseChannelPropertiesDialog.html" title=" " alt="" coords="5,225,220,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="366,181,163,228,162,223,365,176"/>
+<area shape="rect" id="Node000007" href="$classMeasurementsDialog.html" title=" " alt="" coords="244,225,405,251"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="396,188,342,227,339,223,393,183"/>
+<area shape="rect" id="Node000008" href="$classProtocolAnalyzerDialog.html" title="UI for the history system." alt="" coords="429,225,604,251"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="449,183,503,223,499,227,446,188"/>
+<area shape="rect" id="Node000009" href="$classWaveformArea.html" title="A WaveformArea is a plot that displays one or more OscilloscopeChannel&#39;s worth of data." alt="" coords="629,225,749,251"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="477,178,646,223,645,228,475,183"/>
+<area shape="rect" id="Node000002" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="357,79,484,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,118,423,152,418,152,418,118"/>
+<area shape="rect" id="Node000003" href="$classSerializableObject.html" title=" " alt="" coords="351,5,491,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="423,44,423,79,418,79,418,44"/>
+<area shape="rect" id="Node000005" href="$classChannelPropertiesDialog.html" title=" " alt="" coords="21,299,204,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="115,264,115,299,110,299,110,264"/>
+<area shape="rect" id="Node000006" href="$classFilterPropertiesDialog.html" title=" " alt="" coords="31,372,194,397"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="115,338,115,372,110,372,110,338"/>
 </map>

@@ -1,20 +1,59 @@
 <map id="FallMeasurement" name="FallMeasurement">
-<area shape="rect" id="node1" title=" " alt="" coords="1699,205,1833,232"/>
-<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="1595,205,1649,232"/>
-<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="1322,141,1479,168"/>
-<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="1026,83,1173,109"/>
-<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="717,5,844,32"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="370,9,510,36"/>
-<area shape="rect" id="node7" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="734,56,827,83"/>
-<area shape="rect" id="node8" title=" " alt="" coords="344,65,536,106"/>
-<area shape="rect" id="node9" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="756,107,805,133"/>
-<area shape="rect" id="node10" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="719,299,842,325"/>
-<area shape="rect" id="node14" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1016,225,1183,252"/>
-<area shape="rect" id="node11" href="$classAcceleratorBuffer.html" title=" " alt="" coords="367,291,513,333"/>
-<area shape="rect" id="node12" href="$classAlignedAllocator.html" title=" " alt="" coords="5,291,191,333"/>
-<area shape="rect" id="node13" href="$classSparseWaveform.html" title="A waveform sampled at irregular intervals." alt="" coords="1315,205,1487,232"/>
-<area shape="rect" id="node15" href="$classAcceleratorBuffer.html" title=" " alt="" coords="707,223,854,265"/>
-<area shape="rect" id="node16" href="$classAlignedAllocator.html" title=" " alt="" coords="351,223,529,265"/>
-<area shape="rect" id="node17" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1012,169,1187,196"/>
-<area shape="rect" id="node18" href="$classAlignedAllocator.html" title=" " alt="" coords="703,158,859,199"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1937,415,2072,440"/>
+<area shape="rect" id="Node000002" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="1665,251,1719,276"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1731,280,1980,412,1978,417,1728,285"/>
+<area shape="rect" id="Node000003" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="1353,167,1510,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1524,188,1602,209,1642,228,1675,248,1672,253,1639,233,1600,214,1523,193"/>
+<area shape="rect" id="Node000004" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="1003,71,1150,96"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1164,86,1242,97,1322,117,1373,140,1413,164,1410,169,1370,144,1320,122,1241,102,1164,91"/>
+<area shape="rect" id="Node000005" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="713,5,839,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="853,27,970,50,1036,68,1034,73,969,55,852,32"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="370,11,510,36"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="524,19,712,16,712,22,524,25"/>
+<area shape="rect" id="Node000007" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="729,55,823,80"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="524,32,730,59,729,64,524,37"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="837,68,1003,77,1003,82,837,73"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="344,65,536,105"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="550,76,729,67,729,72,550,82"/>
+<area shape="rect" id="Node000009" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="751,117,801,143"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="814,122,1003,92,1004,97,815,127"/>
+<area shape="rect" id="Node000020" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="1191,132,1314,157"/>
+<area shape="poly" id="edge24_Node000020_Node000009" title=" " alt="" coords="814,130,873,133,1191,141,1191,146,873,138,814,135"/>
+<area shape="rect" id="Node000010" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="715,228,837,253"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="851,238,1176,241,1601,254,1665,258,1664,264,1601,259,1176,247,851,243"/>
+<area shape="rect" id="Node000015" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="993,336,1160,361"/>
+<area shape="poly" id="edge16_Node000015_Node000010" title=" " alt="" coords="852,248,911,260,970,280,1021,306,1061,334,1058,338,1018,311,968,284,909,265,851,253"/>
+<area shape="rect" id="Node000011" href="$classAcceleratorBuffer.html" title=" " alt="" coords="367,221,513,261"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="527,238,714,238,714,243,527,243"/>
+<area shape="rect" id="Node000012" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="14,403,182,428"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="139,394,245,344,318,305,330,289,342,273,368,259,370,263,346,277,334,293,322,309,248,349,141,399"/>
+<area shape="rect" id="Node000016" href="$classAcceleratorBuffer.html" title=" " alt="" coords="703,341,849,381"/>
+<area shape="poly" id="edge18_Node000016_Node000012" title=" " alt="" coords="196,409,355,401,536,387,702,368,703,373,536,393,356,406,196,414"/>
+<area shape="rect" id="Node000018" href="$classAcceleratorBuffer.html" title=" " alt="" coords="353,288,527,313"/>
+<area shape="poly" id="edge21_Node000018_Node000012" title=" " alt="" coords="190,398,266,380,297,370,318,360,326,352,330,343,334,333,342,324,367,311,369,316,346,328,338,336,335,345,330,355,322,364,299,375,267,386,191,403"/>
+<area shape="rect" id="Node000022" href="$classAcceleratorBuffer.html" title=" " alt="" coords="367,566,513,606"/>
+<area shape="poly" id="edge27_Node000022_Node000012" title=" " alt="" coords="142,431,216,461,246,470,271,475,295,482,322,499,335,516,346,534,368,550,392,564,389,568,365,554,342,537,330,519,318,503,292,487,269,480,244,475,214,466,140,436"/>
+<area shape="rect" id="Node000024" href="$classAcceleratorBuffer.html" title=" " alt="" coords="367,483,513,523"/>
+<area shape="poly" id="edge30_Node000024_Node000012" title=" " alt="" coords="171,428,321,465,376,481,374,486,319,470,170,434"/>
+<area shape="rect" id="Node000013" href="$classAlignedAllocator.html" title=" " alt="" coords="5,218,191,258"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="204,236,366,237,366,243,204,241"/>
+<area shape="rect" id="Node000014" href="$classSparseWaveform.html" title="A waveform sampled at irregular intervals." alt="" coords="1345,285,1517,311"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="1531,282,1664,264,1665,269,1531,287"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="1174,334,1321,314,1358,308,1359,313,1322,319,1174,340"/>
+<area shape="poly" id="edge32_Node000001_Node000016" title=" " alt="" coords="864,376,965,392,1075,399,1693,399,1823,405,1937,416,1937,421,1823,410,1693,405,1075,405,964,397,863,382"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="863,357,969,354,993,353,993,358,969,359,863,363"/>
+<area shape="rect" id="Node000017" href="$classAlignedAllocator.html" title=" " alt="" coords="351,338,529,378"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="542,356,702,357,702,363,542,361"/>
+<area shape="poly" id="edge20_Node000014_Node000018" title=" " alt="" coords="541,298,1345,296,1345,301,541,303"/>
+<area shape="rect" id="Node000019" href="$classAlignedAllocator.html" title=" " alt="" coords="20,282,176,322"/>
+<area shape="poly" id="edge22_Node000018_Node000019" title=" " alt="" coords="190,299,352,298,352,304,190,304"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="1328,139,1419,140,1518,151,1639,176,1687,190,1731,206,1773,226,1817,252,1915,325,1962,372,1996,413,1992,416,1958,375,1912,329,1814,256,1771,231,1729,211,1685,195,1637,182,1517,157,1418,146,1328,144"/>
+<area shape="rect" id="Node000021" href="$classComputePipeline.html" title="Encapsulates a Vulkan compute pipeline and all necessary resources to use it." alt="" coords="1625,440,1759,465"/>
+<area shape="poly" id="edge25_Node000001_Node000021" title=" " alt="" coords="1772,444,1913,433,1937,431,1937,436,1914,438,1773,449"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="527,586,775,590,1693,590,1741,585,1788,572,1832,552,1874,529,1944,478,1989,438,1992,442,1947,483,1877,533,1835,557,1790,577,1742,590,1693,595,775,595,527,591"/>
+<area shape="rect" id="Node000023" href="$classAlignedAllocator.html" title=" " alt="" coords="9,566,187,606"/>
+<area shape="poly" id="edge28_Node000022_Node000023" title=" " alt="" coords="201,583,366,583,366,589,201,589"/>
+<area shape="poly" id="edge29_Node000001_Node000024" title=" " alt="" coords="527,501,775,501,1693,501,1773,494,1851,477,1920,457,1972,438,1974,443,1921,462,1852,482,1774,499,1693,506,775,506,527,506"/>
+<area shape="rect" id="Node000025" href="$classAlignedAllocator.html" title=" " alt="" coords="5,497,191,537"/>
+<area shape="poly" id="edge31_Node000024_Node000025" title=" " alt="" coords="204,510,366,504,367,509,204,515"/>
 </map>

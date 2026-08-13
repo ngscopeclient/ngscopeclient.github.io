@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['waveformflags_5ft_0',['WaveformFlags_t',['../classWaveformBase.html#ab8228e5f8fa0010dd2fafccc5104b75f',1,'WaveformBase']]],
-  ['waveshape_1',['WaveShape',['../classFunctionGenerator.html#a454477b6f3f16a93c1d4aa78681df907',1,'FunctionGenerator']]],
-  ['windowtype_2',['WindowType',['../classWindowTrigger.html#adf8132516a302c57c5e2c646ce81e449',1,'WindowTrigger']]]
+  ['visibilitymode_0',['VisibilityMode',['../classInstrumentChannel.html#a350e257b3a190aa2f5b1ba8bfbb6a85b',1,'InstrumentChannel']]],
+  ['vulkanfftdatatype_1',['VulkanFFTDataType',['../classVulkanFFTPlan.html#a223c93dd373b5d569860beb32f9fb674',1,'VulkanFFTPlan']]],
+  ['vulkanfftplandirection_2',['VulkanFFTPlanDirection',['../classVulkanFFTPlan.html#a5be750762b4814ac42b3fec8a06259b3',1,'VulkanFFTPlan']]]
 ];

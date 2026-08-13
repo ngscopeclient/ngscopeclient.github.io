@@ -1,8 +1,13 @@
 <map id="SpectrumChannel" name="SpectrumChannel">
-<area shape="rect" id="node1" title="A frequency domain oscilloscope channel." alt="" coords="94,304,231,331"/>
-<area shape="rect" id="node2" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,229,163,256"/>
-<area shape="rect" id="node3" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,155,157,181"/>
-<area shape="rect" id="node4" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,80,147,107"/>
-<area shape="rect" id="node5" href="$classSerializableObject.html" title=" " alt="" coords="14,5,154,32"/>
-<area shape="rect" id="node6" href="$classPeakDetector.html" title=" " alt="" coords="187,229,298,256"/>
+<area shape="rect" id="Node000001" title="A frequency domain oscilloscope channel." alt="" coords="94,299,231,324"/>
+<area shape="rect" id="Node000002" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,225,163,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,258,152,296,148,300,105,262"/>
+<area shape="rect" id="Node000003" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,152,157,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,191,87,225,81,225,81,191"/>
+<area shape="rect" id="Node000004" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,79,147,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,118,87,152,81,152,81,118"/>
+<area shape="rect" id="Node000005" href="$classSerializableObject.html" title=" " alt="" coords="14,5,154,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,44,87,79,81,79,81,44"/>
+<area shape="rect" id="Node000006" href="$classPeakDetector.html" title=" " alt="" coords="187,225,298,251"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="222,262,178,300,174,296,218,258"/>
 </map>

@@ -1,52 +1,110 @@
 <map id="lib/scopehal/EyeWaveform.cpp" name="lib/scopehal/EyeWaveform.cpp">
-<area shape="rect" id="node1" title="Implementation of EyeWaveform." alt="" coords="2459,5,2681,32"/>
-<area shape="rect" id="node2" href="$scopehal_8h.html" title="Main library include file." alt="" coords="2316,80,2483,107"/>
-<area shape="rect" id="node49" href="$EyeWaveform_8h.html" title="Declaration of EyeWaveform." alt="" coords="2507,80,2633,107"/>
-<area shape="rect" id="node50" title=" " alt="" coords="2658,80,2743,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,68,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="76,229,139,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="165,229,223,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="410,155,461,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="485,155,556,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="610,229,677,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="781,155,845,181"/>
-<area shape="rect" id="node10" title=" " alt="" coords="247,229,325,256"/>
-<area shape="rect" id="node11" title=" " alt="" coords="869,155,935,181"/>
-<area shape="rect" id="node12" title=" " alt="" coords="959,155,1042,181"/>
-<area shape="rect" id="node13" title=" " alt="" coords="349,229,391,256"/>
-<area shape="rect" id="node14" title=" " alt="" coords="1066,155,1130,181"/>
-<area shape="rect" id="node15" title=" " alt="" coords="1154,155,1269,181"/>
-<area shape="rect" id="node16" title=" " alt="" coords="1293,155,1428,181"/>
-<area shape="rect" id="node17" title=" " alt="" coords="1452,155,1584,181"/>
-<area shape="rect" id="node18" href="$log_8h.html" title="Main logging framework header." alt="" coords="194,155,285,181"/>
-<area shape="rect" id="node19" href="$TimeUtil_8h.html" title="Declaration of global timing utility functions." alt="" coords="1608,155,1761,181"/>
-<area shape="rect" id="node20" title=" " alt="" coords="1786,155,1861,181"/>
-<area shape="rect" id="node21" title=" " alt="" coords="1885,155,2055,181"/>
-<area shape="rect" id="node22" href="$Unit_8h.html" title="Declaration of Unit." alt="" coords="2079,155,2141,181"/>
-<area shape="rect" id="node23" href="$Bijection_8h.html" title="Declaration of Bijection." alt="" coords="2165,155,2255,181"/>
-<area shape="rect" id="node24" href="$IDTable_8h.html" title="Declaration of IDTable class." alt="" coords="2279,155,2362,181"/>
-<area shape="rect" id="node25" href="$AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="2380,229,2528,256"/>
-<area shape="rect" id="node26" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="2437,155,2583,181"/>
-<area shape="rect" id="node27" href="$SCPITransport_8h.html" title="Declaration of SCPITransport." alt="" coords="632,155,756,181"/>
-<area shape="rect" id="node28" href="$SCPISocketTransport_8h.html" title="Declaration of SCPISocketTransport." alt="" coords="2607,155,2773,181"/>
-<area shape="rect" id="node29" href="$SCPITwinLanTransport_8h.html" title="Declaration of SCPITwinLanTransport." alt="" coords="2798,155,2974,181"/>
-<area shape="rect" id="node30" href="$SCPILxiTransport_8h.html" title="Declaration of SCPILxiTransport." alt="" coords="2999,155,3141,181"/>
-<area shape="rect" id="node31" href="$SCPINullTransport_8h.html" title="Declaration of SCPINullTransport." alt="" coords="3165,155,3316,181"/>
-<area shape="rect" id="node32" href="$SCPIUARTTransport_8h.html" title="Declaration of SCPIUARTTransport." alt="" coords="3341,155,3501,181"/>
-<area shape="rect" id="node33" href="$SCPIHIDTransport_8h.html" title="Declaration of SCPIHIDTransport." alt="" coords="3525,155,3673,181"/>
-<area shape="rect" id="node34" href="$VICPSocketTransport_8h.html" title="Declaration of VICPSocketTransport." alt="" coords="3698,155,3866,181"/>
-<area shape="rect" id="node35" href="$SCPIDevice_8h_source.html" title=" " alt="" coords="3891,155,3999,181"/>
-<area shape="rect" id="node36" href="$SCPITMCTransport_8h.html" title="Declaration of SCPITMCTransport." alt="" coords="4023,155,4176,181"/>
-<area shape="rect" id="node37" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="4183,229,4322,256"/>
-<area shape="rect" id="node38" href="$SinkNode_8h.html" title="Declaration of SinkNode." alt="" coords="4355,155,4451,181"/>
-<area shape="rect" id="node39" href="$Instrument_8h.html" title="Declaration of Instrument." alt="" coords="4476,155,4581,181"/>
-<area shape="rect" id="node40" href="$StreamDescriptor_8h.html" title="Declaration of StreamDescriptor." alt="" coords="4605,155,4753,181"/>
-<area shape="rect" id="node41" href="$OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="4777,155,4947,181"/>
-<area shape="rect" id="node42" href="$StreamDescriptor__inlines_8h.html" title="Inline functions for StreamDescriptor." alt="" coords="4971,155,5169,181"/>
-<area shape="rect" id="node43" href="$FlowGraphNode__inlines_8h.html" title="Inline functions for FlowGraphNode which reference OscilloscopeChannel class." alt="" coords="5193,155,5381,181"/>
-<area shape="rect" id="node44" href="$Trigger_8h.html" title="Declaration of Trigger." alt="" coords="4252,155,4331,181"/>
-<area shape="rect" id="node45" href="$BERT_8h.html" title="Declaration of BERT." alt="" coords="5406,155,5473,181"/>
-<area shape="rect" id="node46" href="$BinaryDriver_8h.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="5497,155,5613,181"/>
-<area shape="rect" id="node47" href="$CommandLineDriver_8h.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="5638,155,5806,181"/>
-<area shape="rect" id="node48" href="$DigitalIOChannel_8h.html" title="Declaration of DigitalIOChannel." alt="" coords="5830,155,5974,181"/>
+<area shape="rect" id="Node000001" title="Implementation of EyeWaveform." alt="" coords="2368,5,2591,31"/>
+<area shape="rect" id="Node000002" href="$scopehal_8h.html" title="Main library include file." alt="" coords="2225,79,2392,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2453,33,2350,76,2348,71,2451,28"/>
+<area shape="rect" id="Node000139" href="$EyeWaveform_8h.html" title="Declaration of EyeWaveform." alt="" coords="2416,79,2543,104"/>
+<area shape="poly" id="edge57_Node000001_Node000139" title=" " alt="" coords="2482,31,2482,65,2477,65,2477,31"/>
+<area shape="rect" id="Node000141" title=" " alt="" coords="2567,79,2653,104"/>
+<area shape="poly" id="edge58_Node000001_Node000141" title=" " alt="" coords="2502,28,2578,70,2576,74,2499,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,159,68,185"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2225,96,1761,101,1094,111,458,129,225,141,88,155,76,158,74,152,87,149,224,135,458,123,1094,106,1761,95,2225,91"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="91,387,153,412"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="2225,95,1759,95,1101,101,777,108,498,119,296,134,233,144,202,154,179,176,161,203,147,232,137,263,127,324,124,372,119,372,121,323,132,262,142,230,156,200,175,173,199,150,232,139,295,129,498,114,777,103,1101,96,1759,90,2225,90"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="207,387,266,412"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="2225,96,1757,102,1098,114,504,132,311,142,255,148,231,154,214,177,203,204,199,234,200,265,212,325,228,373,223,375,207,327,194,266,194,234,198,203,209,175,229,150,254,143,310,137,503,126,1097,109,1757,97,2225,91"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="509,159,559,185"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="2225,96,1852,101,1337,111,852,129,676,141,572,155,566,156,565,151,571,149,675,135,852,123,1336,106,1852,96,2225,91"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="584,159,655,185"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="2225,95,1903,97,1454,104,1221,111,1003,122,816,136,674,155,661,158,660,153,674,149,815,131,1003,116,1221,106,1454,99,1903,91,2225,90"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="709,240,775,265"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="2225,95,1862,97,1371,105,1134,112,931,122,785,136,741,145,720,154,712,170,712,189,719,209,728,227,723,229,714,211,707,190,706,169,716,150,739,140,784,131,930,117,1133,107,1371,99,1862,92,2225,90"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="879,159,943,185"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="2225,95,1953,97,1585,104,1397,112,1221,122,1070,136,956,155,947,157,946,152,955,149,1069,131,1220,117,1396,106,1585,99,1953,91,2225,90"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="305,387,382,412"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="2225,96,1813,99,1240,107,961,115,720,125,545,138,491,146,464,154,442,185,412,247,356,375,351,373,407,244,438,183,460,150,490,141,545,133,720,120,960,110,1240,102,1813,93,2225,90"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="967,159,1034,185"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="2225,96,1969,98,1629,107,1291,124,1152,138,1047,155,1038,157,1036,152,1045,149,1151,132,1291,119,1628,101,1969,93,2225,90"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1058,159,1141,185"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="2225,97,1990,102,1680,112,1375,129,1249,141,1153,155,1141,158,1140,152,1152,149,1248,135,1375,124,1680,107,1990,96,2225,91"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="427,387,470,412"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="2225,95,1817,96,1255,104,981,111,746,121,576,136,524,145,498,154,478,177,463,204,453,233,447,264,444,324,447,373,442,373,438,325,441,264,447,232,458,202,473,174,495,150,523,139,575,131,746,116,981,106,1255,98,1817,91,2225,90"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1165,159,1229,185"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="2225,96,2006,101,1722,110,1443,128,1328,140,1241,155,1233,157,1231,152,1240,149,1327,135,1442,122,1721,105,2006,95,2225,91"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="1253,159,1367,185"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="2225,95,2067,98,1857,106,1619,124,1498,138,1380,155,1360,159,1359,153,1379,149,1497,132,1618,119,1856,101,2067,92,2225,90"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1392,159,1527,185"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="2225,97,1921,113,1730,130,1538,155,1516,159,1515,154,1538,149,1730,125,1921,108,2225,92"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1551,159,1683,185"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="2225,100,1986,118,1840,134,1694,155,1673,159,1672,154,1694,149,1839,128,1985,113,2225,94"/>
+<area shape="rect" id="Node000018" href="$log_8h.html" title="Main logging framework header." alt="" coords="254,313,345,339"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="2225,95,1776,97,1143,105,832,113,564,123,369,137,309,145,278,154,249,177,232,202,226,231,235,264,250,286,270,303,266,307,246,289,230,266,221,231,227,200,246,173,275,150,308,140,369,132,564,118,832,107,1143,100,1776,92,2225,90"/>
+<area shape="rect" id="Node000020" href="$TimeUtil_8h.html" title="Declaration of global timing utility functions." alt="" coords="1707,159,1860,185"/>
+<area shape="poly" id="edge22_Node000002_Node000020" title=" " alt="" coords="2226,105,2062,126,1873,155,1849,159,1848,154,1872,149,2061,121,2225,100"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="1885,159,1959,185"/>
+<area shape="poly" id="edge23_Node000002_Node000021" title=" " alt="" coords="2226,106,2105,125,1972,155,1963,157,1961,152,1971,149,2104,120,2225,100"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="1983,159,2154,185"/>
+<area shape="poly" id="edge24_Node000002_Node000022" title=" " alt="" coords="2275,107,2117,158,2116,153,2273,101"/>
+<area shape="rect" id="Node000023" href="$Unit_8h.html" title="Declaration of Unit." alt="" coords="2178,159,2239,185"/>
+<area shape="poly" id="edge25_Node000002_Node000023" title=" " alt="" coords="2296,106,2236,153,2233,149,2292,102"/>
+<area shape="rect" id="Node000025" href="$Bijection_8h.html" title="Declaration of Bijection." alt="" coords="2263,159,2354,185"/>
+<area shape="poly" id="edge26_Node000002_Node000025" title=" " alt="" coords="2311,104,2311,145,2306,145,2306,104"/>
+<area shape="rect" id="Node000026" href="$IDTable_8h.html" title="Declaration of IDTable class." alt="" coords="2378,159,2461,185"/>
+<area shape="poly" id="edge27_Node000002_Node000026" title=" " alt="" coords="2327,102,2393,149,2390,153,2323,106"/>
+<area shape="rect" id="Node000029" href="$AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="2479,240,2627,265"/>
+<area shape="poly" id="edge28_Node000002_Node000029" title=" " alt="" coords="2363,102,2419,120,2474,150,2513,188,2541,227,2537,230,2509,191,2471,154,2417,125,2361,107"/>
+<area shape="rect" id="Node000037" href="$ScratchBufferManager_8h.html" title="Declaration of ScratchBufferManager." alt="" coords="2706,159,2885,185"/>
+<area shape="poly" id="edge29_Node000002_Node000037" title=" " alt="" coords="2387,101,2694,149,2722,154,2721,159,2694,155,2387,107"/>
+<area shape="rect" id="Node000038" href="$ComputePipeline_8h.html" title="Declaration of ComputePipeline." alt="" coords="2536,159,2681,185"/>
+<area shape="poly" id="edge30_Node000002_Node000038" title=" " alt="" coords="2346,101,2546,153,2545,159,2345,107"/>
+<area shape="rect" id="Node000039" href="$SCPITransport_8h.html" title="Declaration of SCPITransport." alt="" coords="731,159,855,185"/>
+<area shape="poly" id="edge33_Node000002_Node000039" title=" " alt="" coords="2225,97,1938,102,1546,113,1154,130,991,141,868,155,846,159,845,154,867,149,991,136,1154,125,1545,108,1938,97,2225,91"/>
+<area shape="rect" id="Node000040" href="$SCPISocketTransport_8h.html" title="Declaration of SCPISocketTransport." alt="" coords="2909,159,3076,185"/>
+<area shape="poly" id="edge35_Node000002_Node000040" title=" " alt="" coords="2393,100,2404,101,2651,122,2759,132,2897,149,2926,154,2925,159,2896,155,2758,137,2650,128,2403,107,2392,105"/>
+<area shape="rect" id="Node000048" href="$SCPITwinLanTransport_8h.html" title="Declaration of SCPITwinLanTransport." alt="" coords="3101,159,3277,185"/>
+<area shape="poly" id="edge36_Node000002_Node000048" title=" " alt="" coords="2393,100,2404,101,2596,116,2747,122,2897,130,3089,149,3121,154,3120,160,3088,155,2896,135,2746,127,2596,121,2403,107,2392,106"/>
+<area shape="rect" id="Node000049" href="$SCPILxiTransport_8h.html" title="Declaration of SCPILxiTransport." alt="" coords="3301,159,3444,185"/>
+<area shape="poly" id="edge37_Node000002_Node000049" title=" " alt="" coords="2393,100,2404,101,2538,111,2652,116,2847,118,3041,124,3155,133,3289,149,3315,154,3314,159,3288,155,3154,139,3041,129,2847,123,2652,121,2538,116,2403,107,2392,106"/>
+<area shape="rect" id="Node000050" href="$SCPINullTransport_8h.html" title="Declaration of SCPINullTransport." alt="" coords="3468,159,3619,185"/>
+<area shape="poly" id="edge38_Node000002_Node000050" title=" " alt="" coords="2392,100,2404,101,2564,112,2700,117,2931,117,3162,122,3297,132,3457,149,3485,154,3484,159,3456,155,3297,137,3162,127,2931,123,2700,122,2563,117,2403,107,2392,106"/>
+<area shape="rect" id="Node000051" href="$SCPIUARTTransport_8h.html" title="Declaration of SCPIUARTTransport." alt="" coords="3643,159,3803,185"/>
+<area shape="poly" id="edge39_Node000002_Node000051" title=" " alt="" coords="2392,100,2404,101,2590,113,2749,118,3018,117,3148,117,3287,120,3445,130,3632,149,3662,154,3661,159,3631,155,3445,136,3287,126,3148,122,3018,122,2749,123,2590,118,2403,107,2392,106"/>
+<area shape="rect" id="Node000053" href="$SCPIHIDTransport_8h.html" title="Declaration of SCPIHIDTransport." alt="" coords="3828,159,3976,185"/>
+<area shape="poly" id="edge40_Node000002_Node000053" title=" " alt="" coords="2392,100,2404,101,2618,114,2800,118,3110,114,3260,113,3420,116,3602,127,3816,149,3844,154,3843,159,3815,155,3601,132,3420,121,3260,118,3110,120,2800,124,2618,119,2403,107,2392,106"/>
+<area shape="rect" id="Node000056" href="$VICPSocketTransport_8h.html" title="Declaration of VICPSocketTransport." alt="" coords="4001,159,4169,185"/>
+<area shape="poly" id="edge41_Node000002_Node000056" title=" " alt="" coords="2392,100,2404,101,2645,115,2849,120,3197,116,3365,114,3544,116,3748,127,3989,149,4021,154,4020,159,3988,155,3748,132,3544,122,3365,119,3197,121,2849,125,2644,121,2403,107,2392,106"/>
+<area shape="rect" id="Node000057" href="$SCPIDevice_8h_source.html" title=" " alt="" coords="4193,159,4301,185"/>
+<area shape="poly" id="edge42_Node000002_Node000057" title=" " alt="" coords="2392,100,2404,101,2577,109,2792,113,3293,114,3551,116,3794,121,4008,132,4181,149,4200,153,4199,158,4180,155,4008,137,3793,126,3550,121,3293,119,2792,118,2577,115,2403,107,2392,106"/>
+<area shape="rect" id="Node000058" href="$SCPITMCTransport_8h.html" title="Declaration of SCPITMCTransport." alt="" coords="4325,159,4479,185"/>
+<area shape="poly" id="edge43_Node000002_Node000058" title=" " alt="" coords="2392,100,2404,101,2694,117,2941,121,3158,117,3360,111,3562,107,3779,109,4025,121,4314,149,4343,154,4342,159,4314,155,4024,127,3779,114,3562,112,3360,116,3158,123,2941,126,2694,122,2403,107,2392,106"/>
+<area shape="rect" id="Node000059" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="245,240,383,265"/>
+<area shape="poly" id="edge44_Node000002_Node000059" title=" " alt="" coords="2225,96,1769,102,1130,114,555,131,369,142,315,148,293,154,285,170,285,189,291,208,301,227,296,229,286,210,280,190,280,169,290,150,314,143,369,137,555,126,1129,108,1768,97,2225,91"/>
+<area shape="rect" id="Node000065" href="$SinkNode_8h.html" title="Declaration of SinkNode." alt="" coords="4503,159,4599,185"/>
+<area shape="poly" id="edge46_Node000002_Node000065" title=" " alt="" coords="2392,100,2403,101,2607,110,2860,112,3449,110,3751,110,4037,115,4289,127,4398,137,4492,149,4508,153,4507,158,4491,155,4397,142,4289,132,4037,120,3751,115,3449,115,2860,118,2607,115,2403,107,2392,106"/>
+<area shape="rect" id="Node000066" href="$Instrument_8h.html" title="Declaration of Instrument." alt="" coords="4624,159,4729,185"/>
+<area shape="poly" id="edge47_Node000002_Node000066" title=" " alt="" coords="2392,100,2403,101,2619,110,2887,113,3509,111,3829,111,4131,116,4397,128,4512,137,4612,149,4630,153,4629,158,4611,155,4512,142,4397,133,4130,121,3829,116,3509,116,2887,118,2619,116,2403,107,2392,106"/>
+<area shape="rect" id="Node000069" href="$StreamDescriptor_8h.html" title="Declaration of StreamDescriptor." alt="" coords="4753,159,4901,185"/>
+<area shape="poly" id="edge48_Node000002_Node000069" title=" " alt="" coords="2392,100,2403,101,2632,111,2915,116,3574,116,3912,117,4232,121,4515,131,4742,149,4770,154,4770,159,4742,155,4514,137,4232,126,3912,122,3574,121,2915,121,2631,117,2403,107,2392,106"/>
+<area shape="rect" id="Node000070" href="$StreamGroupDescriptor_8h.html" title="Declaration of StreamGroupDescriptor." alt="" coords="4926,159,5113,185"/>
+<area shape="poly" id="edge49_Node000002_Node000070" title=" " alt="" coords="2392,100,2404,101,2785,121,3109,126,3394,122,3660,114,3925,107,4210,107,4533,119,4914,149,4952,154,4951,160,4914,155,4533,125,4210,112,3925,112,3660,119,3394,127,3109,131,2785,126,2403,107,2392,106"/>
+<area shape="rect" id="Node000071" href="$InputConstraint_8h.html" title="Declaration of InputConstraint." alt="" coords="5137,159,5272,185"/>
+<area shape="poly" id="edge50_Node000002_Node000071" title=" " alt="" coords="2392,100,2403,101,2669,112,2999,116,3765,113,4159,112,4531,116,4860,128,5002,137,5125,149,5151,154,5150,159,5124,155,5002,142,4860,133,4531,122,4159,118,3765,118,2999,121,2669,118,2403,107,2392,106"/>
+<area shape="rect" id="Node000072" href="$OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="5296,159,5465,185"/>
+<area shape="poly" id="edge51_Node000002_Node000072" title=" " alt="" coords="2392,100,2403,101,2685,113,3034,118,3845,117,4262,116,4656,120,5004,130,5155,138,5285,149,5318,154,5318,159,5284,155,5154,144,5004,135,4656,125,4262,122,3845,122,3034,123,2684,118,2403,107,2392,106"/>
+<area shape="rect" id="Node000073" href="$StreamDescriptor__inlines_8h.html" title="Inline functions for StreamDescriptor." alt="" coords="5489,159,5688,185"/>
+<area shape="poly" id="edge52_Node000002_Node000073" title=" " alt="" coords="2392,100,2404,101,2648,116,2871,125,3268,130,3616,124,3942,113,4267,104,4615,102,4806,106,5011,115,5234,129,5478,149,5518,154,5518,160,5478,155,5234,135,5011,121,4806,112,4615,108,4267,109,3942,118,3617,129,3268,135,2871,130,2647,121,2403,107,2392,106"/>
+<area shape="rect" id="Node000074" href="$StreamGroupDescriptor__inlines_8h.html" title="Inline functions for StreamGroupDescriptor." alt="" coords="5712,152,5887,192"/>
+<area shape="poly" id="edge53_Node000002_Node000074" title=" " alt="" coords="2392,100,2403,101,2723,114,3119,119,4042,116,4518,115,4970,118,5371,128,5546,137,5698,149,5698,155,5545,143,5371,134,4969,123,4518,120,4042,122,3119,124,2723,120,2403,107,2392,106"/>
+<area shape="rect" id="Node000075" href="$FlowGraphNode__inlines_8h.html" title="Inline functions for FlowGraphNode which reference OscilloscopeChannel class." alt="" coords="5911,159,6099,185"/>
+<area shape="poly" id="edge54_Node000002_Node000075" title=" " alt="" coords="2392,100,2403,101,2744,115,3168,120,4152,117,4658,116,5136,118,5559,128,5741,137,5900,149,5937,154,5937,160,5899,155,5741,143,5559,134,5136,123,4658,121,4152,122,3168,126,2744,121,2403,107,2392,106"/>
+<area shape="rect" id="Node000076" href="$Trigger_8h.html" title="Declaration of Trigger." alt="" coords="304,159,383,185"/>
+<area shape="poly" id="edge55_Node000002_Node000076" title=" " alt="" coords="2225,95,1856,95,1328,101,1052,108,793,119,570,134,402,155,388,158,386,153,402,149,570,129,793,114,1052,103,1328,96,1856,90,2225,90"/>
+<area shape="poly" id="edge20_Node000018_Node000004" title=" " alt="" coords="272,341,164,384,162,379,270,336"/>
+<area shape="poly" id="edge19_Node000018_Node000005" title=" " alt="" coords="291,341,258,378,254,374,287,337"/>
+<area shape="poly" id="edge18_Node000018_Node000010" title=" " alt="" coords="309,338,331,374,327,376,304,340"/>
+<area shape="poly" id="edge21_Node000018_Node000013" title=" " alt="" coords="324,336,416,380,414,384,322,341"/>
+<area shape="poly" id="edge31_Node000038_Node000002" title=" " alt="" coords="2571,162,2371,110,2373,105,2572,157"/>
+<area shape="poly" id="edge32_Node000038_Node000029" title=" " alt="" coords="2603,186,2571,230,2567,227,2598,183"/>
+<area shape="poly" id="edge34_Node000039_Node000008" title=" " alt="" coords="787,186,759,230,755,227,783,183"/>
+<area shape="poly" id="edge45_Node000059_Node000018" title=" " alt="" coords="314,266,307,300,302,299,309,265"/>
+<area shape="poly" id="edge56_Node000076_Node000059" title=" " alt="" coords="342,186,326,228,321,226,337,184"/>
 </map>

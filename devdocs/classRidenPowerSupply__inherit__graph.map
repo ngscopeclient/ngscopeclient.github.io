@@ -1,12 +1,23 @@
 <map id="RidenPowerSupply" name="RidenPowerSupply">
-<area shape="rect" id="node1" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="123,319,266,345"/>
-<area shape="rect" id="node2" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="210,244,345,271"/>
-<area shape="rect" id="node3" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="280,169,387,196"/>
-<area shape="rect" id="node4" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="276,95,369,121"/>
-<area shape="rect" id="node7" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="133,169,256,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="131,5,323,47"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="347,13,487,39"/>
-<area shape="rect" id="node9" href="$classModbusInstrument.html" title="Base class for instruments using Modbus communication protocol." alt="" coords="41,244,185,271"/>
-<area shape="rect" id="node8" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="147,95,243,121"/>
-<area shape="rect" id="node10" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="5,169,109,196"/>
+<area shape="rect" id="Node000001" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="123,313,266,339"/>
+<area shape="rect" id="Node000002" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="210,240,345,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,276,210,315,206,311,252,272"/>
+<area shape="rect" id="Node000003" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="280,167,387,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="318,205,288,242,284,238,313,201"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="276,93,369,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="329,132,334,166,329,167,324,133"/>
+<area shape="rect" id="Node000007" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="133,167,256,192"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="291,128,217,169,214,164,289,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="131,5,323,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="262,52,310,91,307,95,259,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="347,13,487,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="394,49,338,95,335,91,391,45"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="220,199,266,238,262,242,217,203"/>
+<area shape="rect" id="Node000009" href="$classModbusInstrument.html" title="Base class for instruments using Modbus communication protocol." alt="" coords="41,240,185,265"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="173,203,128,242,125,238,170,199"/>
+<area shape="rect" id="Node000008" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="147,93,243,119"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="197,132,197,167,192,167,192,132"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="138,272,183,311,180,315,135,276"/>
+<area shape="rect" id="Node000010" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="5,167,109,192"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="77,201,106,238,102,242,73,205"/>
 </map>

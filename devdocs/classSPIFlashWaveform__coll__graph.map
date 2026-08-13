@@ -1,13 +1,27 @@
 <map id="SPIFlashWaveform" name="SPIFlashWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="1588,110,1733,137"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="1335,103,1539,144"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1040,77,1207,103"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="726,15,849,42"/>
-<area shape="rect" id="node5" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,5,506,47"/>
-<area shape="rect" id="node6" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node7" href="$classAcceleratorBuffer.html" title=" " alt="" coords="714,69,861,111"/>
-<area shape="rect" id="node8" href="$classAlignedAllocator.html" title=" " alt="" coords="344,71,521,112"/>
-<area shape="rect" id="node9" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1050,135,1197,176"/>
-<area shape="rect" id="node10" href="$classAlignedAllocator.html" title=" " alt="" coords="688,135,887,176"/>
-<area shape="rect" id="node11" href="$classSPIFlashSymbol.html" title=" " alt="" coords="724,201,851,227"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1391,169,1536,194"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="1137,161,1341,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1355,179,1390,179,1390,184,1355,184"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="921,127,1088,153"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1092,153,1138,161,1137,166,1091,158"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="671,127,793,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="807,137,921,137,921,143,807,143"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="357,120,504,160"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="518,137,671,137,671,143,518,143"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="21,90,189,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="203,106,334,119,358,122,357,128,333,124,202,111"/>
+<area shape="rect" id="Node000008" href="$classAcceleratorBuffer.html" title=" " alt="" coords="357,49,504,89"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="202,88,228,85,357,73,357,78,228,91,203,93"/>
+<area shape="rect" id="Node000010" href="$classAcceleratorBuffer.html" title=" " alt="" coords="357,196,504,236"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="203,113,269,129,335,152,359,170,397,194,394,198,356,174,332,157,267,134,202,118"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="12,145,197,185"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="211,154,357,143,357,148,211,160"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="518,75,693,93,898,119,935,125,935,130,897,124,693,98,517,80"/>
+<area shape="rect" id="Node000009" href="$classAlignedAllocator.html" title=" " alt="" coords="16,5,193,45"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="207,36,357,57,357,62,207,42"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="518,210,1137,183,1137,188,518,215"/>
+<area shape="rect" id="Node000011" href="$classAlignedAllocator.html" title=" " alt="" coords="5,260,204,300"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="217,259,333,237,357,232,358,237,334,243,218,265"/>
+<area shape="rect" id="Node000012" href="$classSPIFlashSymbol.html" title=" " alt="" coords="41,210,168,235"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="182,218,357,215,357,220,182,224"/>
 </map>

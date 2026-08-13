@@ -1,6 +1,9 @@
 <map id="USB2PCSWaveform" name="USB2PCSWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="67,229,217,256"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="5,155,279,181"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="59,80,225,107"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="81,5,203,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="67,225,217,251"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="5,152,279,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,191,145,225,139,225,139,191"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="59,79,225,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,118,145,152,139,152,139,118"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="81,5,203,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="145,44,145,79,139,79,139,44"/>
 </map>

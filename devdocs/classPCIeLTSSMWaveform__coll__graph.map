@@ -1,13 +1,27 @@
 <map id="PCIeLTSSMWaveform" name="PCIeLTSSMWaveform">
-<area shape="rect" id="node1" title=" " alt="" coords="1737,110,1899,137"/>
-<area shape="rect" id="node2" href="$classSparseWaveform.html" title=" " alt="" coords="1404,110,1688,137"/>
-<area shape="rect" id="node3" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1109,77,1276,103"/>
-<area shape="rect" id="node4" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="761,15,883,42"/>
-<area shape="rect" id="node5" href="$classAcceleratorBuffer.html" title=" " alt="" coords="359,5,506,47"/>
-<area shape="rect" id="node6" href="$classAlignedAllocator.html" title=" " alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node7" href="$classAcceleratorBuffer.html" title=" " alt="" coords="749,69,895,111"/>
-<area shape="rect" id="node8" href="$classAlignedAllocator.html" title=" " alt="" coords="344,71,521,112"/>
-<area shape="rect" id="node9" href="$classAcceleratorBuffer.html" title=" " alt="" coords="1112,135,1273,176"/>
-<area shape="rect" id="node10" href="$classAlignedAllocator.html" title=" " alt="" coords="688,135,956,176"/>
-<area shape="rect" id="node11" href="$classPCIeLTSSMSymbol.html" title=" " alt="" coords="751,201,893,227"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1555,169,1716,194"/>
+<area shape="rect" id="Node000002" href="$classSparseWaveform.html" title=" " alt="" coords="1221,169,1505,194"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1519,179,1555,179,1555,184,1519,184"/>
+<area shape="rect" id="Node000003" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="1005,127,1172,153"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1186,152,1279,166,1278,171,1185,157"/>
+<area shape="rect" id="Node000004" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="755,127,877,153"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="891,137,1005,137,1005,143,891,143"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBuffer.html" title=" " alt="" coords="434,120,581,160"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="594,137,754,137,754,143,594,143"/>
+<area shape="rect" id="Node000006" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="55,90,223,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="237,104,403,119,434,123,433,129,402,124,237,110"/>
+<area shape="rect" id="Node000008" href="$classAcceleratorBuffer.html" title=" " alt="" coords="434,49,581,89"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="237,91,297,85,433,73,434,78,298,91,237,96"/>
+<area shape="rect" id="Node000010" href="$classAcceleratorBuffer.html" title=" " alt="" coords="427,196,588,236"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="237,109,320,125,363,137,404,152,417,160,428,170,469,194,466,198,425,174,413,165,401,157,361,142,319,130,236,114"/>
+<area shape="rect" id="Node000007" href="$classAlignedAllocator.html" title=" " alt="" coords="47,145,232,185"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="246,155,434,142,434,148,246,161"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="595,74,773,93,982,119,1019,125,1019,130,981,124,773,98,594,80"/>
+<area shape="rect" id="Node000009" href="$classAlignedAllocator.html" title=" " alt="" coords="51,5,228,45"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="242,35,434,58,434,63,241,40"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="602,210,1221,184,1221,190,602,215"/>
+<area shape="rect" id="Node000011" href="$classAlignedAllocator.html" title=" " alt="" coords="5,260,273,300"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="286,256,402,236,426,231,427,237,403,241,287,261"/>
+<area shape="rect" id="Node000012" href="$classPCIeLTSSMSymbol.html" title=" " alt="" coords="68,210,211,235"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="224,218,426,215,426,220,224,224"/>
 </map>

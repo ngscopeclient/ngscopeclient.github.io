@@ -1,6 +1,9 @@
 <map id="FunctionGeneratorChannel" name="FunctionGeneratorChannel">
-<area shape="rect" id="node1" title="A single channel of a function generator." alt="" coords="5,229,200,256"/>
-<area shape="rect" id="node2" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="29,155,176,181"/>
-<area shape="rect" id="node3" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="39,80,166,107"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="33,5,173,32"/>
+<area shape="rect" id="Node000001" title="A single channel of a function generator." alt="" coords="5,225,200,251"/>
+<area shape="rect" id="Node000002" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="29,152,176,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,191,105,225,100,225,100,191"/>
+<area shape="rect" id="Node000003" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="39,79,166,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,118,105,152,100,152,100,118"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="33,5,173,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="105,44,105,79,100,79,100,44"/>
 </map>

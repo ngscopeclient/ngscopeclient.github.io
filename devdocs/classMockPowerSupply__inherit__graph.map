@@ -1,0 +1,21 @@
+<map id="MockPowerSupply" name="MockPowerSupply">
+<area shape="rect" id="Node000001" title="A simulated power supply for demonstration." alt="" coords="76,313,217,339"/>
+<area shape="rect" id="Node000002" href="$classMockInstrument.html" title="Base class for simulated instruments." alt="" coords="5,240,133,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,273,136,311,132,315,90,277"/>
+<area shape="rect" id="Node000003" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="25,167,148,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,206,75,241,70,239,78,205"/>
+<area shape="rect" id="Node000008" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="158,240,293,265"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="122,196,204,237,201,242,120,201"/>
+<area shape="rect" id="Node000004" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="168,93,261,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="183,128,109,169,106,164,181,123"/>
+<area shape="rect" id="Node000009" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="172,167,279,192"/>
+<area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="221,132,226,166,221,167,216,133"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="24,5,216,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="155,52,202,91,199,95,152,56"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="241,13,381,38"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="288,49,231,95,227,91,284,45"/>
+<area shape="rect" id="Node000007" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="39,93,135,119"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="89,132,89,167,84,167,84,132"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="204,277,161,315,158,311,201,273"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="228,206,228,240,223,240,223,206"/>
+</map>

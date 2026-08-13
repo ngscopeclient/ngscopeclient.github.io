@@ -1,11 +1,20 @@
 <map id="PicoVNA" name="PicoVNA">
-<area shape="rect" id="node1" title="PicoVNA &#45; driver for talking to a PicoVNA using the PicoVNA 5 software." alt="" coords="99,393,176,420"/>
-<area shape="rect" id="node2" href="$classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="98,319,177,345"/>
-<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="71,244,204,271"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="155,169,259,196"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="151,95,244,121"/>
-<area shape="rect" id="node8" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="8,169,131,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
-<area shape="rect" id="node9" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="21,95,117,121"/>
+<area shape="rect" id="Node000001" title="PicoVNA &#45; driver for talking to a PicoVNA using the PicoVNA 5 software." alt="" coords="99,387,176,412"/>
+<area shape="rect" id="Node000002" href="$classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="98,313,177,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,352,140,387,135,387,135,352"/>
+<area shape="rect" id="Node000003" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="71,240,204,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,279,140,313,135,313,135,279"/>
+<area shape="rect" id="Node000004" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="155,167,259,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="188,204,150,242,147,238,184,200"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="151,93,244,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="203,132,208,166,203,167,198,133"/>
+<area shape="rect" id="Node000008" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="8,167,131,192"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="166,128,92,169,89,164,163,123"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="137,52,185,91,181,95,133,56"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,38"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="269,49,213,95,210,91,266,45"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="92,200,128,238,124,242,88,204"/>
+<area shape="rect" id="Node000009" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="21,93,117,119"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="72,132,72,167,67,167,67,132"/>
 </map>

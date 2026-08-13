@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['data_20model_0',['Data model',['../group__datamodel.html',1,'']]],
-  ['dialog_20boxes_1',['Dialog boxes',['../group__dialogs.html',1,'']]]
+  ['classes_0',['classes',['../group__core.html',1,'Core classes'],['../group__libscopehal.html',1,'Libscopehal (drivers and core base classes)']]],
+  ['core_20base_20classes_1',['Libscopehal (drivers and core base classes)',['../group__libscopehal.html',1,'']]],
+  ['core_20classes_2',['Core classes',['../group__core.html',1,'']]]
 ];

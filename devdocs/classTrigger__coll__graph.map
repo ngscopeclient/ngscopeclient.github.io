@@ -1,11 +1,23 @@
 <map id="Trigger" name="Trigger">
-<area shape="rect" id="node1" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="259,199,325,225"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="211,303,315,329"/>
-<area shape="rect" id="node2" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="229,109,355,136"/>
-<area shape="rect" id="node3" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="111,109,204,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node7" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="350,199,469,225"/>
-<area shape="rect" id="node8" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="380,109,503,136"/>
-<area shape="rect" id="node9" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="417,13,466,39"/>
+<area shape="rect" id="Node000001" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="168,225,235,251"/>
+<area shape="rect" id="Node000004" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="325,328,429,353"/>
+<area shape="poly" id="edge8_Node000004_Node000001" title=" " alt="" coords="236,255,262,273,277,288,292,302,342,326,340,330,289,306,273,292,258,277,233,260"/>
+<area shape="rect" id="Node000002" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="153,108,279,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,147,205,226,200,225,210,146"/>
+<area shape="rect" id="Node000003" href="$classSerializableObject.html" title=" " alt="" coords="146,13,286,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,52,219,108,213,108,213,52"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="331,108,424,133"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="249,43,359,106,356,110,246,47"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="311,338,242,327,214,318,195,306,189,292,188,277,194,250,199,251,193,277,194,291,199,302,216,313,243,322,312,332"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="380,148,380,328,375,328,375,148"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="311,5,503,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="399,59,384,108,378,107,394,57"/>
+<area shape="rect" id="Node000007" href="$classHzClock.html" title="Clock that measures rate at which it is called; windowed average." alt="" coords="415,225,489,251"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="437,263,388,330,384,326,433,260"/>
+<area shape="rect" id="Node000008" href="$classWaveformPool.html" title="Thread safe memory pool for reusing Waveform objects." alt="" coords="531,225,650,251"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="584,265,572,287,554,306,524,322,492,333,430,342,429,337,491,328,522,317,550,302,568,284,580,262"/>
+<area shape="rect" id="Node000009" href="$classFilterParameter.html" title="A parameter to a filter." alt="" coords="5,108,128,133"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="75,145,86,174,104,199,135,218,168,229,167,234,133,223,101,203,81,176,70,147"/>
+<area shape="rect" id="Node000010" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="42,13,91,38"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="69,52,69,108,64,108,64,52"/>
 </map>

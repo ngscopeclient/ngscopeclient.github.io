@@ -1,29 +1,80 @@
 <map id="lib/scopeprotocols/J1939SourceMatchFilter.h" name="lib/scopeprotocols/J1939SourceMatchFilter.h">
-<area shape="rect" id="node1" title="Declaration of J1939SourceMatchFilter." alt="" coords="76,5,267,47"/>
-<area shape="rect" id="node2" href="$J1939PDUDecoder_8h.html" title="Declaration of J1939PDUDecoder." alt="" coords="95,95,247,121"/>
-<area shape="rect" id="node3" href="$CANDecoder_8h.html" title="Declaration of CANDecoder." alt="" coords="113,169,229,196"/>
-<area shape="rect" id="node4" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="106,244,237,271"/>
-<area shape="rect" id="node5" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="138,319,205,345"/>
-<area shape="rect" id="node6" href="$OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="25,393,195,420"/>
-<area shape="rect" id="node25" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="189,468,327,495"/>
-<area shape="rect" id="node7" href="$InstrumentChannel_8h.html" title="Declaration of InstrumentChannel." alt="" coords="5,468,164,495"/>
-<area shape="rect" id="node8" href="$Stream_8h.html" title="Declaration of Stream." alt="" coords="44,543,125,569"/>
-<area shape="rect" id="node9" href="$Waveform_8h.html" title="Declaration of WaveformBase, SparseWaveformBase, UniformWaveformBase." alt="" coords="240,617,343,644"/>
-<area shape="rect" id="node10" title=" " alt="" coords="199,841,261,868"/>
-<area shape="rect" id="node11" title=" " alt="" coords="126,692,201,719"/>
-<area shape="rect" id="node12" href="$AlignedAllocator_8h.html" title="Declaration of AlignedAllocator." alt="" coords="251,767,393,793"/>
-<area shape="rect" id="node13" href="$StandardColors_8h_source.html" title=" " alt="" coords="225,692,358,719"/>
-<area shape="rect" id="node15" href="$AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="480,692,628,719"/>
-<area shape="rect" id="node14" title=" " alt="" coords="169,767,227,793"/>
-<area shape="rect" id="node16" href="$QueueManager_8h.html" title="Declaration of QueueManager and QueueHandle." alt="" coords="534,767,667,793"/>
-<area shape="rect" id="node22" title=" " alt="" coords="692,767,795,793"/>
-<area shape="rect" id="node23" title=" " alt="" coords="819,767,894,793"/>
-<area shape="rect" id="node24" title=" " alt="" coords="417,767,509,793"/>
-<area shape="rect" id="node17" title=" " alt="" coords="847,841,898,868"/>
-<area shape="rect" id="node18" title=" " alt="" coords="383,841,461,868"/>
-<area shape="rect" id="node19" title=" " alt="" coords="485,841,549,868"/>
-<area shape="rect" id="node20" title=" " alt="" coords="573,841,628,868"/>
-<area shape="rect" id="node21" title=" " alt="" coords="653,841,823,868"/>
-<area shape="rect" id="node26" href="$FilterParameter_8h.html" title="Declaration of FilterParameter." alt="" coords="149,543,284,569"/>
-<area shape="rect" id="node27" href="$SerializableObject_8h.html" title="Declaration of SerializableObject." alt="" coords="309,543,461,569"/>
+<area shape="rect" id="Node000001" title="Declaration of J1939SourceMatchFilter." alt="" coords="570,5,761,45"/>
+<area shape="rect" id="Node000002" href="$J1939PDUDecoder_8h.html" title="Declaration of J1939PDUDecoder." alt="" coords="589,93,741,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="668,46,668,79,663,79,663,46"/>
+<area shape="rect" id="Node000003" href="$CANDecoder_8h.html" title="Declaration of CANDecoder." alt="" coords="607,167,723,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="668,119,668,153,663,153,663,119"/>
+<area shape="rect" id="Node000004" href="$PacketDecoder_8h_source.html" title=" " alt="" coords="600,240,731,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="668,192,668,226,663,226,663,192"/>
+<area shape="rect" id="Node000005" href="$Filter_8h.html" title="Declaration of Filter." alt="" coords="632,313,699,339"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="668,266,668,300,663,300,663,266"/>
+<area shape="rect" id="Node000006" href="$OscilloscopeChannel_8h.html" title="Declaration of OscilloscopeChannel." alt="" coords="446,387,615,412"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="645,341,566,382,564,378,642,336"/>
+<area shape="rect" id="Node000027" href="$FlowGraphNode_8h.html" title="Declaration of FlowGraphNode." alt="" coords="612,460,751,485"/>
+<area shape="poly" id="edge35_Node000005_Node000027" title=" " alt="" coords="669,339,681,446,676,447,664,339"/>
+<area shape="rect" id="Node000032" href="$KahanSummation_8h_source.html" title=" " alt="" coords="703,387,854,412"/>
+<area shape="poly" id="edge46_Node000005_Node000032" title=" " alt="" coords="685,336,750,377,747,382,682,341"/>
+<area shape="rect" id="Node000007" href="$InstrumentChannel_8h.html" title="Declaration of InstrumentChannel." alt="" coords="426,460,585,485"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="529,413,516,448,511,446,524,411"/>
+<area shape="rect" id="Node000008" href="$Stream_8h.html" title="Declaration of Stream." alt="" coords="459,533,541,559"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="507,486,505,520,499,520,502,485"/>
+<area shape="rect" id="Node000009" href="$Waveform_8h.html" title="Declaration of WaveformBase, SparseWaveformBase, UniformWaveformBase." alt="" coords="527,607,630,632"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="514,557,558,596,554,599,511,561"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="699,900,762,925"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="580,632,581,696,587,738,601,778,623,812,650,843,704,890,701,894,646,847,618,815,596,780,582,739,576,697,575,632"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="783,680,857,705"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="618,629,770,674,768,679,617,635"/>
+<area shape="rect" id="Node000012" href="$AlignedAllocator_8h.html" title="Declaration of AlignedAllocator." alt="" coords="236,753,377,779"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="558,635,341,749,339,745,556,630"/>
+<area shape="rect" id="Node000013" href="$StandardColors_8h_source.html" title=" " alt="" coords="1003,680,1136,705"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="631,625,990,677,989,682,630,631"/>
+<area shape="rect" id="Node000015" href="$AcceleratorBuffer_8h.html" title="Declaration of AcceleratorBuffer." alt="" coords="610,680,758,705"/>
+<area shape="poly" id="edge14_Node000009_Node000015" title=" " alt="" coords="597,630,657,670,654,675,594,634"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="920,900,979,925"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1065,707,965,889,960,886,1061,704"/>
+<area shape="poly" id="edge15_Node000015_Node000012" title=" " alt="" coords="624,708,382,753,381,748,623,703"/>
+<area shape="rect" id="Node000016" href="$QueueManager_8h.html" title="Declaration of QueueManager and QueueHandle." alt="" coords="401,753,535,779"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="650,708,517,751,515,746,648,703"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="726,753,829,779"/>
+<area shape="poly" id="edge32_Node000015_Node000024" title=" " alt="" coords="701,703,753,743,750,747,697,707"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="853,753,928,779"/>
+<area shape="poly" id="edge33_Node000015_Node000025" title=" " alt="" coords="718,703,845,746,843,751,716,708"/>
+<area shape="rect" id="Node000026" title=" " alt="" coords="610,753,702,779"/>
+<area shape="poly" id="edge34_Node000015_Node000026" title=" " alt="" coords="682,707,668,742,663,740,677,705"/>
+<area shape="poly" id="edge21_Node000016_Node000010" title=" " alt="" coords="490,777,699,891,697,896,488,781"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="5,900,56,925"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="402,780,304,799,198,829,124,862,63,895,60,890,122,857,196,824,303,794,401,775"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="597,900,675,925"/>
+<area shape="poly" id="edge18_Node000016_Node000018" title=" " alt="" coords="483,777,614,889,610,893,480,781"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="509,900,573,925"/>
+<area shape="poly" id="edge19_Node000016_Node000019" title=" " alt="" coords="476,778,532,886,527,889,472,780"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="81,900,135,925"/>
+<area shape="poly" id="edge20_Node000016_Node000020" title=" " alt="" coords="410,781,334,801,252,829,189,861,137,894,134,890,186,857,250,824,332,796,409,776"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="160,900,331,925"/>
+<area shape="poly" id="edge22_Node000016_Node000021" title=" " alt="" coords="409,781,329,802,295,815,272,829,263,841,256,856,249,887,244,886,251,855,258,839,269,825,292,810,327,797,408,776"/>
+<area shape="rect" id="Node000022" href="$QueueWrapper_8h.html" title="Declaration of QueueWrapper." alt="" coords="355,900,485,925"/>
+<area shape="poly" id="edge23_Node000016_Node000022" title=" " alt="" coords="467,780,431,888,426,886,462,778"/>
+<area shape="rect" id="Node000023" href="$QueueHandle_8h.html" title="Vulkan queue management." alt="" coords="283,827,405,852"/>
+<area shape="poly" id="edge24_Node000016_Node000023" title=" " alt="" coords="449,781,377,822,375,817,447,776"/>
+<area shape="poly" id="edge29_Node000023_Node000010" title=" " alt="" coords="406,847,531,868,686,897,685,903,530,873,405,852"/>
+<area shape="poly" id="edge25_Node000023_Node000017" title=" " alt="" coords="284,855,70,902,69,897,283,849"/>
+<area shape="poly" id="edge26_Node000023_Node000018" title=" " alt="" coords="392,849,585,896,583,901,390,855"/>
+<area shape="poly" id="edge27_Node000023_Node000019" title=" " alt="" coords="377,850,497,893,495,898,375,855"/>
+<area shape="poly" id="edge28_Node000023_Node000020" title=" " alt="" coords="307,855,149,902,148,897,305,849"/>
+<area shape="poly" id="edge30_Node000023_Node000021" title=" " alt="" coords="330,854,274,894,271,890,327,850"/>
+<area shape="poly" id="edge31_Node000023_Node000022" title=" " alt="" coords="358,850,399,889,396,892,354,854"/>
+<area shape="poly" id="edge38_Node000027_Node000008" title=" " alt="" coords="653,488,543,531,541,526,651,483"/>
+<area shape="poly" id="edge37_Node000027_Node000009" title=" " alt="" coords="662,488,634,508,608,535,593,564,585,594,580,593,588,562,603,532,630,504,659,483"/>
+<area shape="rect" id="Node000028" href="$FilterParameter_8h.html" title="Declaration of FilterParameter." alt="" coords="617,533,751,559"/>
+<area shape="poly" id="edge36_Node000027_Node000028" title=" " alt="" coords="684,486,686,520,680,520,679,486"/>
+<area shape="rect" id="Node000029" href="$SerializableObject_8h.html" title="Declaration of SerializableObject." alt="" coords="776,533,928,559"/>
+<area shape="poly" id="edge39_Node000027_Node000029" title=" " alt="" coords="710,483,813,526,811,530,708,488"/>
+<area shape="rect" id="Node000030" href="$log_8h.html" title="Main logging framework header." alt="" coords="742,827,797,852"/>
+<area shape="poly" id="edge40_Node000027_Node000030" title=" " alt="" coords="752,479,861,499,910,513,942,531,958,551,966,570,968,618,968,694,965,741,958,760,942,781,912,804,878,820,843,831,811,837,810,832,842,826,876,815,909,799,938,777,953,758,960,740,963,694,963,618,961,572,954,554,938,535,908,518,860,504,751,485"/>
+<area shape="poly" id="edge43_Node000030_Node000010" title=" " alt="" coords="765,854,746,889,741,887,761,851"/>
+<area shape="poly" id="edge42_Node000030_Node000014" title=" " alt="" coords="798,849,908,892,906,897,796,854"/>
+<area shape="poly" id="edge41_Node000030_Node000018" title=" " alt="" coords="749,854,671,896,669,891,747,850"/>
+<area shape="poly" id="edge45_Node000030_Node000019" title=" " alt="" coords="743,852,587,900,586,895,741,847"/>
+<area shape="rect" id="Node000031" title=" " alt="" coords="787,900,829,925"/>
+<area shape="poly" id="edge44_Node000030_Node000031" title=" " alt="" coords="778,851,798,887,793,889,773,854"/>
 </map>

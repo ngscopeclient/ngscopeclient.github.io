@@ -1,8 +1,13 @@
 <map id="TappedDelayLineFilter" name="TappedDelayLineFilter">
-<area shape="rect" id="node1" title="Performs an 8&#45;tap FIR filter with a multi&#45;sample delay between taps." alt="" coords="5,379,171,405"/>
-<area shape="rect" id="node2" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="61,304,115,331"/>
-<area shape="rect" id="node3" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="9,229,167,256"/>
-<area shape="rect" id="node4" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="15,155,161,181"/>
-<area shape="rect" id="node5" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="25,80,151,107"/>
-<area shape="rect" id="node6" href="$classSerializableObject.html" title=" " alt="" coords="18,5,158,32"/>
+<area shape="rect" id="Node000001" title="Performs an 8&#45;tap FIR filter with a multi&#45;sample delay between taps." alt="" coords="5,372,171,397"/>
+<area shape="rect" id="Node000002" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="61,299,115,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,338,91,372,85,372,85,338"/>
+<area shape="rect" id="Node000003" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="9,225,167,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,264,91,299,85,299,85,264"/>
+<area shape="rect" id="Node000004" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="15,152,161,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="91,191,91,225,85,225,85,191"/>
+<area shape="rect" id="Node000005" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="25,79,151,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="91,118,91,152,85,152,85,118"/>
+<area shape="rect" id="Node000006" href="$classSerializableObject.html" title=" " alt="" coords="18,5,158,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="91,44,91,79,85,79,85,44"/>
 </map>

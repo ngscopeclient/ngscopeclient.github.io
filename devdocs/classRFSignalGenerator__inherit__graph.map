@@ -1,8 +1,13 @@
 <map id="RFSignalGenerator" name="RFSignalGenerator">
-<area shape="rect" id="node1" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="124,169,268,196"/>
-<area shape="rect" id="node5" href="$classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="109,244,283,271"/>
-<area shape="rect" id="node2" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,95,243,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node4" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
-<area shape="rect" id="node6" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="89,319,303,345"/>
+<area shape="rect" id="Node000001" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="124,167,268,192"/>
+<area shape="rect" id="Node000005" href="$classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="109,240,283,265"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="199,206,199,240,193,240,193,206"/>
+<area shape="rect" id="Node000002" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,93,243,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,132,199,167,193,167,193,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="137,52,184,91,180,95,133,56"/>
+<area shape="rect" id="Node000004" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,38"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="269,49,212,95,209,91,266,45"/>
+<area shape="rect" id="Node000006" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="89,313,303,339"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="199,279,199,313,193,313,193,279"/>
 </map>

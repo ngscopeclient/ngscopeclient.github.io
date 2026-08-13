@@ -1,12 +1,21 @@
 <map id="SParameterFilter" name="SParameterFilter">
-<area shape="rect" id="node1" title="A filter that takes a set of S&#45;parameters as input and outputs another set of S&#45;parameters." alt="" coords="277,453,407,480"/>
-<area shape="rect" id="node8" href="$classReferencePlaneExtensionFilter.html" title=" " alt="" coords="5,528,225,555"/>
-<area shape="rect" id="node9" href="$classSParameterCascadeFilter.html" title=" " alt="" coords="249,528,435,555"/>
-<area shape="rect" id="node10" href="$classSParameterDeEmbedFilter.html" title="De&#45;embeds a known." alt="" coords="459,528,652,555"/>
-<area shape="rect" id="node2" href="$classSParameterSourceFilter.html" title="A filter that outputs a set of S&#45;parameters." alt="" coords="255,379,429,405"/>
-<area shape="rect" id="node3" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="315,304,369,331"/>
-<area shape="rect" id="node4" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="263,229,421,256"/>
-<area shape="rect" id="node5" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="269,155,415,181"/>
-<area shape="rect" id="node6" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="279,80,405,107"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="272,5,412,32"/>
+<area shape="rect" id="Node000001" title="A filter that takes a set of S&#45;parameters as input and outputs another set of S&#45;parameters." alt="" coords="277,445,407,471"/>
+<area shape="rect" id="Node000008" href="$classReferencePlaneExtensionFilter.html" title=" " alt="" coords="5,519,225,544"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="293,477,153,521,151,516,292,472"/>
+<area shape="rect" id="Node000009" href="$classSParameterCascadeFilter.html" title=" " alt="" coords="249,519,435,544"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="345,484,345,519,339,519,339,484"/>
+<area shape="rect" id="Node000010" href="$classSParameterDeEmbedFilter.html" title="De&#45;embeds a known." alt="" coords="459,519,652,544"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="390,472,522,516,520,521,388,477"/>
+<area shape="rect" id="Node000002" href="$classSParameterSourceFilter.html" title="A filter that outputs a set of S&#45;parameters." alt="" coords="255,372,429,397"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="345,411,345,445,339,445,339,411"/>
+<area shape="rect" id="Node000003" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="315,299,369,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,338,345,372,339,372,339,338"/>
+<area shape="rect" id="Node000004" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="263,225,421,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="345,264,345,299,339,299,339,264"/>
+<area shape="rect" id="Node000005" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="269,152,415,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="345,191,345,225,339,225,339,191"/>
+<area shape="rect" id="Node000006" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="279,79,405,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="345,118,345,152,339,152,339,118"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="272,5,412,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="345,44,345,79,339,79,339,44"/>
 </map>

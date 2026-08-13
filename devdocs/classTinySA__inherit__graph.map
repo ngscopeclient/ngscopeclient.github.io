@@ -1,12 +1,23 @@
 <map id="TinySA" name="TinySA">
-<area shape="rect" id="node1" title="Driver for TinySA and TinySA Ultra Spectrum Analizers." alt="" coords="146,393,213,420"/>
-<area shape="rect" id="node2" href="$classSCPISA.html" title="Generic representation of a Spectrum Analyzer." alt="" coords="193,319,262,345"/>
-<area shape="rect" id="node3" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="186,244,319,271"/>
-<area shape="rect" id="node4" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="267,169,371,196"/>
-<area shape="rect" id="node5" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="238,95,331,121"/>
-<area shape="rect" id="node8" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="121,169,243,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="93,5,285,47"/>
-<area shape="rect" id="node7" href="$classSerializableObject.html" title=" " alt="" coords="309,13,449,39"/>
-<area shape="rect" id="node9" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="85,95,181,121"/>
-<area shape="rect" id="node10" href="$classCommandLineDriver.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="5,244,161,271"/>
+<area shape="rect" id="Node000001" title="Driver for TinySA and TinySA Ultra Spectrum Analizers." alt="" coords="146,387,213,412"/>
+<area shape="rect" id="Node000002" href="$classSCPISA.html" title="Generic representation of a Spectrum Analyzer." alt="" coords="193,313,262,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,352,189,388,185,385,210,349"/>
+<area shape="rect" id="Node000003" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="186,240,319,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,279,234,314,229,312,241,277"/>
+<area shape="rect" id="Node000004" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="267,167,371,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,204,265,242,262,238,297,201"/>
+<area shape="rect" id="Node000005" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="238,93,331,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="299,130,316,165,311,168,294,132"/>
+<area shape="rect" id="Node000008" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="121,167,243,192"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="258,129,200,169,197,164,255,124"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="93,5,285,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="224,52,272,91,269,95,221,56"/>
+<area shape="rect" id="Node000007" href="$classSerializableObject.html" title=" " alt="" coords="309,13,449,38"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="356,49,300,95,297,91,353,45"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="205,200,243,238,239,242,201,204"/>
+<area shape="rect" id="Node000009" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="85,93,181,119"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="151,129,176,165,172,168,146,132"/>
+<area shape="rect" id="Node000010" href="$classCommandLineDriver.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="5,240,161,265"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="125,133,111,168,89,240,84,239,106,166,120,131"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="101,276,174,385,169,388,97,279"/>
 </map>

@@ -1,6 +1,9 @@
 <map id="SCPIUARTTransport" name="SCPIUARTTransport">
-<area shape="rect" id="node1" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="9,184,157,211"/>
-<area shape="rect" id="node2" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,95,117,121"/>
-<area shape="rect" id="node3" href="$classUART.html" title="Wrapper class for a serial port." alt="" coords="141,95,200,121"/>
-<area shape="rect" id="node4" href="$classSocket.html" title="Class representing a network socket." alt="" coords="138,5,203,32"/>
+<area shape="rect" id="Node000001" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="9,181,157,207"/>
+<area shape="rect" id="Node000002" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,93,117,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,131,82,180,77,181,65,133"/>
+<area shape="rect" id="Node000003" href="$classUART.html" title="Wrapper class for a serial port." alt="" coords="141,93,200,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,130,97,183,93,179,147,126"/>
+<area shape="rect" id="Node000004" href="$classSocket.html" title="Class representing a network socket." alt="" coords="138,5,203,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="173,45,173,93,168,93,168,45"/>
 </map>

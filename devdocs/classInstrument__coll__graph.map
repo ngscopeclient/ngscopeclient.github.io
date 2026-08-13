@@ -1,5 +1,7 @@
 <map id="Instrument" name="Instrument">
-<area shape="rect" id="node1" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,95,243,121"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node3" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,39"/>
+<area shape="rect" id="Node000001" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="149,93,243,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,52,184,91,180,95,133,56"/>
+<area shape="rect" id="Node000003" href="$classSerializableObject.html" title=" " alt="" coords="222,13,362,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,49,212,95,209,91,266,45"/>
 </map>

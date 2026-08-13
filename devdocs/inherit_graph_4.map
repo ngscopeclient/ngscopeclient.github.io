@@ -1,3 +1,832 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classAcceleratorBuffer.html" title=" " alt="" coords="5,5,160,47"/>
+<area shape="rect" id="Node000000" href="$classActionProvider.html" title="Abstract base for objects (usually filters) which provide a series of actions a user can perform." alt="" coords="985,1857,1102,1883"/>
+<area shape="rect" id="Node000001" href="$classConstellationFilter.html" title=" " alt="" coords="1286,1733,1426,1759"/>
+<area shape="poly" id="edge61_Node000000_Node000001" title=" " alt="" coords="1115,1863,1143,1855,1168,1843,1184,1825,1191,1806,1198,1786,1216,1768,1250,1752,1285,1744,1286,1750,1251,1757,1219,1772,1203,1789,1196,1808,1188,1828,1171,1847,1145,1860,1116,1868"/>
+<area shape="rect" id="Node000046" href="$classExportFilter.html" title="Base class for filters providing file&#45;export functionality." alt="" coords="1308,1931,1404,1956"/>
+<area shape="poly" id="edge62_Node000000_Node000046" title=" " alt="" coords="1117,1878,1170,1892,1195,1904,1218,1916,1264,1928,1308,1935,1307,1941,1263,1933,1216,1920,1192,1908,1168,1896,1115,1883"/>
+<area shape="rect" id="Node000087" href="$classMemoryFilter.html" title=" " alt="" coords="1302,1783,1410,1808"/>
+<area shape="poly" id="edge66_Node000000_Node000087" title=" " alt="" coords="1115,1857,1168,1842,1192,1830,1216,1817,1259,1805,1301,1798,1302,1803,1260,1810,1218,1822,1195,1834,1170,1847,1116,1862"/>
+<area shape="rect" id="Node000096" href="$classPAMEdgeDetectorFilter.html" title=" " alt="" coords="1271,1881,1441,1907"/>
+<area shape="poly" id="edge67_Node000000_Node000096" title=" " alt="" coords="1116,1873,1271,1885,1270,1890,1116,1878"/>
+<area shape="rect" id="Node000148" href="$classPausableFilter.html" title="A filter which may be started and stopped." alt="" coords="1299,1832,1413,1857"/>
+<area shape="poly" id="edge68_Node000000_Node000148" title=" " alt="" coords="1115,1862,1299,1847,1299,1852,1116,1867"/>
+<area shape="rect" id="Node000357" href="$classScalarStairstepFilter.html" title=" " alt="" coords="1280,1684,1432,1709"/>
+<area shape="poly" id="edge70_Node000000_Node000357" title=" " alt="" coords="1116,1865,1143,1857,1168,1843,1180,1828,1187,1814,1190,1782,1194,1750,1202,1734,1216,1719,1246,1702,1279,1694,1280,1699,1248,1707,1219,1723,1206,1737,1199,1751,1196,1783,1192,1815,1185,1831,1171,1847,1145,1862,1117,1870"/>
+<area shape="rect" id="Node000047" href="$classCSVExportFilter.html" title=" " alt="" coords="1593,1980,1715,2005"/>
+<area shape="poly" id="edge63_Node000046_Node000047" title=" " alt="" coords="1418,1951,1593,1980,1592,1985,1417,1956"/>
+<area shape="rect" id="Node000048" href="$classPcapngExportFilter.html" title=" " alt="" coords="1583,1881,1725,1907"/>
+<area shape="poly" id="edge64_Node000046_Node000048" title=" " alt="" coords="1417,1931,1582,1903,1583,1908,1418,1936"/>
+<area shape="rect" id="Node000049" href="$classTouchstoneExportFilter.html" title=" " alt="" coords="1569,1931,1739,1956"/>
+<area shape="poly" id="edge65_Node000046_Node000049" title=" " alt="" coords="1418,1941,1569,1941,1569,1946,1418,1946"/>
+<area shape="rect" id="Node000149" href="$classTrendFilter.html" title=" " alt="" coords="1609,1832,1699,1857"/>
+<area shape="poly" id="edge69_Node000148_Node000149" title=" " alt="" coords="1426,1842,1609,1842,1609,1847,1426,1847"/>
+<area shape="rect" id="Node000302" href="$classBinaryDriver.html" title="Helper class for binary driver: provides methods for handling binary data." alt="" coords="452,9973,556,9999"/>
+<area shape="rect" id="Node000276" href="$classHIDInstrument.html" title="Base class for instruments using USB HID communication protocol." alt="" coords="693,9960,811,9985"/>
+<area shape="poly" id="edge71_Node000302_Node000276" title=" " alt="" coords="570,9980,693,9973,693,9978,570,9985"/>
+<area shape="rect" id="Node000300" href="$classModbusInstrument.html" title="Base class for instruments using Modbus communication protocol." alt="" coords="680,10009,824,10035"/>
+<area shape="poly" id="edge73_Node000302_Node000300" title=" " alt="" coords="570,9993,680,10009,680,10014,569,9998"/>
+<area shape="rect" id="Node000277" href="$classAlientekPowerSupply.html" title="An Alientek DP&#45;100 power supply or other equivalent model." alt="" coords="963,9960,1123,9985"/>
+<area shape="poly" id="edge72_Node000276_Node000277" title=" " alt="" coords="824,9970,963,9970,963,9975,824,9975"/>
+<area shape="rect" id="Node000299" href="$classRidenPowerSupply.html" title="A Riden RD6006 power supply or other equivalent model." alt="" coords="972,10059,1115,10084"/>
+<area shape="poly" id="edge74_Node000300_Node000299" title=" " alt="" coords="838,10034,972,10057,971,10062,837,10039"/>
+<area shape="rect" id="Node000301" href="$classSinilinkPowerSupply.html" title="Implementation for Sinilink PSUs such as XY&#45;S3580, XY6020L." alt="" coords="966,10009,1121,10035"/>
+<area shape="poly" id="edge75_Node000300_Node000301" title=" " alt="" coords="838,10019,966,10019,966,10025,838,10025"/>
+<area shape="rect" id="Node000193" href="$classDialog.html" title="Generic dialog box or other popup window." alt="" coords="472,623,536,648"/>
+<area shape="rect" id="Node000194" href="$classAboutDialog.html" title=" " alt="" coords="701,203,803,228"/>
+<area shape="poly" id="edge76_Node000193_Node000194" title=" " alt="" coords="503,609,508,535,526,434,543,381,565,328,595,279,633,237,665,219,700,212,701,217,667,224,636,241,599,283,570,331,548,382,531,436,513,536,508,609"/>
+<area shape="rect" id="Node000195" href="$classAddInstrumentDialog.html" title=" " alt="" coords="672,252,832,277"/>
+<area shape="poly" id="edge77_Node000193_Node000195" title=" " alt="" coords="504,609,512,543,533,456,549,409,571,364,599,323,633,287,651,275,670,267,672,272,653,280,636,291,603,326,576,367,554,411,538,457,518,544,509,609"/>
+<area shape="rect" id="Node000196" href="$classBERTDialog.html" title=" " alt="" coords="703,301,801,327"/>
+<area shape="poly" id="edge78_Node000193_Node000196" title=" " alt="" coords="506,608,517,551,540,477,556,438,577,401,603,366,633,336,666,319,702,311,703,317,668,324,636,340,607,369,582,403,561,440,545,479,522,552,511,609"/>
+<area shape="rect" id="Node000197" href="$classCreateFilterBrowser.html" title=" " alt="" coords="677,351,827,376"/>
+<area shape="poly" id="edge79_Node000193_Node000197" title=" " alt="" coords="508,609,523,560,547,499,583,437,606,409,633,385,653,373,676,366,677,371,656,378,636,389,610,413,587,440,552,502,528,562,514,610"/>
+<area shape="rect" id="Node000186" href="$classEmbeddableDialog.html" title=" " alt="" coords="679,992,825,1017"/>
+<area shape="poly" id="edge80_Node000193_Node000186" title=" " alt="" coords="510,661,518,726,539,812,555,857,576,901,603,942,636,977,657,990,680,998,678,1003,654,995,633,981,599,946,572,904,550,859,533,813,513,727,504,662"/>
+<area shape="rect" id="Node000198" href="$classFilterGraphEditor.html" title=" " alt="" coords="687,400,817,425"/>
+<area shape="poly" id="edge90_Node000193_Node000198" title=" " alt="" coords="512,609,529,570,555,522,589,474,633,434,658,422,686,414,687,419,660,427,636,439,593,478,559,525,534,572,517,611"/>
+<area shape="rect" id="Node000199" href="$classFilterGraphErrorWindow.html" title=" " alt="" coords="664,449,840,475"/>
+<area shape="poly" id="edge91_Node000193_Node000199" title=" " alt="" coords="517,609,563,546,596,512,633,484,662,471,665,476,636,488,599,516,567,549,521,612"/>
+<area shape="rect" id="Node000200" href="$classHardwareFlagsDialog.html" title=" " alt="" coords="671,499,833,524"/>
+<area shape="poly" id="edge92_Node000193_Node000200" title=" " alt="" coords="526,611,573,571,602,550,634,533,670,520,671,525,636,538,605,555,576,575,529,615"/>
+<area shape="rect" id="Node000201" href="$classHistoryDialog.html" title="UI for the history system." alt="" coords="697,548,807,573"/>
+<area shape="poly" id="edge93_Node000193_Node000201" title=" " alt="" coords="545,615,634,582,696,567,697,572,635,587,547,620"/>
+<area shape="rect" id="Node000202" href="$classLoadDialog.html" title=" " alt="" coords="705,597,799,623"/>
+<area shape="poly" id="edge94_Node000193_Node000202" title=" " alt="" coords="549,628,704,612,705,617,550,633"/>
+<area shape="rect" id="Node000203" href="$classLogViewerDialog.html" title=" " alt="" coords="686,647,818,672"/>
+<area shape="poly" id="edge95_Node000193_Node000203" title=" " alt="" coords="550,637,686,650,686,656,550,642"/>
+<area shape="rect" id="Node000204" href="$classManageInstrumentsDialog.html" title=" " alt="" coords="655,696,849,721"/>
+<area shape="poly" id="edge96_Node000193_Node000204" title=" " alt="" coords="549,651,635,681,685,693,684,699,634,686,548,656"/>
+<area shape="rect" id="Node000205" href="$classMeasurementsDialog.html" title=" " alt="" coords="671,1239,833,1264"/>
+<area shape="poly" id="edge97_Node000193_Node000205" title=" " alt="" coords="510,662,522,782,546,952,563,1039,584,1117,609,1181,622,1206,637,1224,653,1236,672,1244,670,1249,650,1241,633,1228,618,1209,604,1184,579,1119,558,1040,541,953,517,783,505,662"/>
+<area shape="rect" id="Node000206" href="$classMemoryDialog.html" title=" " alt="" coords="693,745,811,771"/>
+<area shape="poly" id="edge98_Node000193_Node000206" title=" " alt="" coords="530,656,577,694,636,730,693,748,692,753,634,735,574,699,527,660"/>
+<area shape="rect" id="Node000207" href="$classMemoryLeakerDialog.html" title="Debug tool for temporarily eating a lot of memory." alt="" coords="671,795,833,820"/>
+<area shape="poly" id="edge99_Node000193_Node000207" title=" " alt="" coords="522,659,568,720,600,753,636,780,672,794,670,799,633,784,596,757,564,724,518,662"/>
+<area shape="rect" id="Node000208" href="$classMetricsDialog.html" title=" " alt="" coords="696,844,808,869"/>
+<area shape="poly" id="edge100_Node000193_Node000208" title=" " alt="" coords="517,660,534,698,560,745,594,791,636,829,665,843,696,851,695,856,663,848,633,834,590,794,555,747,529,701,512,662"/>
+<area shape="rect" id="Node000209" href="$classNotesDialog.html" title=" " alt="" coords="701,893,803,919"/>
+<area shape="poly" id="edge101_Node000193_Node000209" title=" " alt="" coords="514,661,528,709,552,768,588,828,611,855,636,878,667,894,701,902,700,907,665,899,633,883,607,859,584,831,548,770,523,710,509,662"/>
+<area shape="rect" id="Node000210" href="$classPowerSupplyDialog.html" title=" " alt="" coords="678,943,826,968"/>
+<area shape="poly" id="edge102_Node000193_Node000210" title=" " alt="" coords="511,661,523,717,545,790,562,828,582,865,607,899,636,928,656,940,679,948,677,953,654,945,633,932,603,902,578,868,557,831,540,792,518,719,506,662"/>
+<area shape="rect" id="Node000211" href="$classPreferenceDialog.html" title=" " alt="" coords="685,1041,819,1067"/>
+<area shape="poly" id="edge103_Node000193_Node000211" title=" " alt="" coords="508,662,514,735,532,834,548,887,570,938,600,986,636,1027,659,1041,685,1049,684,1054,657,1046,633,1031,595,989,566,940,543,888,527,835,508,735,503,662"/>
+<area shape="rect" id="Node000212" href="$classProtocolAnalyzerDialog.html" title="UI for the history system." alt="" coords="665,1189,839,1215"/>
+<area shape="poly" id="edge104_Node000193_Node000212" title=" " alt="" coords="511,661,524,773,549,928,567,1006,587,1078,610,1136,637,1175,650,1185,666,1192,663,1197,647,1190,633,1178,606,1139,582,1080,562,1008,544,929,519,773,505,662"/>
+<area shape="rect" id="Node000213" href="$classRFGeneratorDialog.html" title=" " alt="" coords="679,1091,825,1116"/>
+<area shape="poly" id="edge105_Node000193_Node000213" title=" " alt="" coords="507,662,510,743,515,797,526,855,542,915,565,974,596,1029,636,1076,656,1089,679,1097,677,1102,654,1094,633,1080,592,1032,560,977,537,917,520,856,510,797,504,743,502,662"/>
+<area shape="rect" id="Node000214" href="$classSCPIConsoleDialog.html" title="SCPI console for debugging drivers." alt="" coords="679,1140,825,1165"/>
+<area shape="poly" id="edge106_Node000193_Node000214" title=" " alt="" coords="511,661,526,764,553,904,570,974,590,1039,612,1091,637,1125,656,1139,680,1147,678,1152,654,1144,633,1129,608,1093,585,1040,565,976,548,905,521,764,506,662"/>
+<area shape="rect" id="Node000215" href="$classScopeDeskewWizard.html" title=" " alt="" coords="673,5,831,31"/>
+<area shape="poly" id="edge107_Node000193_Node000215" title=" " alt="" coords="505,608,517,487,541,316,558,229,579,149,603,84,618,59,633,40,651,27,672,19,674,24,654,32,637,44,622,62,608,87,584,151,563,230,546,317,522,488,510,609"/>
+<area shape="rect" id="Node000216" href="$classStreamBrowserDialog.html" title=" " alt="" coords="670,55,834,80"/>
+<area shape="poly" id="edge108_Node000193_Node000216" title=" " alt="" coords="505,609,519,496,544,340,561,261,582,189,605,130,633,89,650,77,669,69,671,74,652,82,637,93,610,132,587,190,566,262,549,341,524,497,511,609"/>
+<area shape="rect" id="Node000217" href="$classTriggerPropertiesDialog.html" title=" " alt="" coords="665,104,839,129"/>
+<area shape="poly" id="edge109_Node000193_Node000217" title=" " alt="" coords="506,609,521,505,547,364,565,293,585,228,607,175,633,139,663,121,666,125,636,143,612,177,590,230,570,294,553,365,526,506,511,609"/>
+<area shape="rect" id="Node000218" href="$classTutorialWizard.html" title=" " alt="" coords="695,153,809,179"/>
+<area shape="poly" id="edge110_Node000193_Node000218" title=" " alt="" coords="502,609,504,527,510,473,520,413,536,352,559,292,591,236,633,188,662,171,694,163,695,168,664,176,636,192,595,239,564,294,541,354,525,414,515,473,509,527,507,609"/>
+<area shape="rect" id="Node000187" href="$classBERTInputChannelDialog.html" title=" " alt="" coords="951,868,1135,893"/>
+<area shape="poly" id="edge81_Node000186_Node000187" title=" " alt="" coords="837,992,868,977,884,960,891,941,898,921,916,903,950,887,952,892,919,907,903,924,896,943,888,963,871,981,839,997"/>
+<area shape="rect" id="Node000188" href="$classBERTOutputChannelDialog.html" title=" " alt="" coords="946,917,1141,943"/>
+<area shape="poly" id="edge82_Node000186_Node000188" title=" " alt="" coords="837,986,868,977,892,964,916,952,957,940,958,945,918,956,895,969,870,982,839,992"/>
+<area shape="rect" id="Node000183" href="$classBaseChannelPropertiesDialog.html" title=" " alt="" coords="936,1223,1151,1248"/>
+<area shape="poly" id="edge83_Node000186_Node000183" title=" " alt="" coords="839,1009,871,1027,886,1043,894,1061,899,1095,902,1130,908,1148,919,1166,938,1184,960,1199,1004,1220,1002,1225,957,1203,935,1188,915,1169,903,1150,896,1131,893,1096,889,1062,882,1046,868,1031,837,1014"/>
+<area shape="rect" id="Node000189" href="$classDigitalIOChannelDialog.html" title=" " alt="" coords="956,967,1131,992"/>
+<area shape="poly" id="edge86_Node000186_Node000189" title=" " alt="" coords="838,995,955,984,956,990,838,1000"/>
+<area shape="rect" id="Node000190" href="$classDigitalInputChannelDialog.html" title=" " alt="" coords="947,1016,1140,1041"/>
+<area shape="poly" id="edge87_Node000186_Node000190" title=" " alt="" coords="839,1009,947,1018,946,1023,838,1014"/>
+<area shape="rect" id="Node000191" href="$classDigitalOutputChannelDialog.html" title=" " alt="" coords="941,1065,1145,1091"/>
+<area shape="poly" id="edge88_Node000186_Node000191" title=" " alt="" coords="838,1017,870,1026,895,1038,918,1050,964,1063,963,1068,916,1055,892,1043,868,1031,837,1022"/>
+<area shape="rect" id="Node000192" href="$classEmbeddedTriggerPropertiesDialog.html" title="Wrapper around TriggerPropertiesPage for rendering as an EmbeddableDialog." alt="" coords="942,1115,1145,1155"/>
+<area shape="poly" id="edge89_Node000186_Node000192" title=" " alt="" coords="839,1012,871,1027,888,1045,896,1064,903,1083,919,1100,943,1113,940,1118,916,1104,899,1085,891,1066,884,1048,868,1031,837,1016"/>
+<area shape="rect" id="Node000184" href="$classChannelPropertiesDialog.html" title=" " alt="" coords="1265,1223,1447,1248"/>
+<area shape="poly" id="edge84_Node000183_Node000184" title=" " alt="" coords="1165,1233,1265,1233,1265,1238,1165,1238"/>
+<area shape="rect" id="Node000185" href="$classFilterPropertiesDialog.html" title=" " alt="" coords="1573,1223,1735,1248"/>
+<area shape="poly" id="edge85_Node000184_Node000185" title=" " alt="" coords="1461,1233,1573,1233,1573,1238,1461,1238"/>
+<area shape="rect" id="Node000324" title=" " alt="" coords="5,9850,151,9890"/>
+<area shape="rect" id="Node000244" href="$classInstrument.html" title="An arbitrary lab instrument. Oscilloscope, LA, PSU, DMM, etc." alt="" coords="239,9556,333,9581"/>
+<area shape="poly" id="edge111_Node000324_Node000244" title=" " alt="" coords="99,9837,274,9580,278,9583,103,9840"/>
+<area shape="rect" id="Node000325" href="$classStreamGroupDescriptor.html" title="Descriptor for a group of streams comming from different channels (typically a channel bank)" alt="" coords="199,10159,373,10184"/>
+<area shape="poly" id="edge211_Node000324_Node000325" title=" " alt="" coords="87,9903,99,9957,120,10022,153,10089,175,10119,200,10145,218,10156,215,10161,197,10149,171,10122,148,10091,115,10024,93,9958,82,9904"/>
+<area shape="rect" id="Node000245" href="$classBERT.html" title="Base class for bit error rate tester drivers." alt="" coords="476,9655,532,9680"/>
+<area shape="poly" id="edge112_Node000244_Node000245" title=" " alt="" coords="320,9586,367,9614,422,9641,477,9658,475,9664,420,9646,365,9619,317,9591"/>
+<area shape="rect" id="Node000318" href="$classFunctionGenerator.html" title="A baseband waveform generator." alt="" coords="433,8992,575,9017"/>
+<area shape="poly" id="edge116_Node000244_Node000318" title=" " alt="" coords="295,9542,495,9017,500,9019,300,9544"/>
+<area shape="rect" id="Node000306" href="$classLoad.html" title="Base class for all electronic load drivers." alt="" coords="477,9507,531,9532"/>
+<area shape="poly" id="edge131_Node000244_Node000306" title=" " alt="" coords="346,9553,477,9523,478,9528,347,9558"/>
+<area shape="rect" id="Node000317" href="$classMultimeter.html" title="A multimeter." alt="" coords="457,9556,551,9581"/>
+<area shape="poly" id="edge134_Node000244_Node000317" title=" " alt="" coords="347,9566,456,9566,456,9571,347,9571"/>
+<area shape="rect" id="Node000298" href="$classOscilloscope.html" title="Generic representation of an oscilloscope, logic analyzer, or spectrum analyzer." alt="" coords="452,9405,556,9431"/>
+<area shape="poly" id="edge141_Node000244_Node000298" title=" " alt="" coords="306,9544,356,9496,420,9448,461,9428,463,9433,423,9452,359,9500,310,9548"/>
+<area shape="rect" id="Node000303" href="$classPowerSupply.html" title="A generic power supply." alt="" coords="451,10035,557,10060"/>
+<area shape="poly" id="edge175_Node000244_Node000303" title=" " alt="" coords="291,9595,297,9674,317,9783,334,9843,356,9903,386,9959,423,10010,439,10023,457,10032,454,10037,436,10027,419,10013,382,9962,352,9905,329,9845,312,9785,292,9674,285,9595"/>
+<area shape="rect" id="Node000274" href="$classRFSignalGenerator.html" title="An RF waveform generator which creates a carrier and optionally modulates it." alt="" coords="432,8773,576,8799"/>
+<area shape="poly" id="edge188_Node000244_Node000274" title=" " alt="" coords="289,9542,334,9309,372,9145,419,8980,459,8874,494,8798,499,8800,464,8876,424,8982,377,9147,339,9310,294,9543"/>
+<area shape="rect" id="Node000275" href="$classSCPIInstrument.html" title="An SCPI&#45;based oscilloscope." alt="" coords="443,9783,565,9808"/>
+<area shape="poly" id="edge191_Node000244_Node000275" title=" " alt="" coords="311,9590,493,9781,489,9784,307,9594"/>
+<area shape="rect" id="Node000323" href="$classSwitchMatrix.html" title="Base class for switch matrixes." alt="" coords="451,9605,557,9631"/>
+<area shape="poly" id="edge209_Node000244_Node000323" title=" " alt="" coords="347,9580,451,9603,450,9609,345,9585"/>
+<area shape="rect" id="Node000246" href="$classSCPIBERT.html" title="An SCPI&#45;based BERT." alt="" coords="709,9759,795,9784"/>
+<area shape="poly" id="edge113_Node000245_Node000246" title=" " alt="" coords="538,9685,583,9712,636,9737,710,9760,708,9765,634,9742,581,9716,535,9690"/>
+<area shape="rect" id="Node000247" href="$classAntikernelLabsTriggerCrossbar.html" title="An AKL&#45;TXB1 trigger crossbar." alt="" coords="933,9713,1153,9739"/>
+<area shape="poly" id="edge114_Node000246_Node000247" title=" " alt="" coords="808,9760,960,9736,961,9741,808,9765"/>
+<area shape="rect" id="Node000290" href="$classMultiLaneBERT.html" title="A MultiLANE BERT accessed via scopehal&#45;mlbert&#45;bridge." alt="" coords="983,9812,1103,9837"/>
+<area shape="poly" id="edge115_Node000246_Node000290" title=" " alt="" coords="809,9779,984,9811,983,9816,808,9784"/>
+<area shape="rect" id="Node000256" href="$classSCPIFunctionGenerator.html" title="An SCPI&#45;based function generator." alt="" coords="667,8653,837,8679"/>
+<area shape="poly" id="edge117_Node000318_Node000256" title=" " alt="" coords="520,8979,739,8677,743,8680,525,8982"/>
+<area shape="rect" id="Node000254" href="$classLeCroyOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the MAUI/XStream command set." alt="" coords="969,8973,1118,8999"/>
+<area shape="poly" id="edge118_Node000256_Node000254" title=" " alt="" coords="762,8692,780,8749,811,8822,832,8860,857,8897,886,8931,919,8960,943,8973,969,8980,968,8985,941,8977,916,8964,882,8935,853,8901,828,8863,806,8824,775,8750,757,8693"/>
+<area shape="rect" id="Node000257" href="$classMagnovaOscilloscope.html" title=" " alt="" coords="961,8677,1125,8703"/>
+<area shape="poly" id="edge120_Node000256_Node000257" title=" " alt="" coords="851,8671,961,8681,961,8686,851,8677"/>
+<area shape="rect" id="Node000258" href="$classOwonXDGFunctionGenerator.html" title="Owon XDG Function Generator series driver class." alt="" coords="939,8379,1147,8404"/>
+<area shape="poly" id="edge121_Node000256_Node000258" title=" " alt="" coords="849,8653,867,8640,887,8613,895,8586,895,8558,891,8530,887,8501,887,8472,895,8443,915,8415,937,8400,940,8404,919,8419,900,8445,892,8472,892,8500,896,8529,900,8558,900,8587,892,8616,871,8644,852,8657"/>
+<area shape="rect" id="Node000259" href="$classPicoOscilloscope.html" title="PicoOscilloscope &#45; driver for talking to the scopehal&#45;pico&#45;bridge daemons." alt="" coords="1291,8973,1421,8999"/>
+<area shape="poly" id="edge122_Node000256_Node000259" title=" " alt="" coords="849,8650,868,8640,883,8622,890,8602,898,8582,916,8565,985,8532,1018,8522,1049,8517,1079,8518,1109,8526,1140,8542,1171,8565,1192,8588,1207,8612,1215,8636,1218,8660,1213,8710,1200,8761,1186,8812,1180,8863,1182,8888,1188,8912,1200,8936,1219,8960,1234,8972,1252,8980,1291,8988,1290,8993,1250,8985,1232,8977,1215,8964,1196,8939,1183,8914,1176,8888,1174,8863,1181,8811,1195,8760,1208,8709,1213,8660,1210,8637,1202,8614,1188,8591,1168,8569,1137,8546,1107,8531,1078,8523,1049,8522,1019,8527,987,8537,919,8570,902,8585,895,8604,888,8625,871,8644,852,8654"/>
+<area shape="rect" id="Node000267" href="$classRSRTB2kOscilloscope.html" title=" " alt="" coords="962,8727,1125,8752"/>
+<area shape="poly" id="edge123_Node000256_Node000267" title=" " alt="" coords="805,8680,918,8713,970,8724,969,8729,917,8718,804,8685"/>
+<area shape="rect" id="Node000268" href="$classRSRTO6Oscilloscope.html" title=" " alt="" coords="965,8579,1121,8604"/>
+<area shape="poly" id="edge124_Node000256_Node000268" title=" " alt="" coords="843,8647,868,8640,892,8627,916,8614,965,8601,966,8606,918,8619,895,8632,870,8644,844,8653"/>
+<area shape="rect" id="Node000269" href="$classRigolFunctionGenerator.html" title=" " alt="" coords="956,8428,1131,8453"/>
+<area shape="poly" id="edge125_Node000256_Node000269" title=" " alt="" coords="848,8653,868,8640,884,8619,891,8598,892,8577,891,8554,889,8531,891,8509,898,8486,915,8464,934,8451,955,8443,956,8448,936,8456,919,8468,903,8488,896,8510,894,8531,896,8554,898,8577,896,8599,888,8622,871,8644,851,8657"/>
+<area shape="rect" id="Node000270" href="$classSiglentFunctionGenerator.html" title="A Siglent SDG function generator." alt="" coords="950,8477,1137,8503"/>
+<area shape="poly" id="edge126_Node000256_Node000270" title=" " alt="" coords="849,8652,868,8640,880,8626,887,8612,891,8582,895,8551,902,8535,916,8520,949,8500,952,8505,919,8524,907,8538,900,8552,896,8583,892,8614,884,8629,871,8644,852,8656"/>
+<area shape="rect" id="Node000271" href="$classSiglentSCPIOscilloscope.html" title=" " alt="" coords="954,8628,1133,8653"/>
+<area shape="poly" id="edge127_Node000256_Node000271" title=" " alt="" coords="851,8655,953,8646,954,8651,851,8660"/>
+<area shape="rect" id="Node000272" href="$classSiglentVectorSignalGenerator.html" title="Siglent vector signal generators." alt="" coords="936,8329,1151,8355"/>
+<area shape="poly" id="edge128_Node000256_Node000272" title=" " alt="" coords="848,8654,867,8640,890,8607,898,8574,897,8540,891,8505,884,8470,883,8435,892,8400,915,8365,934,8352,937,8356,919,8369,896,8402,888,8435,890,8470,896,8504,902,8539,904,8574,895,8609,871,8644,852,8658"/>
+<area shape="rect" id="Node000315" href="$classTektronixOscilloscope.html" title="Driver for Tektronix oscilloscopes." alt="" coords="961,8825,1125,8851"/>
+<area shape="poly" id="edge129_Node000256_Node000315" title=" " alt="" coords="774,8688,834,8751,874,8784,918,8812,962,8826,960,8832,916,8816,871,8788,830,8755,770,8691"/>
+<area shape="rect" id="Node000255" href="$classLeCroyFWPOscilloscope.html" title="A Teledyne LeCroy oscilloscope using the FastWavePort interface for download instead of SCPI." alt="" coords="1267,8924,1445,8949"/>
+<area shape="poly" id="edge119_Node000254_Node000255" title=" " alt="" coords="1131,8970,1274,8947,1275,8952,1132,8975"/>
+<area shape="rect" id="Node000316" href="$classTektronixHSIOscilloscope.html" title="Driver for the Tektronix HSI interface using an external bridge server (WIP)" alt="" coords="1263,8851,1449,8876"/>
+<area shape="poly" id="edge130_Node000315_Node000316" title=" " alt="" coords="1140,8843,1263,8853,1262,8858,1139,8848"/>
+<area shape="rect" id="Node000304" href="$classSCPILoad.html" title="An SCPI&#45;based electronic load." alt="" coords="711,9507,793,9532"/>
+<area shape="poly" id="edge132_Node000306_Node000304" title=" " alt="" coords="545,9517,710,9517,710,9522,545,9522"/>
+<area shape="rect" id="Node000305" href="$classSiglentLoad.html" title="Siglent electronic load." alt="" coords="994,9516,1093,9541"/>
+<area shape="poly" id="edge133_Node000304_Node000305" title=" " alt="" coords="807,9518,994,9524,993,9530,807,9524"/>
+<area shape="rect" id="Node000311" href="$classSCPIMultimeter.html" title="An SCPI&#45;based multimeter." alt="" coords="691,9556,813,9581"/>
+<area shape="poly" id="edge135_Node000317_Node000311" title=" " alt="" coords="565,9566,690,9566,690,9571,565,9571"/>
+<area shape="poly" id="edge137_Node000311_Node000254" title=" " alt="" coords="826,9565,849,9557,867,9543,880,9524,888,9499,896,9436,896,9360,891,9278,885,9196,885,9119,893,9055,902,9030,915,9010,939,8992,967,8983,969,8988,942,8997,919,9013,907,9032,898,9057,890,9120,891,9196,896,9278,901,9360,902,9436,893,9501,884,9526,871,9546,851,9562,828,9570"/>
+<area shape="poly" id="edge140_Node000311_Node000315" title=" " alt="" coords="826,9565,849,9557,867,9543,883,9518,893,9487,900,9449,902,9406,899,9309,891,9204,882,9099,879,9002,882,8958,888,8920,899,8887,915,8862,936,8846,960,8837,962,8842,938,8850,919,8865,904,8890,893,8921,887,8959,884,9002,887,9099,896,9204,905,9309,908,9406,905,9449,899,9488,888,9521,871,9546,852,9562,828,9570"/>
+<area shape="rect" id="Node000312" href="$classAgilentMultimeter.html" title="Driver for Agilent 34401A." alt="" coords="973,9615,1113,9640"/>
+<area shape="poly" id="edge136_Node000311_Node000312" title=" " alt="" coords="826,9582,918,9601,975,9612,974,9617,917,9606,825,9587"/>
+<area shape="rect" id="Node000313" href="$classOwonXDMMultimeter.html" title="Driver for Owon XDM multimeter." alt="" coords="962,9664,1125,9689"/>
+<area shape="poly" id="edge138_Node000311_Node000313" title=" " alt="" coords="828,9580,871,9598,886,9612,895,9626,904,9639,919,9650,962,9666,961,9671,916,9655,900,9642,891,9629,882,9615,868,9603,826,9585"/>
+<area shape="rect" id="Node000314" href="$classRohdeSchwarzHMC8012Multimeter.html" title="A Rohde &amp; Schwarz HMC8012 multimeter." alt="" coords="917,9565,1169,9591"/>
+<area shape="poly" id="edge139_Node000311_Node000314" title=" " alt="" coords="827,9568,917,9571,917,9577,827,9574"/>
+<area shape="rect" id="Node000297" href="$classMockOscilloscope.html" title="Fake oscilloscope driver used for offline waveform analysis." alt="" coords="974,9763,1113,9788"/>
+<area shape="poly" id="edge142_Node000298_Node000297" title=" " alt="" coords="534,9437,562,9463,589,9494,604,9521,611,9545,619,9568,637,9592,703,9654,764,9691,831,9718,918,9749,974,9764,973,9769,917,9754,829,9723,761,9696,700,9658,633,9596,615,9570,606,9547,599,9523,584,9497,558,9467,531,9441"/>
+<area shape="rect" id="Node000248" href="$classSCPIOscilloscope.html" title="An SCPI&#45;based oscilloscope." alt="" coords="685,9072,819,9097"/>
+<area shape="poly" id="edge143_Node000298_Node000248" title=" " alt="" coords="521,9393,739,9096,743,9099,525,9396"/>
+<area shape="poly" id="edge147_Node000248_Node000247" title=" " alt="" coords="764,9110,811,9271,872,9495,878,9527,880,9557,879,9608,881,9632,887,9654,899,9677,919,9700,935,9711,932,9716,916,9704,895,9680,882,9656,876,9632,874,9608,875,9557,873,9528,867,9496,806,9273,758,9111"/>
+<area shape="poly" id="edge150_Node000248_Node000254" title=" " alt="" coords="789,9063,848,9035,917,9009,967,8996,969,9001,918,9014,850,9040,791,9068"/>
+<area shape="poly" id="edge151_Node000248_Node000257" title=" " alt="" coords="754,9058,768,8988,796,8894,817,8844,844,8796,877,8751,916,8713,937,8700,960,8692,962,8697,939,8705,919,8717,881,8755,848,8799,822,8847,801,8896,773,8989,759,9059"/>
+<area shape="poly" id="edge152_Node000248_Node000267" title=" " alt="" coords="756,9058,773,8996,803,8916,824,8874,850,8833,880,8795,916,8763,937,8750,961,8742,963,8747,939,8755,919,8767,884,8798,854,8836,829,8876,808,8918,778,8998,761,9059"/>
+<area shape="poly" id="edge153_Node000248_Node000268" title=" " alt="" coords="758,9058,834,8813,879,8685,899,8639,915,8615,939,8600,964,8592,966,8597,941,8605,919,8619,904,8642,884,8687,839,8815,763,9059"/>
+<area shape="poly" id="edge173_Node000248_Node000271" title=" " alt="" coords="753,9058,763,8980,774,8929,789,8873,810,8816,838,8760,873,8708,916,8664,933,8652,953,8645,955,8650,936,8657,919,8668,877,8712,843,8762,815,8818,795,8874,779,8930,769,8981,758,9059"/>
+<area shape="poly" id="edge174_Node000248_Node000315" title=" " alt="" coords="762,9058,784,9015,818,8961,862,8906,888,8882,916,8861,937,8850,960,8843,962,8848,939,8855,919,8866,891,8886,866,8910,822,8964,789,9017,767,9061"/>
+<area shape="rect" id="Node000249" href="$classAgilentOscilloscope.html" title="Driver for Agilent (and some Keysight) oscilloscopes." alt="" coords="968,8776,1119,8801"/>
+<area shape="poly" id="edge144_Node000248_Node000249" title=" " alt="" coords="758,9058,778,9006,810,8938,856,8869,884,8838,916,8812,940,8799,967,8791,968,8796,942,8804,919,8816,888,8842,860,8873,815,8941,783,9008,763,9060"/>
+<area shape="rect" id="Node000250" href="$classAntikernelLabsILA.html" title="Protocol analyzer driver for Linux SocketCAN API." alt="" coords="974,8875,1113,8900"/>
+<area shape="poly" id="edge145_Node000248_Node000250" title=" " alt="" coords="767,9059,792,9025,826,8984,868,8944,916,8910,944,8898,973,8891,974,8896,945,8904,919,8915,871,8948,830,8988,796,9028,771,9062"/>
+<area shape="rect" id="Node000251" href="$classAntikernelLabsSerdesILA8b10b.html" title="Protocol analyzer driver for Linux SocketCAN API." alt="" coords="932,8924,1155,8949"/>
+<area shape="poly" id="edge146_Node000248_Node000251" title=" " alt="" coords="774,9061,835,9009,874,8982,916,8960,953,8947,955,8952,918,8964,877,8987,838,9013,778,9065"/>
+<area shape="rect" id="Node000252" href="$classDemoOscilloscope.html" title="Simulated oscilloscope for demonstrations and testing." alt="" coords="972,9023,1115,9048"/>
+<area shape="poly" id="edge148_Node000248_Node000252" title=" " alt="" coords="832,9069,971,9045,972,9050,832,9074"/>
+<area shape="rect" id="Node000253" href="$classKeysightDCA.html" title=" " alt="" coords="990,9072,1097,9097"/>
+<area shape="poly" id="edge149_Node000248_Node000253" title=" " alt="" coords="833,9082,990,9082,990,9087,833,9087"/>
+<area shape="rect" id="Node000260" href="$classRemoteBridgeOscilloscope.html" title="An oscilloscope connected over a SDK&#45;to&#45;SCPI bridge that follows our pattern (i.e...." alt="" coords="945,9171,1142,9196"/>
+<area shape="poly" id="edge154_Node000248_Node000260" title=" " alt="" coords="790,9101,849,9130,918,9157,961,9168,960,9173,917,9162,847,9135,787,9106"/>
+<area shape="rect" id="Node000319" href="$classRigolOscilloscope.html" title=" " alt="" coords="975,9220,1112,9245"/>
+<area shape="poly" id="edge161_Node000248_Node000319" title=" " alt="" coords="777,9105,838,9157,877,9184,918,9206,975,9223,974,9228,916,9211,874,9188,835,9161,774,9109"/>
+<area shape="rect" id="Node000320" href="$classRohdeSchwarzOscilloscope.html" title=" " alt="" coords="944,9269,1143,9295"/>
+<area shape="poly" id="edge162_Node000248_Node000320" title=" " alt="" coords="771,9108,796,9142,830,9182,871,9223,919,9256,945,9267,943,9272,916,9260,868,9227,826,9186,792,9145,767,9111"/>
+<area shape="rect" id="Node000287" href="$classSCPISA.html" title="Generic representation of a Spectrum Analyzer." alt="" coords="1009,9368,1078,9393"/>
+<area shape="poly" id="edge163_Node000248_Node000287" title=" " alt="" coords="763,9109,783,9162,814,9229,860,9298,887,9328,919,9354,940,9366,963,9373,1009,9379,1008,9384,962,9378,938,9371,916,9359,884,9332,855,9301,810,9232,778,9164,758,9111"/>
+<area shape="rect" id="Node000266" href="$classSCPISDR.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="1004,9319,1083,9344"/>
+<area shape="poly" id="edge165_Node000248_Node000266" title=" " alt="" coords="767,9109,789,9153,822,9206,866,9261,891,9285,919,9305,939,9315,961,9322,1004,9328,1004,9334,960,9327,937,9320,916,9310,888,9289,862,9264,818,9210,784,9155,762,9111"/>
+<area shape="rect" id="Node000321" href="$classSCPISpectrometer.html" title="Generic representation of an optical (UV&#45;VIS&#45;IR) spectrometer." alt="" coords="974,9467,1113,9492"/>
+<area shape="poly" id="edge167_Node000248_Node000321" title=" " alt="" coords="759,9110,773,9180,801,9274,822,9323,848,9372,880,9416,919,9453,945,9468,974,9475,973,9481,943,9473,916,9457,876,9419,843,9374,817,9326,796,9276,767,9181,754,9111"/>
+<area shape="rect" id="Node000283" href="$classSCPIVNA.html" title="Generic representation of a vector network analyzer." alt="" coords="1004,9121,1083,9147"/>
+<area shape="poly" id="edge169_Node000248_Node000283" title=" " alt="" coords="833,9096,1004,9125,1003,9130,832,9101"/>
+<area shape="poly" id="edge158_Node000260_Node000259" title=" " alt="" coords="1153,9168,1168,9157,1182,9140,1189,9123,1191,9085,1193,9047,1200,9028,1216,9009,1232,8998,1251,8990,1290,8982,1291,8987,1253,8995,1235,9002,1219,9013,1205,9030,1198,9048,1196,9085,1194,9124,1186,9143,1171,9161,1156,9172"/>
+<area shape="rect" id="Node000261" href="$classDSLabsOscilloscope.html" title="DSLabsOscilloscope &#45; driver for talking to the scopehal&#45;dslabs&#45;bridge daemons." alt="" coords="1280,9319,1432,9344"/>
+<area shape="poly" id="edge155_Node000260_Node000261" title=" " alt="" coords="1156,9197,1171,9207,1183,9219,1190,9232,1196,9258,1201,9283,1208,9294,1219,9305,1248,9320,1280,9328,1279,9333,1246,9325,1216,9309,1204,9298,1196,9285,1191,9259,1185,9233,1179,9222,1168,9211,1153,9202"/>
+<area shape="rect" id="Node000262" href="$classDigilentOscilloscope.html" title="DigilentOscilloscope &#45; driver for talking to the scopehal&#45;waveforms&#45;bridge daemon (wfmserver)" alt="" coords="1279,9121,1433,9147"/>
+<area shape="poly" id="edge156_Node000260_Node000262" title=" " alt="" coords="1138,9166,1278,9144,1279,9149,1139,9171"/>
+<area shape="rect" id="Node000263" href="$classHaasoscopePro.html" title="Driver for talking to the HaasoscopePro oscilloscope." alt="" coords="1295,9171,1417,9196"/>
+<area shape="poly" id="edge157_Node000260_Node000263" title=" " alt="" coords="1156,9181,1294,9181,1294,9186,1156,9186"/>
+<area shape="rect" id="Node000264" href="$classThunderScopeOscilloscope.html" title="Driver for talking to the TS.NET server controlling a ThunderScope." alt="" coords="1258,9269,1454,9295"/>
+<area shape="poly" id="edge159_Node000260_Node000264" title=" " alt="" coords="1153,9198,1171,9206,1186,9219,1195,9232,1204,9244,1219,9256,1259,9270,1257,9275,1216,9260,1200,9248,1191,9235,1182,9222,1168,9211,1150,9203"/>
+<area shape="rect" id="Node000265" href="$classUHDBridgeSDR.html" title="UHDBridgeSDR &#45; driver for talking to the scopehal&#45;uhd&#45;bridge daemon (uhdbridge)" alt="" coords="1295,9368,1417,9393"/>
+<area shape="poly" id="edge160_Node000260_Node000265" title=" " alt="" coords="1156,9196,1171,9207,1186,9225,1194,9244,1196,9283,1198,9320,1205,9338,1219,9355,1236,9366,1255,9374,1296,9381,1295,9386,1253,9379,1233,9371,1216,9359,1200,9341,1192,9321,1190,9283,1189,9245,1182,9228,1168,9211,1153,9200"/>
+<area shape="rect" id="Node000286" href="$classTinySA.html" title="Driver for TinySA and TinySA Ultra Spectrum Analizers." alt="" coords="1323,9417,1389,9443"/>
+<area shape="poly" id="edge164_Node000287_Node000286" title=" " alt="" coords="1092,9386,1323,9422,1322,9427,1091,9391"/>
+<area shape="poly" id="edge166_Node000266_Node000265" title=" " alt="" coords="1096,9337,1295,9369,1295,9374,1095,9342"/>
+<area shape="rect" id="Node000322" href="$classAseqSpectrometer.html" title="Driver for Aseq Instruments LR1/HR1 spectrometers via the scopehal&#45;aseq&#45;bridge server." alt="" coords="1285,9467,1427,9492"/>
+<area shape="poly" id="edge168_Node000321_Node000322" title=" " alt="" coords="1126,9477,1285,9477,1285,9482,1126,9482"/>
+<area shape="rect" id="Node000284" href="$classCopperMountainVNA.html" title="Driver for Copper Mountain VNAs." alt="" coords="1277,9023,1435,9048"/>
+<area shape="poly" id="edge170_Node000283_Node000284" title=" " alt="" coords="1097,9128,1133,9121,1168,9108,1182,9096,1191,9084,1200,9071,1216,9058,1246,9046,1276,9039,1278,9044,1247,9051,1219,9063,1204,9074,1196,9087,1186,9100,1171,9112,1134,9126,1098,9134"/>
+<area shape="rect" id="Node000282" href="$classNanoVNA.html" title="NanoVNA &#45; driver for talking to a NanoVNA using the NanoVNA 5 software." alt="" coords="1314,9220,1398,9245"/>
+<area shape="poly" id="edge171_Node000283_Node000282" title=" " alt="" coords="1097,9135,1134,9143,1171,9157,1186,9169,1195,9183,1204,9195,1219,9206,1267,9223,1314,9229,1313,9235,1265,9228,1216,9211,1200,9199,1191,9186,1182,9173,1168,9162,1133,9148,1096,9140"/>
+<area shape="rect" id="Node000285" href="$classPicoVNA.html" title="PicoVNA &#45; driver for talking to a PicoVNA using the PicoVNA 5 software." alt="" coords="1317,9072,1395,9097"/>
+<area shape="poly" id="edge172_Node000283_Node000285" title=" " alt="" coords="1096,9123,1317,9088,1318,9093,1097,9128"/>
+<area shape="rect" id="Node000278" href="$classSCPIPowerSupply.html" title="An SCPI&#45;based power supply." alt="" coords="685,10059,819,10084"/>
+<area shape="poly" id="edge176_Node000303_Node000278" title=" " alt="" coords="571,10051,684,10062,684,10067,571,10056"/>
+<area shape="poly" id="edge177_Node000278_Node000277" title=" " alt="" coords="832,10059,868,10045,882,10034,891,10021,900,10008,916,9996,962,9979,964,9984,919,10000,904,10012,896,10024,886,10037,871,10050,834,10064"/>
+<area shape="poly" id="edge183_Node000278_Node000299" title=" " alt="" coords="833,10069,972,10069,972,10074,833,10074"/>
+<area shape="poly" id="edge187_Node000278_Node000301" title=" " alt="" coords="832,10055,967,10032,968,10037,833,10060"/>
+<area shape="rect" id="Node000279" href="$classDemoPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="971,10371,1116,10396"/>
+<area shape="poly" id="edge178_Node000278_Node000279" title=" " alt="" coords="763,10097,781,10152,812,10224,833,10261,858,10297,886,10329,919,10357,944,10370,971,10378,970,10383,942,10375,916,10362,883,10333,854,10300,829,10264,807,10226,776,10154,758,10098"/>
+<area shape="rect" id="Node000288" href="$classGWInstekGPDX303SPowerSupply.html" title="A GW Instek GPD&#45;(X)303S power supply." alt="" coords="924,10108,1163,10133"/>
+<area shape="poly" id="edge179_Node000278_Node000288" title=" " alt="" coords="833,10082,968,10105,967,10111,832,10088"/>
+<area shape="rect" id="Node000289" href="$classHP662xAPowerSupply.html" title="A HP 662xA power supply." alt="" coords="961,10157,1126,10183"/>
+<area shape="poly" id="edge180_Node000278_Node000289" title=" " alt="" coords="790,10088,849,10117,918,10143,961,10155,960,10160,917,10149,847,10121,787,10093"/>
+<area shape="rect" id="Node000294" href="$classKuaiquPowerSupply.html" title="A KUAIQU power supply." alt="" coords="968,9911,1119,9936"/>
+<area shape="poly" id="edge181_Node000278_Node000294" title=" " alt="" coords="832,10062,851,10055,868,10045,879,10034,885,10023,891,9997,896,9972,904,9959,916,9947,940,9933,967,9925,968,9930,942,9938,919,9951,908,9962,901,9973,896,9999,890,10024,883,10037,871,10049,853,10060,834,10067"/>
+<area shape="rect" id="Node000295" href="$classMockPowerSupply.html" title="A simulated power supply for demonstration." alt="" coords="973,9861,1114,9887"/>
+<area shape="poly" id="edge182_Node000278_Node000295" title=" " alt="" coords="832,10064,851,10057,868,10045,882,10028,889,10011,891,9973,893,9935,900,9916,916,9897,942,9881,971,9873,973,9878,944,9886,919,9901,905,9918,898,9936,896,9973,894,10012,886,10031,871,10049,853,10061,834,10069"/>
+<area shape="rect" id="Node000291" href="$classRigolDP8xxPowerSupply.html" title="A Rigol DP8xx power supply Validated on Rigol DP832." alt="" coords="953,10207,1134,10232"/>
+<area shape="poly" id="edge184_Node000278_Node000291" title=" " alt="" coords="777,10092,838,10144,877,10171,918,10193,953,10205,952,10210,916,10198,874,10175,835,10148,774,10096"/>
+<area shape="rect" id="Node000292" href="$classRohdeSchwarzHMC804xPowerSupply.html" title="A Rohde &amp; Schwarz HMC804x power supply." alt="" coords="933,10257,1153,10297"/>
+<area shape="poly" id="edge185_Node000278_Node000292" title=" " alt="" coords="771,10094,830,10168,872,10208,919,10242,943,10254,941,10259,916,10247,868,10212,827,10171,767,10097"/>
+<area shape="rect" id="Node000293" href="$classSiglentPowerSupply.html" title="A Siglent SPD3303x power supply." alt="" coords="968,10321,1119,10347"/>
+<area shape="poly" id="edge186_Node000278_Node000293" title=" " alt="" coords="766,10096,787,10142,820,10200,864,10258,890,10284,919,10306,943,10318,969,10326,967,10331,941,10323,916,10311,887,10288,860,10262,815,10203,782,10145,761,10098"/>
+<area shape="rect" id="Node000273" href="$classSCPIRFSignalGenerator.html" title="An SCPI&#45;based RF signal generator." alt="" coords="665,8604,839,8629"/>
+<area shape="poly" id="edge189_Node000274_Node000273" title=" " alt="" coords="518,8760,564,8699,596,8667,633,8640,664,8627,666,8631,636,8644,600,8671,568,8703,522,8763"/>
+<area shape="poly" id="edge190_Node000273_Node000272" title=" " alt="" coords="760,8590,781,8541,813,8480,858,8417,886,8389,916,8365,941,8352,943,8357,919,8370,889,8393,863,8421,818,8483,785,8544,765,8592"/>
+<area shape="poly" id="edge192_Node000275_Node000276" title=" " alt="" coords="522,9818,569,9879,600,9911,636,9938,664,9952,694,9961,692,9966,662,9957,633,9943,597,9915,565,9882,518,9821"/>
+<area shape="poly" id="edge197_Node000275_Node000300" title=" " alt="" coords="517,9820,533,9860,559,9908,593,9956,613,9977,636,9996,657,10007,680,10014,679,10019,655,10012,633,10000,610,9981,589,9960,554,9911,529,9862,512,9822"/>
+<area shape="poly" id="edge198_Node000275_Node000246" title=" " alt="" coords="579,9785,709,9773,710,9778,579,9791"/>
+<area shape="poly" id="edge199_Node000275_Node000256" title=" " alt="" coords="528,9771,559,9736,584,9692,614,9601,628,9522,631,9450,627,9382,618,9239,620,9156,632,9060,659,8942,691,8829,743,8678,748,8680,697,8831,664,8944,637,9061,625,9157,623,9239,633,9382,636,9450,633,9523,619,9602,589,9694,563,9739,532,9775"/>
+<area shape="poly" id="edge200_Node000275_Node000304" title=" " alt="" coords="525,9771,556,9735,584,9691,593,9670,598,9650,601,9613,608,9578,617,9560,633,9543,650,9531,670,9523,710,9516,711,9521,672,9528,653,9535,636,9547,621,9563,613,9580,606,9614,603,9651,599,9672,589,9694,560,9738,529,9774"/>
+<area shape="poly" id="edge205_Node000275_Node000311" title=" " alt="" coords="528,9771,735,9579,739,9583,531,9775"/>
+<area shape="poly" id="edge206_Node000275_Node000248" title=" " alt="" coords="526,9771,557,9735,584,9691,605,9639,614,9596,620,9551,632,9495,698,9255,744,9097,749,9098,703,9257,637,9496,626,9552,620,9597,610,9641,589,9694,561,9738,531,9774"/>
+<area shape="poly" id="edge207_Node000275_Node000278" title=" " alt="" coords="520,9819,586,9953,637,10045,659,10058,685,10065,684,10070,657,10063,633,10049,581,9956,515,9822"/>
+<area shape="poly" id="edge193_Node000275_Node000294" title=" " alt="" coords="547,9811,635,9843,724,9866,814,9885,968,9911,967,9916,813,9890,723,9871,634,9849,545,9816"/>
+<area shape="poly" id="edge208_Node000275_Node000273" title=" " alt="" coords="528,9771,559,9736,573,9715,584,9692,590,9663,595,9620,598,9495,595,9160,594,8985,598,8828,610,8708,620,8666,633,8640,647,8628,664,8619,666,8624,650,8632,637,8644,625,8668,615,8709,604,8829,600,8985,600,9160,604,9495,600,9620,596,9664,589,9694,578,9717,563,9739,532,9775"/>
+<area shape="rect" id="Node000296" href="$classMockInstrument.html" title="Base class for simulated instruments." alt="" coords="688,9808,816,9833"/>
+<area shape="poly" id="edge194_Node000275_Node000296" title=" " alt="" coords="579,9800,688,9812,688,9817,579,9806"/>
+<area shape="rect" id="Node000307" href="$classSCPIMiscInstrument.html" title="An SCPI&#45;based miscellaneous instrument." alt="" coords="676,10444,828,10469"/>
+<area shape="poly" id="edge201_Node000275_Node000307" title=" " alt="" coords="521,9819,554,9883,589,9961,668,10193,749,10443,744,10445,663,10195,584,9963,549,9885,516,9821"/>
+<area shape="poly" id="edge195_Node000296_Node000297" title=" " alt="" coords="829,9806,973,9783,974,9789,830,9811"/>
+<area shape="poly" id="edge196_Node000296_Node000295" title=" " alt="" coords="830,9832,974,9859,973,9864,829,9837"/>
+<area shape="rect" id="Node000308" href="$classAntikernelLabsGPIO.html" title="A miscellaneous instrument which provides access to an Antikernel Labs GPIO bridge." alt="" coords="968,10420,1119,10445"/>
+<area shape="poly" id="edge202_Node000307_Node000308" title=" " alt="" coords="841,10447,967,10436,968,10442,842,10452"/>
+<area shape="rect" id="Node000309" href="$classAntikernelLabsVIO.html" title="A miscellaneous instrument which provides access to an Antikernel Labs VIO bridge." alt="" coords="973,10469,1114,10495"/>
+<area shape="poly" id="edge203_Node000307_Node000309" title=" " alt="" coords="842,10462,973,10473,972,10479,841,10467"/>
+<area shape="rect" id="Node000310" href="$classCSVStreamInstrument.html" title="A miscellaneous instrument which streams scalar data over CSV." alt="" coords="960,10519,1127,10544"/>
+<area shape="poly" id="edge204_Node000307_Node000310" title=" " alt="" coords="804,10471,918,10505,969,10516,968,10521,917,10510,803,10476"/>
+<area shape="poly" id="edge210_Node000323_Node000247" title=" " alt="" coords="571,9608,637,9605,713,9609,794,9622,833,9634,871,9649,887,9661,896,9675,904,9688,919,9700,945,9711,943,9716,916,9704,900,9691,891,9678,883,9665,868,9654,831,9639,793,9627,713,9614,636,9611,571,9613"/>
+<area shape="rect" id="Node000155" href="$classPeakDetector.html" title=" " alt="" coords="697,6820,807,6845"/>
+<area shape="rect" id="Node000150" href="$classPeakDetectionFilter.html" title="A filter that does peak detection." alt="" coords="1281,8736,1431,8761"/>
+<area shape="poly" id="edge212_Node000155_Node000150" title=" " alt="" coords="821,6824,914,6819,1018,6819,1067,6823,1111,6830,1147,6841,1171,6858,1184,6891,1192,6957,1200,7171,1201,7462,1198,7791,1194,8120,1194,8411,1201,8625,1209,8691,1220,8723,1232,8734,1247,8742,1282,8751,1280,8756,1245,8747,1229,8739,1215,8726,1204,8692,1196,8625,1189,8411,1189,8120,1192,7791,1196,7462,1195,7171,1187,6958,1178,6892,1167,6861,1144,6846,1110,6835,1066,6828,1017,6825,914,6824,822,6829"/>
+<area shape="rect" id="Node000156" href="$classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="975,6745,1112,6771"/>
+<area shape="poly" id="edge217_Node000155_Node000156" title=" " alt="" coords="820,6817,869,6806,1001,6768,1003,6773,870,6811,822,6822"/>
+<area shape="rect" id="Node000151" href="$classFFTFilter.html" title=" " alt="" coords="1615,8761,1693,8787"/>
+<area shape="poly" id="edge213_Node000150_Node000151" title=" " alt="" coords="1444,8753,1615,8768,1614,8773,1444,8759"/>
+<area shape="rect" id="Node000153" href="$classPeakHoldFilter.html" title=" " alt="" coords="1596,8811,1712,8836"/>
+<area shape="poly" id="edge215_Node000150_Node000153" title=" " alt="" coords="1445,8758,1496,8772,1520,8784,1544,8797,1597,8811,1595,8817,1542,8802,1517,8789,1494,8776,1444,8763"/>
+<area shape="rect" id="Node000154" href="$classPeaksFilter.html" title=" " alt="" coords="1607,8712,1701,8737"/>
+<area shape="poly" id="edge216_Node000150_Node000154" title=" " alt="" coords="1444,8739,1607,8726,1607,8731,1444,8744"/>
+<area shape="rect" id="Node000152" href="$classJitterSpectrumFilter.html" title=" " alt="" coords="1850,8761,1997,8787"/>
+<area shape="poly" id="edge214_Node000151_Node000152" title=" " alt="" coords="1707,8771,1850,8771,1850,8777,1707,8777"/>
+<area shape="rect" id="Node000280" href="$classSCPIDevice.html" title="An SCPI&#45;based device." alt="" coords="238,10109,334,10135"/>
+<area shape="poly" id="edge218_Node000280_Node000247" title=" " alt="" coords="286,10095,294,10028,315,9938,332,9891,354,9846,383,9804,420,9769,458,9749,511,9735,576,9724,648,9718,798,9714,933,9717,933,9723,798,9720,648,9723,576,9730,513,9740,460,9754,423,9773,388,9808,359,9848,337,9893,320,9940,299,10029,291,10096"/>
+<area shape="poly" id="edge225_Node000280_Node000290" title=" " alt="" coords="299,10096,346,10028,380,9991,420,9960,466,9938,529,9918,686,9880,851,9850,983,9830,983,9835,852,9856,687,9886,531,9923,468,9943,423,9964,384,9995,350,10031,303,10099"/>
+<area shape="poly" id="edge222_Node000280_Node000279" title=" " alt="" coords="349,10129,375,10145,390,10165,397,10185,399,10225,401,10263,408,10281,423,10299,454,10323,486,10344,558,10375,634,10396,712,10406,788,10409,860,10407,977,10393,978,10399,860,10412,788,10415,711,10411,633,10401,556,10380,484,10348,450,10327,419,10303,404,10284,396,10264,394,10225,392,10186,385,10168,372,10149,346,10134"/>
+<area shape="poly" id="edge223_Node000280_Node000288" title=" " alt="" coords="348,10119,924,10118,924,10124,348,10125"/>
+<area shape="poly" id="edge224_Node000280_Node000289" title=" " alt="" coords="348,10123,960,10162,960,10167,348,10129"/>
+<area shape="poly" id="edge226_Node000280_Node000291" title=" " alt="" coords="348,10131,422,10143,712,10181,953,10208,952,10213,712,10187,421,10149,347,10136"/>
+<area shape="poly" id="edge227_Node000280_Node000292" title=" " alt="" coords="348,10135,374,10145,398,10158,422,10170,557,10208,695,10236,825,10255,933,10266,933,10272,824,10260,694,10241,556,10213,420,10175,396,10163,372,10150,346,10140"/>
+<area shape="poly" id="edge229_Node000280_Node000293" title=" " alt="" coords="348,10131,375,10145,392,10164,399,10183,407,10201,423,10217,489,10255,562,10285,637,10306,712,10321,785,10331,854,10335,968,10336,968,10341,854,10341,785,10336,711,10327,635,10312,560,10290,487,10260,420,10221,403,10204,395,10185,387,10167,372,10149,346,10136"/>
+<area shape="poly" id="edge228_Node000280_Node000275" title=" " alt="" coords="293,10095,311,10046,338,9983,374,9914,419,9851,448,9825,477,9806,480,9810,451,9829,423,9854,379,9917,342,9985,316,10048,298,10097"/>
+<area shape="rect" id="Node000281" href="$classCommandLineDriver.html" title="Helper class for command line drivers: provides helper methods for command line based communication w..." alt="" coords="965,9417,1121,9443"/>
+<area shape="poly" id="edge219_Node000280_Node000281" title=" " alt="" coords="289,10095,309,9959,343,9768,381,9590,401,9527,420,9493,449,9480,501,9469,649,9451,819,9438,965,9430,965,9436,820,9443,649,9456,501,9474,450,9485,423,9497,406,9529,386,9591,348,9769,315,9960,294,10096"/>
+<area shape="poly" id="edge221_Node000281_Node000286" title=" " alt="" coords="1135,9427,1322,9427,1322,9433,1135,9433"/>
+<area shape="poly" id="edge220_Node000281_Node000282" title=" " alt="" coords="1134,9422,1152,9415,1168,9404,1182,9387,1189,9369,1191,9332,1193,9293,1200,9274,1216,9256,1238,9241,1264,9233,1314,9227,1314,9232,1265,9238,1240,9246,1219,9260,1205,9277,1198,9294,1196,9332,1194,9371,1186,9390,1171,9408,1154,9419,1136,9427"/>
+<area shape="rect" id="Node000242" href="$classSerializableObject.html" title=" " alt="" coords="8,1661,148,1687"/>
+<area shape="poly" id="edge493_Node000242_Node000244" title=" " alt="" coords="83,1700,287,9556,282,9556,77,1700"/>
+<area shape="rect" id="Node000243" href="$classFilterGraphGroup.html" title=" " alt="" coords="220,1636,352,1661"/>
+<area shape="poly" id="edge230_Node000242_Node000243" title=" " alt="" coords="162,1661,219,1654,220,1659,162,1666"/>
+<area shape="rect" id="Node000181" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="223,1685,349,1711"/>
+<area shape="poly" id="edge231_Node000242_Node000181" title=" " alt="" coords="162,1681,223,1688,222,1693,162,1686"/>
+<area shape="rect" id="Node000326" href="$classTriggerGroup.html" title="A trigger group is a set of oscilloscopes that all trigger in lock&#45;step." alt="" coords="233,1735,339,1760"/>
+<area shape="poly" id="edge494_Node000242_Node000326" title=" " alt="" coords="123,1690,200,1719,239,1732,238,1737,198,1725,121,1695"/>
+<area shape="rect" id="Node000327" href="$classWaveformGroup.html" title="A WaveformGroup is a container for one or more WaveformArea&#39;s." alt="" coords="221,1537,351,1563"/>
+<area shape="poly" id="edge495_Node000242_Node000327" title=" " alt="" coords="99,1649,142,1610,197,1572,225,1560,227,1565,200,1576,145,1614,102,1653"/>
+<area shape="rect" id="Node000328" href="$classWorkspace.html" title=" " alt="" coords="239,1587,333,1612"/>
+<area shape="poly" id="edge496_Node000242_Node000328" title=" " alt="" coords="118,1653,198,1621,238,1609,239,1614,200,1626,120,1658"/>
+<area shape="rect" id="Node000164" href="$classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="431,6721,577,6747"/>
+<area shape="poly" id="edge232_Node000181_Node000164" title=" " alt="" coords="363,1709,376,1721,384,1744,391,1792,405,1956,419,2199,431,2509,453,3278,471,4158,496,5839,505,6721,500,6721,490,5839,465,4158,447,3278,426,2510,413,2199,400,1956,386,1793,378,1746,371,1723,360,1713"/>
+<area shape="rect" id="Node000182" href="$classSinkNode.html" title="A sink node is a node in the filter graph that has no outputs." alt="" coords="462,1315,546,1340"/>
+<area shape="poly" id="edge466_Node000181_Node000182" title=" " alt="" coords="360,1679,372,1671,406,1631,434,1586,456,1538,472,1489,492,1399,499,1340,504,1341,497,1400,477,1490,461,1540,439,1589,410,1634,375,1675,363,1683"/>
+<area shape="rect" id="Node000220" href="$classTrigger.html" title="Abstract base class for oscilloscope / logic analyzer trigger inputs." alt="" coords="471,1685,537,1711"/>
+<area shape="poly" id="edge471_Node000181_Node000220" title=" " alt="" coords="363,1695,470,1695,470,1701,363,1701"/>
+<area shape="rect" id="Node000165" href="$classBERTOutputChannel.html" title="A pattern generator channel of a BERT." alt="" coords="675,6771,829,6796"/>
+<area shape="poly" id="edge233_Node000164_Node000165" title=" " alt="" coords="582,6747,688,6768,687,6773,581,6752"/>
+<area shape="rect" id="Node000166" href="$classDigitalIOChannel.html" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="686,6869,818,6895"/>
+<area shape="poly" id="edge234_Node000164_Node000166" title=" " alt="" coords="525,6756,571,6807,602,6834,636,6856,660,6866,687,6873,685,6878,659,6871,633,6860,599,6838,568,6811,521,6759"/>
+<area shape="rect" id="Node000168" href="$classDigitalInputChannel.html" title="A digital input channel (GPIO, buffered mux path, etc)" alt="" coords="677,6919,827,6944"/>
+<area shape="poly" id="edge236_Node000164_Node000168" title=" " alt="" coords="519,6758,537,6792,563,6832,596,6872,636,6905,677,6922,675,6927,633,6910,593,6876,559,6836,533,6795,515,6761"/>
+<area shape="rect" id="Node000170" href="$classDigitalOutputChannel.html" title="A digital output channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="671,7116,833,7141"/>
+<area shape="poly" id="edge238_Node000164_Node000170" title=" " alt="" coords="509,6760,516,6830,535,6923,551,6972,573,7020,601,7064,636,7103,653,7113,671,7121,669,7126,650,7118,633,7107,597,7068,568,7023,546,6974,530,6924,510,6830,503,6761"/>
+<area shape="rect" id="Node000172" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="655,6968,849,6993"/>
+<area shape="poly" id="edge240_Node000164_Node000172" title=" " alt="" coords="515,6759,531,6803,556,6856,591,6910,612,6934,636,6954,656,6965,654,6970,633,6959,608,6938,586,6913,551,6859,526,6805,510,6761"/>
+<area shape="rect" id="Node000173" href="$classLoadChannel.html" title="A single channel of an active load." alt="" coords="699,7017,805,7043"/>
+<area shape="poly" id="edge241_Node000164_Node000173" title=" " alt="" coords="512,6760,525,6812,548,6879,565,6913,585,6947,608,6978,636,7004,666,7019,699,7027,698,7032,664,7024,633,7008,604,6981,580,6950,560,6916,543,6881,520,6814,507,6761"/>
+<area shape="rect" id="Node000174" href="$classMultimeterChannel.html" title="A single channel of a multimeter." alt="" coords="679,7067,825,7092"/>
+<area shape="poly" id="edge242_Node000164_Node000174" title=" " alt="" coords="510,6760,520,6821,541,6901,558,6943,579,6984,605,7021,636,7053,656,7066,679,7073,677,7078,654,7070,633,7057,601,7024,574,6986,553,6945,536,6902,515,6822,505,6761"/>
+<area shape="rect" id="Node000157" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="673,6573,831,6599"/>
+<area shape="poly" id="edge243_Node000164_Node000157" title=" " alt="" coords="521,6709,568,6658,599,6631,633,6609,672,6594,674,6599,636,6614,602,6635,572,6662,525,6712"/>
+<area shape="rect" id="Node000175" href="$classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="673,6425,831,6451"/>
+<area shape="poly" id="edge460_Node000164_Node000175" title=" " alt="" coords="507,6707,520,6655,544,6588,581,6519,605,6488,633,6461,651,6450,672,6442,674,6447,654,6455,636,6465,609,6492,585,6522,549,6590,525,6656,513,6708"/>
+<area shape="rect" id="Node000176" href="$classRFSignalGeneratorChannel.html" title="A single channel of an RF signal generator." alt="" coords="653,6475,851,6500"/>
+<area shape="poly" id="edge461_Node000164_Node000176" title=" " alt="" coords="510,6707,526,6663,551,6610,587,6556,609,6532,633,6510,656,6498,659,6503,636,6515,612,6535,591,6559,556,6613,531,6665,515,6709"/>
+<area shape="rect" id="Node000177" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="635,6524,869,6549"/>
+<area shape="poly" id="edge462_Node000164_Node000177" title=" " alt="" coords="515,6707,533,6674,559,6633,593,6593,633,6560,660,6547,662,6552,636,6564,597,6597,564,6636,538,6676,519,6710"/>
+<area shape="rect" id="Node000178" href="$classVIOInputChannel.html" title="A multi&#45;bit GPIO channel." alt="" coords="687,6623,817,6648"/>
+<area shape="poly" id="edge463_Node000164_Node000178" title=" " alt="" coords="534,6711,580,6684,634,6658,686,6643,687,6648,636,6663,582,6688,537,6716"/>
+<area shape="rect" id="Node000179" href="$classVIOOutputChannel.html" title="A multi&#45;bit GPIO channel." alt="" coords="681,6672,823,6697"/>
+<area shape="poly" id="edge464_Node000164_Node000179" title=" " alt="" coords="581,6716,687,6695,688,6700,582,6721"/>
+<area shape="rect" id="Node000180" href="$classVectorGPIOChannel.html" title="A multi&#45;bit GPIO interface that is exposed as a single channel with many streams." alt="" coords="677,6721,827,6747"/>
+<area shape="poly" id="edge465_Node000164_Node000180" title=" " alt="" coords="591,6731,677,6731,677,6737,591,6737"/>
+<area shape="rect" id="Node000167" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="928,6871,1159,6896"/>
+<area shape="poly" id="edge235_Node000166_Node000167" title=" " alt="" coords="832,6880,928,6880,927,6885,832,6885"/>
+<area shape="rect" id="Node000169" href="$classBufferedSwitchMatrixInputChannel.html" title="Declaration of BufferedSwitchMatrixInputChannel." alt="" coords="945,6921,1141,6961"/>
+<area shape="poly" id="edge237_Node000168_Node000169" title=" " alt="" coords="841,6932,945,6935,945,6940,841,6937"/>
+<area shape="rect" id="Node000171" href="$classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="940,7109,1147,7149"/>
+<area shape="poly" id="edge239_Node000170_Node000171" title=" " alt="" coords="847,7126,940,7126,940,7131,847,7131"/>
+<area shape="poly" id="edge459_Node000157_Node000156" title=" " alt="" coords="845,6594,871,6609,884,6624,892,6639,896,6669,900,6699,907,6713,919,6727,945,6742,975,6751,974,6756,943,6747,916,6731,903,6716,895,6701,891,6670,886,6641,880,6627,868,6613,843,6599"/>
+<area shape="rect" id="Node000158" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="946,6531,1141,6556"/>
+<area shape="poly" id="edge244_Node000157_Node000158" title=" " alt="" coords="844,6570,956,6553,957,6559,845,6575"/>
+<area shape="rect" id="Node000159" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="972,6691,1115,6716"/>
+<area shape="poly" id="edge245_Node000157_Node000159" title=" " alt="" coords="845,6597,871,6609,887,6623,896,6638,904,6652,919,6665,945,6678,973,6688,971,6693,943,6683,916,6670,900,6655,891,6640,883,6626,868,6614,843,6602"/>
+<area shape="rect" id="Node000161" href="$classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="992,6580,1095,6605"/>
+<area shape="poly" id="edge247_Node000157_Node000161" title=" " alt="" coords="844,6585,992,6589,992,6594,844,6591"/>
+<area shape="rect" id="Node000162" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="977,6629,1110,6655"/>
+<area shape="poly" id="edge248_Node000157_Node000162" title=" " alt="" coords="832,6599,918,6615,977,6627,976,6632,917,6621,831,6604"/>
+<area shape="rect" id="Node000002" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="1016,5211,1071,5236"/>
+<area shape="poly" id="edge249_Node000157_Node000002" title=" " alt="" coords="842,6577,867,6560,885,6530,901,6480,933,6329,961,6132,986,5910,1022,5484,1039,5236,1044,5237,1027,5485,991,5910,966,6132,938,6330,906,6481,889,6533,871,6564,845,6582"/>
+<area shape="rect" id="Node000163" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data in dB/degrees format." alt="" coords="968,6481,1119,6507"/>
+<area shape="poly" id="edge458_Node000157_Node000163" title=" " alt="" coords="843,6570,868,6560,882,6550,891,6539,901,6528,916,6517,967,6500,968,6505,919,6522,904,6532,895,6542,886,6554,871,6564,845,6575"/>
+<area shape="rect" id="Node000160" href="$classBERTInputChannelWithDataCapture.html" title="Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode." alt="" coords="1255,8786,1457,8826"/>
+<area shape="poly" id="edge246_Node000159_Node000160" title=" " alt="" coords="1129,6706,1152,6716,1171,6732,1184,6754,1194,6783,1209,6865,1217,6973,1219,7103,1212,7411,1196,7754,1179,8098,1172,8406,1175,8535,1183,8643,1197,8723,1207,8752,1219,8772,1236,8787,1256,8797,1253,8802,1233,8791,1215,8776,1203,8754,1192,8725,1177,8643,1169,8536,1167,8406,1174,8098,1190,7754,1207,7411,1214,7103,1212,6973,1204,6866,1189,6785,1179,6756,1167,6736,1149,6720,1127,6711"/>
+<area shape="poly" id="edge266_Node000002_Node000001" title=" " alt="" coords="1042,5197,1054,4548,1067,4011,1085,3417,1108,2832,1138,2319,1154,2110,1173,1943,1193,1827,1204,1790,1215,1768,1230,1755,1248,1747,1285,1739,1287,1744,1249,1752,1233,1760,1219,1772,1209,1792,1198,1828,1178,1944,1160,2110,1143,2319,1114,2832,1090,3417,1072,4011,1060,4549,1048,5197"/>
+<area shape="poly" id="edge294_Node000002_Node000046" title=" " alt="" coords="1042,5196,1056,4581,1088,3516,1112,2965,1141,2483,1157,2287,1175,2130,1194,2021,1204,1986,1215,1966,1235,1950,1259,1941,1307,1935,1308,1941,1260,1946,1238,1955,1219,1969,1209,1988,1199,2022,1180,2131,1162,2287,1146,2483,1117,2965,1093,3516,1061,4582,1048,5197"/>
+<area shape="poly" id="edge332_Node000002_Node000087" title=" " alt="" coords="1042,5197,1055,4558,1068,4028,1086,3443,1109,2866,1138,2360,1155,2154,1173,1990,1193,1875,1204,1839,1215,1818,1234,1803,1256,1793,1301,1787,1302,1793,1257,1799,1236,1807,1219,1821,1209,1841,1198,1877,1179,1991,1160,2155,1144,2361,1115,2866,1091,3443,1073,4028,1060,4558,1048,5197"/>
+<area shape="poly" id="edge341_Node000002_Node000096" title=" " alt="" coords="1042,5197,1055,4575,1069,4060,1087,3492,1111,2932,1140,2442,1156,2243,1174,2083,1194,1972,1204,1937,1215,1916,1240,1898,1270,1889,1271,1894,1243,1903,1219,1920,1209,1939,1199,1974,1180,2084,1162,2243,1145,2443,1116,2933,1093,3492,1074,4060,1061,4575,1048,5197"/>
+<area shape="poly" id="edge393_Node000002_Node000148" title=" " alt="" coords="1042,5197,1055,4565,1068,4043,1087,3466,1110,2898,1139,2401,1156,2198,1174,2037,1194,1924,1204,1888,1215,1867,1233,1852,1254,1843,1299,1837,1299,1842,1256,1848,1236,1857,1219,1870,1209,1890,1199,1925,1179,2037,1161,2199,1144,2401,1115,2898,1092,3467,1074,4043,1060,4565,1048,5197"/>
+<area shape="poly" id="edge422_Node000002_Node000357" title=" " alt="" coords="1043,5197,1065,4529,1110,3365,1136,2767,1163,2248,1190,1877,1203,1767,1215,1719,1229,1707,1245,1699,1279,1690,1281,1695,1247,1703,1232,1711,1220,1722,1208,1768,1195,1877,1169,2248,1141,2767,1115,3365,1071,4529,1048,5197"/>
+<area shape="poly" id="edge394_Node000002_Node000150" title=" " alt="" coords="1051,5249,1106,5724,1143,6090,1172,6470,1182,7603,1196,8361,1206,8617,1213,8692,1220,8723,1232,8734,1247,8742,1282,8751,1280,8756,1245,8747,1229,8739,1215,8726,1207,8693,1201,8617,1190,8361,1177,7603,1167,6470,1138,6090,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000003" href="$classACCoupleFilter.html" title=" " alt="" coords="1297,6272,1415,6297"/>
+<area shape="poly" id="edge250_Node000002_Node000003" title=" " alt="" coords="1048,5250,1055,5449,1065,5595,1080,5754,1101,5914,1131,6060,1149,6124,1170,6180,1193,6225,1219,6259,1236,6271,1255,6280,1298,6286,1297,6292,1254,6285,1233,6276,1215,6263,1189,6228,1165,6182,1144,6126,1126,6061,1096,5915,1074,5755,1059,5595,1050,5449,1042,5250"/>
+<area shape="rect" id="Node000004" href="$classACRMSMeasurement.html" title=" " alt="" coords="1277,6321,1435,6347"/>
+<area shape="poly" id="edge251_Node000002_Node000004" title=" " alt="" coords="1048,5250,1054,5457,1062,5610,1077,5777,1098,5945,1128,6099,1147,6166,1168,6225,1192,6273,1219,6308,1246,6325,1277,6334,1276,6339,1243,6330,1216,6312,1188,6275,1163,6227,1142,6168,1123,6100,1093,5946,1071,5778,1057,5610,1048,5457,1042,5250"/>
+<area shape="rect" id="Node000005" href="$classADL5205Decoder.html" title=" " alt="" coords="1289,6371,1423,6396"/>
+<area shape="poly" id="edge252_Node000002_Node000005" title=" " alt="" coords="1047,5250,1052,5465,1060,5626,1074,5801,1095,5977,1125,6138,1144,6208,1166,6270,1191,6320,1219,6357,1234,6369,1251,6377,1289,6385,1288,6390,1249,6382,1231,6374,1215,6361,1187,6323,1161,6272,1139,6210,1120,6139,1090,5977,1068,5801,1055,5626,1047,5466,1042,5250"/>
+<area shape="rect" id="Node000006" href="$classAddFilter.html" title=" " alt="" coords="1317,6420,1395,6445"/>
+<area shape="poly" id="edge253_Node000002_Node000006" title=" " alt="" coords="1047,5250,1050,5474,1057,5641,1071,5824,1092,6008,1122,6177,1142,6251,1164,6315,1190,6368,1219,6407,1240,6422,1265,6431,1317,6434,1316,6440,1264,6436,1238,6427,1215,6411,1186,6370,1159,6317,1137,6252,1117,6178,1086,6009,1065,5825,1052,5641,1045,5474,1042,5250"/>
+<area shape="rect" id="Node000007" href="$classAreaMeasurement.html" title=" " alt="" coords="1285,6469,1427,6495"/>
+<area shape="poly" id="edge254_Node000002_Node000007" title=" " alt="" coords="1047,5250,1049,5481,1055,5656,1068,5847,1088,6039,1119,6215,1139,6293,1162,6360,1189,6415,1219,6456,1233,6467,1249,6475,1285,6483,1284,6488,1247,6480,1230,6472,1215,6460,1184,6418,1157,6362,1134,6294,1114,6216,1083,6040,1062,5847,1050,5656,1044,5482,1042,5250"/>
+<area shape="rect" id="Node000008" href="$classAutocorrelationFilter.html" title=" " alt="" coords="1279,6519,1433,6544"/>
+<area shape="poly" id="edge255_Node000002_Node000008" title=" " alt="" coords="1047,5250,1047,5490,1053,5671,1065,5870,1085,6070,1099,6165,1116,6254,1136,6335,1160,6405,1188,6463,1219,6505,1247,6523,1279,6532,1278,6537,1244,6528,1215,6509,1183,6465,1155,6407,1131,6336,1111,6255,1094,6166,1080,6071,1059,5870,1047,5671,1042,5490,1042,5250"/>
+<area shape="rect" id="Node000009" href="$classAverageFilter.html" title=" " alt="" coords="1302,6568,1410,6593"/>
+<area shape="poly" id="edge256_Node000002_Node000009" title=" " alt="" coords="1049,5250,1067,5515,1103,5933,1127,6147,1155,6336,1186,6479,1202,6527,1219,6555,1237,6568,1257,6577,1302,6583,1301,6588,1256,6582,1234,6573,1215,6558,1198,6529,1181,6480,1150,6336,1122,6147,1098,5934,1062,5516,1044,5250"/>
+<area shape="rect" id="Node000010" href="$classBandwidthMeasurement.html" title=" " alt="" coords="1265,6617,1447,6643"/>
+<area shape="poly" id="edge257_Node000002_Node000010" title=" " alt="" coords="1050,5249,1077,5533,1123,5978,1175,6398,1199,6540,1210,6583,1219,6604,1241,6620,1266,6628,1264,6633,1238,6624,1215,6608,1205,6585,1194,6541,1170,6399,1118,5979,1071,5533,1044,5250"/>
+<area shape="rect" id="Node000011" href="$classBaseMeasurement.html" title=" " alt="" coords="1284,6667,1428,6692"/>
+<area shape="poly" id="edge258_Node000002_Node000011" title=" " alt="" coords="1050,5250,1076,5542,1122,6004,1148,6237,1174,6440,1199,6587,1210,6632,1219,6654,1233,6665,1249,6673,1284,6681,1283,6686,1247,6678,1230,6669,1215,6657,1205,6634,1194,6588,1169,6440,1143,6238,1117,6005,1071,5543,1044,5250"/>
+<area shape="rect" id="Node000012" href="$classBurstWidthMeasurement.html" title=" " alt="" coords="1264,6716,1448,6741"/>
+<area shape="poly" id="edge259_Node000002_Node000012" title=" " alt="" coords="1049,5249,1076,5551,1121,6029,1147,6271,1174,6481,1198,6634,1210,6680,1219,6703,1240,6718,1265,6727,1263,6732,1237,6723,1215,6706,1204,6682,1193,6635,1168,6482,1142,6271,1116,6029,1070,5551,1044,5250"/>
+<area shape="rect" id="Node000013" href="$classBusHeatmapFilter.html" title=" " alt="" coords="1287,6765,1425,6791"/>
+<area shape="poly" id="edge260_Node000002_Node000013" title=" " alt="" coords="1050,5249,1132,6066,1185,6535,1206,6689,1220,6753,1233,6764,1250,6772,1287,6780,1286,6785,1248,6777,1231,6768,1215,6755,1200,6690,1179,6535,1127,6067,1045,5250"/>
+<area shape="rect" id="Node000014" href="$classCANBitmaskFilter.html" title=" " alt="" coords="1288,6815,1424,6840"/>
+<area shape="poly" id="edge261_Node000002_Node000014" title=" " alt="" coords="1050,5250,1138,6099,1190,6583,1210,6740,1220,6802,1234,6813,1251,6821,1288,6829,1287,6834,1249,6826,1231,6818,1215,6805,1204,6741,1185,6584,1132,6099,1045,5250"/>
+<area shape="rect" id="Node000015" href="$classCTLEFilter.html" title=" " alt="" coords="1313,6864,1399,6889"/>
+<area shape="poly" id="edge262_Node000002_Node000015" title=" " alt="" coords="1050,5250,1137,6124,1190,6625,1209,6788,1220,6851,1239,6866,1263,6874,1313,6879,1312,6884,1262,6880,1237,6870,1215,6854,1204,6788,1185,6625,1132,6124,1045,5250"/>
+<area shape="rect" id="Node000016" href="$classClipFilter.html" title=" " alt="" coords="1317,6913,1395,6939"/>
+<area shape="poly" id="edge263_Node000002_Node000016" title=" " alt="" coords="1050,5250,1140,6153,1193,6670,1220,6901,1240,6916,1265,6924,1291,6928,1316,6928,1316,6933,1291,6933,1264,6929,1238,6920,1215,6903,1188,6671,1135,6154,1045,5250"/>
+<area shape="rect" id="Node000017" href="$classClockRecoveryFilter.html" title=" " alt="" coords="1281,6963,1431,6988"/>
+<area shape="poly" id="edge264_Node000002_Node000017" title=" " alt="" coords="1050,5249,1172,6470,1174,6579,1173,6721,1175,6792,1183,6857,1197,6912,1207,6933,1219,6950,1232,6960,1247,6968,1281,6976,1280,6982,1245,6973,1229,6965,1215,6953,1203,6935,1192,6913,1178,6858,1170,6793,1167,6721,1168,6579,1167,6470,1045,5250"/>
+<area shape="rect" id="Node000018" href="$classConstantFilter.html" title=" " alt="" coords="1300,7012,1412,7037"/>
+<area shape="poly" id="edge265_Node000002_Node000018" title=" " alt="" coords="1050,5249,1172,6470,1183,6741,1196,6907,1207,6967,1219,6999,1236,7012,1256,7021,1300,7027,1299,7032,1255,7026,1233,7017,1215,7002,1201,6969,1191,6908,1178,6741,1167,6470,1045,5250"/>
+<area shape="rect" id="Node000019" href="$classCouplerDeEmbedFilter.html" title=" " alt="" coords="1273,7061,1439,7087"/>
+<area shape="poly" id="edge267_Node000002_Node000019" title=" " alt="" coords="1050,5249,1099,5725,1172,6470,1182,6766,1195,6948,1206,7013,1212,7035,1219,7048,1244,7065,1273,7074,1272,7079,1241,7070,1215,7052,1207,7037,1200,7015,1190,6949,1177,6766,1167,6470,1094,5725,1045,5250"/>
+<area shape="rect" id="Node000020" href="$classCurrentShuntFilter.html" title=" " alt="" coords="1287,7111,1425,7136"/>
+<area shape="poly" id="edge268_Node000002_Node000020" title=" " alt="" coords="1050,5249,1100,5725,1172,6470,1181,6791,1193,6989,1205,7060,1212,7083,1219,7098,1233,7109,1250,7117,1287,7125,1286,7130,1248,7122,1230,7114,1215,7101,1207,7086,1199,7061,1188,6989,1175,6792,1167,6470,1095,5725,1045,5250"/>
+<area shape="rect" id="Node000021" href="$classDCDMeasurement.html" title=" " alt="" coords="1285,7160,1427,7185"/>
+<area shape="poly" id="edge269_Node000002_Node000021" title=" " alt="" coords="1050,5249,1101,5725,1172,6470,1179,6816,1184,6929,1192,7029,1204,7106,1211,7132,1219,7147,1233,7158,1249,7167,1286,7175,1285,7180,1247,7172,1230,7163,1215,7150,1206,7134,1198,7107,1187,7030,1179,6929,1174,6817,1167,6470,1096,5725,1045,5250"/>
+<area shape="rect" id="Node000022" href="$classDDJMeasurement.html" title=" " alt="" coords="1288,7209,1424,7235"/>
+<area shape="poly" id="edge270_Node000002_Node000022" title=" " alt="" coords="1050,5249,1101,5725,1138,6090,1172,6470,1175,6609,1178,6842,1183,6962,1191,7070,1203,7152,1210,7180,1219,7196,1234,7208,1250,7216,1288,7224,1287,7229,1249,7222,1231,7213,1215,7200,1205,7182,1197,7153,1185,7070,1177,6963,1173,6842,1169,6609,1167,6470,1133,6091,1096,5725,1045,5250"/>
+<area shape="rect" id="Node000023" href="$classDPhyDataDecoder.html" title=" " alt="" coords="1285,7259,1427,7284"/>
+<area shape="poly" id="edge271_Node000002_Node000023" title=" " alt="" coords="1050,5249,1102,5725,1138,6090,1172,6470,1174,6619,1177,6867,1181,6996,1189,7111,1202,7198,1210,7228,1219,7246,1233,7257,1249,7265,1286,7273,1284,7278,1247,7270,1230,7262,1215,7249,1205,7230,1196,7199,1184,7111,1176,6996,1172,6867,1169,6619,1167,6470,1133,6091,1097,5725,1045,5250"/>
+<area shape="rect" id="Node000024" href="$classDPhyHSClockRecoveryFilter.html" title="Extracts a clock from a MIPI D&#45;PHY clock+data stream which is gated to only show HS mode data." alt="" coords="1255,7308,1457,7333"/>
+<area shape="poly" id="edge272_Node000002_Node000024" title=" " alt="" coords="1050,5249,1102,5724,1139,6090,1172,6470,1174,6628,1176,6892,1180,7029,1188,7151,1201,7245,1209,7276,1219,7295,1236,7308,1256,7317,1253,7322,1233,7313,1215,7298,1204,7278,1195,7246,1182,7152,1174,7029,1170,6892,1169,6628,1167,6470,1133,6091,1097,5725,1045,5250"/>
+<area shape="rect" id="Node000025" href="$classDPhySymbolDecoder.html" title="Decoder for MIPI D&#45;PHY symbols." alt="" coords="1277,7357,1435,7383"/>
+<area shape="poly" id="edge273_Node000002_Node000025" title=" " alt="" coords="1050,5249,1103,5724,1139,6090,1172,6470,1174,6638,1175,6917,1178,7062,1186,7192,1200,7291,1209,7324,1219,7344,1245,7363,1277,7371,1276,7376,1243,7367,1215,7348,1204,7326,1194,7292,1181,7192,1173,7063,1169,6917,1168,6638,1167,6470,1134,6091,1097,5725,1045,5250"/>
+<area shape="rect" id="Node000026" href="$classDeEmbedFilter.html" title=" " alt="" coords="1297,7407,1415,7432"/>
+<area shape="poly" id="edge274_Node000002_Node000026" title=" " alt="" coords="1050,5249,1103,5724,1139,6090,1172,6470,1173,6647,1173,6942,1177,7096,1185,7232,1199,7337,1208,7372,1219,7394,1236,7407,1255,7415,1298,7422,1297,7427,1253,7421,1233,7411,1215,7397,1203,7374,1193,7338,1179,7233,1172,7096,1168,6942,1168,6647,1167,6470,1134,6091,1098,5725,1045,5250"/>
+<area shape="rect" id="Node000028" href="$classDeskewFilter.html" title=" " alt="" coords="1303,7456,1409,7481"/>
+<area shape="poly" id="edge276_Node000002_Node000028" title=" " alt="" coords="1050,5249,1103,5724,1140,6090,1172,6470,1184,6962,1198,7283,1208,7393,1213,7427,1219,7443,1237,7457,1258,7466,1303,7471,1303,7477,1256,7471,1234,7462,1215,7446,1208,7428,1202,7394,1193,7283,1179,6962,1167,6470,1134,6091,1098,5725,1045,5250"/>
+<area shape="rect" id="Node000029" href="$classDigitalConstantFilter.html" title=" " alt="" coords="1279,7505,1433,7531"/>
+<area shape="poly" id="edge277_Node000002_Node000029" title=" " alt="" coords="1050,5249,1104,5724,1140,6090,1172,6470,1183,6987,1197,7324,1207,7440,1213,7475,1220,7492,1232,7503,1246,7511,1279,7519,1278,7525,1244,7516,1229,7507,1215,7496,1208,7477,1202,7440,1192,7324,1178,6987,1167,6470,1135,6091,1098,5725,1045,5250"/>
+<area shape="rect" id="Node000030" href="$classDigitalToAnalogFilter.html" title=" " alt="" coords="1278,7555,1434,7580"/>
+<area shape="poly" id="edge278_Node000002_Node000030" title=" " alt="" coords="1050,5249,1104,5724,1140,6090,1172,6470,1183,7012,1196,7365,1207,7486,1213,7524,1220,7542,1231,7552,1246,7560,1278,7569,1277,7574,1244,7565,1228,7557,1215,7545,1208,7525,1201,7487,1191,7365,1178,7012,1167,6470,1135,6091,1098,5725,1045,5250"/>
+<area shape="rect" id="Node000031" href="$classDivideFilter.html" title=" " alt="" coords="1308,7604,1404,7629"/>
+<area shape="poly" id="edge279_Node000002_Node000031" title=" " alt="" coords="1050,5249,1104,5724,1140,6090,1172,6470,1182,7037,1196,7406,1206,7533,1213,7572,1219,7591,1238,7606,1260,7614,1308,7619,1307,7625,1259,7620,1235,7610,1215,7594,1207,7574,1201,7534,1190,7406,1177,7037,1167,6470,1135,6091,1099,5725,1045,5250"/>
+<area shape="rect" id="Node000032" href="$classDownconvertFilter.html" title="Downconvert &#45; generates a local oscillator in two phases and mixes it with a signal." alt="" coords="1286,7653,1426,7679"/>
+<area shape="poly" id="edge280_Node000002_Node000032" title=" " alt="" coords="1051,5249,1104,5724,1141,6090,1172,6470,1182,7062,1195,7447,1206,7580,1212,7621,1220,7640,1233,7652,1249,7660,1286,7668,1285,7673,1248,7665,1230,7657,1215,7644,1207,7622,1200,7581,1190,7447,1176,7062,1167,6470,1135,6091,1099,5725,1045,5250"/>
+<area shape="rect" id="Node000033" href="$classDownsampleFilter.html" title="Downsample &#45; low&#45;pass filter and decimate a signal." alt="" coords="1287,7703,1425,7728"/>
+<area shape="poly" id="edge281_Node000002_Node000033" title=" " alt="" coords="1051,5249,1104,5724,1141,6090,1172,6470,1181,7087,1194,7488,1205,7627,1212,7669,1220,7690,1233,7702,1250,7710,1287,7718,1286,7723,1248,7715,1230,7706,1215,7693,1207,7671,1200,7627,1189,7489,1176,7087,1167,6470,1136,6091,1099,5725,1045,5250"/>
+<area shape="rect" id="Node000034" href="$classDramClockFilter.html" title=" " alt="" coords="1293,7752,1419,7777"/>
+<area shape="poly" id="edge282_Node000002_Node000034" title=" " alt="" coords="1051,5249,1105,5724,1141,6090,1172,6470,1180,7112,1194,7529,1205,7673,1212,7718,1220,7739,1234,7752,1252,7760,1293,7767,1292,7773,1251,7765,1232,7756,1215,7742,1207,7719,1199,7674,1188,7530,1175,7112,1167,6470,1136,6091,1099,5725,1045,5250"/>
+<area shape="rect" id="Node000035" href="$classDramRefreshActivateMeasurement.html" title=" " alt="" coords="1230,7801,1482,7827"/>
+<area shape="poly" id="edge283_Node000002_Node000035" title=" " alt="" coords="1051,5249,1105,5724,1141,6090,1172,6470,1180,7137,1185,7367,1193,7571,1204,7720,1211,7766,1220,7789,1231,7799,1228,7803,1215,7791,1206,7768,1199,7721,1188,7571,1180,7367,1174,7137,1167,6470,1136,6091,1099,5725,1045,5250"/>
+<area shape="rect" id="Node000036" href="$classDramRowColumnLatencyMeasurement.html" title=" " alt="" coords="1217,7851,1495,7876"/>
+<area shape="poly" id="edge284_Node000002_Node000036" title=" " alt="" coords="1051,5249,1105,5724,1141,6090,1172,6470,1179,7162,1184,7401,1192,7612,1204,7767,1211,7815,1220,7838,1231,7848,1228,7852,1215,7841,1206,7816,1198,7767,1187,7612,1179,7401,1174,7162,1167,6470,1136,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000037" href="$classDutyCycleMeasurement.html" title=" " alt="" coords="1267,7900,1445,7925"/>
+<area shape="poly" id="edge285_Node000002_Node000037" title=" " alt="" coords="1051,5249,1105,5724,1141,6090,1172,6470,1179,7186,1183,7434,1191,7653,1203,7814,1211,7863,1219,7887,1241,7903,1267,7912,1266,7917,1238,7908,1215,7890,1206,7864,1198,7814,1186,7653,1178,7434,1173,7187,1167,6470,1136,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000038" href="$classEmphasisFilter.html" title=" " alt="" coords="1297,7949,1415,7975"/>
+<area shape="poly" id="edge286_Node000002_Node000038" title=" " alt="" coords="1051,5249,1105,5724,1142,6090,1172,6470,1178,7211,1183,7468,1191,7694,1203,7860,1211,7912,1220,7936,1235,7950,1255,7958,1297,7965,1297,7970,1253,7963,1233,7954,1215,7940,1205,7913,1197,7861,1185,7694,1177,7468,1173,7211,1167,6470,1136,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000039" href="$classEmphasisRemovalFilter.html" title=" " alt="" coords="1269,7999,1443,8024"/>
+<area shape="poly" id="edge287_Node000002_Node000039" title=" " alt="" coords="1051,5249,1105,5724,1142,6090,1172,6470,1177,7236,1182,7501,1190,7735,1202,7907,1210,7960,1219,7986,1242,8002,1269,8011,1268,8016,1239,8007,1215,7989,1205,7961,1197,7908,1185,7735,1177,7502,1172,7236,1167,6470,1136,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000040" href="$classEnvelopeFilter.html" title=" " alt="" coords="1299,8048,1413,8073"/>
+<area shape="poly" id="edge288_Node000002_Node000040" title=" " alt="" coords="1051,5249,1105,5724,1142,6090,1172,6470,1177,7261,1181,7535,1189,7776,1202,7954,1210,8009,1220,8035,1236,8049,1255,8057,1299,8064,1298,8069,1254,8062,1233,8053,1215,8038,1205,8010,1196,7954,1184,7776,1176,7535,1171,7261,1167,6470,1136,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000041" href="$classEthernet100BaseT1LinkTrainingDecoder.html" title=" " alt="" coords="1242,8098,1470,8138"/>
+<area shape="poly" id="edge289_Node000002_Node000041" title=" " alt="" coords="1051,5249,1106,5724,1142,6090,1172,6470,1177,7286,1181,7568,1189,7817,1202,8000,1210,8057,1220,8084,1243,8103,1240,8107,1215,8088,1205,8058,1197,8001,1184,7817,1176,7568,1172,7286,1167,6470,1137,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000042" href="$classEthernet64b66bDecoder.html" title=" " alt="" coords="1267,8163,1445,8188"/>
+<area shape="poly" id="edge290_Node000002_Node000042" title=" " alt="" coords="1051,5249,1106,5724,1142,6090,1172,6470,1173,6762,1175,7318,1180,7612,1188,7871,1201,8061,1209,8120,1219,8148,1241,8165,1267,8174,1265,8179,1238,8170,1215,8152,1204,8121,1195,8062,1182,7871,1174,7612,1170,7318,1168,6762,1167,6470,1137,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000043" href="$classEthernetAutonegotiationDecoder.html" title=" " alt="" coords="1239,8212,1473,8237"/>
+<area shape="poly" id="edge291_Node000002_Node000043" title=" " alt="" coords="1051,5249,1106,5724,1142,6090,1172,6470,1173,6771,1175,7344,1179,7646,1187,7913,1200,8109,1209,8170,1219,8199,1240,8215,1237,8219,1215,8202,1204,8171,1195,8110,1181,7913,1173,7646,1169,7344,1168,6771,1167,6470,1137,6091,1100,5725,1045,5250"/>
+<area shape="rect" id="Node000044" href="$classEthernetClause73AutonegotiationDecoder.html" title=" " alt="" coords="1235,8262,1477,8302"/>
+<area shape="poly" id="edge292_Node000002_Node000044" title=" " alt="" coords="1051,5249,1106,5724,1142,6090,1172,6470,1173,6779,1175,7368,1179,7679,1187,7953,1200,8155,1209,8218,1220,8249,1237,8264,1233,8268,1215,8251,1204,8219,1195,8156,1182,7954,1174,7679,1170,7368,1168,6779,1167,6470,1137,6091,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000045" href="$classExponentialMovingAverageFilter.html" title=" " alt="" coords="1255,8326,1457,8366"/>
+<area shape="poly" id="edge293_Node000002_Node000045" title=" " alt="" coords="1051,5249,1106,5724,1142,6090,1172,6470,1173,6790,1174,7401,1178,7723,1186,8007,1200,8216,1209,8281,1220,8313,1236,8327,1256,8337,1254,8342,1233,8331,1215,8315,1204,8282,1194,8216,1181,8007,1173,7723,1169,7401,1168,6790,1167,6470,1137,6091,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000050" href="$classEyeBitRateMeasurement.html" title=" " alt="" coords="1264,8391,1448,8416"/>
+<area shape="poly" id="edge295_Node000002_Node000050" title=" " alt="" coords="1051,5249,1106,5724,1142,6090,1172,6470,1184,7429,1198,8070,1208,8286,1214,8350,1220,8377,1240,8392,1265,8402,1263,8407,1237,8397,1215,8379,1209,8351,1203,8287,1193,8070,1179,7429,1167,6470,1137,6091,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000051" href="$classEyeHeightMeasurement.html" title=" " alt="" coords="1267,8440,1445,8465"/>
+<area shape="poly" id="edge296_Node000002_Node000051" title=" " alt="" coords="1051,5249,1106,5724,1142,6090,1172,6470,1184,7454,1198,8113,1208,8335,1214,8400,1220,8427,1241,8443,1267,8452,1266,8457,1238,8448,1215,8430,1208,8401,1203,8335,1193,8113,1179,7454,1167,6470,1137,6090,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000052" href="$classEyeJitterMeasurement.html" title=" " alt="" coords="1273,8489,1439,8515"/>
+<area shape="poly" id="edge297_Node000002_Node000052" title=" " alt="" coords="1051,5249,1106,5724,1143,6090,1172,6470,1184,7479,1198,8154,1208,8382,1213,8449,1220,8477,1243,8494,1273,8503,1272,8508,1241,8499,1215,8479,1208,8450,1202,8382,1192,8154,1178,7479,1167,6470,1137,6090,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000053" href="$classEyePattern.html" title=" " alt="" coords="1309,8539,1403,8564"/>
+<area shape="poly" id="edge298_Node000002_Node000053" title=" " alt="" coords="1051,5249,1106,5724,1143,6090,1172,6470,1183,7504,1197,8196,1207,8429,1213,8497,1220,8526,1238,8541,1261,8550,1285,8554,1309,8554,1309,8560,1285,8559,1259,8555,1235,8545,1215,8529,1208,8498,1202,8429,1192,8196,1178,7504,1167,6470,1137,6090,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000054" href="$classEyePeriodMeasurement.html" title=" " alt="" coords="1267,8588,1445,8613"/>
+<area shape="poly" id="edge299_Node000002_Node000054" title=" " alt="" coords="1051,5249,1106,5724,1143,6090,1172,6470,1183,7529,1197,8237,1207,8476,1213,8546,1220,8575,1241,8592,1268,8601,1266,8606,1239,8596,1215,8578,1208,8547,1202,8476,1192,8237,1178,7529,1167,6470,1137,6090,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000055" href="$classEyeWidthMeasurement.html" title=" " alt="" coords="1269,8637,1443,8663"/>
+<area shape="poly" id="edge300_Node000002_Node000055" title=" " alt="" coords="1051,5249,1106,5724,1143,6090,1172,6470,1183,7553,1197,8278,1207,8523,1213,8595,1220,8625,1242,8641,1269,8650,1268,8655,1239,8646,1215,8627,1208,8595,1202,8523,1191,8278,1177,7553,1167,6470,1137,6090,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000056" href="$classFIRFilter.html" title="Performs an arbitrary FIR filter with tap delay equal to the sample rate." alt="" coords="1319,8687,1393,8712"/>
+<area shape="poly" id="edge301_Node000002_Node000056" title=" " alt="" coords="1051,5249,1106,5724,1143,6090,1172,6470,1182,7578,1196,8320,1207,8570,1213,8643,1220,8674,1240,8690,1266,8699,1293,8702,1318,8702,1318,8707,1292,8707,1264,8704,1238,8694,1215,8677,1208,8644,1201,8570,1191,8320,1177,7578,1167,6470,1137,6090,1101,5725,1045,5250"/>
+<area shape="rect" id="Node000058" href="$classFallMeasurement.html" title=" " alt="" coords="1289,1980,1423,2005"/>
+<area shape="poly" id="edge303_Node000002_Node000058" title=" " alt="" coords="1042,5197,1056,4591,1089,3542,1112,2999,1141,2524,1158,2331,1175,2177,1194,2069,1205,2035,1215,2015,1231,2002,1249,1993,1288,1985,1289,1990,1251,1998,1234,2006,1219,2018,1209,2037,1200,2070,1181,2178,1163,2332,1147,2525,1118,2999,1094,3542,1061,4591,1048,5197"/>
+<area shape="rect" id="Node000059" href="$classFrequencyMeasurement.html" title=" " alt="" coords="1267,2029,1445,2055"/>
+<area shape="poly" id="edge304_Node000002_Node000059" title=" " alt="" coords="1043,5197,1056,4599,1089,3566,1113,3033,1142,2566,1158,2375,1176,2224,1195,2118,1205,2084,1215,2064,1238,2047,1265,2038,1267,2043,1241,2052,1219,2068,1210,2086,1200,2119,1181,2224,1164,2376,1147,2566,1119,3033,1095,3566,1062,4600,1048,5197"/>
+<area shape="rect" id="Node000060" href="$classFullWidthHalfMax.html" title=" " alt="" coords="1287,2079,1425,2104"/>
+<area shape="poly" id="edge305_Node000002_Node000060" title=" " alt="" coords="1043,5196,1057,4607,1090,3590,1114,3065,1143,2606,1159,2419,1176,2270,1195,2166,1205,2133,1215,2114,1230,2101,1248,2092,1286,2084,1287,2089,1250,2097,1233,2105,1219,2117,1210,2135,1200,2167,1182,2271,1164,2420,1148,2607,1119,3066,1096,3590,1062,4607,1048,5196"/>
+<area shape="rect" id="Node000061" href="$classGateFilter.html" title=" " alt="" coords="1313,2128,1399,2153"/>
+<area shape="poly" id="edge306_Node000002_Node000061" title=" " alt="" coords="1043,5197,1057,4616,1091,3616,1115,3099,1144,2648,1160,2464,1177,2317,1195,2215,1205,2182,1215,2163,1236,2147,1261,2137,1288,2133,1313,2133,1313,2138,1288,2138,1263,2142,1239,2151,1219,2166,1210,2184,1200,2216,1182,2318,1165,2464,1149,2648,1120,3100,1096,3616,1062,4616,1048,5197"/>
+<area shape="rect" id="Node000062" href="$classGlitchRemovalFilter.html" title="Removes glitches shorter than a specified length from a sparse digital waveform." alt="" coords="1281,2177,1431,2203"/>
+<area shape="poly" id="edge307_Node000002_Node000062" title=" " alt="" coords="1043,5197,1057,4625,1092,3641,1116,3133,1144,2689,1160,2508,1177,2364,1196,2263,1205,2231,1215,2212,1229,2200,1245,2192,1280,2183,1281,2188,1247,2197,1232,2205,1219,2216,1210,2233,1201,2264,1183,2365,1166,2508,1150,2689,1121,3133,1097,3641,1063,4625,1048,5197"/>
+<area shape="rect" id="Node000063" href="$classGroupDelayFilter.html" title=" " alt="" coords="1291,2227,1421,2252"/>
+<area shape="poly" id="edge308_Node000002_Node000063" title=" " alt="" coords="1043,5196,1058,4632,1092,3665,1117,3166,1145,2730,1161,2552,1178,2410,1196,2312,1205,2280,1215,2262,1231,2248,1250,2239,1290,2232,1291,2237,1252,2244,1234,2253,1219,2265,1210,2282,1201,2313,1183,2411,1166,2553,1150,2730,1122,3166,1098,3665,1063,4632,1048,5196"/>
+<area shape="rect" id="Node000064" href="$classHistogramFilter.html" title=" " alt="" coords="1295,2276,1417,2301"/>
+<area shape="poly" id="edge309_Node000002_Node000064" title=" " alt="" coords="1043,5197,1058,4642,1093,3691,1117,3200,1146,2771,1162,2596,1178,2457,1196,2360,1205,2329,1215,2311,1232,2297,1252,2288,1294,2281,1295,2286,1254,2293,1235,2302,1219,2314,1210,2331,1201,2361,1184,2458,1167,2597,1151,2772,1123,3200,1098,3691,1063,4642,1048,5197"/>
+<area shape="rect" id="Node000065" href="$classHorizontalBathtub.html" title=" " alt="" coords="1286,2325,1426,2351"/>
+<area shape="poly" id="edge310_Node000002_Node000065" title=" " alt="" coords="1043,5197,1059,4651,1094,3715,1118,3234,1147,2812,1162,2641,1179,2504,1196,2409,1206,2378,1215,2360,1230,2348,1248,2339,1285,2331,1286,2336,1249,2344,1233,2352,1219,2364,1211,2380,1202,2410,1184,2505,1168,2641,1152,2813,1124,3234,1099,3716,1064,4651,1048,5197"/>
+<area shape="rect" id="Node000066" href="$classHyperRAMDecoder.html" title=" " alt="" coords="1283,2375,1429,2400"/>
+<area shape="poly" id="edge311_Node000002_Node000066" title=" " alt="" coords="1043,5196,1059,4658,1095,3739,1119,3267,1147,2853,1163,2685,1179,2551,1197,2457,1206,2427,1215,2410,1230,2397,1246,2389,1283,2380,1284,2386,1248,2394,1233,2402,1219,2413,1211,2429,1202,2458,1185,2551,1168,2685,1153,2854,1124,3267,1100,3740,1064,4658,1048,5197"/>
+<area shape="rect" id="Node000067" href="$classIBISDriverFilter.html" title=" " alt="" coords="1297,2424,1415,2449"/>
+<area shape="poly" id="edge312_Node000002_Node000067" title=" " alt="" coords="1043,5197,1059,4668,1095,3766,1120,3301,1148,2895,1164,2729,1180,2597,1197,2506,1206,2476,1215,2459,1233,2445,1253,2436,1296,2429,1297,2434,1254,2441,1235,2449,1219,2462,1211,2478,1202,2507,1185,2598,1169,2730,1153,2895,1125,3301,1101,3766,1065,4668,1048,5197"/>
+<area shape="rect" id="Node000068" href="$classIBM8b10bDecoder.html" title=" " alt="" coords="1285,2473,1427,2499"/>
+<area shape="poly" id="edge313_Node000002_Node000068" title=" " alt="" coords="1043,5197,1060,4677,1096,3791,1121,3334,1149,2936,1164,2774,1180,2644,1197,2554,1206,2525,1215,2508,1230,2496,1247,2487,1284,2479,1286,2484,1249,2492,1233,2500,1219,2512,1211,2527,1202,2555,1186,2645,1170,2774,1154,2936,1126,3335,1101,3791,1065,4677,1048,5197"/>
+<area shape="rect" id="Node000069" href="$classIPv4Decoder.html" title=" " alt="" coords="1304,2523,1408,2548"/>
+<area shape="poly" id="edge314_Node000002_Node000069" title=" " alt="" coords="1042,5197,1042,4701,1047,4300,1058,3856,1078,3415,1092,3209,1109,3021,1130,2856,1154,2721,1182,2619,1198,2583,1215,2558,1234,2542,1257,2533,1304,2527,1304,2533,1258,2538,1237,2547,1219,2561,1203,2586,1187,2621,1159,2722,1135,2857,1114,3022,1097,3209,1083,3415,1063,3856,1052,4300,1047,4701,1047,5197"/>
+<area shape="rect" id="Node000070" href="$classIQDemuxFilter.html" title=" " alt="" coords="1299,2572,1413,2597"/>
+<area shape="poly" id="edge315_Node000002_Node000070" title=" " alt="" coords="1042,5197,1042,4711,1048,4317,1059,3881,1079,3448,1093,3246,1110,3062,1131,2900,1155,2767,1183,2667,1198,2632,1215,2607,1233,2593,1254,2583,1298,2577,1299,2582,1255,2589,1236,2597,1219,2610,1203,2635,1188,2669,1160,2768,1136,2901,1116,3062,1099,3247,1085,3448,1064,3881,1053,4317,1048,4711,1047,5197"/>
+<area shape="rect" id="Node000071" href="$classIQSquelchFilter.html" title=" " alt="" coords="1297,2621,1415,2647"/>
+<area shape="poly" id="edge316_Node000002_Node000071" title=" " alt="" coords="1042,5197,1043,4720,1049,4333,1061,3905,1081,3481,1095,3283,1112,3102,1132,2944,1156,2813,1183,2716,1199,2681,1215,2656,1233,2642,1253,2633,1296,2626,1297,2631,1254,2638,1235,2647,1219,2660,1203,2683,1188,2717,1161,2814,1137,2945,1117,3103,1100,3283,1086,3481,1066,3906,1054,4333,1048,4720,1047,5197"/>
+<area shape="rect" id="Node000072" href="$classISIMeasurement.html" title=" " alt="" coords="1292,2671,1420,2696"/>
+<area shape="poly" id="edge317_Node000002_Node000072" title=" " alt="" coords="1042,5197,1044,4727,1050,4348,1062,3929,1083,3513,1097,3319,1113,3142,1133,2987,1157,2859,1184,2764,1199,2730,1215,2706,1232,2692,1251,2683,1291,2676,1292,2681,1252,2688,1234,2697,1219,2709,1204,2732,1189,2766,1162,2860,1139,2988,1119,3143,1102,3320,1088,3513,1067,3929,1055,4348,1049,4727,1047,5197"/>
+<area shape="rect" id="Node000073" href="$classImportFilter.html" title="Helper base class for filters that import a waveform from a file." alt="" coords="1307,2720,1405,2745"/>
+<area shape="poly" id="edge318_Node000002_Node000073" title=" " alt="" coords="1042,5197,1044,4736,1051,4364,1063,3954,1084,3546,1098,3356,1115,3183,1135,3031,1158,2905,1184,2812,1199,2778,1215,2755,1235,2739,1258,2730,1307,2725,1307,2730,1260,2735,1238,2744,1219,2758,1204,2781,1189,2814,1163,2907,1140,3032,1120,3183,1103,3357,1089,3546,1069,3954,1056,4364,1050,4736,1047,5197"/>
+<area shape="rect" id="Node000081" href="$classInvertFilter.html" title=" " alt="" coords="1310,2769,1402,2795"/>
+<area shape="poly" id="edge326_Node000002_Node000081" title=" " alt="" coords="1042,5197,1045,4744,1052,4379,1065,3977,1086,3578,1100,3393,1116,3223,1136,3074,1159,2951,1185,2860,1200,2827,1215,2804,1236,2788,1260,2779,1309,2774,1310,2779,1261,2784,1238,2793,1219,2808,1204,2830,1190,2862,1164,2953,1141,3075,1122,3223,1105,3393,1091,3579,1070,3977,1057,4379,1050,4744,1047,5197"/>
+<area shape="rect" id="Node000082" href="$classJ1939AnalogDecoder.html" title=" " alt="" coords="1277,2819,1435,2844"/>
+<area shape="poly" id="edge327_Node000002_Node000082" title=" " alt="" coords="1042,5197,1046,4752,1053,4395,1066,4002,1087,3611,1101,3429,1118,3263,1137,3118,1160,2998,1186,2908,1200,2876,1215,2853,1243,2834,1277,2825,1278,2830,1246,2839,1219,2857,1205,2879,1191,2910,1165,2999,1143,3119,1123,3264,1107,3430,1093,3612,1072,4002,1058,4396,1051,4752,1047,5197"/>
+<area shape="rect" id="Node000083" href="$classJ1939BitmaskDecoder.html" title=" " alt="" coords="1273,2868,1439,2893"/>
+<area shape="poly" id="edge328_Node000002_Node000083" title=" " alt="" coords="1042,5197,1046,4760,1054,4411,1068,4026,1089,3644,1103,3466,1119,3303,1139,3161,1161,3044,1186,2956,1200,2925,1215,2903,1241,2884,1272,2875,1273,2880,1244,2889,1219,2907,1205,2928,1191,2958,1166,3045,1144,3162,1125,3304,1108,3466,1094,3644,1073,4026,1060,4411,1052,4760,1047,5197"/>
+<area shape="rect" id="Node000084" href="$classJitterFilter.html" title=" " alt="" coords="1313,2917,1399,2943"/>
+<area shape="poly" id="edge329_Node000002_Node000084" title=" " alt="" coords="1042,5197,1047,4769,1055,4427,1069,4050,1091,3677,1121,3344,1140,3205,1162,3090,1187,3004,1201,2974,1215,2952,1237,2936,1262,2927,1288,2923,1313,2922,1313,2928,1288,2928,1263,2932,1239,2941,1219,2956,1205,2976,1192,3006,1167,3091,1145,3206,1126,3345,1096,3677,1075,4051,1061,4427,1053,4769,1047,5197"/>
+<area shape="rect" id="Node000085" href="$classMagnitudeFilter.html" title=" " alt="" coords="1295,2967,1417,2992"/>
+<area shape="poly" id="edge330_Node000002_Node000085" title=" " alt="" coords="1042,5197,1048,4777,1056,4442,1071,4074,1092,3709,1122,3384,1141,3248,1163,3136,1187,3053,1201,3023,1215,3002,1232,2988,1252,2979,1294,2972,1295,2977,1254,2984,1235,2992,1219,3005,1206,3025,1192,3054,1168,3137,1147,3249,1128,3385,1098,3709,1076,4074,1062,4443,1053,4777,1047,5197"/>
+<area shape="rect" id="Node000086" href="$classMaximumFilter.html" title=" " alt="" coords="1296,3016,1416,3041"/>
+<area shape="poly" id="edge331_Node000002_Node000086" title=" " alt="" coords="1042,5197,1049,4786,1058,4459,1072,4099,1094,3742,1124,3425,1143,3292,1164,3182,1188,3101,1201,3072,1215,3051,1233,3037,1253,3028,1295,3021,1296,3026,1254,3033,1235,3042,1219,3054,1206,3074,1193,3103,1169,3184,1148,3293,1129,3425,1099,3743,1078,4099,1063,4459,1054,4786,1048,5197"/>
+<area shape="rect" id="Node000088" href="$classMinimumFilter.html" title=" " alt="" coords="1298,3065,1414,3091"/>
+<area shape="poly" id="edge333_Node000002_Node000088" title=" " alt="" coords="1042,5197,1049,4794,1059,4475,1074,4123,1095,3775,1125,3465,1144,3335,1165,3229,1188,3149,1201,3120,1215,3100,1233,3086,1254,3077,1297,3070,1298,3076,1255,3082,1236,3091,1219,3104,1206,3123,1193,3151,1170,3230,1149,3336,1131,3466,1101,3775,1079,4123,1064,4475,1055,4794,1048,5197"/>
+<area shape="rect" id="Node000089" href="$classMovingAverageFilter.html" title=" " alt="" coords="1278,3115,1434,3140"/>
+<area shape="poly" id="edge334_Node000002_Node000089" title=" " alt="" coords="1042,5196,1050,4801,1060,4489,1075,4146,1097,3807,1127,3505,1145,3379,1166,3275,1189,3197,1202,3169,1215,3149,1244,3130,1277,3121,1278,3126,1246,3135,1219,3153,1206,3172,1194,3199,1171,3276,1150,3380,1132,3506,1102,3807,1080,4147,1065,4490,1055,4802,1048,5197"/>
+<area shape="rect" id="Node000090" href="$classMultiplyFilter.html" title=" " alt="" coords="1303,3164,1409,3189"/>
+<area shape="poly" id="edge335_Node000002_Node000090" title=" " alt="" coords="1042,5197,1051,4811,1061,4507,1077,4172,1099,3840,1128,3546,1146,3423,1167,3321,1190,3245,1202,3218,1215,3199,1234,3184,1256,3175,1302,3169,1303,3174,1257,3180,1237,3189,1219,3202,1207,3221,1195,3247,1172,3322,1152,3423,1134,3546,1104,3841,1082,4172,1066,4507,1056,4812,1048,5197"/>
+<area shape="rect" id="Node000091" href="$classNCOFilter.html" title=" " alt="" coords="1315,3213,1397,3239"/>
+<area shape="poly" id="edge336_Node000002_Node000091" title=" " alt="" coords="1042,5196,1051,4818,1062,4521,1078,4195,1100,3872,1130,3586,1148,3466,1168,3367,1190,3293,1202,3267,1215,3248,1237,3232,1262,3223,1289,3219,1314,3218,1314,3224,1290,3224,1264,3228,1240,3237,1219,3252,1207,3270,1195,3295,1173,3368,1153,3467,1135,3586,1106,3873,1083,4195,1067,4521,1057,4818,1048,5196"/>
+<area shape="rect" id="Node000092" href="$classNoiseFilter.html" title=" " alt="" coords="1311,3263,1401,3288"/>
+<area shape="poly" id="edge337_Node000002_Node000092" title=" " alt="" coords="1042,5197,1052,4828,1063,4538,1080,4221,1102,3906,1131,3626,1149,3510,1169,3413,1191,3341,1203,3316,1215,3297,1236,3282,1260,3272,1310,3268,1311,3273,1262,3278,1239,3286,1219,3301,1207,3318,1196,3343,1174,3415,1154,3511,1137,3627,1107,3906,1085,4221,1069,4539,1057,4828,1048,5197"/>
+<area shape="rect" id="Node000093" href="$classOneWireDecoder.html" title=" " alt="" coords="1290,3312,1422,3337"/>
+<area shape="poly" id="edge338_Node000002_Node000093" title=" " alt="" coords="1043,5197,1053,4837,1064,4554,1081,4245,1104,3939,1133,3667,1150,3553,1170,3459,1191,3390,1203,3365,1215,3347,1231,3334,1250,3325,1289,3317,1290,3323,1251,3330,1234,3338,1219,3350,1208,3367,1196,3391,1175,3461,1156,3554,1138,3667,1109,3939,1086,4245,1070,4555,1058,4837,1048,5197"/>
+<area shape="rect" id="Node000094" href="$classOvershootMeasurement.html" title=" " alt="" coords="1267,3361,1445,3387"/>
+<area shape="poly" id="edge339_Node000002_Node000094" title=" " alt="" coords="1043,5196,1054,4844,1066,4569,1083,4268,1105,3971,1135,3707,1152,3596,1171,3506,1192,3438,1203,3413,1215,3396,1239,3379,1266,3370,1267,3375,1241,3384,1219,3400,1208,3416,1197,3440,1176,3507,1157,3597,1140,3707,1111,3971,1088,4268,1071,4569,1059,4844,1048,5197"/>
+<area shape="rect" id="Node000095" href="$classPAM4DemodulatorFilter.html" title=" " alt="" coords="1268,3411,1444,3436"/>
+<area shape="poly" id="edge340_Node000002_Node000095" title=" " alt="" coords="1043,5197,1054,4854,1067,4587,1084,4294,1107,4005,1136,3748,1153,3640,1172,3552,1192,3486,1215,3446,1239,3428,1267,3419,1269,3424,1242,3433,1219,3449,1197,3488,1177,3553,1158,3641,1141,3748,1112,4005,1089,4294,1072,4587,1060,4854,1048,5197"/>
+<area shape="rect" id="Node000097" href="$classPCIe128b130bDecoder.html" title=" " alt="" coords="1271,3460,1441,3485"/>
+<area shape="poly" id="edge342_Node000002_Node000097" title=" " alt="" coords="1043,5197,1055,4861,1068,4601,1086,4317,1109,4037,1138,3788,1154,3684,1173,3598,1193,3534,1215,3495,1241,3477,1270,3468,1272,3473,1243,3482,1219,3498,1198,3536,1178,3599,1160,3685,1143,3788,1114,4037,1091,4318,1073,4602,1060,4862,1048,5197"/>
+<area shape="rect" id="Node000098" href="$classPCIeGen2LogicalDecoder.html" title="Decoder for PCIe gen 1/2 logical sub&#45;block." alt="" coords="1263,3509,1449,3535"/>
+<area shape="poly" id="edge343_Node000002_Node000098" title=" " alt="" coords="1043,5197,1056,4870,1069,4618,1087,4342,1110,4070,1139,3828,1156,3727,1174,3644,1194,3582,1215,3544,1237,3528,1262,3519,1264,3524,1240,3533,1219,3548,1199,3584,1179,3646,1161,3728,1144,3829,1116,4070,1092,4342,1074,4618,1061,4871,1048,5197"/>
+<area shape="rect" id="Node000100" href="$classPRBSCheckerFilter.html" title=" " alt="" coords="1286,3559,1426,3584"/>
+<area shape="poly" id="edge345_Node000002_Node000100" title=" " alt="" coords="1043,5197,1057,4879,1089,4367,1112,4103,1141,3869,1157,3771,1175,3690,1194,3630,1215,3594,1230,3581,1248,3573,1285,3565,1286,3570,1250,3578,1233,3586,1219,3597,1199,3632,1180,3692,1162,3772,1146,3869,1117,4103,1094,4367,1062,4879,1048,5197"/>
+<area shape="rect" id="Node000101" href="$classPRBSGeneratorFilter.html" title=" " alt="" coords="1279,3608,1433,3633"/>
+<area shape="poly" id="edge346_Node000002_Node000101" title=" " alt="" coords="1043,5196,1058,4887,1090,4390,1114,4135,1142,3909,1158,3814,1176,3736,1195,3678,1215,3643,1244,3623,1278,3615,1280,3620,1247,3628,1219,3646,1200,3681,1181,3738,1164,3815,1147,3910,1119,4136,1095,4391,1063,4887,1048,5197"/>
+<area shape="rect" id="Node000102" href="$classPacketDecoder.html" title=" " alt="" coords="1297,3657,1415,3683"/>
+<area shape="poly" id="edge347_Node000002_Node000102" title=" " alt="" coords="1043,5197,1058,4896,1092,4415,1115,4168,1144,3949,1160,3858,1177,3783,1195,3727,1215,3692,1233,3678,1253,3670,1296,3663,1297,3668,1255,3675,1236,3683,1219,3696,1200,3729,1182,3784,1165,3859,1149,3950,1121,4169,1097,4416,1064,4896,1048,5197"/>
+<area shape="rect" id="Node000147" href="$classParallelBus.html" title=" " alt="" coords="1309,3707,1403,3732"/>
+<area shape="poly" id="edge392_Node000002_Node000147" title=" " alt="" coords="1043,5196,1059,4904,1093,4439,1117,4201,1145,3990,1161,3901,1178,3829,1196,3775,1215,3742,1236,3726,1260,3717,1308,3712,1309,3717,1261,3722,1238,3731,1219,3745,1201,3777,1183,3830,1166,3903,1150,3990,1122,4201,1099,4440,1064,4904,1049,5197"/>
+<area shape="rect" id="Node000330" href="$classPeriodMeasurement.html" title=" " alt="" coords="1279,3756,1433,3781"/>
+<area shape="poly" id="edge395_Node000002_Node000330" title=" " alt="" coords="1043,5197,1060,4913,1095,4464,1119,4234,1147,4030,1162,3945,1179,3875,1196,3823,1215,3791,1245,3771,1279,3763,1280,3768,1247,3776,1219,3795,1201,3825,1184,3877,1167,3946,1152,4031,1124,4235,1100,4465,1065,4914,1049,5197"/>
+<area shape="rect" id="Node000331" href="$classPhaseMeasurement.html" title=" " alt="" coords="1281,3805,1431,3831"/>
+<area shape="poly" id="edge396_Node000002_Node000331" title=" " alt="" coords="1043,5196,1061,4922,1096,4489,1120,4267,1148,4071,1164,3989,1180,3921,1197,3871,1215,3840,1229,3829,1245,3820,1280,3812,1281,3817,1247,3825,1232,3833,1219,3844,1202,3873,1185,3923,1169,3990,1154,4071,1126,4268,1102,4489,1066,4922,1049,5197"/>
+<area shape="rect" id="Node000332" href="$classPhaseNonlinearityFilter.html" title=" " alt="" coords="1269,3855,1443,3880"/>
+<area shape="poly" id="edge397_Node000002_Node000332" title=" " alt="" coords="1044,5197,1062,4931,1098,4514,1122,4300,1150,4111,1181,3968,1198,3919,1215,3890,1240,3872,1268,3863,1270,3868,1242,3877,1219,3893,1202,3921,1186,3969,1155,4112,1127,4301,1103,4514,1067,4932,1049,5197"/>
+<area shape="rect" id="Node000333" href="$classPkPkMeasurement.html" title=" " alt="" coords="1284,3904,1428,3929"/>
+<area shape="poly" id="edge398_Node000002_Node000333" title=" " alt="" coords="1042,5197,1042,4957,1048,4776,1059,4577,1080,4377,1094,4282,1111,4192,1131,4111,1155,4041,1183,3983,1215,3939,1230,3927,1247,3919,1283,3910,1285,3916,1249,3924,1233,3931,1219,3943,1188,3985,1160,4043,1137,4113,1116,4194,1099,4282,1085,4377,1065,4577,1053,4776,1047,4957,1047,5197"/>
+<area shape="rect" id="Node000334" href="$classPointSampleFilter.html" title=" " alt="" coords="1288,3953,1424,3979"/>
+<area shape="poly" id="edge399_Node000002_Node000334" title=" " alt="" coords="1042,5197,1044,4965,1050,4791,1062,4600,1083,4408,1114,4231,1134,4154,1157,4086,1184,4030,1215,3988,1231,3976,1249,3967,1287,3959,1288,3965,1251,3972,1234,3980,1219,3992,1189,4033,1162,4088,1139,4155,1119,4232,1088,4409,1068,4601,1055,4792,1049,4966,1047,5197"/>
+<area shape="rect" id="Node000335" href="$classPulseWidthMeasurement.html" title=" " alt="" coords="1263,4003,1449,4028"/>
+<area shape="poly" id="edge400_Node000002_Node000335" title=" " alt="" coords="1042,5197,1045,4973,1052,4806,1065,4623,1086,4439,1117,4270,1137,4196,1159,4131,1186,4078,1215,4037,1237,4022,1262,4013,1264,4018,1240,4026,1219,4041,1190,4080,1164,4133,1142,4197,1122,4271,1092,4440,1071,4623,1058,4806,1050,4973,1047,5197"/>
+<area shape="rect" id="Node000336" href="$classQSGMIIDecoder.html" title="Decoder for QSGMII." alt="" coords="1294,4052,1418,4077"/>
+<area shape="poly" id="edge401_Node000002_Node000336" title=" " alt="" coords="1042,5197,1047,4981,1055,4821,1068,4646,1090,4470,1120,4309,1139,4238,1161,4176,1187,4125,1215,4087,1232,4074,1252,4065,1294,4058,1294,4063,1254,4070,1235,4078,1219,4091,1191,4128,1166,4178,1144,4239,1125,4310,1095,4471,1074,4646,1060,4822,1052,4981,1047,5197"/>
+<area shape="rect" id="Node000337" href="$classQuadratureDecoder.html" title="Decoder for quadrature encoder signals." alt="" coords="1281,4101,1431,4127"/>
+<area shape="poly" id="edge402_Node000002_Node000337" title=" " alt="" coords="1042,5197,1048,4990,1057,4837,1071,4669,1093,4502,1123,4348,1142,4280,1163,4221,1188,4173,1216,4136,1246,4117,1281,4108,1282,4113,1248,4122,1219,4140,1192,4175,1168,4223,1147,4282,1128,4349,1098,4503,1077,4670,1062,4837,1054,4990,1048,5197"/>
+<area shape="rect" id="Node000338" href="$classRISFilter.html" title=" " alt="" coords="1319,4151,1393,4176"/>
+<area shape="poly" id="edge403_Node000002_Node000338" title=" " alt="" coords="1042,5197,1050,4998,1059,4852,1074,4692,1096,4533,1126,4386,1144,4322,1165,4266,1189,4220,1215,4185,1239,4169,1265,4160,1293,4157,1319,4156,1319,4162,1293,4162,1267,4165,1241,4174,1219,4189,1193,4223,1170,4268,1150,4324,1131,4388,1102,4534,1080,4693,1065,4852,1055,4998,1048,5197"/>
+<area shape="rect" id="Node000339" href="$classRMSMeasurement.html" title=" " alt="" coords="1285,4200,1427,4225"/>
+<area shape="poly" id="edge404_Node000002_Node000339" title=" " alt="" coords="1043,5197,1052,5006,1062,4867,1078,4716,1100,4564,1129,4425,1147,4364,1167,4311,1190,4268,1215,4235,1231,4223,1248,4215,1284,4207,1286,4212,1250,4220,1233,4228,1219,4239,1195,4270,1172,4314,1152,4366,1134,4427,1105,4565,1083,4716,1067,4868,1057,5006,1048,5197"/>
+<area shape="rect" id="Node000340" href="$classRiseMeasurement.html" title=" " alt="" coords="1286,4249,1426,4275"/>
+<area shape="poly" id="edge405_Node000002_Node000340" title=" " alt="" coords="1043,5197,1053,5015,1064,4882,1081,4739,1103,4596,1132,4464,1150,4407,1169,4356,1191,4315,1215,4284,1231,4272,1248,4264,1285,4256,1286,4261,1250,4269,1234,4277,1219,4288,1196,4318,1174,4359,1155,4408,1137,4466,1108,4596,1086,4740,1070,4883,1059,5015,1048,5197"/>
+<area shape="rect" id="Node000341" href="$classRjBUjFilter.html" title=" " alt="" coords="1311,4299,1401,4324"/>
+<area shape="poly" id="edge406_Node000002_Node000341" title=" " alt="" coords="1043,5197,1055,5023,1067,4898,1084,4762,1106,4627,1135,4503,1152,4449,1171,4402,1192,4363,1216,4333,1237,4318,1261,4310,1310,4304,1311,4310,1262,4315,1239,4323,1219,4337,1197,4366,1176,4404,1157,4451,1140,4505,1112,4628,1089,4763,1072,4899,1060,5024,1049,5197"/>
+<area shape="rect" id="Node000342" href="$classSDRAMDecoderBase.html" title=" " alt="" coords="1278,4348,1434,4373"/>
+<area shape="poly" id="edge407_Node000002_Node000342" title=" " alt="" coords="1044,5197,1057,5031,1069,4913,1087,4786,1110,4658,1138,4542,1173,4447,1193,4410,1216,4383,1244,4364,1277,4356,1278,4361,1246,4369,1219,4387,1198,4413,1178,4449,1143,4544,1115,4659,1092,4786,1075,4914,1062,5032,1049,5197"/>
+<area shape="rect" id="Node000345" href="$classSNRFilter.html" title=" " alt="" coords="1315,4397,1397,4423"/>
+<area shape="poly" id="edge410_Node000002_Node000345" title=" " alt="" coords="1044,5197,1059,5041,1090,4810,1113,4690,1141,4581,1175,4492,1194,4458,1216,4432,1238,4417,1264,4408,1315,4403,1315,4409,1265,4413,1240,4421,1219,4436,1199,4461,1180,4494,1146,4583,1118,4691,1095,4811,1064,5041,1049,5197"/>
+<area shape="rect" id="Node000346" href="$classSPIDecoder.html" title=" " alt="" coords="1308,4447,1404,4472"/>
+<area shape="poly" id="edge411_Node000002_Node000346" title=" " alt="" coords="1044,5197,1061,5049,1093,4833,1117,4722,1144,4620,1177,4537,1196,4505,1216,4481,1236,4467,1260,4458,1307,4453,1308,4458,1261,4464,1239,4472,1219,4485,1200,4508,1182,4539,1149,4622,1122,4723,1099,4834,1066,5049,1050,5197"/>
+<area shape="rect" id="Node000348" href="$classSParameterSourceFilter.html" title="A filter that outputs a set of S&#45;parameters." alt="" coords="1269,4496,1443,4521"/>
+<area shape="poly" id="edge413_Node000002_Node000348" title=" " alt="" coords="1045,5197,1062,5058,1097,4857,1120,4753,1147,4659,1179,4582,1197,4553,1216,4531,1240,4515,1268,4506,1269,4511,1242,4520,1219,4535,1201,4556,1184,4585,1152,4661,1125,4755,1102,4858,1068,5059,1050,5198"/>
+<area shape="rect" id="Node000354" href="$classSWDDecoder.html" title=" " alt="" coords="1303,4545,1409,4571"/>
+<area shape="poly" id="edge419_Node000002_Node000354" title=" " alt="" coords="1045,5197,1065,5066,1100,4880,1123,4785,1151,4698,1181,4627,1198,4600,1216,4580,1235,4567,1257,4558,1302,4552,1303,4557,1258,4563,1237,4571,1219,4584,1202,4604,1186,4630,1156,4700,1129,4786,1105,4881,1070,5067,1051,5197"/>
+<area shape="rect" id="Node000355" href="$classSawtoothGeneratorFilter.html" title=" " alt="" coords="1266,4595,1446,4620"/>
+<area shape="poly" id="edge420_Node000002_Node000355" title=" " alt="" coords="1046,5197,1067,5075,1103,4904,1127,4817,1154,4737,1183,4673,1199,4648,1216,4629,1239,4614,1265,4606,1267,4611,1241,4619,1219,4633,1203,4651,1188,4675,1159,4739,1132,4818,1109,4905,1072,5076,1051,5198"/>
+<area shape="rect" id="Node000356" href="$classScalarPulseDelayFilter.html" title=" " alt="" coords="1273,4644,1439,4669"/>
+<area shape="poly" id="edge421_Node000002_Node000356" title=" " alt="" coords="1042,5197,1046,5098,1054,5031,1068,4957,1090,4881,1120,4807,1162,4738,1187,4707,1216,4679,1242,4663,1272,4654,1273,4659,1244,4667,1219,4683,1191,4710,1166,4741,1125,4809,1095,4883,1073,4959,1059,5032,1051,5099,1047,5197"/>
+<area shape="rect" id="Node000358" href="$classSetupHoldMeasurement.html" title="Setup / hold measurement." alt="" coords="1267,4693,1445,4719"/>
+<area shape="poly" id="edge423_Node000002_Node000358" title=" " alt="" coords="1043,5197,1050,5106,1059,5045,1074,4979,1096,4910,1126,4843,1166,4781,1189,4753,1216,4728,1239,4713,1266,4705,1267,4710,1242,4718,1219,4732,1193,4757,1170,4784,1131,4845,1101,4912,1080,4980,1065,5046,1055,5107,1048,5197"/>
+<area shape="rect" id="Node000359" href="$classSpectrogramFilter.html" title="Filter for displaying spectrogram of a real&#45;valued signal." alt="" coords="1287,4743,1425,4768"/>
+<area shape="poly" id="edge424_Node000002_Node000359" title=" " alt="" coords="1044,5197,1054,5114,1065,5059,1081,5000,1103,4939,1132,4879,1169,4824,1216,4777,1249,4759,1287,4751,1288,4756,1251,4764,1219,4781,1174,4828,1137,4882,1108,4941,1086,5001,1070,5061,1059,5115,1049,5198"/>
+<area shape="rect" id="Node000361" href="$classSquelchFilter.html" title=" " alt="" coords="1303,4792,1409,4817"/>
+<area shape="poly" id="edge426_Node000002_Node000361" title=" " alt="" coords="1045,5197,1058,5122,1088,5021,1110,4968,1138,4915,1173,4867,1216,4827,1236,4814,1258,4806,1303,4800,1303,4805,1259,4812,1238,4819,1219,4831,1177,4871,1143,4918,1115,4970,1093,5023,1064,5124,1050,5198"/>
+<area shape="rect" id="Node000362" href="$classStepGeneratorFilter.html" title=" " alt="" coords="1282,4841,1430,4867"/>
+<area shape="poly" id="edge427_Node000002_Node000362" title=" " alt="" coords="1047,5196,1063,5130,1095,5043,1117,4996,1144,4952,1177,4911,1216,4876,1247,4860,1281,4852,1283,4857,1249,4865,1219,4880,1181,4914,1149,4955,1122,4999,1100,5045,1068,5132,1052,5198"/>
+<area shape="rect" id="Node000363" href="$classSubtractFilter.html" title=" " alt="" coords="1302,4891,1410,4916"/>
+<area shape="poly" id="edge428_Node000002_Node000363" title=" " alt="" coords="1049,5197,1068,5139,1102,5065,1124,5026,1150,4988,1181,4954,1216,4925,1236,4914,1258,4907,1301,4900,1302,4905,1259,4912,1238,4919,1219,4930,1185,4958,1155,4992,1129,5029,1106,5067,1073,5141,1054,5198"/>
+<area shape="rect" id="Node000364" href="$classTCPDecoder.html" title=" " alt="" coords="1305,4940,1407,4965"/>
+<area shape="poly" id="edge429_Node000002_Node000364" title=" " alt="" coords="1052,5197,1074,5148,1109,5087,1156,5025,1185,4998,1216,4974,1237,4964,1260,4956,1305,4950,1305,4955,1261,4962,1239,4969,1219,4979,1188,5002,1160,5029,1114,5090,1079,5151,1057,5199"/>
+<area shape="rect" id="Node000365" href="$classTDRFilter.html" title=" " alt="" coords="1315,4989,1397,5015"/>
+<area shape="poly" id="edge430_Node000002_Node000365" title=" " alt="" coords="1056,5197,1081,5158,1117,5110,1163,5063,1216,5024,1240,5013,1266,5006,1315,4999,1315,5005,1267,5011,1242,5018,1219,5028,1166,5067,1121,5114,1086,5161,1061,5200"/>
+<area shape="rect" id="Node000366" href="$classTIEMeasurement.html" title=" " alt="" coords="1290,5039,1422,5064"/>
+<area shape="poly" id="edge431_Node000002_Node000366" title=" " alt="" coords="1062,5198,1126,5135,1169,5101,1216,5073,1252,5060,1289,5053,1290,5058,1254,5065,1218,5078,1172,5105,1129,5139,1066,5202"/>
+<area shape="rect" id="Node000367" href="$classTMDSDecoder.html" title=" " alt="" coords="1299,5088,1413,5113"/>
+<area shape="poly" id="edge432_Node000002_Node000367" title=" " alt="" coords="1072,5200,1136,5160,1176,5139,1216,5122,1257,5111,1298,5103,1299,5109,1259,5116,1218,5127,1178,5144,1139,5165,1075,5205"/>
+<area shape="rect" id="Node000368" href="$classTachometerFilter.html" title=" " alt="" coords="1291,5137,1421,5163"/>
+<area shape="poly" id="edge433_Node000002_Node000368" title=" " alt="" coords="1083,5208,1217,5171,1290,5157,1291,5162,1218,5177,1084,5213"/>
+<area shape="rect" id="Node000369" href="$classTappedDelayLineFilter.html" title="Performs an 8&#45;tap FIR filter with a multi&#45;sample delay between taps." alt="" coords="1273,5187,1439,5212"/>
+<area shape="poly" id="edge434_Node000002_Node000369" title=" " alt="" coords="1084,5218,1273,5203,1273,5208,1085,5223"/>
+<area shape="rect" id="Node000370" href="$classThermalDiodeFilter.html" title=" " alt="" coords="1283,5236,1429,5261"/>
+<area shape="poly" id="edge435_Node000002_Node000370" title=" " alt="" coords="1085,5224,1282,5240,1282,5245,1085,5229"/>
+<area shape="rect" id="Node000371" href="$classThresholdFilter.html" title=" " alt="" coords="1297,5285,1415,5311"/>
+<area shape="poly" id="edge436_Node000002_Node000371" title=" " alt="" coords="1084,5233,1218,5270,1297,5286,1296,5291,1217,5275,1083,5238"/>
+<area shape="rect" id="Node000372" href="$classTimeOutsideLevelMeasurement.html" title=" " alt="" coords="1241,5335,1471,5360"/>
+<area shape="poly" id="edge437_Node000002_Node000372" title=" " alt="" coords="1075,5242,1139,5282,1178,5302,1218,5319,1263,5332,1261,5337,1216,5325,1176,5307,1136,5286,1072,5246"/>
+<area shape="rect" id="Node000373" href="$classToneGeneratorFilter.html" title=" " alt="" coords="1281,5384,1431,5409"/>
+<area shape="poly" id="edge438_Node000002_Node000373" title=" " alt="" coords="1066,5244,1129,5308,1172,5341,1218,5369,1249,5380,1282,5388,1281,5393,1248,5386,1216,5374,1169,5346,1126,5312,1062,5248"/>
+<area shape="rect" id="Node000374" href="$classTopMeasurement.html" title=" " alt="" coords="1289,5433,1423,5459"/>
+<area shape="poly" id="edge439_Node000002_Node000374" title=" " alt="" coords="1061,5246,1086,5285,1121,5333,1166,5380,1219,5418,1253,5432,1289,5440,1288,5445,1251,5438,1216,5423,1163,5384,1117,5336,1081,5288,1056,5249"/>
+<area shape="rect" id="Node000375" href="$classTwoPortShuntThroughFilter.html" title=" " alt="" coords="1259,5483,1453,5508"/>
+<area shape="poly" id="edge440_Node000002_Node000375" title=" " alt="" coords="1057,5248,1079,5296,1114,5356,1161,5418,1188,5445,1219,5468,1260,5485,1258,5490,1216,5472,1185,5449,1157,5421,1109,5359,1075,5298,1052,5250"/>
+<area shape="rect" id="Node000376" href="$classUSB2ActivityDecoder.html" title=" " alt="" coords="1275,5532,1437,5557"/>
+<area shape="poly" id="edge441_Node000002_Node000376" title=" " alt="" coords="1054,5248,1074,5305,1107,5379,1129,5418,1155,5455,1185,5488,1219,5517,1246,5531,1276,5539,1275,5544,1244,5536,1216,5522,1181,5492,1151,5458,1124,5420,1102,5381,1069,5307,1049,5250"/>
+<area shape="rect" id="Node000377" href="$classUSB2PCSDecoder.html" title=" " alt="" coords="1288,5581,1424,5607"/>
+<area shape="poly" id="edge442_Node000002_Node000377" title=" " alt="" coords="1052,5249,1069,5315,1100,5402,1122,5447,1149,5492,1181,5532,1219,5566,1252,5583,1288,5591,1287,5596,1250,5588,1216,5571,1177,5536,1145,5495,1117,5450,1095,5404,1063,5316,1047,5250"/>
+<area shape="rect" id="Node000378" href="$classUSB2PMADecoder.html" title=" " alt="" coords="1286,5631,1426,5656"/>
+<area shape="poly" id="edge443_Node000002_Node000378" title=" " alt="" coords="1050,5249,1064,5323,1093,5424,1115,5477,1143,5528,1178,5576,1219,5616,1251,5633,1286,5641,1285,5646,1249,5638,1216,5620,1173,5579,1139,5531,1110,5479,1088,5426,1059,5325,1045,5250"/>
+<area shape="rect" id="Node000379" href="$classUartClockRecoveryFilter.html" title=" " alt="" coords="1267,5680,1445,5705"/>
+<area shape="poly" id="edge444_Node000002_Node000379" title=" " alt="" coords="1049,5249,1060,5331,1070,5386,1086,5445,1108,5506,1137,5565,1174,5619,1219,5665,1242,5679,1267,5687,1266,5692,1239,5684,1216,5669,1170,5622,1133,5567,1103,5508,1081,5446,1065,5387,1054,5332,1044,5250"/>
+<area shape="rect" id="Node000380" href="$classUndershootMeasurement.html" title=" " alt="" coords="1263,5729,1449,5755"/>
+<area shape="poly" id="edge445_Node000002_Node000380" title=" " alt="" coords="1048,5249,1055,5339,1065,5400,1080,5466,1102,5534,1131,5601,1170,5662,1219,5715,1240,5728,1263,5736,1262,5741,1237,5733,1216,5719,1166,5665,1127,5603,1097,5536,1075,5468,1060,5401,1050,5340,1043,5250"/>
+<area shape="rect" id="Node000381" href="$classUnwrappedPhaseFilter.html" title=" " alt="" coords="1273,5779,1439,5804"/>
+<area shape="poly" id="edge446_Node000002_Node000381" title=" " alt="" coords="1047,5250,1052,5348,1060,5414,1074,5488,1095,5563,1125,5637,1166,5706,1191,5736,1219,5764,1244,5779,1273,5788,1272,5793,1242,5784,1216,5768,1187,5740,1162,5709,1121,5640,1090,5565,1068,5489,1054,5415,1046,5348,1042,5250"/>
+<area shape="rect" id="Node000382" href="$classUpsampleFilter.html" title=" " alt="" coords="1296,5828,1416,5853"/>
+<area shape="poly" id="edge447_Node000002_Node000382" title=" " alt="" coords="1051,5249,1072,5370,1109,5541,1132,5628,1159,5707,1188,5771,1203,5795,1219,5813,1236,5825,1255,5833,1296,5841,1295,5846,1254,5838,1233,5830,1216,5817,1199,5799,1183,5774,1154,5709,1127,5630,1104,5542,1067,5371,1046,5250"/>
+<area shape="rect" id="Node000383" href="$classVectorFrequencyFilter.html" title=" " alt="" coords="1275,5877,1437,5903"/>
+<area shape="poly" id="edge448_Node000002_Node000383" title=" " alt="" coords="1051,5249,1070,5379,1105,5565,1129,5660,1156,5746,1186,5817,1202,5843,1219,5863,1245,5879,1275,5888,1274,5893,1243,5884,1216,5867,1198,5846,1181,5819,1151,5748,1124,5661,1100,5566,1065,5380,1045,5250"/>
+<area shape="rect" id="Node000384" href="$classVectorPhaseFilter.html" title=" " alt="" coords="1289,5927,1423,5952"/>
+<area shape="poly" id="edge449_Node000002_Node000384" title=" " alt="" coords="1050,5249,1068,5388,1102,5589,1125,5692,1153,5785,1184,5862,1201,5891,1219,5912,1234,5923,1251,5931,1289,5939,1288,5944,1250,5936,1232,5928,1216,5916,1197,5894,1179,5864,1148,5787,1120,5693,1097,5590,1063,5389,1045,5250"/>
+<area shape="rect" id="Node000385" href="$classVerticalBathtub.html" title=" " alt="" coords="1295,5976,1417,6001"/>
+<area shape="poly" id="edge450_Node000002_Node000385" title=" " alt="" coords="1050,5250,1066,5398,1099,5613,1122,5724,1150,5825,1182,5907,1200,5938,1219,5961,1236,5973,1254,5982,1295,5989,1294,5994,1253,5987,1233,5978,1216,5965,1196,5941,1177,5909,1145,5827,1117,5725,1094,5614,1061,5398,1044,5250"/>
+<area shape="rect" id="Node000386" href="$classWaterfall.html" title=" " alt="" coords="1315,6025,1397,6051"/>
+<area shape="poly" id="edge451_Node000002_Node000386" title=" " alt="" coords="1049,5249,1064,5405,1096,5636,1118,5755,1147,5864,1180,5952,1199,5986,1219,6011,1240,6025,1265,6034,1315,6039,1314,6044,1263,6039,1238,6030,1216,6015,1195,5989,1175,5955,1141,5865,1113,5756,1090,5637,1059,5406,1044,5250"/>
+<area shape="rect" id="Node000387" href="$classWaveformGenerationFilter.html" title=" " alt="" coords="1259,6075,1453,6100"/>
+<area shape="poly" id="edge452_Node000002_Node000387" title=" " alt="" coords="1049,5250,1062,5415,1075,5532,1092,5660,1115,5787,1144,5903,1178,5998,1198,6033,1219,6060,1238,6073,1260,6082,1258,6087,1235,6078,1215,6064,1193,6036,1173,6000,1139,5904,1110,5788,1087,5661,1070,5533,1057,5415,1044,5250"/>
+<area shape="rect" id="Node000390" href="$classWindowFilter.html" title=" " alt="" coords="1303,6124,1409,6149"/>
+<area shape="poly" id="edge455_Node000002_Node000390" title=" " alt="" coords="1049,5249,1060,5423,1072,5548,1089,5683,1112,5818,1141,5942,1158,5996,1176,6043,1197,6081,1219,6109,1237,6123,1258,6131,1303,6138,1302,6143,1257,6136,1235,6127,1215,6113,1192,6084,1171,6045,1153,5998,1135,5943,1107,5819,1084,5684,1067,5548,1055,5423,1043,5250"/>
+<area shape="rect" id="Node000391" href="$classWindowedAutocorrelationFilter.html" title=" " alt="" coords="1245,6173,1467,6199"/>
+<area shape="poly" id="edge456_Node000002_Node000391" title=" " alt="" coords="1048,5250,1059,5432,1070,5564,1086,5708,1108,5851,1137,5982,1155,6039,1174,6089,1196,6130,1219,6160,1246,6177,1243,6182,1216,6164,1191,6133,1169,6091,1150,6041,1132,5984,1103,5852,1081,5708,1064,5565,1053,5432,1043,5250"/>
+<area shape="rect" id="Node000392" href="$classXYSweepFilter.html" title=" " alt="" coords="1299,6223,1413,6248"/>
+<area shape="poly" id="edge457_Node000002_Node000392" title=" " alt="" coords="1048,5250,1057,5441,1067,5580,1083,5731,1105,5883,1134,6021,1152,6082,1172,6134,1194,6177,1219,6209,1236,6222,1256,6230,1299,6237,1298,6242,1254,6236,1234,6227,1215,6213,1190,6180,1167,6137,1147,6083,1129,6022,1100,5883,1077,5732,1062,5580,1052,5441,1043,5250"/>
+<area shape="rect" id="Node000027" href="$classChannelEmulationFilter.html" title=" " alt="" coords="1567,7407,1741,7432"/>
+<area shape="poly" id="edge275_Node000026_Node000027" title=" " alt="" coords="1429,7417,1567,7417,1567,7422,1429,7422"/>
+<area shape="rect" id="Node000057" href="$classEnhancedResolutionFilter.html" title=" " alt="" coords="1561,8663,1747,8688"/>
+<area shape="poly" id="edge302_Node000056_Node000057" title=" " alt="" coords="1407,8693,1560,8680,1561,8685,1407,8698"/>
+<area shape="rect" id="Node000074" href="$classBINImportFilter.html" title=" " alt="" coords="1594,2621,1714,2647"/>
+<area shape="poly" id="edge319_Node000073_Node000074" title=" " alt="" coords="1418,2727,1456,2719,1493,2705,1508,2694,1517,2681,1526,2668,1541,2656,1567,2645,1593,2638,1595,2643,1568,2650,1544,2660,1530,2672,1521,2684,1512,2697,1496,2710,1458,2724,1419,2732"/>
+<area shape="rect" id="Node000075" href="$classCSVImportFilter.html" title=" " alt="" coords="1593,2671,1715,2696"/>
+<area shape="poly" id="edge320_Node000073_Node000075" title=" " alt="" coords="1418,2720,1592,2691,1593,2696,1419,2725"/>
+<area shape="rect" id="Node000076" href="$classComplexImportFilter.html" title=" " alt="" coords="1577,2720,1731,2745"/>
+<area shape="poly" id="edge321_Node000073_Node000076" title=" " alt="" coords="1418,2730,1577,2730,1577,2735,1418,2735"/>
+<area shape="rect" id="Node000077" href="$classTRCImportFilter.html" title=" " alt="" coords="1593,2424,1715,2449"/>
+<area shape="poly" id="edge322_Node000073_Node000077" title=" " alt="" coords="1418,2733,1458,2726,1477,2718,1493,2705,1514,2676,1522,2647,1521,2616,1517,2585,1511,2553,1511,2522,1519,2490,1541,2459,1564,2443,1592,2435,1593,2440,1567,2448,1545,2463,1524,2492,1516,2522,1517,2553,1522,2584,1527,2616,1527,2647,1519,2679,1497,2709,1480,2722,1460,2731,1419,2739"/>
+<area shape="rect" id="Node000078" href="$classVCDImportFilter.html" title=" " alt="" coords="1591,2473,1717,2499"/>
+<area shape="poly" id="edge323_Node000073_Node000078" title=" " alt="" coords="1418,2733,1458,2725,1477,2717,1493,2705,1511,2682,1518,2659,1519,2634,1516,2609,1514,2584,1515,2558,1522,2533,1541,2508,1564,2493,1590,2485,1592,2490,1566,2498,1544,2512,1527,2535,1520,2559,1519,2584,1522,2609,1524,2634,1523,2660,1515,2685,1497,2709,1479,2722,1460,2730,1419,2738"/>
+<area shape="rect" id="Node000079" href="$classWAVImportFilter.html" title=" " alt="" coords="1591,2523,1717,2548"/>
+<area shape="poly" id="edge324_Node000073_Node000079" title=" " alt="" coords="1418,2732,1458,2724,1476,2717,1493,2705,1507,2688,1514,2671,1516,2634,1518,2595,1526,2576,1541,2557,1564,2543,1590,2535,1591,2540,1566,2548,1544,2561,1530,2578,1523,2596,1522,2634,1519,2672,1512,2691,1496,2709,1479,2721,1459,2730,1419,2737"/>
+<area shape="rect" id="Node000080" href="$classWFMImportFilter.html" title=" " alt="" coords="1589,2572,1719,2597"/>
+<area shape="poly" id="edge325_Node000073_Node000080" title=" " alt="" coords="1418,2731,1457,2723,1493,2705,1504,2694,1511,2683,1516,2658,1522,2632,1529,2619,1541,2607,1563,2594,1588,2586,1589,2591,1565,2599,1544,2611,1533,2622,1527,2634,1521,2659,1516,2685,1508,2697,1496,2710,1459,2728,1419,2736"/>
+<area shape="rect" id="Node000099" href="$classPCIeGen3LogicalDecoder.html" title="Decoder for PCIe gen 3/4/5 logical sub&#45;block." alt="" coords="1561,2769,1747,2795"/>
+<area shape="poly" id="edge344_Node000098_Node000099" title=" " alt="" coords="1460,3516,1478,3507,1493,3495,1509,3470,1519,3438,1526,3400,1529,3357,1526,3259,1517,3152,1508,3046,1504,2947,1507,2903,1513,2864,1524,2831,1541,2804,1560,2789,1563,2794,1545,2808,1529,2833,1519,2865,1512,2903,1510,2947,1513,3045,1522,3152,1531,3258,1534,3357,1531,3401,1525,3439,1513,3472,1497,3498,1481,3512,1463,3521"/>
+<area shape="rect" id="Node000103" href="$classAPBDecoder.html" title=" " alt="" coords="1603,3756,1705,3781"/>
+<area shape="poly" id="edge348_Node000102_Node000103" title=" " alt="" coords="1429,3671,1463,3679,1496,3692,1512,3704,1521,3717,1530,3729,1544,3741,1573,3753,1603,3761,1602,3766,1571,3758,1541,3746,1526,3733,1517,3720,1508,3707,1493,3696,1462,3684,1428,3677"/>
+<area shape="rect" id="Node000104" href="$classCANAnalyzerFilter.html" title=" " alt="" coords="1585,3805,1723,3831"/>
+<area shape="poly" id="edge349_Node000102_Node000104" title=" " alt="" coords="1429,3667,1464,3675,1496,3692,1508,3704,1516,3717,1522,3742,1527,3768,1533,3779,1544,3791,1564,3802,1585,3810,1584,3815,1561,3807,1541,3795,1529,3782,1522,3769,1516,3744,1511,3718,1504,3707,1493,3696,1462,3680,1428,3673"/>
+<area shape="rect" id="Node000105" href="$classCANDecoder.html" title=" " alt="" coords="1602,3855,1706,3880"/>
+<area shape="poly" id="edge350_Node000102_Node000105" title=" " alt="" coords="1430,3666,1465,3674,1496,3692,1512,3710,1520,3729,1522,3767,1524,3805,1530,3823,1544,3840,1571,3856,1602,3864,1601,3869,1569,3861,1541,3844,1526,3825,1518,3806,1516,3768,1514,3730,1507,3713,1493,3696,1463,3679,1428,3671"/>
+<area shape="rect" id="Node000106" href="$classCandumpImportFilter.html" title=" " alt="" coords="1575,3904,1733,3929"/>
+<area shape="poly" id="edge351_Node000102_Node000106" title=" " alt="" coords="1430,3665,1465,3673,1496,3692,1515,3716,1524,3741,1525,3767,1522,3792,1519,3817,1520,3842,1527,3866,1545,3889,1559,3900,1575,3908,1573,3912,1556,3905,1541,3893,1522,3868,1515,3843,1514,3817,1517,3792,1519,3767,1518,3742,1511,3719,1493,3696,1463,3678,1429,3670"/>
+<area shape="rect" id="Node000107" href="$classDPAuxChannelDecoder.html" title=" " alt="" coords="1568,3953,1740,3979"/>
+<area shape="poly" id="edge352_Node000102_Node000107" title=" " alt="" coords="1430,3664,1465,3673,1496,3692,1519,3723,1528,3754,1527,3785,1522,3817,1517,3848,1516,3879,1524,3909,1545,3939,1569,3955,1566,3960,1541,3943,1519,3911,1511,3880,1512,3848,1517,3816,1522,3785,1522,3755,1514,3725,1493,3696,1463,3678,1429,3670"/>
+<area shape="rect" id="Node000108" href="$classDPhyEscapeModeDecoder.html" title=" " alt="" coords="1558,4003,1750,4028"/>
+<area shape="poly" id="edge353_Node000102_Node000108" title=" " alt="" coords="1430,3664,1465,3672,1482,3681,1497,3692,1512,3710,1522,3729,1532,3766,1530,3804,1522,3842,1515,3879,1513,3916,1521,3952,1530,3970,1545,3988,1560,4000,1557,4005,1541,3992,1526,3973,1516,3954,1507,3916,1509,3878,1517,3841,1524,3803,1526,3767,1517,3731,1507,3713,1493,3696,1479,3685,1464,3677,1429,3669"/>
+<area shape="rect" id="Node000109" href="$classDSIFrameDecoder.html" title=" " alt="" coords="1585,4052,1723,4077"/>
+<area shape="poly" id="edge354_Node000102_Node000109" title=" " alt="" coords="1429,3664,1465,3672,1482,3680,1497,3692,1514,3714,1526,3735,1533,3757,1536,3779,1532,3823,1522,3866,1513,3910,1509,3953,1511,3974,1517,3995,1528,4016,1545,4037,1563,4051,1585,4059,1583,4064,1560,4056,1541,4041,1524,4019,1513,3997,1506,3975,1503,3953,1507,3909,1517,3865,1527,3822,1530,3779,1527,3758,1521,3737,1510,3716,1493,3696,1479,3685,1464,3677,1428,3669"/>
+<area shape="rect" id="Node000110" href="$classDSIPacketDecoder.html" title="Decodes MIPI DSI from a D&#45;PHY data stream." alt="" coords="1583,4101,1725,4127"/>
+<area shape="poly" id="edge355_Node000102_Node000110" title=" " alt="" coords="1430,3664,1465,3672,1482,3680,1497,3692,1516,3717,1529,3741,1537,3766,1540,3791,1535,3841,1523,3891,1510,3940,1505,3990,1507,4014,1514,4038,1526,4063,1545,4087,1562,4100,1584,4109,1582,4114,1560,4105,1541,4091,1522,4065,1509,4040,1502,4015,1500,3990,1505,3939,1517,3889,1530,3840,1534,3791,1532,3767,1524,3743,1512,3720,1493,3696,1479,3685,1464,3677,1428,3669"/>
+<area shape="rect" id="Node000111" href="$classDVIDecoder.html" title=" " alt="" coords="1605,4151,1703,4176"/>
+<area shape="poly" id="edge356_Node000102_Node000111" title=" " alt="" coords="1430,3664,1466,3672,1482,3680,1497,3692,1518,3720,1533,3748,1541,3776,1544,3804,1537,3859,1523,3915,1508,3971,1501,4026,1504,4054,1511,4081,1524,4109,1545,4136,1557,4147,1572,4154,1605,4162,1604,4167,1570,4159,1554,4151,1541,4140,1520,4112,1506,4083,1498,4055,1496,4026,1503,3970,1518,3914,1532,3859,1538,3804,1536,3777,1528,3750,1514,3723,1493,3696,1479,3685,1464,3677,1429,3669"/>
+<area shape="rect" id="Node000112" href="$classDisplayPortMainLinkDecoder.html" title=" " alt="" coords="1549,4200,1759,4225"/>
+<area shape="poly" id="edge357_Node000102_Node000112" title=" " alt="" coords="1430,3663,1466,3672,1482,3680,1497,3692,1509,3711,1518,3734,1526,3793,1526,3864,1522,3940,1518,4016,1518,4087,1525,4145,1533,4168,1545,4186,1560,4198,1556,4202,1541,4189,1529,4170,1520,4146,1512,4087,1513,4016,1517,3940,1521,3864,1521,3794,1513,3736,1504,3713,1493,3696,1479,3685,1464,3677,1428,3669"/>
+<area shape="rect" id="Node000113" href="$classESPIDecoder.html" title="Decoder for Intel Enhanced Serial Peripheral Interface (eSPI)" alt="" coords="1602,4249,1706,4275"/>
+<area shape="poly" id="edge358_Node000102_Node000113" title=" " alt="" coords="1430,3663,1466,3672,1482,3680,1497,3692,1510,3713,1520,3739,1528,3803,1528,3881,1522,3965,1517,4048,1516,4126,1524,4190,1532,4215,1545,4235,1557,4245,1571,4253,1602,4260,1601,4265,1569,4258,1554,4250,1541,4238,1528,4218,1519,4191,1510,4126,1511,4048,1517,3964,1522,3881,1523,3804,1514,3740,1505,3715,1493,3696,1479,3685,1464,3677,1428,3669"/>
+<area shape="rect" id="Node000114" href="$classEthernetAutonegotiationPageDecoder.html" title=" " alt="" coords="1547,4299,1761,4339"/>
+<area shape="poly" id="edge359_Node000102_Node000114" title=" " alt="" coords="1430,3663,1466,3672,1482,3680,1497,3692,1511,3714,1521,3743,1531,3813,1530,3897,1524,3988,1517,4079,1515,4164,1523,4235,1532,4262,1545,4284,1559,4297,1555,4301,1541,4288,1527,4265,1518,4236,1510,4164,1512,4079,1518,3988,1524,3897,1525,3813,1516,3744,1507,3717,1493,3696,1479,3685,1464,3677,1429,3668"/>
+<area shape="rect" id="Node000115" href="$classEthernetBaseXAutonegotiationDecoder.html" title=" " alt="" coords="1543,4363,1765,4403"/>
+<area shape="poly" id="edge360_Node000102_Node000115" title=" " alt="" coords="1429,3663,1466,3671,1482,3680,1497,3692,1513,3717,1524,3748,1530,3785,1533,3826,1531,3920,1524,4021,1516,4122,1513,4216,1515,4257,1521,4294,1530,4325,1545,4350,1557,4361,1553,4365,1541,4353,1526,4327,1516,4295,1510,4258,1507,4216,1510,4122,1518,4020,1526,3920,1528,3827,1525,3786,1519,3749,1508,3719,1493,3696,1479,3684,1464,3676,1428,3668"/>
+<area shape="rect" id="Node000116" href="$classEthernetProtocolDecoder.html" title=" " alt="" coords="1562,4428,1746,4453"/>
+<area shape="poly" id="edge361_Node000102_Node000116" title=" " alt="" coords="1430,3663,1466,3671,1482,3680,1497,3692,1514,3719,1526,3754,1533,3794,1535,3840,1532,3943,1523,4054,1513,4165,1509,4268,1511,4313,1518,4354,1529,4387,1545,4414,1563,4428,1560,4432,1541,4417,1524,4390,1513,4355,1506,4314,1504,4268,1507,4165,1517,4053,1527,3942,1530,3840,1527,3795,1521,3755,1509,3722,1493,3696,1479,3684,1464,3676,1428,3668"/>
+<area shape="rect" id="Node000126" href="$classI2CDecoder.html" title=" " alt="" coords="1605,4477,1703,4503"/>
+<area shape="poly" id="edge371_Node000102_Node000126" title=" " alt="" coords="1429,3663,1466,3671,1482,3680,1497,3692,1515,3721,1528,3758,1535,3801,1538,3850,1534,3960,1523,4078,1512,4197,1507,4307,1509,4356,1516,4399,1528,4435,1545,4463,1557,4474,1572,4481,1605,4489,1604,4494,1570,4486,1554,4478,1541,4466,1523,4437,1511,4400,1504,4356,1502,4307,1506,4197,1517,4078,1528,3959,1532,3850,1529,3802,1522,3759,1510,3723,1493,3696,1479,3684,1464,3676,1428,3668"/>
+<area shape="rect" id="Node000127" href="$classI2CEepromDecoder.html" title=" " alt="" coords="1581,4527,1727,4552"/>
+<area shape="poly" id="edge372_Node000102_Node000127" title=" " alt="" coords="1429,3663,1466,3671,1482,3680,1497,3692,1516,3723,1529,3762,1537,3808,1540,3860,1535,3977,1523,4103,1510,4229,1505,4346,1508,4398,1514,4444,1526,4482,1545,4512,1561,4526,1581,4534,1579,4539,1558,4530,1541,4516,1522,4484,1509,4445,1502,4398,1500,4346,1505,4229,1517,4103,1530,3976,1534,3860,1531,3809,1524,3763,1512,3725,1493,3696,1479,3684,1464,3676,1428,3668"/>
+<area shape="rect" id="Node000128" href="$classI2CRegisterDecoder.html" title=" " alt="" coords="1579,2819,1729,2844"/>
+<area shape="poly" id="edge373_Node000102_Node000128" title=" " alt="" coords="1428,3671,1464,3663,1479,3654,1493,3643,1511,3614,1523,3578,1530,3534,1533,3485,1528,3372,1517,3251,1505,3129,1501,3016,1503,2966,1510,2922,1522,2884,1541,2854,1558,2840,1578,2832,1580,2836,1560,2844,1545,2857,1527,2886,1515,2923,1508,2967,1506,3016,1511,3129,1522,3250,1534,3372,1538,3485,1535,3535,1528,3579,1516,3617,1497,3646,1482,3659,1466,3668,1429,3676"/>
+<area shape="rect" id="Node000129" href="$classJ1939PDUDecoder.html" title=" " alt="" coords="1584,2868,1724,2893"/>
+<area shape="poly" id="edge374_Node000102_Node000129" title=" " alt="" coords="1428,3671,1464,3663,1479,3654,1493,3643,1510,3616,1521,3582,1528,3541,1531,3495,1527,3390,1517,3276,1506,3161,1503,3056,1505,3009,1512,2967,1523,2931,1541,2903,1560,2888,1583,2880,1585,2885,1563,2892,1545,2906,1528,2933,1517,2968,1510,3009,1508,3056,1512,3161,1522,3275,1532,3389,1536,3495,1533,3542,1526,3583,1514,3619,1497,3646,1482,3659,1466,3668,1429,3676"/>
+<area shape="rect" id="Node000130" href="$classJ1939SourceMatchFilter.html" title=" " alt="" coords="1567,2917,1741,2943"/>
+<area shape="poly" id="edge375_Node000102_Node000130" title=" " alt="" coords="1428,3671,1464,3662,1479,3654,1493,3643,1509,3618,1519,3586,1526,3548,1529,3505,1526,3407,1517,3300,1508,3194,1504,3095,1507,3051,1513,3012,1524,2979,1541,2952,1565,2935,1568,2939,1545,2956,1529,2981,1519,3013,1512,3051,1510,3095,1513,3193,1522,3300,1531,3406,1534,3505,1531,3549,1525,3587,1513,3620,1497,3646,1482,3659,1466,3667,1430,3676"/>
+<area shape="rect" id="Node000131" href="$classJ1939TransportDecoder.html" title=" " alt="" coords="1567,2967,1741,2992"/>
+<area shape="poly" id="edge376_Node000102_Node000131" title=" " alt="" coords="1428,3671,1464,3662,1479,3654,1493,3643,1508,3620,1518,3590,1524,3555,1527,3515,1524,3424,1517,3325,1509,3226,1506,3134,1509,3093,1515,3057,1525,3026,1541,3001,1566,2984,1569,2988,1545,3005,1530,3028,1520,3058,1514,3094,1512,3134,1514,3225,1522,3324,1530,3423,1532,3515,1529,3556,1523,3592,1512,3622,1497,3646,1482,3659,1466,3667,1430,3676"/>
+<area shape="rect" id="Node000132" href="$classJtagDecoder.html" title=" " alt="" coords="1603,3016,1705,3041"/>
+<area shape="poly" id="edge377_Node000102_Node000132" title=" " alt="" coords="1428,3671,1464,3662,1479,3654,1493,3643,1506,3622,1516,3595,1525,3525,1523,3441,1517,3349,1510,3258,1508,3173,1517,3102,1526,3073,1541,3051,1554,3040,1569,3032,1602,3024,1603,3030,1571,3037,1557,3044,1545,3054,1531,3076,1522,3103,1514,3173,1515,3258,1522,3349,1528,3440,1530,3525,1521,3596,1511,3624,1497,3646,1482,3659,1466,3667,1429,3676"/>
+<area shape="rect" id="Node000133" href="$classMDIODecoder.html" title=" " alt="" coords="1598,3065,1710,3091"/>
+<area shape="poly" id="edge378_Node000102_Node000133" title=" " alt="" coords="1428,3671,1464,3662,1479,3654,1493,3643,1505,3624,1514,3599,1523,3535,1522,3458,1517,3374,1511,3290,1510,3212,1518,3147,1527,3121,1541,3100,1567,3082,1597,3074,1598,3080,1569,3087,1545,3104,1532,3123,1524,3148,1516,3213,1516,3290,1522,3374,1527,3457,1528,3535,1519,3600,1510,3626,1497,3646,1482,3659,1466,3667,1429,3676"/>
+<area shape="rect" id="Node000134" href="$classMilStd1553Decoder.html" title=" " alt="" coords="1579,3115,1729,3140"/>
+<area shape="poly" id="edge379_Node000102_Node000134" title=" " alt="" coords="1428,3671,1464,3662,1479,3654,1493,3643,1504,3625,1513,3603,1521,3545,1521,3475,1517,3399,1512,3322,1512,3252,1520,3192,1528,3168,1541,3150,1558,3136,1578,3128,1580,3133,1561,3141,1545,3153,1533,3171,1525,3193,1517,3252,1518,3322,1522,3398,1526,3475,1526,3545,1518,3604,1509,3628,1497,3646,1482,3659,1466,3667,1430,3676"/>
+<area shape="rect" id="Node000135" href="$classPCIeDataLinkDecoder.html" title="Decoder for PCIe data link layer." alt="" coords="1573,3164,1735,3189"/>
+<area shape="poly" id="edge380_Node000102_Node000135" title=" " alt="" coords="1429,3671,1464,3662,1479,3654,1493,3643,1514,3616,1528,3589,1535,3562,1538,3535,1532,3480,1517,3424,1502,3368,1496,3312,1498,3284,1506,3255,1519,3227,1541,3199,1555,3187,1571,3179,1573,3184,1558,3192,1545,3203,1524,3230,1511,3257,1503,3284,1501,3312,1507,3367,1522,3423,1537,3479,1543,3535,1540,3563,1533,3591,1518,3619,1497,3647,1482,3658,1466,3667,1430,3676"/>
+<area shape="rect" id="Node000136" href="$classPCIeLinkTrainingDecoder.html" title="Decoder for PCIe gen 1/2 link training." alt="" coords="1562,3213,1746,3239"/>
+<area shape="poly" id="edge381_Node000102_Node000136" title=" " alt="" coords="1428,3670,1464,3662,1479,3654,1493,3643,1512,3619,1524,3595,1531,3571,1534,3547,1529,3498,1517,3449,1504,3399,1499,3349,1502,3323,1509,3298,1522,3273,1541,3248,1560,3234,1563,3238,1545,3252,1526,3276,1514,3300,1507,3324,1505,3349,1510,3398,1522,3447,1534,3497,1539,3547,1536,3572,1529,3597,1516,3622,1497,3647,1482,3658,1466,3667,1430,3676"/>
+<area shape="rect" id="Node000137" href="$classPCIeTransportDecoder.html" title="Decoder for PCIe transport layer." alt="" coords="1571,3263,1737,3288"/>
+<area shape="poly" id="edge382_Node000102_Node000137" title=" " alt="" coords="1428,3670,1464,3662,1479,3654,1493,3643,1509,3622,1521,3601,1527,3580,1530,3559,1527,3517,1517,3473,1507,3429,1503,3385,1506,3363,1512,3341,1524,3319,1541,3297,1554,3287,1569,3279,1572,3284,1557,3291,1545,3301,1528,3322,1517,3343,1511,3364,1508,3386,1512,3429,1522,3472,1532,3516,1535,3560,1532,3582,1526,3603,1514,3625,1497,3647,1482,3658,1465,3667,1430,3675"/>
+<area shape="rect" id="Node000138" href="$classPcapngImportFilter.html" title=" " alt="" coords="1582,3312,1726,3337"/>
+<area shape="poly" id="edge383_Node000102_Node000138" title=" " alt="" coords="1429,3670,1464,3662,1479,3654,1493,3643,1507,3625,1517,3608,1526,3572,1524,3535,1517,3498,1509,3460,1507,3422,1516,3384,1526,3365,1541,3347,1559,3333,1581,3325,1583,3330,1562,3338,1545,3351,1530,3368,1521,3386,1512,3423,1514,3459,1522,3497,1529,3534,1531,3572,1522,3610,1512,3628,1497,3647,1482,3658,1465,3667,1430,3675"/>
+<area shape="rect" id="Node000139" href="$classRGBLEDDecoder.html" title=" " alt="" coords="1589,3361,1719,3387"/>
+<area shape="poly" id="edge384_Node000102_Node000139" title=" " alt="" coords="1429,3670,1463,3661,1493,3643,1514,3614,1522,3584,1521,3553,1517,3522,1511,3491,1511,3459,1519,3427,1541,3396,1563,3381,1588,3373,1590,3378,1565,3386,1545,3400,1524,3429,1516,3459,1517,3490,1522,3521,1527,3553,1527,3585,1519,3616,1496,3647,1465,3666,1430,3675"/>
+<area shape="rect" id="Node000140" href="$classSDCmdDecoder.html" title="Decodes the SD card command bus protocol." alt="" coords="1592,3411,1716,3436"/>
+<area shape="poly" id="edge385_Node000102_Node000140" title=" " alt="" coords="1429,3669,1463,3661,1493,3643,1511,3620,1518,3596,1519,3572,1516,3547,1514,3521,1515,3496,1522,3470,1541,3445,1564,3430,1591,3422,1592,3427,1566,3435,1544,3449,1527,3473,1520,3496,1519,3521,1522,3546,1524,3572,1523,3597,1515,3622,1496,3647,1465,3666,1430,3674"/>
+<area shape="rect" id="Node000141" href="$classSDDataDecoder.html" title=" " alt="" coords="1591,3460,1717,3485"/>
+<area shape="poly" id="edge386_Node000102_Node000141" title=" " alt="" coords="1428,3668,1463,3660,1493,3643,1507,3626,1514,3608,1516,3571,1518,3532,1526,3513,1541,3495,1564,3480,1590,3472,1592,3477,1566,3485,1544,3499,1530,3516,1523,3534,1522,3571,1519,3609,1512,3629,1496,3647,1465,3665,1430,3673"/>
+<area shape="rect" id="Node000142" href="$classSPIFlashDecoder.html" title=" " alt="" coords="1589,3509,1719,3535"/>
+<area shape="poly" id="edge387_Node000102_Node000142" title=" " alt="" coords="1428,3667,1462,3659,1493,3643,1504,3632,1511,3620,1516,3595,1522,3569,1529,3556,1541,3544,1563,3531,1588,3524,1589,3529,1565,3536,1544,3548,1533,3559,1527,3571,1521,3596,1516,3622,1508,3635,1496,3647,1464,3664,1429,3672"/>
+<area shape="rect" id="Node000143" href="$classSWDMemAPDecoder.html" title=" " alt="" coords="1575,3559,1733,3584"/>
+<area shape="poly" id="edge388_Node000102_Node000143" title=" " alt="" coords="1428,3663,1462,3655,1493,3642,1508,3631,1517,3619,1526,3605,1541,3593,1574,3580,1576,3585,1544,3598,1530,3609,1521,3622,1512,3635,1496,3647,1463,3660,1429,3668"/>
+<area shape="rect" id="Node000144" href="$classUARTDecoder.html" title=" " alt="" coords="1598,3608,1710,3633"/>
+<area shape="poly" id="edge389_Node000102_Node000144" title=" " alt="" coords="1429,3655,1597,3627,1598,3632,1430,3661"/>
+<area shape="rect" id="Node000145" href="$classUSB2PacketDecoder.html" title=" " alt="" coords="1577,3657,1731,3683"/>
+<area shape="poly" id="edge390_Node000102_Node000145" title=" " alt="" coords="1429,3667,1577,3667,1577,3673,1429,3673"/>
+<area shape="rect" id="Node000146" href="$classVICPDecoder.html" title=" " alt="" coords="1601,3707,1707,3732"/>
+<area shape="poly" id="edge391_Node000102_Node000146" title=" " alt="" coords="1430,3679,1601,3708,1600,3713,1429,3685"/>
+<area shape="rect" id="Node000117" href="$classEthernet1000BaseXDecoder.html" title=" " alt="" coords="1821,4503,2025,4528"/>
+<area shape="poly" id="edge362_Node000116_Node000117" title=" " alt="" coords="1741,4454,1766,4462,1791,4475,1814,4488,1856,4500,1854,4505,1812,4492,1788,4480,1764,4467,1740,4459"/>
+<area shape="rect" id="Node000119" href="$classEthernet100BaseT1Decoder.html" title=" " alt="" coords="1822,4552,2025,4577"/>
+<area shape="poly" id="edge364_Node000116_Node000119" title=" " alt="" coords="1757,4457,1767,4463,1784,4481,1792,4501,1799,4520,1815,4537,1839,4549,1836,4554,1812,4541,1795,4523,1787,4503,1780,4484,1764,4467,1755,4461"/>
+<area shape="rect" id="Node000120" href="$classEthernet100BaseTXDecoder.html" title=" " alt="" coords="1821,4601,2025,4627"/>
+<area shape="poly" id="edge365_Node000116_Node000120" title=" " alt="" coords="1760,4457,1767,4463,1781,4478,1788,4494,1792,4526,1796,4558,1803,4572,1815,4587,1834,4599,1832,4603,1812,4591,1798,4575,1791,4559,1787,4527,1783,4496,1776,4481,1764,4467,1757,4462"/>
+<area shape="rect" id="Node000121" href="$classEthernet10BaseTDecoder.html" title=" " alt="" coords="1830,4256,2017,4281"/>
+<area shape="poly" id="edge366_Node000116_Node000121" title=" " alt="" coords="1756,4419,1764,4413,1776,4399,1783,4385,1787,4354,1791,4322,1798,4306,1812,4291,1829,4279,1832,4284,1815,4295,1803,4309,1796,4323,1792,4354,1788,4386,1781,4402,1767,4417,1759,4423"/>
+<area shape="rect" id="Node000122" href="$classEthernet10GBaseRDecoder.html" title=" " alt="" coords="1824,4305,2023,4331"/>
+<area shape="poly" id="edge367_Node000116_Node000122" title=" " alt="" coords="1752,4420,1764,4413,1780,4396,1787,4378,1795,4358,1812,4340,1833,4328,1836,4333,1815,4344,1799,4361,1792,4380,1784,4399,1767,4417,1755,4425"/>
+<area shape="rect" id="Node000123" href="$classEthernetGMIIDecoder.html" title=" " alt="" coords="1843,4355,2004,4380"/>
+<area shape="poly" id="edge368_Node000116_Node000123" title=" " alt="" coords="1735,4422,1764,4413,1788,4401,1812,4389,1852,4377,1853,4383,1814,4394,1791,4406,1766,4418,1736,4427"/>
+<area shape="rect" id="Node000124" href="$classEthernetRGMIIDecoder.html" title=" " alt="" coords="1838,4404,2009,4429"/>
+<area shape="poly" id="edge369_Node000116_Node000124" title=" " alt="" coords="1759,4429,1837,4422,1838,4427,1760,4434"/>
+<area shape="rect" id="Node000125" href="$classEthernetRMIIDecoder.html" title=" " alt="" coords="1843,4453,2003,4479"/>
+<area shape="poly" id="edge370_Node000116_Node000125" title=" " alt="" coords="1760,4448,1843,4456,1843,4461,1760,4453"/>
+<area shape="rect" id="Node000118" href="$classEthernetSGMIIDecoder.html" title=" " alt="" coords="2081,4503,2251,4528"/>
+<area shape="poly" id="edge363_Node000117_Node000118" title=" " alt="" coords="2039,4513,2081,4513,2081,4518,2039,4518"/>
+<area shape="rect" id="Node000343" href="$classDDR1Decoder.html" title=" " alt="" coords="1597,4625,1711,4651"/>
+<area shape="poly" id="edge408_Node000342_Node000343" title=" " alt="" coords="1448,4358,1474,4367,1497,4383,1518,4411,1526,4440,1526,4469,1522,4498,1518,4527,1518,4556,1525,4583,1545,4611,1569,4627,1598,4635,1596,4640,1567,4632,1541,4615,1520,4586,1512,4556,1513,4527,1517,4498,1521,4469,1521,4441,1513,4413,1493,4387,1472,4372,1447,4364"/>
+<area shape="rect" id="Node000344" href="$classDDR3Decoder.html" title=" " alt="" coords="1597,4576,1711,4601"/>
+<area shape="poly" id="edge409_Node000342_Node000344" title=" " alt="" coords="1448,4359,1474,4368,1496,4383,1514,4405,1522,4427,1524,4451,1522,4474,1520,4496,1521,4519,1528,4540,1544,4561,1569,4577,1598,4585,1597,4590,1567,4582,1541,4565,1524,4543,1516,4520,1515,4496,1517,4473,1518,4451,1517,4428,1509,4407,1493,4387,1472,4373,1447,4364"/>
+<area shape="rect" id="Node000347" href="$classQSPIDecoder.html" title=" " alt="" coords="1601,4675,1707,4700"/>
+<area shape="poly" id="edge412_Node000346_Node000347" title=" " alt="" coords="1418,4453,1459,4461,1479,4469,1496,4481,1514,4503,1522,4526,1524,4549,1522,4572,1520,4595,1521,4617,1528,4639,1544,4660,1571,4676,1601,4684,1599,4689,1568,4681,1541,4664,1524,4641,1516,4618,1515,4595,1517,4572,1518,4549,1517,4527,1509,4506,1493,4485,1476,4474,1458,4466,1417,4459"/>
+<area shape="rect" id="Node000349" href="$classSParameterFilter.html" title="A filter that takes a set of S&#45;parameters as input and outputs another set of S&#45;parameters." alt="" coords="1589,4773,1719,4799"/>
+<area shape="poly" id="edge414_Node000348_Node000349" title=" " alt="" coords="1458,4509,1478,4517,1497,4531,1518,4559,1526,4588,1526,4617,1522,4646,1518,4675,1518,4704,1525,4731,1545,4759,1565,4773,1589,4781,1587,4786,1563,4778,1541,4763,1520,4734,1512,4704,1513,4675,1517,4646,1521,4617,1521,4589,1513,4561,1493,4535,1476,4522,1456,4514"/>
+<area shape="rect" id="Node000353" href="$classTouchstoneImportFilter.html" title=" " alt="" coords="1569,4724,1739,4749"/>
+<area shape="poly" id="edge418_Node000348_Node000353" title=" " alt="" coords="1458,4510,1478,4518,1496,4531,1514,4553,1522,4575,1524,4599,1522,4622,1520,4644,1521,4667,1528,4688,1544,4709,1570,4725,1567,4730,1541,4713,1524,4691,1516,4668,1515,4644,1517,4621,1518,4599,1517,4576,1509,4555,1493,4535,1476,4523,1456,4515"/>
+<area shape="rect" id="Node000350" href="$classReferencePlaneExtensionFilter.html" title=" " alt="" coords="1813,4773,2033,4799"/>
+<area shape="poly" id="edge415_Node000349_Node000350" title=" " alt="" coords="1733,4783,1813,4783,1813,4789,1733,4789"/>
+<area shape="rect" id="Node000351" href="$classSParameterCascadeFilter.html" title=" " alt="" coords="1831,4823,2016,4848"/>
+<area shape="poly" id="edge416_Node000349_Node000351" title=" " alt="" coords="1733,4798,1854,4820,1853,4825,1732,4803"/>
+<area shape="rect" id="Node000352" href="$classSParameterDeEmbedFilter.html" title="De&#45;embeds a known." alt="" coords="1827,4724,2020,4749"/>
+<area shape="poly" id="edge417_Node000349_Node000352" title=" " alt="" coords="1732,4769,1853,4747,1854,4752,1733,4774"/>
+<area shape="rect" id="Node000360" href="$classComplexSpectrogramFilter.html" title=" " alt="" coords="1557,4823,1751,4848"/>
+<area shape="poly" id="edge425_Node000359_Node000360" title=" " alt="" coords="1439,4761,1496,4777,1520,4792,1544,4808,1582,4820,1580,4825,1542,4812,1517,4797,1494,4782,1438,4767"/>
+<area shape="rect" id="Node000388" href="$classDigitalToNRZFilter.html" title=" " alt="" coords="1585,6100,1723,6125"/>
+<area shape="poly" id="edge453_Node000387_Node000388" title=" " alt="" coords="1468,6094,1585,6104,1584,6109,1467,6099"/>
+<area shape="rect" id="Node000389" href="$classDigitalToPAM4Filter.html" title=" " alt="" coords="1580,6051,1728,6076"/>
+<area shape="poly" id="edge454_Node000387_Node000389" title=" " alt="" coords="1467,6076,1580,6067,1580,6072,1468,6081"/>
+<area shape="poly" id="edge467_Node000182_Node000183" title=" " alt="" coords="560,1318,700,1300,869,1273,992,1245,993,1251,870,1278,701,1305,560,1324"/>
+<area shape="poly" id="edge468_Node000182_Node000205" title=" " alt="" coords="558,1309,586,1299,634,1281,699,1262,701,1267,636,1286,588,1305,560,1314"/>
+<area shape="poly" id="edge469_Node000182_Node000212" title=" " alt="" coords="558,1314,585,1300,601,1282,608,1262,616,1243,633,1224,663,1209,666,1214,636,1228,620,1245,613,1264,605,1284,588,1304,561,1319"/>
+<area shape="rect" id="Node000219" href="$classWaveformArea.html" title="A WaveformArea is a plot that displays one or more OscilloscopeChannel&#39;s worth of data." alt="" coords="692,1340,812,1365"/>
+<area shape="poly" id="edge470_Node000182_Node000219" title=" " alt="" coords="560,1330,692,1344,692,1349,560,1336"/>
+<area shape="rect" id="Node000221" href="$classCDRTrigger.html" title="Base class for triggers involving hardware clock/data recovery pattern matching." alt="" coords="705,1735,799,1760"/>
+<area shape="poly" id="edge472_Node000220_Node000221" title=" " alt="" coords="551,1705,705,1735,704,1741,550,1710"/>
+<area shape="rect" id="Node000224" href="$classDCAEdgeTrigger.html" title="Simple edge trigger for Agilent DCA oscilloscopes." alt="" coords="689,1833,815,1859"/>
+<area shape="poly" id="edge475_Node000220_Node000224" title=" " alt="" coords="525,1720,572,1770,602,1797,636,1818,662,1829,689,1836,688,1841,660,1834,633,1823,599,1801,568,1774,521,1723"/>
+<area shape="rect" id="Node000225" href="$classDropoutTrigger.html" title="Trigger when a signal stops toggling for some amount of time." alt="" coords="693,1883,811,1908"/>
+<area shape="poly" id="edge476_Node000220_Node000225" title=" " alt="" coords="519,1722,538,1756,564,1796,597,1835,636,1868,663,1881,693,1888,691,1893,662,1886,633,1872,593,1839,559,1799,533,1758,515,1725"/>
+<area shape="rect" id="Node000226" href="$classEdgeTrigger.html" title="Simple edge trigger." alt="" coords="703,1784,801,1809"/>
+<area shape="poly" id="edge477_Node000220_Node000226" title=" " alt="" coords="537,1716,582,1744,636,1769,703,1787,702,1792,634,1774,580,1748,534,1721"/>
+<area shape="rect" id="Node000229" href="$classLineTrigger.html" title="trigger uses the waveform of the power supply&#39;s alternating line voltage" alt="" coords="705,1932,799,1957"/>
+<area shape="poly" id="edge480_Node000220_Node000229" title=" " alt="" coords="515,1723,531,1767,556,1819,591,1873,612,1897,636,1917,669,1933,705,1941,704,1946,668,1938,633,1922,609,1900,587,1876,551,1822,526,1769,510,1725"/>
+<area shape="rect" id="Node000230" href="$classNthEdgeBurstTrigger.html" title="Nth Edge Burst Trigger: triggers on a specific edge within a burst." alt="" coords="674,1981,830,2007"/>
+<area shape="poly" id="edge481_Node000220_Node000230" title=" " alt="" coords="513,1724,525,1776,549,1842,585,1910,609,1940,636,1967,654,1978,675,1985,673,1990,652,1982,633,1971,605,1944,581,1913,544,1844,520,1777,507,1725"/>
+<area shape="rect" id="Node000231" href="$classRSRTB2kRiseTimeTrigger.html" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="659,1389,845,1415"/>
+<area shape="poly" id="edge482_Node000220_Node000231" title=" " alt="" coords="507,1671,520,1618,543,1551,560,1516,580,1482,604,1451,633,1424,657,1410,660,1415,636,1428,608,1454,585,1485,565,1519,548,1553,525,1620,512,1672"/>
+<area shape="rect" id="Node000232" href="$classRSRTB2kRuntTrigger.html" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="674,1439,830,1464"/>
+<area shape="poly" id="edge483_Node000220_Node000232" title=" " alt="" coords="510,1671,526,1627,551,1573,586,1519,608,1494,633,1473,652,1462,673,1455,675,1460,654,1467,636,1478,612,1498,591,1522,556,1576,531,1629,515,1673"/>
+<area shape="rect" id="Node000233" href="$classRSRTB2kTimeoutTrigger.html" title="Trigger when a signal stops toggling for some amount of time." alt="" coords="663,1488,841,1513"/>
+<area shape="poly" id="edge484_Node000220_Node000233" title=" " alt="" coords="515,1671,533,1637,559,1596,593,1556,633,1522,661,1509,664,1514,636,1527,596,1560,563,1600,537,1640,519,1674"/>
+<area shape="rect" id="Node000234" href="$classRSRTB2kVideoTrigger.html" title="Video or TV trigger is used to analyze analog baseband video signals." alt="" coords="671,1537,833,1563"/>
+<area shape="poly" id="edge485_Node000220_Node000234" title=" " alt="" coords="521,1673,568,1621,599,1594,633,1572,670,1558,672,1563,636,1576,602,1598,571,1625,525,1676"/>
+<area shape="rect" id="Node000235" href="$classRSRTB2kWidthTrigger.html" title="Trigger on a pulse meeting certain width criteria." alt="" coords="670,1587,834,1612"/>
+<area shape="poly" id="edge486_Node000220_Node000235" title=" " alt="" coords="533,1675,579,1647,634,1621,671,1610,672,1615,636,1626,582,1652,536,1680"/>
+<area shape="rect" id="Node000236" href="$classSerialTrigger.html" title="Abstract base class for serial protocol triggers with pattern matching." alt="" coords="700,1636,804,1661"/>
+<area shape="poly" id="edge487_Node000220_Node000236" title=" " alt="" coords="550,1686,699,1656,700,1662,551,1691"/>
+<area shape="rect" id="Node000238" href="$classTwoLevelTrigger.html" title="Base class for all triggers that have two thresholds rather than one." alt="" coords="689,1685,815,1711"/>
+<area shape="poly" id="edge489_Node000220_Node000238" title=" " alt="" coords="551,1695,688,1695,688,1701,551,1701"/>
+<area shape="rect" id="Node000222" href="$classCDR8B10BTrigger.html" title="A hardware 8B/10B pattern trigger." alt="" coords="975,1759,1112,1784"/>
+<area shape="poly" id="edge473_Node000221_Node000222" title=" " alt="" coords="813,1750,974,1763,974,1768,813,1755"/>
+<area shape="rect" id="Node000223" href="$classCDRNRZPatternTrigger.html" title="A hardware NRZ pattern trigger." alt="" coords="958,1709,1129,1735"/>
+<area shape="poly" id="edge474_Node000221_Node000223" title=" " alt="" coords="813,1739,958,1727,958,1732,814,1745"/>
+<area shape="rect" id="Node000227" href="$classGlitchTrigger.html" title="Trigger on a glitch meeting certain width criteria." alt="" coords="991,1808,1096,1833"/>
+<area shape="poly" id="edge478_Node000226_Node000227" title=" " alt="" coords="815,1799,991,1814,990,1819,815,1804"/>
+<area shape="rect" id="Node000228" href="$classPulseWidthTrigger.html" title="Trigger on a pulse meeting certain width criteria." alt="" coords="973,1907,1113,1932"/>
+<area shape="poly" id="edge479_Node000226_Node000228" title=" " alt="" coords="816,1798,844,1805,871,1819,888,1837,896,1856,903,1875,919,1892,945,1905,974,1913,972,1918,943,1910,916,1896,899,1878,891,1858,884,1840,868,1823,842,1810,814,1803"/>
+<area shape="rect" id="Node000237" href="$classUartTrigger.html" title="Trigger when a UART sees a certain data pattern." alt="" coords="996,1512,1091,1537"/>
+<area shape="poly" id="edge488_Node000236_Node000237" title=" " alt="" coords="817,1641,844,1634,868,1621,884,1604,891,1585,898,1565,916,1546,955,1529,995,1522,996,1528,956,1534,919,1551,903,1568,896,1587,888,1607,871,1625,846,1639,818,1646"/>
+<area shape="rect" id="Node000239" href="$classRuntTrigger.html" title="Runt trigger &#45; trigger when a pulse of a given width crosses one threshold but not the second." alt="" coords="995,1660,1092,1685"/>
+<area shape="poly" id="edge490_Node000238_Node000239" title=" " alt="" coords="829,1689,994,1674,995,1679,829,1694"/>
+<area shape="rect" id="Node000240" href="$classSlewRateTrigger.html" title="Slew rate trigger &#45; trigger when an edge rate meets the specified conditions." alt="" coords="979,1561,1107,1587"/>
+<area shape="poly" id="edge491_Node000238_Node000240" title=" " alt="" coords="828,1688,849,1681,868,1671,884,1653,891,1634,898,1614,916,1596,946,1581,979,1574,980,1579,948,1586,919,1600,903,1617,896,1636,888,1656,871,1675,851,1686,829,1693"/>
+<area shape="rect" id="Node000241" href="$classWindowTrigger.html" title="Window trigger &#45; detect when the signal leaves a specified range." alt="" coords="984,1611,1103,1636"/>
+<area shape="poly" id="edge492_Node000238_Node000241" title=" " alt="" coords="828,1682,868,1670,892,1658,916,1645,983,1628,985,1633,918,1650,895,1662,870,1675,829,1687"/>
+<area shape="rect" id="Node000329" href="$classFilterGraphWorkspace.html" title="Helper class for building the default filter graph editor workspace." alt="" coords="421,1265,587,1291"/>
+<area shape="poly" id="edge497_Node000328_Node000329" title=" " alt="" coords="345,1589,360,1582,371,1572,393,1539,401,1505,400,1472,395,1438,389,1404,388,1370,397,1335,419,1300,434,1289,437,1293,423,1304,402,1337,393,1371,394,1404,400,1438,406,1472,406,1506,398,1541,375,1576,362,1586,348,1594"/>
 </map>

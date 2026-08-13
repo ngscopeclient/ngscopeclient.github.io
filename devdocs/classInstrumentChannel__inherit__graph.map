@@ -1,51 +1,99 @@
 <map id="InstrumentChannel" name="InstrumentChannel">
-<area shape="rect" id="node1" title="A single channel of an instrument." alt="" coords="368,462,515,489"/>
-<area shape="rect" id="node4" href="$classBERTOutputChannel.html" title="A pattern generator channel of a BERT." alt="" coords="603,209,757,235"/>
-<area shape="rect" id="node5" href="$classDigitalIOChannel.html" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="614,259,746,286"/>
-<area shape="rect" id="node7" href="$classDigitalInputChannel.html" title="A digital input channel (GPIO, buffered mux path, etc)" alt="" coords="605,310,755,337"/>
-<area shape="rect" id="node9" href="$classDigitalOutputChannel.html" title="A digital output channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="599,361,761,387"/>
-<area shape="rect" id="node11" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="583,411,777,438"/>
-<area shape="rect" id="node12" href="$classLoadChannel.html" title="A single channel of an active load." alt="" coords="627,462,733,489"/>
-<area shape="rect" id="node13" href="$classMultimeterChannel.html" title="A single channel of a multimeter." alt="" coords="607,513,753,539"/>
-<area shape="rect" id="node14" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="601,563,759,590"/>
-<area shape="rect" id="node47" href="$classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="601,614,759,641"/>
-<area shape="rect" id="node48" href="$classRFSignalGeneratorChannel.html" title="A single channel of an RF signal generator." alt="" coords="581,665,779,691"/>
-<area shape="rect" id="node49" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="563,715,797,742"/>
-<area shape="rect" id="node2" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="193,462,320,489"/>
-<area shape="rect" id="node3" href="$classSerializableObject.html" title=" " alt="" coords="5,462,145,489"/>
-<area shape="rect" id="node6" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="845,243,1076,270"/>
-<area shape="rect" id="node8" href="$classBufferedSwitchMatrixInputChannel.html" title="Declaration of BufferedSwitchMatrixInputChannel." alt="" coords="863,295,1059,336"/>
-<area shape="rect" id="node10" href="$classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="857,360,1064,401"/>
-<area shape="rect" id="node15" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="863,426,1058,453"/>
-<area shape="rect" id="node16" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="889,477,1032,503"/>
-<area shape="rect" id="node18" href="$classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="909,527,1012,554"/>
-<area shape="rect" id="node19" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="894,578,1027,605"/>
-<area shape="rect" id="node20" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="933,629,988,655"/>
-<area shape="rect" id="node45" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data in dB/degrees format." alt="" coords="885,679,1036,706"/>
-<area shape="rect" id="node46" href="$classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="892,730,1029,757"/>
-<area shape="rect" id="node17" href="$classBERTInputChannelWithDataCapture.html" title="Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode." alt="" coords="1124,5,1327,47"/>
-<area shape="rect" id="node21" href="$classACCoupleFilter.html" title=" " alt="" coords="1167,71,1284,98"/>
-<area shape="rect" id="node22" href="$classACRMSMeasurement.html" title=" " alt="" coords="1146,122,1305,149"/>
-<area shape="rect" id="node23" href="$classADL5205Decoder.html" title=" " alt="" coords="1158,173,1293,199"/>
-<area shape="rect" id="node24" href="$classAddFilter.html" title=" " alt="" coords="1186,223,1265,250"/>
-<area shape="rect" id="node25" href="$classAreaMeasurement.html" title=" " alt="" coords="1154,274,1297,301"/>
-<area shape="rect" id="node26" href="$classAutocorrelationFilter.html" title=" " alt="" coords="1148,325,1303,351"/>
-<area shape="rect" id="node27" href="$classAverageFilter.html" title=" " alt="" coords="1171,375,1279,402"/>
-<area shape="rect" id="node28" href="$classBandwidthMeasurement.html" title=" " alt="" coords="1135,426,1316,453"/>
-<area shape="rect" id="node29" href="$classBaseMeasurement.html" title=" " alt="" coords="1153,477,1297,503"/>
-<area shape="rect" id="node30" href="$classBurstWidthMeasurement.html" title=" " alt="" coords="1133,527,1317,554"/>
-<area shape="rect" id="node31" href="$classBusHeatmapFilter.html" title=" " alt="" coords="1156,578,1295,605"/>
-<area shape="rect" id="node32" href="$classCANBitmaskFilter.html" title=" " alt="" coords="1157,629,1293,655"/>
-<area shape="rect" id="node33" href="$classClipFilter.html" title=" " alt="" coords="1186,679,1265,706"/>
-<area shape="rect" id="node34" href="$classClockRecoveryFilter.html" title=" " alt="" coords="1150,730,1301,757"/>
-<area shape="rect" id="node35" href="$classConstantFilter.html" title=" " alt="" coords="1169,781,1281,807"/>
-<area shape="rect" id="node36" href="$classConstellationFilter.html" title=" " alt="" coords="1155,831,1295,858"/>
-<area shape="rect" id="node37" href="$classCouplerDeEmbedFilter.html" title=" " alt="" coords="1142,882,1309,909"/>
-<area shape="rect" id="node38" href="$classCurrentShuntFilter.html" title=" " alt="" coords="1156,933,1295,959"/>
-<area shape="rect" id="node39" href="$classDCDMeasurement.html" title=" " alt="" coords="1155,983,1296,1010"/>
-<area shape="rect" id="node40" href="$classDDJMeasurement.html" title=" " alt="" coords="1157,1034,1293,1061"/>
-<area shape="rect" id="node41" href="$classDPhyDataDecoder.html" title=" " alt="" coords="1155,1085,1296,1111"/>
-<area shape="rect" id="node42" href="$classDPhyHSClockRecoveryFilter.html" title="Extracts a clock from a MIPI D&#45;PHY clock+data stream which is gated to only show HS mode data." alt="" coords="1124,1135,1327,1162"/>
-<area shape="rect" id="node43" href="$classDPhySymbolDecoder.html" title="Decoder for MIPI D&#45;PHY symbols." alt="" coords="1146,1186,1305,1213"/>
-<area shape="rect" id="node44" href="$classDeEmbedFilter.html" title=" " alt="" coords="1167,1237,1284,1263"/>
+<area shape="rect" id="Node000001" title="A single channel of an instrument." alt="" coords="368,450,515,475"/>
+<area shape="rect" id="Node000004" href="$classBERTOutputChannel.html" title="A pattern generator channel of a BERT." alt="" coords="603,129,757,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="443,436,452,379,472,305,487,266,507,228,531,193,561,163,581,151,602,143,604,148,583,156,564,167,535,197,512,231,492,268,477,306,457,380,448,437"/>
+<area shape="rect" id="Node000005" href="$classDigitalIOChannel.html" title="A digital I/O channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="614,178,746,203"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="445,436,457,388,479,327,513,265,535,237,561,213,586,199,613,191,614,196,588,204,564,217,539,240,517,268,484,329,462,389,450,437"/>
+<area shape="rect" id="Node000007" href="$classDigitalInputChannel.html" title="A digital input channel (GPIO, buffered mux path, etc)" alt="" coords="605,227,755,253"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="448,436,463,397,487,350,519,302,539,280,561,262,582,251,604,243,605,249,584,256,564,266,543,284,523,305,491,352,468,399,453,438"/>
+<area shape="rect" id="Node000009" href="$classDigitalOutputChannel.html" title="A digital output channel (GPIO, buffered switch matrix output, pattern generator output,..." alt="" coords="599,277,761,302"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="453,436,495,373,525,339,561,311,597,296,600,301,564,316,529,343,499,376,458,439"/>
+<area shape="rect" id="Node000011" href="$classFunctionGeneratorChannel.html" title="A single channel of a function generator." alt="" coords="583,326,777,351"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="462,438,505,398,532,377,562,360,592,349,594,354,564,365,535,382,508,402,465,442"/>
+<area shape="rect" id="Node000012" href="$classLoadChannel.html" title="A single channel of an active load." alt="" coords="627,375,733,401"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="480,442,562,409,626,394,627,399,563,415,482,447"/>
+<area shape="rect" id="Node000013" href="$classMultimeterChannel.html" title="A single channel of a multimeter." alt="" coords="607,425,753,450"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="528,451,606,442,607,448,529,456"/>
+<area shape="rect" id="Node000014" href="$classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="601,474,759,499"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="528,469,602,476,601,481,528,474"/>
+<area shape="rect" id="Node000239" href="$classPowerSupplyChannel.html" title="A single channel of a power supply." alt="" coords="601,523,759,549"/>
+<area shape="poly" id="edge43_Node000001_Node000239" title=" " alt="" coords="483,479,563,509,607,521,606,526,562,515,482,484"/>
+<area shape="rect" id="Node000240" href="$classRFSignalGeneratorChannel.html" title="A single channel of an RF signal generator." alt="" coords="581,573,779,598"/>
+<area shape="poly" id="edge44_Node000001_Node000240" title=" " alt="" coords="466,484,509,523,535,543,564,559,594,570,592,575,562,564,532,547,505,527,462,488"/>
+<area shape="rect" id="Node000241" href="$classSpectrometerDarkFrameChannel.html" title="A dark frame input for a spectrometer." alt="" coords="563,622,797,647"/>
+<area shape="poly" id="edge45_Node000001_Node000241" title=" " alt="" coords="458,486,499,548,529,581,564,608,588,619,585,624,561,613,526,585,495,552,453,489"/>
+<area shape="rect" id="Node000242" href="$classVIOInputChannel.html" title="A multi&#45;bit GPIO channel." alt="" coords="615,671,745,697"/>
+<area shape="poly" id="edge46_Node000001_Node000242" title=" " alt="" coords="453,488,468,526,492,573,524,619,543,640,564,658,588,670,615,678,613,683,586,675,561,662,539,644,519,623,487,576,463,529,448,490"/>
+<area shape="rect" id="Node000243" href="$classVIOOutputChannel.html" title="A multi&#45;bit GPIO channel." alt="" coords="609,721,751,746"/>
+<area shape="poly" id="edge47_Node000001_Node000243" title=" " alt="" coords="450,488,462,536,484,596,518,656,539,684,564,707,586,719,609,727,608,732,583,724,561,711,535,687,513,659,479,598,457,537,445,489"/>
+<area shape="rect" id="Node000244" href="$classVectorGPIOChannel.html" title="A multi&#45;bit GPIO interface that is exposed as a single channel with many streams." alt="" coords="605,770,755,795"/>
+<area shape="poly" id="edge48_Node000001_Node000244" title=" " alt="" coords="448,489,457,545,477,618,492,657,512,693,536,727,564,757,584,769,606,776,604,781,581,773,561,761,531,731,507,696,488,659,472,620,452,546,443,490"/>
+<area shape="rect" id="Node000002" href="$classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="193,450,320,475"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,460,367,460,367,465,334,465"/>
+<area shape="rect" id="Node000003" href="$classSerializableObject.html" title=" " alt="" coords="5,450,145,475"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,460,193,460,193,465,159,465"/>
+<area shape="rect" id="Node000006" href="$classBufferedSwitchMatrixIOChannel.html" title="Declaration of BufferedSwitchMatrixIOChannel." alt="" coords="845,163,1076,189"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="760,184,845,179,845,185,760,189"/>
+<area shape="rect" id="Node000008" href="$classBufferedSwitchMatrixInputChannel.html" title="Declaration of BufferedSwitchMatrixInputChannel." alt="" coords="863,213,1059,253"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="769,235,862,233,862,238,769,241"/>
+<area shape="rect" id="Node000010" href="$classBufferedSwitchMatrixOutputChannel.html" title="Declaration of BufferedSwitchMatrixOutputChannel." alt="" coords="857,277,1064,317"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="775,289,857,292,857,297,775,295"/>
+<area shape="rect" id="Node000015" href="$classAseqSpectrometerChannel.html" title="Helper class for creating output streams." alt="" coords="863,342,1058,367"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="770,473,796,459,812,440,819,419,826,397,844,377,864,365,867,370,847,381,830,400,824,421,817,443,799,463,773,477"/>
+<area shape="rect" id="Node000016" href="$classBERTInputChannel.html" title="A pattern checker channel of a BERT." alt="" coords="889,391,1032,417"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="771,468,796,459,820,442,844,426,888,412,890,417,847,430,823,447,799,464,773,473"/>
+<area shape="rect" id="Node000018" href="$classCANChannel.html" title="A filter or protocol analyzer channel which provides CAN bus data." alt="" coords="909,441,1012,466"/>
+<area shape="poly" id="edge17_Node000014_Node000018" title=" " alt="" coords="772,473,909,457,909,462,773,478"/>
+<area shape="rect" id="Node000019" href="$classComplexChannel.html" title="An OscilloscopeChannel storing complex&#45;valued data." alt="" coords="894,490,1027,515"/>
+<area shape="poly" id="edge18_Node000014_Node000019" title=" " alt="" coords="773,489,894,496,893,502,772,495"/>
+<area shape="rect" id="Node000020" href="$classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="933,539,988,565"/>
+<area shape="poly" id="edge19_Node000014_Node000020" title=" " alt="" coords="759,500,798,509,846,525,934,545,933,550,845,531,797,515,758,505"/>
+<area shape="rect" id="Node000237" href="$classSParameterChannel.html" title="An OscilloscopeChannel containing S&#45;parameter data in dB/degrees format." alt="" coords="885,589,1036,614"/>
+<area shape="poly" id="edge41_Node000014_Node000237" title=" " alt="" coords="773,497,799,510,815,526,824,544,831,560,847,575,886,591,884,596,844,580,827,563,819,546,811,529,796,514,771,502"/>
+<area shape="rect" id="Node000238" href="$classSpectrumChannel.html" title="A frequency domain oscilloscope channel." alt="" coords="892,638,1029,663"/>
+<area shape="poly" id="edge42_Node000014_Node000238" title=" " alt="" coords="773,495,799,510,812,524,819,539,824,569,828,598,835,612,847,625,868,637,893,645,891,650,866,642,844,629,831,615,823,600,819,570,814,541,808,527,796,514,771,500"/>
+<area shape="rect" id="Node000017" href="$classBERTInputChannelWithDataCapture.html" title="Input channel for a BERT that also supports CDR logic analyzer (raw serial bitstream capture) mode." alt="" coords="1124,5,1327,45"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="1044,396,1060,388,1074,377,1090,357,1100,338,1109,299,1107,260,1099,220,1091,180,1088,139,1097,98,1107,77,1122,56,1136,43,1139,47,1126,59,1111,79,1102,99,1094,139,1096,179,1104,219,1112,259,1115,300,1105,340,1094,360,1078,381,1063,392,1046,400"/>
+<area shape="rect" id="Node000021" href="$classACCoupleFilter.html" title=" " alt="" coords="1167,70,1284,95"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="1001,552,1041,546,1059,538,1074,526,1094,500,1107,475,1114,449,1117,423,1111,371,1098,319,1085,266,1079,212,1081,186,1089,159,1102,132,1122,105,1142,90,1165,82,1167,87,1145,95,1126,109,1107,135,1094,161,1087,186,1084,212,1090,265,1103,317,1117,370,1122,423,1119,450,1112,477,1098,503,1078,530,1062,543,1042,551,1002,557"/>
+<area shape="rect" id="Node000022" href="$classACRMSMeasurement.html" title=" " alt="" coords="1146,119,1305,145"/>
+<area shape="poly" id="edge21_Node000020_Node000022" title=" " alt="" coords="1001,552,1041,546,1059,538,1074,526,1092,504,1104,481,1110,458,1113,436,1109,390,1098,343,1087,296,1083,249,1085,225,1092,202,1104,178,1122,154,1144,139,1147,143,1126,158,1109,181,1097,204,1091,226,1088,249,1092,295,1103,342,1114,389,1118,436,1116,459,1108,483,1096,506,1078,530,1061,543,1042,551,1002,557"/>
+<area shape="rect" id="Node000023" href="$classADL5205Decoder.html" title=" " alt="" coords="1158,169,1293,194"/>
+<area shape="poly" id="edge22_Node000020_Node000023" title=" " alt="" coords="1001,552,1040,546,1059,538,1074,526,1090,507,1100,487,1109,448,1106,408,1098,368,1089,327,1087,286,1095,245,1106,224,1122,203,1138,191,1157,183,1159,188,1141,196,1126,207,1111,227,1100,246,1092,286,1095,326,1103,367,1112,407,1114,448,1105,489,1094,510,1078,530,1061,543,1042,551,1002,557"/>
+<area shape="rect" id="Node000024" href="$classAddFilter.html" title=" " alt="" coords="1186,218,1265,243"/>
+<area shape="poly" id="edge23_Node000020_Node000024" title=" " alt="" coords="1001,552,1040,546,1058,538,1074,526,1097,493,1105,460,1104,427,1098,392,1092,358,1090,323,1099,288,1122,253,1136,242,1152,234,1185,228,1186,233,1154,239,1139,246,1126,256,1104,290,1096,323,1097,357,1103,391,1109,426,1110,461,1102,496,1078,530,1061,543,1042,551,1002,557"/>
+<area shape="rect" id="Node000025" href="$classAreaMeasurement.html" title=" " alt="" coords="1154,267,1297,293"/>
+<area shape="poly" id="edge24_Node000020_Node000025" title=" " alt="" coords="1002,551,1040,545,1059,538,1074,526,1093,500,1101,473,1101,445,1098,417,1094,388,1094,359,1102,330,1122,302,1136,291,1153,284,1155,289,1139,296,1126,306,1107,333,1099,360,1099,388,1103,416,1107,445,1107,473,1098,502,1078,530,1061,542,1042,550,1002,557"/>
+<area shape="rect" id="Node000026" href="$classAutocorrelationFilter.html" title=" " alt="" coords="1148,317,1303,342"/>
+<area shape="poly" id="edge25_Node000020_Node000026" title=" " alt="" coords="1001,551,1040,545,1058,537,1074,526,1090,506,1097,485,1098,441,1098,396,1105,373,1122,351,1146,336,1149,341,1126,355,1110,376,1103,397,1103,441,1103,486,1095,508,1078,530,1061,542,1041,550,1002,556"/>
+<area shape="rect" id="Node000027" href="$classAverageFilter.html" title=" " alt="" coords="1171,366,1279,391"/>
+<area shape="poly" id="edge26_Node000020_Node000027" title=" " alt="" coords="1001,550,1039,544,1058,537,1074,526,1087,512,1094,497,1098,465,1101,433,1109,416,1122,401,1145,387,1170,379,1172,384,1147,392,1126,405,1113,419,1107,434,1103,466,1099,498,1091,515,1078,530,1060,541,1041,549,1002,555"/>
+<area shape="rect" id="Node000028" href="$classBandwidthMeasurement.html" title=" " alt="" coords="1135,415,1316,441"/>
+<area shape="poly" id="edge27_Node000020_Node000028" title=" " alt="" coords="1001,549,1039,542,1074,526,1090,508,1098,489,1105,469,1122,450,1144,438,1146,443,1126,454,1110,472,1103,491,1095,511,1078,530,1040,547,1002,554"/>
+<area shape="rect" id="Node000029" href="$classBaseMeasurement.html" title=" " alt="" coords="1153,465,1297,490"/>
+<area shape="poly" id="edge28_Node000020_Node000029" title=" " alt="" coords="1001,544,1075,526,1099,513,1123,500,1163,488,1165,493,1125,505,1101,518,1077,530,1003,549"/>
+<area shape="rect" id="Node000030" href="$classBurstWidthMeasurement.html" title=" " alt="" coords="1133,514,1317,539"/>
+<area shape="poly" id="edge29_Node000020_Node000030" title=" " alt="" coords="1001,546,1133,533,1134,538,1002,551"/>
+<area shape="rect" id="Node000031" href="$classBusHeatmapFilter.html" title=" " alt="" coords="1156,563,1295,589"/>
+<area shape="poly" id="edge30_Node000020_Node000031" title=" " alt="" coords="1002,553,1156,567,1155,572,1001,558"/>
+<area shape="rect" id="Node000032" href="$classCANBitmaskFilter.html" title=" " alt="" coords="1157,613,1293,638"/>
+<area shape="poly" id="edge31_Node000020_Node000032" title=" " alt="" coords="1003,556,1077,575,1101,587,1125,599,1162,610,1161,615,1123,604,1099,592,1075,580,1001,561"/>
+<area shape="rect" id="Node000033" href="$classCTLEFilter.html" title=" " alt="" coords="1182,662,1269,687"/>
+<area shape="poly" id="edge32_Node000020_Node000033" title=" " alt="" coords="1002,551,1040,558,1078,575,1095,594,1103,613,1110,631,1126,649,1153,662,1182,669,1181,674,1151,667,1122,653,1105,634,1098,615,1090,596,1074,579,1039,563,1001,556"/>
+<area shape="rect" id="Node000034" href="$classClipFilter.html" title=" " alt="" coords="1186,711,1265,737"/>
+<area shape="poly" id="edge33_Node000020_Node000034" title=" " alt="" coords="1002,549,1041,556,1060,564,1078,575,1091,590,1099,606,1103,638,1107,669,1113,684,1126,698,1155,714,1187,721,1185,726,1153,719,1122,702,1109,687,1102,671,1097,639,1093,608,1087,593,1074,579,1058,569,1039,561,1001,554"/>
+<area shape="rect" id="Node000035" href="$classClockRecoveryFilter.html" title=" " alt="" coords="1150,761,1301,786"/>
+<area shape="poly" id="edge34_Node000020_Node000035" title=" " alt="" coords="1002,548,1041,555,1061,563,1078,575,1095,597,1102,619,1103,663,1103,706,1110,727,1126,747,1151,763,1149,767,1122,751,1106,730,1098,707,1098,663,1097,620,1090,599,1074,579,1058,568,1040,560,1001,554"/>
+<area shape="rect" id="Node000036" href="$classConstantFilter.html" title=" " alt="" coords="1169,810,1281,835"/>
+<area shape="poly" id="edge35_Node000020_Node000036" title=" " alt="" coords="1003,548,1042,555,1061,563,1078,575,1098,603,1106,632,1106,660,1103,688,1099,716,1099,743,1107,770,1126,797,1146,811,1170,818,1168,823,1144,815,1122,801,1102,773,1094,744,1094,716,1098,687,1101,660,1101,632,1093,606,1074,579,1059,568,1040,560,1002,553"/>
+<area shape="rect" id="Node000037" href="$classConstellationFilter.html" title=" " alt="" coords="1155,859,1295,885"/>
+<area shape="poly" id="edge36_Node000020_Node000037" title=" " alt="" coords="1002,548,1042,554,1061,563,1078,575,1101,610,1110,644,1109,679,1103,713,1097,747,1096,780,1104,813,1126,846,1140,857,1156,864,1154,869,1137,861,1122,850,1099,816,1090,781,1092,746,1098,712,1104,678,1105,645,1096,612,1074,579,1059,567,1040,559,1001,553"/>
+<area shape="rect" id="Node000038" href="$classCouplerDeEmbedFilter.html" title=" " alt="" coords="1142,909,1309,934"/>
+<area shape="poly" id="edge37_Node000020_Node000038" title=" " alt="" coords="1002,548,1042,554,1061,563,1078,575,1094,596,1105,616,1114,657,1111,697,1103,738,1095,778,1092,817,1101,857,1111,876,1126,895,1143,909,1140,913,1122,899,1106,879,1096,858,1087,818,1089,777,1098,736,1106,696,1109,657,1100,618,1089,599,1074,579,1059,567,1040,559,1001,553"/>
+<area shape="rect" id="Node000039" href="$classCurrentShuntFilter.html" title=" " alt="" coords="1156,958,1295,983"/>
+<area shape="poly" id="edge38_Node000020_Node000039" title=" " alt="" coords="1002,547,1042,554,1061,562,1078,575,1096,599,1108,622,1115,646,1118,669,1114,716,1103,762,1092,808,1088,854,1091,877,1097,899,1109,922,1126,945,1140,956,1157,963,1155,968,1137,961,1122,949,1104,925,1092,901,1085,878,1083,854,1087,808,1098,761,1108,715,1112,669,1110,647,1103,624,1091,602,1074,579,1059,567,1041,559,1001,553"/>
+<area shape="rect" id="Node000040" href="$classDCDMeasurement.html" title=" " alt="" coords="1155,1007,1296,1033"/>
+<area shape="poly" id="edge39_Node000020_Node000040" title=" " alt="" coords="1002,547,1042,554,1062,562,1078,575,1098,602,1111,629,1119,655,1122,682,1116,734,1103,787,1090,839,1084,891,1087,917,1094,943,1107,968,1126,994,1139,1005,1156,1012,1153,1017,1136,1010,1122,998,1102,971,1089,944,1082,918,1079,891,1085,838,1098,786,1111,734,1116,682,1114,656,1106,630,1094,605,1074,579,1059,567,1041,559,1002,553"/>
+<area shape="rect" id="Node000041" href="$classDDJMeasurement.html" title=" " alt="" coords="1157,1057,1293,1082"/>
+<area shape="poly" id="edge40_Node000020_Node000041" title=" " alt="" coords="1002,547,1042,554,1062,562,1078,575,1100,605,1115,635,1123,665,1125,694,1119,753,1103,812,1088,870,1081,928,1083,957,1091,986,1105,1014,1126,1043,1140,1055,1158,1063,1156,1068,1138,1060,1122,1047,1100,1017,1086,987,1078,958,1075,928,1082,869,1098,810,1113,752,1120,694,1118,666,1110,637,1096,608,1074,579,1059,567,1041,559,1002,553"/>
 </map>

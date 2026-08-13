@@ -1,7 +1,13 @@
 <map id="Stream" name="Stream">
-<area shape="rect" id="node1" title="Information associated with a single stream." alt="" coords="54,303,123,329"/>
-<area shape="rect" id="node2" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="5,213,55,240"/>
-<area shape="rect" id="node3" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="87,213,210,240"/>
-<area shape="rect" id="node4" href="$classAcceleratorBuffer.html" title=" " alt="" coords="75,109,222,151"/>
-<area shape="rect" id="node5" href="$classAlignedAllocator.html" title=" " alt="" coords="56,5,241,47"/>
+<area shape="rect" id="Node000001" title="Information associated with a single stream." alt="" coords="95,299,164,324"/>
+<area shape="rect" id="Node000002" href="$classUnit.html" title="A unit of measurement, plus conversion to pretty&#45;printed output." alt="" coords="46,211,95,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,249,74,273,86,286,101,296,98,301,82,290,70,276,64,251"/>
+<area shape="rect" id="Node000003" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="128,211,251,236"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,250,162,276,143,300,139,296,158,273,174,247"/>
+<area shape="rect" id="Node000004" href="$classAcceleratorBuffer.html" title=" " alt="" coords="116,108,263,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="192,162,192,210,187,210,187,162"/>
+<area shape="rect" id="Node000005" href="$classAcceleratorBufferBase.html" title="Base class for AcceleratorBuffer storing common metadata used by all derived types." alt="" coords="5,13,173,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="112,46,172,106,169,110,108,50"/>
+<area shape="rect" id="Node000006" href="$classAlignedAllocator.html" title=" " alt="" coords="198,5,383,45"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="264,57,210,110,206,106,260,53"/>
 </map>
