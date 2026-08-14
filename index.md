@@ -13,7 +13,7 @@ layout: default
 
 <figure>
 <img src="images/ngscopeclient-intro.png" alt="Filter graph example screenshot"/>
-<figcaption style='font-style:italic'>Using ngscopeclient to do protocol decoding and signal integrity analysis of a 5 Gbps QSGMII link</figcaption>
+<figcaption style='font-style:italic'>Using ngscopeclient to do protocol decoding and signal integrity analysis of a 5 Gbps PCIe gen2 link</figcaption>
 </figure>
 
 # News
