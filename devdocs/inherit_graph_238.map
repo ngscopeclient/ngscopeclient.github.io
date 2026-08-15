@@ -1,5 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classScratchBufferBase.html" title=" " alt="" coords="5,5,148,31"/>
-<area shape="rect" id="Node000001" href="$classScratchBuffer.html" title="RAII helper for allocations." alt="" coords="196,5,367,31"/>
-<area shape="poly" id="edge525_Node000000_Node000001" title=" " alt="" coords="162,15,196,15,196,21,162,21"/>
+<area shape="rect" id="Node000000" href="$classSCPITransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="5,129,117,155"/>
+<area shape="rect" id="Node000001" href="$classSCPIHIDTransport.html" title="Transport for instruments attached via USB HID." alt="" coords="175,5,311,31"/>
+<area shape="poly" id="edge518_Node000000_Node000001" title=" " alt="" coords="79,117,116,77,164,40,189,28,191,33,167,44,119,81,83,120"/>
+<area shape="rect" id="Node000002" href="$classSCPINullTransport.html" title="Dummy SCPITransport for demo scope etc." alt="" coords="174,55,313,80"/>
+<area shape="poly" id="edge519_Node000000_Node000002" title=" " alt="" coords="97,121,164,89,197,77,198,83,166,94,99,125"/>
+<area shape="rect" id="Node000003" href="$classSCPISocketTransport.html" title="Transport that moves SCPI data over a single TCP socket with no framing." alt="" coords="166,104,321,129"/>
+<area shape="poly" id="edge520_Node000000_Node000003" title=" " alt="" coords="131,130,165,125,166,130,131,135"/>
+<area shape="rect" id="Node000005" href="$classSCPITMCTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="173,153,314,179"/>
+<area shape="poly" id="edge522_Node000000_Node000005" title=" " alt="" coords="131,148,173,154,172,159,130,154"/>
+<area shape="rect" id="Node000006" href="$classSCPIUARTTransport.html" title="Abstraction of a transport layer for moving SCPI data between endpoints." alt="" coords="169,203,317,228"/>
+<area shape="poly" id="edge523_Node000000_Node000006" title=" " alt="" coords="101,158,166,188,201,200,199,205,164,192,99,163"/>
+<area shape="rect" id="Node000007" href="$classVICPSocketTransport.html" title="A SCPI transport tunneled over LeCroy&#39;s Virtual Instrument Control Protocol." alt="" coords="165,252,321,277"/>
+<area shape="poly" id="edge524_Node000000_Node000007" title=" " alt="" coords="84,164,120,201,167,237,194,250,192,254,164,242,117,205,80,168"/>
+<area shape="rect" id="Node000004" href="$classSCPITwinLanTransport.html" title="A SCPISocketTransport plus a second socket for waveform data." alt="" coords="369,104,533,129"/>
+<area shape="poly" id="edge521_Node000003_Node000004" title=" " alt="" coords="334,114,369,114,369,119,334,119"/>
 </map>

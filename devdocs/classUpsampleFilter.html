@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.1</span>
    </div>
   </td>
  </tr>
@@ -897,6 +897,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3616e983371d67e06b4101646131247b" id="r_a3616e983371d67e06b4101646131247b"><td class="memItemLeft" align="right" valign="top"><a id="a3616e983371d67e06b4101646131247b" name="a3616e983371d67e06b4101646131247b"></a>
 <a class="el" href="classComputePipeline.html">ComputePipeline</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_computePipeline</b></td></tr>
 <tr class="separator:a3616e983371d67e06b4101646131247b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a275116432ba6b6ebf44abff18b11c831" id="r_a275116432ba6b6ebf44abff18b11c831"><td class="memItemLeft" align="right" valign="top"><a id="a275116432ba6b6ebf44abff18b11c831" name="a275116432ba6b6ebf44abff18b11c831"></a>
+<a class="el" href="classAcceleratorBufferIterator.html">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastKernel</b></td></tr>
+<tr class="separator:a275116432ba6b6ebf44abff18b11c831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac856d35040933c9fbbb86a3fa4e952aa" id="r_ac856d35040933c9fbbb86a3fa4e952aa"><td class="memItemLeft" align="right" valign="top"><a id="ac856d35040933c9fbbb86a3fa4e952aa" name="ac856d35040933c9fbbb86a3fa4e952aa"></a>
+<a class="el" href="classAcceleratorBufferIterator.html">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastUpsampleFactor</b></td></tr>
+<tr class="separator:ac856d35040933c9fbbb86a3fa4e952aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classFilter"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classFilter')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classFilter.html">Filter</a></td></tr>
 <tr class="memitem:a7cd7b815e4b128f515519914ee4c3f25 inherit pro_attribs_classFilter" id="r_a7cd7b815e4b128f515519914ee4c3f25"><td class="memItemLeft" align="right" valign="top">
 std::vector&lt; <a class="el" href="classAcceleratorBufferIterator.html">float</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_ranges</b></td></tr>
@@ -1049,10 +1055,14 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a37a48677eded5e43a82670036ee53749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum values to be mapped to <a class="el" href="classInstrumentChannel.html#a38b65374eb7c7637c92fdc2414a1c6de" title="Returns the current download state of this channel.">GetDownloadState()</a> int result value for specific channel download states.  <a href="classInstrumentChannel.html#a37a48677eded5e43a82670036ee53749">More...</a><br /></td></tr>
 <tr class="separator:a37a48677eded5e43a82670036ee53749 inherit pub_types_classInstrumentChannel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classFlowGraphNode"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classFlowGraphNode')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classFlowGraphNode.html">FlowGraphNode</a></td></tr>
-<tr class="memitem:ac933f7758e126098c7166adcd161955c inherit pub_types_classFlowGraphNode" id="r_ac933f7758e126098c7166adcd161955c"><td class="memItemLeft" align="right" valign="top"><a id="ac933f7758e126098c7166adcd161955c" name="ac933f7758e126098c7166adcd161955c"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>ExecutionCapabilities</b> { <b>None</b> = 0
+<tr class="memitem:ac933f7758e126098c7166adcd161955c inherit pub_types_classFlowGraphNode" id="r_ac933f7758e126098c7166adcd161955c"><td class="memItemLeft" align="right" valign="top"><a id="ac933f7758e126098c7166adcd161955c" name="ac933f7758e126098c7166adcd161955c"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>ExecutionCapabilities</b> { <br />
+&#160;&#160;<b>None</b> = 0
 , <b>CommandBufferAppend</b> = 1
 , <b>CommandBufferTailCall</b> = 2
 , <b>VulkanOnly</b> = 4
+, <br />
+&#160;&#160;<b>DynamicShader</b> = 8
+<br />
  }</td></tr>
 <tr class="separator:ac933f7758e126098c7166adcd161955c inherit pub_types_classFlowGraphNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3eeb4c818334b6364a1068980633418 inherit pub_types_classFlowGraphNode" id="r_aa3eeb4c818334b6364a1068980633418"><td class="memItemLeft" align="right" valign="top">

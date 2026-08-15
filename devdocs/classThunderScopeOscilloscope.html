@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.1</span>
    </div>
   </td>
  </tr>
@@ -673,8 +673,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a451c7c753ba5bfb30dc0e418dc6e6c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a991451eb8768cf1aeb018390b377a85f" id="r_a991451eb8768cf1aeb018390b377a85f"><td class="memItemLeft" align="right" valign="top"><a id="a991451eb8768cf1aeb018390b377a85f" name="a991451eb8768cf1aeb018390b377a85f"></a>
 <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PushPendingWaveformsIfReady</b> ()</td></tr>
-<tr class="memdesc:a991451eb8768cf1aeb018390b377a85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for waveform conversion to finish, then push it to the pending waveforms buffer. <br /></td></tr>
+<tr class="memdesc:a991451eb8768cf1aeb018390b377a85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait up to 1ms for waveform conversion to finish, then push it to the pending waveforms buffer. <br /></td></tr>
 <tr class="separator:a991451eb8768cf1aeb018390b377a85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af344372f0c649ab38de412078278d4c3" id="r_af344372f0c649ab38de412078278d4c3"><td class="memItemLeft" align="right" valign="top"><a id="af344372f0c649ab38de412078278d4c3" name="af344372f0c649ab38de412078278d4c3"></a>
+<a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FlushAllPendingWaveforms</b> ()</td></tr>
+<tr class="memdesc:af344372f0c649ab38de412078278d4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure all pending waveforms have been processed. <br /></td></tr>
+<tr class="separator:af344372f0c649ab38de412078278d4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d335ad86adf0a62b5ab3a6be06b10a2" id="r_a9d335ad86adf0a62b5ab3a6be06b10a2"><td class="memItemLeft" align="right" valign="top"><a id="a9d335ad86adf0a62b5ab3a6be06b10a2" name="a9d335ad86adf0a62b5ab3a6be06b10a2"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetChannelColor</b> (<a class="el" href="classAcceleratorBufferIterator.html">size_t</a> <a class="el" href="classAcceleratorBufferIterator.html">i</a>)</td></tr>
 <tr class="memdesc:a9d335ad86adf0a62b5ab3a6be06b10a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color the channels based on our standard color sequence (blue-red-green-yellow) <br /></td></tr>

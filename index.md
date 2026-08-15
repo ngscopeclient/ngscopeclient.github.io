@@ -18,6 +18,7 @@ layout: default
 
 # News
 
+* 2026-08-15: [Version 0.2.1 released](/news/2026-08-15-v0p2p1-release.html)
 * 2026-08-13: [Version 0.2 released](/news/2026-08-13-v0p2-release.html)
 * 2025-12-31: [Version 0.1.1 released](/news/2025-12-31-v0p1p1-release.html)
 * 2025-09-11: [Version 0.1 released](/news/2025-09-11-v0p1-release.html)
