@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
    </div>
   </td>
  </tr>
@@ -84,20 +84,32 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a14131162cc6a6325efd87e7795ceeec7" id="r_a14131162cc6a6325efd87e7795ceeec7"><td class="memItemLeft" align="right" valign="top"><a id="a14131162cc6a6325efd87e7795ceeec7" name="a14131162cc6a6325efd87e7795ceeec7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>FusibleShader</b> (<a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;<a class="el" href="classAcceleratorBufferIterator.html">shaderFile</a>)</td></tr>
-<tr class="separator:a14131162cc6a6325efd87e7795ceeec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7c4c30ef00d353faf6fa9fa3376a77" id="r_aba7c4c30ef00d353faf6fa9fa3376a77"><td class="memItemLeft" align="right" valign="top"><a id="aba7c4c30ef00d353faf6fa9fa3376a77" name="aba7c4c30ef00d353faf6fa9fa3376a77"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FusibleShader</b> (<a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;<a class="el" href="classAcceleratorBufferIterator.html">shaderFile</a>, <a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;name)</td></tr>
+<tr class="separator:aba7c4c30ef00d353faf6fa9fa3376a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a0471212c88dc986da4b3bec195eaaeec" id="r_a0471212c88dc986da4b3bec195eaaeec"><td class="memItemLeft" align="right" valign="top"><a id="a0471212c88dc986da4b3bec195eaaeec" name="a0471212c88dc986da4b3bec195eaaeec"></a>
+std::vector&lt; <a class="el" href="classShaderInputInfo.html">ShaderInputInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_inputs</b></td></tr>
+<tr class="memdesc:a0471212c88dc986da4b3bec195eaaeec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inputs we need for this shader. <br /></td></tr>
+<tr class="separator:a0471212c88dc986da4b3bec195eaaeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22a67051d9c53a29c9999ca64adcc93f" id="r_a22a67051d9c53a29c9999ca64adcc93f"><td class="memItemLeft" align="right" valign="top"><a id="a22a67051d9c53a29c9999ca64adcc93f" name="a22a67051d9c53a29c9999ca64adcc93f"></a>
 std::vector&lt; <a class="el" href="classPushConstantInfo.html">PushConstantInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_pushConstants</b></td></tr>
 <tr class="memdesc:a22a67051d9c53a29c9999ca64adcc93f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push constants we need for this shader. <br /></td></tr>
 <tr class="separator:a22a67051d9c53a29c9999ca64adcc93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8901f03cb1a0deaf6b287ef0bb9b9178" id="r_a8901f03cb1a0deaf6b287ef0bb9b9178"><td class="memItemLeft" align="right" valign="top"><a id="a8901f03cb1a0deaf6b287ef0bb9b9178" name="a8901f03cb1a0deaf6b287ef0bb9b9178"></a>
+std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_extensions</b></td></tr>
+<tr class="memdesc:a8901f03cb1a0deaf6b287ef0bb9b9178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extensions we require. <br /></td></tr>
+<tr class="separator:a8901f03cb1a0deaf6b287ef0bb9b9178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80a4f94c9c552b4e2ff089c5caaf7a6b" id="r_a80a4f94c9c552b4e2ff089c5caaf7a6b"><td class="memItemLeft" align="right" valign="top"><a id="a80a4f94c9c552b4e2ff089c5caaf7a6b" name="a80a4f94c9c552b4e2ff089c5caaf7a6b"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_glslSource</b></td></tr>
 <tr class="memdesc:a80a4f94c9c552b4e2ff089c5caaf7a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">GLSL source for the module. <br /></td></tr>
 <tr class="separator:a80a4f94c9c552b4e2ff089c5caaf7a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1257aba6c6847c2d19750c9968953763" id="r_a1257aba6c6847c2d19750c9968953763"><td class="memItemLeft" align="right" valign="top"><a id="a1257aba6c6847c2d19750c9968953763" name="a1257aba6c6847c2d19750c9968953763"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_name</b></td></tr>
+<tr class="memdesc:a1257aba6c6847c2d19750c9968953763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Human readable name for the kernel. <br /></td></tr>
+<tr class="separator:a1257aba6c6847c2d19750c9968953763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data for a generic shader kernel that can be fused with others to form a complete compute pipeline. </p>

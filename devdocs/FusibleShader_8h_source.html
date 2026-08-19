@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
    </div>
   </td>
  </tr>
@@ -114,10 +114,10 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define FusibleShader_h</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="foldopen" id="foldopen00039" data-start="{" data-end="};">
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classPushConstantInfo.html">   39</a></span><span class="keyword">class </span><a class="code hl_class" href="classPushConstantInfo.html">PushConstantInfo</a></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classShaderInputInfo.html">   39</a></span><span class="keyword">class </span><a class="code hl_class" href="classShaderInputInfo.html">ShaderInputInfo</a></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_class" href="classPushConstantInfo.html">PushConstantInfo</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">t</a>, <span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">n</a>)</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_class" href="classShaderInputInfo.html">ShaderInputInfo</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">t</a>, <span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">n</a>)</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        : m_type(<a class="code hl_class" href="classAcceleratorBufferIterator.html">t</a>)</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        , m_name(<a class="code hl_class" href="classAcceleratorBufferIterator.html">n</a>)</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    {}</div>
@@ -127,25 +127,52 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
 </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="foldopen" id="foldopen00054" data-start="{" data-end="};">
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classFusibleShader.html">   54</a></span><span class="keyword">class </span><a class="code hl_class" href="classFusibleShader.html">FusibleShader</a></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>{</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_class" href="classFusibleShader.html">FusibleShader</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">shaderFile</a>)</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    {}</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="classFusibleShader.html#a22a67051d9c53a29c9999ca64adcc93f">   61</a></span>    std::vector&lt;PushConstantInfo&gt; <a class="code hl_variable" href="classFusibleShader.html#a22a67051d9c53a29c9999ca64adcc93f">m_pushConstants</a>;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classFusibleShader.html#a80a4f94c9c552b4e2ff089c5caaf7a6b">   64</a></span>    std::string <a class="code hl_variable" href="classFusibleShader.html#a80a4f94c9c552b4e2ff089c5caaf7a6b">m_glslSource</a>;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
+<div class="foldopen" id="foldopen00051" data-start="{" data-end="};">
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classPushConstantInfo.html">   51</a></span><span class="keyword">class </span><a class="code hl_class" href="classPushConstantInfo.html">PushConstantInfo</a></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>{</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_class" href="classPushConstantInfo.html">PushConstantInfo</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">t</a>, <span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">n</a>)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        : m_type(<a class="code hl_class" href="classAcceleratorBufferIterator.html">t</a>)</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        , m_name(<a class="code hl_class" href="classAcceleratorBufferIterator.html">n</a>)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    {}</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    std::string m_type;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::string m_name;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
 </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="foldopen" id="foldopen00066" data-start="{" data-end="};">
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classFusibleShader.html">   66</a></span><span class="keyword">class </span><a class="code hl_class" href="classFusibleShader.html">FusibleShader</a></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>{</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <a class="code hl_class" href="classFusibleShader.html">FusibleShader</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">shaderFile</a>, <span class="keyword">const</span> std::string&amp; name)</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        : <a class="code hl_variable" href="classFusibleShader.html#a80a4f94c9c552b4e2ff089c5caaf7a6b">m_glslSource</a>(<a class="code hl_function" href="scopehal_8cpp.html#af703c8f32d8c5b0e4c943c59df831ec6">ReadDataFile</a>(std::string(<span class="stringliteral">&quot;shaderfusion/&quot;</span>) + <a class="code hl_class" href="classAcceleratorBufferIterator.html">shaderFile</a>))</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        , <a class="code hl_variable" href="classFusibleShader.html#a1257aba6c6847c2d19750c9968953763">m_name</a>(name)</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {}</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classFusibleShader.html#a0471212c88dc986da4b3bec195eaaeec">   75</a></span>    std::vector&lt;ShaderInputInfo&gt; <a class="code hl_variable" href="classFusibleShader.html#a0471212c88dc986da4b3bec195eaaeec">m_inputs</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classFusibleShader.html#a22a67051d9c53a29c9999ca64adcc93f">   78</a></span>    std::vector&lt;PushConstantInfo&gt; <a class="code hl_variable" href="classFusibleShader.html#a22a67051d9c53a29c9999ca64adcc93f">m_pushConstants</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classFusibleShader.html#a8901f03cb1a0deaf6b287ef0bb9b9178">   81</a></span>    std::set&lt;std::string&gt; <a class="code hl_variable" href="classFusibleShader.html#a8901f03cb1a0deaf6b287ef0bb9b9178">m_extensions</a>;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classFusibleShader.html#a80a4f94c9c552b4e2ff089c5caaf7a6b">   84</a></span>    std::string <a class="code hl_variable" href="classFusibleShader.html#a80a4f94c9c552b4e2ff089c5caaf7a6b">m_glslSource</a>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="classFusibleShader.html#a1257aba6c6847c2d19750c9968953763">   87</a></span>    std::string <a class="code hl_variable" href="classFusibleShader.html#a1257aba6c6847c2d19750c9968953763">m_name</a>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>};</div>
+</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassAcceleratorBufferIterator_html"><div class="ttname"><a href="classAcceleratorBufferIterator.html">AcceleratorBufferIterator</a></div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:204</div></div>
-<div class="ttc" id="aclassFusibleShader_html"><div class="ttname"><a href="classFusibleShader.html">FusibleShader</a></div><div class="ttdoc">Data for a generic shader kernel that can be fused with others to form a complete compute pipeline.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:55</div></div>
-<div class="ttc" id="aclassFusibleShader_html_a22a67051d9c53a29c9999ca64adcc93f"><div class="ttname"><a href="classFusibleShader.html#a22a67051d9c53a29c9999ca64adcc93f">FusibleShader::m_pushConstants</a></div><div class="ttdeci">std::vector&lt; PushConstantInfo &gt; m_pushConstants</div><div class="ttdoc">Push constants we need for this shader.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:61</div></div>
-<div class="ttc" id="aclassFusibleShader_html_a80a4f94c9c552b4e2ff089c5caaf7a6b"><div class="ttname"><a href="classFusibleShader.html#a80a4f94c9c552b4e2ff089c5caaf7a6b">FusibleShader::m_glslSource</a></div><div class="ttdeci">std::string m_glslSource</div><div class="ttdoc">GLSL source for the module.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:64</div></div>
-<div class="ttc" id="aclassPushConstantInfo_html"><div class="ttname"><a href="classPushConstantInfo.html">PushConstantInfo</a></div><div class="ttdef"><b>Definition</b> FusibleShader.h:40</div></div>
+<div class="ttc" id="aclassFusibleShader_html"><div class="ttname"><a href="classFusibleShader.html">FusibleShader</a></div><div class="ttdoc">Data for a generic shader kernel that can be fused with others to form a complete compute pipeline.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:67</div></div>
+<div class="ttc" id="aclassFusibleShader_html_a0471212c88dc986da4b3bec195eaaeec"><div class="ttname"><a href="classFusibleShader.html#a0471212c88dc986da4b3bec195eaaeec">FusibleShader::m_inputs</a></div><div class="ttdeci">std::vector&lt; ShaderInputInfo &gt; m_inputs</div><div class="ttdoc">Inputs we need for this shader.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:75</div></div>
+<div class="ttc" id="aclassFusibleShader_html_a1257aba6c6847c2d19750c9968953763"><div class="ttname"><a href="classFusibleShader.html#a1257aba6c6847c2d19750c9968953763">FusibleShader::m_name</a></div><div class="ttdeci">std::string m_name</div><div class="ttdoc">Human readable name for the kernel.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:87</div></div>
+<div class="ttc" id="aclassFusibleShader_html_a22a67051d9c53a29c9999ca64adcc93f"><div class="ttname"><a href="classFusibleShader.html#a22a67051d9c53a29c9999ca64adcc93f">FusibleShader::m_pushConstants</a></div><div class="ttdeci">std::vector&lt; PushConstantInfo &gt; m_pushConstants</div><div class="ttdoc">Push constants we need for this shader.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:78</div></div>
+<div class="ttc" id="aclassFusibleShader_html_a80a4f94c9c552b4e2ff089c5caaf7a6b"><div class="ttname"><a href="classFusibleShader.html#a80a4f94c9c552b4e2ff089c5caaf7a6b">FusibleShader::m_glslSource</a></div><div class="ttdeci">std::string m_glslSource</div><div class="ttdoc">GLSL source for the module.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:84</div></div>
+<div class="ttc" id="aclassFusibleShader_html_a8901f03cb1a0deaf6b287ef0bb9b9178"><div class="ttname"><a href="classFusibleShader.html#a8901f03cb1a0deaf6b287ef0bb9b9178">FusibleShader::m_extensions</a></div><div class="ttdeci">std::set&lt; std::string &gt; m_extensions</div><div class="ttdoc">Extensions we require.</div><div class="ttdef"><b>Definition</b> FusibleShader.h:81</div></div>
+<div class="ttc" id="aclassPushConstantInfo_html"><div class="ttname"><a href="classPushConstantInfo.html">PushConstantInfo</a></div><div class="ttdef"><b>Definition</b> FusibleShader.h:52</div></div>
+<div class="ttc" id="aclassShaderInputInfo_html"><div class="ttname"><a href="classShaderInputInfo.html">ShaderInputInfo</a></div><div class="ttdef"><b>Definition</b> FusibleShader.h:40</div></div>
+<div class="ttc" id="ascopehal_8cpp_html_af703c8f32d8c5b0e4c943c59df831ec6"><div class="ttname"><a href="scopehal_8cpp.html#af703c8f32d8c5b0e4c943c59df831ec6">ReadDataFile</a></div><div class="ttdeci">string ReadDataFile(const string &amp;relpath)</div><div class="ttdoc">Locates and returns the contents of a data file as a std::string.</div><div class="ttdef"><b>Definition</b> scopehal.cpp:863</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

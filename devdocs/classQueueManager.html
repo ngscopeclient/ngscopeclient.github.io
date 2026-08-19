@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
    </div>
   </td>
  </tr>
@@ -70,7 +70,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -84,11 +83,6 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="QueueManager_8h_source.html">QueueManager.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQueueManager_1_1QueueInfo.html">QueueInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a170d878188505a46966c964688f755cb" id="r_a170d878188505a46966c964688f755cb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueManager.html#a170d878188505a46966c964688f755cb">QueuePoolID</a> { <br />
@@ -109,16 +103,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff87a80baafd18160929d32e0e166d88" id="r_aff87a80baafd18160929d32e0e166d88"><td class="memItemLeft" align="right" valign="top"><a id="aff87a80baafd18160929d32e0e166d88" name="aff87a80baafd18160929d32e0e166d88"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>QueueManager</b> (vk::raii::PhysicalDevice *<a class="el" href="classAcceleratorBufferIterator.html">phys</a>, std::shared_ptr&lt; vk::raii::Device &gt; <a class="el" href="classAcceleratorBufferIterator.html">device</a>)</td></tr>
 <tr class="separator:aff87a80baafd18160929d32e0e166d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e7ad3805314dba956724814d37bd1c7" id="r_a3e7ad3805314dba956724814d37bd1c7"><td class="memItemLeft" align="right" valign="top"><a id="a3e7ad3805314dba956724814d37bd1c7" name="a3e7ad3805314dba956724814d37bd1c7"></a>
-std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetComputeQueue</b> (<a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;name)</td></tr>
-<tr class="memdesc:a3e7ad3805314dba956724814d37bd1c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a handle to a compute queue. <br /></td></tr>
-<tr class="separator:a3e7ad3805314dba956724814d37bd1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ce77a7fbc1274d38c7470f4b633c8c" id="r_a79ce77a7fbc1274d38c7470f4b633c8c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueManager.html#a79ce77a7fbc1274d38c7470f4b633c8c">GetRenderQueue</a> (<a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;name)</td></tr>
-<tr class="separator:a79ce77a7fbc1274d38c7470f4b633c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a3d2d2d3f84ec87d6e9e27e2a33dca2" id="r_a5a3d2d2d3f84ec87d6e9e27e2a33dca2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueManager.html#a5a3d2d2d3f84ec87d6e9e27e2a33dca2">GetTransferQueue</a> (<a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;name)</td></tr>
-<tr class="separator:a5a3d2d2d3f84ec87d6e9e27e2a33dca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae086a1350430729cdb5b843a64a508ff" id="r_ae086a1350430729cdb5b843a64a508ff"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueueManager.html#ae086a1350430729cdb5b843a64a508ff">GetQueueWithFlags</a> (vk::QueueFlags flags, std::string name)</td></tr>
-<tr class="separator:ae086a1350430729cdb5b843a64a508ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e24d23dabb778d9f75fd63aacbe5db3" id="r_a5e24d23dabb778d9f75fd63aacbe5db3"><td class="memItemLeft" align="right" valign="top"><a id="a5e24d23dabb778d9f75fd63aacbe5db3" name="a5e24d23dabb778d9f75fd63aacbe5db3"></a>
+std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetQueueFromPool</b> (<a class="el" href="classQueueManager.html#a170d878188505a46966c964688f755cb">QueuePoolID</a> id, std::string name)</td></tr>
+<tr class="memdesc:a5e24d23dabb778d9f75fd63aacbe5db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a queue handle for a specific pool, preferring one that has less contention. <br /></td></tr>
+<tr class="separator:a5e24d23dabb778d9f75fd63aacbe5db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad37cde8ffe608e837225069a2dfcf55c" id="r_ad37cde8ffe608e837225069a2dfcf55c"><td class="memItemLeft" align="right" valign="top"><a id="ad37cde8ffe608e837225069a2dfcf55c" name="ad37cde8ffe608e837225069a2dfcf55c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>QueueManager</b> (<a class="el" href="classQueueManager.html">QueueManager</a> <a class="el" href="classAcceleratorBufferIterator.html">const</a> &amp;)=<a class="el" href="classAcceleratorBufferIterator.html">delete</a></td></tr>
 <tr class="separator:ad37cde8ffe608e837225069a2dfcf55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,14 +126,14 @@ std::shared_ptr&lt; vk::raii::Device &gt;&#160;</td><td class="memItemRight" val
 std::mutex&#160;</td><td class="memItemRight" valign="bottom"><b>m_mutex</b></td></tr>
 <tr class="memdesc:acccf2cbe596e84a7f4d05218dc8f49e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex to guard allocations. <br /></td></tr>
 <tr class="separator:acccf2cbe596e84a7f4d05218dc8f49e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b97390a33ef7433e6e3c5eb48bf78ee" id="r_a7b97390a33ef7433e6e3c5eb48bf78ee"><td class="memItemLeft" align="right" valign="top"><a id="a7b97390a33ef7433e6e3c5eb48bf78ee" name="a7b97390a33ef7433e6e3c5eb48bf78ee"></a>
-std::vector&lt; <a class="el" href="structQueueManager_1_1QueueInfo.html">QueueInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_queues</b></td></tr>
-<tr class="memdesc:a7b97390a33ef7433e6e3c5eb48bf78ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">All queues available on the device. <br /></td></tr>
-<tr class="separator:a7b97390a33ef7433e6e3c5eb48bf78ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cc447e7ed05b67e3b3333030743a6a7" id="r_a5cc447e7ed05b67e3b3333030743a6a7"><td class="memItemLeft" align="right" valign="top"><a id="a5cc447e7ed05b67e3b3333030743a6a7" name="a5cc447e7ed05b67e3b3333030743a6a7"></a>
-std::map&lt; <a class="el" href="classQueueManager.html#a170d878188505a46966c964688f755cb">QueuePoolID</a>, std::vector&lt; <a class="el" href="structQueueManager_1_1QueueInfo.html">QueueInfo</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_pools</b></td></tr>
-<tr class="memdesc:a5cc447e7ed05b67e3b3333030743a6a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue pools used for allocation. <br /></td></tr>
-<tr class="separator:a5cc447e7ed05b67e3b3333030743a6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc88e2beece3dda812916a39d5c70c92" id="r_afc88e2beece3dda812916a39d5c70c92"><td class="memItemLeft" align="right" valign="top"><a id="afc88e2beece3dda812916a39d5c70c92" name="afc88e2beece3dda812916a39d5c70c92"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="structQueueInfo.html">QueueInfo</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_queues</b></td></tr>
+<tr class="memdesc:afc88e2beece3dda812916a39d5c70c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">All queues available on the device. <br /></td></tr>
+<tr class="separator:afc88e2beece3dda812916a39d5c70c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e4a5a51cc8f92ea19538376910177b" id="r_a44e4a5a51cc8f92ea19538376910177b"><td class="memItemLeft" align="right" valign="top"><a id="a44e4a5a51cc8f92ea19538376910177b" name="a44e4a5a51cc8f92ea19538376910177b"></a>
+std::map&lt; <a class="el" href="classQueueManager.html#a170d878188505a46966c964688f755cb">QueuePoolID</a>, std::vector&lt; std::shared_ptr&lt; <a class="el" href="structQueueInfo.html">QueueInfo</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_pools</b></td></tr>
+<tr class="memdesc:a44e4a5a51cc8f92ea19538376910177b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue pools used for allocation. <br /></td></tr>
+<tr class="separator:a44e4a5a51cc8f92ea19538376910177b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00c40c3de3f0b6f26e6efccae594f4d5" id="r_a00c40c3de3f0b6f26e6efccae594f4d5"><td class="memItemLeft" align="right" valign="top"><a id="a00c40c3de3f0b6f26e6efccae594f4d5" name="a00c40c3de3f0b6f26e6efccae594f4d5"></a>
 std::map&lt; <a class="el" href="classQueueManager.html#a170d878188505a46966c964688f755cb">QueuePoolID</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_poolNames</b></td></tr>
 <tr class="separator:a00c40c3de3f0b6f26e6efccae594f4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,90 +169,6 @@ std::map&lt; <a class="el" href="classQueueManager.html#a170d878188505a46966c964
 <tr><td class="fieldname"><a id="a170d878188505a46966c964688f755cba67fa2867f867be5fc42a72d3a9c78efc" name="a170d878188505a46966c964688f755cba67fa2867f867be5fc42a72d3a9c78efc"></a>QUEUE_POOL_MISC&#160;</td><td class="fielddoc"><p>Queues used for other miscellaneous stuff like the scope deskew wizard. </p>
 </td></tr>
 </table>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae086a1350430729cdb5b843a64a508ff" name="ae086a1350430729cdb5b843a64a508ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae086a1350430729cdb5b843a64a508ff">&#9670;&#160;</a></span>GetQueueWithFlags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classAcceleratorBufferIterator.html">shared_ptr</a>&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; QueueManager::GetQueueWithFlags </td>
-          <td>(</td>
-          <td class="paramtype">vk::QueueFlags&#160;</td>
-          <td class="paramname"><em>flags</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Get a handle to a queue that has the given flag bits set, allocating the queue if necessary, and set or append name to the queue name for debug </p>
-
-</div>
-</div>
-<a id="a79ce77a7fbc1274d38c7470f4b633c8c" name="a79ce77a7fbc1274d38c7470f4b633c8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79ce77a7fbc1274d38c7470f4b633c8c">&#9670;&#160;</a></span>GetRenderQueue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; QueueManager::GetRenderQueue </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Get a handle to a render queue </p><dl class="section note"><dt>Note</dt><dd>Currently this requires Graphics and Transfer capabilities to simplify texture transfer code in <a class="el" href="classWaveformArea.html" title="A WaveformArea is a plot that displays one or more OscilloscopeChannel&#39;s worth of data.">WaveformArea</a>. </dd></dl>
-
-</div>
-</div>
-<a id="a5a3d2d2d3f84ec87d6e9e27e2a33dca2" name="a5a3d2d2d3f84ec87d6e9e27e2a33dca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a3d2d2d3f84ec87d6e9e27e2a33dca2">&#9670;&#160;</a></span>GetTransferQueue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classQueueHandle.html">QueueHandle</a> &gt; QueueManager::GetTransferQueue </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classAcceleratorBufferIterator.html">const</a> std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Get a handle to a transfer queue </p><dl class="section note"><dt>Note</dt><dd>This currently requires Compute capabilities so we can barrier on compute operations </dd></dl>
 
 </div>
 </div>

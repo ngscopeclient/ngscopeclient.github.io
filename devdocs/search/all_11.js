@@ -17,7 +17,7 @@ var searchData=
   ['queuehandle_14',['QueueHandle',['../classQueueHandle.html',1,'']]],
   ['queuehandle_2ecpp_15',['QueueHandle.cpp',['../QueueHandle_8cpp.html',1,'']]],
   ['queuehandle_2eh_16',['QueueHandle.h',['../QueueHandle_8h.html',1,'']]],
-  ['queueinfo_17',['QueueInfo',['../structQueueManager_1_1QueueInfo.html',1,'QueueManager']]],
+  ['queueinfo_17',['QueueInfo',['../structQueueInfo.html',1,'']]],
   ['queuelock_18',['QueueLock',['../classQueueLock.html',1,'']]],
   ['queuemanager_19',['QueueManager',['../classQueueManager.html',1,'']]],
   ['queuemanager_2ecpp_20',['QueueManager.cpp',['../QueueManager_8cpp.html',1,'']]],

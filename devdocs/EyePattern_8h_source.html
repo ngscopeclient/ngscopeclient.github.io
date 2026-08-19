@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.1</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
    </div>
   </td>
  </tr>
@@ -333,25 +333,27 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <a class="code hl_class" href="classAcceleratorBufferIterator.html">AcceleratorBuffer&lt;int64_t&gt;</a>* m_clockEdgesMuxed;</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    <a class="code hl_class" href="classAcceleratorBufferIterator.html">AcceleratorBuffer&lt;int64_t&gt;</a> m_normalizeMaxBuf;</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeComputePipeline;</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeNormalizeReduceComputePipeline;</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeNormalizeScaleComputePipeline;</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeIndexSearchPipeline;</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    <span class="keywordtype">size_t</span> <a class="code hl_function" href="classEyePattern.html#a6f714d33a7d7d0d319a8bfefdceaff96">FindCenterOfMass</a>(std::vector&lt;float&gt;&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">hist</a>, <span class="keywordtype">size_t</span> start, <span class="keywordtype">size_t</span> end);</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>};</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    std::shared_ptr&lt;ComputePipeline&gt; m_scratchZeroComputePipeline;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeIntegrateComputePipeline;</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeComputePipeline;</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeNormalizeReduceComputePipeline;</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeNormalizeScaleComputePipeline;</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    std::shared_ptr&lt;ComputePipeline&gt; m_eyeIndexSearchPipeline;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <span class="keywordtype">size_t</span> <a class="code hl_function" href="classEyePattern.html#a6f714d33a7d7d0d319a8bfefdceaff96">FindCenterOfMass</a>(std::vector&lt;float&gt;&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">hist</a>, <span class="keywordtype">size_t</span> start, <span class="keywordtype">size_t</span> end);</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>};</div>
 </div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aEyeMask_8h_html"><div class="ttname"><a href="EyeMask_8h.html">EyeMask.h</a></div><div class="ttdoc">Declaration of EyeMask, EyeMaskPoint, and EyeMaskPolygon.</div></div>
 <div class="ttc" id="aclassAcceleratorBufferIterator_html"><div class="ttname"><a href="classAcceleratorBufferIterator.html">AcceleratorBufferIterator</a></div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:204</div></div>
 <div class="ttc" id="aclassEyeFilterConstants_html"><div class="ttname"><a href="classEyeFilterConstants.html">EyeFilterConstants</a></div><div class="ttdef"><b>Definition</b> EyePattern.h:52</div></div>
 <div class="ttc" id="aclassEyeIndexConstants_html"><div class="ttname"><a href="classEyeIndexConstants.html">EyeIndexConstants</a></div><div class="ttdef"><b>Definition</b> EyePattern.h:43</div></div>
 <div class="ttc" id="aclassEyeMask_html"><div class="ttname"><a href="classEyeMask.html">EyeMask</a></div><div class="ttdoc">A mask used for checking eye patterns.</div><div class="ttdef"><b>Definition</b> EyeMask.h:98</div></div>
 <div class="ttc" id="aclassEyePattern_html"><div class="ttname"><a href="classEyePattern.html">EyePattern</a></div><div class="ttdef"><b>Definition</b> EyePattern.h:72</div></div>
-<div class="ttc" id="aclassEyePattern_html_a6f714d33a7d7d0d319a8bfefdceaff96"><div class="ttname"><a href="classEyePattern.html#a6f714d33a7d7d0d319a8bfefdceaff96">EyePattern::FindCenterOfMass</a></div><div class="ttdeci">size_t FindCenterOfMass(std::vector&lt; float &gt; &amp;hist, size_t start, size_t end)</div><div class="ttdoc">Finds the mass weighted center of a histogram peak.</div><div class="ttdef"><b>Definition</b> EyePattern.cpp:478</div></div>
-<div class="ttc" id="aclassEyePattern_html_a713e7ad46d05aa91d93dd566539e38cd"><div class="ttname"><a href="classEyePattern.html#a713e7ad46d05aa91d93dd566539e38cd">EyePattern::DoMaskTest</a></div><div class="ttdeci">void DoMaskTest(EyeWaveform *cap)</div><div class="ttdoc">Checks the current capture against the eye mask.</div><div class="ttdef"><b>Definition</b> EyePattern.cpp:1369</div></div>
-<div class="ttc" id="aclassEyePattern_html_a93ea22335146913c3f4d9be54a01b8cd"><div class="ttname"><a href="classEyePattern.html#a93ea22335146913c3f4d9be54a01b8cd">EyePattern::ClearSweeps</a></div><div class="ttdeci">virtual void ClearSweeps() override</div><div class="ttdoc">Clears any integrated data from past triggers (e.g. eye patterns).</div><div class="ttdef"><b>Definition</b> EyePattern.cpp:158</div></div>
+<div class="ttc" id="aclassEyePattern_html_a6f714d33a7d7d0d319a8bfefdceaff96"><div class="ttname"><a href="classEyePattern.html#a6f714d33a7d7d0d319a8bfefdceaff96">EyePattern::FindCenterOfMass</a></div><div class="ttdeci">size_t FindCenterOfMass(std::vector&lt; float &gt; &amp;hist, size_t start, size_t end)</div><div class="ttdoc">Finds the mass weighted center of a histogram peak.</div><div class="ttdef"><b>Definition</b> EyePattern.cpp:482</div></div>
+<div class="ttc" id="aclassEyePattern_html_a713e7ad46d05aa91d93dd566539e38cd"><div class="ttname"><a href="classEyePattern.html#a713e7ad46d05aa91d93dd566539e38cd">EyePattern::DoMaskTest</a></div><div class="ttdeci">void DoMaskTest(EyeWaveform *cap)</div><div class="ttdoc">Checks the current capture against the eye mask.</div><div class="ttdef"><b>Definition</b> EyePattern.cpp:1399</div></div>
+<div class="ttc" id="aclassEyePattern_html_a93ea22335146913c3f4d9be54a01b8cd"><div class="ttname"><a href="classEyePattern.html#a93ea22335146913c3f4d9be54a01b8cd">EyePattern::ClearSweeps</a></div><div class="ttdeci">virtual void ClearSweeps() override</div><div class="ttdoc">Clears any integrated data from past triggers (e.g. eye patterns).</div><div class="ttdef"><b>Definition</b> EyePattern.cpp:162</div></div>
 <div class="ttc" id="aclassEyeWaveform_html"><div class="ttname"><a href="classEyeWaveform.html">EyeWaveform</a></div><div class="ttdoc">An eye-pattern waveform.</div><div class="ttdef"><b>Definition</b> EyeWaveform.h:66</div></div>
 <div class="ttc" id="aclassFilter_html"><div class="ttname"><a href="classFilter.html">Filter</a></div><div class="ttdoc">Abstract base class for all filter graph blocks which are not physical instrument channels.</div><div class="ttdef"><b>Definition</b> Filter.h:105</div></div>
 <div class="ttc" id="aclassInstrumentChannel_html_a46ee4cce9a27c4c2c046195c11139d4a"><div class="ttname"><a href="classInstrumentChannel.html#a46ee4cce9a27c4c2c046195c11139d4a">InstrumentChannel::SetData</a></div><div class="ttdeci">void SetData(WaveformBase *pNew, size_t stream)</div><div class="ttdoc">Sets the waveform data for a given stream, replacing any previous waveform.</div><div class="ttdef"><b>Definition</b> InstrumentChannel.cpp:144</div></div>
