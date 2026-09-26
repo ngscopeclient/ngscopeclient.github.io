@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -121,30 +121,30 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>{</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_class" href="classComputePipeline.html">ComputePipeline</a>(</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">shaderPath</a>,</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">numSSBOs</a>,</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">pushConstantSize</a>,</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">numStorageImages</a> = 0,</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">numSampledImages</a> = 0);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">const</span> std::string&amp; shaderPath,</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">size_t</span> numSSBOs,</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordtype">size_t</span> pushConstantSize,</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">size_t</span> numStorageImages = 0,</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordtype">size_t</span> numSampledImages = 0);</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classComputePipeline.html">~ComputePipeline</a>();</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComputePipeline.html#aea93955408d2ba2d73b773aff5d1bf97">Reinitialize</a>(</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">shaderPath</a>,</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">numSSBOs</a>,</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">pushConstantSize</a>,</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">numStorageImages</a> = 0,</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">numSampledImages</a> = 0);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keyword">const</span> std::string&amp; shaderPath,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordtype">size_t</span> numSSBOs,</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordtype">size_t</span> pushConstantSize,</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">size_t</span> numStorageImages = 0,</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordtype">size_t</span> numSampledImages = 0);</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
 <div class="foldopen" id="foldopen00083" data-start="{" data-end="}">
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classComputePipeline.html#a3d7dcf5798cd18fafce161759333941c">   83</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComputePipeline.html#a3d7dcf5798cd18fafce161759333941c">BindBuffer</a>(<span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">i</a>, <a class="code hl_class" href="classAcceleratorBufferIterator.html">AcceleratorBuffer&lt;T&gt;</a>&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">buf</a>, <span class="keywordtype">bool</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">outputOnly</a> = <span class="keyword">false</span>)</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classComputePipeline.html#a3d7dcf5798cd18fafce161759333941c">   83</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComputePipeline.html#a3d7dcf5798cd18fafce161759333941c">BindBuffer</a>(<span class="keywordtype">size_t</span> i, <a class="code hl_class" href="classAcceleratorBuffer.html">AcceleratorBuffer&lt;T&gt;</a>&amp; buf, <span class="keywordtype">bool</span> outputOnly = <span class="keyword">false</span>)</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    {</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="classComputePipeline.html#a8770b1195522b94db1291772c217f717">m_computePipeline</a> == <span class="keyword">nullptr</span>)</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <a class="code hl_function" href="classComputePipeline.html#afeeca71c68bc083915b0fe8a0d4a23cc">DeferredInit</a>();</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <a class="code hl_class" href="classAcceleratorBufferIterator.html">buf</a>.PrepareForGpuAccess(<a class="code hl_class" href="classAcceleratorBufferIterator.html">outputOnly</a>);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        buf.PrepareForGpuAccess(outputOnly);</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <a class="code hl_variable" href="classComputePipeline.html#aa397d2b7cfb3a435d43f13d4a8d6cc50">m_bufferInfo</a>[<a class="code hl_class" href="classAcceleratorBufferIterator.html">i</a>] = <a class="code hl_class" href="classAcceleratorBufferIterator.html">buf</a>.GetBufferInfo();</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <a class="code hl_variable" href="classComputePipeline.html#aa397d2b7cfb3a435d43f13d4a8d6cc50">m_bufferInfo</a>[i] = buf.<a class="code hl_function" href="classAcceleratorBuffer.html#a1bce9a2246e0d7dbb1c082040da57ace">GetBufferInfo</a>();</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="group__vksupport.html#ga32ecc7927c01f7d7a09bd9081f06f11b">g_hasPushDescriptor</a>)</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        {</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            <a class="code hl_variable" href="classComputePipeline.html#a5613552eeee73b7d2e997d9b0739f520">m_writeDescriptors</a>[<a class="code hl_class" href="classAcceleratorBufferIterator.html">i</a>] =</div>
@@ -353,6 +353,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aAcceleratorBuffer_8h_html"><div class="ttname"><a href="AcceleratorBuffer_8h.html">AcceleratorBuffer.h</a></div><div class="ttdoc">Declaration of AcceleratorBuffer.</div></div>
 <div class="ttc" id="aclassAcceleratorBufferIterator_html"><div class="ttname"><a href="classAcceleratorBufferIterator.html">AcceleratorBufferIterator</a></div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:204</div></div>
+<div class="ttc" id="aclassAcceleratorBuffer_html"><div class="ttname"><a href="classAcceleratorBuffer.html">AcceleratorBuffer</a></div><div class="ttdoc">A buffer of memory which may be used by GPU acceleration.</div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:343</div></div>
+<div class="ttc" id="aclassAcceleratorBuffer_html_a1bce9a2246e0d7dbb1c082040da57ace"><div class="ttname"><a href="classAcceleratorBuffer.html#a1bce9a2246e0d7dbb1c082040da57ace">AcceleratorBuffer::GetBufferInfo</a></div><div class="ttdeci">vk::DescriptorBufferInfo GetBufferInfo()</div><div class="ttdoc">Returns a vk::DescriptorBufferInfo suitable for binding this object to.</div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:665</div></div>
 <div class="ttc" id="aclassComputePipeline_html"><div class="ttname"><a href="classComputePipeline.html">ComputePipeline</a></div><div class="ttdoc">Encapsulates a Vulkan compute pipeline and all necessary resources to use it.</div><div class="ttdef"><b>Definition</b> ComputePipeline.h:55</div></div>
 <div class="ttc" id="aclassComputePipeline_html_a1ad5242f87402b5ddb5fd4a1a647303b"><div class="ttname"><a href="classComputePipeline.html#a1ad5242f87402b5ddb5fd4a1a647303b">ComputePipeline::m_descriptorPool</a></div><div class="ttdeci">std::unique_ptr&lt; vk::raii::DescriptorPool &gt; m_descriptorPool</div><div class="ttdoc">Pool for allocating m_descriptorSet from.</div><div class="ttdef"><b>Definition</b> ComputePipeline.h:344</div></div>
 <div class="ttc" id="aclassComputePipeline_html_a1b431cc54d7fe8f83dca28e7a58e3f80"><div class="ttname"><a href="classComputePipeline.html#a1b431cc54d7fe8f83dca28e7a58e3f80">ComputePipeline::m_numStorageImages</a></div><div class="ttdeci">size_t m_numStorageImages</div><div class="ttdoc">Number of output image bindings in the shader.</div><div class="ttdef"><b>Definition</b> ComputePipeline.h:323</div></div>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -391,6 +391,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4cc29cd4af6dc3f75a132ca768ace1f4" id="r_a4cc29cd4af6dc3f75a132ca768ace1f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a4cc29cd4af6dc3f75a132ca768ace1f4">StartSingleTrigger</a> ()=0</td></tr>
 <tr class="memdesc:a4cc29cd4af6dc3f75a132ca768ace1f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arms the trigger for a single acquistion.  <br /></td></tr>
 <tr class="separator:a4cc29cd4af6dc3f75a132ca768ace1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447112957aa79b3c948a71f7a7fa3ca1" id="r_a447112957aa79b3c948a71f7a7fa3ca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a447112957aa79b3c948a71f7a7fa3ca1">HasAutoTrigger</a> ()</td></tr>
+<tr class="memdesc:a447112957aa79b3c948a71f7a7fa3ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the driver supports an "auto trigger" feature natively.  <br /></td></tr>
+<tr class="separator:a447112957aa79b3c948a71f7a7fa3ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a316ed66445bea8e2d3f736c4a78b9b3e" id="r_a316ed66445bea8e2d3f736c4a78b9b3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#a316ed66445bea8e2d3f736c4a78b9b3e">StartAutoTrigger</a> ()</td></tr>
+<tr class="memdesc:a316ed66445bea8e2d3f736c4a78b9b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arms the trigger in auto mode (if an auto trigger feature is available)  <br /></td></tr>
+<tr class="separator:a316ed66445bea8e2d3f736c4a78b9b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa565ae090dfbe8a88f5f1a460c975a2e" id="r_aa565ae090dfbe8a88f5f1a460c975a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOscilloscope.html#aa565ae090dfbe8a88f5f1a460c975a2e">Stop</a> ()=0</td></tr>
 <tr class="memdesc:aa565ae090dfbe8a88f5f1a460c975a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops triggering.  <br /></td></tr>
 <tr class="separator:aa565ae090dfbe8a88f5f1a460c975a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2509,6 +2515,37 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a447112957aa79b3c948a71f7a7fa3ca1" name="a447112957aa79b3c948a71f7a7fa3ca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a447112957aa79b3c948a71f7a7fa3ca1">&#9670;&#160;</a></span>HasAutoTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAcceleratorBufferIterator.html">bool</a> Oscilloscope::HasAutoTrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the driver supports an "auto trigger" feature natively. </p>
+<p>If this function return false, no native auto trigger primitive is available and <a class="el" href="classOscilloscope.html#a316ed66445bea8e2d3f736c4a78b9b3e" title="Arms the trigger in auto mode (if an auto trigger feature is available)">StartAutoTrigger()</a> is a no-op.</p>
+<p>In this case, auto trigger can be emulated (e.g. by the ngscopeclient <a class="el" href="classTriggerGroup.html" title="A trigger group is a set of oscilloscopes that all trigger in lock-step.">TriggerGroup</a> class) with a single-shot trigger followed by a timeout if no trigger occurs within a particular time </p>
+
+<p>Reimplemented in <a class="el" href="classThunderScopeOscilloscope.html#aa9139be76de17e70cb0fdf40d73bd2ed">ThunderScopeOscilloscope</a>.</p>
+
+</div>
+</div>
 <a id="a0f280f7ffe4aac1faae34c5f0c60a176" name="a0f280f7ffe4aac1faae34c5f0c60a176"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f280f7ffe4aac1faae34c5f0c60a176">&#9670;&#160;</a></span>HasFrequencyControls()</h2>
 
@@ -3106,7 +3143,7 @@ Additional Inherited Members</h2></td></tr>
 <p>The default implementation of this function simply calls <a class="el" href="classOscilloscope.html#ae277756bf78f7ca0fff79998cc7813c2" title="Checks the curent trigger status.">PollTrigger()</a>. This function should be overridden by the driver class if <a class="el" href="classOscilloscope.html#ae277756bf78f7ca0fff79998cc7813c2" title="Checks the curent trigger status.">PollTrigger()</a> changes any internal driver state or accesses cached state (including a clientside "trigger armed" flag).</p>
 <p>In particular, the multi-scope synchronization feature requires that this function not return true until the instment has confirmed the arm command has completely executed. Otherwise we risk losing trigger events by arming the primary before the secondary is ready to accept a trigger. </p>
 
-<p>Reimplemented in <a class="el" href="classLeCroyOscilloscope.html#afe7ba634f97b85e2e79b69e0f07c0774">LeCroyOscilloscope</a>, <a class="el" href="classRemoteBridgeOscilloscope.html#a3fb732f596d9ca918f8ffb21644b0061">RemoteBridgeOscilloscope</a>, and <a class="el" href="classTektronixOscilloscope.html#a84ffd0774464704edff59b5c08b535e1">TektronixOscilloscope</a>.</p>
+<p>Reimplemented in <a class="el" href="classLeCroyOscilloscope.html#afe7ba634f97b85e2e79b69e0f07c0774">LeCroyOscilloscope</a>, <a class="el" href="classRemoteBridgeOscilloscope.html#a3fb732f596d9ca918f8ffb21644b0061">RemoteBridgeOscilloscope</a>, <a class="el" href="classTektronixOscilloscope.html#a84ffd0774464704edff59b5c08b535e1">TektronixOscilloscope</a>, and <a class="el" href="classThunderScopeOscilloscope.html#a1939750af92843d280f94abf23c336ec">ThunderScopeOscilloscope</a>.</p>
 
 </div>
 </div>
@@ -4111,6 +4148,36 @@ Additional Inherited Members</h2></td></tr>
 <p>Most drivers will implement this as repeated calls to the "single trigger" function to avoid race conditions when the instrument triggers halfway through downloading captured waveforms. </p>
 
 <p>Implemented in <a class="el" href="classAgilentOscilloscope.html#a88571ec266205f28e2c732a1d6b0c00e">AgilentOscilloscope</a>, <a class="el" href="classAntikernelLabsILA.html#a1c58016ffef8a408a5639ae58b71feee">AntikernelLabsILA</a>, <a class="el" href="classAntikernelLabsSerdesILA8b10b.html#a054cfed016d3c7476b0624f4663c649b">AntikernelLabsSerdesILA8b10b</a>, <a class="el" href="classAntikernelLabsTriggerCrossbar.html#a3bfbfe28737c0825af8709a0b76a1d18">AntikernelLabsTriggerCrossbar</a>, <a class="el" href="classAseqSpectrometer.html#a2e95aec4e62993e603b5f7f80ea1637f">AseqSpectrometer</a>, <a class="el" href="classCopperMountainVNA.html#a8d4fa7f52c94afd3ddfc6ef6745448f7">CopperMountainVNA</a>, <a class="el" href="classDemoOscilloscope.html#ac1f9f319441a97206cc2104ab1bc0b00">DemoOscilloscope</a>, <a class="el" href="classDSLabsOscilloscope.html#ab6747717dab0b4c0556e11f3c7f09a7a">DSLabsOscilloscope</a>, <a class="el" href="classHaasoscopePro.html#a4dcc1377290bb84959e3fd4c1de6ace4">HaasoscopePro</a>, <a class="el" href="classKeysightDCA.html#ae9bd67c6544995ec2c37621d7aa4494f">KeysightDCA</a>, <a class="el" href="classLeCroyFWPOscilloscope.html#a9b3465ae1c74cc51c9b72f689b389a11">LeCroyFWPOscilloscope</a>, <a class="el" href="classLeCroyOscilloscope.html#a2dc3a938c03bf9bc3f4c4acadc63c757">LeCroyOscilloscope</a>, <a class="el" href="classMagnovaOscilloscope.html#a4bcc204b9dec0ea95dc5bfdd27244306">MagnovaOscilloscope</a>, <a class="el" href="classMockOscilloscope.html#af42c1760f12269a1890a378b9ff2e161">MockOscilloscope</a>, <a class="el" href="classNanoVNA.html#ac83c3e8d9fbd3b7424e4635f5a1cc8b0">NanoVNA</a>, <a class="el" href="classPicoVNA.html#a37ba7c8e72b91f952f24ea99057f694f">PicoVNA</a>, <a class="el" href="classRemoteBridgeOscilloscope.html#a2f9fa9750a62edd39fdaa3e890682c65">RemoteBridgeOscilloscope</a>, <a class="el" href="classRigolOscilloscope.html#a4e9fada55752218601be8d3328404268">RigolOscilloscope</a>, <a class="el" href="classRohdeSchwarzOscilloscope.html#acaba589ba964380972d431b76955b6c6">RohdeSchwarzOscilloscope</a>, <a class="el" href="classRSRTB2kOscilloscope.html#adada1f749778ea8bc598a32e39f7eb39">RSRTB2kOscilloscope</a>, <a class="el" href="classRSRTO6Oscilloscope.html#aa1f57f9984fc15cff702cb3b6e75fa91">RSRTO6Oscilloscope</a>, <a class="el" href="classSCPISA.html#a77f6c736af25bd663735810945738115">SCPISA</a>, <a class="el" href="classSiglentSCPIOscilloscope.html#a6a0c18797d71e57f675a35e823060070">SiglentSCPIOscilloscope</a>, <a class="el" href="classTektronixHSIOscilloscope.html#afb9c992e6743b8d7920bca5c0a67e529">TektronixHSIOscilloscope</a>, <a class="el" href="classTektronixOscilloscope.html#aa541dcafb5e157a19f6475932d6615c5">TektronixOscilloscope</a>, and <a class="el" href="classThunderScopeOscilloscope.html#a8610e6bdbd2d010527e2cbb070421c1d">ThunderScopeOscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a316ed66445bea8e2d3f736c4a78b9b3e" name="a316ed66445bea8e2d3f736c4a78b9b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a316ed66445bea8e2d3f736c4a78b9b3e">&#9670;&#160;</a></span>StartAutoTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAcceleratorBufferIterator.html">void</a> Oscilloscope::StartAutoTrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arms the trigger in auto mode (if an auto trigger feature is available) </p>
+<p>If <a class="el" href="classOscilloscope.html#a447112957aa79b3c948a71f7a7fa3ca1" title="Returns true if the driver supports an &quot;auto trigger&quot; feature natively.">HasAutoTrigger()</a> returns false this function is a no-op. </p>
+
+<p>Reimplemented in <a class="el" href="classThunderScopeOscilloscope.html#aaa64d60f3941ddb507a67ecb4920e34f">ThunderScopeOscilloscope</a>.</p>
 
 </div>
 </div>

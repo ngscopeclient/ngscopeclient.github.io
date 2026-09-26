@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -86,21 +86,23 @@ Inheritance diagram for PausableFilter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPausableFilter__inherit__graph.png" border="0" usemap="#aPausableFilter_inherit__map" alt="Inheritance graph"/></div>
 <map name="aPausableFilter_inherit__map" id="aPausableFilter_inherit__map">
-<area shape="rect" title="A filter which may be started and stopped." alt="" coords="82,372,195,397"/>
-<area shape="rect" href="classTrendFilter.html" title=" " alt="" coords="94,445,183,471"/>
-<area shape="poly" title=" " alt="" coords="141,411,141,445,136,445,136,411"/>
-<area shape="rect" href="classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="57,299,111,324"/>
-<area shape="poly" title=" " alt="" coords="103,333,132,370,128,374,99,337"/>
-<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="5,225,163,251"/>
-<area shape="poly" title=" " alt="" coords="87,264,87,299,81,299,81,264"/>
-<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="11,152,157,177"/>
-<area shape="poly" title=" " alt="" coords="87,191,87,225,81,225,81,191"/>
-<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="21,79,147,104"/>
-<area shape="poly" title=" " alt="" coords="87,118,87,152,81,152,81,118"/>
-<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="14,5,154,31"/>
-<area shape="poly" title=" " alt="" coords="87,44,87,79,81,79,81,44"/>
-<area shape="rect" href="classActionProvider.html" title="Abstract base for objects (usually filters) which provide a series of actions a user can perform." alt="" coords="136,299,253,324"/>
-<area shape="poly" title=" " alt="" coords="179,337,150,374,146,370,175,333"/>
+<area shape="rect" title="A filter which may be started and stopped." alt="" coords="97,372,210,397"/>
+<area shape="rect" href="classScalarStairstepFilter.html" title=" " alt="" coords="5,445,157,471"/>
+<area shape="poly" title=" " alt="" coords="133,409,95,447,91,443,130,405"/>
+<area shape="rect" href="classTrendFilter.html" title=" " alt="" coords="182,445,271,471"/>
+<area shape="poly" title=" " alt="" coords="177,405,217,443,213,447,173,409"/>
+<area shape="rect" href="classFilter.html" title="Abstract base class for all filter graph blocks which are not physical instrument channels." alt="" coords="71,299,126,324"/>
+<area shape="poly" title=" " alt="" coords="118,333,147,370,142,374,114,337"/>
+<area shape="rect" href="classOscilloscopeChannel.html" title="A single channel on an oscilloscope." alt="" coords="20,225,177,251"/>
+<area shape="poly" title=" " alt="" coords="101,264,101,299,96,299,96,264"/>
+<area shape="rect" href="classInstrumentChannel.html" title="A single channel of an instrument." alt="" coords="25,152,172,177"/>
+<area shape="poly" title=" " alt="" coords="101,191,101,225,96,225,96,191"/>
+<area shape="rect" href="classFlowGraphNode.html" title="Abstract base class for a node in the signal flow graph." alt="" coords="35,79,162,104"/>
+<area shape="poly" title=" " alt="" coords="101,118,101,152,96,152,96,118"/>
+<area shape="rect" href="classSerializableObject.html" title=" " alt="" coords="29,5,169,31"/>
+<area shape="poly" title=" " alt="" coords="101,44,101,79,96,79,96,44"/>
+<area shape="rect" href="classActionProvider.html" title="Abstract base for objects (usually filters) which provide a series of actions a user can perform." alt="" coords="151,299,268,324"/>
+<area shape="poly" title=" " alt="" coords="194,337,164,374,160,370,189,333"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -172,13 +174,13 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classAcceleratorBufferIterator.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ShouldRefresh</b> ()</td></tr>
 <tr class="separator:a42865f9c89f6e9266debae3ae74ca626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ff28de6aa40fb6260add0abaa3f0b4e" id="r_a8ff28de6aa40fb6260add0abaa3f0b4e"><td class="memItemLeft" align="right" valign="top"><a id="a8ff28de6aa40fb6260add0abaa3f0b4e" name="a8ff28de6aa40fb6260add0abaa3f0b4e"></a>
-<a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Run</b> ()</td></tr>
+<a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Run</b> ()</td></tr>
 <tr class="separator:a8ff28de6aa40fb6260add0abaa3f0b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa54a13aa378deda784564f4b385d66b6" id="r_aa54a13aa378deda784564f4b385d66b6"><td class="memItemLeft" align="right" valign="top"><a id="aa54a13aa378deda784564f4b385d66b6" name="aa54a13aa378deda784564f4b385d66b6"></a>
-<a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Single</b> ()</td></tr>
+<a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Single</b> ()</td></tr>
 <tr class="separator:aa54a13aa378deda784564f4b385d66b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b98f6b112981eff1d6268ed3cf57249" id="r_a4b98f6b112981eff1d6268ed3cf57249"><td class="memItemLeft" align="right" valign="top"><a id="a4b98f6b112981eff1d6268ed3cf57249" name="a4b98f6b112981eff1d6268ed3cf57249"></a>
-<a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Stop</b> ()</td></tr>
+<a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Stop</b> ()</td></tr>
 <tr class="separator:a4b98f6b112981eff1d6268ed3cf57249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classFilter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classFilter')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classFilter.html">Filter</a></td></tr>
 <tr class="memitem:afd723add4d35ecbcf98467c69875b1e5 inherit pub_methods_classFilter" id="r_afd723add4d35ecbcf98467c69875b1e5"><td class="memItemLeft" align="right" valign="top">
@@ -1335,6 +1337,8 @@ template&lt;<a class="el" href="classAcceleratorBufferIterator.html">class</a> <
 
 <p>Implements <a class="el" href="classActionProvider.html#a512595599f1681693461fcbbdcf5c9a5">ActionProvider</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classScalarStairstepFilter.html#a5ed5f29a0c94ecfdb49a20d9749e9c60">ScalarStairstepFilter</a>.</p>
+
 </div>
 </div>
 <a id="a9c8c3f51f6e626c18b6184e4a692408a" name="a9c8c3f51f6e626c18b6184e4a692408a"></a>
@@ -1375,6 +1379,8 @@ template&lt;<a class="el" href="classAcceleratorBufferIterator.html">class</a> <
 
 <p>Reimplemented from <a class="el" href="classFilter.html#ac3de3a4b49916602bf9968cb99f53e7d">Filter</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classScalarStairstepFilter.html#ab8217ed186ec0a2e03fb06ba056cfd67">ScalarStairstepFilter</a>.</p>
+
 </div>
 </div>
 <a id="a0d8be23515debb5da87189ebbc9ac631" name="a0d8be23515debb5da87189ebbc9ac631"></a>
@@ -1405,6 +1411,8 @@ template&lt;<a class="el" href="classAcceleratorBufferIterator.html">class</a> <
 <dl class="section return"><dt>Returns</dt><dd>True if the action should be treated as reconfiguring the filter (clear and re-evaluate), false if not </dd></dl>
 
 <p>Implements <a class="el" href="classActionProvider.html#ad3ed0ab385858ffc5d18e628e038a0f9">ActionProvider</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classScalarStairstepFilter.html#a8e1597a573a68267d678cd482f5083a3">ScalarStairstepFilter</a>.</p>
 
 </div>
 </div>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -224,6 +224,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80eda921a3ad32670a0786c0bbb028c8" id="r_a80eda921a3ad32670a0786c0bbb028c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a80eda921a3ad32670a0786c0bbb028c8">PushEdgeTrigger</a> (<a class="el" href="classEdgeTrigger.html">EdgeTrigger</a> *<a class="el" href="classAcceleratorBufferIterator.html">trig</a>) <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
 <tr class="memdesc:a80eda921a3ad32670a0786c0bbb028c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes settings for an edge trigger to the instrument.  <br /></td></tr>
 <tr class="separator:a80eda921a3ad32670a0786c0bbb028c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1939750af92843d280f94abf23c336ec" id="r_a1939750af92843d280f94abf23c336ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a1939750af92843d280f94abf23c336ec">PeekTriggerArmed</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
+<tr class="memdesc:a1939750af92843d280f94abf23c336ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the trigger is armed directly on the instrument, without altering internal state or touching caches.  <br /></td></tr>
+<tr class="separator:a1939750af92843d280f94abf23c336ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8610e6bdbd2d010527e2cbb070421c1d" id="r_a8610e6bdbd2d010527e2cbb070421c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a8610e6bdbd2d010527e2cbb070421c1d">Start</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
 <tr class="memdesc:a8610e6bdbd2d010527e2cbb070421c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the instrument in continuous trigger mode.  <br /></td></tr>
 <tr class="separator:a8610e6bdbd2d010527e2cbb070421c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +239,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aadfecdbf9938a42253bbd18ea708e068" id="r_aadfecdbf9938a42253bbd18ea708e068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#aadfecdbf9938a42253bbd18ea708e068">ForceTrigger</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
 <tr class="memdesc:aadfecdbf9938a42253bbd18ea708e068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces a single acquisition as soon as possible.  <br /></td></tr>
 <tr class="separator:aadfecdbf9938a42253bbd18ea708e068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9139be76de17e70cb0fdf40d73bd2ed" id="r_aa9139be76de17e70cb0fdf40d73bd2ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#aa9139be76de17e70cb0fdf40d73bd2ed">HasAutoTrigger</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
+<tr class="memdesc:aa9139be76de17e70cb0fdf40d73bd2ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the driver supports an "auto trigger" feature natively.  <br /></td></tr>
+<tr class="separator:aa9139be76de17e70cb0fdf40d73bd2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa64d60f3941ddb507a67ecb4920e34f" id="r_aaa64d60f3941ddb507a67ecb4920e34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#aaa64d60f3941ddb507a67ecb4920e34f">StartAutoTrigger</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
+<tr class="memdesc:aaa64d60f3941ddb507a67ecb4920e34f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arms the trigger in auto mode (if an auto trigger feature is available)  <br /></td></tr>
+<tr class="separator:aaa64d60f3941ddb507a67ecb4920e34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b3214c2e264e9e5b4b316305e7f0312" id="r_a6b3214c2e264e9e5b4b316305e7f0312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> std::vector&lt; <a class="el" href="classAcceleratorBufferIterator.html">uint64_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderScopeOscilloscope.html#a6b3214c2e264e9e5b4b316305e7f0312">GetSampleRatesNonInterleaved</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
 <tr class="memdesc:a6b3214c2e264e9e5b4b316305e7f0312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the legal sampling rates (in Hz) for this scope in all-channels mode.  <br /></td></tr>
 <tr class="separator:a6b3214c2e264e9e5b4b316305e7f0312"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,9 +326,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f1e563a7fe15bd8257126c72f57ca10 inherit pub_methods_classRemoteBridgeOscilloscope" id="r_a9f1e563a7fe15bd8257126c72f57ca10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRemoteBridgeOscilloscope.html#a9f1e563a7fe15bd8257126c72f57ca10">IsTriggerArmed</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
 <tr class="memdesc:a9f1e563a7fe15bd8257126c72f57ca10 inherit pub_methods_classRemoteBridgeOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the trigger is currently armed.  <br /></td></tr>
 <tr class="separator:a9f1e563a7fe15bd8257126c72f57ca10 inherit pub_methods_classRemoteBridgeOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fb732f596d9ca918f8ffb21644b0061 inherit pub_methods_classRemoteBridgeOscilloscope" id="r_a3fb732f596d9ca918f8ffb21644b0061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRemoteBridgeOscilloscope.html#a3fb732f596d9ca918f8ffb21644b0061">PeekTriggerArmed</a> () <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
-<tr class="memdesc:a3fb732f596d9ca918f8ffb21644b0061 inherit pub_methods_classRemoteBridgeOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the trigger is armed directly on the instrument, without altering internal state or touching caches.  <br /></td></tr>
-<tr class="separator:a3fb732f596d9ca918f8ffb21644b0061 inherit pub_methods_classRemoteBridgeOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb0b5fadefd69011aac0a13e54e0ecf2 inherit pub_methods_classRemoteBridgeOscilloscope" id="r_acb0b5fadefd69011aac0a13e54e0ecf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRemoteBridgeOscilloscope.html#acb0b5fadefd69011aac0a13e54e0ecf2">SetTriggerOffset</a> (<a class="el" href="classAcceleratorBufferIterator.html">int64_t</a> offset) <a class="el" href="classAcceleratorBufferIterator.html">override</a></td></tr>
 <tr class="memdesc:acb0b5fadefd69011aac0a13e54e0ecf2 inherit pub_methods_classRemoteBridgeOscilloscope"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the trigger offset.  <br /></td></tr>
 <tr class="separator:acb0b5fadefd69011aac0a13e54e0ecf2 inherit pub_methods_classRemoteBridgeOscilloscope"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1679,6 +1685,37 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa9139be76de17e70cb0fdf40d73bd2ed" name="aa9139be76de17e70cb0fdf40d73bd2ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9139be76de17e70cb0fdf40d73bd2ed">&#9670;&#160;</a></span>HasAutoTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAcceleratorBufferIterator.html">bool</a> ThunderScopeOscilloscope::HasAutoTrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the driver supports an "auto trigger" feature natively. </p>
+<p>If this function return false, no native auto trigger primitive is available and <a class="el" href="classThunderScopeOscilloscope.html#aaa64d60f3941ddb507a67ecb4920e34f" title="Arms the trigger in auto mode (if an auto trigger feature is available)">StartAutoTrigger()</a> is a no-op.</p>
+<p>In this case, auto trigger can be emulated (e.g. by the ngscopeclient <a class="el" href="classTriggerGroup.html" title="A trigger group is a set of oscilloscopes that all trigger in lock-step.">TriggerGroup</a> class) with a single-shot trigger followed by a timeout if no trigger occurs within a particular time </p>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#a447112957aa79b3c948a71f7a7fa3ca1">Oscilloscope</a>.</p>
+
+</div>
+</div>
 <a id="a10e555caaf25662bc51cf65754f987bb" name="a10e555caaf25662bc51cf65754f987bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10e555caaf25662bc51cf65754f987bb">&#9670;&#160;</a></span>HasInterleavingControls()</h2>
 
@@ -1800,6 +1837,37 @@ Additional Inherited Members</h2></td></tr>
 <p>Checks if the scope is currently combining channels. </p>
 
 <p>Implements <a class="el" href="classOscilloscope.html#a7b36747dc8f74bb99ee8c6d5a3d1d0d3">Oscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="a1939750af92843d280f94abf23c336ec" name="a1939750af92843d280f94abf23c336ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1939750af92843d280f94abf23c336ec">&#9670;&#160;</a></span>PeekTriggerArmed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAcceleratorBufferIterator.html">bool</a> ThunderScopeOscilloscope::PeekTriggerArmed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the trigger is armed directly on the instrument, without altering internal state or touching caches. </p>
+<p>The default implementation of this function simply calls <a class="el" href="classThunderScopeOscilloscope.html#ad7c6a893cf3f7b18ab947ae33ec3c79e" title="Checks the curent trigger status.">PollTrigger()</a>. This function should be overridden by the driver class if <a class="el" href="classThunderScopeOscilloscope.html#ad7c6a893cf3f7b18ab947ae33ec3c79e" title="Checks the curent trigger status.">PollTrigger()</a> changes any internal driver state or accesses cached state (including a clientside "trigger armed" flag).</p>
+<p>In particular, the multi-scope synchronization feature requires that this function not return true until the instment has confirmed the arm command has completely executed. Otherwise we risk losing trigger events by arming the primary before the secondary is ready to accept a trigger. </p>
+
+<p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#a3fb732f596d9ca918f8ffb21644b0061">RemoteBridgeOscilloscope</a>.</p>
 
 </div>
 </div>
@@ -2161,6 +2229,36 @@ Additional Inherited Members</h2></td></tr>
 <p>Most drivers will implement this as repeated calls to the "single trigger" function to avoid race conditions when the instrument triggers halfway through downloading captured waveforms. </p>
 
 <p>Reimplemented from <a class="el" href="classRemoteBridgeOscilloscope.html#a2f9fa9750a62edd39fdaa3e890682c65">RemoteBridgeOscilloscope</a>.</p>
+
+</div>
+</div>
+<a id="aaa64d60f3941ddb507a67ecb4920e34f" name="aaa64d60f3941ddb507a67ecb4920e34f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa64d60f3941ddb507a67ecb4920e34f">&#9670;&#160;</a></span>StartAutoTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAcceleratorBufferIterator.html">void</a> ThunderScopeOscilloscope::StartAutoTrigger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Arms the trigger in auto mode (if an auto trigger feature is available) </p>
+<p>If <a class="el" href="classThunderScopeOscilloscope.html#aa9139be76de17e70cb0fdf40d73bd2ed" title="Returns true if the driver supports an &quot;auto trigger&quot; feature natively.">HasAutoTrigger()</a> returns false this function is a no-op. </p>
+
+<p>Reimplemented from <a class="el" href="classOscilloscope.html#a316ed66445bea8e2d3f736c4a78b9b3e">Oscilloscope</a>.</p>
 
 </div>
 </div>

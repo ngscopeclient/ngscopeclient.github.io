@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -129,12 +129,12 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_class" href="classConstellationWaveform.html">ConstellationWaveform</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="classConstellationWaveform.html">ConstellationWaveform</a>&amp;) =<span class="keyword">delete</span>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="foldopen" id="foldopen00059" data-start="{" data-end="}">
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a5430416e5a15b54031f25ad64fe06514">   59</a></span>    <a class="code hl_class" href="classAcceleratorBufferIterator.html">int64_t</a>* <a class="code hl_function" href="classConstellationWaveform.html#a5430416e5a15b54031f25ad64fe06514">GetAccumData</a>()</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a5430416e5a15b54031f25ad64fe06514">   59</a></span>    int64_t* <a class="code hl_function" href="classConstellationWaveform.html#a5430416e5a15b54031f25ad64fe06514">GetAccumData</a>()</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="classConstellationWaveform.html#a8732294ce8bb97c5fc556766de968cfa">m_accumdata</a>.<a class="code hl_function" href="classAcceleratorBuffer.html#aee894ecc62dd39ce767bae158366b758">GetCpuPointer</a>(); }</div>
 </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a991640d71a21d0d3ae998e69b4916d0c">   63</a></span>    <a class="code hl_class" href="classAcceleratorBufferIterator.html">AcceleratorBuffer&lt;int64_t&gt;</a>&amp; <a class="code hl_function" href="classConstellationWaveform.html#a991640d71a21d0d3ae998e69b4916d0c">GetAccumBuffer</a>()</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a991640d71a21d0d3ae998e69b4916d0c">   63</a></span>    <a class="code hl_class" href="classAcceleratorBuffer.html">AcceleratorBuffer&lt;int64_t&gt;</a>&amp; <a class="code hl_function" href="classConstellationWaveform.html#a991640d71a21d0d3ae998e69b4916d0c">GetAccumBuffer</a>()</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    { <span class="keywordflow">return</span> <a class="code hl_variable" href="classConstellationWaveform.html#a8732294ce8bb97c5fc556766de968cfa">m_accumdata</a>; }</div>
 </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
@@ -142,9 +142,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classConstellationWaveform.html#a0db5f609bb2b31527c4ee5aa6876f9d6">Normalize</a>(</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        vk::raii::CommandBuffer&amp; cmdBuf,</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        std::shared_ptr&lt;ComputePipeline&gt; <a class="code hl_class" href="classAcceleratorBufferIterator.html">normalizeReducePipe</a>,</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        std::shared_ptr&lt;ComputePipeline&gt; <a class="code hl_class" href="classAcceleratorBufferIterator.html">normalizeScalePipe</a>,</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <a class="code hl_class" href="classAcceleratorBufferIterator.html">AcceleratorBuffer&lt;int64_t&gt;</a>&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">nmaxBuf</a></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        std::shared_ptr&lt;ComputePipeline&gt; normalizeReducePipe,</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        std::shared_ptr&lt;ComputePipeline&gt; normalizeScalePipe,</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <a class="code hl_class" href="classAcceleratorBuffer.html">AcceleratorBuffer&lt;int64_t&gt;</a>&amp; nmaxBuf</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        );</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
@@ -153,8 +153,8 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="foldopen" id="foldopen00084" data-start="{" data-end="}">
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a547f4b7f679ba19f7ebd8b706e2615fb">   84</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classConstellationWaveform.html#a547f4b7f679ba19f7ebd8b706e2615fb">IntegrateSymbols</a>(<span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">symbols</a>)</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    { <a class="code hl_variable" href="classConstellationWaveform.html#a3e862efeb586ca738ad71e44e91c95f0">m_totalSymbols</a> += <a class="code hl_class" href="classAcceleratorBufferIterator.html">symbols</a>; }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a547f4b7f679ba19f7ebd8b706e2615fb">   84</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classConstellationWaveform.html#a547f4b7f679ba19f7ebd8b706e2615fb">IntegrateSymbols</a>(<span class="keywordtype">size_t</span> symbols)</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    { <a class="code hl_variable" href="classConstellationWaveform.html#a3e862efeb586ca738ad71e44e91c95f0">m_totalSymbols</a> += symbols; }</div>
 </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#afbf333d6b283d9111224b475987286ac">   98</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="classConstellationWaveform.html#afbf333d6b283d9111224b475987286ac">m_saturationLevel</a>;</div>
@@ -227,7 +227,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a8732294ce8bb97c5fc556766de968cfa">  155</a></span>    <a class="code hl_class" href="classAcceleratorBufferIterator.html">AcceleratorBuffer&lt;int64_t&gt;</a> <a class="code hl_variable" href="classConstellationWaveform.html#a8732294ce8bb97c5fc556766de968cfa">m_accumdata</a>;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a8732294ce8bb97c5fc556766de968cfa">  155</a></span>    <a class="code hl_class" href="classAcceleratorBuffer.html">AcceleratorBuffer&lt;int64_t&gt;</a> <a class="code hl_variable" href="classConstellationWaveform.html#a8732294ce8bb97c5fc556766de968cfa">m_accumdata</a>;</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="classConstellationWaveform.html#a3e862efeb586ca738ad71e44e91c95f0">  158</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="classConstellationWaveform.html#a3e862efeb586ca738ad71e44e91c95f0">m_totalSymbols</a>;</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>};</div>
@@ -236,7 +236,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aDensityFunctionWaveform_8h_html"><div class="ttname"><a href="DensityFunctionWaveform_8h.html">DensityFunctionWaveform.h</a></div><div class="ttdoc">Declaration of DensityFunctionWaveform.</div></div>
 <div class="ttc" id="aEyeWaveform_8h_html"><div class="ttname"><a href="EyeWaveform_8h.html">EyeWaveform.h</a></div><div class="ttdoc">Declaration of EyeWaveform.</div></div>
-<div class="ttc" id="aclassAcceleratorBufferIterator_html"><div class="ttname"><a href="classAcceleratorBufferIterator.html">AcceleratorBufferIterator</a></div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:204</div></div>
+<div class="ttc" id="aclassAcceleratorBuffer_html"><div class="ttname"><a href="classAcceleratorBuffer.html">AcceleratorBuffer</a></div><div class="ttdoc">A buffer of memory which may be used by GPU acceleration.</div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:343</div></div>
 <div class="ttc" id="aclassAcceleratorBuffer_html_aad3e82c9976bddc5cef7926ed9ffd421"><div class="ttname"><a href="classAcceleratorBuffer.html#aad3e82c9976bddc5cef7926ed9ffd421">AcceleratorBuffer::HasGpuBuffer</a></div><div class="ttdeci">bool HasGpuBuffer() const</div><div class="ttdoc">Returns true if there is currently a GPU-side buffer.</div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:634</div></div>
 <div class="ttc" id="aclassAcceleratorBuffer_html_aee894ecc62dd39ce767bae158366b758"><div class="ttname"><a href="classAcceleratorBuffer.html#aee894ecc62dd39ce767bae158366b758">AcceleratorBuffer::GetCpuPointer</a></div><div class="ttdeci">T * GetCpuPointer()</div><div class="ttdoc">Gets a pointer to the CPU-side buffer.</div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:659</div></div>
 <div class="ttc" id="aclassConstellationWaveform_html"><div class="ttname"><a href="classConstellationWaveform.html">ConstellationWaveform</a></div><div class="ttdoc">A constellation diagram.</div><div class="ttdef"><b>Definition</b> ConstellationWaveform.h:48</div></div>

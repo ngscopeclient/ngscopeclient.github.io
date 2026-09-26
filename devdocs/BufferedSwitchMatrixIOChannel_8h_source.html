@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -119,15 +119,15 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_class" href="classBufferedSwitchMatrixIOChannel.html">BufferedSwitchMatrixIOChannel</a>(</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">hwname</a>,</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_class" href="classSwitchMatrix.html">SwitchMatrix</a>* <a class="code hl_class" href="classAcceleratorBufferIterator.html">parent</a>,</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">const</span> std::string&amp; <a class="code hl_class" href="classAcceleratorBufferIterator.html">color</a> = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">const</span> std::string&amp; hwname,</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_class" href="classSwitchMatrix.html">SwitchMatrix</a>* parent,</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">const</span> std::string&amp; color = <span class="stringliteral">&quot;#808080&quot;</span>,</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordtype">size_t</span> index = 0);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classBufferedSwitchMatrixIOChannel.html">~BufferedSwitchMatrixIOChannel</a>();</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#a707cab0ca6240a64d37d8c52e000b752">ValidateChannel</a>(<span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">i</a>, <a class="code hl_class" href="classStreamDescriptor.html">StreamDescriptor</a> <a class="code hl_class" href="classAcceleratorBufferIterator.html">stream</a>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#a7e7cd15c5e7ae7b2a7feb4311bd5262b">OnInputChanged</a>(<span class="keywordtype">size_t</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">i</a>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#a707cab0ca6240a64d37d8c52e000b752">ValidateChannel</a>(<span class="keywordtype">size_t</span> i, <a class="code hl_class" href="classStreamDescriptor.html">StreamDescriptor</a> stream) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#a7e7cd15c5e7ae7b2a7feb4311bd5262b">OnInputChanged</a>(<span class="keywordtype">size_t</span> i) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
 <div class="foldopen" id="foldopen00058" data-start="{" data-end="}">
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classBufferedSwitchMatrixIOChannel.html#aeb5c83001b662fdc3057aa511717a501">   58</a></span>    <a class="code hl_class" href="classSwitchMatrix.html">SwitchMatrix</a>* <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#aeb5c83001b662fdc3057aa511717a501">GetSwitchMatrix</a>()</div>
@@ -145,8 +145,8 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="foldopen" id="foldopen00074" data-start="{" data-end="}">
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classBufferedSwitchMatrixIOChannel.html#af2819b7187c763e4c356c58f3be37bb1">   74</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#af2819b7187c763e4c356c58f3be37bb1">SetMuxInputThreshold</a>(<span class="keywordtype">float</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">v</a>)</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    { <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#aeb5c83001b662fdc3057aa511717a501">GetSwitchMatrix</a>()-&gt;<a class="code hl_function" href="classSwitchMatrix.html#aa63dcacafc05c770ff878b95b4d859b7">SetMuxInputThreshold</a>(<a class="code hl_function" href="classInstrumentChannel.html#aa6caf0cbb1e4202baab1705211277186">GetIndex</a>(), <a class="code hl_class" href="classAcceleratorBufferIterator.html">v</a>); }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classBufferedSwitchMatrixIOChannel.html#af2819b7187c763e4c356c58f3be37bb1">   74</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#af2819b7187c763e4c356c58f3be37bb1">SetMuxInputThreshold</a>(<span class="keywordtype">float</span> v)</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    { <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#aeb5c83001b662fdc3057aa511717a501">GetSwitchMatrix</a>()-&gt;<a class="code hl_function" href="classSwitchMatrix.html#aa63dcacafc05c770ff878b95b4d859b7">SetMuxInputThreshold</a>(<a class="code hl_function" href="classInstrumentChannel.html#aa6caf0cbb1e4202baab1705211277186">GetIndex</a>(), v); }</div>
 </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
@@ -160,8 +160,8 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
 <div class="foldopen" id="foldopen00090" data-start="{" data-end="}">
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classBufferedSwitchMatrixIOChannel.html#af869a4e43c2a3985fe3656138e76a5f5">   90</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#af869a4e43c2a3985fe3656138e76a5f5">SetMuxOutputDrive</a>(<span class="keywordtype">float</span> <a class="code hl_class" href="classAcceleratorBufferIterator.html">v</a>)</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    { <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#aeb5c83001b662fdc3057aa511717a501">GetSwitchMatrix</a>()-&gt;<a class="code hl_function" href="classSwitchMatrix.html#a3b2d2fb5283072d3c1b9c0190bb5ca1d">SetMuxOutputDrive</a>(<a class="code hl_function" href="classInstrumentChannel.html#aa6caf0cbb1e4202baab1705211277186">GetIndex</a>(), <a class="code hl_class" href="classAcceleratorBufferIterator.html">v</a>); }</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classBufferedSwitchMatrixIOChannel.html#af869a4e43c2a3985fe3656138e76a5f5">   90</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#af869a4e43c2a3985fe3656138e76a5f5">SetMuxOutputDrive</a>(<span class="keywordtype">float</span> v)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    { <a class="code hl_function" href="classBufferedSwitchMatrixIOChannel.html#aeb5c83001b662fdc3057aa511717a501">GetSwitchMatrix</a>()-&gt;<a class="code hl_function" href="classSwitchMatrix.html#a3b2d2fb5283072d3c1b9c0190bb5ca1d">SetMuxOutputDrive</a>(<a class="code hl_function" href="classInstrumentChannel.html#aa6caf0cbb1e4202baab1705211277186">GetIndex</a>(), v); }</div>
 </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">protected</span>:</div>
@@ -169,7 +169,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassAcceleratorBufferIterator_html"><div class="ttname"><a href="classAcceleratorBufferIterator.html">AcceleratorBufferIterator</a></div><div class="ttdef"><b>Definition</b> AcceleratorBuffer.h:204</div></div>
 <div class="ttc" id="aclassBufferedSwitchMatrixIOChannel_html"><div class="ttname"><a href="classBufferedSwitchMatrixIOChannel.html">BufferedSwitchMatrixIOChannel</a></div><div class="ttdoc">Declaration of BufferedSwitchMatrixIOChannel.</div><div class="ttdef"><b>Definition</b> BufferedSwitchMatrixIOChannel.h:43</div></div>
 <div class="ttc" id="aclassBufferedSwitchMatrixIOChannel_html_a55f105c2640d647cd885a89a455b80ba"><div class="ttname"><a href="classBufferedSwitchMatrixIOChannel.html#a55f105c2640d647cd885a89a455b80ba">BufferedSwitchMatrixIOChannel::MuxHasConfigurableDrive</a></div><div class="ttdeci">bool MuxHasConfigurableDrive()</div><div class="ttdoc">Returns true if the channel has configurable output drive voltage.</div><div class="ttdef"><b>Definition</b> BufferedSwitchMatrixIOChannel.h:78</div></div>
 <div class="ttc" id="aclassBufferedSwitchMatrixIOChannel_html_a707cab0ca6240a64d37d8c52e000b752"><div class="ttname"><a href="classBufferedSwitchMatrixIOChannel.html#a707cab0ca6240a64d37d8c52e000b752">BufferedSwitchMatrixIOChannel::ValidateChannel</a></div><div class="ttdeci">virtual bool ValidateChannel(size_t i, StreamDescriptor stream) override</div><div class="ttdoc">Check if a stream is allowed to be connected to the given input.</div><div class="ttdef"><b>Definition</b> BufferedSwitchMatrixIOChannel.cpp:67</div></div>

@@ -1,3 +1,237 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classWaveformCacheKey.html" title="Describes a particular revision of a waveform." alt="" coords="5,5,160,31"/>
+<area shape="rect" id="Node000000" href="$classWaveformBase.html" title="Base class for all Waveform specializations." alt="" coords="5,1685,128,1711"/>
+<area shape="rect" id="Node000001" href="$classDensityFunctionWaveform.html" title="Base class for waveforms such as eye patterns, spectrograms, and waterfalls which are conceptually a ..." alt="" coords="176,104,371,129"/>
+<area shape="poly" id="edge527_Node000000_Node000001" title=" " alt="" coords="69,1671,268,129,273,130,74,1672"/>
+<area shape="rect" id="Node000006" href="$classSparseWaveformBase.html" title="Base class for waveforms with nonuniform sample rate." alt="" coords="190,1685,357,1711"/>
+<area shape="poly" id="edge532_Node000000_Node000006" title=" " alt="" coords="142,1695,190,1695,190,1701,142,1701"/>
+<area shape="rect" id="Node000112" href="$classUniformWaveformBase.html" title="Base class for waveforms with data sampled at uniform intervals." alt="" coords="186,3165,361,3191"/>
+<area shape="poly" id="edge638_Node000000_Node000112" title=" " alt="" coords="74,1724,273,3165,268,3166,69,1725"/>
+<area shape="rect" id="Node000002" href="$classConstellationWaveform.html" title="A constellation diagram." alt="" coords="478,5,654,31"/>
+<area shape="poly" id="edge528_Node000001_Node000002" title=" " alt="" coords="305,95,356,66,418,39,477,25,479,30,420,45,359,70,307,99"/>
+<area shape="rect" id="Node000003" href="$classEyeWaveform.html" title="An eye&#45;pattern waveform." alt="" coords="509,55,623,80"/>
+<area shape="poly" id="edge529_Node000001_Node000003" title=" " alt="" coords="359,99,418,89,508,74,509,79,419,94,360,104"/>
+<area shape="rect" id="Node000004" href="$classSpectrogramWaveform.html" title="Waveform object for a spectrogram." alt="" coords="479,104,653,129"/>
+<area shape="poly" id="edge530_Node000001_Node000004" title=" " alt="" coords="385,114,479,114,479,119,385,119"/>
+<area shape="rect" id="Node000005" href="$classWaterfallWaveform.html" title=" " alt="" coords="491,153,641,179"/>
+<area shape="poly" id="edge531_Node000001_Node000005" title=" " alt="" coords="363,129,491,151,490,156,362,134"/>
+<area shape="rect" id="Node000007" href="$classSparseWaveform.html" title=" " alt="" coords="431,203,701,228"/>
+<area shape="poly" id="edge533_Node000006_Node000007" title=" " alt="" coords="273,1671,283,1383,308,925,327,690,351,482,365,395,381,324,398,270,417,238,430,226,434,230,421,241,403,272,386,325,371,396,357,483,333,691,313,926,288,1384,278,1672"/>
+<area shape="rect" id="Node000009" href="$classSparseWaveform.html" title=" " alt="" coords="447,252,685,277"/>
+<area shape="poly" id="edge535_Node000006_Node000009" title=" " alt="" coords="273,1671,284,1392,310,950,329,723,353,522,367,439,382,370,398,318,417,287,445,267,448,272,421,290,403,321,387,371,372,440,358,523,334,724,315,950,289,1392,278,1671"/>
+<area shape="rect" id="Node000011" href="$classSparseWaveform.html" title=" " alt="" coords="470,301,662,327"/>
+<area shape="poly" id="edge537_Node000006_Node000011" title=" " alt="" coords="273,1672,285,1401,311,975,331,756,354,563,368,483,383,416,399,367,417,336,441,319,469,309,471,314,443,323,421,340,404,369,388,418,373,484,360,564,336,757,316,975,290,1401,278,1672"/>
+<area shape="rect" id="Node000013" href="$classSparseWaveform.html" title=" " alt="" coords="445,351,687,376"/>
+<area shape="poly" id="edge539_Node000006_Node000013" title=" " alt="" coords="273,1671,286,1410,313,1000,332,790,356,605,384,464,400,416,417,387,443,368,447,372,421,390,405,418,389,465,361,606,338,791,318,1000,291,1410,278,1672"/>
+<area shape="rect" id="Node000015" href="$classSparseWaveform.html" title=" " alt="" coords="461,401,671,441"/>
+<area shape="poly" id="edge541_Node000006_Node000015" title=" " alt="" coords="273,1671,287,1421,316,1032,336,834,359,658,386,524,401,479,417,451,437,435,460,424,462,429,439,439,421,454,406,481,391,526,364,659,341,834,321,1033,292,1422,279,1671"/>
+<area shape="rect" id="Node000017" href="$classSparseWaveform.html" title=" " alt="" coords="438,465,694,491"/>
+<area shape="poly" id="edge543_Node000006_Node000017" title=" " alt="" coords="273,1672,287,1431,317,1058,336,867,360,699,386,571,401,528,417,502,436,486,440,491,421,505,406,530,391,573,365,700,342,868,322,1058,293,1431,279,1672"/>
+<area shape="rect" id="Node000019" href="$classSparseWaveform.html" title=" " alt="" coords="453,515,679,555"/>
+<area shape="poly" id="edge545_Node000006_Node000019" title=" " alt="" coords="274,1672,289,1443,319,1090,340,911,363,752,388,632,402,591,417,566,433,552,451,542,454,547,436,556,421,569,407,593,393,633,368,753,345,912,325,1091,294,1443,279,1672"/>
+<area shape="rect" id="Node000021" href="$classSparseWaveform.html" title=" " alt="" coords="459,579,673,619"/>
+<area shape="poly" id="edge547_Node000006_Node000021" title=" " alt="" coords="272,1671,273,1468,278,1318,289,1154,306,990,332,839,349,772,368,714,391,666,417,630,436,614,457,604,460,609,438,619,421,633,395,669,373,716,354,774,337,840,311,991,294,1155,284,1318,278,1468,277,1671"/>
+<area shape="rect" id="Node000023" href="$classSparseWaveform.html" title=" " alt="" coords="451,643,681,683"/>
+<area shape="poly" id="edge549_Node000006_Node000023" title=" " alt="" coords="272,1672,275,1479,281,1338,293,1185,310,1031,336,889,352,827,371,773,392,728,417,694,432,680,450,671,452,676,435,685,421,697,397,730,376,775,357,829,341,890,315,1032,298,1185,287,1339,280,1479,277,1672"/>
+<area shape="rect" id="Node000025" href="$classSparseWaveform.html" title=" " alt="" coords="443,708,689,733"/>
+<area shape="poly" id="edge551_Node000006_Node000025" title=" " alt="" coords="272,1671,276,1486,283,1352,294,1207,312,1061,337,928,353,869,372,818,393,776,417,744,441,727,444,731,421,748,397,779,377,820,358,871,343,929,317,1062,300,1207,288,1353,281,1487,277,1671"/>
+<area shape="rect" id="Node000027" href="$classSparseWaveform.html" title=" " alt="" coords="460,758,672,798"/>
+<area shape="poly" id="edge553_Node000006_Node000027" title=" " alt="" coords="272,1671,279,1498,287,1374,300,1238,318,1103,343,979,358,925,375,877,395,838,417,808,436,793,459,783,461,787,439,797,421,812,399,841,380,880,363,927,348,981,323,1104,305,1239,292,1374,284,1499,278,1671"/>
+<area shape="rect" id="Node000029" href="$classSparseWaveform.html" title=" " alt="" coords="449,823,683,848"/>
+<area shape="poly" id="edge555_Node000006_Node000029" title=" " alt="" coords="273,1671,280,1506,288,1388,301,1261,319,1133,344,1017,359,966,376,922,395,885,417,857,447,838,450,843,420,861,400,888,381,924,364,968,349,1018,325,1134,306,1261,293,1389,285,1507,278,1672"/>
+<area shape="rect" id="Node000031" href="$classSparseWaveform.html" title=" " alt="" coords="448,872,684,897"/>
+<area shape="poly" id="edge557_Node000006_Node000031" title=" " alt="" coords="273,1672,281,1516,304,1285,323,1165,347,1056,378,967,396,933,417,907,446,888,449,892,420,911,401,935,383,969,352,1058,328,1166,309,1285,287,1516,278,1672"/>
+<area shape="rect" id="Node000033" href="$classSparseWaveform.html" title=" " alt="" coords="445,921,687,947"/>
+<area shape="poly" id="edge559_Node000006_Node000033" title=" " alt="" coords="273,1671,284,1524,308,1308,327,1197,351,1096,380,1013,398,981,417,957,444,940,446,944,420,961,402,984,385,1016,356,1098,332,1199,313,1309,289,1524,279,1672"/>
+<area shape="rect" id="Node000035" href="$classSparseWaveform.html" title=" " alt="" coords="452,971,680,1011"/>
+<area shape="poly" id="edge561_Node000006_Node000035" title=" " alt="" coords="274,1671,287,1536,313,1340,332,1240,355,1148,383,1073,399,1043,417,1021,433,1009,450,1000,453,1004,436,1013,421,1025,404,1046,388,1075,361,1149,337,1241,318,1341,292,1536,279,1672"/>
+<area shape="rect" id="Node000037" href="$classSparseWaveform.html" title=" " alt="" coords="440,1035,692,1075"/>
+<area shape="poly" id="edge563_Node000006_Node000037" title=" " alt="" coords="275,1671,289,1547,317,1371,336,1281,359,1199,386,1131,401,1105,417,1085,438,1070,441,1074,421,1089,405,1108,391,1134,364,1200,342,1282,322,1372,294,1548,280,1672"/>
+<area shape="rect" id="Node000039" href="$classSparseWaveform.html" title=" " alt="" coords="455,1099,677,1139"/>
+<area shape="poly" id="edge565_Node000006_Node000039" title=" " alt="" coords="275,1671,292,1558,322,1401,341,1322,363,1249,389,1190,417,1149,434,1136,453,1127,455,1132,437,1141,421,1153,393,1192,368,1251,346,1323,327,1403,297,1559,281,1672"/>
+<area shape="rect" id="Node000041" href="$classSparseWaveform.html" title=" " alt="" coords="457,1164,675,1189"/>
+<area shape="poly" id="edge567_Node000006_Node000041" title=" " alt="" coords="276,1671,294,1567,324,1425,344,1354,366,1289,390,1236,417,1200,435,1187,456,1179,458,1184,438,1192,421,1204,395,1238,371,1291,349,1355,330,1427,299,1568,281,1672"/>
+<area shape="rect" id="Node000043" href="$classSparseWaveform.html" title=" " alt="" coords="451,1214,681,1254"/>
+<area shape="poly" id="edge569_Node000006_Node000043" title=" " alt="" coords="272,1671,279,1591,286,1539,299,1481,317,1422,342,1364,375,1311,417,1264,449,1244,452,1249,420,1268,379,1314,347,1367,322,1424,304,1483,292,1540,284,1592,278,1672"/>
+<area shape="rect" id="Node000045" href="$classSparseWaveform.html" title=" " alt="" coords="464,1278,668,1318"/>
+<area shape="poly" id="edge571_Node000006_Node000045" title=" " alt="" coords="274,1671,284,1602,307,1509,326,1460,350,1411,380,1367,417,1328,439,1314,463,1304,465,1309,441,1318,420,1332,384,1370,354,1414,331,1462,312,1511,289,1603,279,1672"/>
+<area shape="rect" id="Node000047" href="$classSparseWaveform.html" title=" " alt="" coords="425,1343,707,1368"/>
+<area shape="poly" id="edge573_Node000006_Node000047" title=" " alt="" coords="276,1671,288,1610,313,1530,332,1488,355,1448,383,1410,417,1379,439,1366,441,1370,420,1383,387,1414,359,1451,337,1491,318,1532,293,1612,281,1672"/>
+<area shape="rect" id="Node000049" href="$classSparseWaveform.html" title=" " alt="" coords="456,1393,676,1433"/>
+<area shape="poly" id="edge575_Node000006_Node000049" title=" " alt="" coords="279,1671,296,1622,324,1559,364,1496,389,1467,417,1442,455,1423,457,1428,420,1447,392,1471,368,1499,329,1562,301,1624,284,1673"/>
+<area shape="rect" id="Node000051" href="$classSparseWaveform.html" title=" " alt="" coords="454,1457,678,1497"/>
+<area shape="poly" id="edge577_Node000006_Node000051" title=" " alt="" coords="284,1671,305,1634,334,1589,372,1544,417,1506,453,1490,455,1495,420,1511,376,1548,338,1592,309,1637,289,1674"/>
+<area shape="rect" id="Node000053" href="$classSparseWaveform.html" title=" " alt="" coords="449,1521,683,1547"/>
+<area shape="poly" id="edge579_Node000006_Node000053" title=" " alt="" coords="290,1672,342,1613,378,1582,417,1557,450,1544,452,1549,420,1562,381,1587,346,1617,294,1676"/>
+<area shape="rect" id="Node000055" href="$classSparseWaveform.html" title=" " alt="" coords="459,1571,673,1611"/>
+<area shape="poly" id="edge581_Node000006_Node000055" title=" " alt="" coords="306,1676,357,1647,418,1621,458,1609,459,1614,420,1626,360,1652,308,1680"/>
+<area shape="rect" id="Node000057" href="$classSparseWaveform.html" title=" " alt="" coords="445,1636,687,1661"/>
+<area shape="poly" id="edge583_Node000006_Node000057" title=" " alt="" coords="359,1680,418,1670,486,1659,487,1664,419,1675,360,1686"/>
+<area shape="rect" id="Node000059" href="$classSparseWaveform.html" title=" " alt="" coords="427,1685,705,1711"/>
+<area shape="poly" id="edge585_Node000006_Node000059" title=" " alt="" coords="371,1695,427,1695,427,1701,371,1701"/>
+<area shape="rect" id="Node000061" href="$classSparseWaveform.html" title=" " alt="" coords="447,1735,685,1760"/>
+<area shape="poly" id="edge587_Node000006_Node000061" title=" " alt="" coords="363,1710,490,1732,489,1737,362,1716"/>
+<area shape="rect" id="Node000063" href="$classSparseWaveform.html" title=" " alt="" coords="441,1784,691,1809"/>
+<area shape="poly" id="edge589_Node000006_Node000063" title=" " alt="" coords="308,1715,359,1743,420,1769,468,1781,467,1787,418,1774,357,1748,305,1720"/>
+<area shape="rect" id="Node000065" href="$classSparseWaveform.html" title=" " alt="" coords="455,1834,677,1874"/>
+<area shape="poly" id="edge591_Node000006_Node000065" title=" " alt="" coords="296,1719,349,1770,383,1796,420,1818,456,1832,454,1837,417,1823,380,1800,346,1774,293,1723"/>
+<area shape="rect" id="Node000067" href="$classSparseWaveform.html" title=" " alt="" coords="431,1899,701,1924"/>
+<area shape="poly" id="edge593_Node000006_Node000067" title=" " alt="" coords="288,1722,308,1759,338,1803,375,1848,420,1884,447,1896,445,1901,417,1888,371,1851,333,1807,304,1762,284,1724"/>
+<area shape="rect" id="Node000069" href="$classSparseWaveform.html" title=" " alt="" coords="445,1949,687,1989"/>
+<area shape="poly" id="edge595_Node000006_Node000069" title=" " alt="" coords="285,1723,303,1769,331,1826,370,1884,394,1911,420,1933,446,1947,443,1952,417,1938,390,1914,366,1888,326,1829,298,1771,280,1724"/>
+<area shape="rect" id="Node000071" href="$classSparseWaveform.html" title=" " alt="" coords="461,2013,671,2053"/>
+<area shape="poly" id="edge597_Node000006_Node000071" title=" " alt="" coords="282,1724,296,1781,321,1856,340,1896,362,1934,389,1969,420,1999,440,2011,462,2020,460,2025,438,2016,417,2003,385,1972,358,1937,335,1898,317,1858,290,1783,277,1725"/>
+<area shape="rect" id="Node000073" href="$classSparseWaveform.html" title=" " alt="" coords="424,2077,708,2103"/>
+<area shape="poly" id="edge599_Node000006_Node000073" title=" " alt="" coords="279,1724,289,1793,312,1886,330,1935,354,1982,384,2026,420,2063,440,2075,437,2079,417,2067,379,2029,349,1985,325,1937,306,1888,283,1794,274,1725"/>
+<area shape="rect" id="Node000075" href="$classSparseWaveform.html" title=" " alt="" coords="463,2127,669,2167"/>
+<area shape="poly" id="edge601_Node000006_Node000075" title=" " alt="" coords="278,1724,285,1801,294,1852,306,1906,325,1962,349,2017,381,2068,420,2112,441,2126,464,2136,462,2141,438,2131,417,2116,376,2071,344,2020,320,1964,301,1908,288,1853,280,1802,273,1725"/>
+<area shape="rect" id="Node000077" href="$classSparseWaveform.html" title=" " alt="" coords="454,2191,678,2231"/>
+<area shape="poly" id="edge603_Node000006_Node000077" title=" " alt="" coords="277,1724,280,1812,286,1870,298,1934,316,2001,341,2065,376,2125,420,2177,437,2189,455,2198,453,2203,434,2194,417,2181,371,2128,336,2068,311,2002,293,1936,281,1871,275,1812,271,1724"/>
+<area shape="rect" id="Node000079" href="$classSparseWaveform.html" title=" " alt="" coords="447,2255,685,2295"/>
+<area shape="poly" id="edge605_Node000006_Node000079" title=" " alt="" coords="281,1724,297,1836,327,1993,346,2072,368,2144,393,2203,421,2241,448,2260,445,2264,417,2245,389,2205,363,2146,341,2073,322,1994,292,1837,275,1725"/>
+<area shape="rect" id="Node000081" href="$classSparseWaveform.html" title=" " alt="" coords="433,2320,699,2345"/>
+<area shape="poly" id="edge607_Node000006_Node000081" title=" " alt="" coords="280,1724,294,1848,322,2024,341,2114,364,2196,390,2262,405,2287,420,2305,438,2318,434,2322,417,2309,401,2290,385,2264,359,2197,336,2115,316,2025,289,1849,274,1725"/>
+<area shape="rect" id="Node000083" href="$classSparseWaveform.html" title=" " alt="" coords="435,2369,697,2395"/>
+<area shape="poly" id="edge609_Node000006_Node000083" title=" " alt="" coords="279,1724,292,1857,318,2048,337,2146,361,2235,388,2307,404,2334,421,2355,437,2367,434,2371,417,2359,399,2337,383,2309,355,2236,332,2147,313,2049,287,1858,274,1724"/>
+<area shape="rect" id="Node000085" href="$classSparseWaveform.html" title=" " alt="" coords="435,2419,697,2444"/>
+<area shape="poly" id="edge611_Node000006_Node000085" title=" " alt="" coords="279,1724,290,1866,315,2072,334,2178,358,2274,386,2352,403,2382,421,2404,437,2416,434,2421,417,2408,398,2385,382,2355,352,2276,329,2179,310,2073,285,1867,274,1725"/>
+<area shape="rect" id="Node000087" href="$classSparseWaveform.html" title=" " alt="" coords="435,2468,697,2493"/>
+<area shape="poly" id="edge613_Node000006_Node000087" title=" " alt="" coords="278,1724,288,1874,312,2095,330,2209,354,2313,384,2397,402,2430,421,2453,437,2466,433,2470,417,2457,397,2433,380,2400,349,2314,325,2210,306,2096,283,1875,273,1724"/>
+<area shape="rect" id="Node000089" href="$classSparseWaveform.html" title=" " alt="" coords="464,2518,668,2558"/>
+<area shape="poly" id="edge615_Node000006_Node000089" title=" " alt="" coords="278,1724,287,1883,310,2118,329,2240,353,2351,383,2442,401,2477,421,2503,441,2518,465,2529,463,2534,438,2523,417,2507,397,2480,378,2444,348,2352,323,2241,305,2119,282,1884,273,1725"/>
+<area shape="rect" id="Node000091" href="$classSparseWaveform.html" title=" " alt="" coords="449,2583,683,2608"/>
+<area shape="poly" id="edge617_Node000006_Node000091" title=" " alt="" coords="278,1724,284,1895,292,2017,304,2150,323,2282,347,2404,363,2457,380,2502,399,2540,420,2568,450,2587,448,2592,417,2572,395,2543,375,2505,358,2458,342,2405,317,2283,299,2151,287,2017,279,1895,272,1724"/>
+<area shape="rect" id="Node000093" href="$classSparseWaveform.html" title=" " alt="" coords="419,2632,713,2657"/>
+<area shape="poly" id="edge619_Node000006_Node000093" title=" " alt="" coords="277,1724,282,1903,290,2033,301,2174,319,2314,344,2443,360,2499,378,2548,398,2588,421,2617,436,2630,433,2634,417,2621,394,2591,373,2550,355,2500,339,2444,314,2315,296,2174,284,2033,277,1904,272,1725"/>
+<area shape="rect" id="Node000095" href="$classSparseWaveform.html" title=" " alt="" coords="444,2681,688,2707"/>
+<area shape="poly" id="edge621_Node000006_Node000095" title=" " alt="" coords="277,1724,281,1912,287,2048,298,2197,316,2346,341,2482,357,2541,376,2593,397,2635,421,2667,445,2684,442,2688,417,2671,392,2638,371,2595,352,2543,336,2483,311,2346,293,2198,282,2049,275,1912,272,1725"/>
+<area shape="rect" id="Node000097" href="$classSparseWaveform.html" title=" " alt="" coords="457,2731,675,2756"/>
+<area shape="poly" id="edge623_Node000006_Node000097" title=" " alt="" coords="277,1724,279,1920,285,2064,295,2220,313,2377,338,2521,355,2583,374,2638,396,2683,421,2716,438,2729,458,2738,456,2743,435,2734,417,2720,391,2686,369,2640,350,2585,333,2522,307,2378,290,2221,279,2064,274,1920,272,1724"/>
+<area shape="rect" id="Node000099" href="$classSparseWaveform.html" title=" " alt="" coords="447,2780,685,2805"/>
+<area shape="poly" id="edge625_Node000006_Node000099" title=" " alt="" coords="277,1724,278,1928,282,2079,292,2243,309,2408,335,2559,352,2626,372,2683,395,2730,421,2765,448,2784,445,2788,417,2769,390,2733,367,2685,347,2627,330,2560,304,2409,287,2244,277,2079,272,1928,272,1724"/>
+<area shape="rect" id="Node000101" href="$classSparseWaveform.html" title=" " alt="" coords="441,2829,691,2855"/>
+<area shape="poly" id="edge627_Node000006_Node000101" title=" " alt="" coords="279,1724,294,1952,324,2300,344,2477,367,2634,393,2752,407,2792,421,2815,442,2831,439,2835,417,2818,402,2794,388,2754,362,2635,339,2478,319,2301,289,1952,274,1725"/>
+<area shape="rect" id="Node000103" href="$classSparseWaveform.html" title=" " alt="" coords="429,2879,703,2904"/>
+<area shape="poly" id="edge629_Node000006_Node000103" title=" " alt="" coords="279,1724,293,1961,323,2325,343,2511,366,2674,392,2798,406,2840,421,2864,436,2876,432,2881,417,2868,401,2842,387,2800,361,2675,337,2511,317,2326,288,1961,273,1725"/>
+<area shape="rect" id="Node000105" href="$classSparseWaveform.html" title=" " alt="" coords="427,2928,705,2953"/>
+<area shape="poly" id="edge631_Node000006_Node000105" title=" " alt="" coords="279,1724,292,1970,321,2350,341,2544,364,2715,391,2845,406,2888,421,2914,436,2926,432,2930,417,2917,401,2890,386,2846,359,2716,336,2544,316,2350,287,1970,273,1725"/>
+<area shape="rect" id="Node000107" href="$classSparseWaveform.html" title=" " alt="" coords="453,2978,679,3018"/>
+<area shape="poly" id="edge633_Node000006_Node000107" title=" " alt="" coords="279,1724,292,1977,321,2373,340,2575,364,2754,391,2890,405,2936,421,2963,436,2976,454,2986,451,2990,433,2980,417,2966,401,2938,386,2891,359,2755,335,2576,315,2373,287,1977,273,1724"/>
+<area shape="rect" id="Node000109" href="$classSparseWaveform.html" title=" " alt="" coords="445,3043,687,3068"/>
+<area shape="poly" id="edge635_Node000006_Node000109" title=" " alt="" coords="278,1724,290,1990,318,2407,337,2620,361,2809,389,2952,404,3000,421,3028,446,3046,443,3051,417,3032,399,3002,384,2953,355,2810,332,2621,312,2407,285,1990,273,1724"/>
+<area shape="rect" id="Node000111" href="$classSparseWaveform.html" title="A waveform sampled at irregular intervals." alt="" coords="480,3092,652,3117"/>
+<area shape="poly" id="edge637_Node000006_Node000111" title=" " alt="" coords="278,1725,290,1999,316,2432,335,2654,359,2850,373,2931,388,2998,404,3048,421,3078,448,3096,480,3105,479,3110,445,3101,417,3081,399,3050,383,3000,368,2932,354,2850,330,2654,311,2432,284,1999,273,1725"/>
+<area shape="rect" id="Node000008" href="$classADL5205Waveform.html" title=" " alt="" coords="812,203,960,228"/>
+<area shape="poly" id="edge534_Node000007_Node000008" title=" " alt="" coords="715,213,812,213,812,218,715,218"/>
+<area shape="rect" id="Node000010" href="$classAPBWaveform.html" title=" " alt="" coords="828,252,944,277"/>
+<area shape="poly" id="edge536_Node000009_Node000010" title=" " alt="" coords="699,262,828,262,828,267,699,267"/>
+<area shape="rect" id="Node000012" href="$classByteWaveform.html" title=" " alt="" coords="826,301,946,327"/>
+<area shape="poly" id="edge538_Node000011_Node000012" title=" " alt="" coords="676,311,826,311,826,317,676,317"/>
+<area shape="rect" id="Node000014" href="$classCANWaveform.html" title="A waveform containing CAN bus packets." alt="" coords="827,351,945,376"/>
+<area shape="poly" id="edge540_Node000013_Node000014" title=" " alt="" coords="700,361,827,361,827,366,700,366"/>
+<area shape="rect" id="Node000016" href="$classClause73Waveform.html" title=" " alt="" coords="811,408,961,433"/>
+<area shape="poly" id="edge542_Node000015_Node000016" title=" " alt="" coords="684,418,810,418,810,423,684,423"/>
+<area shape="rect" id="Node000018" href="$classDPAuxWaveform.html" title=" " alt="" coords="819,465,953,491"/>
+<area shape="poly" id="edge544_Node000017_Node000018" title=" " alt="" coords="708,475,819,475,819,481,708,481"/>
+<area shape="rect" id="Node000020" href="$classDPMainLinkWaveform.html" title=" " alt="" coords="803,523,969,548"/>
+<area shape="poly" id="edge546_Node000019_Node000020" title=" " alt="" coords="693,533,802,533,802,538,693,538"/>
+<area shape="rect" id="Node000022" href="$classDPhyDataWaveform.html" title=" " alt="" coords="809,587,963,612"/>
+<area shape="poly" id="edge548_Node000021_Node000022" title=" " alt="" coords="687,597,808,597,808,602,687,602"/>
+<area shape="rect" id="Node000024" href="$classDPhyEscapeModeWaveform.html" title=" " alt="" coords="783,651,989,676"/>
+<area shape="poly" id="edge550_Node000023_Node000024" title=" " alt="" coords="695,661,782,661,782,666,695,666"/>
+<area shape="rect" id="Node000026" href="$classDPhySymbolWaveform.html" title=" " alt="" coords="799,708,973,733"/>
+<area shape="poly" id="edge552_Node000025_Node000026" title=" " alt="" coords="703,718,799,718,799,723,703,723"/>
+<area shape="rect" id="Node000028" href="$classDSIFrameWaveform.html" title=" " alt="" coords="809,765,963,791"/>
+<area shape="poly" id="edge554_Node000027_Node000028" title=" " alt="" coords="686,775,809,775,809,781,686,781"/>
+<area shape="rect" id="Node000030" href="$classDSIWaveform.html" title=" " alt="" coords="830,823,942,848"/>
+<area shape="poly" id="edge556_Node000029_Node000030" title=" " alt="" coords="697,833,830,833,830,838,697,838"/>
+<area shape="rect" id="Node000032" href="$classDVIWaveform.html" title=" " alt="" coords="829,872,943,897"/>
+<area shape="poly" id="edge558_Node000031_Node000032" title=" " alt="" coords="698,882,829,882,829,887,698,887"/>
+<area shape="rect" id="Node000034" href="$classESPIWaveform.html" title=" " alt="" coords="827,921,945,947"/>
+<area shape="poly" id="edge560_Node000033_Node000034" title=" " alt="" coords="700,931,827,931,827,937,700,937"/>
+<area shape="rect" id="Node000036" href="$classEthernet100BaseT1LinkTrainingWaveform.html" title=" " alt="" coords="772,971,1000,1011"/>
+<area shape="poly" id="edge562_Node000035_Node000036" title=" " alt="" coords="693,989,772,989,772,994,693,994"/>
+<area shape="rect" id="Node000038" href="$classEthernet64b66bWaveform.html" title=" " alt="" coords="789,1043,983,1068"/>
+<area shape="poly" id="edge564_Node000037_Node000038" title=" " alt="" coords="706,1053,789,1053,789,1058,706,1058"/>
+<area shape="rect" id="Node000040" href="$classEthernetAutonegotiationPageWaveform.html" title=" " alt="" coords="779,1099,993,1139"/>
+<area shape="poly" id="edge566_Node000039_Node000040" title=" " alt="" coords="691,1117,779,1117,779,1122,691,1122"/>
+<area shape="rect" id="Node000042" href="$classEthernetAutonegotiationWaveform.html" title=" " alt="" coords="761,1164,1011,1189"/>
+<area shape="poly" id="edge568_Node000041_Node000042" title=" " alt="" coords="689,1174,761,1174,761,1179,689,1179"/>
+<area shape="rect" id="Node000044" href="$classEthernetBaseXAutonegotiationWaveform.html" title=" " alt="" coords="775,1214,997,1254"/>
+<area shape="poly" id="edge570_Node000043_Node000044" title=" " alt="" coords="695,1231,774,1231,774,1237,695,1237"/>
+<area shape="rect" id="Node000046" href="$classEthernetWaveform.html" title=" " alt="" coords="813,1285,959,1311"/>
+<area shape="poly" id="edge572_Node000045_Node000046" title=" " alt="" coords="682,1295,813,1295,813,1301,682,1301"/>
+<area shape="rect" id="Node000048" href="$classHyperRAMWaveform.html" title=" " alt="" coords="807,1343,965,1368"/>
+<area shape="poly" id="edge574_Node000047_Node000048" title=" " alt="" coords="721,1353,807,1353,807,1358,721,1358"/>
+<area shape="rect" id="Node000050" href="$classI2CEepromWaveform.html" title=" " alt="" coords="805,1400,967,1425"/>
+<area shape="poly" id="edge576_Node000049_Node000050" title=" " alt="" coords="690,1410,805,1410,805,1415,690,1415"/>
+<area shape="rect" id="Node000052" href="$classI2CRegisterWaveform.html" title=" " alt="" coords="803,1464,969,1489"/>
+<area shape="poly" id="edge578_Node000051_Node000052" title=" " alt="" coords="692,1474,803,1474,803,1479,692,1479"/>
+<area shape="rect" id="Node000054" href="$classI2CWaveform.html" title=" " alt="" coords="831,1521,941,1547"/>
+<area shape="poly" id="edge580_Node000053_Node000054" title=" " alt="" coords="697,1531,830,1531,830,1537,697,1537"/>
+<area shape="rect" id="Node000056" href="$classIBM8b10bWaveform.html" title=" " alt="" coords="809,1579,963,1604"/>
+<area shape="poly" id="edge582_Node000055_Node000056" title=" " alt="" coords="687,1589,808,1589,808,1594,687,1594"/>
+<area shape="rect" id="Node000058" href="$classIPv4Waveform.html" title=" " alt="" coords="827,1636,945,1661"/>
+<area shape="poly" id="edge584_Node000057_Node000058" title=" " alt="" coords="700,1646,827,1646,827,1651,700,1651"/>
+<area shape="rect" id="Node000060" href="$classJ1939PDUWaveform.html" title=" " alt="" coords="809,1685,963,1711"/>
+<area shape="poly" id="edge586_Node000059_Node000060" title=" " alt="" coords="718,1695,808,1695,808,1701,718,1701"/>
+<area shape="rect" id="Node000062" href="$classJtagWaveform.html" title=" " alt="" coords="829,1735,943,1760"/>
+<area shape="poly" id="edge588_Node000061_Node000062" title=" " alt="" coords="699,1745,829,1745,829,1750,699,1750"/>
+<area shape="rect" id="Node000064" href="$classMDIOWaveform.html" title=" " alt="" coords="823,1784,949,1809"/>
+<area shape="poly" id="edge590_Node000063_Node000064" title=" " alt="" coords="705,1794,823,1794,823,1799,705,1799"/>
+<area shape="rect" id="Node000066" href="$classMilStd1553Waveform.html" title=" " alt="" coords="805,1841,967,1867"/>
+<area shape="poly" id="edge592_Node000065_Node000066" title=" " alt="" coords="691,1851,804,1851,804,1857,691,1857"/>
+<area shape="rect" id="Node000068" href="$classOneWireWaveform.html" title=" " alt="" coords="813,1899,959,1924"/>
+<area shape="poly" id="edge594_Node000067_Node000068" title=" " alt="" coords="715,1909,813,1909,813,1914,715,1914"/>
+<area shape="rect" id="Node000070" href="$classPCIe128b130bWaveform.html" title=" " alt="" coords="795,1956,977,1981"/>
+<area shape="poly" id="edge596_Node000069_Node000070" title=" " alt="" coords="701,1966,794,1966,794,1971,701,1971"/>
+<area shape="rect" id="Node000072" href="$classPCIeDataLinkWaveform.html" title=" " alt="" coords="797,2020,975,2045"/>
+<area shape="poly" id="edge598_Node000071_Node000072" title=" " alt="" coords="684,2030,797,2030,797,2035,684,2035"/>
+<area shape="rect" id="Node000074" href="$classPCIeLTSSMWaveform.html" title=" " alt="" coords="805,2077,967,2103"/>
+<area shape="poly" id="edge600_Node000073_Node000074" title=" " alt="" coords="722,2087,805,2087,805,2093,722,2093"/>
+<area shape="rect" id="Node000076" href="$classPCIeLinkTrainingWaveform.html" title=" " alt="" coords="787,2135,985,2160"/>
+<area shape="poly" id="edge602_Node000075_Node000076" title=" " alt="" coords="682,2145,786,2145,786,2150,682,2150"/>
+<area shape="rect" id="Node000078" href="$classPCIeLogicalWaveform.html" title=" " alt="" coords="803,2199,969,2224"/>
+<area shape="poly" id="edge604_Node000077_Node000078" title=" " alt="" coords="692,2209,803,2209,803,2214,692,2214"/>
+<area shape="rect" id="Node000080" href="$classPCIeTransportWaveform.html" title=" " alt="" coords="796,2263,976,2288"/>
+<area shape="poly" id="edge606_Node000079_Node000080" title=" " alt="" coords="699,2273,796,2273,796,2278,699,2278"/>
+<area shape="rect" id="Node000082" href="$classRGBLEDWaveform.html" title=" " alt="" coords="815,2320,957,2345"/>
+<area shape="poly" id="edge608_Node000081_Node000082" title=" " alt="" coords="713,2330,815,2330,815,2335,713,2335"/>
+<area shape="rect" id="Node000084" href="$classSDCmdWaveform.html" title=" " alt="" coords="817,2369,955,2395"/>
+<area shape="poly" id="edge610_Node000083_Node000084" title=" " alt="" coords="710,2379,816,2379,816,2385,710,2385"/>
+<area shape="rect" id="Node000086" href="$classSDDataWaveform.html" title=" " alt="" coords="817,2419,955,2444"/>
+<area shape="poly" id="edge612_Node000085_Node000086" title=" " alt="" coords="711,2429,816,2429,816,2434,711,2434"/>
+<area shape="rect" id="Node000088" href="$classSDRAMWaveform.html" title=" " alt="" coords="817,2468,955,2493"/>
+<area shape="poly" id="edge614_Node000087_Node000088" title=" " alt="" coords="710,2478,816,2478,816,2483,710,2483"/>
+<area shape="rect" id="Node000090" href="$classSPIFlashWaveform.html" title=" " alt="" coords="813,2525,959,2551"/>
+<area shape="poly" id="edge616_Node000089_Node000090" title=" " alt="" coords="682,2535,813,2535,813,2541,682,2541"/>
+<area shape="rect" id="Node000092" href="$classSPIWaveform.html" title=" " alt="" coords="831,2583,941,2608"/>
+<area shape="poly" id="edge618_Node000091_Node000092" title=" " alt="" coords="697,2593,831,2593,831,2598,697,2598"/>
+<area shape="rect" id="Node000094" href="$classSWDMemAPWaveform.html" title=" " alt="" coords="801,2632,971,2657"/>
+<area shape="poly" id="edge620_Node000093_Node000094" title=" " alt="" coords="727,2642,800,2642,800,2647,727,2647"/>
+<area shape="rect" id="Node000096" href="$classSWDWaveform.html" title=" " alt="" coords="825,2681,947,2707"/>
+<area shape="poly" id="edge622_Node000095_Node000096" title=" " alt="" coords="702,2691,825,2691,825,2697,702,2697"/>
+<area shape="rect" id="Node000098" href="$classSparseDigitalBusWaveform32.html" title="A multi&#45;bit (up to 32 bits) digital waveform sampled at variable rate." alt="" coords="777,2731,995,2756"/>
+<area shape="poly" id="edge624_Node000097_Node000098" title=" " alt="" coords="688,2741,777,2741,777,2746,688,2746"/>
+<area shape="rect" id="Node000100" href="$classTCPWaveform.html" title=" " alt="" coords="829,2780,943,2805"/>
+<area shape="poly" id="edge626_Node000099_Node000100" title=" " alt="" coords="699,2790,829,2790,829,2795,699,2795"/>
+<area shape="rect" id="Node000102" href="$classTMDSWaveform.html" title=" " alt="" coords="822,2829,950,2855"/>
+<area shape="poly" id="edge628_Node000101_Node000102" title=" " alt="" coords="705,2839,822,2839,822,2845,705,2845"/>
+<area shape="rect" id="Node000104" href="$classUSB2PCSWaveform.html" title=" " alt="" coords="811,2879,961,2904"/>
+<area shape="poly" id="edge630_Node000103_Node000104" title=" " alt="" coords="716,2889,810,2889,810,2894,716,2894"/>
+<area shape="rect" id="Node000106" href="$classUSB2PMAWaveform.html" title=" " alt="" coords="809,2928,963,2953"/>
+<area shape="poly" id="edge632_Node000105_Node000106" title=" " alt="" coords="718,2938,809,2938,809,2943,718,2943"/>
+<area shape="rect" id="Node000108" href="$classUSB2PacketWaveform.html" title=" " alt="" coords="802,2985,970,3011"/>
+<area shape="poly" id="edge634_Node000107_Node000108" title=" " alt="" coords="693,2995,802,2995,802,3001,693,3001"/>
+<area shape="rect" id="Node000110" href="$classVICPWaveform.html" title=" " alt="" coords="826,3043,946,3068"/>
+<area shape="poly" id="edge636_Node000109_Node000110" title=" " alt="" coords="701,3053,826,3053,826,3058,701,3058"/>
+<area shape="rect" id="Node000113" href="$classUniformWaveform.html" title=" " alt="" coords="453,3141,679,3167"/>
+<area shape="poly" id="edge639_Node000112_Node000113" title=" " alt="" coords="374,3167,452,3161,453,3166,374,3172"/>
+<area shape="rect" id="Node000115" href="$classUniformWaveform.html" title=" " alt="" coords="453,3191,679,3216"/>
+<area shape="poly" id="edge641_Node000112_Node000115" title=" " alt="" coords="374,3184,453,3191,452,3196,374,3189"/>
+<area shape="rect" id="Node000117" href="$classUniformWaveform.html" title="A waveform sampled at uniform intervals." alt="" coords="475,3240,657,3265"/>
+<area shape="poly" id="edge643_Node000112_Node000117" title=" " alt="" coords="319,3193,419,3226,476,3238,474,3243,418,3231,317,3198"/>
+<area shape="rect" id="Node000114" href="$classUniformDigitalBusWaveform32.html" title="A multi&#45;bit (up to 32 bits) digital waveform sampled at uniform rate." alt="" coords="773,3141,999,3167"/>
+<area shape="poly" id="edge640_Node000113_Node000114" title=" " alt="" coords="693,3151,772,3151,772,3157,693,3157"/>
+<area shape="rect" id="Node000116" href="$classUniformDigitalBusWaveform64.html" title="A multi&#45;bit (up to 64 bits) digital waveform sampled at uniform rate." alt="" coords="773,3191,999,3216"/>
+<area shape="poly" id="edge642_Node000115_Node000116" title=" " alt="" coords="693,3201,772,3201,772,3206,693,3206"/>
 </map>

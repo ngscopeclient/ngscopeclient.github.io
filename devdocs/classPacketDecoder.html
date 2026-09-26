@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.2.2</span>
+   <div id="projectname">ngscopeclient<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -361,6 +361,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a992b907ac560d92d8fa219ce7d9ea6f3" id="r_a992b907ac560d92d8fa219ce7d9ea6f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> <a class="el" href="classAcceleratorBufferIterator.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacketDecoder.html#a992b907ac560d92d8fa219ce7d9ea6f3">CanMerge</a> (<a class="el" href="classPacket.html">Packet</a> *<a class="el" href="classAcceleratorBufferIterator.html">first</a>, <a class="el" href="classPacket.html">Packet</a> *<a class="el" href="classAcceleratorBufferIterator.html">cur</a>, <a class="el" href="classPacket.html">Packet</a> *<a class="el" href="classAcceleratorBufferIterator.html">next</a>)</td></tr>
 <tr class="memdesc:a992b907ac560d92d8fa219ce7d9ea6f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if multiple packets can be merged under a single heading in the protocol analyzer view.  <br /></td></tr>
 <tr class="separator:a992b907ac560d92d8fa219ce7d9ea6f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586b829922ecd443e9e24b05a1975d7a" id="r_a586b829922ecd443e9e24b05a1975d7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacketDecoder.html#a586b829922ecd443e9e24b05a1975d7a">GetDecodedField</a> (<a class="el" href="classPacket.html">Packet</a> *<a class="el" href="classAcceleratorBufferIterator.html">pack</a>, <a class="el" href="classAcceleratorBufferIterator.html">size_t</a> <a class="el" href="classAcceleratorBufferIterator.html">i</a>)</td></tr>
+<tr class="memdesc:a586b829922ecd443e9e24b05a1975d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transition helper until we deprecate the old header API to get the decoded text of the Nth header.  <br /></td></tr>
+<tr class="separator:a586b829922ecd443e9e24b05a1975d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1db25ff153f67e4507580e736ea9087" id="r_ae1db25ff153f67e4507580e736ea9087"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAcceleratorBufferIterator.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacketDecoder.html#ae1db25ff153f67e4507580e736ea9087">DetachPackets</a> ()</td></tr>
 <tr class="memdesc:ae1db25ff153f67e4507580e736ea9087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the list of packets attached to this filter <em>without</em> freeing memory.  <br /></td></tr>
 <tr class="separator:ae1db25ff153f67e4507580e736ea9087"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1560,6 +1563,46 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_displaycolor
 
 <p>Clears the list of packets attached to this filter <em>without</em> freeing memory. </p>
 <p>Typically used after copying the packets somewhere else and assuming ownership of them. </p>
+
+</div>
+</div>
+<a id="a586b829922ecd443e9e24b05a1975d7a" name="a586b829922ecd443e9e24b05a1975d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586b829922ecd443e9e24b05a1975d7a">&#9670;&#160;</a></span>GetDecodedField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAcceleratorBufferIterator.html">virtual</a> std::string PacketDecoder::GetDecodedField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPacket.html">Packet</a> *&#160;</td>
+          <td class="paramname"><em>pack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAcceleratorBufferIterator.html">size_t</a>&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transition helper until we deprecate the old header API to get the decoded text of the Nth header. </p>
+
+<p>Reimplemented in <a class="el" href="classEthernetProtocolDecoder.html#a4ab007ba0d79297bea71305c2e9f68e1">EthernetProtocolDecoder</a>.</p>
 
 </div>
 </div>
